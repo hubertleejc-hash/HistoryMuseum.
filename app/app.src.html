@@ -679,6 +679,68 @@ html.hinged .big-title, html.hinged .w-regions, html.hinged .w-dial{max-width:ca
 .talk-mode{margin:6px 0 0; font-size:13.5px; color:var(--ink-2); max-width:62ch}
 .talk-badge{display:inline-block; margin-right:6px; padding:2px 8px; border-radius:9px; background:var(--accent); color:var(--accent-ink); font:600 10.5px/1.5 var(--ui); letter-spacing:.06em; text-transform:uppercase; vertical-align:1px}
 .talk-badge.rec{background:var(--sunk); color:var(--ink-2); border:1px solid var(--rule)}
+/* ---------- Gallery: the collection grid ---------- */
+.gal-head h2{font-size:34px; line-height:1.05}
+.gal-feat{display:flex; gap:12px; overflow-x:auto; scroll-snap-type:x mandatory; padding:2px 2px 10px; margin:0 -2px; scrollbar-width:none; -webkit-overflow-scrolling:touch}
+.gal-feat::-webkit-scrollbar{display:none}
+.gf{flex:0 0 auto; width:min(62vw, 240px); scroll-snap-align:start; text-align:left; border:0; padding:0; background:none; color:inherit; cursor:pointer; font:inherit}
+.gf .gt-img{aspect-ratio:4/5; border-radius:12px}
+.gf b{display:block; font:500 16px/1.25 var(--display); margin-top:9px; color:var(--ink)}
+.gf small{display:block; font-size:12.5px; color:var(--ink-3); margin-top:2px}
+.gal-ctl{display:flex; flex-direction:column; gap:10px; position:sticky; top:0; z-index:5; padding:10px 0 12px; background:var(--bg); border-bottom:1px solid var(--rule)}
+.gal-ctl .chips{flex-wrap:nowrap; overflow-x:auto; scrollbar-width:none; -webkit-overflow-scrolling:touch; margin:0 -16px; padding:0 16px}
+.gal-ctl .chips::-webkit-scrollbar{display:none}
+.gal-ctl .chip{flex:none}
+.gal-q{display:flex; gap:10px; align-items:center}
+.gal-q input{flex:1; min-width:0; border:1px solid var(--rule); background:var(--surface); color:var(--ink); border-radius:999px; padding:9px 14px; font:16px var(--ui)}
+.gal-q span{font:500 12px var(--mono); color:var(--ink-3); white-space:nowrap}
+.gal-grid{columns:2 150px; column-gap:10px}
+@media (min-width:700px){ .gal-grid{columns:4 170px; column-gap:14px} }
+@media (min-width:1100px){ .gal-grid{columns:5 180px} }
+.gt{display:block; width:100%; break-inside:avoid; margin:0 0 14px; border:0; padding:0; background:none; color:inherit; text-align:left; cursor:pointer; font:inherit; content-visibility:auto; contain-intrinsic-size:auto 220px; -webkit-touch-callout:none}
+.gt-img{position:relative; display:block; width:100%; background:var(--sunk); border-radius:8px; overflow:hidden}
+.gt-img img{display:block; width:100%; height:100%; object-fit:cover; opacity:0; transition:opacity .35s ease}
+.gt-img img.in{opacity:1}
+.gt-img.broken::after{content:"Picture not available"; position:absolute; inset:0; display:grid; place-items:center; font-size:12px; color:var(--ink-3)}
+.gt b{display:block; font:500 14px/1.25 var(--display); color:var(--ink); margin-top:7px; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden}
+.gt small{display:block; font-size:12px; color:var(--ink-3); margin-top:2px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.gt:active .gt-img{transform:scale(.98)}
+.gal-sec{column-span:all; margin:18px 0 14px; padding-top:6px}
+.gal-sec h3{font:500 22px/1.2 var(--display)}
+.gal-sec p{margin:4px 0 0; font-size:13.5px; color:var(--ink-3)}
+.gal-more{display:block; margin:8px auto 0; height:40px}
+.gal-empty{padding:30px 0; color:var(--ink-3); text-align:center}
+
+/* ---------- Gallery: the full-screen viewer ---------- */
+.av{position:fixed; inset:0; z-index:200; background:#000; color:#EDE3CF; display:flex; flex-direction:column; overscroll-behavior:contain; -webkit-user-select:none; user-select:none; -webkit-touch-callout:none; animation:avIn .22s ease-out}
+.av[hidden]{display:none}
+@keyframes avIn{from{opacity:0}to{opacity:1}}
+.av-stage{position:absolute; inset:0; overflow:hidden; touch-action:none; display:flex; align-items:center; justify-content:center}
+.av-stage img{position:absolute; max-width:100%; max-height:100%; transform-origin:0 0; will-change:transform; pointer-events:none}
+.av-stage .av-lo{filter:blur(8px); transform:scale(1.02)}
+.av-top{position:absolute; left:0; right:0; top:0; display:flex; align-items:center; gap:10px; padding:calc(env(safe-area-inset-top, 0px) + 10px) 14px 24px; background:linear-gradient(rgba(0,0,0,.6), transparent); transition:opacity .25s}
+.av-top button{width:40px; height:40px; border-radius:50%; border:0; background:rgba(40,38,34,.72); color:#EDE3CF; font-size:22px; line-height:1; cursor:pointer; -webkit-backdrop-filter:blur(12px); backdrop-filter:blur(12px)}
+.av-top span{flex:1; text-align:center; font:500 12px var(--mono); color:rgba(237,227,207,.7)}
+.av.bare .av-top, .av.bare .av-sheet{opacity:0; pointer-events:none}
+.av-sheet{position:absolute; left:0; right:0; bottom:0; max-height:72%; display:flex; flex-direction:column; background:rgba(22,21,19,.94); -webkit-backdrop-filter:blur(18px); backdrop-filter:blur(18px); border-radius:18px 18px 0 0; border-top:1px solid rgba(212,175,90,.18); transform:translateY(calc(100% - var(--peek, 132px))); transition:transform .32s cubic-bezier(.2,.8,.2,1), opacity .25s; padding-bottom:env(safe-area-inset-bottom, 0px)}
+.av-sheet.up{transform:none}
+.av-grab{flex:none; padding:10px 18px 4px; cursor:pointer; touch-action:none}
+.av-grab::before{content:""; display:block; width:38px; height:5px; border-radius:3px; background:rgba(237,227,207,.3); margin:0 auto 10px}
+.av-grab h2{font:500 21px/1.2 var(--display); color:#F4EBD8; margin:0}
+.av-grab p{margin:4px 0 0; font-size:13.5px; color:#B9AE98}
+.av-body{overflow-y:auto; -webkit-overflow-scrolling:touch; padding:4px 18px 26px; font-size:15px; line-height:1.55; color:#D9CFBA; -webkit-user-select:text; user-select:text}
+.av-body .eyebrow{color:#D4AF5A; display:block; margin:16px 0 6px}
+.av-body p{margin:0 0 10px}
+.av-body dl{display:grid; grid-template-columns:auto 1fr; gap:4px 14px; margin:6px 0 0; font-size:13.5px}
+.av-body dt{color:#958A76}
+.av-body dd{margin:0; color:#D9CFBA}
+.av-body a{color:#E7C779}
+.av-acts{display:flex; flex-wrap:wrap; gap:8px; margin:14px 0 4px}
+.av-acts a, .av-acts button{border:1px solid rgba(212,175,90,.45); color:#F2D58E; background:rgba(212,175,90,.08); border-radius:999px; padding:7px 13px; font:500 13.5px var(--ui); text-decoration:none; cursor:pointer}
+.av-alive{display:flex; flex-wrap:wrap; gap:6px 12px; font-size:14px}
+.av-cred{font-size:12.5px; color:#958A76; margin-top:16px; border-top:1px solid rgba(237,227,207,.1); padding-top:12px}
+.av-note{font-size:12.5px; color:#B9AE98; text-align:center; position:absolute; left:0; right:0; top:calc(env(safe-area-inset-top, 0px) + 64px); pointer-events:none}
+.av .lab{color:inherit}
 </style>
 <script>/* light or dark follows the phone's own setting */
 (function(){var m=window.matchMedia&&matchMedia("(prefers-color-scheme: dark)");document.documentElement.setAttribute("data-theme",m&&!m.matches?"light":"dark")})();</script>
@@ -694,6 +756,7 @@ html.hinged .big-title, html.hinged .w-regions, html.hinged .w-dial{max-width:ca
   </div>
   <div class="seg-row" id="seg" hidden></div>
   <main id="view"></main>
+  <div class="av" id="av" hidden role="dialog" aria-modal="true" aria-label="Artwork"></div>
   <nav class="tabbar" id="tabs" aria-label="Sections">
     <a href="#world" data-tab="world"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.6 2.4 3.8 5.2 3.8 8.5s-1.2 6.1-3.8 8.5M12 3.5C9.4 5.9 8.2 8.7 8.2 12s1.2 6.1 3.8 8.5"/></svg><span>World</span></a>
     <a href="#timeline" data-tab="timeline"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12h18"/><circle cx="7" cy="12" r="2"/><circle cx="15" cy="12" r="2"/><path d="M7 7V5M15 19v-2M11 6H7M19 18h-4"/></svg><span>Timeline</span></a>
@@ -1427,13 +1490,302 @@ function workCard(w){
     <p>${esc(w.t)}</p>${w.where ? `<span class="where">Where it is now: ${esc(w.where)}</span>` : ""}${whyHTML(w.why)}${playBtn(w)}</article>`;
 }
 const WK = [{k:["painting","sculpture"], n:"Paintings and sculpture"}, {k:["music"], n:"Music"}, {k:["book"], n:"Books and plays"}];
-function viewArt(){
-  const ws = H.works.slice().sort((a, b) => astro(a.y) - astro(b.y));
-  view.innerHTML = `<section><div class="sec-head"><h2>Art &amp; Music</h2><p>${ws.length} works, each with its story</p></div>
-    <p class="notice">The music buttons play the opening notes in your browser with a simple synthesizer, from Beethoven's public-domain scores. They are not recordings. Pictures of the paintings aren't in the app yet, so each card says where the original is.</p></section>
-    ${WK.map(g => { const l = ws.filter(w => g.k.includes(w.k)); return `<section><div class="sec-head"><h2>${g.n}</h2><p>${l.length}</p></div><div class="works">${l.map(workCard).join("")}</div></section>`; }).join("")}
-    <section><div class="sec-head"><h2>How Japan got into Van Gogh's paintings</h2></div>${chainHTML(H.chains.find(c => c.id === "japan-paris"), true)}</section>`;
+/* ---------- Gallery: the collection ---------- */
+/* Featured: the museum's own pictures (from its chapters), with this museum's own stories.
+   Collection: public-domain works gathered from the Cleveland Museum of Art and the Met (tools/art/gather.py).
+   "app" works ship inside the app; "web" works ship a small tile, and their big picture loads from the museum. */
+const ART_KIND = [["painting","Paintings"],["print","Prints"],["drawing","Drawings"],["photo","Photographs"],["sculpture","Sculpture"],["textile","Textiles"],["object","Objects"],["book","Books & calligraphy"]];
+const ART_REG = [["east-asia","East Asia"],["south-asia","South & Southeast Asia"],["islamic","Islamic world"],["africa","Africa"],["ancient","Ancient world"],["europe","Europe"],["americas","Americas"],["oceania","Oceania"]];
+const ART_ERA = [["a","Before 500",-1e5,499],["m","500–1400",500,1399],["e","1400–1800",1400,1799],["n","1800s",1800,1899],["t","1900 on",1900,3000]];
+const WORK_IMG = {"school-of-athens":"school-athens"};
+const FEAT_REG = {"great-wave":"east-asia","qingming":"east-asia","tribute-giraffe":"east-asia","genghis":"east-asia","wu-zetian":"east-asia"};
+let ART = null, artF = {k:"", r:"", e:"", q:""}, artList = [], artShown = 0, artObs = null, artCur = -1;
+const artDetail = {}, artShardWait = {};
+const ART_SRC = {cma:"The Cleveland Museum of Art", met:"The Metropolitan Museum of Art"};
+const artPath = (it, size) => it.src === "feat" ? it.img : `art/${it.wing === "app" ? size : "m"}/${it.id}.jpg`;
+function featuredArt(){
+  const works = new Map(H.works.map(w => [WORK_IMG[w.id] || w.id, w]));
+  return Object.keys(IMG).map(sl => {
+    const m = IMG[sl], w = works.get(sl);
+    return {id:sl, src:"feat", wing:"app", t:m.title, a:m.by, d:m.date, y:w ? w.y : parseInt(String(m.date).match(/-?\d{3,4}/) || [0], 10) || null,
+      r:FEAT_REG[sl] || "europe", k:/photo/i.test(m.by) || IMG_KIND(sl) === "Real photograph" ? "photo" : "painting", w:m.w, h:m.h, img:m.src, work:w};
+  });
 }
+/* the collection index loads once, the first time the Gallery opens */
+function loadArt(cb){
+  if (ART) return cb();
+  const feat = featuredArt();
+  const done = rows => {
+    ART = feat.concat((rows || []).map(r => ({id:r[0], src:r[0].split("-")[0], t:r[1], a:r[2], y:r[3], r:ART_REG[r[4]][0], k:ART_KIND[r[5]][0], w:r[6], h:r[7], wing:r[8] ? "web" : "app", hasText:!!r[9]})));
+    cb();
+  };
+  if (!H.artCount) return done([]);
+  window.ART_INDEX = rows => { window.ART_INDEX = null; done(rows); };
+  const s = document.createElement("script"); s.src = "art/index.js"; s.onerror = () => done([]); document.head.appendChild(s);
+}
+function shardOf(id){ /* same as build.py: md5(id)[:4] % shards — done with a tiny md5 */ return parseInt(md5(id).slice(0, 4), 16) % H.artShards; }
+window.ART_DETAIL = (n, d) => { Object.assign(artDetail, d); (artShardWait[n] || []).forEach(f => f()); artShardWait[n] = null; };
+function loadDetail(it, cb){
+  if (it.src === "feat" || artDetail[it.id]) return cb();
+  const n = shardOf(it.id);
+  if (artShardWait[n]) { artShardWait[n].push(cb); return; }
+  artShardWait[n] = [cb];
+  const s = document.createElement("script"); s.src = `art/d-${String(n).padStart(2, "0")}.js`;
+  s.onerror = () => { const w = artShardWait[n] || []; artShardWait[n] = null; w.forEach(f => f()); };
+  document.head.appendChild(s);
+}
+/* a day's order: the same all day, different tomorrow, so the Gallery feels fresh */
+const daySeed = () => hashStr(today());
+function artFilter(){
+  const q = artF.q.trim().toLowerCase(), era = ART_ERA.find(e => e[0] === artF.e);
+  const seed = daySeed();
+  const l = ART.filter(it => it.src !== "feat" && (!artF.k || it.k === artF.k) && (!artF.r || it.r === artF.r) && (!era || (it.y != null && it.y >= era[2] && it.y <= era[3])) &&
+    (!q || (it.t + " " + it.a + " " + (ART_REG.find(r => r[0] === it.r) || ["",""])[1]).toLowerCase().includes(q)));
+  const key = it => (it.wing === "app" ? 0 : 2) + (it.hasText ? 0 : 1) + (hashStr(it.id + seed) % 1000) / 1000;
+  l.sort((a, b) => key(a) - key(b));
+  return l;
+}
+function tileHTML(it, i){
+  const ar = it.w && it.h ? `aspect-ratio:${it.w}/${it.h}` : "aspect-ratio:1";
+  return `<button type="button" class="gt" data-art="${i}"><span class="gt-img" style="${ar}"><img src="${esc(artPath(it, "t"))}" alt="${esc(it.t)}" loading="lazy" decoding="async" onload="this.classList.add('in')" onerror="this.parentNode.classList.add('broken')"></span><b>${esc(it.t)}</b><small>${esc(it.a || ART_REG.find(r => r[0] === it.r)[1])}${it.y != null ? " · " + esc(fy(it.y)) : ""}</small></button>`;
+}
+const chipRow = (key, opts, all) => `<div class="chips" role="group">${[["", all]].concat(opts).map(([k, n]) => `<button type="button" class="chip" data-af="${key}" data-v="${k}" aria-pressed="${artF[key] === k}">${esc(n)}</button>`).join("")}</div>`;
+function viewArt(){
+  galleryOn = true;
+  const ws = H.works.slice().sort((a, b) => astro(a.y) - astro(b.y));
+  const other = ws.filter(w => !IMG[WORK_IMG[w.id] || w.id]);
+  view.innerHTML = `<section class="gal-head"><div class="sec-head"><h2>Gallery</h2><p id="galCount">${H.artCount ? plural(H.artCount + Object.keys(IMG).length, "work") + " from every continent" : ""}</p></div></section>
+    <section><span class="eyebrow">From this museum's stories</span><div class="gal-feat" id="galFeat" style="margin-top:10px"></div></section>
+    <section id="galCol" style="gap:0">
+      <div class="gal-ctl">
+        <div class="gal-q"><input type="search" id="galQ" placeholder="Search the collection" autocomplete="off" aria-label="Search the collection" value="${esc(artF.q)}"><span id="galN"></span></div>
+        ${chipRow("k", ART_KIND, "Everything")}${chipRow("r", ART_REG, "Everywhere")}${chipRow("e", ART_ERA.map(e => [e[0], e[1]]), "Any time")}
+      </div>
+      <div class="gal-grid" id="galGrid" style="margin-top:16px"></div>
+      <div id="galMore" class="gal-more"></div>
+    </section>
+    <section><details class="panel"><summary><h3>Music, books and works without a picture yet</h3><p>${plural(other.length, "work")} from the timeline, each with its story</p></summary>
+      <p class="notice" style="margin:12px 0">The music buttons play the opening notes with a simple synthesizer, from public-domain scores. They are not recordings.</p>
+      ${WK.map(g => { const l = other.filter(w => g.k.includes(w.k)); return l.length ? `<h3 style="margin:18px 0 10px">${g.n}</h3><div class="works">${l.map(workCard).join("")}</div>` : ""; }).join("")}</details></section>
+    <section><div class="sec-head"><h2>How Japan got into Van Gogh's paintings</h2></div>${chainHTML(H.chains.find(c => c.id === "japan-paris"), true)}</section>
+    <p class="muted" style="font-size:12.5px">The collection's pictures and texts come from the open-access programmes of the Cleveland Museum of Art and the Metropolitan Museum of Art (public domain, CC0). Every work names its museum. Nothing here is made by AI.</p>`;
+  loadArt(() => {
+    const feat = ART.filter(it => it.src === "feat");
+    document.getElementById("galFeat").innerHTML = feat.map(it => `<button type="button" class="gf" data-feat="${esc(it.id)}"><span class="gt-img"><img src="${esc(it.img)}" alt="${esc(it.t)}" loading="lazy" decoding="async" onload="this.classList.add('in')"></span><b>${esc(it.t)}</b><small>${esc(it.a)}${it.d ? ", " + esc(it.d) : ""}</small></button>`).join("");
+    drawArtGrid();
+  });
+  const qi = document.getElementById("galQ"); let tq;
+  qi.addEventListener("input", () => { clearTimeout(tq); tq = setTimeout(() => { artF.q = qi.value; drawArtGrid(); }, 180); });
+}
+function drawArtGrid(){
+  const g = document.getElementById("galGrid"); if (!g || !ART) return;
+  artList = artFilter(); artShown = 0; g.innerHTML = "";
+  document.getElementById("galN").textContent = artList.length.toLocaleString("en");
+  if (!artList.length) { g.innerHTML = `<p class="gal-empty">Nothing matches. Try fewer filters.</p>`; return; }
+  moreArt();
+  if (artObs) artObs.disconnect();
+  if ("IntersectionObserver" in window) { artObs = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) moreArt(); }, {rootMargin:"1200px 0px"}); artObs.observe(document.getElementById("galMore")); }
+}
+function moreArt(){
+  const g = document.getElementById("galGrid"); if (!g || artShown >= artList.length) return;
+  const from = artShown, to = Math.min(artList.length, artShown + 60);
+  let h = "";
+  for (let i = from; i < to; i++) {
+    const it = artList[i], prev = artList[i - 1];
+    if (it.wing === "web" && (!prev || prev.wing !== "web")) h += `<div class="gal-sec"><h3>More from the museums</h3><p>Small pictures are in the app. The large picture opens when you are online.</p></div>`;
+    h += tileHTML(it, i);
+  }
+  g.insertAdjacentHTML("beforeend", h);
+  artShown = to;
+}
+
+/* ---------- Gallery: the viewer ---------- */
+let avS = 1, avX = 0, avY = 0, avIt = null, galleryOn = false, avPushed = false;
+const av = document.getElementById("av");
+const regName = r => (ART_REG.find(x => x[0] === r) || ["", ""])[1];
+const personByName = (() => { let m; return n => { if (!m) { m = new Map(); H.people.forEach(p => m.set(p.n.toLowerCase(), p)); } const p = m.get(String(n || "").toLowerCase()); return p && !p.sacred ? p : null; }; })();
+function openArt(it, idx, push){
+  avIt = it; artCur = idx;
+  document.body.style.overflow = "hidden";
+  const big = artPath(it, "f"), lo = artPath(it, "t");
+  const count = idx >= 0 && artList.length ? `${(idx + 1).toLocaleString("en")} of ${artList.length.toLocaleString("en")}` : "";
+  av.innerHTML = `<div class="av-stage" id="avStage"><img class="av-lo" id="avLo" src="${esc(lo)}" alt=""><img id="avImg" alt="${esc(it.t + (it.a ? ", " + it.a : ""))}"></div>
+    <div class="av-top"><button type="button" data-avx aria-label="Close">×</button><span>${esc(count)}</span><button type="button" data-avi aria-label="About this work" style="font:600 15px var(--display)">i</button></div>
+    <div class="av-note" id="avNote" hidden></div>
+    <div class="av-sheet" id="avSheet"><div class="av-grab" id="avGrab"><h2>${esc(it.t)}</h2><p>${esc(it.a || "Unknown artist")}${it.d || it.y != null ? " · " + esc(it.d || fy(it.y)) : ""}</p></div><div class="av-body" id="avBody"></div></div>`;
+  av.hidden = false; av.classList.remove("bare");
+  avS = 1; avX = 0; avY = 0;
+  const img = document.getElementById("avImg");
+  img.onload = () => { document.getElementById("avLo").remove(); fitArt(); };
+  img.onerror = () => { if (it.wing === "web") { const n = document.getElementById("avNote"); n.hidden = false; n.textContent = "The large picture needs the internet. This is the small one in the app."; } };
+  if (it.wing === "web") { loadDetail(it, () => { const d = artDetail[it.id]; if (d && d.img && avIt === it) img.src = d.img; }); }
+  else img.src = big;
+  requestAnimationFrame(fitArt);
+  const sheet = document.getElementById("avSheet");
+  sheet.style.setProperty("--peek", (document.getElementById("avGrab").offsetHeight + 8) + "px");
+  loadDetail(it, () => { if (avIt === it) document.getElementById("avBody").innerHTML = artInfoHTML(it); });
+  if (push) { try { history.pushState({art:1}, "", "#art-" + it.id); avPushed = true; } catch(e){} }
+  else try { history.replaceState(history.state, "", "#art-" + it.id); } catch(e){}
+  haptic("open");
+  setTimeout(() => { const b = av.querySelector("[data-avx]"); if (b) b.focus({preventScroll:true}); }, 30);
+}
+function closeArt(fromRoute){
+  if (av.hidden) return;
+  av.hidden = true; av.innerHTML = ""; avIt = null;
+  document.body.style.overflow = "";
+  if (!fromRoute) { if (avPushed) { avPushed = false; history.back(); } else try { history.replaceState(null, "", "#art"); } catch(e){} }
+  avPushed = false;
+}
+function stepArt(d){
+  if (artCur < 0 || !artList.length) return;
+  const i = (artCur + d + artList.length) % artList.length;
+  openArt(artList[i], i, false); haptic("tick");
+}
+function artInfoHTML(it){
+  const det = artDetail[it.id] || {}, rows = [];
+  const p = personByName(it.a);
+  let text = "";
+  if (it.src === "feat") {
+    const note = IMG_NOTE[it.id], m = IMG[it.id];
+    text = `<span class="eyebrow">This museum's story</span>${note ? `<p>${labHTML(note[0])} ${esc(note[1])}</p>` : ""}${it.work ? `<p>${esc(it.work.t)}</p>${it.work.where ? `<p class="muted">Where it is now: ${esc(it.work.where)}</p>` : ""}` : ""}`;
+    rows.push(["Collection", m.coll]);
+  } else if (det.x || det.fy) {
+    text = `<span class="eyebrow">From ${esc(ART_SRC[it.src] || "the museum")}</span>${det.x ? `<p>${esc(det.x)}</p>` : ""}${det.fy ? `<span class="eyebrow">Did you know?</span><p>${esc(det.fy)}</p>` : ""}`;
+  } else {
+    text = `<span class="eyebrow">Catalogue record</span><p class="muted">${esc(ART_SRC[it.src] || "The museum")} lists only the facts below for this work.</p>`;
+  }
+  if (det.on) rows.push(["Object", det.on]);
+  if (det.c) rows.push(["Culture", det.c]);
+  rows.push(["Region", regName(it.r)]);
+  if (det.m) rows.push(["Medium", det.m]);
+  rows.push(["Date", det.d || it.d || (it.y != null ? fy(it.y) : "Unknown")]);
+  const y = it.y, inTM = y != null && y >= -600 && y <= NOW && y !== 0;
+  const alive = inTM ? aliveAt(y).sort((a, b) => astro(a.b) - astro(b.b)).slice(0, 8) : [];
+  const credit = it.src === "feat" ? (() => { const m = IMG[it.id]; return `${esc(m.by)}. <i>${esc(m.title)}</i>, ${esc(m.date)}. ${esc(m.coll)}. ${esc(m.lic || "Public domain")}${m.page ? ` · <a href="${esc(m.page)}" target="_blank" rel="noopener">source</a>` : ""}.`; })()
+    : `${esc(det.cr || ART_SRC[it.src])}. Public domain (CC0 open access)${det.u ? ` · <a href="${esc(det.u)}" target="_blank" rel="noopener">museum page</a>` : ""}.`;
+  return `${text}<dl>${rows.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl>
+    <div class="av-acts">${p ? `<a href="#p-${p.id}" data-avgo>About ${esc(p.n)}</a>` : ""}${inTM ? `<a href="#tm-${y}" data-avgo>Travel to ${esc(fy(y))}</a>` : ""}<button type="button" data-avmore>More from ${esc(regName(it.r))}</button></div>
+    ${alive.length ? `<span class="eyebrow">Alive when it was made</span><div class="av-alive">${alive.map(o => `<a href="#p-${o.id}" data-avgo>${esc(o.n)}</a>`).join("")}</div>` : ""}
+    <p class="av-cred">${credit} Not made by AI.</p>`;
+}
+/* fit, pinch, pan, double-tap; swipe down to close and sideways for the next work, only at 1x */
+function fitArt(){ const img = document.getElementById("avImg"); if (img) img.style.transform = `translate(${avX}px,${avY}px) scale(${avS})`; artBase(); }
+function artBase(){
+  const img = document.getElementById("avImg"), st = document.getElementById("avStage"); if (!img || !st || !img.naturalWidth) return;
+  const W = st.clientWidth, Hh = st.clientHeight, r = Math.min(W / img.naturalWidth, Hh / img.naturalHeight, 4);
+  const w = img.naturalWidth * r, h = img.naturalHeight * r;
+  img.style.width = w + "px"; img.style.height = h + "px"; img.style.maxWidth = "none"; img.style.maxHeight = "none";
+  img.style.left = (W - w) / 2 + "px"; img.style.top = (Hh - h) / 2 + "px";
+}
+function clampArt(){
+  const img = document.getElementById("avImg"), st = document.getElementById("avStage"); if (!img || !st) return;
+  avS = Math.max(1, Math.min(5, avS));
+  if (avS === 1) { avX = 0; avY = 0; return; }
+  const W = st.clientWidth, Hh = st.clientHeight, w = img.offsetWidth * avS, h = img.offsetHeight * avS, ox = img.offsetLeft, oy = img.offsetTop;
+  avX = w > W ? Math.min(-ox, Math.max(W - w - ox, avX)) : (W - w) / 2 - ox;
+  avY = h > Hh ? Math.min(-oy, Math.max(Hh - h - oy, avY)) : (Hh - h) / 2 - oy;
+}
+const avPts = new Map(); let avG = null, avLastTap = 0, avTapT = null;
+function zoomAt(cx, cy, ns){
+  const img = document.getElementById("avImg"); if (!img) return;
+  const ox = img.offsetLeft, oy = img.offsetTop;
+  const ix = (cx - ox - avX) / avS, iy = (cy - oy - avY) / avS;
+  avS = ns; avX = cx - ox - ix * avS; avY = cy - oy - iy * avS;
+}
+av.addEventListener("pointerdown", e => {
+  const st = e.target.closest("#avStage"); if (!st) return;
+  st.setPointerCapture && st.setPointerCapture(e.pointerId);
+  avPts.set(e.pointerId, {x:e.clientX, y:e.clientY});
+  const pts = [...avPts.values()], r = st.getBoundingClientRect();
+  if (pts.length === 2) { const [a, b] = pts; avG = {pinch:true, d:Math.hypot(a.x - b.x, a.y - b.y), s:avS, cx:(a.x + b.x) / 2 - r.left, cy:(a.y + b.y) / 2 - r.top, x:avX, y:avY}; }
+  else if (pts.length === 1) avG = {x0:e.clientX, y0:e.clientY, x:avX, y:avY, t:Date.now(), moved:false};
+});
+av.addEventListener("pointermove", e => {
+  if (!avPts.has(e.pointerId) || !avG) return;
+  avPts.set(e.pointerId, {x:e.clientX, y:e.clientY});
+  const st = document.getElementById("avStage"), img = document.getElementById("avImg"); if (!st || !img) return;
+  const pts = [...avPts.values()];
+  if (avG.pinch && pts.length >= 2) {
+    const [a, b] = pts, r = st.getBoundingClientRect(), d = Math.hypot(a.x - b.x, a.y - b.y);
+    const ns = Math.max(.8, Math.min(6, avG.s * d / avG.d));
+    avS = avG.s; avX = avG.x; avY = avG.y; zoomAt(avG.cx, avG.cy, ns);
+    avX += (a.x + b.x) / 2 - r.left - avG.cx; avY += (a.y + b.y) / 2 - r.top - avG.cy;
+    img.style.transform = `translate(${avX}px,${avY}px) scale(${avS})`;
+    return;
+  }
+  const dx = e.clientX - avG.x0, dy = e.clientY - avG.y0;
+  if (Math.abs(dx) + Math.abs(dy) > 8) avG.moved = true;
+  if (avS > 1.01) { avX = avG.x + dx; avY = avG.y + dy; img.style.transform = `translate(${avX}px,${avY}px) scale(${avS})`; }
+  else if (avG.moved) {
+    if (!avG.dir) avG.dir = Math.abs(dy) > Math.abs(dx) ? "v" : "h";
+    if (avG.dir === "v" && dy > 0) { img.style.transform = `translate(0,${dy}px) scale(${1 - Math.min(dy, 400) / 1600})`; av.style.background = `rgba(0,0,0,${1 - Math.min(dy, 300) / 450})`; }
+    if (avG.dir === "h") img.style.transform = `translate(${dx}px,0)`;
+  }
+});
+function avUp(e){
+  if (!avPts.has(e.pointerId)) return;
+  avPts.delete(e.pointerId);
+  const img = document.getElementById("avImg"), st = document.getElementById("avStage");
+  if (!avG || !img) { avG = null; return; }
+  if (avG.pinch) { if (avPts.size === 0) { clampArt(); img.style.transition = "transform .25s ease"; fitArt(); setTimeout(() => img && (img.style.transition = ""), 260); avG = null; } else { const p = [...avPts.values()][0]; avG = {x0:p.x, y0:p.y, x:avX, y:avY, t:Date.now(), moved:true}; } return; }
+  const dx = e.clientX - avG.x0, dy = e.clientY - avG.y0, g = avG; avG = null;
+  av.style.background = "";
+  if (avS <= 1.01 && g.moved) {
+    if (g.dir === "v" && dy > 110) { closeArt(); return; }
+    if (g.dir === "h" && Math.abs(dx) > 70) { stepArt(dx < 0 ? 1 : -1); return; }
+    img.style.transition = "transform .22s ease"; fitArt(); setTimeout(() => img && (img.style.transition = ""), 240); return;
+  }
+  if (avS > 1.01 && g.moved) { clampArt(); img.style.transition = "transform .2s ease"; fitArt(); setTimeout(() => img && (img.style.transition = ""), 220); return; }
+  if (!g.moved) {
+    const now = Date.now(), r = st.getBoundingClientRect();
+    if (now - avLastTap < 300) {
+      clearTimeout(avTapT); avLastTap = 0;
+      if (avS > 1.01) { avS = 1; avX = 0; avY = 0; } else zoomAt(e.clientX - r.left, e.clientY - r.top, 2.6);
+      clampArt(); img.style.transition = "transform .28s ease"; fitArt(); setTimeout(() => img && (img.style.transition = ""), 300); haptic("tick");
+    } else { avLastTap = now; avTapT = setTimeout(() => av.classList.toggle("bare"), 300); }
+  }
+}
+av.addEventListener("pointerup", avUp); av.addEventListener("pointercancel", avUp);
+av.addEventListener("click", e => {
+  const t = e.target;
+  if (t.closest("[data-avx]")) { closeArt(); return; }
+  if (t.closest("[data-avi]") || t.closest("#avGrab")) { document.getElementById("avSheet").classList.toggle("up"); return; }
+  if (t.closest("[data-avmore]")) { const r = avIt.r; closeArt(); artF = {k:"", r, e:"", q:""}; setTimeout(() => { if (galleryOn) { viewArt(); const c = document.getElementById("galCol"); c && c.scrollIntoView({block:"start"}); } }, 50); return; }
+  const go = t.closest("[data-avgo]"); if (go) { e.preventDefault(); const h = go.getAttribute("href"); closeArt(true); avPushed = false; location.hash = h; }
+});
+/* swipe the sheet up or down */
+(() => { let y0 = null; av.addEventListener("touchstart", e => { if (e.target.closest("#avGrab")) y0 = e.touches[0].clientY; }, {passive:true});
+  av.addEventListener("touchend", e => { if (y0 == null) return; const dy = e.changedTouches[0].clientY - y0; y0 = null; const sh = document.getElementById("avSheet"); if (!sh) return; if (dy < -30) sh.classList.add("up"); else if (dy > 30) sh.classList.remove("up"); }, {passive:true}); })();
+document.addEventListener("keydown", e => { if (av.hidden) return; if (e.key === "Escape") closeArt(); if (e.key === "ArrowRight") stepArt(1); if (e.key === "ArrowLeft") stepArt(-1); });
+window.addEventListener("resize", () => { if (!av.hidden) { avS = 1; avX = 0; avY = 0; fitArt(); } });
+/* a tiny md5, only to find which detail file holds a work (must match build.py) */
+function md5(str){
+  const k = [], s = [7,12,17,22,7,12,17,22,7,12,17,22,7,12,17,22,5,9,14,20,5,9,14,20,5,9,14,20,5,9,14,20,4,11,16,23,4,11,16,23,4,11,16,23,4,11,16,23,6,10,15,21,6,10,15,21,6,10,15,21,6,10,15,21];
+  for (let i = 0; i < 64; i++) k[i] = Math.floor(Math.abs(Math.sin(i + 1)) * 4294967296) | 0;
+  const bytes = unescape(encodeURIComponent(str)), n = bytes.length, words = [];
+  for (let i = 0; i < n; i++) words[i >> 2] |= bytes.charCodeAt(i) << ((i % 4) * 8);
+  words[n >> 2] |= 0x80 << ((n % 4) * 8);
+  const len = (((n + 8) >> 6) + 1) * 16; for (let i = 0; i < len; i++) words[i] = words[i] | 0;
+  words[len - 2] = n * 8;
+  let a0 = 0x67452301, b0 = 0xefcdab89 | 0, c0 = 0x98badcfe | 0, d0 = 0x10325476;
+  for (let j = 0; j < len; j += 16) {
+    let A = a0, B = b0, C = c0, D = d0;
+    for (let i = 0; i < 64; i++) {
+      let F, g;
+      if (i < 16) { F = (B & C) | (~B & D); g = i; } else if (i < 32) { F = (D & B) | (~D & C); g = (5 * i + 1) % 16; } else if (i < 48) { F = B ^ C ^ D; g = (3 * i + 5) % 16; } else { F = C ^ (B | ~D); g = (7 * i) % 16; }
+      const t = D; D = C; C = B; const x = (A + F + k[i] + words[j + g]) | 0; B = (B + ((x << s[i]) | (x >>> (32 - s[i])))) | 0; A = t;
+    }
+    a0 = (a0 + A) | 0; b0 = (b0 + B) | 0; c0 = (c0 + C) | 0; d0 = (d0 + D) | 0;
+  }
+  return [a0, b0, c0, d0].map(v => { let h = ""; for (let i = 0; i < 4; i++) h += ((v >>> (i * 8)) & 255).toString(16).padStart(2, "0"); return h; }).join("");
+}
+
+view.addEventListener("click", ev => {
+  const t = ev.target;
+  const ti = t.closest("[data-art]"); if (ti) { openArt(artList[+ti.dataset.art], +ti.dataset.art, true); return; }
+  const fe = t.closest("[data-feat]"); if (fe && ART) { const it = ART.find(x => x.id === fe.dataset.feat); if (it) openArt(it, -1, true); return; }
+  const af = t.closest("[data-af]"); if (af) { artF[af.dataset.af] = af.dataset.v; af.parentNode.querySelectorAll("[data-af]").forEach(c => c.setAttribute("aria-pressed", c === af)); haptic("select"); drawArtGrid(); const c = document.querySelector(".gal-ctl"); if (c && c.getBoundingClientRect().top < 0) c.scrollIntoView({block:"start"}); return; }
+});
 
 /* ---------- stories and chains ---------- */
 let storyLevel = store.get("ctm-level") || "t2";
@@ -2550,11 +2902,11 @@ function viewLibrary(){
 }
 
 /* ---------- tabs and the small switch at the top of a tab ---------- */
-const SEGS = {timeline:[["timeline","Timeline"],["tm","Time Machine"]], gallery:[["art","Art & Music"],["walk","Walk in"]],
+const SEGS = {timeline:[["timeline","Timeline"],["tm","Time Machine"]], gallery:[["art","Collection"],["walk","Walk in"]],
   play:[["play","Games"],["talk","Talk"]], library:[["library","Library"],["people","People"],["events","Events"],["places","Places"]]};
 function drawSeg(tab, h){
   const el = document.getElementById("seg"), g = SEGS[tab];
-  const top = g && g.find(([k]) => h === k || (k === "tm" && h.startsWith("tm-")) || (k === "walk" && h.startsWith("walk-")) || (k === "play" && PLAY_VIEWS[h]));
+  const top = g && g.find(([k]) => h === k || (k === "tm" && h.startsWith("tm-")) || (k === "walk" && h.startsWith("walk-")) || (k === "art" && h.startsWith("art-")) || (k === "play" && PLAY_VIEWS[h]));
   el.hidden = !top;
   el.innerHTML = top ? `<nav class="seg" aria-label="Views">${g.map(([k, n]) => `<a href="#${k}" class="${k === top[0] ? "on" : ""}">${esc(n)}</a>`).join("")}</nav>` : "";
 }
@@ -2570,9 +2922,16 @@ function route(){
   let h = decodeURIComponent(location.hash.slice(1)) || "world", sec = null;
   const at = h.indexOf("@"); if (at > -1) { sec = h.slice(at + 1); h = h.slice(0, at); }
   stopMusic(); clearInterval(raceTimer); closeSearch();
+  /* inside the Gallery, opening or closing a work does not redraw the page */
+  if (galleryOn && document.getElementById("galGrid") && (h === "art" || h.startsWith("art-"))) {
+    if (h === "art") closeArt(true);
+    else { const id = h.slice(4), i = artList.findIndex(x => x.id === id), it = i > -1 ? artList[i] : ART && ART.find(x => x.id === id); if (it && (!avIt || avIt.id !== id)) openArt(it, i, false); }
+    return;
+  }
+  closeArt(true); galleryOn = false;
   let tab = "world";
   if (h === "timeline" || h === "tm" || h.startsWith("tm-")) tab = "timeline";
-  else if (h === "art" || h === "walk" || h.startsWith("walk-")) tab = "gallery";
+  else if (h === "art" || h.startsWith("art-") || h === "walk" || h.startsWith("walk-")) tab = "gallery";
   else if (h === "play" || PLAY_VIEWS[h] || h === "talk" || h.startsWith("talk-")) tab = "play";
   else if (["library", "people", "events", "places"].includes(h) || /^[pec]-/.test(h)) tab = "library";
   document.querySelectorAll("#tabs a").forEach(a => { a.classList.toggle("on", a.dataset.tab === tab); a.toggleAttribute("aria-current", a.dataset.tab === tab); });
@@ -2590,6 +2949,7 @@ function route(){
   else if (h === "events") viewEvents();
   else if (h === "places") viewPlaces();
   else if (h === "art") viewArt();
+  else if (h.startsWith("art-")) { const id = h.slice(4); viewArt(); loadArt(() => { const it = ART.find(x => x.id === id); if (it) openArt(it, artList.findIndex(x => x.id === id), false); }); }
   else if (h === "play") viewPlay();
   else if (PLAY_VIEWS[h]) PLAY_VIEWS[h]();
   else if (h === "timeline") viewTimeline();
