@@ -1739,5 +1739,520 @@ Object.assign(window.HISTORY.chapters, {
       {n:"Further reading: Judith M. Brown, Gandhi: Prisoner of Hope (1989)"}
     ]}
   ]
+},
+
+"galileo": {
+  hero: "",
+  kw: ["telescope","Jupiter's moons","Medicean stars","Sidereal Messenger","Sidereus Nuncius","Venus phases","sunspots","Dialogue","Two Chief World Systems","Inquisition","Copernicus","heliocentrism","Pisa","Leaning Tower@myths","pendulum","Two New Sciences","Urban VIII","Eppur si muove@myths","Maria Celeste","Arcetri"],
+  lede: "A professor who turned a Dutch toy into a scientific instrument, saw mountains on the Moon and moons around Jupiter, argued that the Earth moves, and was forced by the Inquisition to say it does not.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Galileo Galilei was born in Pisa in 1564 and taught mathematics at the universities of Pisa and Padua. He studied falling bodies, pendulums and motion through experiments and mathematics.",
+      "In 1609 he built a telescope and turned it on the sky. What he saw, published in 1610, made him famous across Europe and convinced him that Copernicus was right: the Earth goes round the Sun.",
+      "In 1633 the Roman Inquisition found him 'vehemently suspect of heresy' for his book defending that view. He was made to recant and spent his last eight years under house arrest near Florence, where he wrote his greatest work on motion. He died in 1642."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "He was born on 15 February 1564, the eldest child of Vincenzo Galilei, a lute player and music theorist who experimented with strings and tuning.",
+      "He began studying medicine at Pisa, switched to mathematics, and left without a degree. In 1589 he became a mathematics lecturer at Pisa, and in 1592 moved to Padua, in the Republic of Venice, where he spent what he called the best 18 years of his life.",
+      "He never married, but had three children with Marina Gamba in Padua. His daughters became nuns. The elder, Virginia, who took the name Suor Maria Celeste, wrote him loving letters that survive."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "The telescope, 1609. Hearing of a Dutch spyglass, he worked out how to make one and improved it to magnify about 8 times, and later 20. He presented one to the Venetian Senate, which doubled his salary.",
+      {t:"The Sidereal Messenger, March 1610. In a short book he reported mountains and craters on the Moon, countless stars invisible to the naked eye in the Milky Way, and four moons circling Jupiter, which he named the Medicean Stars after the Grand Duke of Tuscany.", lab:"verified", why:"Sidereus Nuncius (1610), available in English translation on Project Gutenberg."},
+      "Florence, 1610. The Grand Duke made him court mathematician and philosopher. That year he also saw the phases of Venus, which showed that Venus orbits the Sun, and soon after he studied sunspots.",
+      "First warning, 1616. The Church's Congregation of the Index declared the idea that the Earth moves 'false and contrary to Scripture' and suspended Copernicus's book until corrected. Cardinal Bellarmine told Galileo not to hold or defend it.",
+      "The Dialogue, 1632. Encouraged when his friend Maffeo Barberini became Pope Urban VIII, he wrote the Dialogue Concerning the Two Chief World Systems. In it a character named Simplicio, who defends the old view, repeats an argument the Pope had suggested. The Pope was furious.",
+      "Trial, 1633. Aged 69, he was tried by the Inquisition in Rome. On 22 June he knelt and abjured, saying he 'abandoned the false opinion' that the Sun is the centre of the world. He was sentenced to imprisonment, changed to house arrest at his villa at Arcetri, near Florence.",
+      "Last work, 1638. Going blind, he finished Two New Sciences, on the strength of materials and the laws of motion, which was smuggled out and printed in the Netherlands. He died on 8 January 1642."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "Falling bodies: he showed, by rolling balls down slopes, that falling objects accelerate evenly, and that the distance grows with the square of the time.",
+      "Projectiles follow a parabola, he showed, combining steady sideways motion with accelerating fall.",
+      "Pendulums: he noticed that a pendulum's swing takes about the same time whatever its width, an idea later used in pendulum clocks.",
+      "Astronomy: Jupiter's moons, Venus's phases, sunspots and lunar mountains broke the old belief in a perfect, unchanging heaven centred on the Earth.",
+      "Method: he argued in The Assayer (1623) that the book of the universe is written in the language of mathematics, and that experiment and measurement should settle questions about the physical world."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Suor Maria Celeste (1600 to 1634), his daughter, whose 124 surviving letters to him show their close bond. She died soon after his trial.",
+      "Pope Urban VIII (1568 to 1644), once his admirer, who felt betrayed by the Dialogue.",
+      "Johannes Kepler (1571 to 1630), the German astronomer who supported his discoveries and worked out that planets move in ellipses, something Galileo never accepted.",
+      "Vincenzo Viviani and Evangelista Torricelli, young assistants in his last years; Torricelli went on to invent the barometer."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "He was born the same year as Shakespeare and died the year Isaac Newton was born (by the old English calendar).",
+      "The Catholic Counter-Reformation was answering Protestantism by tightening control of ideas. In 1600 the philosopher Giordano Bruno was burned in Rome for heresy.",
+      "The Thirty Years' War was raging in Germany during his trial."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "He is often called the father of modern physics and of the scientific method, along with Newton, who built on his laws of motion.",
+      "The Church removed the Dialogue from its list of banned books in 1835. In 1992 Pope John Paul II formally acknowledged that the Church had erred in condemning him.",
+      "The four large moons of Jupiter are called the Galilean moons, and NASA's spacecraft to Jupiter in 1989 was named Galileo."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He dropped two balls from the Leaning Tower of Pisa.", lab:"disputed", t:"The story comes from his assistant Viviani, writing after his death. Galileo never mentions it himself. Some historians think it was a thought experiment; his real evidence came from balls rolling down slopes."},
+      {c:"He muttered 'And yet it moves' after recanting.", lab:"myth", t:"The phrase 'Eppur si muove' first appears in print in 1757, more than a century later. A painting carrying the words, once dated to the 1640s, is now doubted. Saying it in front of the Inquisition would have been suicidal."},
+      {c:"He invented the telescope.", lab:"myth", t:"Dutch spectacle-makers made the first ones in 1608. He greatly improved it and was the first to use it to make major discoveries in astronomy."},
+      {c:"He was tortured and thrown into a dungeon.", lab:"myth", t:"He was threatened with torture, as procedure required, but not tortured. He was held in comfortable rooms during the trial and then under house arrest."},
+      {c:"He was the first to say the Earth goes round the Sun.", lab:"myth", t:"Copernicus published that in 1543, and the Greek astronomer Aristarchus had proposed it around 270 BC. Galileo provided strong new evidence and championed it."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Galileo Galilei, The Sidereal Messenger (Sidereus Nuncius, 1610), translated by Edward Stafford Carlos (1880), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/46036"},
+      {n:"Galileo Galilei, Dialogues Concerning Two New Sciences (1638), translated by Henry Crew and Alfonso de Salvio (1914), Internet Archive (public domain)", u:"https://archive.org/details/dialoguesconcern00gali_0"},
+      {n:"The sentence and abjuration of 1633, in the trial documents, public domain"},
+      {n:"Further reading: Dava Sobel, Galileo's Daughter (1999)"},
+      {n:"Further reading: J. L. Heilbron, Galileo (2010)"}
+    ]}
+  ]
+},
+
+"newton": {
+  hero: "",
+  kw: ["Isaac Newton","gravity","apple@myths","Principia","laws of motion","calculus","Leibniz@people","Opticks","prism","reflecting telescope","Royal Mint","Royal Society","Woolsthorpe","Cambridge","plague","alchemy","Halley","Hooke","standing on the shoulders of giants@myths"],
+  lede: "A farmer's son who, in two plague years at home, began calculus, the theory of colours and the idea of universal gravitation. His Principia explained the motions of the planets and the tides with one set of laws.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Isaac Newton was born on Christmas Day 1642 (by the old English calendar) at Woolsthorpe in Lincolnshire. He studied and then taught at Trinity College, Cambridge, for over 30 years.",
+      "He discovered that white light is made of colours, built the first practical reflecting telescope, invented calculus (as did Leibniz, separately), and in his Principia (1687) set out the three laws of motion and the law of universal gravitation.",
+      "Later he ran the Royal Mint in London, hunted down counterfeiters, and was President of the Royal Society. He also spent decades on alchemy and Bible prophecy. He died in 1727 and was buried in Westminster Abbey."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His father, a farmer who could not sign his name, died three months before he was born. Born early, he was so small that his mother said he could have fitted into a quart pot.",
+      "When he was three his mother remarried and left him with his grandmother. He resented it bitterly; in a list of his sins, written at 19, he confessed to 'threatening my father and mother Smith to burn them and the house over them'.",
+      "At King's School in Grantham he built model windmills, water clocks and sundials. His mother took him out to run the farm, which he was hopeless at, and his schoolmaster persuaded her to send him to Cambridge in 1661."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      {t:"The plague years, 1665 to 1667. When plague closed Cambridge, he went home to Woolsthorpe. There, in his early twenties, he worked out the basics of calculus, experimented with prisms, and began thinking about gravity reaching to the Moon. He later called it 'the prime of my age for invention'.", lab:"likely", why:"His notebooks from those years survive. The way he later described them, as a single burst of genius, was partly shaped in old age during his quarrel with Leibniz."},
+      "Lucasian professor, 1669. At 26 he became professor of mathematics at Cambridge. In 1668 he had built a reflecting telescope, using a mirror instead of lenses; it got him elected to the Royal Society in 1672.",
+      "Light and colour, 1672. His paper showing that white light splits into a spectrum of colours, and that the colours do not change when split again, sparked bitter arguments with Robert Hooke.",
+      "Halley's question, 1684. The astronomer Edmond Halley visited him to ask what path a planet would follow if pulled by a force falling off with the square of the distance. Newton said at once: an ellipse. He had worked it out but lost the paper. Halley urged him to write it up.",
+      "Principia, 1687. Three years later came the Philosophiae Naturalis Principia Mathematica, 'Mathematical Principles of Natural Philosophy', paid for by Halley. It explained planetary orbits, the tides, the paths of comets and the motion of falling objects with the same laws.",
+      "London and the Mint, 1696 to 1727. He became Warden, then Master, of the Royal Mint, oversaw the recoinage of England's money, and personally pursued counterfeiters, some of whom were hanged. He was President of the Royal Society from 1703 and was knighted in 1705."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "The three laws of motion: an object keeps moving at a steady speed unless a force acts; force equals mass times acceleration; every action has an equal and opposite reaction.",
+      "Universal gravitation: every mass attracts every other with a force proportional to their masses and falling off with the square of the distance between them.",
+      "Calculus, which he called fluxions, the mathematics of change, used today in every branch of science and engineering.",
+      "Opticks (1704): experiments on light and colour, and questions about the nature of light that guided physics for a century.",
+      {t:"He also wrote over a million words on alchemy and on the prophecies of Daniel and Revelation, and privately rejected the doctrine of the Trinity, which could have cost him his post.", lab:"verified", why:"His manuscripts, sold at auction in 1936, are now largely digitised by the Newton Project and Cambridge University Library."}
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Edmond Halley (1656 to 1742), who coaxed the Principia out of him and used his laws to predict the return of the comet named after him.",
+      "Robert Hooke (1635 to 1703), brilliant rival who claimed credit for the inverse-square law. Newton struck references to him from the Principia.",
+      {t:"Gottfried Wilhelm Leibniz (1646 to 1716), who invented calculus independently and published first, in 1684. The Royal Society, under Newton's presidency, issued a report in 1712 accusing Leibniz of plagiarism; Newton secretly wrote much of it.", lab:"verified", why:"Newton's drafts of the report survive. Historians now agree both men invented calculus independently."},
+      "Catherine Barton, his niece, who kept house for him in London and was admired by Voltaire and Jonathan Swift."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "He was born during the English Civil War and lived through the Great Plague (1665), the Great Fire of London (1666) and the Glorious Revolution of 1688, when he briefly sat in Parliament.",
+      "In China, the Kangxi Emperor, who reigned from 1661 to 1722, was learning Western mathematics from Jesuit teachers.",
+      "Bach and Handel were born in 1685, two years before the Principia."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "Newtonian mechanics remained the foundation of physics for over 200 years and still works for almost every everyday purpose, from bridges to spaceflight. Einstein's relativity refined it at very high speeds and strong gravity.",
+      {t:"The poet Alexander Pope wrote his epitaph: 'Nature and Nature's laws lay hid in night: God said, Let Newton be! and all was light.'", lab:"verified", why:"Pope's epitaph, written about 1730."},
+      "The unit of force, the newton, is named after him."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"An apple fell on his head.", lab:"myth", t:"He did tell friends in old age that seeing an apple fall in the garden at Woolsthorpe set him thinking about gravity, as his friend William Stukeley recorded. Nobody says it hit him on the head."},
+      {c:"'If I have seen further it is by standing on the shoulders of giants' was a humble tribute.", lab:"disputed", t:"He wrote it in a letter to Hooke of February 1676 (dated 1675 in the old calendar). The phrase was already old, from Bernard of Chartres in the 12th century. Some historians read it as a sly dig at Hooke, who was short; others think it was sincere."},
+      {c:"He discovered gravity.", lab:"myth", t:"People always knew things fall. He discovered that the same force holds the Moon and planets in orbit, and gave its mathematical law."},
+      {c:"He went mad from mercury poisoning.", lab:"disputed", t:"He had a breakdown in 1693, and tests on his hair in the 1970s found high mercury, from alchemy. Whether mercury caused the breakdown, or overwork and stress did, is debated."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Isaac Newton, Philosophiae Naturalis Principia Mathematica (Latin, 1687 and later editions), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/28233"},
+      {n:"Isaac Newton, Opticks (1704, 4th edition 1730), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/33504"},
+      {n:"The Newton Project, University of Oxford: his manuscripts transcribed (free to read)", u:"https://www.newtonproject.ox.ac.uk"},
+      {n:"William Stukeley, Memoirs of Sir Isaac Newton's Life (1752), public domain"},
+      {n:"Further reading: Richard S. Westfall, Never at Rest (1980)"},
+      {n:"Further reading: James Gleick, Isaac Newton (2003)"}
+    ]}
+  ]
+},
+
+"einstein": {
+  hero: "",
+  kw: ["relativity","E=mc2","E = mc²","special relativity","general relativity","photoelectric effect","Nobel","patent office","Bern","miracle year","annus mirabilis","Mileva Marić","Princeton","Roosevelt letter@turns","atomic bomb@myths","eclipse 1919","quantum","failed maths@myths","brain"],
+  lede: "A patent clerk who, in one year, explained light as particles, proved atoms exist and rewrote space and time. Ten years later his theory of gravity bent starlight, and he became the most famous scientist on Earth.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Albert Einstein was born in Ulm, Germany, in 1879 and grew up in Munich. Unable to find an academic post, he worked at the Swiss patent office in Bern.",
+      "In 1905, his 'miracle year', he published four papers: on light quanta, on Brownian motion, on special relativity, and the one with E = mc². In 1915 he completed general relativity, a new theory of gravity as curved space-time. He won the 1921 Nobel Prize in Physics.",
+      "A Jew and a pacifist, he left Germany when the Nazis came to power in 1933 and settled at Princeton in the United States. He warned President Roosevelt in 1939 that Germany might build an atomic bomb. He died in 1955."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "He was born on 14 March 1879 into a non-observant Jewish family. His father and uncle ran an electrical firm.",
+      {t:"At about five he was fascinated by a compass his father showed him: something invisible was moving the needle. At 12 he devoured a geometry book he called his 'holy little geometry book'.", lab:"verified", why:"Both are in his 'Autobiographical Notes' (1949)."},
+      "He disliked the drill of German schools and left his Munich school at 15 without a diploma, joining his family in Italy. He finished school in Aarau, Switzerland, and studied physics at the Zurich Polytechnic, graduating in 1900.",
+      "There he met Mileva Marić, the only woman in his class. They had a daughter, Lieserl, in 1902, before marrying; what happened to her is unknown. They married in 1903 and had two sons."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "The patent office, 1902 to 1909. As a 'technical expert, third class', he examined inventions and thought about physics in his spare time, discussing it with friends who called themselves the Olympia Academy.",
+      "The miracle year, 1905. He proposed that light comes in packets (quanta), which explained the photoelectric effect; showed how the jiggling of pollen grains proves atoms exist; published special relativity, in which the speed of light is the same for everyone and time and space depend on how you move; and derived that mass and energy are equivalent, E = mc².",
+      "Professor, 1909 to 1914. He held posts in Zurich and Prague, and in 1914 moved to Berlin. His marriage broke down; he later married his cousin Elsa.",
+      "General relativity, 1915. After years of struggle he presented the field equations of general relativity in November 1915, describing gravity as the curving of space and time by mass and energy.",
+      "The eclipse, 1919. British expeditions led by Arthur Eddington measured starlight bending around the Sun during a solar eclipse, as he predicted. The Times headline 'Revolution in Science' made him world-famous overnight.",
+      {t:"The Nobel Prize, 1921 (awarded 1922). He won 'for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect', not for relativity, which the committee still found too controversial.", lab:"verified", why:"The Nobel Foundation's official citation."},
+      "Exile, 1933. When Hitler came to power he was in the United States. He never returned to Germany, renounced his membership of the Prussian Academy, and joined the Institute for Advanced Study in Princeton. Nazi students burned books including his.",
+      {t:"The letter, 1939. A letter signed by Einstein, drafted with the physicist Leo Szilard, warned President Roosevelt that Germany might build a uranium bomb and urged American research. It helped lead to the Manhattan Project.", lab:"verified", why:"The letter, dated 2 August 1939, is held by the Franklin D. Roosevelt Presidential Library."},
+      "Last years. He spent decades seeking a unified field theory, without success, campaigned for nuclear disarmament and civil rights, and declined an offer in 1952 to become President of Israel. He died in Princeton on 18 April 1955, aged 76."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "Special relativity (1905): moving clocks run slow, moving objects shrink in length, and nothing goes faster than light.",
+      "E = mc²: a small amount of mass holds an enormous amount of energy. It explains how the Sun shines.",
+      "General relativity (1915): gravity is the curvature of space-time. It predicted the bending of light, black holes, and gravitational waves, which were first detected in 2015.",
+      "Quantum theory: his light quanta helped found it, though he never accepted its randomness, famously objecting that God 'does not play dice'."
+    ]},
+    {k:"people", h:"His people", ps:[
+      {t:"Mileva Marić (1875 to 1948), his first wife and fellow student, a physicist. When they divorced in 1919 he promised her the money from any future Nobel Prize, and the money did go to her and their sons, though partly through investments.", lab:"verified", why:"The divorce agreement and later transfers are documented in the Collected Papers of Albert Einstein."},
+      "Elsa Einstein (1876 to 1936), his cousin and second wife, who managed his fame.",
+      "Michele Besso, his closest friend and sounding board at the patent office, the only person thanked in the 1905 relativity paper.",
+      "Niels Bohr (1885 to 1962), his great friend and opponent in the decades-long debate over quantum mechanics."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "He was born the year Edison demonstrated his light bulb, and died the year the first nuclear power stations were being built.",
+      "He lived through both world wars, the rise of Nazism and the start of the Cold War. Many of his relatives who stayed in Europe were murdered in the Holocaust.",
+      "Marie Curie was a friend; they took a hiking holiday together in the Swiss Alps in 1913 with their children."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "Relativity underpins modern astronomy and cosmology, and GPS satellites must correct their clocks for both special and general relativity to work.",
+      "Time magazine named him Person of the Century in 1999.",
+      {t:"After his death the pathologist Thomas Harvey removed his brain without the family's prior permission and kept it for decades. Studies of it have found little that is clearly meaningful.", lab:"verified", why:"Harvey later received his son's approval. Several studies have been published since 1985; their findings are disputed."}
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He failed maths at school.", lab:"myth", t:"He excelled at maths and had mastered calculus by about 15. The myth may come from a Swiss grading scale where 6 was best, or from his failing the general part of the Polytechnic entrance exam at 16, though he did very well in maths and physics."},
+      {c:"He helped build the atomic bomb.", lab:"myth", t:"He signed the 1939 letter but was not part of the Manhattan Project; he was refused a security clearance. He later said signing the letter was 'one great mistake' of his life."},
+      {c:"He said 'Insanity is doing the same thing over and over and expecting different results.'", lab:"myth", t:"There is no evidence he said it. It first appears in the 1980s, in recovery-group literature."},
+      {c:"Mileva Marić secretly did the work for relativity.", lab:"disputed", t:"Their early letters show they discussed physics together, and some writers argue she contributed. Most historians find no evidence she co-authored the 1905 papers."},
+      {c:"He was a poor student who could not speak until late.", lab:"disputed", t:"He did start talking late, as his family recalled. He was not a poor student, just impatient with rote learning."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Albert Einstein, Relativity: The Special and General Theory, translated by Robert W. Lawson (1920), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/5001"},
+      {n:"The Collected Papers of Albert Einstein, Digital Einstein Papers, Princeton University Press and Caltech ", u:"https://einsteinpapers.press.princeton.edu"},
+      {n:"Einstein to F. D. Roosevelt, 2 August 1939, Franklin D. Roosevelt Presidential Library"},
+      {n:"The Nobel Prize in Physics 1921, Nobel Foundation", u:"https://www.nobelprize.org/prizes/physics/1921/einstein/facts/"},
+      {n:"Further reading: Walter Isaacson, Einstein: His Life and Universe (2007)"},
+      {n:"Further reading: Abraham Pais, 'Subtle is the Lord...': The Science and the Life of Albert Einstein (1982)"}
+    ]}
+  ]
+},
+
+"elizabeth-i": {
+  hero: "",
+  kw: ["Virgin Queen","Gloriana","Tudor","Anne Boleyn","Henry VIII","Mary I","Mary, Queen of Scots","Spanish Armada","Armada","Tilbury","heart and stomach of a king","Drake","Raleigh","Dudley","Walsingham","Cecil","Elizabethan","Golden Age","Essex"],
+  lede: "A princess declared illegitimate at two, imprisoned in the Tower as a young woman, who became queen at 25, never married, survived plots and an invasion, and ruled England for 44 years.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Elizabeth was born in 1533, the daughter of Henry VIII and his second wife, Anne Boleyn, who was beheaded when Elizabeth was two. She became queen in 1558 after the deaths of her half-brother Edward VI and half-sister Mary I.",
+      "She restored a moderate Protestant Church of England, kept her country mostly at peace for decades, and refused every offer of marriage. In 1588 her navy and the weather defeated the Spanish Armada.",
+      "Her reign saw Shakespeare, Marlowe and Spenser, and the first English voyages around the world. It also saw harsh persecution of Catholics, the execution of her cousin Mary, Queen of Scots, and the brutal conquest of Ireland. She died in 1603, the last of the Tudors."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "She was born on 7 September 1533 at Greenwich Palace. Henry VIII had broken with the Pope to marry her mother, hoping for a son. In May 1536 Anne Boleyn was executed on charges of adultery and treason that most historians think were invented.",
+      "Declared illegitimate, she was still raised as a royal child and given an excellent education. She learned Latin, Greek, French and Italian, and her tutor Roger Ascham praised her quick mind.",
+      "Under her Catholic half-sister Mary I, she was suspected of involvement in Wyatt's rebellion of 1554 and held in the Tower of London for two months, then under house arrest. She expected to be executed."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Queen, 1558. Mary died on 17 November 1558. Elizabeth was 25. She chose William Cecil as her chief adviser; he served her for 40 years.",
+      "The religious settlement, 1559. Parliament made her Supreme Governor of a Protestant Church of England, with a prayer book and some traditional forms that many Catholics could accept.",
+      "Marriage question, 1560s to 1580s. Parliament begged her to marry and produce an heir. Suitors included Philip II of Spain, Archduke Charles of Austria and the French Duke of Anjou. Her favourite was Robert Dudley, Earl of Leicester; when his wife Amy Robsart died after a fall down stairs in 1560, the scandal ended any hope of marrying him.",
+      "Excommunication, 1570. Pope Pius V declared her a heretic and released Catholics from obeying her. Catholic priests became suspected traitors, and about 180 Catholics were executed during her reign.",
+      "Mary, Queen of Scots, 1568 to 1587. Her Catholic cousin, who had a strong claim to succeed her, fled Scotland to England in 1568 and was held captive for 19 years, the focus of plots to kill Elizabeth. After the Babington plot was uncovered by the spymaster Francis Walsingham, Mary was tried and beheaded in February 1587. Elizabeth claimed the warrant had been sent against her wishes.",
+      {t:"The Armada, 1588. Philip II sent about 130 ships to escort an invasion army from the Netherlands. English fireships broke their formation off Calais, and storms wrecked many ships as they fled round Scotland and Ireland. At Tilbury, Elizabeth told her troops: 'I know I have the body but of a weak and feeble woman; but I have the heart and stomach of a king, and of a king of England too.'", lab:"likely", why:"The speech survives in a version written down by Leonel Sharp, who was there, in a letter of 1623 or later. Historians mostly accept its substance."},
+      "Last years, 1590s to 1603. War with Spain dragged on, harvests failed, and the conquest of Ireland grew bloodier. Her last favourite, the Earl of Essex, led a failed rebellion in 1601 and was executed. She died on 24 March 1603, aged 69, and was succeeded by Mary's son, James VI of Scotland."
+    ]},
+    {k:"works", h:"What she did", ps:[
+      "She held England together through religious conflict that tore apart France and the Netherlands, though at a heavy cost to Catholics and to Ireland.",
+      "She managed her image carefully: portraits, progresses through the country, and the cult of the Virgin Queen, Gloriana, married to her kingdom.",
+      "She backed privateers such as Francis Drake, who sailed round the world from 1577 to 1580 and raided Spanish treasure, and allowed early ventures in North America. Walter Raleigh named Virginia after her.",
+      "She also profited from and licensed John Hawkins's slave-trading voyages of the 1560s, England's first involvement in the Atlantic slave trade.",
+      "Her famous 'Golden Speech' to Parliament in 1601 told them: 'Though God hath raised me high, yet this I count the glory of my crown, that I have reigned with your loves.'"
+    ]},
+    {k:"people", h:"Her people", ps:[
+      "William Cecil, Lord Burghley (1520 to 1598), her chief minister for 40 years.",
+      "Robert Dudley, Earl of Leicester (1532 to 1588), her lifelong favourite. She kept his last letter to her in a box by her bed, marked 'his last letter'.",
+      "Francis Walsingham (about 1532 to 1590), her spymaster, who ran agents across Europe and cracked the codes in the Babington plot.",
+      "Mary, Queen of Scots (1542 to 1587), her cousin, rival and prisoner, whom she never met."
+    ]},
+    {k:"world", h:"The world around her", ps:[
+      "Shakespeare wrote most of his plays in her reign; his company performed before her at court.",
+      "In India, Akbar was ruling the Mughal Empire (1556 to 1605), almost exactly her years. In Japan, Tokugawa Ieyasu won the battle of Sekigahara in 1600.",
+      "The East India Company was founded by her charter on 31 December 1600."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "Her reign is remembered as England's Golden Age, a story first built by Protestant writers after her death and still powerful today.",
+      "She showed that a woman could rule alone, at a time when many, including the Scottish preacher John Knox, wrote that female rule was against nature.",
+      "Historians now also stress the darker side: religious persecution, poverty in the 1590s, and the devastation of Ireland."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"She was a virgin all her life.", lab:"disputed", t:"Nobody can know. She called herself a virgin, and enemies spread rumours about Dudley. There is no evidence either way."},
+      {c:"Walter Raleigh laid his cloak over a puddle for her.", lab:"myth", t:"The story first appears in Thomas Fuller's History of the Worthies of England in 1662, nearly 60 years after her death."},
+      {c:"She wore white lead make-up to hide smallpox scars.", lab:"likely", t:"She had smallpox in 1562, and white lead-based make-up was fashionable at court. That she used it heavily to hide scars is plausible but based on later accounts."},
+      {c:"The Armada was destroyed by the English navy alone.", lab:"myth", t:"English ships and fireships disrupted it, but most Spanish losses came from storms and shipwrecks on the voyage home. A medal struck in the Netherlands read 'God blew, and they were scattered.'"}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Elizabeth I, speeches and letters, including the Tilbury speech (1588) and the Golden Speech (1601), public domain"},
+      {n:"William Camden, Annales: The True and Royall History of the Famous Empresse Elizabeth (1615, English 1625), public domain"},
+      {n:"The National Archives, Kew: Elizabethan state papers (free catalogue)", u:"https://www.nationalarchives.gov.uk"},
+      {n:"Further reading: Anne Somerset, Elizabeth I (1991)"},
+      {n:"Further reading: John Guy, Elizabeth: The Forgotten Years (2016)"}
+    ]}
+  ]
+},
+
+"michelangelo": {
+  hero: "",
+  kw: ["Buonarroti","David","Pietà","Pieta","Sistine Chapel","ceiling","Last Judgment","Creation of Adam","Moses@works","St Peter's","dome","Julius II","Medici","Lorenzo","Florence","Rome","Vasari","Condivi","sonnets","Vittoria Colonna","Raphael","Leonardo@people"],
+  lede: "A sculptor who said he was not a painter, painted the Sistine Chapel ceiling anyway, carved David from a block others had abandoned, and was still designing the dome of St Peter's at 88.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Michelangelo Buonarroti was born in 1475 near Arezzo, in the Republic of Florence, and trained in Florence. He considered himself above all a sculptor, though he was also a painter, architect and poet.",
+      "His Pietà in St Peter's (finished about 1499) and his David in Florence (1501 to 1504) made him famous before he was 30. For Pope Julius II he painted the ceiling of the Sistine Chapel from 1508 to 1512, and decades later the Last Judgment on its altar wall.",
+      "He worked for seven popes, lived mostly in Rome from 1534, and died there in 1564, aged 88, as chief architect of the new St Peter's Basilica."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "He was born on 6 March 1475 at Caprese. His father, Ludovico, was briefly the town's magistrate. His mother died when he was six.",
+      {t:"As a baby he was put out to nurse with a stonecutter's wife in Settignano. He later joked that he had drawn in the hammer and chisel with his nurse's milk.", lab:"likely", why:"Vasari reports the remark in his Lives (1568). He knew Michelangelo personally, but the line may be polished."},
+      "At 13 he was apprenticed to the painter Domenico Ghirlandaio. Soon after, he joined the sculpture school in Lorenzo de' Medici's garden, and lived in the Medici household, eating at Lorenzo's table with poets and philosophers.",
+      {t:"A fellow student, Pietro Torrigiano, punched him in the face during an argument and broke his nose, leaving it flattened for life.", lab:"verified", why:"Torrigiano boasted of it himself to Benvenuto Cellini, who recorded it in his autobiography."}
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "The Pietà, 1498 to 1499. In Rome, aged about 23, he carved Mary holding the dead Christ across her lap, for a French cardinal's tomb. It is the only work he ever signed, on the strap across Mary's chest.",
+      "David, 1501 to 1504. Back in Florence, he was given a tall block of marble that two other sculptors had started on and abandoned decades before. From it he carved a 5-metre David, shown before his fight with Goliath. The city set it outside the town hall as a symbol of the Republic.",
+      "Julius II's tomb, from 1505. The warrior Pope Julius II commissioned a huge tomb with 40 statues. Funding was cut, the project shrank over 40 years, and his biographer Condivi called it 'the tragedy of the tomb'. Its best-known figure is his Moses, now in San Pietro in Vincoli in Rome.",
+      "The Sistine ceiling, 1508 to 1512. Julius then made him paint the chapel ceiling, about 500 square metres, though he protested he was a sculptor. He covered it with the Creation, the story of Noah, prophets and sibyls, including the Creation of Adam, working with assistants on a scaffold he designed.",
+      "Florence and the Medici, 1516 to 1534. He designed the Medici Chapel and its tombs, and the Laurentian Library. During the siege of Florence in 1529 to 1530 he designed its fortifications for the Republic against the Medici, then went into hiding when they won.",
+      "The Last Judgment, 1536 to 1541. Settled in Rome for good, he painted the altar wall of the Sistine Chapel with a vast, swirling Last Judgment. Its many nude figures scandalised some churchmen; after his death another painter, Daniele da Volterra, added drapery and was nicknamed 'the breeches maker'.",
+      "St Peter's, 1546 to 1564. At 71 he became chief architect of the new St Peter's Basilica and redesigned it, including its great dome, finished after his death. He refused payment, saying he worked for the love of God. He died on 18 February 1564."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "Sculpture: the Pietà, David, Moses, the Medici tombs, the unfinished 'Prisoners' or 'Slaves' who seem to struggle out of the stone, and the Rondanini Pietà he was carving days before he died.",
+      "Painting: the Sistine ceiling and the Last Judgment, the Doni Tondo, and the frescoes of the Pauline Chapel.",
+      "Architecture: the Medici Chapel, the Laurentian Library, the Campidoglio square in Rome and the dome of St Peter's.",
+      "Poetry: about 300 poems and sonnets survive, many to the nobleman Tommaso dei Cavalieri and to the poet Vittoria Colonna."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Lorenzo de' Medici (1449 to 1492), the Florentine ruler who took him into his household as a teenager.",
+      "Pope Julius II (1443 to 1513), his most demanding patron, with whom he quarrelled, fled and reconciled.",
+      {t:"Leonardo da Vinci, 23 years older, his rival. In 1503 and 1504 Florence commissioned both to paint battle scenes in the same council hall; neither was finished. Their contemporaries reported open scorn between them.", lab:"likely", why:"The commissions are documented. The insults come from an anonymous early biography (the Anonimo Gaddiano)."},
+      "Vittoria Colonna (1490 to 1547), poet and religious reformer, his close friend in later life, to whom he wrote some of his finest poems."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "He was 17 when Columbus reached the Americas and 42 when Luther posted his theses in 1517. Rome was sacked by imperial troops in 1527.",
+      "Raphael painted the School of Athens next door in the Vatican while Michelangelo was on the Sistine scaffold. In it, the brooding figure of Heraclitus is often thought to be a portrait of Michelangelo.",
+      "He died in the year Shakespeare and Galileo were born."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "He was the first artist to have two biographies published in his lifetime, by Giorgio Vasari (1550) and Ascanio Condivi (1553). Contemporaries called him 'il Divino', the divine one.",
+      "His muscular, twisting figures shaped Mannerist and Baroque art, and later sculptors such as Rodin.",
+      "The Sistine Chapel, restored from 1980 to 1994, is visited by millions every year; the restoration revealed bright colours under centuries of grime."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He painted the Sistine ceiling lying on his back.", lab:"myth", t:"He painted standing up, bending backwards, on a scaffold he designed. He wrote a comic poem about the pain in his neck and back, with a sketch of himself reaching up."},
+      {c:"He worked entirely alone.", lab:"myth", t:"He had assistants to grind colours, plaster and transfer drawings, though he painted most of the figures himself and dismissed many helpers."},
+      {c:"He hit the knee of his Moses and said 'Why don't you speak?'", lab:"myth", t:"A charming legend with no source from his time."},
+      {c:"His Pietà was mistaken for another sculptor's work, so he carved his name on it.", lab:"likely", t:"Vasari tells this story. The signature is real; the reason he gives is plausible but unconfirmed."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Ascanio Condivi, The Life of Michelagnolo Buonarroti (1553), translated by Charles Holroyd (1903), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/19332"},
+      {n:"Giorgio Vasari, Lives of the Most Excellent Painters, Sculptors and Architects (1568), translated by Gaston du C. de Vere (1912 to 1915), public domain"},
+      {n:"The Sonnets of Michael Angelo Buonarroti, translated by John Addington Symonds (1878), public domain"},
+      {n:"Vatican Museums: the Sistine Chapel", u:"https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/cappella-sistina/tour-virtuale.html"},
+      {n:"Further reading: William E. Wallace, Michelangelo: The Artist, the Man, and His Times (2010)"}
+    ]}
+  ]
+},
+
+"akbar": {
+  hero: "",
+  kw: ["Mughal","Jalal-ud-din","Humayun","Babur","Bairam Khan","Panipat","Fatehpur Sikri","Agra","Ibadat Khana","Din-i Ilahi","sulh-i kull","jizya","Birbal@myths","Tansen","Abu'l Fazl","Akbarnama","Rajputs","Jodha@myths","Chittor","mansabdari"],
+  lede: "A boy who became emperor at thirteen and never learned to read, yet built the Mughal Empire across most of northern India, hosted debates between religions, and abolished the tax on non-Muslims.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Jalal-ud-din Muhammad Akbar was born in 1542 in Umerkot, in Sindh, while his father, the Mughal emperor Humayun, was in flight from his enemies. He came to the throne in 1556, aged 13.",
+      "Over nearly 50 years he expanded the Mughal Empire from a shaky foothold around Delhi and Agra to most of the Indian subcontinent north of the Godavari river, and built an administration that lasted for generations.",
+      "A Muslim ruler of a mostly Hindu land, he married Rajput princesses, gave Hindus high office, abolished the jizya tax on non-Muslims and promoted a policy of 'peace with all'. He died in 1605."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His grandfather Babur, from Central Asia, descended from Timur and Genghis Khan, had founded the Mughal dynasty in India in 1526. His father Humayun lost the empire to the Afghan Sher Shah Suri in 1540 and spent 15 years in exile.",
+      "Akbar was born on 15 October 1542. As a toddler he was captured by his uncle Kamran, Humayun's rival brother, and is said to have been exposed on the walls of Kabul during a siege.",
+      {t:"He never learned to read or write, though he had a huge library read to him and an astonishing memory.", lab:"likely", why:"Contemporary accounts, including Jesuit visitors, say so. Some historians think he may have had dyslexia; that is a modern guess."}
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Emperor, 1556. Humayun reconquered Delhi in 1555, then died months later after falling down the stairs of his library. Akbar, 13, was proclaimed emperor, with the general Bairam Khan as regent.",
+      "Panipat, 1556. At the second battle of Panipat, the Mughals defeated Hemu, a Hindu general who had taken Delhi. Hemu was hit in the eye by an arrow, captured and beheaded.",
+      "Ruling alone, 1560. At 17 Akbar dismissed Bairam Khan and took power himself.",
+      "The Rajputs, 1562 onwards. He married a princess of Amber (Jaipur), daughter of Raja Bharmal, and brought Rajput rulers into the empire as allies and generals. Those who resisted were crushed.",
+      {t:"At Chittor in 1568, after a long siege, he ordered a massacre; his own court historian put the dead at about 30,000.", lab:"likely", why:"The figure is from the Akbarnama. Modern historians accept a massacre but cannot check the number."},
+      "Abolishing the jizya, 1564. He ended the tax paid by non-Muslims, and also the tax on Hindu pilgrims.",
+      "Fatehpur Sikri, 1571 to 1585. He built a new red sandstone capital near the shrine of the Sufi saint Salim Chishti, who had foretold the birth of his heir. It was abandoned after about 15 years.",
+      {t:"The House of Worship, from 1575. In the Ibadat Khana at Fatehpur Sikri he held debates between Sunni and Shia scholars, Hindus, Jains, Zoroastrians and Jesuit priests from Goa.", lab:"verified", why:"Described by Abu'l Fazl and by the Jesuit Antonio Monserrate, who took part."},
+      "Expansion, 1572 to 1601. He conquered Gujarat, Bengal, Kashmir, Sindh and parts of the Deccan.",
+      "Death, 1605. His last years were troubled by his son Salim's rebellion. Akbar died in Agra on 27 October 1605. Salim succeeded him as Jahangir."
+    ]},
+    {k:"works", h:"What he did", ps:[
+      "The mansabdari system ranked every officer by the number of horsemen he had to supply, and paid them in revenue or salary, with promotions decided by the emperor. It held the empire together.",
+      "His finance minister Raja Todar Mal surveyed the land and set taxes based on average crops and prices over ten years.",
+      "Sulh-i kull, 'peace with all': a policy of tolerance between religions, though rebellion was punished harshly.",
+      {t:"In 1582 he promoted a set of spiritual practices for a small circle of courtiers, later called Din-i Ilahi, 'divine faith'.", lab:"disputed", why:"Critics such as the courtier Badauni said he founded a new religion. Most historians now see it as a discipleship order of loyal nobles rather than a religion."},
+      "He was a great patron: painting workshops illustrated the Hamzanama in about 1,400 large paintings, the Mahabharata was translated into Persian, and the singer Tansen performed at his court."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Bairam Khan, his guardian and regent, dismissed in 1560 and murdered on the way to Mecca.",
+      "Abu'l Fazl (1551 to 1602), his friend and historian, author of the Akbarnama, killed in an ambush arranged by Prince Salim.",
+      "Raja Man Singh of Amber, a Rajput general who led Mughal armies across India.",
+      "Mariam-uz-Zamani, his Rajput wife from Amber and mother of Jahangir."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Elizabeth I reigned in England from 1558 to 1603, almost exactly his years. Shah Abbas the Great ruled Persia, and the Ottoman Empire under Suleiman the Magnificent was at its height when he was young.",
+      "Portuguese traders controlled Goa and much of India's sea trade. The English East India Company was chartered in 1600, five years before his death.",
+      "In Japan, Hideyoshi and then Tokugawa Ieyasu were unifying the country."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "His grandson Shah Jahan built the Taj Mahal, and the empire he built lasted, in some form, until 1857.",
+      "He is remembered in India as a model of tolerance, and is one of only a few rulers to be called 'the Great'. Critics point to his massacres and to how much power stayed with a Muslim and Rajput elite.",
+      "His tomb at Sikandra, near Agra, which he began himself, is one of the great Mughal monuments."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"Jodha Bai was his beloved Rajput queen.", lab:"myth", t:"His Rajput wife from Amber is called Mariam-uz-Zamani in Mughal records. The name 'Jodha Bai' was attached to her by later writers, notably James Tod in 1829, and was popularised by films."},
+      {c:"Birbal outwitted him in funny stories.", lab:"myth", t:"Birbal was a real courtier and friend, killed in battle in 1586. The witty 'Akbar and Birbal' tales are folklore collected much later."},
+      {c:"He founded a new religion that many followed.", lab:"disputed", t:"Din-i Ilahi had only about 18 known members and disappeared after his death. Many historians doubt it was meant as a religion."},
+      {c:"He was illiterate, so he was uneducated.", lab:"myth", t:"He could not read, but he was deeply learned through listening, debated theology and philosophy, and knew poetry by heart."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Abu'l Fazl, The Akbarnama, volume 2, translated by Henry Beveridge, Digital Library of India via Internet Archive (public domain)", u:"https://archive.org/details/in.ernet.dli.2015.82733"},
+      {n:"Abu'l Fazl, The Ain-i-Akbari, translated by H. Blochmann and H. S. Jarrett (1873 to 1894), public domain"},
+      {n:"Antonio Monserrate, The Commentary of Father Monserrate on His Journey to the Court of Akbar, translated by J. S. Hoyland (1922), public domain"},
+      {n:"Further reading: Abraham Eraly, The Mughal Throne (2003)"},
+      {n:"Further reading: Ira Mukhoty, Akbar: The Great Mughal (2020)"}
+    ]}
+  ]
+},
+
+"kahlo": {
+  hero: "",
+  kw: ["Frida","Diego Rivera","Casa Azul","Blue House","Coyoacán","self-portrait","The Two Fridas","bus accident","polio","Trotsky@people","Surrealism@myths","Tehuana","unibrow","Louvre","Mexican Revolution","The Broken Column"],
+  lede: "A teenager crushed in a bus accident who taught herself to paint in a body cast, married Mexico's most famous muralist twice, and made unflinching self-portraits that turned her into a global icon long after her death.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Magdalena Carmen Frida Kahlo y Calderón was born in 1907 in Coyoacán, then a village outside Mexico City, in the house her family painted blue, the Casa Azul.",
+      "Polio as a child and a terrible bus accident at 18 left her in pain for life. She began painting while bedridden and made about 200 works, around a third of them self-portraits, about her body, her marriage, her Mexican identity and her suffering.",
+      "She married the muralist Diego Rivera in 1929, divorced him in 1939 and remarried him in 1940. She had her first solo show in Mexico only in 1953, the year before her death at 47. Since the 1980s she has become one of the best-known artists in the world."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      {t:"She was born on 6 July 1907, but later gave her birth year as 1910, the year the Mexican Revolution began, to tie herself to modern Mexico.", lab:"verified", why:"Her birth certificate gives 1907. She herself told the story of choosing 1910."},
+      "Her father, Guillermo Kahlo, was a German-born photographer; her mother, Matilde Calderón, was Mexican, of Indigenous and Spanish descent.",
+      "At six she had polio, which left her right leg thinner. She wore long skirts and later traditional dresses partly to hide it.",
+      "In 1922 she was one of the first girls admitted to the elite National Preparatory School in Mexico City, and planned to study medicine."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "The accident, 17 September 1925. A wooden bus she was riding collided with a tram. A metal handrail pierced her pelvis. She broke her spine, collarbone, ribs, pelvis and right leg. She was 18.",
+      "Painting in bed, 1925 to 1926. Confined for months in a plaster corset, she painted with a mirror fixed above her bed. Her first self-portrait, in a velvet dress, was a gift to her boyfriend.",
+      "Diego Rivera, 1928 to 1929. She showed her paintings to Rivera, almost 21 years older and Mexico's most famous artist, who encouraged her. They married in August 1929. Her mother called it a marriage between an elephant and a dove.",
+      "The United States, 1930 to 1933. She went with Rivera to San Francisco, Detroit and New York, where he painted murals. In Detroit she had a miscarriage and painted Henry Ford Hospital (1932), one of her most raw works.",
+      "Paris and New York, 1938 to 1939. André Breton, leader of the Surrealists, called her art 'a ribbon around a bomb'. She had a solo show in New York in 1938, and in Paris in 1939 the French state bought her self-portrait The Frame, the first work by a 20th-century Mexican artist to enter a major European museum collection (it is now in the Centre Pompidou).",
+      "Divorce and remarriage, 1939 to 1940. Rivera had affairs, including with her sister Cristina; she had her own with men and women. They divorced in 1939, when she painted The Two Fridas, and remarried in December 1940.",
+      "Last years, 1940s to 1954. Her health worsened; she had many operations on her spine and wore steel and plaster corsets, painted in The Broken Column (1944). In 1953 her right leg was amputated below the knee. She came to her first solo show in Mexico in her bed, brought by ambulance. She died at the Casa Azul on 13 July 1954."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "Self-portraits: she said she painted herself 'because I am so often alone and because I am the subject I know best'.",
+      "The Two Fridas (1939): two versions of herself, one in European dress and one in Tehuana dress, holding hands, their hearts exposed and joined by a vein.",
+      "The Broken Column (1944): her body split open to show a crumbling stone column in place of her spine, and nails piercing her skin.",
+      "She drew on Mexican folk art, retablos (small devotional paintings on tin), pre-Columbian imagery and Catholic symbols, and dressed in Tehuana clothing from Oaxaca as a statement of Mexican identity."
+    ]},
+    {k:"people", h:"Her people", ps:[
+      "Diego Rivera (1886 to 1957), her husband, the great muralist, who called her the first woman in the history of art to treat with absolute frankness themes that affect only women.",
+      {t:"Leon Trotsky (1879 to 1940), the exiled Russian revolutionary, lived in the Casa Azul from 1937 to 1939, and they had a brief affair. He was murdered in Mexico City in 1940.", lab:"likely", why:"The stay is documented. The affair is accepted by most biographers from letters and later testimony."},
+      "Guillermo Kahlo, her father, whose photographs of her as a child and young woman are a key record of her life.",
+      "Cristina Kahlo, her younger sister, who cared for her and whose affair with Rivera hurt her deeply."
+    ]},
+    {k:"world", h:"The world around her", ps:[
+      "She grew up during the Mexican Revolution (1910 to 1920) and the cultural movement after it that celebrated Indigenous and popular Mexico.",
+      "She was a member of the Mexican Communist Party and remained politically active; her last public appearance was at a protest in 1954, in a wheelchair.",
+      "Picasso, Kandinsky and Duchamp admired her work in Paris in 1939."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "The Casa Azul has been the Frida Kahlo Museum since 1958.",
+      "After a biography by Hayden Herrera (1983) and later the film Frida (2002), she became a feminist, Mexican and LGBT icon, and her face appears on everything from posters to dolls, which critics call 'Fridamania'.",
+      "Her painting El sueño (La cama) sold in 2025 for 54.7 million US dollars, then the most ever paid at auction for a work by a woman.",
+      {t:"Her works are protected in Mexico as national artistic monuments, and their copyright there lasts until 2054. This museum does not show pictures of her paintings.", lab:"verified", why:"Mexican copyright lasts 100 years after the author's death. In countries with a 70-year term, her works entered the public domain in 2025."}
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"She was a Surrealist.", lab:"disputed", t:"Breton claimed her for Surrealism, and she showed with them. She rejected the label: 'I never painted dreams. I painted my own reality.'"},
+      {c:"She was born in 1910.", lab:"myth", t:"She was born in 1907 and chose to say 1910, the year the Revolution began."},
+      {c:"Her last diary entry was 'I hope the exit is joyful, and I hope never to return.'", lab:"verified", t:"That entry (in Spanish, 'Espero alegre la salida y espero no volver jamás'; our translation) is in her diary, written days before her death. Whether her death was accidental or not is debated; the official cause was a pulmonary embolism."},
+      {c:"She painted to express only pain.", lab:"myth", t:"Many of her works are still lifes full of fruit, portraits of friends and political images. Her last painting, a watermelon still life, is inscribed 'Viva la Vida'."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Museo Frida Kahlo (the Casa Azul), Coyoacán, Mexico City", u:"https://www.museofridakahlo.org.mx"},
+      {n:"Guillermo Kahlo's photographs of Frida (1910s to 1930s), many in the public domain"},
+      {n:"The Diary of Frida Kahlo: An Intimate Self-Portrait (published 1995; free only to cite, not to copy)"},
+      {n:"Further reading: Hayden Herrera, Frida: A Biography of Frida Kahlo (1983)"},
+      {n:"Further reading: Gannit Ankori, Frida Kahlo (2013)"}
+    ]}
+  ]
+},
+
+"tolstoy": {
+  hero: "",
+  kw: ["War and Peace","Anna Karenina","Yasnaya Polyana","Sevastopol","Sofia","Sophia Tolstaya","Christianity","non-violence","The Kingdom of God Is Within You","Gandhi@people","excommunicated","Astapovo","Death of Ivan Ilyich","Confession","peasants","Resurrection"],
+  lede: "A count who gambled and soldiered in his youth, wrote War and Peace and Anna Karenina, then turned against his own art, his wealth and the Church, and died at a railway station after running away from home at 82.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Count Lev Nikolayevich Tolstoy was born in 1828 on his family's estate, Yasnaya Polyana, south of Moscow. He served in the army in the Caucasus and the Crimean War and began writing in his twenties.",
+      "In the 1860s and 1870s he wrote War and Peace and Anna Karenina, two novels often ranked among the greatest ever written.",
+      "Around 1880 a spiritual crisis led him to a radical Christianity based on the Sermon on the Mount: non-violence, simple living, no private property. It made him a world figure, got him excommunicated by the Russian Orthodox Church, and tore his family apart. He died in 1910."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "He was born on 9 September 1828 (28 August in Russia's old calendar). His mother died when he was nearly two and his father when he was eight; relatives raised him.",
+      "He studied oriental languages and then law at Kazan University, did badly, and left without a degree in 1847 to run his estate, where he tried, and failed, to improve the lives of his serfs.",
+      "His diaries of these years record gambling debts, drinking, visits to prostitutes and endless resolutions to do better."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "The army, 1851 to 1856. He joined his brother in the Caucasus and wrote his first book, Childhood (1852). In the Crimean War he served as an artillery officer in the siege of Sevastopol, and his Sevastopol Sketches made him famous.",
+      "Schools and travel, 1857 to 1862. He travelled in Europe, saw a public execution in Paris that horrified him, and opened a school for peasant children at Yasnaya Polyana.",
+      "Marriage, 1862. At 34 he married Sofia Behrs, 18. He gave her his diaries to read, including his past affairs. They had 13 children, of whom eight survived childhood. Sofia copied out his manuscripts by hand, War and Peace several times.",
+      "War and Peace, 1863 to 1869. Set during Napoleon's wars with Russia from 1805 to 1812, it follows several families through love, battle and the burning of Moscow, and argues that history is made by countless ordinary people, not great men.",
+      "Anna Karenina, 1873 to 1877. Its famous first line says that happy families are all alike, and every unhappy family is unhappy in its own way. It sets Anna's doomed love affair against Levin's search for meaning on his estate.",
+      "Crisis, about 1879 to 1882. Despite fame, wealth and family, he felt life had no meaning and hid ropes and guns to avoid suicide. He described this in A Confession. He found an answer in Christ's teaching, stripped of Church doctrine and miracles.",
+      "Prophet, 1880s to 1900s. He gave up meat, alcohol and tobacco, worked in the fields, renounced the copyrights to his later works, and wrote The Kingdom of God Is Within You (1894), arguing for non-violent resistance. Pilgrims came from around the world.",
+      "Excommunication, 1901. The Holy Synod of the Russian Orthodox Church declared he had fallen away from the Church, after his novel Resurrection mocked its rituals.",
+      "Flight and death, 1910. After years of bitter quarrels with Sofia over his diaries, his will and his copyrights, he left home secretly before dawn on 28 October (old calendar), aged 82. He fell ill with pneumonia on the train and died at the station of Astapovo on 7 November 1910 (20 November in the new calendar). Sofia was kept from his bedside until he was unconscious."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "War and Peace (1869): about 580 characters, battles from Austerlitz to Borodino, and the inner lives of Pierre, Natasha and Prince Andrei.",
+      "Anna Karenina (1878): often called the greatest novel ever written.",
+      "Short novels and stories: The Death of Ivan Ilyich (1886), The Kreutzer Sonata (1889), Hadji Murat (published 1912).",
+      "Essays and religious writing: A Confession, What Is Art?, and The Kingdom of God Is Within You.",
+      "He also wrote primers and stories for peasant children, and campaigned for famine relief in 1891 to 1892."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Sofia Tolstaya (1844 to 1919), his wife, manager of the estate and his publishing, his copyist, and in later years his anguished opponent. Her own diaries tell her side.",
+      "Vladimir Chertkov (1854 to 1936), his devoted disciple, whom Sofia saw as a rival for his love and his papers.",
+      {t:"Mahatma Gandhi, who corresponded with him in 1909 and 1910 and called his South African community Tolstoy Farm. Tolstoy's last long letter, written two months before his death, was to Gandhi.", lab:"verified", why:"The letters are published in Gandhi's Collected Works and in Tolstoy's correspondence."},
+      "Anton Chekhov, who visited him and admired him enormously."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Russia freed its serfs in 1861. He lived through the reigns of four tsars and the revolution of 1905.",
+      "Dostoevsky, his great contemporary, never met him, though both wanted to.",
+      "Darwin's Origin of Species came out in 1859, Marx's Capital in 1867, two years before War and Peace was finished."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "His ideas of non-violent resistance influenced Gandhi and, through him, Martin Luther King Jr.",
+      "He was nominated for the Nobel Prize in Literature several times and the Peace Prize too, and never won either.",
+      "Yasnaya Polyana is now a museum, and his grave there, a simple mound of earth with no cross, is visited by thousands."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"War and Peace is mostly about war.", lab:"myth", t:"Much of it is about families, love, faith and peace-time society. It also contains long essays on the philosophy of history."},
+      {c:"He wrote War and Peace alone.", lab:"disputed", t:"He wrote it, but Sofia copied the drafts out repeatedly, made fair copies for the printers and managed its publication. Her role was enormous."},
+      {c:"He gave away all his wealth.", lab:"myth", t:"He wanted to. In 1883 he gave Sofia power of attorney over his affairs, in 1891 he renounced copyright to works written after 1881, and in 1892 he divided his property among her and the children. The family kept the estate."},
+      {c:"Tolstoy had no humour.", lab:"myth", t:"His early stories and novels are often very funny, and visitors described him as lively and teasing."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Leo Tolstoy, War and Peace, translated by Louise and Aylmer Maude, Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/2600"},
+      {n:"Leo Tolstoy, Anna Karenina, translated by Constance Garnett (1901), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/1399"},
+      {n:"Leo Tolstoy, A Confession (1882) and The Kingdom of God Is Within You (1894), public domain translations"},
+      {n:"Aylmer Maude, The Life of Tolstoy (1908 to 1910), public domain"},
+      {n:"Further reading: Rosamund Bartlett, Tolstoy: A Russian Life (2010)"}
+    ]}
+  ]
 }
 });
