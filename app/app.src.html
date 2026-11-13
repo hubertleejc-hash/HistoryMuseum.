@@ -517,7 +517,8 @@ details.why p{margin:6px 0 0; padding-left:12px; border-left:2px solid var(--rul
 .walk-cta{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
 @media (max-width:640px){.wk-arrow{top:170px;width:34px;height:34px;font-size:22px}}
 </style>
-<script>try{var t=localStorage.getItem("ctm-theme");document.documentElement.setAttribute("data-theme",t==="light"?"light":"dark")}catch(e){document.documentElement.setAttribute("data-theme","dark")}</script>
+<script>/* light or dark follows the phone's own setting */
+(function(){var m=window.matchMedia&&matchMedia("(prefers-color-scheme: dark)");document.documentElement.setAttribute("data-theme",m&&!m.matches?"light":"dark")})();</script>
 
 <div class="wrap">
   <header class="mast">
@@ -527,7 +528,6 @@ details.why p{margin:6px 0 0; padding-left:12px; border-left:2px solid var(--rul
       <input id="q" type="search" placeholder="Search people, events, places" autocomplete="off" aria-label="Search">
       <div class="results" id="results" hidden></div>
     </div>
-    <button type="button" class="theme" id="theme" aria-label="Switch between night and old book themes"></button>
   </header>
   <nav class="tabs" id="tabs">
     <a href="#timeline" data-tab="timeline">Timeline</a>
@@ -1212,14 +1212,16 @@ const evRow = e => `<a href="#e-${e.id}"><b>${esc(e.n)}</b><small>${fy(e.y, e.a)
 const workRow = w => { const p = P.get(w.by); return `<a href="#art"><b>${esc(w.n)}</b><small>${fy(w.y, w.a)} · ${esc(p ? p.n : "")}</small></a>`; };
 
 /* ---------- theme ---------- */
-const themeBtn = document.getElementById("theme");
-function paintTheme(){ const t = document.documentElement.getAttribute("data-theme"); themeBtn.textContent = t === "light" ? "☾ Night" : "❦ Old book";
+/* light or dark follows the phone's setting, and changes with it */
+const darkMQ = window.matchMedia ? matchMedia("(prefers-color-scheme: dark)") : null;
+function paintTheme(){
+  const t = darkMQ && !darkMQ.matches ? "light" : "dark";
+  document.documentElement.setAttribute("data-theme", t);
   /* in the iPhone app, tell the app so the clock and battery icons stay readable */
-  try { window.webkit.messageHandlers.theme.postMessage(t); } catch(e){} }
-themeBtn.addEventListener("click", () => {
-  const t = document.documentElement.getAttribute("data-theme") === "light" ? "dark" : "light";
-  document.documentElement.setAttribute("data-theme", t); store.set("ctm-theme", t); paintTheme();
-});
+  try { window.webkit.messageHandlers.theme.postMessage(t); } catch(e){}
+  mainTL && document.getElementById("tl-main") && mainTL.render(true);
+}
+if (darkMQ) { try { darkMQ.addEventListener("change", paintTheme); } catch(e) { darkMQ.addListener && darkMQ.addListener(paintTheme); } }
 paintTheme();
 
 /* ---------- music: public-domain melodies played by the browser ---------- */

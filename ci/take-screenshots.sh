@@ -43,7 +43,8 @@ shoot() {
   for item in $SHOTS; do
     local route=${item%%:*} theme=${item#*:}
     n=$((n + 1))
-    xcrun simctl launch --terminate-running-process "$udid" "$BUNDLE" -route "$route" -theme "$theme" > /dev/null \
+    xcrun simctl ui "$udid" appearance "$theme" > /dev/null 2>&1 || true   # the app follows the phone's light/dark setting
+    xcrun simctl launch --terminate-running-process "$udid" "$BUNDLE" -route "$route" > /dev/null \
       || { echo "::error::[$label] could not launch the app"; status=1; continue; }
     sleep 10   # the 4 MB page, its pictures and fonts need a moment on a cold simulator
     local name; name=$(printf "%s-%02d-%s-%s" "$label" "$n" "${route//@/-}" "$theme")

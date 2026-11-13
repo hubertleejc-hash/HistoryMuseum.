@@ -15,12 +15,8 @@ struct MuseumView: UIViewRepresentable {
     func makeUIView(context: Context) -> WKWebView {
         let config = WKWebViewConfiguration()
         config.userContentController.add(context.coordinator, name: "theme")
-        // For the screenshot runs on GitHub: `-route p-van-gogh` opens that page and
-        // `-theme light` starts in the Old book theme. Ignored when not given.
+        // For the screenshot runs on GitHub: `-route p-van-gogh` opens that page. Ignored when not given.
         var start = ""
-        if let look = MuseumView.argument("-theme"), look == "light" || look == "dark" {
-            start += "try{localStorage.setItem('ctm-theme','\(look)')}catch(e){}"
-        }
         if let route = MuseumView.argument("-route"),
            route.range(of: "^[A-Za-z0-9@-]+$", options: .regularExpression) != nil {
             start += "if(!location.hash)location.hash='\(route)';"
