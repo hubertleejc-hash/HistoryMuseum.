@@ -2774,5 +2774,1036 @@ Object.assign(window.HISTORY.chapters, {
       {n:"Further reading: Marc J. Seifer, Wizard: The Life and Times of Nikola Tesla (1996)"}
     ]}
   ]
+},
+
+"julius-caesar": {
+  hero: "",
+  kw: ["Rome","Roman Republic","Gaul","Gallic Wars","Rubicon","civil war","Pompey","Crassus","First Triumvirate","Cleopatra","dictator","Ides of March","Brutus","Cassius","calendar","Julian calendar","Commentaries","Vercingetorix","Alesia","Et tu, Brute@myths","Caesarean@myths"],
+  lede: "A Roman aristocrat who conquered Gaul, crossed the Rubicon with his army, made himself dictator for life, and was stabbed to death in the Senate. His name became the word for emperor in Latin, German and Russian.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Gaius Julius Caesar was born in Rome in July 100 BCE into an old but not rich patrician family.",
+      "He rose through Roman politics, allied with Pompey and Crassus, and from 58 to 50 BCE conquered Gaul, roughly today's France and Belgium. His own account of the war survives.",
+      "In 49 BCE he led his army across the Rubicon river into Italy, starting a civil war. He won, became dictator, reformed the calendar, and was assassinated on 15 March 44 BCE by senators who feared he would be king."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His family claimed descent from Venus through Aeneas's son Iulus, but had little money or recent power. His aunt Julia was married to Gaius Marius, the great general of the popular faction.",
+      "As a young man he defied the dictator Sulla, who ordered him to divorce his wife Cornelia, the daughter of Sulla's enemy. He refused and fled Rome until relatives won him a pardon.",
+      {t:"Pirates. Around 75 BCE he was captured by pirates. He laughed when they asked a ransom of 20 talents, told them to ask 50, joked that he would crucify them, and after his release raised ships, caught them and did so.", lab:"likely", why:"Told by Plutarch and Suetonius, writing about 150 years later. The capture is generally accepted; the details are polished storytelling."}
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Climbing the ladder, 69 to 60 BCE. He held the offices of quaestor, aedile and praetor, borrowed huge sums to put on public games, and was elected Pontifex Maximus, Rome's chief priest, in 63 BCE.",
+      "The First Triumvirate, 60 BCE. He made a private alliance with Pompey, Rome's most famous general, and Crassus, its richest man. As consul in 59 BCE he pushed through their laws, ignoring his co-consul's objections. Pompey married his daughter Julia.",
+      "Gaul, 58 to 50 BCE. As governor he fought the Helvetii, Germanic tribes and the Gauls, crossed the Rhine, and twice landed in Britain. In 52 BCE the Gallic leader Vercingetorix united the tribes; Caesar besieged him at Alesia and he surrendered.",
+      {t:"The Rubicon, January 49 BCE. The Senate ordered him to give up his army. Crossing the small river Rubicon into Italy with troops was treason. He crossed, reportedly saying 'the die is cast'.", lab:"likely", why:"The crossing is certain. The words are reported by Suetonius and Plutarch; Plutarch says he spoke them in Greek; the phrase is known from the playwright Menander."},
+      "Civil war, 49 to 45 BCE. He defeated Pompey at Pharsalus in Greece in 48 BCE. Pompey fled to Egypt and was murdered there. Caesar followed, became involved in an Egyptian royal war and sided with Cleopatra. He then defeated King Pharnaces in Asia Minor and Pompey's supporters in Africa and Spain.",
+      "Dictator, 49 to 44 BCE. He was named dictator several times from 49 BCE, for ten years in 46 BCE, and in early 44 BCE for life. He reformed the calendar, enlarged the Senate, gave citizenship to provincials and pardoned many enemies.",
+      {t:"The Ides of March, 44 BCE. A group of senators, said to number more than 60, led by Marcus Brutus and Gaius Cassius, stabbed him 23 times at a Senate meeting in the Theatre of Pompey. He fell at the foot of Pompey's statue.", lab:"verified", why:"The date and place are recorded by many ancient writers; Suetonius reports the 23 wounds from a doctor's examination."}
+    ]},
+    {k:"works", h:"What he wrote and changed", ps:[
+      "Commentaries on the Gallic War and on the Civil War, written in clear, plain Latin in the third person ('Caesar ordered...'). They are still used to teach Latin and are a skilful piece of self-promotion.",
+      "The Julian calendar, in force from 45 BCE: 365 days with a leap day every four years, worked out with the Alexandrian astronomer Sosigenes. With a small fix in 1582, it is the calendar the world uses today.",
+      "The month of July is named after him."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Pompey the Great (106 to 48 BCE), ally, son-in-law and then enemy.",
+      "Marcus Licinius Crassus (about 115 to 53 BCE), the rich ally who funded him and died fighting the Parthians.",
+      "Cleopatra VII of Egypt (69 to 30 BCE), his lover, who had a son, Caesarion, whom she said was his.",
+      "Marcus Tullius Cicero, the great orator, who admired his writing and disliked his politics.",
+      "Marcus Brutus, whom he had pardoned and favoured, and who helped kill him.",
+      "Octavian (later Augustus), his great-nephew, adopted in his will as his son and heir."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Rome was a republic ruled by elected officials and a Senate of aristocrats, but its armies had become loyal to their generals rather than to the state. Civil wars between strongmen had begun before Caesar was born.",
+      "The Gallic war killed and enslaved huge numbers. Ancient writers claim a million dead and a million enslaved; the figures are not reliable, but the destruction was immense.",
+      "In China, the Han dynasty ruled; the historian Sima Qian had recently finished his great history."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "His heir Octavian won the next civil war and became Augustus, the first emperor. The republic did not return.",
+      "His family name became a title. 'Caesar' passed into German as Kaiser and into Russian as tsar.",
+      "Shakespeare's Julius Caesar (1599) shaped how English speakers picture him and Brutus."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"His last words were 'Et tu, Brute?'", lab:"myth", t:"That Latin line comes from later drama, made famous by Shakespeare. Suetonius says he died silent, adding that some reported he said in Greek 'You too, child?' to Brutus."},
+      {c:"He was born by Caesarean section.", lab:"myth", t:"His mother Aurelia lived for decades after his birth, which would have been almost impossible after such an operation in Roman times. The name's origin is uncertain."},
+      {c:"He was an emperor.", lab:"myth", t:"He was dictator, not emperor. The first emperor was his heir Augustus."},
+      {c:"Brutus was his son.", lab:"myth", t:"Caesar had an affair with Brutus's mother Servilia, and ancient gossip suggested this. Brutus was born about 85 BCE, when Caesar was only about 15, so most historians doubt it."},
+      {c:"He was warned to 'beware the Ides of March'.", lab:"likely", t:"Suetonius and Plutarch say a seer named Spurinna warned him of danger lasting until the Ides of March. The exact phrase is Shakespeare's."},
+      {c:"He said 'I came, I saw, I conquered' about Gaul.", lab:"myth", t:"He wrote 'veni, vidi, vici' after a quick victory over King Pharnaces of Pontus at Zela in 47 BCE."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Julius Caesar, De Bello Gallico and Other Commentaries, translated by W. A. McDevitte (19th century; Everyman's Library edition), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/10657"},
+      {n:"Suetonius, The Lives of the Twelve Caesars: Julius, translated by J. C. Rolfe (1914), public domain"},
+      {n:"Plutarch, Life of Caesar, translated by John Dryden and revised by A. H. Clough (1859), public domain"},
+      {n:"Further reading: Adrian Goldsworthy, Caesar: Life of a Colossus (2006)"}
+    ]}
+  ]
+},
+
+"plato": {
+  hero: "",
+  kw: ["Athens","Socrates","Academy","Republic","dialogues","Forms","philosopher-king","cave","Allegory of the Cave","Symposium","Apology","Phaedo","Atlantis","Syracuse","Dionysius","Aristotle","platonic love@myths","wrestler@myths"],
+  lede: "A wealthy Athenian who watched his teacher Socrates be put to death, then spent fifty years writing dialogues in which Socrates keeps asking questions. He founded the Academy, and nearly every philosopher since has been answering him.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Plato was born in Athens around 428 to 427 BCE into an aristocratic family, during the long war between Athens and Sparta.",
+      "As a young man he followed the philosopher Socrates. After Athens executed Socrates in 399 BCE, Plato travelled, then founded a school, the Academy, around 387 BCE.",
+      "About 35 dialogues have come down under his name. Everything he is known to have written survives, though a few of the dialogues are probably not his. Socrates is usually the main speaker. He died in Athens around 348 to 347 BCE."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His mother's family was related to the lawgiver Solon. Two of his relatives, Critias and Charmides, were leading figures under the Thirty Tyrants, a brutal pro-Spartan regime that ruled Athens briefly in 404 to 403 BCE.",
+      {t:"In the Seventh Letter, Plato says he hoped to go into politics, but was disgusted first by the Thirty and then by the restored democracy that executed Socrates.", lab:"disputed", why:"Whether Plato wrote the Seventh Letter is debated, though many scholars accept it."},
+      "His real name may have been Aristocles. 'Plato' may have been a nickname, perhaps meaning 'broad'."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Socrates' trial, 399 BCE. Socrates was convicted of impiety and corrupting the young and was made to drink hemlock. Plato's Apology gives his version of Socrates' defence speech; the Phaedo describes his last day. Plato says he himself was ill and absent.",
+      "Travels, about 399 to 387 BCE. He is said to have visited Megara, Egypt, Cyrene and southern Italy, where he met followers of Pythagoras. He went to Syracuse in Sicily and befriended Dion, the brother-in-law of its ruler.",
+      "The Academy, about 387 BCE. He set up a school in a grove sacred to the hero Akademos, outside Athens. It taught mathematics and philosophy for centuries and gave us the word 'academy'.",
+      {t:"Syracuse again, 367 and 361 BCE. Invited to educate the young ruler Dionysius II, he hoped to make a philosopher-king. It failed: Dion was exiled and Plato was held almost as a prisoner before being allowed home.", lab:"likely", why:"Mainly from the Seventh Letter, whose authorship is debated, but other ancient writers confirm the visits."}
+    ]},
+    {k:"works", h:"The work", ps:[
+      "The Republic: a long conversation about justice, which imagines an ideal city ruled by philosophers. It includes the Allegory of the Cave, in which prisoners mistake shadows on a wall for reality.",
+      "Early dialogues such as the Euthyphro and Apology, where Socrates questions people about piety, courage or virtue and shows they do not know what they think they know.",
+      "The Symposium, a drinking party at which guests give speeches in praise of love, and the Phaedo, on the immortality of the soul.",
+      "The theory of Forms: the idea that perfect, unchanging patterns (Justice, Beauty, the Circle) are more real than the changing things we see.",
+      "The Timaeus and Critias, which contain the story of Atlantis."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Socrates (about 470 to 399 BCE), his teacher, who wrote nothing. We know him mostly through Plato and Xenophon.",
+      "Aristotle (384 to 322 BCE), who studied at the Academy for about 20 years and then disagreed with much of what Plato taught.",
+      "Dion of Syracuse, his friend and student, who later seized power in Syracuse and was murdered.",
+      "His brothers Glaucon and Adeimantus, who are Socrates' main partners in the Republic."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Athens lost the Peloponnesian War to Sparta in 404 BCE. Its democracy, restored afterwards, was proud and suspicious, which helps explain Socrates' trial.",
+      "Greek mathematics was flourishing, and Plato valued it as training for thinking about unchanging truths.",
+      "In China, the age of the Warring States was producing its own philosophers, among them Mencius, a younger contemporary."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "The philosopher Alfred North Whitehead wrote in 1929 that European philosophy is 'a series of footnotes to Plato'.",
+      "His ideas passed into early Christian, Jewish and Islamic thought, through writers such as Augustine and al-Farabi, and were revived in Renaissance Florence.",
+      "The Academy lasted, in various forms, until the 1st century BCE; a later Platonic school in Athens was closed in 529 CE."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"'Platonic love' means love without desire, as Plato taught.", lab:"myth", t:"In the Symposium love begins with desire for a beautiful person and rises toward love of beauty itself. The modern phrase comes from Renaissance Florence."},
+      {c:"Atlantis was a real place Plato recorded.", lab:"myth", t:"Atlantis appears only in his Timaeus and Critias as a story to illustrate his ideas. No ancient source before him mentions it."},
+      {c:"Plato was a wrestler.", lab:"disputed", t:"Diogenes Laertius, writing about 600 years later, says he wrestled and got his nickname that way. It may be true, but the source is late."},
+      {c:"The Socrates of the dialogues is the real Socrates.", lab:"disputed", t:"Scholars agree that Plato increasingly put his own ideas in Socrates' mouth, especially in later dialogues. How much of the early Socrates is real is debated."},
+      {c:"Plato wanted to ban all poets.", lab:"disputed", t:"In the Republic he would exclude poetry that imitates bad characters or tells false stories about gods, but allows hymns and praise of good men."},
+      {c:"Above the Academy's door was written 'Let no one ignorant of geometry enter'.", lab:"tradition", t:"The inscription is first reported many centuries later, by writers of late antiquity. It may be legend."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Plato, The Republic, translated by Benjamin Jowett (1871), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/1497"},
+      {n:"Plato, Apology, translated by Benjamin Jowett, Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/1656"},
+      {n:"Plato, Symposium, translated by Benjamin Jowett, Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/1600"},
+      {n:"Plato, Phaedo, translated by Benjamin Jowett, Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/1658"},
+      {n:"Diogenes Laertius, Lives of Eminent Philosophers, Book III (about 3rd century CE), public domain translations"},
+      {n:"Further reading: Stanford Encyclopedia of Philosophy, 'Plato' (free online)", u:"https://plato.stanford.edu/entries/plato/"}
+    ]}
+  ]
+},
+
+"murasaki": {
+  hero: "",
+  kw: ["Tale of Genji","Genji","Heian","Kyoto","Heian-kyo","Empress Shoshi","Fujiwara no Michinaga","diary","kana","hiragana","court lady","Sei Shonagon","Pillow Book","Ishiyama-dera","first novel@myths","Lady Murasaki"],
+  lede: "A court lady in 11th-century Kyoto, known only by a nickname, who wrote The Tale of Genji: 54 chapters of love, politics and loss that many call the world's first novel.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Murasaki Shikibu was born around 973 to 978 in Heian-kyo, today's Kyoto, the capital of Japan. Her real name is unknown. 'Murasaki' comes from a character in her book, and 'Shikibu' from her father's post in the Ministry of Ceremonial.",
+      "She wrote The Tale of Genji, the story of a gifted, handsome son of an emperor and his loves, and of the generation after him. It was being read at court by about 1008.",
+      "She served as a lady-in-waiting to Empress Shōshi and kept a diary of court life. She probably died around 1014 or later; the date is uncertain."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "Her father, Fujiwara no Tametoki, came from a minor branch of the powerful Fujiwara clan and was a scholar of Chinese and a poet. Her mother died when she was young.",
+      {t:"In her diary she says that when her brother was being taught Chinese classics, she learned them faster by listening, and her father sighed that it was a pity she was not born a boy.", lab:"verified", why:"Her own diary records this, and it reflects the belief that Chinese learning was for men."},
+      "Around 998 she married Fujiwara no Nobutaka, an older official. They had a daughter, Kenshi, later known as the poet Daini no Sanmi. Nobutaka died in 1001, probably in an epidemic."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      {t:"Widowhood and writing, about 1001 to 1005. Many scholars think she began The Tale of Genji in the years after her husband's death, circulating chapters among friends.", lab:"likely", why:"There is no direct record of when she started. The timing is inferred from her diary and from when the book was known at court."},
+      "Court service, about 1005 or 1006. She joined the household of Empress Shōshi, daughter of Fujiwara no Michinaga, the most powerful man in Japan. Michinaga likely wanted a famous writer to add lustre to his daughter's court.",
+      "The diary, 1008 to 1010. Her diary describes the birth of Shōshi's son, the future emperor, court ceremonies, and her own loneliness and doubts. It mentions people at court reading and copying Genji.",
+      "Last years. After the emperor's death in 1011 she seems to have stayed with Shōshi. Records of her stop after about 1014; she may have died then or lived some years more."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "The Tale of Genji (Genji monogatari): 54 chapters, over a thousand pages in translation, with about 400 characters and nearly 800 poems. It follows Prince Genji, the 'Shining Prince', and then his descendants.",
+      "It was written in Japanese with the kana syllabary, the script women used, rather than in Chinese, the language of official men's writing.",
+      "The Diary of Lady Murasaki, a sharp picture of court life. In it she criticises other writers, including Sei Shōnagon, author of The Pillow Book.",
+      "A collection of her poems, the Murasaki Shikibu shū."
+    ]},
+    {k:"people", h:"Her people", ps:[
+      "Empress Shōshi (988 to 1074), whom she served and taught Chinese poetry in secret.",
+      "Fujiwara no Michinaga (966 to 1028), regent in all but name, her patron.",
+      "Sei Shōnagon, lady-in-waiting to the rival Empress Teishi, whose Pillow Book is the other great work of the period.",
+      "Izumi Shikibu, poet and fellow lady-in-waiting, praised and criticised in Murasaki's diary.",
+      "Her daughter Kenshi, known as Daini no Sanmi, a poet whose verses appear in famous anthologies."
+    ]},
+    {k:"world", h:"The world around her", ps:[
+      "The Heian period (794 to 1185) was a time of peace at court, where rank, beauty, poetry and good taste ruled. Aristocrats exchanged poems as a normal way of courting and conversing.",
+      "Noblewomen lived mostly behind screens and curtains, yet women wrote much of the period's greatest literature.",
+      "In the same years the Song dynasty ruled China, and in England Æthelred the Unready faced Viking raids."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "Genji has been read, copied, illustrated and commented on for a thousand years. The 12th-century Genji picture scrolls are a national treasure of Japan.",
+      "It shaped Japanese ideas of beauty, especially mono no aware, a gentle sadness at the passing of things.",
+      "Her portrait appears on the 2,000-yen note, issued in 2000."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"The Tale of Genji is the world's first novel.", lab:"disputed", t:"It is often called that, and it is the earliest long prose fiction with deep psychological characters. Others point to ancient Greek and Roman novels, or argue the word 'novel' does not fit."},
+      {c:"Murasaki was her real name.", lab:"myth", t:"It is a nickname, probably from Genji's beloved Murasaki. Her personal name was not recorded, as was common for women of her time."},
+      {c:"She wrote Genji while gazing at the moon at Ishiyama-dera temple.", lab:"tradition", t:"A legend from the 14th century. The temple still shows 'Murasaki's room', but there is no early evidence."},
+      {c:"She wrote all 54 chapters herself.", lab:"disputed", t:"Most scholars think so, but some argue the last ten chapters, set after Genji's death, were by another hand."},
+      {c:"She and Sei Shōnagon were bitter rivals who knew each other.", lab:"disputed", t:"Murasaki criticised her harshly in her diary, but Sei Shōnagon had probably left court before Murasaki arrived. There is no evidence they met."},
+      {c:"No one knows when she died.", lab:"verified", t:"True. Dates proposed range from about 1014 to about 1031."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Murasaki Shikibu, Genji Monogatari (first 17 chapters), translated by Suematsu Kenchō (1882), public domain"},
+      {n:"Diaries of Court Ladies of Old Japan, translated by Annie Shepley Omori and Kochi Doi (1920), public domain"},
+      {n:"Tokugawa Art Museum (Nagoya) and Gotoh Museum (Tokyo): Genji picture scrolls (12th century)"},
+      {n:"Further reading: Richard Bowring, Murasaki Shikibu: The Tale of Genji (2004)"},
+      {n:"Further reading: Royall Tyler, The Tale of Genji (translation, 2001)"}
+    ]}
+  ]
+},
+
+"li-bai": {
+  hero: "",
+  kw: ["Li Po","Tang dynasty","poetry","Chang'an","moon","wine","Quiet Night Thought","Emperor Xuanzong","Hanlin Academy","Du Fu","An Lushan Rebellion","Daoism","immortal","Sichuan","drowned@myths","Banished Immortal"],
+  lede: "The 'Banished Immortal' of Chinese poetry: a wandering swordsman, drinker and Daoist dreamer whose short poem about moonlight by his bed is learned by nearly every child in China.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Li Bai (also written Li Po) was born in 701, probably in Suyab in Central Asia (in today's Kyrgyzstan), and grew up in Sichuan in western China.",
+      "He wandered much of his life, wrote poems that circulated widely, and served briefly at the court of Emperor Xuanzong in Chang'an around 742 to 744.",
+      "Caught up in the An Lushan Rebellion, he was exiled, then pardoned. He died in 762. About a thousand of his poems survive."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      {t:"His family said they descended from an exiled branch of the royal Li clan who had lived in Central Asia. They moved to Sichuan when he was about five.", lab:"disputed", why:"The family story comes from prefaces written by relatives. His birthplace has also been claimed for Sichuan itself."},
+      "As a youth he read widely, studied swordsmanship and Daoism, and lived for a time in the mountains with a hermit, taming birds.",
+      "At about 24 he left Sichuan to travel down the Yangtze River, and he never went back."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Wandering, 720s to 740s. He travelled across central and eastern China, married into the family of a former chief minister, and sought patrons by sending poems to officials.",
+      {t:"Court, about 742 to 744. Recommended by the Daoist Wu Yun and the poet He Zhizhang, who called him a 'banished immortal', he was summoned to the capital Chang'an and placed in the Hanlin Academy to write for the emperor.", lab:"likely", why:"Recorded in Tang sources and his own poems, though details grew into legend."},
+      "Leaving court, 744. He was soon dismissed or chose to leave, perhaps after offending powerful eunuchs. He resumed his travels and met Du Fu in 744; they spent time together and exchanged poems.",
+      "The An Lushan Rebellion, 755. A rebel general sacked the capital. Li Bai joined the staff of Prince Li Lin, who was then declared a rebel by his brother, the new emperor. Li Bai was arrested.",
+      "Exile and pardon, 758 to 759. He was sentenced to exile in Yelang in the far south-west. On the way, a general amnesty freed him.",
+      "Death, 762. He died at Dangtu, in today's Anhui province, in the house of a relative who collected his poems."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "'Quiet Night Thought' (Jing ye si): four lines about moonlight on the floor, which looks like frost, and a traveller looking up at the moon and down, thinking of home.",
+      "'Drinking Alone by Moonlight': he raises his cup to the moon, and with his shadow they make a party of three.",
+      "Poems of farewell, of mountains and rivers, of friendship and of the troubles of soldiers and abandoned wives, often in old ballad forms with free, flowing lines.",
+      "Unlike the careful Du Fu, he is admired for seeming effortless and spontaneous, a voice of freedom and imagination."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Du Fu (712 to 770), the younger poet who met him in 744 and wrote many poems about missing him. Together they are China's two greatest poets.",
+      "He Zhizhang (659 to 744), the elder poet and official who gave him his nickname.",
+      "Emperor Xuanzong (reigned 712 to 756), patron of the arts, whose long reign ended in rebellion.",
+      "Meng Haoran, a poet friend, to whom Li Bai wrote a famous farewell at the Yellow Crane Tower."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "The Tang dynasty was at its height in the early 8th century. Chang'an was perhaps the largest city in the world, home to merchants and envoys from Persia, Central Asia, Japan and Korea.",
+      "Poetry was part of the civil service examinations, and officials were expected to write well. Li Bai never took the exam.",
+      "The An Lushan Rebellion (755 to 763) killed or displaced millions and ended the Tang golden age."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "His poems are among the most read in Chinese, and 'Quiet Night Thought' is taught in primary schools.",
+      "Ezra Pound's Cathay (1915), loose versions based on Ernest Fenollosa's notes, introduced him to English readers. Gustav Mahler set German versions of his poems in Das Lied von der Erde (1908 to 1909).",
+      "Tang poetry became a model for poets in Japan, Korea and Vietnam."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He drowned trying to embrace the moon's reflection in a river.", lab:"myth", t:"A charming legend that appeared after his death. Early sources say he died of illness at Dangtu."},
+      {c:"He was always drunk.", lab:"disputed", t:"He wrote often and joyfully about wine, and friends teased him about it. Drinking was also a poetic theme, so his poems should not be read as a diary."},
+      {c:"He wrote poems instantly, without revising.", lab:"tradition", t:"Stories say he wrote brilliant verses while drunk at court. Almost nothing in his own handwriting survives, so we cannot tell how he worked."},
+      {c:"The emperor's favourite eunuch had to pull off Li Bai's boots.", lab:"tradition", t:"A famous story that the powerful eunuch Gao Lishi was made to remove his boots, and took revenge. It appears in later sources and is probably legend."},
+      {c:"He was born in Sichuan.", lab:"disputed", t:"China often names Jiangyou in Sichuan. Most scholars accept that he was born in Central Asia and moved to Sichuan as a child."},
+      {c:"English translations show his poems as he wrote them.", lab:"myth", t:"Classical Chinese is very compact and leaves tense and subject open. Every translation, including Pound's, makes choices the original does not."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Shigeyoshi Obata, The Works of Li Po, the Chinese Poet (1922), public domain in the US"},
+      {n:"L. Cranmer-Byng, A Lute of Jade: Selections from the Classical Poets of China (1909), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/390"},
+      {n:"Herbert A. Giles, A History of Chinese Literature (1901), public domain"},
+      {n:"Ezra Pound, Cathay (1915), public domain"},
+      {n:"Further reading: Arthur Waley, The Poetry and Career of Li Po (1950)"},
+      {n:"Further reading: Stephen Owen, The Great Age of Chinese Poetry: The High T'ang (1981)"}
+    ]}
+  ]
+},
+"dante": {
+  hero: "",
+  kw: ["Divine Comedy","Inferno","Purgatorio","Paradiso","Beatrice","Florence","Guelphs","Ghibellines","exile","Virgil","Ravenna","Vita Nuova","terza rima","Italian language","Boniface VIII","Abandon all hope@works","nine circles"],
+  lede: "A Florentine politician exiled from his city for life, who wrote a poem in which he walks through Hell, Purgatory and Heaven, meeting popes, lovers and his old enemies, and in doing so shaped the Italian language.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Dante Alighieri was born in Florence in 1265, into a family of minor nobility.",
+      "He fell in love as a boy with Beatrice Portinari, who died young; she became the guiding figure of his poetry. He took part in Florentine politics until 1302, when his faction lost and he was exiled under sentence of death.",
+      "In exile he wrote the Commedia, later called the Divine Comedy, a journey through the afterlife in 100 cantos. He died in Ravenna in 1321."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His mother died when he was young and his father when he was a teenager. He was betrothed at about 12 to Gemma Donati, whom he married; they had at least three children.",
+      {t:"In his Vita Nuova he says he first saw Beatrice when they were both about nine, and again nine years later, when she greeted him in the street. She married another man and died in 1290, aged 24.", lab:"likely", why:"Dante's own account, shaped as poetry. The early biographer Boccaccio identified her as Beatrice Portinari, and most scholars accept this."},
+      "He studied rhetoric and philosophy, wrote love poetry in the new 'sweet new style' with his friend Guido Cavalcanti, and fought as a cavalryman at the Battle of Campaldino in 1289."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Politics, 1295 to 1301. He joined a guild so he could hold office and in 1300 served as one of Florence's six priors. Florence's ruling Guelph party had split into Whites and Blacks; Dante was a White, wary of Pope Boniface VIII's ambitions.",
+      "Exile, 1302. While he was away on an embassy to Rome, the Blacks seized power with papal backing. Dante was fined and banished, then sentenced to be burned alive if he returned. He never saw Florence again.",
+      "Wandering, 1302 to about 1318. He lived at the courts of patrons such as the Scaligeri of Verona, wrote treatises in Latin, and began the Commedia around 1307.",
+      "Hope in an emperor, 1310 to 1313. He wrote letters urging the Holy Roman Emperor Henry VII to restore order in Italy. Henry died in 1313.",
+      "Ravenna and death, 1318 to 1321. He settled in Ravenna under Guido Novello da Polenta, finished the Paradiso, and died, probably of malaria, in September 1321, returning from an embassy to Venice."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "The Divine Comedy: Inferno, Purgatorio and Paradiso, 100 cantos in all. Guided by the Roman poet Virgil and then by Beatrice, Dante travels down through nine circles of Hell, up the mountain of Purgatory, and through the heavens to a vision of God.",
+      "It is written in terza rima, linked three-line stanzas he invented, and in the Tuscan vernacular rather than Latin.",
+      "Above the gate of Hell is the warning, in Longfellow's translation: 'All hope abandon, ye who enter in!'",
+      "La Vita Nuova (about 1294), poems and prose about his love for Beatrice; De vulgari eloquentia, a Latin defence of writing in everyday Italian; and Monarchia, on the powers of emperor and pope."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Beatrice Portinari (1266 to 1290), his love and muse.",
+      "Gemma Donati, his wife, who stayed in Florence during his exile. He never mentions her in his writing.",
+      "Guido Cavalcanti (about 1255 to 1300), his 'first friend' and fellow poet, exiled in 1300 by a council that included Dante.",
+      "Pope Boniface VIII, his enemy, for whom the Inferno reserves a place among corrupt popes.",
+      "Giovanni Boccaccio (1313 to 1375), who wrote his first biography and first called the poem 'divine'."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Florence was a booming city of bankers and wool merchants, torn by feuds between families and parties.",
+      "Popes and emperors competed for power in Italy. Guelphs broadly backed the pope and Ghibellines the emperor.",
+      "Giotto was painting in Florence, Marco Polo had just returned to Venice, and the papacy moved to Avignon in 1309."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "His Tuscan became the basis of standard Italian, and he is called the father of the Italian language.",
+      "The Comedy has inspired artists from Botticelli and Michelangelo to William Blake, Gustave Doré, Rodin's Gates of Hell and Liszt.",
+      "Florence revoked his sentence of exile in 2008. His tomb remains in Ravenna, which has refused to give his bones back."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"Dante invented the idea of the nine circles of Hell.", lab:"likely", t:"The detailed structure is his, but he drew on Aristotle's ethics, Virgil's underworld, and medieval Christian visions of the afterlife."},
+      {c:"He called it the Divine Comedy.", lab:"myth", t:"He called it the Commedia. Boccaccio added 'divine', and a Venetian edition of 1555 made it the title."},
+      {c:"Beatrice was purely symbolic.", lab:"disputed", t:"A few scholars have argued so, but most accept she was a real woman, Beatrice Portinari, whom Dante transformed into a symbol."},
+      {c:"Dante wrote his great poem in Latin.", lab:"myth", t:"He chose the everyday Tuscan of Florence so that more people could read it. Only his treatises, such as Monarchia, are in Latin."},
+      {c:"Dante wrote it to take revenge on his enemies.", lab:"disputed", t:"He did place enemies in Hell, but also friends and people he admired, and the poem's main concern is moral and spiritual."},
+      {c:"His bones have rested undisturbed in his tomb since 1321.", lab:"myth", t:"Franciscan friars hid them in 1519 to stop Florence taking them. They were found in 1865 during building work and returned to his tomb in Ravenna."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Dante, The Divine Comedy, translated by Henry Wadsworth Longfellow (1867), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/1004"},
+      {n:"Dante, The Divine Comedy, translated by Henry Francis Cary (1814), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/8800"},
+      {n:"Dante, La Vita Nuova, translated by Dante Gabriel Rossetti (1861), public domain"},
+      {n:"Giovanni Boccaccio, Life of Dante (about 1350s), translated by Philip Henry Wicksteed (1898), public domain"},
+      {n:"Further reading: Barbara Reynolds, Dante: The Poet, the Political Thinker, the Man (2006)"}
+    ]}
+  ]
+},
+
+"gutenberg": {
+  hero: "",
+  kw: ["printing press","movable type","Mainz","Strasbourg","Bible","42-line Bible","B42","Fust","Schöffer","indulgences","goldsmith","ink","press","incunabula","lawsuit","1455","Bi Sheng@myths","Korea@myths","Jikji"],
+  lede: "A goldsmith from Mainz who worked out how to cast metal letters by the thousand, ink them and press them onto paper, and printed a Bible so beautiful that 49 copies are still treasured. He lost his workshop doing it.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Johannes Gensfleisch zur Laden zum Gutenberg was born in Mainz, Germany, around 1400. The exact year is unknown.",
+      "Working in Strasbourg and then Mainz, he developed a system of printing with movable metal type: a hand mould for casting letters, a metal alloy, oil-based ink and a screw press.",
+      "His great work was the 42-line Bible, finished around 1454 to 1455. He lost control of his workshop to his investor Johann Fust and died in Mainz in 1468."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His father was a patrician and merchant in Mainz, and possibly involved with the archbishop's mint, which may be where Johannes learned metalwork.",
+      "His family was forced out of Mainz in political conflicts between patricians and guilds in 1411 and 1428.",
+      "Little is known of his youth. Records show him in Strasbourg by 1434."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      {t:"Strasbourg, 1430s. He trained partners in polishing gems and making metal mirrors to sell to pilgrims at Aachen. A lawsuit of 1439, after a partner died, mentions a press, lead, and mysterious 'forms', which suggests early printing experiments.", lab:"likely", why:"The 1439 court records survive. They do not describe printing outright, and historians read them as evidence of secret work."},
+      "Back in Mainz, by 1448. He borrowed money from a relative and, in 1450, 800 guilders from the merchant Johann Fust, then another 800, to set up a printing workshop.",
+      "First printing, early 1450s. The workshop printed short Latin grammars and, in 1454 to 1455, letters of indulgence for the Church, small forms with blanks for names and dates.",
+      {t:"The Bible, about 1455. The 42-line Bible appeared in about 180 copies, some on paper and some on vellum. In March 1455 the future Pope Pius II wrote that he had seen pages in Frankfurt, so clean and correct that one could read them without glasses.", lab:"verified", why:"His letter of 12 March 1455 survives."},
+      "The lawsuit, 1455. Fust sued for repayment with interest. The court ruled for Fust, who took over much of the equipment and, with Gutenberg's skilled assistant Peter Schöffer, ran a successful printing business.",
+      "Last years. Gutenberg may have run a smaller press. In 1465 the Archbishop of Mainz gave him a court title with a yearly allowance of grain, wine and clothing. He died on 3 February 1468."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "The hand mould: an adjustable tool that let a worker cast thousands of identical letters quickly from a metal matrix.",
+      "Type metal, a mix of lead, tin and antimony that melts easily and hardens fast; oil-based ink that sticks to metal; and a press adapted from those used for wine and paper.",
+      "The 42-line Bible (B42), in two volumes with about 1,280 pages, set in a Gothic type based on scribes' handwriting. 49 copies survive, about 21 complete.",
+      "He signed none of his work. Everything is attributed to him from documents and later testimony."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Johann Fust (about 1400 to 1466), merchant and investor, who won the lawsuit and took over the business.",
+      "Peter Schöffer (about 1425 to 1503), his apprentice, who married Fust's daughter and became a leading printer. Their Mainz Psalter of 1457 is the first book with a printed date.",
+      "Andreas Dritzehn and his brothers, partners in Strasbourg, whose lawsuit preserved the first hints of his work."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Before printing, books in Europe were copied by hand and were rare and expensive. Paper had become cheaper, and literacy was growing in towns.",
+      "Printing spread fast after him: by 1500 there were presses in about 250 European cities and perhaps 20 million printed books in circulation.",
+      "In 1453 Constantinople fell to the Ottomans, and printed pamphlets soon carried the news and calls for crusade."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "Printing helped spread the Renaissance, Martin Luther's Reformation and the Scientific Revolution, because ideas could be copied exactly and widely.",
+      "Movable-type printing in Europe stayed essentially as he designed it for about 350 years.",
+      "The Gutenberg Museum in Mainz holds two copies of his Bible. Project Gutenberg, the free online library, is named after him."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"Gutenberg invented printing.", lab:"myth", t:"Woodblock printing was used in China from at least the 7th century. Bi Sheng made movable clay type around the 1040s, and Korea printed with metal type by 1377 (the Jikji). Gutenberg's achievement was a practical system for mass printing with metal type."},
+      {c:"His Bible was the first book printed in Europe.", lab:"myth", t:"Smaller items, such as grammars, calendars and indulgences, were printed in his workshop earlier."},
+      {c:"Gutenberg knew about Korean printing.", lab:"disputed", t:"There is no evidence of contact. Most historians think he developed his method independently."},
+      {c:"He died poor and forgotten.", lab:"disputed", t:"He lost his business to Fust, but the archbishop's pension in 1465 suggests he was honoured and comfortable."},
+      {c:"The famous portraits show what he looked like.", lab:"myth", t:"All portraits of him were made long after his death. No likeness from his lifetime survives."},
+      {c:"He printed exactly 180 Bibles.", lab:"likely", t:"About 180 is the usual estimate, perhaps 135 on paper and 45 on vellum, based on surviving copies and paper stocks."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Gutenberg Bible, Library of Congress copy on vellum (free to view online)"},
+      {n:"Gutenberg Bible, British Library (free to view)"},
+      {n:"Enea Silvio Piccolomini (later Pius II), letter to Cardinal Juan de Carvajal, 12 March 1455, public domain"},
+      {n:"Theodore Low De Vinne, The Invention of Printing (1876), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/51034"},
+      {n:"Gutenberg Museum, Mainz", u:"https://www.mainz.de/microsite/gutenberg-museum/"},
+      {n:"Further reading: John Man, The Gutenberg Revolution (2002)"}
+    ]}
+  ]
+},
+
+"columbus": {
+  hero: "",
+  kw: ["Cristoforo Colombo","Cristóbal Colón","Genoa","1492","Santa María","Niña","Pinta","Ferdinand and Isabella","Spain","Bahamas","Guanahani","Hispaniola","Taíno","Indies","Columbian exchange","flat earth@myths","Columbus Day","Indigenous Peoples' Day"],
+  lede: "A Genoese sailor who was wrong about the size of the earth, sailed west to reach Asia, and landed instead in the Caribbean in 1492, beginning European conquest of the Americas and a catastrophe for the people who already lived there.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Christopher Columbus (Cristoforo Colombo in Italian, Cristóbal Colón in Spanish) was born in Genoa around 1451.",
+      "Backed by Queen Isabella and King Ferdinand of Spain, he sailed west in 1492 and landed in the Bahamas on 12 October. He made four voyages to the Caribbean and Central and South America, always believing he was near Asia.",
+      "As governor of Hispaniola his rule was brutal, and he was arrested and sent home in chains in 1500. He died in Valladolid, Spain, in 1506."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His father was a wool weaver. He went to sea young and sailed the Mediterranean and the Atlantic.",
+      {t:"In 1476, according to his son, his ship was sunk off Portugal and he swam ashore. He settled in Lisbon, where his brother Bartholomew made maps, and married Filipa Moniz, from a family of Portuguese navigators.", lab:"likely", why:"From his son Ferdinand's biography and his own writings. Some details are hard to check."},
+      "He sailed to the Gold Coast of Africa and, he claimed, to Iceland. He read Marco Polo and the geographer Pierre d'Ailly, writing notes in the margins."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "The plan, 1480s. He calculated that Asia lay only about 4,500 kilometres west of the Canary Islands. The real distance to Japan is about 19,000. Portuguese experts rejected his plan, and so at first did a Spanish commission.",
+      "Agreement, April 1492. After Spain conquered Granada, the last Muslim kingdom in Spain, Isabella and Ferdinand agreed. They promised him the titles Admiral of the Ocean Sea and governor of any lands he found, plus a tenth of the profits.",
+      {t:"First voyage, 1492 to 1493. The Santa María, Niña and Pinta left Palos on 3 August. On 12 October a lookout sighted an island the Taíno people called Guanahani, which Columbus named San Salvador. He went on to Cuba and Hispaniola.", lab:"verified", why:"From the summary of his log made by Bartolomé de las Casas and from his letter of 1493."},
+      "The first encounters. His log describes the Taíno as gentle and generous, and in the same breath says they would make good servants and could easily be conquered. He took several of them back to Spain.",
+      "Second voyage, 1493 to 1496. He returned with 17 ships and about 1,200 men to found a colony on Hispaniola. Settlers demanded gold and labour from the Taíno, and he sent hundreds of Taíno to Spain to be sold as slaves.",
+      "Third voyage and arrest, 1498 to 1500. In 1498 he reached the coast of Venezuela, his first sight of the mainland. Complaints of his harsh, chaotic government led the monarchs to send an investigator, Francisco de Bobadilla, who shipped Columbus and his brothers back to Spain in chains. He was freed but lost the governorship.",
+      "Fourth voyage and death, 1502 to 1506. He explored the coast of Central America, was stranded on Jamaica for a year, and returned ill. He died in Valladolid on 20 May 1506, still claiming he had reached Asia."
+    ]},
+    {k:"works", h:"What he left", ps:[
+      "His letter of 1493 announcing the discovery, printed in many editions across Europe within months.",
+      "His log of the first voyage, which survives only as a summary by Bartolomé de las Casas.",
+      "The Book of Privileges, copies of the contracts granting his titles, and the Book of Prophecies, in which he linked his voyages to the Bible and the end of the world."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Isabella I of Castile (1451 to 1504) and Ferdinand II of Aragon (1452 to 1516), his royal sponsors.",
+      "Bartholomew and Diego Columbus, his brothers, who helped govern Hispaniola.",
+      "Ferdinand Columbus (1488 to 1539), his son, who wrote his biography and built a great library in Seville.",
+      "Bartolomé de las Casas (1484 to 1566), a priest whose father sailed with Columbus, who preserved his log and became the great critic of Spanish cruelty to Indigenous peoples.",
+      "Martín Alonso Pinzón, captain of the Pinta, whose ship first sighted land."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Portugal was exploring the African coast for a sea route to India; Bartolomeu Dias rounded the Cape of Good Hope in 1488 and Vasco da Gama reached India in 1498.",
+      "Asian spices and silk reached Europe through Muslim and Venetian middlemen, and the Atlantic kingdoms wanted a direct sea route of their own.",
+      "In 1492, the same year he sailed, Spain expelled its Jews. The Caribbean islands were home to Taíno, Kalinago and other peoples, perhaps hundreds of thousands on Hispaniola alone."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "His voyages linked Europe, Africa and the Americas permanently. Plants, animals and diseases crossed in both directions, in what historians call the Columbian exchange.",
+      "Within a few decades the Taíno population of Hispaniola collapsed, from disease, forced labour and violence.",
+      "Once celebrated as a hero, he is now debated. Some US states and cities replaced Columbus Day with Indigenous Peoples' Day."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"People in 1492 thought the earth was flat.", lab:"myth", t:"Educated Europeans had known it was round since ancient Greece. The argument was about its size, and Columbus's critics were right that he had it far too small."},
+      {c:"He discovered America.", lab:"myth", t:"Millions of people already lived there, and Norse sailors reached Newfoundland around 1000 CE. He was the first to start lasting contact between Europe and the Americas."},
+      {c:"He landed on the mainland of what is now the United States.", lab:"myth", t:"He never reached it. He explored the Caribbean, including Puerto Rico, and the coasts of Central America and Venezuela."},
+      {c:"Isabella pawned her jewels to pay for the voyage.", lab:"myth", t:"A later legend. The money came mainly from royal officials, Italian bankers in Seville, and Columbus's own backers."},
+      {c:"He was secretly Spanish, Portuguese or Jewish.", lab:"disputed", t:"Many theories exist. Documents including his own will say he was born in Genoa, and most historians accept that."},
+      {c:"His crew mutinied and he promised to turn back.", lab:"likely", t:"In early October 1492 the crews grew afraid. The log records the men's complaints on 10 October. Later witnesses described an agreement with the Pinzón brothers to keep sailing a few more days."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Select Letters of Christopher Columbus, translated and edited by R. H. Major (1847), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/77820"},
+      {n:"The Journal of Christopher Columbus (during his first voyage), translated by Clements R. Markham (1893), public domain"},
+      {n:"Christopher Columbus, letter announcing the discovery (1493), translations in public domain"},
+      {n:"Bartolomé de las Casas, A Short Account of the Destruction of the Indies (1552), public domain translations"},
+      {n:"Washington Irving, A History of the Life and Voyages of Christopher Columbus (1828), public domain (note: romanticised)"},
+      {n:"Further reading: Samuel Eliot Morison, Admiral of the Ocean Sea (1942)"},
+      {n:"Further reading: Laurence Bergreen, Columbus: The Four Voyages (2011)"}
+    ]}
+  ]
+},
+
+"copernicus": {
+  hero: "",
+  kw: ["Mikołaj Kopernik","Toruń","Frombork","Frauenburg","heliocentric","sun-centred","De revolutionibus","On the Revolutions","Ptolemy","Rheticus","Osiander","Commentariolus","canon","Warmia","Galileo","Kepler","deathbed@myths","Copernican revolution"],
+  lede: "A church canon, doctor and astronomer from Royal Prussia in the Polish kingdom who quietly worked out that the earth turns and circles the sun, held back his book for decades, and is said to have received the first printed copy on the day he died.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Nicolaus Copernicus (Mikołaj Kopernik in Polish) was born in Toruń, in Royal Prussia under the Polish crown, on 19 February 1473.",
+      "He studied in Kraków and Italy, then spent most of his life as a canon of Frombork Cathedral in Warmia, working as an administrator, doctor and economist as well as an astronomer.",
+      "His book On the Revolutions of the Heavenly Spheres (1543) argued that the earth and planets go around the sun. He died in Frombork on 24 May 1543."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His father, a copper merchant, died when he was about ten. His mother's brother, Lucas Watzenrode, who became Prince-Bishop of Warmia, raised him and paid for his education.",
+      "He studied at the University of Kraków from 1491, where astronomy and mathematics were strong.",
+      "From 1496 he studied church law in Bologna, where he lodged with the astronomer Domenico Maria Novara and helped with observations, then medicine in Padua. He took a doctorate in canon law at Ferrara in 1503."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Canon of Frombork. His uncle secured him a post as canon, giving a lifelong income. He served as his uncle's secretary and doctor until 1510, then lived at Frombork, with a tower near the cathedral as his workplace.",
+      {t:"The Commentariolus, about 1510 to 1514. He circulated a short handwritten outline among friends, setting out seven assumptions, including that the sun is near the centre of the universe and that the earth turns daily on its axis.", lab:"verified", why:"Copies of the manuscript survive. A Kraków scholar's library list of 1514 describes a manuscript that matches it."},
+      "Administration and war. He managed the chapter's lands, resettled peasants on abandoned farms, and in 1520 to 1521 helped defend Olsztyn Castle against the Teutonic Knights.",
+      "Money. He wrote a treatise on coinage in 1526, arguing that debased coins drive good coins out of circulation, an idea later called Gresham's law.",
+      "Rheticus, 1539. A young Lutheran mathematician, Georg Joachim Rheticus, came to study with him for two years. He published a summary of the theory in 1540 and persuaded Copernicus to publish the full book.",
+      {t:"Publication and death, 1543. On the Revolutions was printed in Nuremberg. Copernicus had a stroke late in 1542 and, according to a friend's letter, saw the finished book only on the day he died.", lab:"likely", why:"From a letter by his friend Tiedemann Giese. It is a single, sympathetic account."}
+    ]},
+    {k:"works", h:"The work", ps:[
+      "On the Revolutions of the Heavenly Spheres (De revolutionibus orbium coelestium, 1543), in six books, with tables of planetary positions.",
+      "It replaced Ptolemy's earth-centred system with one in which the earth spins daily and, like the other planets, circles the sun yearly. That explained why planets sometimes seem to move backwards.",
+      "He kept the ancient idea of perfect circles, so his system still needed small extra circles (epicycles) and was not more accurate than Ptolemy's.",
+      "An unsigned preface added by the Lutheran theologian Andreas Osiander told readers the theory was only a convenient way to calculate, not a claim about reality. Copernicus did not write it."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Lucas Watzenrode (1447 to 1512), his uncle, protector and patron.",
+      "Georg Joachim Rheticus (1514 to 1574), his only pupil, who brought the book to print.",
+      "Tiedemann Giese (1480 to 1550), Bishop of Chełmno, his close friend who urged him to publish.",
+      "Anna Schilling, his housekeeper. In 1539 the bishop ordered him to dismiss her, apparently suspecting an improper relationship."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Columbus reached the Americas when Copernicus was 19, showing that ancient geography could be wrong.",
+      "The Reformation began in 1517. Martin Luther is reported to have mocked the idea of a moving earth in table talk.",
+      "Printing made it possible for his book, with its detailed tables, to reach astronomers across Europe."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "Tycho Brahe, Kepler and Galileo built on his work. Kepler's ellipses and Newton's gravity eventually made the sun-centred system both accurate and explained.",
+      "'Copernican revolution' now means any change that overturns a basic assumption.",
+      "In 2005 remains were found under the floor of Frombork Cathedral, and in 2008 DNA tests identified them as his. He was reburied there with honours in 2010. Element 112 was named copernicium in 2010."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He was persecuted by the Church.", lab:"myth", t:"He was a canon and dedicated his book to Pope Paul III. The Catholic Church suspended the book only in 1616, 73 years later, during the Galileo controversy, pending corrections."},
+      {c:"He was the first to say the earth goes around the sun.", lab:"myth", t:"The Greek astronomer Aristarchus of Samos proposed it around 270 BCE. Copernicus knew of this and worked out the idea in full mathematical detail."},
+      {c:"He delayed publishing because he feared the Church.", lab:"disputed", t:"In his preface he says he feared ridicule. He also may have been perfecting his tables. Historians weigh these reasons differently."},
+      {c:"His system was more accurate than Ptolemy's.", lab:"myth", t:"Because he kept circular orbits, his predictions were about as accurate as the old system's. Its advantage was that one scheme explained the order of the planets and their backward loops."},
+      {c:"He was German, not Polish.", lab:"disputed", t:"He was born in a German-speaking city under the Polish king, wrote in Latin and German, and was loyal to the Polish crown. Modern national labels do not fit neatly."},
+      {c:"He saw his printed book on his deathbed.", lab:"likely", t:"His friend Giese, who was not there, says so in a letter written weeks later. It is plausible but cannot be confirmed."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Nicolaus Copernicus, De revolutionibus orbium coelestium (1543), original Latin edition, public domain"},
+      {n:"Copernicus, De revolutionibus, autograph manuscript, Jagiellonian Library, Kraków (digitised, free to view)"},
+      {n:"Further reading: Owen Gingerich, The Book Nobody Read (2004)"},
+      {n:"Further reading: Dava Sobel, A More Perfect Heaven (2011)"}
+    ]}
+  ]
+},
+"washington": {
+  hero: "",
+  kw: ["Mount Vernon","Virginia","surveyor","French and Indian War","Continental Army","Valley Forge","Delaware crossing","Trenton","Yorktown","Constitution","first president","Farewell Address","Martha","enslaved","cherry tree@myths","wooden teeth@myths","Cincinnatus"],
+  lede: "A Virginia planter and surveyor who led a ragged army to victory over Britain, then did something kings rarely did: gave up power, twice. He also held hundreds of people in slavery, and freed only in his will those he owned himself.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "George Washington was born on 22 February 1732 in Westmoreland County, Virginia, a British colony, into a family of planters.",
+      "He commanded the Continental Army in the American Revolutionary War from 1775 to 1783, presided over the convention that wrote the US Constitution in 1787, and served two terms as the first President of the United States, from 1789 to 1797.",
+      "He died at his estate, Mount Vernon, on 14 December 1799. In his will he ordered that the enslaved people he owned himself be freed after his wife's death."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His father died when he was 11, ending hopes of an education in England. He learned surveying and at 17 became surveyor of Culpeper County.",
+      "His half-brother Lawrence, whom he admired, owned Mount Vernon. In 1751 George travelled with him to Barbados, where he caught smallpox, which left him immune.",
+      "He inherited enslaved people at 11, from his father's estate. By his death, 317 enslaved people lived at Mount Vernon, of whom 123 belonged to him."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Frontier war, 1753 to 1758. As a young Virginia militia officer he carried a warning to the French in the Ohio valley. In 1754 his men ambushed a French party, helping spark the Seven Years' War. He surrendered Fort Necessity, survived General Braddock's disastrous defeat in 1755, and commanded Virginia's forces.",
+      "Planter and politician, 1759 to 1774. He married the wealthy widow Martha Dandridge Custis, enlarged Mount Vernon, and sat in Virginia's House of Burgesses, where he came to oppose British taxes.",
+      "Commander, 1775. The Continental Congress chose him to command the new army besieging British-held Boston. The British left Boston in March 1776.",
+      {t:"Crossing the Delaware, 25 to 26 December 1776. After losing New York, he led his army across the icy Delaware River at night and surprised the Hessian garrison at Trenton, then won again at Princeton, reviving the cause.", lab:"verified", why:"Recorded in his own letters and many officers' accounts."},
+      "Valley Forge, winter 1777 to 1778. His army camped through a hard winter with little food and clothing; perhaps 2,000 died of disease. The Prussian officer von Steuben drilled the survivors into a professional force.",
+      "Yorktown, 1781. With the French army and navy he trapped General Cornwallis at Yorktown, Virginia. The British surrender effectively ended the war; peace came in 1783.",
+      "Resignation, 1783. He returned his commission to Congress and went home, an act admired across Europe. King George III reportedly said that if he did so, he would be the greatest man in the world.",
+      "President, 1789 to 1797. Elected unanimously, he set precedents for the new office, kept the US out of war between Britain and France, and stepped down after two terms. His Farewell Address warned against political parties and foreign entanglements."
+    ]},
+    {k:"works", h:"What he left", ps:[
+      "The precedent of two terms, followed by every president until Franklin Roosevelt and written into the Constitution in 1951.",
+      "The Farewell Address (1796), still read aloud in the US Senate every year.",
+      "Tens of thousands of letters and his diaries, published in a large scholarly edition that is free to read online.",
+      "His will, which freed the 123 people he owned, provided for elderly freed people, and required that children be taught to read and write. The people Martha controlled from her first husband's estate were not freed."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Martha Washington (1731 to 1802), his wife and partner.",
+      "The Marquis de Lafayette, a young French volunteer whom he treated almost as a son.",
+      "Alexander Hamilton, his aide in the war and his Treasury Secretary, and Thomas Jefferson, his Secretary of State.",
+      "William Lee, an enslaved man who was his valet throughout the war, freed in his will.",
+      "Ona Judge, an enslaved woman who escaped from his household in Philadelphia in 1796 and refused to return."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Britain's 13 colonies stretched along the Atlantic coast. Native American nations held most of the land beyond the Appalachians.",
+      "Slavery was legal in all 13 colonies at the start of the war; about one in five Americans was enslaved.",
+      "The French Revolution began in his first year as president, dividing Americans."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "He is called the 'Father of His Country'. The capital city, a state, and countless towns bear his name.",
+      "His peaceful handover of power to John Adams in 1797 set a model for republics.",
+      "Historians now also study him as an enslaver, and Mount Vernon tells the stories of the enslaved community."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"As a boy he confessed to cutting down a cherry tree: 'I cannot tell a lie.'", lab:"myth", t:"Invented by the writer Mason Locke Weems in the 1806 edition of his popular biography."},
+      {c:"He had wooden teeth.", lab:"myth", t:"His dentures were made of ivory, metal, animal teeth and human teeth. His accounts record that in 1784 he bought teeth from enslaved people, possibly for this purpose."},
+      {c:"He threw a silver dollar across the Potomac.", lab:"myth", t:"A legend; the Potomac at Mount Vernon is over a kilometre wide, and the United States minted no silver dollars until 1794. An older family story has him throwing a stone across the much narrower Rappahannock."},
+      {c:"John Hanson, not Washington, was the first President of the United States.", lab:"myth", t:"Hanson was a President of the Congress under the Articles of Confederation, in 1781 to 1782. That was a presiding officer with no executive power, and others had chaired Congress before him. Washington was the first to hold the office of President of the United States."},
+      {c:"He freed all the enslaved people at Mount Vernon.", lab:"myth", t:"He freed only those he owned outright, after Martha's death. Martha freed them early, in 1801. The 'dower' slaves remained enslaved and passed to her heirs."},
+      {c:"He prayed in the snow at Valley Forge.", lab:"tradition", t:"A famous image based on a story told years later. There is no contemporary evidence."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"George Washington, State of the Union Addresses, Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/5010"},
+      {n:"George Washington, Farewell Address (1796), Avalon Project, Yale Law School", u:"https://avalon.law.yale.edu/18th_century/washing.asp"},
+      {n:"George Washington Papers, Library of Congress (free to view)"},
+      {n:"Founders Online, National Archives: the Papers of George Washington (free to view)", u:"https://founders.archives.gov/"},
+      {n:"Mount Vernon Ladies' Association: Washington and slavery"},
+      {n:"Further reading: Ron Chernow, Washington: A Life (2010)"}
+    ]}
+  ]
+},
+
+"franklin": {
+  hero: "",
+  kw: ["Philadelphia","Boston","printer","Poor Richard","almanac","kite","lightning","lightning rod","electricity","bifocals","Franklin stove","Declaration of Independence","France","Paris","Treaty of Paris","Constitution","Autobiography","abolition","Silence Dogood","key@myths","turkey@myths"],
+  lede: "A runaway printer's apprentice who became America's most famous scientist, wrote its funniest sayings, charmed France into backing the Revolution, and signed every one of its founding documents.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Benjamin Franklin was born in Boston on 17 January 1706, the 15th of 17 children of a soap and candle maker.",
+      "He ran away to Philadelphia at 17, became a successful printer and publisher, and retired at 42 to study science and serve the public. His experiments showed that lightning is electricity.",
+      "He helped draft the Declaration of Independence, won the French alliance, negotiated the peace with Britain, and sat in the Constitutional Convention. He died in Philadelphia on 17 April 1790, aged 84."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "He had only two years of school. At 12 he was apprenticed to his brother James, a printer.",
+      "At 16 he secretly wrote letters to James's newspaper as 'Silence Dogood', a middle-aged widow. They were printed and admired until he revealed he was the author.",
+      "In 1723 he broke his apprenticeship and ran away. In his Autobiography he describes arriving in Philadelphia, dirty and tired, walking up Market Street with a roll of bread under each arm."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Printer, 1728 to 1748. He set up his own shop, bought the Pennsylvania Gazette, and from 1732 published Poor Richard's Almanack, full of sayings such as 'Early to bed and early to rise, makes a man healthy, wealthy and wise'.",
+      "Civic projects. He helped found a lending library (1731), a volunteer fire company, the American Philosophical Society, an academy that became the University of Pennsylvania, and a hospital.",
+      {t:"Electricity, 1746 to 1752. His experiments led him to name positive and negative charge and to invent the lightning rod. In June 1752, by the usual account, he flew a kite in a storm and drew sparks from a key on the string.", lab:"likely", why:"Franklin's own short account of October 1752 describes the experiment without a date. The date and details come from Joseph Priestley's account of 1767, based on Franklin's information. The only witness was his son."},
+      "London, 1757 to 1775. He lived mostly in England as an agent for Pennsylvania and other colonies. He argued against the Stamp Act before Parliament in 1766. In 1774 he was humiliated before the Privy Council over leaked letters, and turned firmly against Britain.",
+      "Independence, 1775 to 1776. Back in Philadelphia, he served in the Continental Congress and on the committee that drafted the Declaration of Independence, making small edits to Jefferson's draft.",
+      "France, 1776 to 1785. In a fur cap and plain clothes he became a celebrity in Paris. He won the treaty of alliance of 1778, which brought French money, troops and ships, and helped negotiate the Treaty of Paris (1783), in which Britain recognised independence.",
+      "Last years, 1785 to 1790. He served as President of Pennsylvania, attended the Constitutional Convention in 1787, and became president of the Pennsylvania Abolition Society. In 1790 he petitioned Congress to end slavery."
+    ]},
+    {k:"works", h:"What he made and wrote", ps:[
+      "The lightning rod, the Franklin stove, bifocal glasses, a flexible urinary catheter, and the glass armonica, a musical instrument Mozart wrote for.",
+      "He charted the Gulf Stream for ship captains and refused to patent his inventions, saying people should share in each other's discoveries.",
+      "His Autobiography, begun in 1771 and unfinished at his death, one of the most famous American life stories.",
+      "Poor Richard's Almanack, essays, hoaxes and satires, and a huge correspondence."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Deborah Read Franklin (about 1708 to 1774), his common-law wife, who ran his business while he was in London. He was abroad when she died.",
+      "William Franklin, his son, royal governor of New Jersey, who stayed loyal to Britain. They never reconciled.",
+      "Sarah Franklin Bache, his daughter, who led women's fundraising for the army.",
+      "Thomas Jefferson, John Adams and George Washington, fellow founders.",
+      "Joseph Priestley and other British scientists, friends in the Royal Society."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "His life spanned the colonial age and the founding of the United States. Philadelphia grew into the largest city in British North America.",
+      "The Enlightenment prized reason, science and self-improvement, and Franklin became its best-known American face.",
+      "Franklin himself owned enslaved people for decades and printed advertisements for slave sales, before later turning against slavery."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "He is the only person who signed the Declaration of Independence, the treaty of alliance with France, the Treaty of Paris and the US Constitution.",
+      "His face is on the US $100 bill. Institutions he started, from the library to the university, still exist.",
+      "He left money in his will to Boston and Philadelphia to be invested for 200 years, funding loans and a technical school."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"Lightning struck his kite and he discovered electricity.", lab:"myth", t:"Electricity was already known. If lightning had struck the kite he might have been killed. He drew charge from the storm cloud, showing lightning is electrical."},
+      {c:"He wanted the turkey as America's national bird.", lab:"myth", t:"In a 1784 letter to his daughter he joked that the bald eagle was 'a bird of bad moral character' and the turkey 'more respectable'. He never formally proposed it."},
+      {c:"He invented daylight saving time.", lab:"myth", t:"In a 1784 satirical letter he suggested Parisians save candles by getting up earlier, woken by cannons. He never proposed changing the clocks; that idea came from others more than a century later."},
+      {c:"He was president of the United States.", lab:"myth", t:"He was never president, though he was President of Pennsylvania's executive council."},
+      {c:"He said 'Beer is proof that God loves us.'", lab:"myth", t:"He wrote something similar about wine and rain turning into wine in vineyards. The beer version is a modern misquote."},
+      {c:"He invented the lightning rod.", lab:"verified", t:"Yes, and he published how to install one in Poor Richard's Almanack in 1753."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Benjamin Franklin, The Autobiography (edited by Charles W. Eliot, Harvard Classics, 1909), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/148"},
+      {n:"Founders Online, National Archives: the Papers of Benjamin Franklin (free to view)", u:"https://founders.archives.gov/"},
+      {n:"Joseph Priestley, The History and Present State of Electricity (1767), public domain"},
+      {n:"Benjamin Franklin, Experiments and Observations on Electricity (1751), public domain"},
+      {n:"Further reading: Walter Isaacson, Benjamin Franklin: An American Life (2003)"}
+    ]}
+  ]
+},
+
+"dickens": {
+  hero: "",
+  kw: ["Portsmouth","London","blacking factory","Marshalsea","debtors' prison","Pickwick","Oliver Twist","A Christmas Carol","Scrooge","David Copperfield","Bleak House","Great Expectations","A Tale of Two Cities","serial","public readings","Ellen Ternan","Staplehurst","Gad's Hill","Boz"],
+  lede: "A boy who pasted labels on shoe-polish jars while his father sat in debtors' prison, and grew up to be the most famous novelist in the world, giving us Scrooge, Oliver Twist and a word, 'Dickensian', for the poverty he never forgot.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Charles Dickens was born on 7 February 1812 in Portsmouth, England, the second of eight children of John Dickens, a navy pay clerk.",
+      "After a hard childhood he became a reporter. The Pickwick Papers (1836 to 1837) made him famous at 24, and for over 30 years he published novels in monthly or weekly parts that readers waited for eagerly.",
+      "He edited magazines, campaigned on social issues, and gave hugely popular public readings. He died at his home, Gad's Hill Place in Kent, on 9 June 1870 and is buried in Westminster Abbey."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His early childhood in Chatham, Kent, was happy; he read his father's novels again and again.",
+      {t:"In 1824, aged 12, he was sent to work at Warren's Blacking warehouse by the Thames, pasting labels on pots of boot polish. Days later his father was jailed for debt in the Marshalsea prison, where his mother and the younger children went to live with him.", lab:"verified", why:"Dickens wrote about it in a fragment of autobiography given to his friend John Forster, published after his death."},
+      "His father inherited money and was released after a few months, but Charles stayed at the warehouse for a while longer. He told almost no one; his own children learned of it only from Forster's biography.",
+      "He went back to school, then worked as a law clerk, learned shorthand and became a parliamentary reporter."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Boz, 1833 to 1836. He published sketches of London life under the pen name 'Boz', collected as Sketches by Boz.",
+      "Pickwick, 1836. Hired to write text for comic sporting illustrations, he took over the project. The Pickwick Papers became a sensation once the cockney servant Sam Weller appeared. That year he married Catherine Hogarth.",
+      "Oliver Twist and Nicholas Nickleby, 1837 to 1839. He attacked workhouses and cruel schools.",
+      "America, 1842. He toured the United States, was mobbed by admirers, and angered his hosts by complaining about pirated editions and slavery.",
+      "A Christmas Carol, December 1843. He wrote it in about six weeks and published it at his own expense. It sold out by Christmas Eve.",
+      "David Copperfield and the great novels, 1849 to 1861. David Copperfield, his favourite, drew on his own boyhood. Bleak House, Little Dorrit, A Tale of Two Cities and Great Expectations followed.",
+      {t:"Separation, 1858. He separated from Catherine, the mother of his ten children, and publicly blamed her. He had begun a secret relationship with a young actress, Ellen Ternan.", lab:"likely", why:"The separation and his public statements are documented. The nature of his bond with Ternan rests on indirect evidence, because letters were destroyed, but most biographers accept that she was his lover."},
+      "Staplehurst and the readings, 1865 to 1870. He survived a train crash in which ten people died, and tended the injured. He threw himself into exhausting reading tours in Britain and America, which hastened his death from a stroke at 58. He left The Mystery of Edwin Drood unfinished."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "15 novels, including Oliver Twist (1838), A Christmas Carol (1843), David Copperfield (1850), Bleak House (1853), A Tale of Two Cities (1859) and Great Expectations (1861).",
+      "Unforgettable characters: Scrooge, Fagin, Mr Micawber, Miss Havisham, Uriah Heep, the Artful Dodger.",
+      "Magazines he edited, Household Words and All the Year Round, where he serialised his own work and others'.",
+      "He wrote in instalments, often only a few weeks ahead, reacting to readers' responses."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Catherine Dickens (1815 to 1879), his wife of 22 years.",
+      "Ellen Ternan (1839 to 1914), the actress who was his companion in his last 12 years.",
+      "John Forster (1812 to 1876), his closest friend and first biographer.",
+      "Wilkie Collins, novelist and collaborator.",
+      "Angela Burdett-Coutts, the banking heiress and philanthropist with whom he ran Urania Cottage, a home for women leaving prostitution."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "London grew from about 1 million to over 3 million people in his lifetime, with terrible slums, cholera and child labour.",
+      "The New Poor Law of 1834 forced the poor into workhouses, which he attacked in Oliver Twist.",
+      "Railways, cheap printing and rising literacy created a huge new reading public for serial fiction."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "His books have never been out of print and have been adapted thousands of times.",
+      "A Christmas Carol helped shape the modern idea of Christmas as a time of family and charity.",
+      "His fiction helped push reforms of schools, prisons, courts and sanitation."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"Dickens invented Christmas.", lab:"myth", t:"Christmas customs were already reviving. A Christmas Carol popularised a warm, generous family Christmas, but trees and cards had other sources."},
+      {c:"He was paid by the word, so he padded his books.", lab:"myth", t:"He was paid by the instalment, not the word. Serial publication did shape his long, many-plotted structure."},
+      {c:"He made up the name Scrooge from a gravestone misread as 'mean man'.", lab:"myth", t:"A story claims he misread 'meal man' as 'mean man' on an Edinburgh grave. It surfaced only in recent decades; no letter or diary of Dickens mentions it, and no record of such a gravestone has been found."},
+      {c:"He wrote A Christmas Carol to pay off debts.", lab:"likely", t:"He needed money at the time, and he hoped it would sell well. In fact his first profits were disappointing because of its expensive production."},
+      {c:"He was a model family man.", lab:"myth", t:"He cultivated that image, but treated his wife cruelly in their separation and hid his relationship with Ellen Ternan."},
+      {c:"Crowds on the New York docks shouted to arriving ships: 'Is Little Nell dead?'", lab:"tradition", t:"A much-repeated story about the last instalments of The Old Curiosity Shop in 1841. It shows how eagerly readers followed him, but it comes from later retellings; no report from the time is known."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Charles Dickens, A Christmas Carol (1843), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/46"},
+      {n:"Charles Dickens, Great Expectations (1861), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/1400"},
+      {n:"Charles Dickens, Oliver Twist (1838), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/730"},
+      {n:"John Forster, The Life of Charles Dickens (1872 to 1874), public domain"},
+      {n:"Charles Dickens Museum, London"},
+      {n:"Further reading: Claire Tomalin, Charles Dickens: A Life (2011)"}
+    ]}
+  ]
+},
+
+"nightingale": {
+  hero: "",
+  kw: ["Lady with the Lamp","Crimean War","Scutari","nursing","Notes on Nursing","statistics","rose diagram","polar area","sanitation","St Thomas'","Nightingale School","Florence","Embley","Mary Seacole","Sidney Herbert","Royal Statistical Society","bedridden"],
+  lede: "A wealthy Victorian woman who defied her family to become a nurse, made the Crimean War's army hospitals cleaner, and then, from her bed, used charts and statistics to reform hospitals across the British Empire.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Florence Nightingale was born on 12 May 1820 in Florence, Italy, and named after the city. Her rich English parents were on a long tour of Europe.",
+      "She trained as a nurse against her family's wishes, and in 1854 led a team of nurses to the British army hospital at Scutari (Üsküdar, in Istanbul) during the Crimean War. A report in The Times described her night rounds with a little lamp, and a poem by Longfellow in 1857 made her 'the Lady with the Lamp'.",
+      "Back in Britain, often ill and bedridden, she campaigned for decades for army health, hospital design, nurse training and public health in India. She died in London on 13 August 1910, aged 90."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "Her father taught her and her sister Parthenope at home: languages, history, philosophy and mathematics, which she loved.",
+      {t:"In 1837, aged 16, she felt she had received a call from God to do some service, though she did not yet know what.", lab:"verified", why:"She wrote of it in private notes years later, giving the date as 7 February 1837."},
+      "Nursing was seen as low work for poor women, and her family opposed it fiercely. In 1851 she trained for three months at the Lutheran deaconess institute at Kaiserswerth, Germany.",
+      "In 1853 she became superintendent of a women's hospital in Harley Street, London."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Scutari, 1854. Reports in The Times on the suffering of wounded soldiers caused outrage. Her friend Sidney Herbert, Secretary at War, asked her to lead 38 nurses to the Barrack Hospital at Scutari. They arrived in November 1854.",
+      "The hospital. It was overcrowded, filthy, and short of beds, food, soap and bandages. She organised supplies, laundries and kitchens, and made night rounds with a lamp. Soldiers revered her.",
+      {t:"Death rates. The death rate at Scutari was very high in her first winter there. It fell sharply after a Sanitary Commission arrived in March 1855 and flushed out the sewers and improved ventilation.", lab:"verified", why:"From the army's own figures, which she later analysed. She came to accept that poor sanitation, not only lack of care, had caused most deaths."},
+      "Illness, 1855 onward. She caught a severe fever in Crimea, likely brucellosis, which may explain chronic illness for decades. After 1857 she rarely left her rooms.",
+      "Statistics and the Royal Commission, 1857 to 1858. She worked with the statistician William Farr to show that soldiers died far more of disease than wounds, using her famous 'rose' or polar-area diagrams. She pressed for the Royal Commission on army health, appointed in 1857, and supplied much of its evidence.",
+      "The Nightingale School, 1860. With money raised in her honour she founded a training school for nurses at St Thomas' Hospital, London, the model for modern nursing schools.",
+      "Later work. She advised on hospitals worldwide and spent years on sanitation and famine in India. In 1907 she became the first woman awarded the Order of Merit."
+    ]},
+    {k:"works", h:"What she made and wrote", ps:[
+      "Notes on Nursing (1859), a short, practical book about fresh air, light, cleanliness, quiet and diet, read by families as well as nurses.",
+      "Notes on Hospitals (1859), on hospital design: wards with windows on both sides and cross-ventilation.",
+      "Polar-area diagrams showing causes of death month by month, among the first famous uses of charts to persuade policy-makers.",
+      "About 14,000 surviving letters and many reports."
+    ]},
+    {k:"people", h:"Her people", ps:[
+      "Sidney Herbert (1810 to 1861), politician and friend who sent her to Scutari and worked with her on army reform.",
+      "William Farr (1807 to 1883), statistician and her collaborator.",
+      "Parthenope Nightingale, her sister, with whom she had a difficult relationship.",
+      "Mary Seacole (1805 to 1881), a Jamaican-born nurse and businesswoman who ran a 'British Hotel' for soldiers near the front. Nightingale was cool towards her.",
+      "Alexis Soyer, the celebrity chef who reorganised the army's kitchens at Scutari."
+    ]},
+    {k:"world", h:"The world around her", ps:[
+      "The Crimean War (1853 to 1856) pitted Britain, France and the Ottoman Empire against Russia. It was one of the first wars reported quickly by telegraph and by newspaper correspondents on the spot.",
+      "Women of her class were expected to marry and not to work. She turned down a long courtship from Richard Monckton Milnes.",
+      "The germ theory of disease was being developed by Pasteur and others; she long believed in 'miasma', bad air, as the cause."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "She made nursing a respected profession for women. International Nurses Day is held on her birthday, 12 May.",
+      "Her use of statistics and diagrams influenced public health and data visualisation. She was the first woman elected a Fellow of the Royal Statistical Society, in 1858.",
+      "The Florence Nightingale Museum stands at St Thomas' Hospital in London."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"She was a gentle angel who just comforted the dying.", lab:"myth", t:"She was a tough administrator, campaigner and statistician who fought the army bureaucracy."},
+      {c:"Deaths at Scutari fell because of her nursing.", lab:"disputed", t:"Her organisation helped, but the big drop came after the Sanitary Commission's work on drains and ventilation in 1855."},
+      {c:"She was an invalid who did little after Crimea.", lab:"myth", t:"She did her most influential work in the next 50 years, mostly from her bed or sofa, through letters, reports and visitors."},
+      {c:"She opposed Mary Seacole.", lab:"disputed", t:"She wrote privately and unkindly about Seacole, but did not campaign against her. Seacole praised her in her memoir."},
+      {c:"She invented the pie chart.", lab:"myth", t:"William Playfair made pie charts in 1801. She popularised the polar-area diagram, now often called a 'coxcomb'."},
+      {c:"The lamp she carried was the kind shown in pictures.", lab:"myth", t:"Pictures usually show an Aladdin-style oil lamp. She carried a Turkish folding lantern with a candle inside; one is kept at the Florence Nightingale Museum."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Florence Nightingale, Notes on Nursing: What It Is, and What It Is Not (1859/1860), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/12439"},
+      {n:"Florence Nightingale, Notes on Matters Affecting the Health, Efficiency and Hospital Administration of the British Army (1858), public domain"},
+      {n:"Sir Edward Cook, The Life of Florence Nightingale (1913), public domain"},
+      {n:"Florence Nightingale Museum, London"},
+      {n:"Further reading: Mark Bostridge, Florence Nightingale: The Woman and Her Legend (2008)"}
+    ]}
+  ]
+},
+"pasteur": {
+  hero: "",
+  kw: ["germ theory","pasteurisation","fermentation","rabies","vaccine","Joseph Meister","anthrax","Pouilly-le-Fort","chirality","crystals","silkworm","spontaneous generation","swan-neck flask","Pasteur Institute","Dole","Arbois","Koch","Lister","microbes"],
+  lede: "A tanner's son from eastern France who showed that microbes cause fermentation and disease, gave his name to the heating of milk, and in 1885 risked a rabies vaccine barely tested even on animals on a bitten nine-year-old boy, who lived.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Louis Pasteur was born on 27 December 1822 in Dole, in the Jura region of France, and grew up in Arbois, where his father was a tanner.",
+      "A chemist by training, he discovered molecular 'handedness' in crystals, showed that living microbes cause fermentation and spoilage, and helped prove that germs cause infectious disease.",
+      "He developed vaccines against chicken cholera, anthrax and rabies. The Pasteur Institute opened in Paris in 1888. He died near Paris on 28 September 1895."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "As a boy he was a keen painter of pastel portraits of family and neighbours, and only an average student at first.",
+      "He studied at the École Normale Supérieure in Paris and took his doctorate in 1847.",
+      {t:"Crystals, 1848. Studying tartaric acid, he noticed that crystals of one form came in two mirror-image shapes. He separated them by hand under a microscope and showed they turned polarised light in opposite directions. It founded the study of molecular asymmetry.", lab:"verified", why:"Published in 1848 and confirmed by the physicist Jean-Baptiste Biot, who had him repeat it in front of him."},
+      "In 1849 he married Marie Laurent, who became his assistant and secretary. Three of their five children died in childhood, at least two of them of typhoid, which made fighting disease personal for him."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Fermentation, 1857 to 1860s. Asked by a Lille distiller about spoiled alcohol, he showed that fermentation is the work of living yeast and that other microbes cause souring.",
+      {t:"Spontaneous generation, 1859 to 1864. Many scientists thought life arose on its own in broth. Pasteur boiled broth in flasks with long, swan-shaped necks that let in air but trapped dust. The broth stayed clear unless the neck was broken.", lab:"verified", why:"Described in his 1861 paper and lectures. Some of his original flasks are still sterile and on display at the Pasteur Institute."},
+      "Pasteurisation, 1860s. He found that gently heating wine to about 55 degrees Celsius killed spoilage microbes without ruining the taste. The method was later applied to beer and milk.",
+      "Silkworms, 1865 to 1870. He spent five years helping save France's silk industry by identifying diseased silkworm eggs. In 1868 a stroke left his left side partly paralysed.",
+      "Vaccines, 1879 to 1881. He found that aged cultures of chicken cholera protected hens. In May 1881, at Pouilly-le-Fort, he publicly vaccinated sheep against anthrax; the vaccinated ones survived exposure and the others died.",
+      {t:"Rabies, July 1885. Joseph Meister, nine, had been badly bitten by a rabid dog. Pasteur, not a doctor, had doctors give him 13 injections of a vaccine from dried rabbit spinal cord. The boy did not develop rabies.", lab:"verified", why:"Recorded by Pasteur and the doctors involved. His notebooks, opened in the 1970s, show he had tested the vaccine on fewer animals than he implied in public."},
+      "The Pasteur Institute, 1888. Funded by public subscription, it opened in Paris and became a world centre for research. He was buried in a crypt there."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "Germ theory: with Robert Koch and others, he showed that specific microbes cause specific diseases.",
+      "Pasteurisation, still used for milk and juice worldwide.",
+      "Vaccines against chicken cholera, anthrax, swine erysipelas and rabies. He used the word 'vaccine' for all of them, honouring Edward Jenner's smallpox work.",
+      "Studies on Wine (1866), Studies on Beer (1876) and work on silkworm disease."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Marie Pasteur (1826 to 1910), his wife and close collaborator.",
+      "Émile Roux (1853 to 1933), his chief assistant, who did much of the rabies work and later developed diphtheria treatment.",
+      "Robert Koch (1843 to 1910), the German bacteriologist and his great rival.",
+      "Joseph Lister, the British surgeon who applied Pasteur's ideas to make surgery antiseptic, and wrote to thank him.",
+      "Joseph Meister, the rabies patient, who later worked as caretaker at the Pasteur Institute."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "France lost the Franco-Prussian War in 1871. Pasteur returned an honorary degree from Bonn in protest, and the rivalry with German science, including Koch, was partly patriotic.",
+      "Before germ theory, many doctors blamed disease on bad air or imbalance, and surgeons operated in unwashed coats.",
+      "Industry was growing fast, and his work began with practical problems from brewers, winemakers and farmers."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "Germ theory transformed medicine, surgery, food safety and public health.",
+      "The Pasteur Institute network today has over 30 institutes worldwide.",
+      "Streets and schools across France and the former French empire bear his name."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"Pasteur discovered germs.", lab:"myth", t:"Microbes were first seen by Antonie van Leeuwenhoek in the 1670s. Pasteur helped show what they do."},
+      {c:"Pasteur invented vaccination.", lab:"myth", t:"Edward Jenner developed smallpox vaccination in 1796. Pasteur created the first vaccines made in a laboratory by weakening germs."},
+      {c:"On his deathbed he admitted Béchamp was right that germs don't matter.", lab:"myth", t:"A quote often circulated online ('the microbe is nothing, the terrain is everything') has no reliable source."},
+      {c:"His public demonstrations were completely honest.", lab:"myth", t:"His notebooks show that at Pouilly-le-Fort he used a vaccine weakened with a chemical, prepared by his assistants Chamberland and Roux and close to his rival Toussaint's method, not the oxygen method he implied."},
+      {c:"He was a medical doctor.", lab:"myth", t:"He was a chemist with no medical degree, which is why doctors gave the rabies injections."},
+      {c:"Pasteurisation sterilises food.", lab:"myth", t:"It kills most harmful microbes but not all. Pasteurised milk still needs refrigeration."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"René Vallery-Radot, The Life of Pasteur, translated by Mrs R. L. Devonshire (1902, 1920 edition), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/60956"},
+      {n:"Louis Pasteur, Studies on Fermentation (1876, English 1879), public domain"},
+      {n:"Pasteur's laboratory notebooks, Bibliothèque nationale de France (free to view)"},
+      {n:"Institut Pasteur, Paris (official site)", u:"https://www.pasteur.fr/en"},
+      {n:"Further reading: Gerald L. Geison, The Private Science of Louis Pasteur (1995)"}
+    ]}
+  ]
+},
+
+"monet": {
+  hero: "",
+  kw: ["Impressionism","Impression, Sunrise","Le Havre","Boudin","Argenteuil","Camille","Giverny","water lilies","Nymphéas","haystacks","Rouen Cathedral","series","Japanese bridge","Orangerie","Clemenceau","cataracts","en plein air","Renoir","Salon"],
+  lede: "A caricaturist from Le Havre who took his easel outdoors to catch the light, whose painting of a misty harbour gave Impressionism its name, and who spent his last thirty years painting the water-lily pond he built.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Claude Monet was born in Paris on 14 November 1840 and grew up in the port of Le Havre, Normandy.",
+      "He became a leader of the painters later called Impressionists, who painted outdoors in quick, broken brushstrokes to capture light and atmosphere. His Impression, Sunrise gave the movement its name in 1874.",
+      "From 1883 he lived at Giverny, where he made a garden and water-lily pond that he painted for decades. He died there on 5 December 1926."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "As a teenager in Le Havre he sold caricatures of local people for 10 to 20 francs each.",
+      {t:"The landscape painter Eugène Boudin persuaded him to paint outdoors. Monet later said it was as if a veil had been torn from his eyes.", lab:"likely", why:"Monet's own account, given many years later in interviews."},
+      "He studied in Paris, met Pierre-Auguste Renoir, Alfred Sisley and Frédéric Bazille at the studio of Charles Gleyre, and served briefly in the army in Algeria."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Camille, 1865 to 1879. Camille Doncieux became his model and partner; they married in 1870. They were often desperately poor. He painted her in Women in the Garden and many other works. She died in 1879, aged 32, and he painted her on her deathbed.",
+      "London, 1870 to 1871. Fleeing the Franco-Prussian War, he painted the Thames and saw works by Turner and Constable. He met the dealer Paul Durand-Ruel, who would support the Impressionists.",
+      {t:"The first exhibition, 1874. Tired of rejections by the official Salon, Monet and friends held their own show in the photographer Nadar's former studio. The critic Louis Leroy mocked Monet's Impression, Sunrise and called the group 'Impressionists'. They adopted the name.", lab:"verified", why:"Leroy's review in Le Charivari, 25 April 1874, survives."},
+      "Giverny, 1883. He rented, then bought, a house in the village of Giverny with Alice Hoschedé, whom he married in 1892, and their combined eight children.",
+      "The series, 1890s. He painted the same subject again and again at different times and weather: Haystacks, Poplars, Rouen Cathedral and, from 1899, the Houses of Parliament in London. The series sold very well and made him rich.",
+      "The water garden, 1893 onward. He diverted a stream to make a lily pond with a Japanese-style footbridge and painted it about 250 times.",
+      "Last years. Alice died in 1911 and his son Jean in 1914. Cataracts clouded his vision and changed his colours. Encouraged by his friend, the prime minister Georges Clemenceau, he painted huge water-lily panels as a gift to France after the First World War."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "Impression, Sunrise (1872), the harbour at Le Havre in mist, now in the Musée Marmottan Monet, Paris.",
+      "Women in the Garden (1866), The Magpie (1869), Poppies (1873) and Woman with a Parasol (1875).",
+      "The series: Haystacks (1890 to 1891), Rouen Cathedral (1892 to 1894) and the Houses of Parliament (1900 to 1905).",
+      "The Water Lilies (Nymphéas), including the giant panels installed in two oval rooms of the Musée de l'Orangerie in Paris in 1927."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Camille Doncieux (1847 to 1879), his first wife and favourite model.",
+      "Alice Hoschedé (1844 to 1911), his second wife.",
+      "Pierre-Auguste Renoir, with whom he painted side by side at La Grenouillère in 1869.",
+      "Georges Clemenceau (1841 to 1929), French prime minister and close friend.",
+      "Paul Durand-Ruel, the dealer who sold Impressionism to America."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Paris was rebuilt with wide boulevards under Napoleon III. Railways took Parisians to the countryside and the coast, which the Impressionists painted.",
+      "Paint in tin tubes, from the 1840s, made outdoor painting easy.",
+      "Japanese prints flooded Paris after Japan opened to trade; Monet collected over 200 of them, by Hokusai, Hiroshige and others."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "Impressionism changed painting, and his late water lilies are seen as a step toward abstract art.",
+      "His house and gardens at Giverny are open to visitors.",
+      "His paintings are among the most valuable in the world: one of his Haystacks sold for about $110 million in 2019."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He painted everything outdoors, start to finish.", lab:"myth", t:"He started outdoors but often finished in the studio, especially the series and the big water lilies."},
+      {c:"He was always rich and successful.", lab:"myth", t:"He was very poor in the 1860s and 1870s, begging friends for loans. Success came in the late 1880s."},
+      {c:"His late blurry style was only because of cataracts.", lab:"disputed", t:"Cataracts changed how he saw colour, and he had surgery in 1923. But he was already moving toward looser painting before."},
+      {c:"Impressionism was named in praise.", lab:"myth", t:"It started as a sneer by a critic."},
+      {c:"Monet and Manet were the same person.", lab:"myth", t:"Édouard Manet was a different, older painter, sometimes confused with him. At first Manet was annoyed by the similar name."},
+      {c:"He destroyed paintings he disliked.", lab:"verified", t:"He slashed or burned canvases he was unhappy with, including about 15 water-lily paintings in 1908."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Georges Clemenceau, Claude Monet: les Nymphéas (1928, in French), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/75353"},
+      {n:"Wynford Dewhurst, Impressionist Painting: Its Genesis and Development (1904), public domain"},
+      {n:"Louis Leroy, 'L'Exposition des impressionnistes', Le Charivari, 25 April 1874, public domain"},
+      {n:"Art Institute of Chicago: Monet works, open access (CC0)"},
+      {n:"Fondation Claude Monet, Giverny", u:"https://fondation-monet.com/en/"},
+      {n:"Further reading: Paul Hayes Tucker, Claude Monet: Life and Art (1995)"}
+    ]}
+  ]
+},
+
+"victoria": {
+  hero: "",
+  kw: ["Kensington Palace","Albert","Prince Albert","Great Exhibition","Balmoral","Osborne","Empress of India","Diamond Jubilee","widow","Disraeli","Gladstone","Abdul Karim","John Brown","grandmother of Europe","haemophilia","Victorian","We are not amused@myths","journal"],
+  lede: "An 18-year-old who became queen in 1837, married her cousin Albert for love, wore black for forty years after he died, and reigned over an empire covering a quarter of the world for 63 years, longer than any British monarch before her.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Victoria was born at Kensington Palace, London, on 24 May 1819, the only child of Prince Edward, Duke of Kent, a son of George III.",
+      "She became queen on 20 June 1837 at 18. She married Prince Albert of Saxe-Coburg and Gotha in 1840; they had nine children, whose marriages linked her to most royal houses of Europe.",
+      "Albert's death in 1861 plunged her into long mourning. She was proclaimed Empress of India in 1876 and celebrated Golden and Diamond Jubilees. She died at Osborne House on the Isle of Wight on 22 January 1901."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "Her father died when she was eight months old. Her German-born mother and her adviser Sir John Conroy raised her under the strict 'Kensington System', so she never slept alone or walked downstairs without holding someone's hand.",
+      "She kept a journal from the age of 13 until just before her death, filling over 120 volumes.",
+      {t:"Woken early on 20 June 1837, she learned that her uncle William IV had died and she was queen. She noted that she received the news, and later her prime minister, alone, without her mother.", lab:"verified", why:"Recorded in her own journal for that day."}
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "The young queen, 1837 to 1840. She relied on the Whig prime minister Lord Melbourne as mentor. In the 'Bedchamber Crisis' of 1839 she refused to change her ladies-in-waiting for a new Tory government.",
+      {t:"Marriage, 1840. As queen, she proposed to Albert, her first cousin. They married on 10 February 1840; she wore white, helping make white wedding dresses fashionable.", lab:"verified", why:"From her journal and court records. Her dress survives in the Royal Collection."},
+      "Albert's partnership, 1840 to 1861. Albert became her chief adviser. He organised the Great Exhibition of 1851 in the Crystal Palace. They built family homes at Osborne and Balmoral.",
+      "Assassination attempts. She survived at least seven attempts, the first in 1840, often by disturbed young men with pistols.",
+      "Widowhood, 1861. Albert died, probably of typhoid or a chronic illness, on 14 December 1861, aged 42. She withdrew from public life for years and wore black for the rest of her life. Republican feeling grew.",
+      "Empress, 1876. Prime Minister Benjamin Disraeli, whom she liked, passed an act making her Empress of India.",
+      "Jubilees, 1887 and 1897. Her Golden and Diamond Jubilees were huge imperial celebrations, and she became a symbol of the British Empire."
+    ]},
+    {k:"works", h:"What she left", ps:[
+      "Her journals and many thousands of letters, edited and published in part, including nine volumes of The Letters of Queen Victoria.",
+      "Leaves from the Journal of Our Life in the Highlands (1868), a bestseller about her Scottish holidays.",
+      "The model of a modern constitutional monarch, who advised and warned but did not govern.",
+      "Her name for an age: the Victorian era."
+    ]},
+    {k:"people", h:"Her people", ps:[
+      "Prince Albert (1819 to 1861), her husband.",
+      "Her nine children, including Victoria, German Empress, and Edward VII, who succeeded her.",
+      "Lord Melbourne, Benjamin Disraeli and William Gladstone, her prime ministers. She adored Disraeli and disliked Gladstone.",
+      "John Brown, her Scottish servant and close companion after Albert's death.",
+      "Abdul Karim, 'the Munshi', an Indian servant who taught her Urdu and became a trusted secretary, to the fury of her household."
+    ]},
+    {k:"world", h:"The world around her", ps:[
+      "In her reign Britain became the world's greatest industrial and imperial power, with railways, telegraph and factories.",
+      "Its empire grew to cover about a quarter of the world's land, including India after the 1857 uprising, much of Africa, and settlements in Australia, Canada and New Zealand. For many colonised peoples it meant conquest and famine.",
+      "At home, the vote was gradually extended to more men; women did not get it during her lifetime."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "Her 63 years and 7 months were the longest British reign until Elizabeth II passed her in 2015.",
+      "Her grandchildren reigned in Britain and Germany and were consorts on the thrones of Russia, Norway, Greece, Romania and Spain, earning her the name 'grandmother of Europe'.",
+      "She carried the gene for haemophilia, which passed to royal families including Russia's."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"She said 'We are not amused.'", lab:"tradition", t:"The line comes from second-hand anecdotes with no firm source. Her granddaughter Princess Alice said the queen told her she had never said it, and her journals show a lively sense of humour."},
+      {c:"She was always gloomy and stern.", lab:"myth", t:"As a young woman she loved dancing, opera and riding. Her image as a grim widow came from her long mourning."},
+      {c:"She was the first to wear a white wedding dress.", lab:"myth", t:"Others had worn white before, but her wedding made it fashionable."},
+      {c:"She refused to believe lesbians existed, so it was not made illegal.", lab:"myth", t:"There is no evidence of this. Laws against sex between women were never proposed in her reign."},
+      {c:"She was thoroughly English by descent.", lab:"myth", t:"Her mother was German, and her father's family, the Hanoverians, was largely German by descent. She was born and raised in England, often spoke German with Albert, and thought of herself as British."},
+      {c:"She married John Brown in secret.", lab:"myth", t:"Rumours spread in her lifetime. There is no reliable evidence."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Queen Victoria, Leaves from the Journal of Our Life in the Highlands, edited by Arthur Helps (1868), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/66173"},
+      {n:"The Letters of Queen Victoria, edited by A. C. Benson and Viscount Esher (1907), public domain"},
+      {n:"Queen Victoria's Journals, Royal Archives and Bodleian Libraries (online)"},
+      {n:"Royal Collection Trust: Queen Victoria", u:"https://www.rct.uk/"},
+      {n:"Further reading: Julia Baird, Victoria the Queen (2016)"}
+    ]}
+  ]
+},
+
+"andersen": {
+  hero: "",
+  kw: ["Odense","Copenhagen","fairy tales","The Little Mermaid","The Ugly Duckling","The Emperor's New Clothes","The Snow Queen","The Little Match Girl","The Princess and the Pea","The Tinderbox","Royal Theatre","Jonas Collin","Dickens","Jenny Lind","travel","shoemaker"],
+  lede: "A shoemaker's son from Odense who went to Copenhagen at 14 to be a star, failed as a singer, dancer and actor, and found fame instead with fairy tales such as The Ugly Duckling, read in more languages than almost any other book.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Hans Christian Andersen was born on 2 April 1805 in Odense, Denmark. His father was a poor shoemaker, his mother a washerwoman.",
+      "He moved to Copenhagen at 14, struggled for years, and with the help of patrons got an education. He wrote novels, poems, plays and travel books, but became world famous for his 156 fairy tales and stories, published from 1835 to 1872.",
+      "He never married. He died in Copenhagen on 4 August 1875, aged 70, a national hero."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His family lived in one room. His father read him The Arabian Nights and built him a toy theatre. His father died in 1816, after serving as a soldier.",
+      "He left school early, worked briefly in a cloth mill and a tobacco factory, and spent his time making puppet shows and singing.",
+      {t:"In 1819, aged 14, he went to Copenhagen with a little money, determined to become famous. A fortune-teller, he said, had told his mother that Odense would one day be lit up in his honour.", lab:"likely", why:"From his autobiography, The Fairy Tale of My Life, which tells his life as a fairy tale and must be read with care."}
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Struggle, 1819 to 1822. He tried to join the Royal Theatre as a singer, dancer and actor. His voice broke and he was let go.",
+      "School, 1822 to 1828. Jonas Collin, a director of the Royal Theatre, obtained a royal grant to send him to grammar school in Slagelse. Aged 17 among younger boys, he was bullied by the headmaster.",
+      "First success, 1829 to 1835. A comic travel fantasy, A Walk from Holmen's Canal to Amager, sold well. His novel The Improvisatore (1835), set in Italy, made his name across Europe.",
+      "Fairy Tales, 1835. His first small booklet, Fairy Tales Told for Children, included The Tinderbox and The Princess and the Pea. Critics were unimpressed at first.",
+      "The great tales, 1836 to 1848. The Little Mermaid and The Emperor's New Clothes (1837), The Ugly Duckling (1843), The Snow Queen (1844) and The Little Match Girl (1845) followed.",
+      "Travel. He made about 30 trips abroad, visiting Italy, Greece, Turkey, Spain and Britain. In 1857 he stayed with Charles Dickens for five weeks, far longer than Dickens wanted.",
+      "Fame and death, 1867 to 1875. Odense made him an honorary citizen in 1867 and lit up the town for him, as the fortune-teller had foretold. He was badly hurt in a fall from bed in 1872, never fully recovered, and died of liver cancer in 1875 at the home of friends."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "156 fairy tales and stories, including The Little Mermaid, The Ugly Duckling, The Emperor's New Clothes, The Snow Queen, The Little Match Girl, The Steadfast Tin Soldier, Thumbelina and The Nightingale.",
+      "Unlike the Brothers Grimm, who collected folk tales, he invented most of his, giving them a personal, often bittersweet voice.",
+      "Novels, plays, poems, travel books, and three autobiographies.",
+      "Delicate paper cut-outs, which he made while telling stories to children."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Jonas Collin (1776 to 1861), his patron and father figure, and Collin's son Edvard, whom Andersen loved and who kept him at arm's length.",
+      "Jenny Lind (1820 to 1887), the 'Swedish Nightingale', the singer he loved; she thought of him as a brother.",
+      "Charles Dickens, whose friendship ended after Andersen's long visit.",
+      "Riborg Voigt, an early love, whose letter was found in a pouch on his chest when he died."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Denmark lost Norway in 1814 and Schleswig-Holstein in 1864, but enjoyed a 'Golden Age' of culture in Copenhagen, with the philosopher Kierkegaard and the sculptor Thorvaldsen.",
+      "Romanticism celebrated folk tradition and childhood imagination.",
+      "Children's books were becoming a market of their own."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "His tales are translated into more than 125 languages.",
+      "The Little Mermaid statue in Copenhagen harbour, unveiled in 1913, is a symbol of Denmark. His birthday, 2 April, is International Children's Book Day.",
+      "The Hans Christian Andersen Award, given since 1956, is the leading international prize for children's literature."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He collected traditional folk tales, like the Grimms.", lab:"myth", t:"A few early tales retell folk stories he heard as a child, but most are his own inventions."},
+      {c:"The Little Mermaid has a happy ending.", lab:"myth", t:"In his story she fails to win the prince and turns into sea foam, then becomes a daughter of the air who may earn a soul. The happy ending is from later adaptations."},
+      {c:"The Ugly Duckling is about his own life.", lab:"likely", t:"He is reported to have said as much himself, and readers have long seen it so."},
+      {c:"He was afraid of being buried alive.", lab:"verified", t:"He sometimes left a note by his bed saying 'I only seem dead', so no one would bury him by mistake."},
+      {c:"He was the son of a king.", lab:"myth", t:"A theory claims he was a secret royal child. There is no evidence; parish records name his parents."},
+      {c:"He wrote only for children.", lab:"myth", t:"He wanted adults to read his tales too, and many carry irony and sorrow aimed at older readers."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Hans Christian Andersen, Andersen's Fairy Tales, Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/1597"},
+      {n:"Hans Christian Andersen, The True Story of My Life, translated by Mary Howitt (1847), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/7007"},
+      {n:"Hans Christian Andersen Centre, University of Southern Denmark", u:"https://andersen.sdu.dk/"},
+      {n:"H. C. Andersen Museum, Odense"},
+      {n:"Further reading: Jackie Wullschlager, Hans Christian Andersen: The Life of a Storyteller (2000)"}
+    ]}
+  ]
 }
 });
