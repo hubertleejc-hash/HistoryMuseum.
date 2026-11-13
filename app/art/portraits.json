@@ -29,6 +29,21 @@
   "w": 380,
   "h": 800
  },
+ "alexander": {
+  "title": "Alexander in the Battle of Issus mosaic (detail)",
+  "artist": "Unknown author Unknown author",
+  "date": "circa 100 BC",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Alexander_Mosaic_detail_of_Alexander_the_Great.jpg",
+  "file": "Alexander Mosaic detail of Alexander the Great.jpg",
+  "hand": 1,
+  "w": 533,
+  "h": 800,
+  "note": [
+   "likely",
+   "Roman mosaic copy made about 200 years after his death"
+  ]
+ },
  "amundsen": {
   "title": "Amundsen in fur skins",
   "artist": "Anonymous Unknown author",
@@ -67,13 +82,23 @@
    "Probably made long after their lifetime. Nobody knows how close it is to their real face."
   ]
  },
+ "babbage": {
+  "title": "The Late Mr. Babbage",
+  "artist": "Thomas Dewell Scott",
+  "date": "4 November 1871 date QS:P571,+1871-11-04T00:00:00Z/11",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:CharlesBabbage.jpg",
+  "file": "CharlesBabbage.jpg",
+  "w": 363,
+  "h": 430
+ },
  "bach": {
   "title": "Portrait of Johann Sebastian Bach",
   "artist": "Elias Gottlob Haussmann",
-  "date": "1748",
+  "date": "1748 date QS:P571,+1748-00-00T00:00:00Z/9",
   "licence": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach.png",
-  "file": "Johann Sebastian Bach.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach.jpg",
+  "file": "Johann Sebastian Bach.jpg",
   "w": 616,
   "h": 800
  },
@@ -121,6 +146,30 @@
    "An artist's imagining made many centuries after his life"
   ]
  },
+ "catherine-the-great": {
+  "title": "Portrait of Catherine II of Russia",
+  "artist": "Johann Baptist von Lampi the Elder",
+  "date": "1794",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Catherine_II_by_J.B.Lampi_(1794,_Hermitage).jpg",
+  "file": "Catherine II by J.B.Lampi (1794, Hermitage).jpg",
+  "w": 507,
+  "h": 800
+ },
+ "charlemagne": {
+  "title": "Bildnis Kaiser Karls des Großen im Krönungsornat Emperor Charlemagne",
+  "artist": "Albrecht Dürer",
+  "date": "from 1511 until 1513 date QS:P571,+1511-00-00T00:00:00Z/8,P580,+1511-00-00T00:00",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_Emperor_Charlemagne.jpg",
+  "file": "Albrecht Dürer - Emperor Charlemagne.jpg",
+  "w": 419,
+  "h": 800,
+  "note": [
+   "likely",
+   "Made about 697 years after Charlemagne died, so it shows how later artists imagined them."
+  ]
+ },
  "chopin": {
   "title": "Portrait of Fryderyk Chopin",
   "artist": "Maria Wodzińska",
@@ -131,14 +180,28 @@
   "w": 593,
   "h": 800
  },
- "columbus": {
-  "title": "Portrait of Christopher Columbus",
-  "artist": "Ridolfo del Ghirlandaio",
-  "date": "circa 1520 date QS:P571,+1520-00-00T00:00:00Z/9,P1480,Q5727902",
+ "cleopatra": {
+  "title": "Portrait of Cleopatra",
+  "artist": "Louis le Grand",
+  "date": "40-30 v. Chr. / 40-30 BC / spätptolemäisch / late Ptolemaic dynasty",
   "licence": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Ridolfo_del_Ghirlandaio_-_Ritratto_di_Cristoforo_Colombo_(1520).jpg",
-  "file": "Ridolfo del Ghirlandaio - Ritratto di Cristoforo Colombo (1520).jpg",
-  "w": 680,
+  "page": "https://commons.wikimedia.org/wiki/File:Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
+  "file": "Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
+  "w": 604,
+  "h": 800,
+  "note": [
+   "likely",
+   "Probably made long after their lifetime. Nobody knows how close it is to their real face."
+  ]
+ },
+ "columbus": {
+  "title": "Portrait of a Man, Said to be Christopher Columbus dead",
+  "artist": "Sebastiano del Piombo",
+  "date": "before 1519 date QS:P,+1519-00-00T00:00:00Z/7,P1326,+1519-00-00T00:00:00Z/9",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_Man,_Said_to_be_Christopher_Columbus.jpg",
+  "file": "Portrait of a Man, Said to be Christopher Columbus.jpg",
+  "w": 661,
   "h": 800
  },
  "confucius": {
@@ -155,6 +218,16 @@
    "Engraved about 2,250 years after his death"
   ]
  },
+ "copernicus": {
+  "title": "Nikolaus Kopernikus",
+  "artist": "Unknown author Unknown author",
+  "date": "circa 1580 date QS:P,+1580-00-00T00:00:00Z/9,P1480,Q5727902",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Nikolaus_Kopernikus.jpg",
+  "file": "Nikolaus Kopernikus.jpg",
+  "w": 800,
+  "h": 782
+ },
  "descartes": {
   "title": "Portrait of René Descartes",
   "artist": "After Frans Hals",
@@ -163,6 +236,16 @@
   "page": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
   "file": "Frans Hals - Portret van René Descartes.jpg",
   "w": 654,
+  "h": 800
+ },
+ "dickens": {
+  "title": "Dickens Gurney head",
+  "artist": "Jeremiah Gurney",
+  "date": "between 1867 and 1868 date QS:P,+1867-00-00T00:00:00Z/8,P1319,+1867-00-00T00:00:",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Dickens_Gurney_head.jpg",
+  "file": "Dickens Gurney head.jpg",
+  "w": 547,
   "h": 800
  },
  "dostoevsky": {
@@ -185,6 +268,50 @@
   "w": 698,
   "h": 800
  },
+ "du-fu": {
+  "title": "Portrait of Du Fu",
+  "artist": "Unknown author Unknown author",
+  "date": "Date unknown",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Dufu.jpg",
+  "file": "Dufu.jpg",
+  "w": 578,
+  "h": 800,
+  "note": [
+   "likely",
+   "Probably made long after their lifetime. Nobody knows how close it is to their real face."
+  ]
+ },
+ "earhart": {
+  "title": "Amelia Earhart 1928 (cropped)",
+  "artist": "Wide World Photos",
+  "date": "The earliest date is June 6, 1928-Earhart disappeared in 1937.",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_1928_(cropped).jpg",
+  "file": "Amelia Earhart 1928 (cropped).jpg",
+  "w": 421,
+  "h": 541
+ },
+ "edison": {
+  "title": "Portrait of Thomas Edison",
+  "artist": "Louis Bachrach, Bachrach Studios , restored by Michel Vuijlsteke",
+  "date": "circa 1922 date QS:P,+1922-00-00T00:00:00Z/9,P1480,Q5727902",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2-crop.jpg",
+  "file": "Thomas Edison2-crop.jpg",
+  "w": 550,
+  "h": 800
+ },
+ "einstein": {
+  "title": "Einstein 1921 by F Schmutzer - restoration",
+  "artist": "Ferdinand Schmutzer / Adam Cuerden",
+  "date": "1921 ( ref. )",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Einstein_1921_by_F_Schmutzer_-_restoration.jpg",
+  "file": "Einstein 1921 by F Schmutzer - restoration.jpg",
+  "w": 609,
+  "h": 800
+ },
  "elizabeth-i": {
   "title": "The Darnley Portrait of Elizabeth I",
   "artist": "Unknown, perhaps Federico Zuccaro (see Sir Roy Strong, The English Icon , 1969)",
@@ -193,6 +320,46 @@
   "page": "https://commons.wikimedia.org/wiki/File:Elizabeth_I_Darnley_Portrait.jpg",
   "file": "Elizabeth I Darnley Portrait.jpg",
   "w": 547,
+  "h": 800
+ },
+ "engels": {
+  "title": "Friedrich Engels portrait (cropped)",
+  "artist": "William Hall (1826–ca. 1898) (cropped and sepia tone removed)",
+  "date": "1877-05",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Friedrich_Engels_portrait_(cropped).jpg",
+  "file": "Friedrich Engels portrait (cropped).jpg",
+  "w": 600,
+  "h": 800
+ },
+ "faraday": {
+  "title": "M Faraday Th Phillips oil 1842",
+  "artist": "Thomas Phillips",
+  "date": "1842 date QS:P571,+1842-00-00T00:00:00Z/9",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:M_Faraday_Th_Phillips_oil_1842.jpg",
+  "file": "M Faraday Th Phillips oil 1842.jpg",
+  "w": 618,
+  "h": 800
+ },
+ "fitzgerald": {
+  "title": "F. Scott Fitzgerald (1929 photo portrait by Nickolas Muray) Cropped",
+  "artist": "Nickolas Muray",
+  "date": "1929",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:F._Scott_Fitzgerald_(1929_photo_portrait_by_Nickolas_Muray)_Cropped.jpg",
+  "file": "F. Scott Fitzgerald (1929 photo portrait by Nickolas Muray) Cropped.jpg",
+  "w": 647,
+  "h": 800
+ },
+ "franklin": {
+  "title": "Portrait of Benjamin Franklin",
+  "artist": "Joseph-Siffred Duplessis",
+  "date": "circa 1785 date QS:P571,+1785-00-00T00:00:00Z/9,P1480,Q5727902",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Joseph_Siffrein_Duplessis_-_Benjamin_Franklin_-_Google_Art_Project.jpg",
+  "file": "Joseph Siffrein Duplessis - Benjamin Franklin - Google Art Project.jpg",
+  "w": 650,
   "h": 800
  },
  "frederick-the-great": {
@@ -259,6 +426,16 @@
   "w": 524,
   "h": 800
  },
+ "goethe": {
+  "title": "Johann Wolfgang von Goethe at age 79",
+  "artist": "Joseph Karl Stieler",
+  "date": "1828",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Goethe_(Stieler_1828).jpg",
+  "file": "Goethe (Stieler 1828).jpg",
+  "w": 649,
+  "h": 800
+ },
  "gutenberg": {
   "title": "Portrait of Johannes Gutenberg",
   "artist": "Unknown",
@@ -281,6 +458,16 @@
   "page": "https://commons.wikimedia.org/wiki/File:George_Frideric_Handel_by_Balthasar_Denner.jpg",
   "file": "George Frideric Handel by Balthasar Denner.jpg",
   "w": 662,
+  "h": 800
+ },
+ "haydn": {
+  "title": "Portrait of Joseph Haydn",
+  "artist": "Thomas Hardy",
+  "date": "1791 date QS:P571,+1791-00-00T00:00:00Z/9",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Joseph_Haydn,_m%C3%A5lning_av_Thomas_Hardy_fr%C3%A5n_1792.jpg",
+  "file": "Joseph Haydn, målning av Thomas Hardy från 1792.jpg",
+  "w": 633,
   "h": 800
  },
  "helen-keller": {
@@ -321,6 +508,16 @@
   "page": "https://commons.wikimedia.org/wiki/File:Hans_Holbein,_the_Younger,_Around_1497-1543_-_Portrait_of_Henry_VIII_of_England_-_Google_Art_Project.jpg",
   "file": "Hans Holbein, the Younger, Around 1497-1543 - Portrait of Henry VIII of England - Google Art Project.jpg",
   "w": 570,
+  "h": 800
+ },
+ "hiroshige": {
+  "title": "Memorial Portrait of Hiroshige, by Kunisada",
+  "artist": "Utagawa Kunisada",
+  "date": "1858 date QS:P571,+1858-00-00T00:00:00Z/9",
+  "licence": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Memorial_Portrait_of_Hiroshige,_by_Kunisada.jpg",
+  "file": "Memorial Portrait of Hiroshige, by Kunisada.jpg",
+  "w": 548,
   "h": 800
  },
  "hokusai": {
@@ -376,6 +573,30 @@
   "file": "John Adams A18236.jpg",
   "w": 660,
   "h": 800
+ },
+ "joyce": {
+  "title": "Revolutionary Joyce Better Contrast",
+  "artist": "Camille Ruf",
+  "date": "Date unknown",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Revolutionary_Joyce_Better_Contrast.jpg",
+  "file": "Revolutionary Joyce Better Contrast.jpg",
+  "w": 570,
+  "h": 764
+ },
+ "julius-caesar": {
+  "title": "Gaius Julius Caesar (100-44 BC)",
+  "artist": "Unknown",
+  "date": "Date unknown",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Gaius_Julius_Caesar_(100-44_BC).JPG",
+  "file": "Gaius Julius Caesar (100-44 BC).JPG",
+  "w": 371,
+  "h": 600,
+  "note": [
+   "likely",
+   "Probably made long after their lifetime. Nobody knows how close it is to their real face."
+  ]
  },
  "kant": {
   "title": "Immanuel Kant - Gemaelde 2",
@@ -455,6 +676,16 @@
    "Probably made long after their lifetime. Nobody knows how close it is to their real face."
   ]
  },
+ "liszt": {
+  "title": "Portrait of Franz Liszt",
+  "artist": "Franz Hanfstaengl",
+  "date": "1858 date QS:P571,+1858-00-00T00:00:00Z/9",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:FLisztFXD.jpg",
+  "file": "FLisztFXD.jpg",
+  "w": 558,
+  "h": 800
+ },
  "louis-xiv": {
   "title": "Louis XIV in his coronation robes",
   "artist": "Hyacinthe Rigaud",
@@ -473,6 +704,16 @@
   "page": "https://commons.wikimedia.org/wiki/File:LuXun1930.jpg",
   "file": "LuXun1930.jpg",
   "w": 600,
+  "h": 800
+ },
+ "machiavelli": {
+  "title": "Eduardo Alvarado Toledo",
+  "artist": "Santi di Tito",
+  "date": "from 1550 until 1600 date QS:P,+1500-00-00T00:00:00Z/6,P580,+1550-00-00T00:00:00",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg",
+  "file": "Portrait of Niccolò Machiavelli by Santi di Tito.jpg",
+  "w": 622,
   "h": 800
  },
  "marx": {
@@ -505,6 +746,16 @@
   "w": 611,
   "h": 800
  },
+ "maxwell": {
+  "title": "Portrait of James Clerk Maxwell",
+  "artist": "Unknown author Unknown author",
+  "date": "circa 1870 date QS:P,+1870-00-00T00:00:00Z/9,P1480,Q5727902",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:James-Clerk-Maxwell-1831-1879.jpg",
+  "file": "James-Clerk-Maxwell-1831-1879.jpg",
+  "w": 640,
+  "h": 800
+ },
  "mendelssohn": {
   "title": "Felix Mendelssohn Bartholdy by Eduard Magnus (1833)",
   "artist": "Eduard Magnus",
@@ -513,6 +764,26 @@
   "page": "https://commons.wikimedia.org/wiki/File:Felix_Mendelssohn_Bartholdy_by_Eduard_Magnus_(1833).jpg",
   "file": "Felix Mendelssohn Bartholdy by Eduard Magnus (1833).jpg",
   "w": 621,
+  "h": 800
+ },
+ "michelangelo": {
+  "title": "Michelangelo Buonarroti (1475–1564)",
+  "artist": "Attributed to Daniele da Volterra",
+  "date": "1545",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Miguel_%C3%81ngel,_por_Daniele_da_Volterra_(detalle).jpg",
+  "file": "Miguel Ángel, por Daniele da Volterra (detalle).jpg",
+  "w": 691,
+  "h": 800
+ },
+ "milton": {
+  "title": "Portrait of John Milton",
+  "artist": "anonymous",
+  "date": "circa 1629 date QS:P571,+1629-00-00T00:00:00Z/9,P1480,Q5727902",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:John-milton.jpg",
+  "file": "John-milton.jpg",
+  "w": 636,
   "h": 800
  },
  "monet": {
@@ -569,6 +840,26 @@
   "w": 569,
   "h": 800
  },
+ "nietzsche": {
+  "title": "Portrait of Friedrich Nietzsche",
+  "artist": "Friedrich Hermann Hartmann",
+  "date": "circa 1875 date QS:P571,+1875-00-00T00:00:00Z/9,P1480,Q5727902",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Nietzsche187a.jpg",
+  "file": "Nietzsche187a.jpg",
+  "w": 590,
+  "h": 800
+ },
+ "nightingale": {
+  "title": "Florence Nightingale (H Hering NPG x82368)",
+  "artist": "Henry Hering (1814-1893)",
+  "date": "circa 1860 date QS:P,+1860-00-00T00:00:00Z/9,P1480,Q5727902",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Florence_Nightingale_(H_Hering_NPG_x82368).jpg",
+  "file": "Florence Nightingale (H Hering NPG x82368).jpg",
+  "w": 576,
+  "h": 800
+ },
  "orville-wright": {
   "title": "Portrait of Orville Wright",
   "artist": "Orville Wright and Wilbur Wright (credited as photographers) [1] , [2]",
@@ -587,6 +878,16 @@
   "page": "https://commons.wikimedia.org/wiki/File:Louis_Pasteur_(1822_-_1895),_microbiologist_and_chemist_Wellcome_V0026980.jpg",
   "file": "Louis Pasteur (1822 - 1895), microbiologist and chemist Wellcome V0026980.jpg",
   "w": 568,
+  "h": 800
+ },
+ "peter-the-great": {
+  "title": "«Портрет Петра I (1672–1725)» Portrait of Peter I (1672–1725)",
+  "artist": "Attributed to Jean-Marc Nattier",
+  "date": "1717 date QS:P571,+1717-00-00T00:00:00Z/9",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Inconnu_d%27apr%C3%A8s_J.-M._Nattier,_Portrait_de_Pierre_Ier_(mus%C3%A9e_de_l%E2%80%99Ermitage).jpg",
+  "file": "Inconnu d'après J.-M. Nattier, Portrait de Pierre Ier (musée de l’Ermitage).jpg",
+  "w": 606,
   "h": 800
  },
  "picasso": {
@@ -624,7 +925,7 @@
   ]
  },
  "raphael": {
-  "title": "Self-portrait",
+  "title": "Portrait of Raphael",
   "artist": "Raphael",
   "date": "between 1504 and 1506 date QS:P,+1504-00-00T00:00:00Z/8,P1319,+1504-00-00T00:00:",
   "licence": "Public domain",
@@ -632,6 +933,26 @@
   "file": "Raffaello Sanzio.jpg",
   "w": 587,
   "h": 800
+ },
+ "rembrandt": {
+  "title": "Portrait of Rembrandt",
+  "artist": "Rembrandt",
+  "date": "1659 date QS:P571,+1659-00-00T00:00:00Z/9",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg",
+  "file": "Rembrandt van Rijn - Self-Portrait - Google Art Project.jpg",
+  "w": 617,
+  "h": 800
+ },
+ "renoir": {
+  "title": "Pierre Auguste Renoir, uncropped image",
+  "artist": "Unknown Unknown Musée d'Orsay, Dist. RMN-Grand Palais / Patrice Schmidt",
+  "date": "circa 1875 date QS:P,+1875-00-00T00:00:00Z/9,P1480,Q5727902",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Pierre_Auguste_Renoir,_uncropped_image.jpg",
+  "file": "Pierre Auguste Renoir, uncropped image.jpg",
+  "w": 525,
+  "h": 650
  },
  "rivera": {
   "title": "Diego Rivera with a xoloitzcuintle dog",
@@ -667,6 +988,16 @@
   "w": 584,
   "h": 800
  },
+ "schiele": {
+  "title": "Egon Schiele photo",
+  "artist": "unattributed",
+  "date": "1918",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Egon_Schiele_photo.jpg",
+  "file": "Egon Schiele photo.jpg",
+  "w": 577,
+  "h": 800
+ },
  "schubert": {
   "title": "Portrait of Franz Schubert",
   "artist": "Wilhelm August Rieder",
@@ -689,6 +1020,16 @@
   "page": "https://commons.wikimedia.org/wiki/File:%27Jujhar_Singh_Bundela_Kneels_in_Submission_to_Shah_Jahan%27,_painted_by_Bichitr,_c._1630,_Chester_Beatty_Library_(cropped2).jpg",
   "file": "'Jujhar Singh Bundela Kneels in Submission to Shah Jahan', painted by Bichitr, c. 1630, Chester Beatty Library (cropped2).jpg",
   "w": 554,
+  "h": 800
+ },
+ "shakespeare": {
+  "title": "Portrait of William Shakespeare (1564-1646)",
+  "artist": "Attributed to John Taylor",
+  "date": "1648",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Shakespeare.jpg",
+  "file": "Shakespeare.jpg",
+  "w": 627,
   "h": 800
  },
  "sima-qian": {
@@ -719,6 +1060,16 @@
    "Painted about 2,200 years after his death"
   ]
  },
+ "stalin": {
+  "title": "Joseph Stalin official portrait",
+  "artist": "Ivan Shagin",
+  "date": "1945",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Joseph_Stalin_official_portrait.jpg",
+  "file": "Joseph Stalin official portrait.jpg",
+  "w": 593,
+  "h": 800
+ },
  "su-shi": {
   "title": "Portrait of Su Shi",
   "artist": "Zhao Mengfu",
@@ -733,6 +1084,26 @@
    "Probably made long after their lifetime. Nobody knows how close it is to their real face."
   ]
  },
+ "sun-yat-sen": {
+  "title": "Portrait of Sun Yat-sen",
+  "artist": "上海波尔照相馆",
+  "date": "1922年11月15日",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:%E5%AD%99%E4%B8%AD%E5%B1%B1%E8%82%96%E5%83%8F.jpg",
+  "file": "孙中山肖像.jpg",
+  "w": 610,
+  "h": 800
+ },
+ "tagore": {
+  "title": "Rabindranath Tagore in 1909",
+  "artist": "Generalstabens litografiska anstalt",
+  "date": "1909",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Rabindranath_Tagore_in_1909.jpg",
+  "file": "Rabindranath Tagore in 1909.jpg",
+  "w": 571,
+  "h": 800
+ },
  "tolstoy": {
   "title": "Portrait of Leo Tolstoy",
   "artist": "Sergei Prokudin-Gorskii",
@@ -746,6 +1117,16 @@
    "verified",
    "Colour photograph by Sergei Prokudin-Gorsky, 1908"
   ]
+ },
+ "trotsky": {
+  "title": "Leon Trotsky (3x4 cropped)",
+  "artist": "Unknown author Unknown author",
+  "date": "early 1920s",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Leon_Trotsky_(3x4_cropped).jpg",
+  "file": "Leon Trotsky (3x4 cropped).jpg",
+  "w": 600,
+  "h": 800
  },
  "tubman": {
   "title": "Harriet Tubman (circa 1885)",
@@ -777,6 +1158,20 @@
   "w": 650,
   "h": 800
  },
+ "vivaldi": {
+  "title": "Onbekend - Antonio Vivaldi - Bologna Museo Internationale e biblioteca della musica di bologna 28-04-2012 9-21-050",
+  "artist": "Unknown author Unknown author",
+  "date": "2012-04-28 09:49:45",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Onbekend_-_Antonio_Vivaldi_-_Bologna_Museo_Internationale_e_biblioteca_della_musica_di_bologna_28-04-2012_9-21-050.jpg",
+  "file": "Onbekend - Antonio Vivaldi - Bologna Museo Internationale e biblioteca della musica di bologna 28-04-2012 9-21-050.jpg",
+  "w": 602,
+  "h": 800,
+  "note": [
+   "likely",
+   "Made about 271 years after Antonio Vivaldi died, so it shows how later artists imagined them."
+  ]
+ },
  "voltaire": {
   "title": "Voltaire at twenty-four",
   "artist": "Nicolas de Largillière",
@@ -785,6 +1180,26 @@
   "page": "https://commons.wikimedia.org/wiki/File:Nicolas_de_Largilli%C3%A8re_-_Portrait_de_Voltaire_(1694-1778)_en_1718_-_P208_-_mus%C3%A9e_Carnavalet_-_5_(cropped).jpg",
   "file": "Nicolas de Largillière - Portrait de Voltaire (1694-1778) en 1718 - P208 - musée Carnavalet - 5 (cropped).jpg",
   "w": 600,
+  "h": 800
+ },
+ "wagner": {
+  "title": "Portrait of Richard Wagner",
+  "artist": "Franz Hanfstaengl",
+  "date": "1871 date QS:P571,+1871-00-00T00:00:00Z/9",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:RichardWagner.jpg",
+  "file": "RichardWagner.jpg",
+  "w": 577,
+  "h": 800
+ },
+ "washington": {
+  "title": "Portrait of George Washington",
+  "artist": "Gilbert Stuart",
+  "date": "1803",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
+  "file": "Gilbert Stuart Williamstown Portrait of George Washington.jpg",
+  "w": 659,
   "h": 800
  },
  "wu-zetian": {
