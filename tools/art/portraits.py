@@ -100,21 +100,25 @@ def main():
         if isinstance(pick, str): pick = {"file": pick}
         if p["sacred"] or p["id"] in deny: continue
         if p["id"] in man and not (pick and man[p["id"]].get("file") != pick["file"]): continue
-        fname = pick and pick["file"]
-        if not fname:
+        # Try the hand-checked pick first, then the person's Wikidata image (P18); keep the first that is PD or CC0.
+        cands = [(pick["file"], pick)] if pick else []
+        if not (pick and p["id"] in man):
             ent = find_entity(p)
-            if ent:
-                for c in ent.get("claims", {}).get("P18", []):
-                    fname = c["mainsnak"].get("datavalue", {}).get("value"); break
-        if not fname:
-            print("  no picture:", p["n"]); missed += 1; continue
-        ii = commons_info(fname)
-        if not ii: missed += 1; continue
-        md = ii.get("extmetadata", {})
-        lic = (md.get("License", {}).get("value") or "").lower()
-        lic_name = plain(md.get("LicenseShortName", {}).get("value"))
-        if not (lic.startswith("pd") or lic.startswith("cc0") or lic_name.lower().startswith("public domain")):
-            print(f"  not public domain ({lic_name}):", p["n"]); missed += 1; continue
+            for c in (ent or {}).get("claims", {}).get("P18", [])[:3]:
+                f = c["mainsnak"].get("datavalue", {}).get("value")
+                if f and f not in [x[0] for x in cands]: cands.append((f, None))
+        ii = fname = None
+        for f, pk in cands:
+            info = commons_info(f)
+            if not info: print("  not on Commons:", f); continue
+            md = info.get("extmetadata", {})
+            lic = (md.get("License", {}).get("value") or "").lower()
+            lic_name = plain(md.get("LicenseShortName", {}).get("value"))
+            if lic.startswith("pd") or lic.startswith("cc0") or lic_name.lower().startswith("public domain"):
+                ii, fname, pick = info, f, pk; break
+            print(f"  not public domain ({lic_name}):", f)
+        if not ii:
+            print("  no public-domain picture:", p["n"]); missed += 1; continue
         b = get(ii.get("thumburl") or ii["url"], raw=True)
         if not b: missed += 1; continue
         try:
