@@ -18,6 +18,7 @@ struct MuseumView: UIViewRepresentable {
         let config = WKWebViewConfiguration()
         config.userContentController.add(context.coordinator, name: "ready")
         config.userContentController.add(context.coordinator, name: "haptic")
+        config.userContentController.add(context.coordinator.talk, name: "talk")
         // For the screenshot runs on GitHub: `-route p-van-gogh` opens that page. Ignored when not given.
         var start = ""
         if let route = MuseumView.argument("-route"),
@@ -31,6 +32,7 @@ struct MuseumView: UIViewRepresentable {
         let web = MuseumWebView(frame: .zero, configuration: config)
         web.navigationDelegate = context.coordinator
         web.uiDelegate = context.coordinator
+        context.coordinator.talk.webView = web
         web.isOpaque = false
         web.backgroundColor = MuseumView.pageBG
         web.scrollView.backgroundColor = MuseumView.pageBG
@@ -67,6 +69,7 @@ struct MuseumView: UIViewRepresentable {
     final class Coordinator: NSObject, WKNavigationDelegate, WKUIDelegate, WKScriptMessageHandler, UIScrollViewDelegate {
         let launch: LaunchState
         init(launch: LaunchState) { self.launch = launch }
+        let talk = TalkBridge()
 
         // No zooming: there is nothing to zoom into, so double-tap and pinch do nothing.
         func viewForZooming(in scrollView: UIScrollView) -> UIView? { nil }
@@ -138,6 +141,7 @@ struct MuseumView: UIViewRepresentable {
 
         // If iOS frees the page's memory in the background, reload instead of showing a blank screen.
         func webViewWebContentProcessDidTerminate(_ webView: WKWebView) {
+            talk.cancelAll()
             webView.reload()
         }
     }

@@ -28,7 +28,7 @@ for tag, f in (("/*__DATA__*/", "data.js"), ("/*__CONTENT__*/", "content.js"), (
 print("built", len(src), "bytes,", len(images), "images")
 
 # iPhone app version: one file with every picture and font built in (so it works offline),
-# a phone viewport, and APP_MODE so the AI parts point to the online museum.
+# a phone viewport, and APP_MODE. The app never links out to another site for a feature.
 import base64, re
 app_dir = d.parent/"ios"/"HistoryMuseum"/"Web"
 if app_dir.parent.exists():
@@ -44,6 +44,8 @@ if app_dir.parent.exists():
     for f in re.findall(r"fonts/([\w-]+\.woff2)", fonts_css):
         fonts_css = fonts_css.replace("fonts/" + f, "data:font/woff2;base64," + base64.b64encode((d/"fonts"/f).read_bytes()).decode())
     assert "fonts.g" not in app_src
+    app_src = re.sub(r'"https://claude\.ai/[^"]*"', '""', app_src)
+    assert "claude.ai" not in app_src
     head = ('<!doctype html>\n<html lang="en"><head><meta charset="utf-8">\n'
             '<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">\n'
             '<script>window.APP_MODE = true;</script>\n'

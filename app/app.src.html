@@ -672,6 +672,10 @@ html.hinged .big-title, html.hinged .w-regions, html.hinged .w-dial{max-width:ca
 .who b{display:block; font-size:14px; font-weight:600; line-height:1.25; overflow:hidden; text-overflow:ellipsis}
 .who small{display:block; font-size:12px; color:var(--ink-3)}
 @media (prefers-reduced-motion:reduce){.ta-img{animation:none}.ta-veil .hand{animation:none}.ta-veil{transition:none}}
+
+.talk-mode{margin:6px 0 0; font-size:13.5px; color:var(--ink-2); max-width:62ch}
+.talk-badge{display:inline-block; margin-right:6px; padding:2px 8px; border-radius:9px; background:var(--accent); color:var(--accent-ink); font:600 10.5px/1.5 var(--ui); letter-spacing:.06em; text-transform:uppercase; vertical-align:1px}
+.talk-badge.rec{background:var(--sunk); color:var(--ink-2); border:1px solid var(--rule)}
 </style>
 <script>/* light or dark follows the phone's own setting */
 (function(){var m=window.matchMedia&&matchMedia("(prefers-color-scheme: dark)");document.documentElement.setAttribute("data-theme",m&&!m.matches?"light":"dark")})();</script>
@@ -1748,9 +1752,9 @@ function sampleErr(e){
   return "Something went wrong reaching Claude. Try again.";
 }
 const APP = !!window.APP_MODE;   /* true inside the iPhone app */
-const NO_CLAUDE = APP ? "This part is written by Claude, which runs online, not inside the app." : "This part needs Claude, and this view of the page can't reach it. Open the app inside Claude to use it.";
-const ONLINE_URL = "https://claude.ai/artifact/JzL6YkLNsF8z8CArvZzprt";
-const ONLINE = APP ? ` <a href="${ONLINE_URL}" target="_blank" rel="noopener">Open the online museum</a> to use it (it opens in Safari and needs you signed in to Claude).` : "";
+const NO_CLAUDE = APP ? "This part is coming to the app soon." : "This part needs Claude, and this view of the page can't reach it. Open the app inside Claude to use it.";
+const ONLINE_URL = APP ? "" : "https://claude.ai/artifact/JzL6YkLNsF8z8CArvZzprt";
+const ONLINE = "";   /* the app never sends people out to another site to use a feature */
 
 /* ---------- What If? ---------- */
 let wiA = store.get("ctm-wA") || "van-gogh", wiB = store.get("ctm-wB") || "beethoven";
@@ -1785,6 +1789,91 @@ async function runWhatIf(){
 
 /* ---------- Talk ---------- */
 const chats = new Map();
+/* ---------- Talk engine: everything stays inside the app ----------
+   1. On iPhones with Apple Intelligence, an AI portrayal written on the phone itself (free, private), drawing only on the record.
+   2. Everywhere else, the person answers straight from the museum's checked record, with no AI at all.
+   (The web copy inside Claude can still use Claude.) */
+const TALK = {ai:false, ready:false, wait:new Map(), seq:0};
+window.__talk = {onEvent(ev){
+  if (!ev) return;
+  if (ev.t === "status") { TALK.ai = !!ev.available; TALK.ready = true; const n = document.getElementById("talkMode"); if (n) n.innerHTML = talkModeHTML(); return; }
+  const w = TALK.wait.get(ev.id); if (!w) return;
+  TALK.wait.delete(ev.id);
+  ev.t === "done" ? w.ok(String(ev.text || "")) : w.no(ev.kind || "error");
+}};
+try { window.webkit.messageHandlers.talk.postMessage({op:"status"}); } catch(e) { TALK.ready = true; }
+const askPhone = (instructions, prompt) => new Promise((ok, no) => {
+  const id = "q" + (++TALK.seq); TALK.wait.set(id, {ok, no});
+  try { window.webkit.messageHandlers.talk.postMessage({op:"ask", id, instructions, prompt}); } catch(e) { TALK.wait.delete(id); no("unavailable"); }
+  setTimeout(() => { if (TALK.wait.has(id)) { TALK.wait.delete(id); no("timeout"); } }, 45000);
+});
+
+/* The record, line by line: what the museum knows, its label, and how the person would say it. */
+const recCache = new Map();
+const STOP = new Set("a an the and or but of to in on at for with about from by as is are was were be been do did does you your yours i me my we our it its this that what who whom which when where why how tell please can could would will just really ever any some much many more most very so than then there their them they he she his her him one".split(" "));
+const SYN = {paint:"paint painting painted painter art picture canvas work works", music:"music compose composed composer symphony song play played", die:"die died death dead end", born:"born birth childhood young early child", love:"love wife husband married marriage family brother sister mother father son daughter", friend:"friend friends knew met meet rival rivals enemy teacher student mentor", famous:"famous known remembered proud proudest legacy best", where:"where live lived home country city", myth:"myth true really story legend rumour rumor"};
+const SYNMAP = (() => { const m = {}; Object.values(SYN).forEach(g => { const w = g.split(" "); w.forEach(x => { m[x] = (m[x] || []).concat(w); }); }); return m; })();
+const toks = t => norm(t).split(/[^a-z0-9]+/).filter(w => w.length > 2 && !STOP.has(w)).map(w => w.replace(/(ings|ing|ed|es|s)$/, "") || w);
+function recordFor(p){
+  if (recCache.has(p.id)) return recCache.get(p.id);
+  const R = [], add = (lab, topic, me, they, extra) => R.push({lab, topic, me, they, kw: new Set(toks(me + " " + they + " " + (extra || "")))});
+  const dl = p.a ? "likely" : "verified";
+  add(dl, "life", `The record says I was born in ${fy(p.b, p.a)}${p.alive ? "" : ` and died in ${fy(p.d, p.a)}, at about ${lived(p)}`}.${p.a ? " Those dates are approximate." : ""}`, `Born ${fy(p.b, p.a)}${p.alive ? "" : `, died ${fy(p.d, p.a)}, aged about ${lived(p)}`}.${p.a ? " The dates are approximate." : ""}`, "born birth die died death age old year when");
+  add("verified", "known", `The museum remembers me like this: “${p.bio}”`, p.bio, "famous known remembered proud proudest who are you");
+  add("verified", "where", `I lived and worked mainly in ${p.c.map(c => C[c] ? C[c].n : c).join(" and ")}.`, `Lived and worked mainly in ${p.c.map(c => C[c] ? C[c].n : c).join(" and ")}.`, "where live lived home country city");
+  if (H.sheets && H.sheets[p.id]) H.sheets[p.id].forEach(([lab, t]) => add(lab, "hand", `What the record says: “${t}”`, t));
+  (H.works || []).filter(w => w.by === p.id).forEach(w => add(w.lab || "verified", "work", `I made ${w.n} (${fy(w.y, w.a)}${w.e ? " to " + fy(w.e) : ""})${w.where ? `. Today you can see it at ${w.where}` : ""}. ${w.t}`, `Made ${w.n} (${fy(w.y, w.a)})${w.where ? `, now in ${w.where}` : ""}. ${w.t}`, w.n + " work made create"));
+  connOf(p.id).forEach(c => { const o = P.get(c.id); if (o) add(c.lab || "verified", "people", `About ${o.n}: ${c.note}`, `${c.label} ${o.n}: ${c.note}`, o.n + " " + short(o) + " friend knew met"); });
+  (H.myths || []).filter(m => (MYTH_OF[m.id] || []).includes(p.id)).forEach(m => add("myth", "myth", `People tell a story about me: ${m.t} What is actually known: ${m.found}`, `A story people tell: ${m.t} What is actually known: ${m.found}`, (m.n || "") + " myth true really story"));
+  const inLife = e => astro(e.y) >= astro(p.b) && astro(e.y) <= astro(end(p));
+  H.events.filter(e => inLife(e) && p.c.includes(e.c)).sort((a, b) => astro(a.y) - astro(b.y)).slice(0, 10).forEach(e =>
+    add(e.lab || "verified", "times", `In ${fy(e.y, e.a)}, when I was about ${Math.max(0, ageAt(p, e.y))}: ${e.n}. ${e.t}`, `${fy(e.y, e.a)}: ${e.n}. ${e.t}`, e.n + " happen event time world"));
+  recCache.set(p.id, R);
+  return R;
+}
+const LEAD = {art:["Let me put down my brush.", "Ah, that.", "Hm, let me think."], music:["Listen.", "Ah, that.", "A good question."], science:["Let me check my notes.", "Precisely.", "A fair question."], writing:["Let me find the page.", "Ah, that.", "Well."], leaders:["Very well.", "Hm.", "Listen carefully."], philosophy:["A good question.", "Consider this.", "Hm."], exploration:["Ah, that.", "From my travels, then.", "Well."], invention:["Let me show you.", "Ah, that.", "Right."]};
+/* what a question is about, so plain questions ("Who are you?") still find the right lines */
+const INTENT = [[/\bwho (are|were) you\b|about yourself|introduce|what does the record say/i, "known"], [/\bwhere\b/i, "where"], [/\b(born|birth|die|died|death|how old|when were you)\b/i, "life"], [/\b(true|really|myth|story|legend)\b/i, "myth"], [/\b(happen|your time|events?|world around)\b/i, "times"], [/\b(work|painting|made|wrote|invent|famous|best)\b/i, "work"], [/\b(friend|family|knew|met|brother|sister|wife|husband|rival)\b/i, "people"]];
+const AFTER_DEATH = /\b(phone|smartphone|internet|computer|today|nowadays|modern|future|tv|television|ai|robot|car|plane|airplane|instagram|tiktok|facebook|youtube|202\d|201\d)\b/i;
+function recordAnswer(p, q, used){
+  const R = recordFor(p), qt = toks(q), sacred = !!p.sacred;
+  const qs = new Set(qt.flatMap(w => SYNMAP[w] ? SYNMAP[w].map(x => x.replace(/(ings|ing|ed|es|s)$/, "") || x).concat(w) : [w]));
+  const want = new Set(INTENT.filter(([re]) => re.test(q)).map(([, t]) => t));
+  const scored = R.map((l, i) => { let sc = want.has(l.topic) ? 2 : 0; qs.forEach(w => { if (l.kw.has(w)) sc += 1; }); if (used.has(i)) sc -= .6; return {l, i, sc}; }).filter(x => x.sc > .5).sort((a, b) => b.sc - a.sc);
+  const lead = (LEAD[p.f] || ["Well."])[used.size % 3];
+  if (!sacred && AFTER_DEATH.test(q) && !p.alive && !scored.length) return {text: `${lead} I'm afraid I know nothing of that. My world ended in ${fy(p.d)}, and the record has nothing to say about the things that came after.`, lines: []};
+  if (!scored.length) return {text: sacred ? `The museum's record has nothing on that yet.` : `${lead} The record is silent on that, and I won't make things up. Ask me about something below.`, lines: []};
+  const pick = scored.slice(0, scored[1] && scored[1].sc >= scored[0].sc * .8 ? 2 : 1);
+  const again = pick.every(x => used.has(x.i)) ? "As I said, " : "";
+  pick.forEach(x => used.add(x.i));
+  return {text: sacred ? pick.map(x => x.l.they).join("\n\n") : again ? again + pick.map(x => x.l.me).join("\n\n").replace(/^(The|What|People|In) /, w => w.toLowerCase()) : `${lead} ${pick.map(x => x.l.me).join("\n\n")}`, lines: pick.map(x => x.l)};
+}
+/* Suggested questions: only ones the record can answer. */
+function recordSug(p){
+  const R = recordFor(p), s = [], has = t => R.find(l => l.topic === t);
+  s.push(p.sacred ? "What does the record say?" : "Who are you?");
+  const w = R.find(l => l.topic === "work"); if (w) s.push(`Tell me about ${[...(H.works || []).filter(x => x.by === p.id)][0].n}.`);
+  const c = connOf(p.id).map(c => P.get(c.id)).filter(Boolean)[0]; if (c) s.push(`What about ${short(c)}?`);
+  if (has("myth")) s.push("Is the story about you true?");
+  if (has("times")) s.push("What happened in your time?");
+  s.push("Where did you live?");
+  s.push("When were you born?");
+  return [...new Set(s)].slice(0, 5);
+}
+const talkModeHTML = () => TALK.ai
+  ? `<span class="talk-badge">AI on this phone</span> An AI portrayal written on this phone, not the real person. It draws only on the museum's checked record and never leaves your phone.`
+  : `<span class="talk-badge rec">The record</span> Answers come straight from the museum's checked record. No AI is used, so nothing is made up.`;
+function aiInstructions(p, lines){
+  return `You are playing ${p.n} (${span(p)}) in a history museum app. Speak in the first person as ${short(p)}, warm and a little witty, true to the documented temperament, in plain modern English, at most 80 words.
+Only say things that are in THE RECORD below. If the record does not cover the question, say in character that the record is silent and you will not make things up. Never invent dates, numbers, quotes, meetings or feelings. You know nothing after ${p.alive ? "today" : fy(p.d)}. Lines labelled disputed or myth must be hedged ("people tell that story, but..."). Be honest about any harm you caused; never excuse or glorify it. Hard subjects (illness, despair, death) are discussed kindly and without graphic detail.
+THE RECORD:
+${lines.map((l, i) => `${i + 1}. [${l.lab}] ${l.they}`).join("\n")}`.slice(0, 2600);
+}
+function unbacked(text, lines){
+  const rec = lines.map(l => l.they).join(" ") + " " + (lines.length ? "" : "");
+  return [...new Set((text.match(/\b\d{3,4}\b/g) || []).filter(n => !rec.includes(n)))];
+}
+
 const TALK_SUG = {
   "beethoven": ["What was it like going deaf?","Did you really tear up the Eroica's title page?","Is it true you counted 60 coffee beans per cup?","What did you think of Goethe?","What do you make of smartphones?"],
   "van-gogh": ["Why did you paint so many sunflowers?","Did you really sell only one painting?","What was it like painting The Starry Night?","Tell me about Theo.","How do you feel about being famous now?"]
@@ -1833,8 +1922,8 @@ const openLine = p => {
 let talkF = "all";
 function viewTalkHome(){
   const feat = ["beethoven", "van-gogh"].map(id => P.get(id)).filter(Boolean);
-  view.innerHTML = `<section><div class="sec-head"><h2>Talk to history</h2><p>All ${H.people.length} people in the book, in character and a little funny. Every answer comes with a fact-check receipt.</p></div>
-  <div class="who-grid">${feat.map(p => `<a class="game-card" href="#talk-${p.id}" style="${fc(p.f)}"><span class="eyebrow">Hand-checked fact sheet · ${span(p)}</span><h3>${esc(p.n)}</h3><p>${esc(p.bio)}</p><p class="muted" style="font-size:12.5px">${sheetFor(p).length} facts to check against</p></a>`).join("")}</div></section>
+  view.innerHTML = `<section><div class="sec-head"><h2>Talk to history</h2><p>Ask any of the ${H.people.length} people in the museum about their life. Every answer shows the record it comes from.</p></div>
+  <div class="who-grid">${feat.map(p => `<a class="game-card" href="#talk-${p.id}" style="${fc(p.f)}"><span class="eyebrow">Hand-checked fact sheet · ${span(p)}</span><h3>${esc(p.n)}</h3><p>${esc(p.bio)}</p><p class="muted" style="font-size:12.5px">${recordFor(p).length} facts in the record</p></a>`).join("")}</div></section>
   <section><div class="sec-head"><h2>Everyone else</h2><p>Their fact sheets are built from the book's own checked entries.</p></div>
   <div class="chips" id="talkF">${[["all","All"]].concat(Object.keys(F).map(f => [f, F[f].label])).map(([f, l]) => `<button type="button" class="chip" data-tf="${f}" aria-pressed="${talkF === f}">${esc(l)}</button>`).join("")}</div>
   <div class="talk-list" id="talkL"></div></section>`;
@@ -1883,36 +1972,59 @@ function receiptHTML(p, rc){
 function viewTalk(id){
   const p = P.get(id); if (!p) return viewTalkHome();
   if (!chats.has(id)) chats.set(id, []);
+  const useClaude = !APP && !!(window.claude && typeof window.claude.use === "function");
   view.innerHTML = `<section class="d-head"><div class="crumbs"><a href="#talk">Talk</a><span>/</span><a href="#p-${p.id}">${esc(p.n)}</a></div>
-    <h1>Talk to ${esc(short(p))}</h1><p class="muted" style="margin:0">Played by Claude from ${sheetFor(p).length} facts${HAND(id) ? ", including a hand-checked fact sheet" : " built from this book's checked entries"}. The labels on each receipt come from that sheet, not from Claude's own say-so.</p><p style="margin:8px 0 0"><a href="#walk-${walkYearFor(p)}-${p.id}">See ${esc(short(p))} on a street in ${fy(walkYearFor(p))}</a></p></section>
+    <h1>${p.sacred ? `What the record says about ${esc(p.n)}` : `Talk to ${esc(short(p))}`}</h1>
+    <p class="talk-mode" id="talkMode">${p.sacred ? `Out of respect, the museum does not speak for ${esc(p.n)}. These answers quote what the sources say, with their labels.` : useClaude ? `Played by Claude from ${sheetFor(p).length} checked facts. Every answer comes with a fact-check receipt.` : talkModeHTML()}</p></section>
   <section class="chat" id="chat"></section>
-  <div class="chips" id="sug">${sugFor(p).map(s => `<button type="button" class="chip" data-ask="${esc(s)}">${esc(s)}</button>`).join("")}</div>
-  <form class="composer" id="talkForm"><input id="talkIn" autocomplete="off" placeholder="Ask ${esc(short(p))} anything" aria-label="Your message"><button type="submit" class="btn">Send</button></form>
-  <div id="talkNote"></div>`;
+  <div class="chips" id="sug"></div>
+  <form class="composer" id="talkForm"><input id="talkIn" autocomplete="off" placeholder="${p.sacred ? "Ask about the record" : `Ask ${esc(short(p))} anything`}" aria-label="Your message"><button type="submit" class="btn">Send</button></form>`;
   drawChat(p);
-  getSample().then(s => { const n = document.getElementById("talkNote"); if (!n) return; if (!s || sampleOff) { n.innerHTML = `<p class="notice">${esc(sampleOff || NO_CLAUDE)}${sampleOff ? "" : ONLINE}</p>`; document.getElementById("talkIn").disabled = true;
-    /* in the iPhone app, say it up top too, so nobody types into a box that can't answer */
-    const top = APP && !sampleOff && view.querySelector("h1"); if (top) top.insertAdjacentHTML("afterend", `<p class="notice">Talk is written live by Claude, so it lives in the online museum.${ONLINE}</p>`); } });
+}
+function drawSug(p){
+  const el = document.getElementById("sug"); if (!el) return;
+  el.innerHTML = recordSug(p).map(s => `<button type="button" class="chip" data-ask="${esc(s)}">${esc(s)}</button>`).join("");
+}
+function linesHTML(lines, extra){
+  if (!lines.length && !extra) return "";
+  return `<div class="receipt"><span class="hd">The record I drew on</span>${lines.map(l => `<div class="ln">${labHTML(l.lab)}<span class="c">${esc(l.they)}</span></div>`).join("")}${extra || ""}</div>`;
 }
 function drawChat(p){
   const host = document.getElementById("chat"); if (!host) return;
   const ms = chats.get(p.id);
-  host.innerHTML = (ms.length ? "" : `<div class="msg them"><span class="nm">${esc(short(p))}</span><div class="bub">${esc(openLine(p))}</div><div class="receipt"><span class="hd">Fact-check receipt</span><span class="muted">An opening line written by the app, not a historical claim.</span></div></div>`) +
-    ms.map(m => m.me ? `<div class="msg me"><div class="bub">${esc(m.text)}</div></div>` : `<div class="msg them"><span class="nm">${esc(short(p))}</span><div class="bub${m.err ? " typing" : ""}">${esc(m.text)}</div>${m.err ? "" : receiptHTML(p, m.receipt)}</div>`).join("");
+  const first = p.sacred ? "Ask a question, and the museum will show what its sources say." : openLine(p);
+  host.innerHTML = `<div class="msg them"><span class="nm">${esc(p.sacred ? "The record" : short(p))}</span><div class="bub">${esc(first)}</div></div>` +
+    ms.map(m => m.me ? `<div class="msg me"><div class="bub">${esc(m.text)}</div></div>`
+      : `<div class="msg them"><span class="nm">${esc(p.sacred ? "The record" : short(p))}</span><div class="bub${m.err ? " typing" : ""}">${esc(m.text)}</div>${m.receipt ? receiptHTML(p, m.receipt) : linesHTML(m.lines || [], m.flag)}</div>`).join("");
+  drawSug(p);
 }
 async function sendTalk(id, text){
-  const p = P.get(id), ms = chats.get(id); text = text.trim(); if (!text || !p) return;
-  const s = await getSample();
-  if (!s || sampleOff) { const n = document.getElementById("talkNote"); if (n) n.innerHTML = `<p class="notice">${esc(sampleOff || NO_CLAUDE)}${sampleOff ? "" : ONLINE}</p>`; return; }
-  const hist = ms.filter(m => !m.err);
+  const p = P.get(id), ms = chats.get(id); text = (text || "").trim(); if (!text || !p) return;
+  const used = (ms.used = ms.used || new Set());
   ms.push({me:true, text}); drawChat(p);
-  const host = document.getElementById("chat"); host.insertAdjacentHTML("beforeend", `<p class="typing" id="typing">${esc(short(p))} is writing...</p>`);
-  const inp = document.getElementById("talkIn"); if (inp) inp.disabled = true;
-  try {
-    const r = await s.json(talkPrompt(p, hist, text), {modelTier:"default", cache:false});
-    ms.push({text: String((r && r.reply) || "...").slice(0, 1500), receipt: r && r.receipt});
-  } catch(e) { ms.push({text: sampleErr(e), err:true}); }
-  if (document.getElementById("chat") && location.hash === "#talk-" + id) { drawChat(p); const i2 = document.getElementById("talkIn"); if (i2) { i2.disabled = !!sampleOff; i2.focus(); } }
+  const host = document.getElementById("chat"), inp = document.getElementById("talkIn");
+  const useClaude = !APP && !p.sacred && !!(window.claude && typeof window.claude.use === "function");
+  if ((TALK.ai && !p.sacred) || useClaude) {
+    host.insertAdjacentHTML("beforeend", `<p class="typing" id="typing">${esc(short(p))} is thinking...</p>`);
+    if (inp) inp.disabled = true;
+  }
+  let reply = null;
+  if (TALK.ai && !p.sacred) {
+    const rec = recordFor(p), pre = recordAnswer(p, text + " " + ms.filter(m => m.me).slice(-2).map(m => m.text).join(" "), new Set());
+    const lines = pre.lines.length ? pre.lines.concat(rec.slice(0, 3)) : rec.slice(0, 6);
+    const uniq = [...new Set(lines)].slice(0, 7);
+    const histTxt = ms.slice(-5, -1).map(m => (m.me ? "Visitor: " : short(p) + ": ") + m.text).join("\n");
+    try {
+      const t = await askPhone(aiInstructions(p, uniq), (histTxt ? histTxt + "\n" : "") + "Visitor: " + text);
+      const bad = unbacked(t, uniq);
+      reply = {text: t.slice(0, 1200), lines: uniq.filter(l => pre.lines.includes(l)).slice(0, 3), flag: bad.length ? `<div class="ln">${labHTML("unchecked")}<span class="c">This answer mentions ${esc(bad.join(", "))}, which is not in the record. Treat it as unverified.</span></div>` : ""};
+    } catch(e) { reply = null; }   /* the phone's AI declined or failed: fall back to the record */
+  } else if (useClaude) {
+    try { const s = await getSample(); if (s && !sampleOff) { const r = await s.json(talkPrompt(p, ms.filter(m => !m.err).slice(0, -1), text), {modelTier:"default", cache:false}); reply = {text: String((r && r.reply) || "...").slice(0, 1500), receipt: r && r.receipt}; } } catch(e) { reply = null; }
+  }
+  if (!reply) reply = recordAnswer(p, text, used);
+  ms.push(reply);
+  if (document.getElementById("chat") && location.hash === "#talk-" + id) { drawChat(p); const i2 = document.getElementById("talkIn"); if (i2) { i2.disabled = false; } const last = document.querySelector("#chat .msg:last-child"); if (last) last.scrollIntoView({block:"nearest"}); }
 }
 
 /* ---------- walk into the timeline ---------- */

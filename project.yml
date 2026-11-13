@@ -35,6 +35,8 @@ targets:
         INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
         INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
         CODE_SIGN_STYLE: Automatic
+        # Apple Intelligence (iOS 26+) for Talk. Weakly linked, so the app still opens on older iPhones.
+        OTHER_LDFLAGS: "$(inherited) -weak_framework FoundationModels"
         # The iPhone Duo fold APIs (reserved regions) exist only in the iOS 27 SDK.
         "SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator27*]": "$(inherited) FOLD_APIS"
         "SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos27*]": "$(inherited) FOLD_APIS"
