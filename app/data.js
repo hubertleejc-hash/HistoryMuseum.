@@ -11,7 +11,8 @@ fields: {
   leaders:     {label: "Leaders"},
   philosophy:  {label: "Ideas"},
   exploration: {label: "Exploration"},
-  invention:   {label: "Invention"}
+  invention:   {label: "Invention"},
+  faith:       {label: "Faith"}
 },
 
 countries: {
@@ -43,12 +44,16 @@ countries: {
   mexico:      {n: "Mexico", blurb: "Home of the Aztec capital Tenochtitlan, then New Spain, and independent from 1821."},
   morocco:     {n: "Morocco", blurb: "North African kingdom on the crossroads between Africa, Europe and the Middle East."},
   iraq:        {n: "Iraq", blurb: "Baghdad, founded in 762, was one of the largest and richest cities in the world under the Abbasid caliphs."},
+  "israel-palestine": {n: "Israel and Palestine", blurb: "The narrow land between the Mediterranean and the Jordan River, called Canaan, Judea and Palestine at different times. Jerusalem is holy to Jews, Christians and Muslims."},
+  arabia:      {n: "Arabia", blurb: "The Arabian Peninsula, home of Mecca and Medina, the two holiest cities of Islam. Most of it is today the Kingdom of Saudi Arabia, founded in 1932."},
   turkey:      {n: "Turkey", blurb: "Constantinople (Istanbul) was the Byzantine capital until the Ottomans took it in 1453."}
 },
 
 people: [
   // ---------- Antiquity ----------
+  {id:"moses", n:"Moses", b:-1391, d:-1271, f:"faith", c:["egypt"], a:1, sacred:1, bio:"The prophet who, in the Hebrew Bible, leads the Israelites out of slavery in Egypt and receives the Ten Commandments. Honoured by Jews, Christians and Muslims (as Musa). His dates follow rabbinic tradition; historians cannot confirm when, or whether, he lived."},
   {id:"confucius", n:"Confucius", b:-551, d:-479, f:"philosophy", c:["china"], a:1, bio:"Teacher and thinker whose ideas about family, duty and good government shaped Chinese life for over 2,000 years. His sayings were collected by students in the Analects."},
+  {id:"buddha", n:"The Buddha (Siddhartha Gautama)", b:-480, d:-400, f:"faith", c:["india"], a:1, sacred:1, bio:"Teacher from the Shakya clan, born at Lumbini in today's Nepal, whose path to the end of suffering became Buddhism. Tradition dates him 563 to 483 BC; many scholars now place him about 80 years later, as here."},
   {id:"socrates", n:"Socrates", b:-470, d:-399, f:"philosophy", c:["greece"], a:1, bio:"Athenian philosopher who taught by asking questions. He wrote nothing himself and was sentenced to death by an Athenian jury."},
   {id:"plato", n:"Plato", b:-428, d:-348, f:"philosophy", c:["greece"], bio:"Student of Socrates who wrote philosophy as dialogues and founded the Academy in Athens, one of the first schools of higher learning."},
   {id:"aristotle", n:"Aristotle", b:-384, d:-322, f:"philosophy", c:["greece"], bio:"Wrote on almost everything: logic, biology, ethics, politics, poetry. His work guided European and Islamic scholars for nearly 2,000 years."},
@@ -60,9 +65,11 @@ people: [
   {id:"julius-caesar", n:"Julius Caesar", b:-100, d:-44, f:"leaders", c:["italy"], bio:"Roman general who conquered Gaul and made himself dictator. He was stabbed to death at a Senate meeting on the Ides of March."},
   {id:"cleopatra", n:"Cleopatra", b:-69, d:-30, f:"leaders", c:["egypt"], bio:"Last active ruler of Ptolemaic Egypt. She allied with Julius Caesar and then Mark Antony, and died after Rome defeated her."},
   {id:"augustus", n:"Augustus", b:-63, d:14, f:"leaders", c:["italy"], bio:"Caesar's adopted heir, born Octavian, who became the first Roman emperor and ruled for over 40 years."},
+  {id:"jesus", n:"Jesus of Nazareth", b:-5, d:30, f:"faith", c:["israel-palestine"], a:1, sacred:1, bio:"Jewish teacher and healer from Galilee, crucified by the Romans under Pontius Pilate. Christians believe he is the Son of God who rose from the dead; Muslims honour him as the prophet Isa."},
   {id:"marcus-aurelius", n:"Marcus Aurelius", b:121, d:180, f:"leaders", c:["italy"], bio:"Roman emperor and Stoic philosopher. His private notes, the Meditations, are still widely read."},
 
   // ---------- Middle ages ----------
+  {id:"muhammad", n:"The Prophet Muhammad", b:570, d:632, f:"faith", c:["arabia"], a:1, sacred:1, noimg:1, bio:"The Prophet of Islam, born in Mecca, who Muslims believe received the Qur'an from God through the angel Gabriel. He led the first Muslim community in Medina. Muslims say 'peace be upon him' after his name."},
   {id:"wu-zetian", n:"Wu Zetian", b:624, d:705, f:"leaders", c:["china"], bio:"The only woman in Chinese history to rule as emperor in her own name, during the Tang dynasty."},
   {id:"li-bai", n:"Li Bai", b:701, d:762, f:"writing", c:["china"], bio:"Tang dynasty poet famous for his free spirit and poems about wine, the moon and the mountains."},
   {id:"du-fu", n:"Du Fu", b:712, d:770, f:"writing", c:["china"], bio:"Tang poet who wrote about war, hardship and ordinary people. Often called China's greatest poet."},
