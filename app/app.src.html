@@ -563,7 +563,7 @@ button:active, .chip:active, .btn:active, .tabbar a:active, .seg a:active, .lib-
 .w-mapbox{position:relative; margin:0 -16px}
 #wMap{display:block; width:100%; height:min(48vh, 520px); touch-action:pan-y}
 #wMap .land{fill:var(--land); stroke:var(--land-line); stroke-width:.7; vector-effect:non-scaling-stroke; stroke-linejoin:round}
-#wMap .lamp{cursor:pointer}
+#wMap .lamp{cursor:pointer; outline:none} #wMap .lamp:focus-visible .core{stroke:var(--accent); stroke-width:2}
 #wMap .lamp .core{fill:var(--lamp-core); stroke:var(--lamp-ring); stroke-width:1.4; vector-effect:non-scaling-stroke}
 #wMap .lamp.off .core{fill:var(--ink-3); stroke:none; opacity:.45}
 #wMap .lamp text{font-family:var(--ui); font-weight:500; fill:var(--ink-2); paint-order:stroke; stroke:var(--bg); stroke-linejoin:round; text-anchor:middle; pointer-events:none}
@@ -1299,7 +1299,7 @@ function viewPerson(id){
   const evs = H.events.filter(e => astro(evEnd(e)) >= astro(p.b) && astro(e.y) <= astro(p.d)).sort((a, b) => astro(a.y) - astro(b.y));
   const before = H.events.filter(e => astro(e.y) < astro(p.b)).sort((a, b) => astro(b.y) - astro(a.y)).slice(0, 2);
   const circle = new Set(cs.map(c => c.id));
-  const pic = !p.sacred && !p.noimg, pt = pic && IMG["pt-" + p.id] ? "pt-" + p.id : null;
+  const pic = !p.noimg, pt = pic && IMG["pt-" + p.id] ? "pt-" + p.id : null;
   const top = pic ? ((CH[p.id] && CH[p.id].hero) || pt) : null;
   const ch = CH[p.id], inCh = !ch && Object.keys(CH).find(k => (CH[k].kw || []).some(w => w.toLowerCase() === p.n.toLowerCase()));
   view.innerHTML = `
@@ -1314,7 +1314,7 @@ function viewPerson(id){
   ${top ? `</div>` : ""}
 
   <section id="pArt" hidden></section>
-  <section class="walk-cta"><a class="btn" href="#talk-${p.id}">Talk to ${esc(short(p))}</a><a class="btn ghost" href="#walk-${walkYearFor(p)}-${p.id}">Walk into ${esc(short(p))}'s street in ${fy(walkYearFor(p))}</a></section>
+  <section class="walk-cta"><a class="btn" href="#talk-${p.id}">${p.sacred ? "Ask what the sources say" : `Talk to ${esc(short(p))}`}</a><a class="btn ghost" href="#walk-${walkYearFor(p)}-${p.id}">Travel to ${fy(walkYearFor(p))}</a></section>
   ${ch ? chapterHTML(p, ch) + `<div class="sec-head ch-more"><h2>Keep exploring</h2><p>Their circle, the people alive with them, and the events of their lifetime</p></div>` : `<section class="panel tmm-ask">${inCh ? `<p>${esc(short(p))}'s story is told inside the full chapter on <a href="#p-${inCh}@turns">${esc(P.get(inCh).n)}</a>.</p>` : ""}<div class="row-btns"><button type="button" class="btn" id="tmm" data-tmm="${p.id}">Tell me more about ${esc(short(p))}</button><span class="muted">A longer story, written by AI from the museum's notes</span></div><div id="tmmOut"></div></section>`}
   ${!ch && H.stories && H.stories[p.id] ? `<section><div class="sec-head"><h2>The story</h2><p>Pick how deep you want to go</p></div><div id="story">${storyHTML(p.id)}</div></section>` : ""}
   ${H.works.some(w => w.by === p.id) ? `<section><div class="sec-head"><h2>Works</h2></div><div class="works">${H.works.filter(w => w.by === p.id).sort((a, b) => astro(a.y) - astro(b.y)).map(workCard).join("")}</div></section>` : ""}
@@ -1610,7 +1610,7 @@ const C_REG = {egypt:"ancient", greece:"ancient", italy:"europe", china:"east-as
   iraq:"islamic", arabia:"islamic", turkey:"islamic", morocco:"islamic", "israel-palestine":"ancient", usa:"americas", mexico:"americas"};
 let pArtList = [];
 function personArt(p){
-  const box = document.getElementById("pArt"); if (!box || p.sacred) return;
+  const box = document.getElementById("pArt"); if (!box || p.noimg) return;
   loadArt(() => {
     if (!document.getElementById("pArt")) return;
     const nm = p.n.toLowerCase().replace(/\s*\(.*$/, ""), last = nm.split(" ").pop();
@@ -2581,7 +2581,7 @@ const SCENES = [
 let taShown = null, taAnim = 0;
 const sceneFor = y => SCENES.filter(sc => Math.abs(astro(sc.y) - astro(y)) <= sc.tol).sort((a, b) => Math.abs(a.y - y) - Math.abs(b.y - y) || b.tol - a.tol)[0] || null;
 const nearestScene = y => SCENES.slice().sort((a, b) => Math.abs(astro(a.y) - astro(y)) - Math.abs(astro(b.y) - astro(y)))[0] || null;
-const portraitOf = p => { const ch = CH[p.id]; const sl = ch && (ch.portrait || ch.hero); return sl && IMG[sl] && !p.sacred && !p.noimg ? IMG[sl].src : null; };
+const portraitOf = p => { const ch = CH[p.id]; const sl = ch && (ch.portrait || ch.hero); return sl && IMG[sl] && !p.noimg ? IMG[sl].src : null; };
 const initials = n => n.replace(/\b(the|of|da|de|van|von|al)\b/gi, "").split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0]).join("").toUpperCase();
 function whoCards(list, y){
   return `<div class="who">${list.map(p => { const ph = portraitOf(p);
