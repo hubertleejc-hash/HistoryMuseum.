@@ -15,6 +15,9 @@ on:
       met:
         description: "New Met works for the Online wing"
         default: "2000"
+      portraits:
+        description: "Also look for a public-domain portrait of every person (yes/no)"
+        default: "no"
 
 permissions:
   contents: write
@@ -34,7 +37,11 @@ jobs:
           python-version: "3.12"
       - run: pip install Pillow==11.3.0
       - name: Gather
+        if: ${{ inputs.offline != '0' || inputs.online != '0' || inputs.met != '0' }}
         run: python3 tools/art/gather.py --offline "${{ inputs.offline }}" --online "${{ inputs.online }}" --met "${{ inputs.met }}"
+      - name: Portraits
+        if: ${{ inputs.portraits == 'yes' }}
+        run: python3 tools/art/portraits.py
       - name: Size of the collection
         run: du -sh app/art app/art/* | sort -h
       - name: Commit the new works

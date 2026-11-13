@@ -1,5 +1,8 @@
 {
   "_about": "deny: ids never shown (removed on the next gather). allow: Islamic-world figural works checked by hand and approved (the Prophet Muhammad is never shown).",
   "deny": [],
-  "allow": []
+  "allow": [],
+  "_portraits": "portrait_deny: person ids whose found portrait is wrong. portrait_file: person id -> Wikimedia Commons file name to use instead.",
+  "portrait_deny": [],
+  "portrait_file": {}
 }

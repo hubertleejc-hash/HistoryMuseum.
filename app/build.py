@@ -18,6 +18,12 @@ show_date = lambda m: DATE_SHOW.get(m["slug"], m["date"].split(" (")[0])
 images = {m["slug"]: {"src": IMG_BASE + m["slug"] + ".jpg", "title": m["title"].split(" (")[0], "by": BY_SHOW.get(m["slug"], m["artist"]), "date": show_date(m),
                       "coll": COLL_SHOW.get(m["slug"], m["collection"]), "lic": m["licence"], "page": m["page"], "w": m["w"], "h": m["h"]}
           for m in manifest if (d/"img"/(m["slug"] + ".jpg")).exists()}
+# Portraits of the museum's people (tools/art/portraits.py), shipped as files in art/p/
+portraits = json.loads((d/"art"/"portraits.json").read_text()) if (d/"art"/"portraits.json").exists() else {}
+for pid, m in portraits.items():
+    if (d/"art"/"p"/(pid + ".jpg")).exists():
+        images["pt-" + pid] = {"src": "art/p/" + pid + ".jpg", "title": m["title"], "by": m["artist"], "date": m["date"], "coll": "Wikimedia Commons",
+                               "lic": m["licence"], "page": m["page"], "w": m["w"], "h": m["h"], **({"note": m["note"]} if m.get("note") else {})}
 images_js = "window.HISTORY.images = " + json.dumps(images, ensure_ascii=False, indent=0) + ";"
 
 # ---------- the Gallery's collection (gathered by tools/art/gather.py) ----------
@@ -63,6 +69,7 @@ app_dir = d.parent/"ios"/"HistoryMuseum"/"Web"
 if app_dir.parent.exists():
     app_src = src
     for slug in images:
+        if not images[slug]["src"].startswith(IMG_BASE): continue  # portraits ship as files in art/p/
         b64 = base64.b64encode((d/"img"/(slug + ".jpg")).read_bytes()).decode()
         app_src = app_src.replace('"' + IMG_BASE + slug + '.jpg"', '"data:image/jpeg;base64,' + b64 + '"')
     # Google Fonts -> fonts built into the page
@@ -89,12 +96,12 @@ if app_dir.parent.exists():
     # so the page uses the same art/... paths in the app as on the web.
     import shutil
     if (app_dir/"art").exists(): shutil.rmtree(app_dir/"art")
-    if catalog:
+    if catalog or portraits:
         (app_dir/"art").mkdir()
         for f in art_dir.glob("*.js"): shutil.copy2(f, app_dir/"art"/f.name)
-        for sub in ("t", "f", "m"):
+        for sub in ("t", "f", "m", "p"):
             if (art_dir/sub).exists():
-                keep = {r["id"] + ".jpg" for r in catalog}
+                keep = {r["id"] + ".jpg" for r in catalog} | {pid + ".jpg" for pid in portraits}
                 (app_dir/"art"/sub).mkdir()
                 for f in (art_dir/sub).iterdir():
                     if f.name in keep: shutil.copy2(f, app_dir/"art"/sub/f.name)

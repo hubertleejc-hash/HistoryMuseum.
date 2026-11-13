@@ -338,6 +338,7 @@ details.why p{margin:6px 0 0; padding-left:12px; border-left:2px solid var(--rul
 .fig-note{color:var(--ink-2); font-size:13.5px}
 .ch-top{display:flex; flex-direction:column; gap:20px}
 .ch-hero .fig-frame{max-height:72vh; margin:0 auto}
+.ch-pt .fig-frame{max-height:56vh}
 .ch-lede{font-size:21px}
 .ch-portrait{display:flex; gap:10px; align-items:center; font-size:12.5px; color:var(--ink-3); max-width:420px}
 .ch-portrait img{width:56px; height:56px; object-fit:cover; object-position:center 20%; border-radius:50%; border:1px solid var(--rule); flex:none}
@@ -705,6 +706,7 @@ html.hinged .big-title, html.hinged .w-regions, html.hinged .w-dial{max-width:ca
 .gt b{display:block; font:500 14px/1.25 var(--display); color:var(--ink); margin-top:7px; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden}
 .gt small{display:block; font-size:12px; color:var(--ink-3); margin-top:2px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
 .gt:active .gt-img{transform:scale(.98)}
+.fig-frame[data-pfeat]{cursor:zoom-in}
 .gal-sec{column-span:all; margin:18px 0 14px; padding-top:6px}
 .gal-sec h3{font:500 22px/1.2 var(--display)}
 .gal-sec p{margin:4px 0 0; font-size:13.5px; color:var(--ink-3)}
@@ -822,13 +824,14 @@ const IMG_NOTE = {
   "shakespeare": ["likely", "Probably Shakespeare, painted in his lifetime. The 1623 engraving is the surer likeness."],
   "great-wave": ["verified", "A woodblock print: this is one of many impressions. The wave is a big storm wave, not a tsunami."]
 };
+Object.keys(IMG).forEach(k => { if (IMG[k].note && !IMG_NOTE[k]) IMG_NOTE[k] = IMG[k].note; });
 const IMG_KIND = s => /photograph|photo/i.test((IMG[s] || {}).by || "") || ["curie","tubman","eiffel-1888"].includes(s) ? "Real photograph" : "Real picture";
 function imgFig(slug, cls, eager){
   if (!slug) return "";
   const m = IMG[slug], note = IMG_NOTE[slug];
   const title = m ? m.title : slug.replace(/-/g, " ");
   const ar = m && m.w && m.h ? `aspect-ratio:${m.w}/${m.h}` : "aspect-ratio:4/3";
-  const frame = m ? `<div class="fig-frame" data-t="${esc(title)}" style="${ar}"><img src="${esc(m.src)}" alt="${esc(title + (m.by ? ", " + m.by : ""))}" width="${m.w}" height="${m.h}" ${eager ? "" : `loading="lazy" `}decoding="async"></div>`
+  const frame = m ? `<div class="fig-frame" data-t="${esc(title)}" data-pfeat="${esc(slug)}" style="${ar}"><img src="${esc(m.src)}" alt="${esc(title + (m.by ? ", " + m.by : ""))}" width="${m.w}" height="${m.h}" ${eager ? "" : `loading="lazy" `}decoding="async"></div>`
                   : `<div class="fig-frame broken" data-t="${esc(title)}" style="${ar}"></div>`;
   const credit = m ? `<figcaption class="credit">${note ? `<span class="fig-note">${labHTML(note[0])} ${esc(note[1])}</span>` : ""}<span>${esc(m.by)}. <i>${esc(m.title)}</i>, ${esc(m.date)}. ${esc(m.coll)}. Public domain${m.page ? ` · <a href="${esc(m.page)}" target="_blank" rel="noopener">source</a>` : ""}. Not made by AI.</span></figcaption>` : "";
   return `<figure class="fig ${cls || ""}">${frame}${credit}</figure>`;
@@ -1296,18 +1299,21 @@ function viewPerson(id){
   const evs = H.events.filter(e => astro(evEnd(e)) >= astro(p.b) && astro(e.y) <= astro(p.d)).sort((a, b) => astro(a.y) - astro(b.y));
   const before = H.events.filter(e => astro(e.y) < astro(p.b)).sort((a, b) => astro(b.y) - astro(a.y)).slice(0, 2);
   const circle = new Set(cs.map(c => c.id));
+  const pic = !p.sacred && !p.noimg, pt = pic && IMG["pt-" + p.id] ? "pt-" + p.id : null;
+  const top = pic ? ((CH[p.id] && CH[p.id].hero) || pt) : null;
   const ch = CH[p.id], inCh = !ch && Object.keys(CH).find(k => (CH[k].kw || []).some(w => w.toLowerCase() === p.n.toLowerCase()));
   view.innerHTML = `
-  ${ch ? `<div class="ch-top">${p.sacred || p.noimg ? "" : imgFig(ch.hero, "ch-hero", true)}` : ""}
+  ${top ? `<div class="ch-top">${imgFig(top, top === pt ? "ch-hero ch-pt" : "ch-hero", true)}` : ""}
   <section class="d-head">
     <div class="crumbs"><a href="#people">People</a><span>/</span><span>${F[p.f].label}</span></div>
     <h1>${esc(p.n)}</h1>
     <div class="d-meta"><span class="yr">${span(p)}</span><span>lived ${p.a ? "about " : ""}${lived(p)} years</span><span class="tag" style="${fc(p.f)}"><i class="dot"></i>${F[p.f].label}</span><span>${p.c.map(c => `<a href="#c-${c}">${esc(C[c].n)}</a>`).join(", ")}</span></div>
-    ${ch ? `<p class="bio ch-lede">${esc(ch.lede)}</p>${!p.sacred && !p.noimg && ch.portrait && ch.portrait !== ch.hero && IMG[ch.portrait] ? `<a class="ch-portrait" href="#p-${p.id}@short" title="${esc(IMG[ch.portrait].title)}"><img src="${esc(IMG[ch.portrait].src)}" alt="${esc(IMG[ch.portrait].title)}" loading="lazy"><span>${IMG_NOTE[ch.portrait] ? labHTML(IMG_NOTE[ch.portrait][0]) + " " : ""}${esc(IMG[ch.portrait].title)}, ${esc(IMG[ch.portrait].date)}</span></a>` : ""}` : `<p class="bio">${esc(p.bio)}</p>`}
+    ${ch ? `<p class="bio ch-lede">${esc(ch.lede)}</p>` : `<p class="bio">${esc(p.bio)}</p>`}${(() => { const po = pic && ((ch && ch.portrait && IMG[ch.portrait] && ch.portrait) || pt); return po && po !== top ? `<a class="ch-portrait" href="#art-${esc(po)}" data-pfeat="${esc(po)}" title="${esc(IMG[po].title)}"><img src="${esc(IMG[po].src)}" alt="${esc(IMG[po].title)}" loading="lazy"><span>${IMG_NOTE[po] ? labHTML(IMG_NOTE[po][0]) + " " : ""}${esc(IMG[po].title)}, ${esc(IMG[po].date)}</span></a>` : ""; })()}
     <div class="counts"><div><b>${overl.length}</b><span>people here alive at the same time</span></div><div><b>${cs.length}</b><span>real connections</span></div><div><b>${evs.length}</b><span>events in their lifetime</span></div></div>
   </section>
-  ${ch ? `</div>` : ""}
+  ${top ? `</div>` : ""}
 
+  <section id="pArt" hidden></section>
   <section class="walk-cta"><a class="btn" href="#talk-${p.id}">Talk to ${esc(short(p))}</a><a class="btn ghost" href="#walk-${walkYearFor(p)}-${p.id}">Walk into ${esc(short(p))}'s street in ${fy(walkYearFor(p))}</a></section>
   ${ch ? chapterHTML(p, ch) + `<div class="sec-head ch-more"><h2>Keep exploring</h2><p>Their circle, the people alive with them, and the events of their lifetime</p></div>` : `<section class="panel tmm-ask">${inCh ? `<p>${esc(short(p))}'s story is told inside the full chapter on <a href="#p-${inCh}@turns">${esc(P.get(inCh).n)}</a>.</p>` : ""}<div class="row-btns"><button type="button" class="btn" id="tmm" data-tmm="${p.id}">Tell me more about ${esc(short(p))}</button><span class="muted">A longer story, written by AI from the museum's notes</span></div><div id="tmmOut"></div></section>`}
   ${!ch && H.stories && H.stories[p.id] ? `<section><div class="sec-head"><h2>The story</h2><p>Pick how deep you want to go</p></div><div id="story">${storyHTML(p.id)}</div></section>` : ""}
@@ -1571,7 +1577,7 @@ function viewArt(){
     <p class="muted" style="font-size:12.5px">The collection's pictures and texts come from the open-access programmes of the Cleveland Museum of Art and the Metropolitan Museum of Art (public domain, CC0). Every work names its museum. Nothing here is made by AI.</p>`;
   loadArt(() => {
     const feat = ART.filter(it => it.src === "feat");
-    document.getElementById("galFeat").innerHTML = feat.map(it => `<button type="button" class="gf" data-feat="${esc(it.id)}"><span class="gt-img"><img src="${esc(it.img)}" alt="${esc(it.t)}" loading="lazy" decoding="async" onload="this.classList.add('in')"></span><b>${esc(it.t)}</b><small>${esc(it.a)}${it.d ? ", " + esc(it.d) : ""}</small></button>`).join("");
+    document.getElementById("galFeat").innerHTML = feat.filter(it => !it.id.startsWith("pt-")).map(it => `<button type="button" class="gf" data-feat="${esc(it.id)}"><span class="gt-img"><img src="${esc(it.img)}" alt="${esc(it.t)}" loading="lazy" decoding="async" onload="this.classList.add('in')"></span><b>${esc(it.t)}</b><small>${esc(it.a)}${it.d ? ", " + esc(it.d) : ""}</small></button>`).join("");
     drawArtGrid();
   });
   const qi = document.getElementById("galQ"); let tq;
@@ -1599,8 +1605,33 @@ function moreArt(){
   artShown = to;
 }
 
+/* ---------- a person's page: their works and the art of their world, from the collection ---------- */
+const C_REG = {egypt:"ancient", greece:"ancient", italy:"europe", china:"east-asia", mongolia:"east-asia", japan:"east-asia", india:"south-asia", malaysia:"south-asia",
+  iraq:"islamic", arabia:"islamic", turkey:"islamic", morocco:"islamic", "israel-palestine":"ancient", usa:"americas", mexico:"americas"};
+let pArtList = [];
+function personArt(p){
+  const box = document.getElementById("pArt"); if (!box || p.sacred) return;
+  loadArt(() => {
+    if (!document.getElementById("pArt")) return;
+    const nm = p.n.toLowerCase().replace(/\s*\(.*$/, ""), last = nm.split(" ").pop();
+    const by = ART.filter(it => it.src !== "feat" && it.a && (it.a.toLowerCase() === nm || (last.length > 4 && it.a.toLowerCase().endsWith(" " + last) && it.a.toLowerCase().split(" ")[0] === nm.split(" ")[0])));
+    const lo = astro(p.b), hi = astro(end(p)), regs = new Set(p.c.map(c => C_REG[c] || (/(egypt|greece)/.test(c) ? "ancient" : "europe")));
+    if (lo < -300) regs.add("ancient");
+    const seed = hashStr(p.id);
+    const world = ART.filter(it => it.src !== "feat" && it.y != null && it.y >= lo && it.y <= hi && regs.has(it.r) && !by.includes(it))
+      .sort((a, b) => (a.wing === b.wing ? 0 : a.wing === "app" ? -1 : 1) || (b.hasText - a.hasText) || ((hashStr(a.id + seed) % 997) - (hashStr(b.id + seed) % 997))).slice(0, 12);
+    pArtList = by.slice(0, 12).concat(world);
+    if (!pArtList.length) return;
+    const strip = (l, off) => `<div class="gal-feat">${l.map((it, i) => `<button type="button" class="gf" data-part="${i + off}"><span class="gt-img" style="aspect-ratio:${it.w && it.h ? it.w + "/" + it.h : "1"};width:auto;height:200px"><img src="${esc(artPath(it, "t"))}" alt="${esc(it.t)}" loading="lazy" decoding="async" onload="this.classList.add('in')" style="width:auto;height:100%"></span><b>${esc(it.t)}</b><small>${esc(it.a || regName(it.r))}${it.y != null ? " · " + esc(fy(it.y)) : ""}</small></button>`).join("")}</div>`;
+    const nb = Math.min(by.length, 12);
+    box.innerHTML = (nb ? `<div class="sec-head"><h2>By ${esc(short(p))}</h2><p>${plural(nb, "work")} in the Gallery</p></div>${strip(pArtList.slice(0, nb), 0)}` : "") +
+      (world.length ? `<div class="sec-head" style="margin-top:${nb ? 28 : 0}px"><h2>The art of ${esc(short(p))}'s world</h2><p>Made where they lived, in their lifetime</p></div>${strip(world, nb)}` : "");
+    box.hidden = false;
+  });
+}
+
 /* ---------- Gallery: the viewer ---------- */
-let avS = 1, avX = 0, avY = 0, avIt = null, galleryOn = false, avPushed = false;
+let avS = 1, avX = 0, avY = 0, avIt = null, galleryOn = false, avPushed = false, avStay = false;
 const av = document.getElementById("av");
 const regName = r => (ART_REG.find(x => x[0] === r) || ["", ""])[1];
 const personByName = (() => { let m; return n => { if (!m) { m = new Map(); H.people.forEach(p => m.set(p.n.toLowerCase(), p)); } const p = m.get(String(n || "").toLowerCase()); return p && !p.sacred ? p : null; }; })();
@@ -1624,7 +1655,9 @@ function openArt(it, idx, push){
   const sheet = document.getElementById("avSheet");
   sheet.style.setProperty("--peek", (document.getElementById("avGrab").offsetHeight + 8) + "px");
   loadDetail(it, () => { if (avIt === it) document.getElementById("avBody").innerHTML = artInfoHTML(it); });
-  if (push) { try { history.pushState({art:1}, "", "#art-" + it.id); avPushed = true; } catch(e){} }
+  avStay = push === "stay";
+  if (avStay) {}
+  else if (push) { try { history.pushState({art:1}, "", "#art-" + it.id); avPushed = true; } catch(e){} }
   else try { history.replaceState(history.state, "", "#art-" + it.id); } catch(e){}
   haptic("open");
   setTimeout(() => { const b = av.querySelector("[data-avx]"); if (b) b.focus({preventScroll:true}); }, 30);
@@ -1633,7 +1666,7 @@ function closeArt(fromRoute){
   if (av.hidden) return;
   av.hidden = true; av.innerHTML = ""; avIt = null;
   document.body.style.overflow = "";
-  if (!fromRoute) { if (avPushed) { avPushed = false; history.back(); } else try { history.replaceState(null, "", "#art"); } catch(e){} }
+  if (!fromRoute && !avStay) { if (avPushed) { avPushed = false; history.back(); } else try { history.replaceState(null, "", "#art"); } catch(e){} }
   avPushed = false;
 }
 function stepArt(d){
@@ -1782,6 +1815,8 @@ function md5(str){
 
 view.addEventListener("click", ev => {
   const t = ev.target;
+  const pf = t.closest("[data-pfeat]"); if (pf && !pf.closest(".gal-feat")) { ev.preventDefault(); loadArt(() => { const it = ART.find(x => x.id === pf.dataset.pfeat); if (it) openArt(it, -1, "stay"); }); return; }
+  const pa = t.closest("[data-part]"); if (pa) { const l = pArtList, i = +pa.dataset.part; artList = l; openArt(l[i], i, "stay"); return; }
   const ti = t.closest("[data-art]"); if (ti) { openArt(artList[+ti.dataset.art], +ti.dataset.art, true); return; }
   const fe = t.closest("[data-feat]"); if (fe && ART) { const it = ART.find(x => x.id === fe.dataset.feat); if (it) openArt(it, -1, true); return; }
   const af = t.closest("[data-af]"); if (af) { artF[af.dataset.af] = af.dataset.v; af.parentNode.querySelectorAll("[data-af]").forEach(c => c.setAttribute("aria-pressed", c === af)); haptic("select"); drawArtGrid(); const c = document.querySelector(".gal-ctl"); if (c && c.getBoundingClientRect().top < 0) c.scrollIntoView({block:"start"}); return; }
@@ -2936,7 +2971,7 @@ function route(){
   else if (["library", "people", "events", "places"].includes(h) || /^[pec]-/.test(h)) tab = "library";
   document.querySelectorAll("#tabs a").forEach(a => { a.classList.toggle("on", a.dataset.tab === tab); a.toggleAttribute("aria-current", a.dataset.tab === tab); });
   drawSeg(tab, h);
-  if (h.startsWith("p-")) viewPerson(h.slice(2));
+  if (h.startsWith("p-")) { viewPerson(h.slice(2)); const pp = P.get(h.slice(2)); if (pp) personArt(pp); }
   else if (h.startsWith("e-")) viewEvent(h.slice(2));
   else if (h.startsWith("c-")) viewCountry(h.slice(2));
   else if (h.startsWith("tm-")) viewTM(parseInt(h.slice(3), 10));
