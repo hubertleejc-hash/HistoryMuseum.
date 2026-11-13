@@ -2581,7 +2581,7 @@ const SCENES = [
 let taShown = null, taAnim = 0;
 const sceneFor = y => SCENES.filter(sc => Math.abs(astro(sc.y) - astro(y)) <= sc.tol).sort((a, b) => Math.abs(a.y - y) - Math.abs(b.y - y) || b.tol - a.tol)[0] || null;
 const nearestScene = y => SCENES.slice().sort((a, b) => Math.abs(astro(a.y) - astro(y)) - Math.abs(astro(b.y) - astro(y)))[0] || null;
-const portraitOf = p => { const ch = CH[p.id]; const sl = ch && (ch.portrait || ch.hero); return sl && IMG[sl] && !p.noimg ? IMG[sl].src : null; };
+const portraitOf = p => { if (p.noimg) return null; const ch = CH[p.id]; const sl = (ch && ch.portrait && IMG[ch.portrait] && ch.portrait) || (IMG["pt-" + p.id] && "pt-" + p.id) || (ch && ch.hero); return sl && IMG[sl] ? IMG[sl].src : null; };
 const initials = n => n.replace(/\b(the|of|da|de|van|von|al)\b/gi, "").split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0]).join("").toUpperCase();
 function whoCards(list, y){
   return `<div class="who">${list.map(p => { const ph = portraitOf(p);
