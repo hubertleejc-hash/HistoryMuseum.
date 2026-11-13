@@ -8,7 +8,8 @@ Only public-domain or CC0 files are used. Sacred people (sacred:1 or noimg:1) ne
 Writes app/art/p/<person id>.jpg (800 px long side) and app/art/portraits.json with the title, artist,
 date, licence, source page and an honesty note when the picture was made long after the person died.
 Incremental: people who already have a portrait are skipped. tools/art/overrides.json "portrait_deny"
-lists person ids whose found picture is wrong; "portrait_file" maps a person id to a Commons file name.
+lists person ids whose found picture is wrong; "portrait_file" maps a person id to a Commons file name,
+or to {"file", "note": [label, text], "title"} for a hand-checked pick (these replace earlier finds).
 """
 import html, io, json, re, sys, time, urllib.parse, urllib.request
 from pathlib import Path
@@ -95,8 +96,11 @@ def main():
     from PIL import Image
     found = missed = 0
     for p in people():
-        if p["sacred"] or p["id"] in man or p["id"] in deny: continue
-        fname = force.get(p["id"])
+        pick = force.get(p["id"])
+        if isinstance(pick, str): pick = {"file": pick}
+        if p["sacred"] or p["id"] in deny: continue
+        if p["id"] in man and not (pick and man[p["id"]].get("file") != pick["file"]): continue
+        fname = pick and pick["file"]
         if not fname:
             ent = find_entity(p)
             if ent:
@@ -129,7 +133,8 @@ def main():
             note = None
         elif not made and p["b"] < 1500:
             note = ["likely", "Probably made long after their lifetime. Nobody knows how close it is to their real face."]
-        title = plain(md.get("ObjectName", {}).get("value")) or re.sub(r"\.\w+$", "", fname).replace("_", " ")
+        if pick and pick.get("note"): note = pick["note"]
+        title = (pick or {}).get("title") or plain(md.get("ObjectName", {}).get("value")) or re.sub(r"\.\w+$", "", fname).replace("_", " ")
         man[p["id"]] = {"title": title, "artist": plain(md.get("Artist", {}).get("value"), 120) or "Unknown",
                         "date": date or "Date unknown", "licence": lic_name or "Public domain", "page": ii.get("descriptionurl", ""),
                         "file": fname, "w": im.size[0], "h": im.size[1], **({"note": note} if note else {})}
