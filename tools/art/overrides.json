@@ -3,6 +3,142 @@
   "deny": [],
   "allow": [],
   "_portraits": "portrait_deny: person ids whose found portrait is wrong. portrait_file: person id -> Wikimedia Commons file name to use instead.",
-  "portrait_deny": [],
-  "portrait_file": {}
+  "portrait_deny": [
+    "kahlo",
+    "muhammad"
+  ],
+  "portrait_file": {
+    "zheng-he": {
+      "file": "Portrait of Zheng He, published about 1600.jpg",
+      "note": [
+        "likely",
+        "Printed about 170 years after his death"
+      ],
+      "title": "Portrait of Zheng He"
+    },
+    "hokusai": {
+      "file": "Hokusai selfportrait.jpg",
+      "title": "Self-portrait of Hokusai"
+    },
+    "moses": {
+      "file": "Rembrandt - Moses with the Ten Commandments - Google Art Project.jpg",
+      "note": [
+        "likely",
+        "An artist's imagining; no likeness from life exists"
+      ],
+      "title": "Moses with the Ten Commandments"
+    },
+    "buddha": {
+      "file": "釈迦如来像-Shaka Nyorai MET DP231168.jpg",
+      "note": [
+        "likely",
+        "An artist's imagining made many centuries after his life"
+      ],
+      "title": "Shaka Nyorai (Shakyamuni)"
+    },
+    "jesus": {
+      "file": "Spas vsederzhitel sinay.jpg",
+      "note": [
+        "likely",
+        "Icon painted about 500 years after his life; no likeness from life exists"
+      ],
+      "title": "Christ Pantocrator"
+    },
+    "confucius": {
+      "file": "Konfuzius-1770.jpg",
+      "note": [
+        "likely",
+        "Engraved about 2,250 years after his death"
+      ],
+      "title": "Confucius"
+    },
+    "socrates": {
+      "file": "Jacques-Louis David - The Death of Socrates - Google Art Project.jpg",
+      "note": [
+        "likely",
+        "Painted about 2,200 years after his death"
+      ],
+      "title": "The Death of Socrates"
+    },
+    "alexander": {
+      "file": "Alexander Mosaic detail of Alexander the Great.jpg",
+      "note": [
+        "likely",
+        "Roman mosaic copy made about 200 years after his death"
+      ],
+      "title": "Alexander in the Battle of Issus mosaic (detail)"
+    },
+    "qin-shi-huang": {
+      "file": "QinShiHuang18thCentury.jpg",
+      "note": [
+        "likely",
+        "Painted about 1,900 years after his death"
+      ],
+      "title": "Qin Shi Huang"
+    },
+    "joan-of-arc": {
+      "file": "Joan of Arc miniature graded.jpg",
+      "note": [
+        "likely",
+        "Made decades after her death; not drawn from life"
+      ],
+      "title": "Joan of Arc"
+    },
+    "mozart": {
+      "file": "Wolfgang-amadeus-mozart 1.jpg",
+      "title": "Wolfgang Amadeus Mozart"
+    },
+    "darwin": {
+      "file": "Charles Darwin by Julia Margaret Cameron, c. 1868.jpg",
+      "title": "Charles Darwin",
+      "note": [
+        "verified",
+        "Photograph by Julia Margaret Cameron, 1868"
+      ]
+    },
+    "lincoln": {
+      "file": "Abraham Lincoln O-77 by Gardner, 1863.jpg",
+      "title": "Abraham Lincoln"
+    },
+    "gandhi": {
+      "file": "Mahatma-Gandhi, studio, 1931.jpg",
+      "title": "Mahatma Gandhi"
+    },
+    "galileo": {
+      "file": "Justus Sustermans - Portrait of Galileo Galilei, 1636.jpg",
+      "title": "Portrait of Galileo Galilei"
+    },
+    "newton": {
+      "file": "GodfreyKneller-IsaacNewton-1689.jpg",
+      "title": "Isaac Newton"
+    },
+    "einstein": {
+      "file": "Albert Einstein 1921 by F Schmutzer.jpg",
+      "title": "Albert Einstein",
+      "note": [
+        "verified",
+        "Photograph by Ferdinand Schmutzer, 1921"
+      ]
+    },
+    "elizabeth-i": {
+      "file": "Elizabeth I Darnley Portrait.jpg",
+      "title": "The Darnley Portrait of Elizabeth I"
+    },
+    "michelangelo": {
+      "file": "Michelangelo Daniele da Volterra (dettaglio).jpg",
+      "title": "Portrait of Michelangelo"
+    },
+    "akbar": {
+      "file": "Contemporary seated portrait of Akbar, 1605.jpg",
+      "title": "Seated portrait of Akbar"
+    },
+    "tolstoy": {
+      "file": "L.N.Tolstoy Prokudin-Gorsky.jpg",
+      "title": "Leo Tolstoy",
+      "note": [
+        "verified",
+        "Colour photograph by Sergei Prokudin-Gorsky, 1908"
+      ]
+    }
+  }
 }
