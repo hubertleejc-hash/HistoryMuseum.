@@ -13,7 +13,8 @@
   --land:#E6DCC8; --land-line:#CDBF9F; --lamp:#B8862B; --lamp-core:#5A3E0E; --lamp-ring:rgba(255,253,248,.95); --rust:#A33D1C; --rust-soft:rgba(163,61,28,.10);
   --lab-verified:#86651A; --lab-likely:#56703F; --lab-disputed:#A8641A; --lab-myth:#7A5A8C; --myth-tint:rgba(122,90,140,.09);
   --f-art:#A8445E; --f-music:#6A4E9C; --f-science:#2F6E8E; --f-writing:#9A6A1A; --f-leaders:#4C6B34;
-  --f-philosophy:#7A5536; --f-exploration:#2B7A6E; --f-invention:#B4572A; --f-you:#86651A;
+  --f-philosophy:#7A5536; --f-exploration:#2B7A6E; --f-invention:#B4572A; --f-faith:#3F5F8A; --f-you:#86651A;
+  --lab-tradition:#3F5F8A;
   --rel-warm:#A9532A; --rel-learn:#2F6E8E; --rel-rival:#A33D1C; --rel-met:#7A6E60;
   --glow:radial-gradient(ellipse 90% 60% at 50% -10%, rgba(255,255,255,.9), transparent 70%);
   --display:"Fraunces", Georgia, "Times New Roman", serif;
@@ -27,7 +28,8 @@
   --gold:#D4AF5A; --rust:#D66A43; --rust-soft:rgba(214,106,67,.13);
   --lab-verified:#D4AF5A; --lab-likely:#A9BC8C; --lab-disputed:#E3A35A; --lab-myth:#C6A6DA; --myth-tint:rgba(198,166,218,.08);
   --f-art:#E08AA0; --f-music:#B19AE0; --f-science:#6FB3D6; --f-writing:#E2BC62; --f-leaders:#9CC27F;
-  --f-philosophy:#CFA57F; --f-exploration:#6CC9B8; --f-invention:#EE9562; --f-you:#D4AF5A;
+  --f-philosophy:#CFA57F; --f-exploration:#6CC9B8; --f-invention:#EE9562; --f-faith:#8FB0DE; --f-you:#D4AF5A;
+  --lab-tradition:#8FB0DE;
   --rel-warm:#E69A6E; --rel-learn:#6FB3D6; --rel-rival:#E07A5A; --rel-met:#A49A88;
   --glow:radial-gradient(ellipse 80% 50% at 50% -10%, rgba(212,175,90,.10), transparent 70%);
   --shadow:0 10px 30px rgba(0,0,0,.35); --bar:rgba(24,23,21,.78); --land:#26231F; --land-line:#3B372F; --lamp:#F2C969; --lamp-core:#FFE7A8; --lamp-ring:rgba(255,231,168,.9);
@@ -38,7 +40,8 @@
   --gold:#D4AF5A; --rust:#D66A43; --rust-soft:rgba(214,106,67,.13);
   --lab-verified:#D4AF5A; --lab-likely:#A9BC8C; --lab-disputed:#E3A35A; --lab-myth:#C6A6DA; --myth-tint:rgba(198,166,218,.08);
   --f-art:#E08AA0; --f-music:#B19AE0; --f-science:#6FB3D6; --f-writing:#E2BC62; --f-leaders:#9CC27F;
-  --f-philosophy:#CFA57F; --f-exploration:#6CC9B8; --f-invention:#EE9562; --f-you:#D4AF5A;
+  --f-philosophy:#CFA57F; --f-exploration:#6CC9B8; --f-invention:#EE9562; --f-faith:#8FB0DE; --f-you:#D4AF5A;
+  --lab-tradition:#8FB0DE;
   --rel-warm:#E69A6E; --rel-learn:#6FB3D6; --rel-rival:#E07A5A; --rel-met:#A49A88;
   --glow:radial-gradient(ellipse 80% 50% at 50% -10%, rgba(212,175,90,.10), transparent 70%);
   --shadow:0 10px 30px rgba(0,0,0,.35); --bar:rgba(24,23,21,.78); --land:#26231F; --land-line:#3B372F; --lamp:#F2C969; --lamp-core:#FFE7A8; --lamp-ring:rgba(255,231,168,.9);
@@ -244,7 +247,7 @@ nav.tabs a.on{border-bottom-color:var(--gold); color:var(--ink)}
 /* honesty labels */
 .lab{display:inline-flex; align-items:center; gap:5px; font:600 10.5px/1 var(--ui); letter-spacing:.07em; text-transform:uppercase; color:var(--lc); border:1px solid color-mix(in srgb, var(--lc) 45%, transparent); border-radius:999px; padding:3px 7px 3px 6px; white-space:nowrap; vertical-align:middle}
 .lab::before{content:""; width:6px; height:6px; border-radius:50%; background:var(--lc)}
-.lab-verified{--lc:var(--lab-verified)} .lab-likely{--lc:var(--lab-likely)} .lab-disputed{--lc:var(--lab-disputed)} .lab-myth{--lc:var(--lab-myth)} .lab-unchecked{--lc:var(--ink-3)}
+.lab-verified{--lc:var(--lab-verified)} .lab-likely{--lc:var(--lab-likely)} .lab-disputed{--lc:var(--lab-disputed)} .lab-myth{--lc:var(--lab-myth)} .lab-tradition{--lc:var(--lab-tradition)} .lab-unchecked{--lc:var(--ink-3)}
 .lab-verified::before{background:none; width:auto; height:auto; content:"✓"; font-size:10px}
 details.why{font-size:13.5px; color:var(--ink-2)}
 details.why summary{cursor:pointer; color:var(--ink-3); font-size:12.5px; list-style:none; display:inline-flex; gap:6px; align-items:center}
@@ -758,6 +761,7 @@ const IMG_NOTE = {
 };
 const IMG_KIND = s => /photograph|photo/i.test((IMG[s] || {}).by || "") || ["curie","tubman","eiffel-1888"].includes(s) ? "Real photograph" : "Real picture";
 function imgFig(slug, cls, eager){
+  if (!slug) return "";
   const m = IMG[slug], note = IMG_NOTE[slug];
   const title = m ? m.title : slug.replace(/-/g, " ");
   const ar = m && m.w && m.h ? `aspect-ratio:${m.w}/${m.h}` : "aspect-ratio:4/3";
@@ -1231,12 +1235,12 @@ function viewPerson(id){
   const circle = new Set(cs.map(c => c.id));
   const ch = CH[p.id], inCh = !ch && Object.keys(CH).find(k => (CH[k].kw || []).some(w => w.toLowerCase() === p.n.toLowerCase()));
   view.innerHTML = `
-  ${ch ? `<div class="ch-top">${imgFig(ch.hero, "ch-hero", true)}` : ""}
+  ${ch ? `<div class="ch-top">${p.sacred || p.noimg ? "" : imgFig(ch.hero, "ch-hero", true)}` : ""}
   <section class="d-head">
     <div class="crumbs"><a href="#people">People</a><span>/</span><span>${F[p.f].label}</span></div>
     <h1>${esc(p.n)}</h1>
     <div class="d-meta"><span class="yr">${span(p)}</span><span>lived ${p.a ? "about " : ""}${lived(p)} years</span><span class="tag" style="${fc(p.f)}"><i class="dot"></i>${F[p.f].label}</span><span>${p.c.map(c => `<a href="#c-${c}">${esc(C[c].n)}</a>`).join(", ")}</span></div>
-    ${ch ? `<p class="bio ch-lede">${esc(ch.lede)}</p>${ch.portrait && ch.portrait !== ch.hero && IMG[ch.portrait] ? `<a class="ch-portrait" href="#p-${p.id}@short" title="${esc(IMG[ch.portrait].title)}"><img src="${esc(IMG[ch.portrait].src)}" alt="${esc(IMG[ch.portrait].title)}" loading="lazy"><span>${IMG_NOTE[ch.portrait] ? labHTML(IMG_NOTE[ch.portrait][0]) + " " : ""}${esc(IMG[ch.portrait].title)}, ${esc(IMG[ch.portrait].date)}</span></a>` : ""}` : `<p class="bio">${esc(p.bio)}</p>`}
+    ${ch ? `<p class="bio ch-lede">${esc(ch.lede)}</p>${!p.sacred && !p.noimg && ch.portrait && ch.portrait !== ch.hero && IMG[ch.portrait] ? `<a class="ch-portrait" href="#p-${p.id}@short" title="${esc(IMG[ch.portrait].title)}"><img src="${esc(IMG[ch.portrait].src)}" alt="${esc(IMG[ch.portrait].title)}" loading="lazy"><span>${IMG_NOTE[ch.portrait] ? labHTML(IMG_NOTE[ch.portrait][0]) + " " : ""}${esc(IMG[ch.portrait].title)}, ${esc(IMG[ch.portrait].date)}</span></a>` : ""}` : `<p class="bio">${esc(p.bio)}</p>`}
     <div class="counts"><div><b>${overl.length}</b><span>people here alive at the same time</span></div><div><b>${cs.length}</b><span>real connections</span></div><div><b>${evs.length}</b><span>events in their lifetime</span></div></div>
   </section>
   ${ch ? `</div>` : ""}
@@ -1346,7 +1350,7 @@ function notFound(){ view.innerHTML = `<section><h2>Page not found</h2><p><a hre
    ====================================================================== */
 const W = new Map((H.works || []).map(w => [w.id, w]));
 const M = new Map((H.myths || []).map(m => [m.id, Object.assign(m, {k:"myth"})]));
-const LABN = {verified:"Verified", likely:"Likely", disputed:"Disputed", myth:"Myth / legend", unchecked:"Unchecked"};
+const LABN = {verified:"Verified", likely:"Likely", disputed:"Disputed", myth:"Myth / legend", tradition:"Tradition", unchecked:"Unchecked"};
 const labHTML = l => `<span class="lab lab-${LABN[l] ? l : "unchecked"}">${LABN[l] || "Unchecked"}</span>`;
 const whyHTML = (w, title) => w ? `<details class="why"><summary>${esc(title || "Why we believe this")}</summary><p>${esc(w)}</p></details>` : "";
 const KINDN = {war:"War", turning:"Turning point", invention:"Invention", discovery:"Discovery", movement:"Movement", building:"Building", culture:"Culture", disaster:"Disaster", myth:"Myth / legend"};
@@ -1774,6 +1778,7 @@ function drawWhatIfFacts(){
 async function runWhatIf(){
   const out = document.getElementById("wOut"), a = P.get(wiA), b = P.get(wiB);
   if (a.id === b.id) { out.innerHTML = `<p class="empty">Pick two different people.</p>`; return; }
+  if (a.sacred || b.sacred) { out.innerHTML = `<p class="notice">Out of respect, What If? does not imagine scenes with ${esc((a.sacred ? a : b).n)}. The real history is below.</p>`; return; }
   const s = await getSample();
   if (!s || sampleOff) { out.innerHTML = `<p class="notice">${esc(sampleOff || NO_CLAUDE)}${sampleOff ? "" : ONLINE}</p>`; return; }
   const o = ov(a, b), mid = unastro(Math.round((o.s + o.e) / 2)), c = connBetween(a.id, b.id);
@@ -1831,7 +1836,7 @@ function recordFor(p){
   recCache.set(p.id, R);
   return R;
 }
-const LEAD = {art:["Let me put down my brush.", "Ah, that.", "Hm, let me think."], music:["Listen.", "Ah, that.", "A good question."], science:["Let me check my notes.", "Precisely.", "A fair question."], writing:["Let me find the page.", "Ah, that.", "Well."], leaders:["Very well.", "Hm.", "Listen carefully."], philosophy:["A good question.", "Consider this.", "Hm."], exploration:["Ah, that.", "From my travels, then.", "Well."], invention:["Let me show you.", "Ah, that.", "Right."]};
+const LEAD = {art:["Let me put down my brush.", "Ah, that.", "Hm, let me think."], music:["Listen.", "Ah, that.", "A good question."], science:["Let me check my notes.", "Precisely.", "A fair question."], writing:["Let me find the page.", "Ah, that.", "Well."], leaders:["Very well.", "Hm.", "Listen carefully."], philosophy:["A good question.", "Consider this.", "Hm."], exploration:["Ah, that.", "From my travels, then.", "Well."], invention:["Let me show you.", "Ah, that.", "Right."], faith:["The record says this.", "Here is what the sources say.", "On that, the sources say this."]};
 /* what a question is about, so plain questions ("Who are you?") still find the right lines */
 const INTENT = [[/\bwho (are|were) you\b|about yourself|introduce|what does the record say/i, "known"], [/\bwhere\b/i, "where"], [/\b(born|birth|die|died|death|how old|when were you)\b/i, "life"], [/\b(true|really|myth|story|legend)\b/i, "myth"], [/\b(happen|your time|events?|world around)\b/i, "times"], [/\b(work|painting|made|wrote|invent|famous|best)\b/i, "work"], [/\b(friend|family|knew|met|brother|sister|wife|husband|rival)\b/i, "people"]];
 const AFTER_DEATH = /\b(phone|smartphone|internet|computer|today|nowadays|modern|future|tv|television|ai|robot|car|plane|airplane|instagram|tiktok|facebook|youtube|202\d|201\d)\b/i;
@@ -2189,7 +2194,7 @@ const SCENES = [
 let taShown = null, taAnim = 0;
 const sceneFor = y => SCENES.filter(sc => Math.abs(astro(sc.y) - astro(y)) <= sc.tol).sort((a, b) => Math.abs(a.y - y) - Math.abs(b.y - y) || b.tol - a.tol)[0] || null;
 const nearestScene = y => SCENES.slice().sort((a, b) => Math.abs(astro(a.y) - astro(y)) - Math.abs(astro(b.y) - astro(y)))[0] || null;
-const portraitOf = p => { const ch = CH[p.id]; const sl = ch && (ch.portrait || ch.hero); return sl && IMG[sl] && !p.sacred ? IMG[sl].src : null; };
+const portraitOf = p => { const ch = CH[p.id]; const sl = ch && (ch.portrait || ch.hero); return sl && IMG[sl] && !p.sacred && !p.noimg ? IMG[sl].src : null; };
 const initials = n => n.replace(/\b(the|of|da|de|van|von|al)\b/gi, "").split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0]).join("").toUpperCase();
 function whoCards(list, y){
   return `<div class="who">${list.map(p => { const ph = portraitOf(p);

@@ -24,7 +24,9 @@ const LL = {
   spain: [-3.7, 40.2], portugal: [-8.2, 39.6], poland: [19.4, 52.1], hungary: [19.5, 47.2],
   czechia: [15.5, 49.8], croatia: [16, 45.3], denmark: [9.3, 56], sweden: [15.5, 60.5],
   norway: [9, 61], russia: [40, 56], usa: [-98, 39], mexico: [-102, 23.5], morocco: [-6.5, 31.8],
-  iraq: [43.7, 33.2], turkey: [35.2, 39]
+  iraq: [43.7, 33.2], turkey: [35.2, 39],
+  // Jerusalem and Mecca, for the faith chapters
+  'israel-palestine': [35.22, 31.78], arabia: [39.83, 21.42]
 };
 const pts = {};
 for (const [id, ll] of Object.entries(LL)) { const [x, y] = proj(ll); pts[id] = [Math.round(x), Math.round(y)]; }
