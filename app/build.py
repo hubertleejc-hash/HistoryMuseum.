@@ -45,11 +45,12 @@ if app_dir.parent.exists():
         fonts_css = fonts_css.replace("fonts/" + f, "data:font/woff2;base64," + base64.b64encode((d/"fonts"/f).read_bytes()).decode())
     assert "fonts.g" not in app_src
     head = ('<!doctype html>\n<html lang="en"><head><meta charset="utf-8">\n'
-            '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
+            '<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">\n'
             '<script>window.APP_MODE = true;</script>\n'
             '<style>' + fonts_css + '\n'
             'html body{padding-top:env(safe-area-inset-top, 0px); padding-bottom:calc(96px + env(safe-area-inset-bottom, 0px));'
             ' -webkit-text-size-adjust:100%; -webkit-tap-highlight-color:transparent}\n'
+            'html{touch-action:manipulation}\n'
             'html body input, html body select, html body textarea{font-size:16px}</style>\n')
     app_dir.mkdir(exist_ok=True)
     (app_dir/"index.html").write_text(head + app_src)

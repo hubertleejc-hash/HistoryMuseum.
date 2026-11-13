@@ -36,6 +36,12 @@ struct MuseumView: UIViewRepresentable {
         web.scrollView.backgroundColor = MuseumView.pageBG
         web.scrollView.contentInsetAdjustmentBehavior = .never
         web.allowsLinkPreview = false          // no web-style link previews on a long press
+        // An app does not zoom when you double-tap or pinch: turn the web view's zooming off.
+        web.scrollView.delegate = context.coordinator
+        web.scrollView.minimumZoomScale = 1
+        web.scrollView.maximumZoomScale = 1
+        web.scrollView.bouncesZoom = false
+        web.scrollView.pinchGestureRecognizer?.isEnabled = false
         web.allowsBackForwardNavigationGestures = true
 
         let page = Bundle.main.url(forResource: "index", withExtension: "html")
@@ -58,9 +64,12 @@ struct MuseumView: UIViewRepresentable {
     func updateUIView(_ web: WKWebView, context: Context) {}
 
     @MainActor
-    final class Coordinator: NSObject, WKNavigationDelegate, WKUIDelegate, WKScriptMessageHandler {
+    final class Coordinator: NSObject, WKNavigationDelegate, WKUIDelegate, WKScriptMessageHandler, UIScrollViewDelegate {
         let launch: LaunchState
         init(launch: LaunchState) { self.launch = launch }
+
+        // No zooming: there is nothing to zoom into, so double-tap and pinch do nothing.
+        func viewForZooming(in scrollView: UIScrollView) -> UIView? { nil }
 
         private let selection = UISelectionFeedbackGenerator()
         private let impact = UIImpactFeedbackGenerator(style: .medium)
