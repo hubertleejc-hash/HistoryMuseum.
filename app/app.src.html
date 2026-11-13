@@ -632,6 +632,46 @@ html.hinged .big-title, html.hinged .w-regions, html.hinged .w-dial{max-width:ca
 .lib-card span{color:var(--ink-2); font-size:14px}
 .fake-search{display:flex; align-items:center; gap:10px; width:100%; padding:11px 14px; border:1px solid var(--rule); border-radius:12px; background:var(--surface); color:var(--ink-3); cursor:pointer; text-align:left}
 .legend{font-size:13px; color:var(--ink-2); max-width:70ch; margin:0}
+
+/* ---------- Walk in: arriving in a real picture of the past ---------- */
+.ta{position:relative; margin:-18px -16px 0; overflow:hidden; background:#0E0D0C; height:min(62vh, 620px); min-height:320px}
+.ta-stops{flex-wrap:nowrap; overflow-x:auto; scrollbar-width:none}
+.ta-stops .chip{flex:none; white-space:nowrap}
+@media (min-width:900px){.ta{margin:0; border-radius:18px}}
+.ta + .ta-label{padding-bottom:4px}
+.ta-img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; transform-origin:var(--ox, 50%) var(--oy, 50%); animation:taDrift 26s ease-in-out infinite alternate; will-change:transform}
+.ta-img.contain{object-fit:contain}
+@keyframes taDrift{from{transform:scale(1.0) translate(0,0)} to{transform:scale(1.09) translate(var(--dx, -1.5%), var(--dy, -1%))}}
+.ta-shade{position:absolute; inset:auto 0 0 0; height:46%; background:linear-gradient(transparent, rgba(10,9,8,.82)); pointer-events:none}
+.ta-cap{position:absolute; left:20px; right:20px; bottom:16px; color:#F3EBDD}
+.ta-cap .eyebrow{color:#E7C779}
+.ta-cap h2{font:600 clamp(28px,6vw,46px)/1.05 var(--display); color:#FBF6EA; margin:4px 0 2px; text-shadow:0 2px 14px rgba(0,0,0,.5)}
+.ta-cap p{margin:0; font-size:13.5px; color:#E6DCCB}
+.ta-veil{position:absolute; inset:0; z-index:3; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:14px; background:radial-gradient(ellipse at 50% 45%, #221E17, #0E0D0C 70%); color:#F2C969; pointer-events:none; transition:opacity .9s ease}
+.ta-veil.gone{opacity:0}
+.ta-veil svg{width:120px; height:120px}
+.ta-veil .hand{transform-origin:60px 60px; animation:taSpin 1.5s cubic-bezier(.45,0,.2,1) both}
+@keyframes taSpin{from{transform:rotate(0)} to{transform:rotate(-720deg)}}
+.ta-veil .num{font:600 48px/1 var(--display); font-variant-numeric:tabular-nums lining-nums; color:#FBF6EA; letter-spacing:.01em}
+.ta-veil .sub{font:600 11px/1 var(--ui); letter-spacing:.2em; text-transform:uppercase; color:#B9A57A}
+.ta-label{display:flex; flex-direction:column; gap:4px; padding:12px 0 0; font-size:13px; color:var(--ink-2)}
+.ta-label b{font:600 16px/1.3 var(--display); color:var(--ink)}
+.ta-label .when{color:var(--accent); font-weight:600}
+.ta-map{position:relative; margin:-18px -16px 0; padding:26px 20px 22px; background:var(--sunk); display:flex; flex-direction:column; gap:10px; align-items:flex-start}
+@media (min-width:900px){.ta-map{margin:0; border-radius:18px}}
+.ta-map h2{font:600 clamp(30px,6vw,46px)/1.05 var(--display)}
+.ta-map svg{width:100%; height:auto; max-height:260px}
+.ta-map svg .land{fill:var(--land); stroke:var(--land-line); stroke-width:.7; vector-effect:non-scaling-stroke}
+.ta-map svg .pt{fill:var(--lamp-core); stroke:var(--lamp-ring); stroke-width:1.2; vector-effect:non-scaling-stroke}
+.who{display:grid; grid-template-columns:repeat(auto-fill, minmax(150px, 1fr)); gap:10px}
+.who a{display:flex; gap:10px; align-items:center; padding:10px; border:1px solid var(--rule); border-radius:14px; background:var(--surface); color:var(--ink); min-width:0}
+.who a:hover{text-decoration:none; border-color:var(--accent)}
+.who a.focus{border-color:var(--accent); box-shadow:0 0 0 2px var(--accent-soft)}
+.who .ph{width:44px; height:44px; flex:none; border-radius:50%; overflow:hidden; display:flex; align-items:center; justify-content:center; background:color-mix(in srgb, var(--fc) 22%, var(--sunk)); color:var(--ink); font:600 15px/1 var(--display); border:1px solid var(--rule)}
+.who .ph img{width:100%; height:100%; object-fit:cover; object-position:center 20%}
+.who b{display:block; font-size:14px; font-weight:600; line-height:1.25; overflow:hidden; text-overflow:ellipsis}
+.who small{display:block; font-size:12px; color:var(--ink-3)}
+@media (prefers-reduced-motion:reduce){.ta-img{animation:none}.ta-veil .hand{animation:none}.ta-veil{transition:none}}
 </style>
 <script>/* light or dark follows the phone's own setting */
 (function(){var m=window.matchMedia&&matchMedia("(prefers-color-scheme: dark)");document.documentElement.setAttribute("data-theme",m&&!m.matches?"light":"dark")})();</script>
@@ -2022,7 +2062,91 @@ let wkYear = (() => { const v = parseInt(store.get("ctm-wk"), 10); return Number
 let wkSel = null, wkFocus = null, wkPos = new Map();
 const wkTo = (sc, x) => { x = Math.max(0, x); try { sc.scrollTo({left:x, behavior:"smooth"}); } catch(e){ sc.scrollLeft = x; } };
 const WK_JUMPS = [[-44, "Rome, 44 BC"], [1505, "Florence, 1505"], [1600, "Shakespeare's London, 1600"], [1808, "Beethoven's Vienna, 1808"], [1889, "Paris, 1889"], [1919, "After the war, 1919"], [1955, "1955"]];
+
+/* ---------- Walk in: travel to a year and arrive inside a real picture of that time ---------- */
+/* Each scene is a real public-domain picture of a place, shown for years close to when it was made.
+   Paintings and prints are labelled as artworks; photographs as photographs. Nothing here is invented. */
+const SCENES = [
+  {id:"paris-1889", y:1889, tol:12, c:"france", place:"Paris", img:"eiffel-1888", ox:"50%", oy:"30%"},
+  {id:"paris-1812", y:1812, tol:10, c:"france", place:"Paris, the Tuileries palace", img:"napoleon-study", ox:"50%", oy:"25%"},
+  {id:"arles-1888", y:1888, tol:3, c:"france", place:"Arles, in the south of France", img:"cafe-terrace", ox:"50%", oy:"60%"},
+  {id:"rome-1510", y:1510, tol:20, c:"italy", place:"Rome, the Vatican palace", img:"school-athens", ox:"50%", oy:"45%"},
+  {id:"edo-1831", y:1831, tol:20, c:"japan", place:"Off the coast of Kanagawa, Japan", img:"great-wave", ox:"40%", oy:"50%"},
+  {id:"kaifeng-1120", y:1120, tol:40, c:"china", place:"Kaifeng, capital of the Song dynasty", img:"qingming", ox:"50%", oy:"50%"}
+].filter(sc => IMG[sc.img]);
+let taShown = null, taAnim = 0;
+const sceneFor = y => SCENES.filter(sc => Math.abs(astro(sc.y) - astro(y)) <= sc.tol).sort((a, b) => Math.abs(a.y - y) - Math.abs(b.y - y) || b.tol - a.tol)[0] || null;
+const nearestScene = y => SCENES.slice().sort((a, b) => Math.abs(astro(a.y) - astro(y)) - Math.abs(astro(b.y) - astro(y)))[0] || null;
+const portraitOf = p => { const ch = CH[p.id]; const sl = ch && (ch.portrait || ch.hero); return sl && IMG[sl] && !p.sacred ? IMG[sl].src : null; };
+const initials = n => n.replace(/\b(the|of|da|de|van|von|al)\b/gi, "").split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0]).join("").toUpperCase();
+function whoCards(list, y){
+  return `<div class="who">${list.map(p => { const ph = portraitOf(p);
+    return `<a href="#p-${p.id}" class="${p.id === wkFocus ? "focus" : ""}" style="${fc(p.f)}"><span class="ph">${ph ? `<img src="${esc(ph)}" alt="" loading="lazy">` : esc(initials(p.n))}</span><span style="min-width:0"><b>${esc(p.n)}</b><small>age ${p.a ? "c. " : ""}${ageAt(p, y)} · ${esc(F[p.f] ? F[p.f].label : "")}</small></span></a>`; }).join("")}</div>`;
+}
 function viewWalk(y, focus){
+  if (y != null && Number.isFinite(y)) wkYear = clampY(y);
+  wkFocus = focus || null; taShown = null;
+  view.innerHTML = `<section id="taScene"></section>
+  <section class="wk-head"><span class="eyebrow">Travel to another year</span>
+    <div class="tm-ctl"><div class="line"><label class="you-in">Year <input type="number" id="wk-in" value="${wkYear}" min="-600" max="${NOW}"></label>${[-10, -1, 1, 10].map(d => `<button type="button" class="step" data-wd="${d}">${d > 0 ? "+" : "−"}${Math.abs(d)}</button>`).join("")}</div>
+    <input type="range" id="wk-r" min="-600" max="${NOW}" step="1" value="${wkYear}" aria-label="Pick a year">
+    <div class="chips ta-stops">${SCENES.map(sc => `<button type="button" class="chip" data-wy="${sc.y}">${esc(sc.place.split(",")[0])}, ${fy(sc.y)}</button>`).join("")}</div></div></section>
+  <section id="taWho"></section>`;
+  drawWalk();
+}
+function drawWalk(){
+  const host = document.getElementById("taScene"); if (!host) return;
+  const y = wkYear, from = taShown ? taShown.y : null; store.set("ctm-wk", y);
+  try { history.replaceState(null, "", "#walk-" + y + (wkFocus ? "-" + wkFocus : "")); } catch(e){}
+  const inp = document.getElementById("wk-in"), rg = document.getElementById("wk-r");
+  if (inp && document.activeElement !== inp) inp.value = y; if (rg) rg.value = y;
+  const sc = sceneFor(y), key = sc ? sc.id : "map", still = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const alive = aliveAt(y), here = sc ? alive.filter(p => (p.c || []).includes(sc.c)) : [];
+  if (!taShown || taShown.key !== key) {
+    if (sc) {
+      const m = IMG[sc.img], h = hashStr(sc.id), photo = IMG_KIND(sc.img) === "Real photograph";
+      const made = photo ? `Photographed ${m.date}` : `${/print|woodblock/i.test(m.title + " " + (IMG_NOTE[sc.img] || [""])[1]) ? "Printed" : "Painted"} ${m.date}`;
+      host.innerHTML = `<div class="ta">
+          <img class="ta-img${sc.img === "great-wave" ? " contain" : ""}" src="${esc(m.src)}" alt="${esc(m.title)}" style="--ox:${sc.ox};--oy:${sc.oy};--dx:${h % 2 ? "-" : ""}1.6%;--dy:${h % 3 ? "-" : ""}1%">
+          <div class="ta-shade"></div>
+          <div class="ta-cap"><span class="eyebrow">You have arrived</span><h2>${esc(sc.place.split(",")[0])}, ${fy(y)}</h2><p>${esc(sc.place)}</p></div>
+          <div class="ta-veil" id="taVeil" aria-hidden="true"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="52" fill="none" stroke="#D4AF5A" stroke-width="1.4"/><path d="M60 8v8M60 104v8M8 60h8M104 60h8" stroke="#D4AF5A" stroke-width="2" stroke-linecap="round"/><g class="hand"><path d="M60 60V22" stroke="#F2C969" stroke-width="2.4" stroke-linecap="round"/></g><circle cx="60" cy="60" r="3.5" fill="#F2C969"/></svg><div class="num" id="taNum"></div><div class="sub">Travelling in time</div></div>
+        </div>
+        <div class="ta-label"><b>${esc(m.title)}</b><span>${esc(m.by)}. ${esc(m.coll)}. Public domain${m.page ? ` · <a href="${esc(m.page)}" target="_blank" rel="noopener">source</a>` : ""}. Not made by AI.</span>
+          <span><span class="when">${esc(made)}</span>, shown for <span id="taFor">${fy(y)}</span>.${IMG_NOTE[sc.img] ? " " + labHTML(IMG_NOTE[sc.img][0]) + " " + esc(IMG_NOTE[sc.img][1]) : ""}</span></div>`;
+    } else {
+      const near = nearestScene(y);
+      host.innerHTML = `<div class="ta-map">
+          <span class="eyebrow">You have arrived</span><h2>The world in ${fy(y)}</h2>
+          <svg viewBox="0 20 1000 470" role="img" aria-label="World map"><path class="land" d="${GEO.land}"/>${[...new Set(alive.flatMap(p => p.c || []))].filter(c => GEO.pts[c]).map(c => `<circle class="pt" cx="${GEO.pts[c][0]}" cy="${GEO.pts[c][1]}" r="7"/>`).join("")}</svg>
+          <p class="muted" style="margin:0">This museum has no picture of a place from this time yet${near ? `. The nearest one is <a href="#walk-${near.y}">${esc(near.place.split(",")[0])}, ${fy(near.y)}</a>` : ""}.</p>
+        </div>`;
+    }
+    const veil = document.getElementById("taVeil"), num = document.getElementById("taNum");
+    if (veil) {
+      cancelAnimationFrame(taAnim);
+      if (still) veil.classList.add("gone");
+      else {
+        const a = from != null ? from : y + (y > 1000 ? 150 : 300), t0 = performance.now(), dur = 1400;
+        const step = now => { const t = Math.min(1, (now - t0) / dur), e = 1 - Math.pow(1 - t, 3); let v = Math.round(a + (y - a) * e); if (v === 0) v = y > 0 ? 1 : -1; num.textContent = fy(v); if (t < 1) taAnim = requestAnimationFrame(step); else { haptic("success"); setTimeout(() => veil.classList.add("gone"), 150); } };
+        taAnim = requestAnimationFrame(step);
+      }
+    }
+  } else {
+    const h2 = host.querySelector(".ta-cap h2"); if (h2 && sc) h2.textContent = `${sc.place.split(",")[0]}, ${fy(y)}`;
+    const mh = host.querySelector(".ta-map h2"); if (mh) mh.textContent = `The world in ${fy(y)}`;
+    const tf = document.getElementById("taFor"); if (tf) tf.textContent = fy(y);
+  }
+  taShown = {key, y};
+  const rest = alive.filter(p => !here.includes(p)).sort((a, b) => astro(a.b) - astro(b.b));
+  document.getElementById("taWho").innerHTML = alive.length ? `
+    ${here.length ? `<div class="sec-head"><h2>Alive here in ${fy(y)}</h2><p>${plural(here.length, "person")} linked to ${esc(C[sc.c].n)}</p></div>${whoCards(here, y)}` : ""}
+    <div class="sec-head" style="margin-top:${here.length ? 18 : 0}px"><h2>${here.length ? "Elsewhere in the world" : `Alive in ${fy(y)}`}</h2><p>${plural(rest.length, "person")}</p></div>${whoCards(rest, y)}`
+    : `<p class="muted">No one in this museum was alive in ${fy(y)} yet.</p>`;
+}
+
+/* the old drawn street, kept only until the new scenes are approved */
+function viewWalkStreet(y, focus){
   if (y != null && Number.isFinite(y)) wkYear = clampY(y);
   wkFocus = focus || null; wkSel = null;
   view.innerHTML = `<section class="wk-head"><span class="eyebrow">Walk in</span><h2 id="wkTitle"></h2><p class="muted" id="wkSub"></p>
@@ -2036,7 +2160,7 @@ function viewWalk(y, focus){
   <section class="wk-key" id="wkKey"></section>`;
   drawWalk();
 }
-function drawWalk(){
+function drawWalkStreet(){
   const host = document.getElementById("wkS"); if (!host) return;
   const y = wkYear; store.set("ctm-wk", y);
   try { history.replaceState(null, "", "#walk-" + y + (wkFocus ? "-" + wkFocus : "")); } catch(e){}

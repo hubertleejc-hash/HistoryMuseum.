@@ -34,7 +34,7 @@ SIZE=$(stat -f%z "$APP/index.html" 2>/dev/null || echo 0)
 [ "$SIZE" -gt 3000000 ] || { echo "::error::The museum page inside the app is only $SIZE bytes"; exit 1; }
 
 # Pages to photograph: <route>:<theme>
-SHOTS="world:dark world:light timeline:light p-van-gogh:dark p-van-gogh@myths:light library:dark talk-van-gogh:dark"
+SHOTS="world:dark world:light walk-1889:dark walk-1505:light p-van-gogh@myths:light library:dark talk-van-gogh:dark"
 status=0
 
 # shoot <udid> <label>: one screenshot per page; on a folding phone, both displays are tried.
