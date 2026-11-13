@@ -5,16 +5,19 @@ import WebKit
 /// Everything works offline. Links to the web (sources, the online museum) open in Safari.
 /// The same page lays itself out for iPhone, iPad and a foldable, so there is one app for all of them.
 struct MuseumView: UIViewRepresentable {
-    @ObservedObject var theme: ThemeState
+    let launch: LaunchState
 
-    static let darkBG = Color(red: 0.078, green: 0.075, blue: 0.071)   // #141312
-    static let lightBG = Color(red: 0.945, green: 0.910, blue: 0.839)  // #F1E8D6
+    static let darkBG = Color(red: 0.078, green: 0.075, blue: 0.071)   // #141312, the museum at night
+    static let lightBG = Color(red: 0.969, green: 0.953, blue: 0.918)  // #F7F3EA, the daylight gallery
+    /// The same two colours as one that follows the phone's light or dark setting.
+    static let pageBG = UIColor { $0.userInterfaceStyle == .light ? UIColor(MuseumView.lightBG) : UIColor(MuseumView.darkBG) }
 
-    func makeCoordinator() -> Coordinator { Coordinator(theme: theme) }
+    func makeCoordinator() -> Coordinator { Coordinator(launch: launch) }
 
     func makeUIView(context: Context) -> WKWebView {
         let config = WKWebViewConfiguration()
-        config.userContentController.add(context.coordinator, name: "theme")
+        config.userContentController.add(context.coordinator, name: "ready")
+        config.userContentController.add(context.coordinator, name: "haptic")
         // For the screenshot runs on GitHub: `-route p-van-gogh` opens that page. Ignored when not given.
         var start = ""
         if let route = MuseumView.argument("-route"),
@@ -29,9 +32,11 @@ struct MuseumView: UIViewRepresentable {
         web.navigationDelegate = context.coordinator
         web.uiDelegate = context.coordinator
         web.isOpaque = false
-        web.backgroundColor = UIColor(MuseumView.darkBG)
-        web.scrollView.backgroundColor = web.backgroundColor
+        web.backgroundColor = MuseumView.pageBG
+        web.scrollView.backgroundColor = MuseumView.pageBG
         web.scrollView.contentInsetAdjustmentBehavior = .never
+        web.allowsLinkPreview = false          // no web-style link previews on a long press
+        web.allowsBackForwardNavigationGestures = true
 
         let page = Bundle.main.url(forResource: "index", withExtension: "html")
             ?? Bundle.main.url(forResource: "index", withExtension: "html", subdirectory: "Web")
@@ -50,21 +55,35 @@ struct MuseumView: UIViewRepresentable {
         return args[i + 1]
     }
 
-    func updateUIView(_ web: WKWebView, context: Context) {
-        let bg = UIColor(theme.isLight ? MuseumView.lightBG : MuseumView.darkBG)
-        web.backgroundColor = bg
-        web.scrollView.backgroundColor = bg
-    }
+    func updateUIView(_ web: WKWebView, context: Context) {}
 
     @MainActor
     final class Coordinator: NSObject, WKNavigationDelegate, WKUIDelegate, WKScriptMessageHandler {
-        let theme: ThemeState
-        init(theme: ThemeState) { self.theme = theme }
+        let launch: LaunchState
+        init(launch: LaunchState) { self.launch = launch }
 
-        // The page says which theme it shows.
+        private let selection = UISelectionFeedbackGenerator()
+        private let impact = UIImpactFeedbackGenerator(style: .medium)
+        private let notice = UINotificationFeedbackGenerator()
+        private var lastHaptic = Date.distantPast
+
+        // "ready": the page has drawn, so the opening animation can hand over.
+        // "haptic": a soft click from the page (the year dial, opening a Hall). Only these few words are accepted,
+        // and no more than about 25 a second.
         func userContentController(_ controller: WKUserContentController, didReceive message: WKScriptMessage) {
-            if message.name == "theme", let t = message.body as? String {
-                theme.isLight = (t == "light")
+            if message.name == "ready" {
+                launch.pageIsReady()
+                return
+            }
+            guard message.name == "haptic", let kind = message.body as? String else { return }
+            let now = Date()
+            guard now.timeIntervalSince(lastHaptic) > 0.04 else { return }
+            lastHaptic = now
+            switch kind {
+            case "tick", "select": selection.selectionChanged(); selection.prepare()
+            case "open": impact.impactOccurred(); impact.prepare()
+            case "success": notice.notificationOccurred(.success)
+            default: break
             }
         }
 

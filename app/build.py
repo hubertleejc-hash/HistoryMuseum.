@@ -21,7 +21,7 @@ images = {m["slug"]: {"src": IMG_BASE + m["slug"] + ".jpg", "title": m["title"].
 images_js = "window.HISTORY.images = " + json.dumps(images, ensure_ascii=False, indent=0) + ";"
 
 for tag, f in (("/*__DATA__*/", "data.js"), ("/*__CONTENT__*/", "content.js"), ("/*__DEEP__*/", "deep.js"),
-               ("/*__CHAPTERS__*/", "chapters.js"), ("/*__IMAGES__*/", None)):
+               ("/*__CHAPTERS__*/", "chapters.js"), ("/*__IMAGES__*/", None), ("/*__GEO__*/", "geo.js")):
     assert tag in src, tag
     src = src.replace(tag, images_js if f is None else (d/f).read_text())
 (d/"index.html").write_text(src)
@@ -48,7 +48,7 @@ if app_dir.parent.exists():
             '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
             '<script>window.APP_MODE = true;</script>\n'
             '<style>' + fonts_css + '\n'
-            'html body{padding-top:env(safe-area-inset-top, 0px); padding-bottom:calc(48px + env(safe-area-inset-bottom, 0px));'
+            'html body{padding-top:env(safe-area-inset-top, 0px); padding-bottom:calc(96px + env(safe-area-inset-bottom, 0px));'
             ' -webkit-text-size-adjust:100%; -webkit-tap-highlight-color:transparent}\n'
             'html body input, html body select, html body textarea{font-size:16px}</style>\n')
     app_dir.mkdir(exist_ok=True)

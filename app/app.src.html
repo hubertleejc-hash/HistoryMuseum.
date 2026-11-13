@@ -7,14 +7,15 @@
 /* Look: a museum at night (charcoal, parchment, antique gold, rust red);
    light mode reads like an old book. */
 :root{
-  --bg:#F1E8D6; --surface:#F8F2E5; --sunk:#E6DAC2; --ink:#2B2219; --ink-2:#5B4C3B; --ink-3:#7E6E5C;
-  --rule:#D8C9AC; --accent:#86651A; --accent-ink:#FBF6EA; --accent-soft:#EADDB9; --band:rgba(134,101,26,.14);
-  --gold:#86651A; --rust:#A33D1C; --rust-soft:rgba(163,61,28,.10);
+  --bg:#F7F3EA; --surface:#FFFDF8; --sunk:#EFE8DA; --ink:#1F1A14; --ink-2:#5A5043; --ink-3:#6E6252;
+  --rule:#E4DCCB; --accent:#8A6420; --accent-ink:#FFFDF8; --accent-soft:rgba(138,100,32,.13); --band:rgba(138,100,32,.12);
+  --gold:#8A6420; --shadow:0 10px 30px rgba(60,40,10,.10); --bar:rgba(255,253,248,.82);
+  --land:#E6DCC8; --land-line:#CDBF9F; --lamp:#B8862B; --lamp-core:#5A3E0E; --lamp-ring:rgba(255,253,248,.95); --rust:#A33D1C; --rust-soft:rgba(163,61,28,.10);
   --lab-verified:#86651A; --lab-likely:#56703F; --lab-disputed:#A8641A; --lab-myth:#7A5A8C; --myth-tint:rgba(122,90,140,.09);
   --f-art:#A8445E; --f-music:#6A4E9C; --f-science:#2F6E8E; --f-writing:#9A6A1A; --f-leaders:#4C6B34;
   --f-philosophy:#7A5536; --f-exploration:#2B7A6E; --f-invention:#B4572A; --f-you:#86651A;
   --rel-warm:#A9532A; --rel-learn:#2F6E8E; --rel-rival:#A33D1C; --rel-met:#7A6E60;
-  --glow:radial-gradient(ellipse 90% 60% at 50% -10%, rgba(255,250,235,.7), transparent 70%);
+  --glow:radial-gradient(ellipse 90% 60% at 50% -10%, rgba(255,255,255,.9), transparent 70%);
   --display:"Fraunces", Georgia, "Times New Roman", serif;
   --ui:"Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
   --mono:"IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
@@ -29,6 +30,7 @@
   --f-philosophy:#CFA57F; --f-exploration:#6CC9B8; --f-invention:#EE9562; --f-you:#D4AF5A;
   --rel-warm:#E69A6E; --rel-learn:#6FB3D6; --rel-rival:#E07A5A; --rel-met:#A49A88;
   --glow:radial-gradient(ellipse 80% 50% at 50% -10%, rgba(212,175,90,.10), transparent 70%);
+  --shadow:0 10px 30px rgba(0,0,0,.35); --bar:rgba(24,23,21,.78); --land:#26231F; --land-line:#3B372F; --lamp:#F2C969; --lamp-core:#FFE7A8; --lamp-ring:rgba(255,231,168,.9);
   color-scheme:dark }}
 :root[data-theme="dark"]{
   --bg:#141312; --surface:#1C1B19; --sunk:#0F0E0D; --ink:#EDE3CF; --ink-2:#C4B89F; --ink-3:#958A76;
@@ -39,6 +41,7 @@
   --f-philosophy:#CFA57F; --f-exploration:#6CC9B8; --f-invention:#EE9562; --f-you:#D4AF5A;
   --rel-warm:#E69A6E; --rel-learn:#6FB3D6; --rel-rival:#E07A5A; --rel-met:#A49A88;
   --glow:radial-gradient(ellipse 80% 50% at 50% -10%, rgba(212,175,90,.10), transparent 70%);
+  --shadow:0 10px 30px rgba(0,0,0,.35); --bar:rgba(24,23,21,.78); --land:#26231F; --land-line:#3B372F; --lamp:#F2C969; --lamp-core:#FFE7A8; --lamp-ring:rgba(255,231,168,.9);
   color-scheme:dark }
 
 *{box-sizing:border-box}
@@ -516,32 +519,133 @@ details.why p{margin:6px 0 0; padding-left:12px; border-left:2px solid var(--rul
 .talk-list a:hover b{color:var(--accent)}.talk-list small{display:block;color:var(--ink-3);font-size:12.5px}
 .walk-cta{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
 @media (max-width:640px){.wk-arrow{top:170px;width:34px;height:34px;font-size:22px}}
+
+/* ---------- app shell: bottom tabs, segmented control, search sheet ---------- */
+html{overscroll-behavior:none}
+body{padding-bottom:calc(96px + env(safe-area-inset-bottom, 0px))}
+.tabbar{position:fixed; left:0; right:0; bottom:0; z-index:40; display:grid; grid-template-columns:repeat(5, minmax(0,1fr));
+  padding:7px max(6px, env(safe-area-inset-left, 0px)) calc(6px + env(safe-area-inset-bottom, 0px)) max(6px, env(safe-area-inset-right, 0px));
+  background:var(--bar); -webkit-backdrop-filter:blur(20px) saturate(1.4); backdrop-filter:blur(20px) saturate(1.4); border-top:1px solid var(--rule)}
+.tabbar a{display:flex; flex-direction:column; align-items:center; gap:3px; padding:2px 0 4px; min-height:44px; color:var(--ink-3); font:500 10.5px/1 var(--ui); position:relative}
+.tabbar a:hover{text-decoration:none; color:var(--ink-2)}
+.tabbar a.on{color:var(--accent); font-weight:600}
+.tabbar a.on::after{content:""; position:absolute; bottom:-3px; width:4px; height:4px; border-radius:50%; background:var(--accent)}
+.tabbar, .seg-row, .chip, .btn, .w-regions, .w-dial{-webkit-user-select:none; user-select:none; -webkit-touch-callout:none}
+.seg-row{position:sticky; top:env(safe-area-inset-top, 0px); z-index:20; display:flex; justify-content:center; padding:10px 0; background:var(--bg)}
+.seg{display:inline-flex; padding:3px; gap:2px; border-radius:11px; background:var(--sunk); max-width:100%; overflow-x:auto; scrollbar-width:none}
+.seg a{padding:7px 14px; border-radius:8px; color:var(--ink-2); font:500 13.5px/1.1 var(--ui); white-space:nowrap}
+.seg a:hover{text-decoration:none; color:var(--ink)}
+.seg a.on{background:var(--surface); color:var(--ink); box-shadow:0 1px 3px rgba(0,0,0,.12)}
+main{padding-top:18px}
+.search-sheet{position:fixed; inset:0 0 auto; z-index:60; display:flex; gap:10px; align-items:flex-start; padding:calc(10px + env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) 14px max(16px, env(safe-area-inset-left, 0px));
+  background:var(--bar); -webkit-backdrop-filter:blur(20px) saturate(1.4); backdrop-filter:blur(20px) saturate(1.4); border-bottom:1px solid var(--rule); box-shadow:var(--shadow)}
+.search-sheet[hidden]{display:none}
+.search-sheet .search{flex:1; max-width:none}
+.search-sheet .results{max-height:70vh; overflow-y:auto}
+.ss-close{border:0; background:none; color:var(--accent); font-weight:500; padding:9px 2px; cursor:pointer}
+.icon-btn{width:44px; height:44px; flex:none; border-radius:22px; border:1px solid var(--rule); background:var(--surface); color:var(--ink); display:inline-flex; align-items:center; justify-content:center; cursor:pointer}
+.big-title{display:flex; align-items:flex-end; justify-content:space-between; gap:12px}
+.big-title h1{font-size:34px; line-height:1.1}
+button:active, .chip:active, .btn:active, .tabbar a:active, .seg a:active, .lib-card:active{transform:scale(.97)}
+@media (prefers-reduced-motion:reduce){button:active, .chip:active, .btn:active, .tabbar a:active, .seg a:active, .lib-card:active{transform:none}}
+
+/* ---------- World: the map home ---------- */
+.world{display:flex; flex-direction:column; gap:12px; position:relative}
+.world::before{content:""; position:absolute; inset:-30px -16px auto; height:260px; background:var(--glow); pointer-events:none; z-index:-1}
+.w-regions{display:flex; gap:8px; overflow-x:auto; scrollbar-width:none}
+.w-regions .chip, .w-stops .chip{padding:7px 14px; min-height:34px; white-space:nowrap; flex:none}
+.w-regions .chip[aria-pressed="true"], .w-stops .chip[aria-pressed="true"]{background:var(--accent); color:var(--accent-ink); border-color:var(--accent)}
+.w-stage{display:grid; grid-template-columns:minmax(0,1fr); gap:16px; align-items:start}
+.w-mapbox{position:relative; margin:0 -16px}
+#wMap{display:block; width:100%; height:min(48vh, 520px); touch-action:pan-y}
+#wMap .land{fill:var(--land); stroke:var(--land-line); stroke-width:.7; vector-effect:non-scaling-stroke; stroke-linejoin:round}
+#wMap .lamp{cursor:pointer}
+#wMap .lamp .core{fill:var(--lamp-core); stroke:var(--lamp-ring); stroke-width:1.4; vector-effect:non-scaling-stroke}
+#wMap .lamp.off .core{fill:var(--ink-3); stroke:none; opacity:.45}
+#wMap .lamp text{font-family:var(--ui); font-weight:500; fill:var(--ink-2); paint-order:stroke; stroke:var(--bg); stroke-linejoin:round; text-anchor:middle; pointer-events:none}
+#wMap .lamp.sel .core{stroke:var(--accent); stroke-width:2.4}
+.w-empty{position:absolute; left:24px; right:24px; top:42%; text-align:center; font:italic 400 17px/1.4 var(--display); color:var(--ink-2)}
+.w-dial{display:flex; flex-direction:column; gap:6px}
+.w-dial .top{display:flex; align-items:baseline; justify-content:space-between; gap:12px}
+.w-year{font:600 46px/1 var(--display); font-variant-numeric:tabular-nums lining-nums; color:var(--ink); transition:color .15s}
+.w-year.tick{color:var(--accent)}
+.w-sum{font-size:13px; line-height:1.35; color:var(--ink-2); text-align:right}
+#wDial{-webkit-appearance:none; appearance:none; width:100%; height:44px; margin:0; background:transparent; cursor:pointer}
+#wDial::-webkit-slider-runnable-track{height:4px; border-radius:2px; background:linear-gradient(90deg, var(--rule), var(--accent))}
+#wDial::-moz-range-track{height:4px; border-radius:2px; background:linear-gradient(90deg, var(--rule), var(--accent))}
+#wDial::-webkit-slider-thumb{-webkit-appearance:none; width:30px; height:30px; margin-top:-13px; border-radius:50%; border:0; background:radial-gradient(circle at 35% 30%, #F7E3A6, #C9A04A 55%, #6E5216); box-shadow:0 3px 10px rgba(0,0,0,.35), 0 0 0 4px var(--accent-soft)}
+#wDial::-moz-range-thumb{width:30px; height:30px; border-radius:50%; border:0; background:radial-gradient(circle at 35% 30%, #F7E3A6, #C9A04A 55%, #6E5216); box-shadow:0 3px 10px rgba(0,0,0,.35), 0 0 0 4px var(--accent-soft)}
+.w-scale{display:flex; justify-content:space-between; margin-top:-8px; font:500 11px/1 var(--ui); color:var(--ink-3); font-variant-numeric:tabular-nums}
+.w-stops{display:flex; gap:8px; overflow-x:auto; scrollbar-width:none; padding-top:6px}
+.w-note{margin:2px 0 0; font-size:11.5px; line-height:1.45; color:var(--ink-3)}
+.w-scrim{position:fixed; inset:0; z-index:44; background:rgba(0,0,0,.38); border:0; padding:0; cursor:pointer}
+.w-scrim[hidden]{display:none}
+.w-hall{position:fixed; left:0; right:0; bottom:0; z-index:45; max-height:78vh; overflow-y:auto; overscroll-behavior:contain;
+  background:var(--surface); border-radius:24px 24px 0 0; box-shadow:0 -10px 40px rgba(0,0,0,.35);
+  padding:8px max(20px, env(safe-area-inset-right, 0px)) calc(28px + env(safe-area-inset-bottom, 0px)) max(20px, env(safe-area-inset-left, 0px));
+  display:flex; flex-direction:column; gap:16px; animation:hallUp .42s cubic-bezier(.2,.9,.25,1)}
+.w-hall[hidden]{display:none}
+@keyframes hallUp{from{transform:translateY(40%); opacity:.4} to{transform:none; opacity:1}}
+.w-hall .grab{align-self:center; width:38px; height:5px; border-radius:3px; background:var(--rule)}
+.w-hall .x{position:absolute; top:12px; right:14px; width:36px; height:36px; border-radius:18px; border:0; background:var(--sunk); color:var(--ink-2); cursor:pointer; font-size:18px; line-height:1}
+.w-hall .hh{display:flex; justify-content:space-between; gap:14px; align-items:flex-start; padding-right:44px}
+.w-hall h2{font-size:32px; line-height:1.1}
+.w-hall .blurb{margin:0; color:var(--ink-2)}
+.stamp{flex:none; width:64px; height:64px; border-radius:50%; border:2px dashed var(--accent); color:var(--accent); display:flex; align-items:center; justify-content:center; text-align:center; font:600 9px/1.2 var(--ui); letter-spacing:.08em; text-transform:uppercase; transform:rotate(-8deg); animation:stamp .5s cubic-bezier(.3,1.6,.5,1) .2s both}
+@keyframes stamp{from{transform:scale(1.8) rotate(-20deg); opacity:0} to{transform:rotate(-8deg); opacity:1}}
+.w-hall h3{font:600 12.5px/1.2 var(--ui); letter-spacing:.08em; text-transform:uppercase; color:var(--ink-3)}
+.hall-p{display:flex; align-items:center; gap:12px; padding:11px 14px; background:var(--bg); border:1px solid var(--rule); border-radius:14px; color:var(--ink)}
+.hall-p:hover{text-decoration:none; border-color:var(--accent)}
+.hall-p b{display:block; font-weight:600}
+.hall-p small{display:block; color:var(--ink-2); font-size:12.5px}
+.hall-p .age{margin-left:auto; white-space:nowrap; color:var(--ink-3); font-size:12px}
+.hall-list{display:flex; flex-direction:column; gap:8px}
+.hall-ev{display:flex; gap:14px; align-items:baseline; color:var(--ink)}
+.hall-ev .yr{width:72px; flex:none; color:var(--accent); font-weight:600}
+.hall-art{display:flex; flex-direction:column; gap:14px}
+.hall-art .fig-frame{background:var(--sunk); padding:14px; border-radius:16px; max-height:340px}
+.hall-art .fig-frame img{box-shadow:var(--shadow); outline:1px solid var(--accent-soft); outline-offset:5px}
+.hall-foot{margin:0; font-size:12px; color:var(--ink-3)}
+@media (prefers-reduced-motion:reduce){.w-hall,.stamp{animation:none}}
+/* iPad, and the Duo opened flat: the map and the Hall side by side */
+@media (min-width:900px){
+  .w-stage.has-hall{grid-template-columns:minmax(0,1.5fr) minmax(320px,1fr)}
+  .w-mapbox{margin:0}
+  #wMap{height:min(62vh, 640px)}
+  .w-hall{position:sticky; top:calc(16px + env(safe-area-inset-top, 0px)); left:auto; right:auto; bottom:auto; z-index:1; max-height:calc(100vh - 140px); border-radius:20px; border:1px solid var(--rule); box-shadow:var(--shadow); padding:8px 20px 24px; animation:none}
+  .w-scrim{display:none}
+}
+
+/* ---------- Library ---------- */
+.lib{display:grid; grid-template-columns:repeat(auto-fill, minmax(240px, 1fr)); gap:12px}
+.lib-card{display:flex; flex-direction:column; gap:6px; padding:18px; background:var(--surface); border:1px solid var(--rule); border-radius:16px; color:var(--ink); box-shadow:var(--shadow)}
+.lib-card:hover{text-decoration:none; border-color:var(--accent)}
+.lib-card b{font:600 20px/1.2 var(--display)}
+.lib-card span{color:var(--ink-2); font-size:14px}
+.fake-search{display:flex; align-items:center; gap:10px; width:100%; padding:11px 14px; border:1px solid var(--rule); border-radius:12px; background:var(--surface); color:var(--ink-3); cursor:pointer; text-align:left}
+.legend{font-size:13px; color:var(--ink-2); max-width:70ch; margin:0}
 </style>
 <script>/* light or dark follows the phone's own setting */
 (function(){var m=window.matchMedia&&matchMedia("(prefers-color-scheme: dark)");document.documentElement.setAttribute("data-theme",m&&!m.matches?"light":"dark")})();</script>
 
 <div class="wrap">
-  <header class="mast">
-    <a class="brand" href="#timeline"><b>Contemporaries<em>.</em></b><span>who shared the world</span></a>
+  <div class="search-sheet" id="searchSheet" hidden>
     <div class="search" role="search">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
       <input id="q" type="search" placeholder="Search people, events, places" autocomplete="off" aria-label="Search">
       <div class="results" id="results" hidden></div>
     </div>
-  </header>
-  <nav class="tabs" id="tabs">
-    <a href="#timeline" data-tab="timeline">Timeline</a>
-    <a href="#tm" data-tab="tm">Time Machine</a>
-    <a href="#walk" data-tab="walk">Walk in</a>
-    <a href="#people" data-tab="people">People</a>
-    <a href="#events" data-tab="events">Events</a>
-    <a href="#art" data-tab="art">Art &amp; Music</a>
-    <a href="#places" data-tab="places">Places</a>
-    <a href="#play" data-tab="play">Play</a>
-    <a href="#talk" data-tab="talk">Talk</a>
-  </nav>
+    <button class="ss-close" id="ssClose" type="button">Cancel</button>
+  </div>
+  <div class="seg-row" id="seg" hidden></div>
   <main id="view"></main>
-  <footer>Every entry carries a label: <b>Verified</b> (well documented), <b>Likely</b> (good evidence, some uncertainty), <b>Disputed</b> (historians disagree) or <b>Myth / legend</b>. Ages are worked out from birth years, so they can be off by one, and dates marked "c." are approximate. Connections are documented meetings, letters, teaching and rivalries, not guesses. Generations count 25 years each.</footer>
+  <nav class="tabbar" id="tabs" aria-label="Sections">
+    <a href="#world" data-tab="world"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.6 2.4 3.8 5.2 3.8 8.5s-1.2 6.1-3.8 8.5M12 3.5C9.4 5.9 8.2 8.7 8.2 12s1.2 6.1 3.8 8.5"/></svg><span>World</span></a>
+    <a href="#timeline" data-tab="timeline"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12h18"/><circle cx="7" cy="12" r="2"/><circle cx="15" cy="12" r="2"/><path d="M7 7V5M15 19v-2M11 6H7M19 18h-4"/></svg><span>Timeline</span></a>
+    <a href="#art" data-tab="gallery"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="4.5" width="17" height="15" rx="1"/><rect x="6.5" y="7.5" width="11" height="9"/><path d="M7 16l3.5-4 2.5 2.5 1.5-1.5 2.5 3"/></svg><span>Gallery</span></a>
+    <a href="#play" data-tab="play"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.2 5.6 5.8.4-4.5 3.7 1.5 5.8L12 15.3 7 18.5l1.5-5.8L4 9l5.8-.4z"/></svg><span>Play</span></a>
+    <a href="#library" data-tab="library"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h3v16H5zM10 4h3v16h-3z"/><path d="M15 5.2l2.9-.8 3.6 15-2.9.8z"/></svg><span>Library</span></a>
+  </nav>
 </div>
 
 <script>/*__DATA__*/</script>
@@ -549,6 +653,7 @@ details.why p{margin:6px 0 0; padding-left:12px; border-left:2px solid var(--rul
 <script>/*__DEEP__*/</script>
 <script>/*__CHAPTERS__*/</script>
 <script>/*__IMAGES__*/</script>
+<script>/*__GEO__*/</script>
 <script>
 (function(){
 "use strict";
@@ -2023,22 +2128,194 @@ function walkYearFor(p){
   return w && isAlive(p, w.y) ? w.y : unastro(astro(p.b) + Math.min(35, Math.max(1, lived(p) - 1)));
 }
 
+
+/* ---------- World: the map home ---------- */
+/* The phone buzzes softly (iPhone only) through the app's "haptic" bridge. Ignored on the web. */
+const haptic = k => { try { window.webkit.messageHandlers.haptic.postMessage(k); } catch(e){} };
+const GEO = H.geo || {w:1000, h:520, land:"", pts:{}};
+const W_REG = {world:[0, 20, 1000, 490], europe:[452, 84, 160, 132], asia:[585, 70, 305, 245], americas:[150, 85, 170, 170], africa:[455, 150, 210, 160]};
+const W_REG_N = [["world","World"],["europe","Europe"],["asia","Asia"],["africa","Mediterranean"],["americas","Americas"]];
+/* The dial is not linear: the crowded centuries get more room. */
+const W_KT = [0, .2, .4, .66, 1], W_KY = [-600, 1, 1000, 1700, NOW];
+const wToYear = v => { const t = v / 1000; for (let i = 1; i < W_KT.length; i++) if (t <= W_KT[i]) { const y = Math.round(W_KY[i-1] + (t - W_KT[i-1]) / (W_KT[i] - W_KT[i-1]) * (W_KY[i] - W_KY[i-1])); return y === 0 ? 1 : y; } return NOW; };
+const wToDial = y => { for (let i = 1; i < W_KY.length; i++) if (y <= W_KY[i]) return Math.round(1000 * (W_KT[i-1] + (y - W_KY[i-1]) / (W_KY[i] - W_KY[i-1]) * (W_KT[i] - W_KT[i-1]))); return 1000; };
+/* Paintings that hang in a Hall for the years around when they were made, in that place. */
+const HALL_ART = {italy:[[1495,1520,"mona-lisa"],[1505,1520,"school-athens"]], france:[[1885,1890,"starry-night"],[1885,1890,"cafe-terrace"],[1886,1892,"eiffel-1888"],[1798,1815,"napoleon-study"]],
+  japan:[[1820,1849,"great-wave"]], china:[[1100,1130,"qingming"]], uk:[[1590,1616,"shakespeare"]], austria:[[1815,1827,"beethoven-stieler"]], usa:[[1860,1913,"tubman"]]};
+let wYear = (() => { const v = parseInt(store.get("ctm-wyear"), 10); return v >= -600 && v <= NOW ? v : 1889; })();
+let wRegion = store.get("ctm-wreg") || "world"; if (!W_REG[wRegion]) wRegion = "world";
+let wHallId = null, wVB = W_REG[wRegion].slice(), wAnim = 0;
+const wStamps = (() => { try { return new Set(JSON.parse(store.get("ctm-stamps") || "[]")); } catch(e) { return new Set(); } })();
+const wYL = y => y < 0 ? (-y) + " BC" : String(y);
+const wAlive = y => H.people.filter(p => isAlive(p, y));
+function viewWorld(){
+  const you = youYear ? [[youYear, "Your birth year", "world"]] : [];
+  const stops = [[-44, "Rome, 44 BC", "europe"], [1505, "Florence, 1505", "europe"], [1600, "London, 1600", "europe"], [1889, "Paris, 1889", "europe"], [1969, "The Moon, 1969", "world"]].concat(you);
+  view.innerHTML = `
+  <section class="world">
+    <div class="big-title"><div><span class="eyebrow" style="color:var(--accent)">Contemporaries</span><h1>World</h1></div>
+      <button class="icon-btn" data-search aria-label="Search the museum"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg></button></div>
+    <div class="w-regions" role="group" aria-label="Zoom to">${W_REG_N.map(([k, n]) => `<button class="chip" data-wreg="${k}" aria-pressed="${k === wRegion}">${n}</button>`).join("")}</div>
+    <div class="w-stage" id="wStage">
+      <div class="w-mapbox">
+        <svg id="wMap" viewBox="${wVB.join(" ")}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="World map">
+          <defs><radialGradient id="wHalo"><stop offset="0" stop-color="var(--lamp)" stop-opacity=".75"/><stop offset=".45" stop-color="var(--lamp)" stop-opacity=".28"/><stop offset="1" stop-color="var(--lamp)" stop-opacity="0"/></radialGradient></defs>
+          <path class="land" d="${GEO.land}"/>
+          <g id="wLamps">${Object.keys(GEO.pts).filter(id => C[id]).map(id => { const [x, y] = GEO.pts[id]; return `<g class="lamp" data-lamp="${id}" role="button" tabindex="0" aria-label="${esc(C[id].n)}"><circle class="hit" cx="${x}" cy="${y}" fill="transparent"/><circle class="halo" cx="${x}" cy="${y}" fill="url(#wHalo)"/><circle class="core" cx="${x}" cy="${y}"/><text x="${x}" y="${y}">${esc(C[id].n)}</text></g>`; }).join("")}</g>
+        </svg>
+        <div class="w-empty" id="wEmpty" hidden></div>
+      </div>
+      <button class="w-scrim" id="wScrim" data-wclose aria-label="Close the hall" hidden></button>
+      <aside class="w-hall" id="wHall" aria-label="Hall" hidden></aside>
+    </div>
+    <div class="w-dial">
+      <div class="top"><div class="w-year" id="wYear" aria-live="polite"></div><div class="w-sum" id="wSum"></div></div>
+      <input id="wDial" type="range" min="0" max="1000" step="1" value="${wToDial(wYear)}" aria-label="Year dial">
+      <div class="w-scale" aria-hidden="true"><span>600 BC</span><span>AD 1</span><span>1000</span><span>1700</span><span>Today</span></div>
+      <div class="w-stops">${stops.map(([y, n, r]) => `<button class="chip" data-wq="${y}" data-wr="${r}">${esc(n)}</button>`).join("")}</div>
+      <p class="w-note">Lights show people in this museum who are linked to each place and alive in that year, not everyone who lived there. Coastlines are today's.</p>
+    </div>
+  </section>`;
+  drawWorld();
+  if (wHallId) openHall(wHallId, true);
+}
+/* how many map units one screen pixel is, so lights keep the same size when zooming */
+function wUnit(){ const m = document.getElementById("wMap"); if (!m) return 1; const r = m.getBoundingClientRect(); return Math.max(wVB[2] / (r.width || 390), wVB[3] / (r.height || 400)); }
+function sizeLamps(){
+  const u = wUnit(), zoomed = wRegion !== "world";
+  document.querySelectorAll("#wLamps .lamp").forEach(g => {
+    const n = +g.dataset.n || 0, q = Math.sqrt(n);
+    g.querySelector(".hit").setAttribute("r", 22 * u);
+    g.querySelector(".halo").setAttribute("r", n ? (9 + 8 * q) * u : 0);
+    g.querySelector(".core").setAttribute("r", (n ? 2.6 + 1.1 * q : 2) * u);
+    const t = g.querySelector("text"); t.style.display = zoomed && n ? "" : "none";
+    t.setAttribute("font-size", 11 * u); t.setAttribute("stroke-width", 3 * u); t.setAttribute("dy", -(n ? 6 + 5.5 * q : 6) * u);
+  });
+}
+function drawWorld(){
+  const ye = document.getElementById("wYear"); if (!ye) return;
+  const alive = wAlive(wYear);
+  let lit = 0;
+  document.querySelectorAll("#wLamps .lamp").forEach(g => {
+    const id = g.dataset.lamp, n = alive.filter(p => (p.c || []).includes(id)).length;
+    if (n) lit++;
+    g.dataset.n = n; g.classList.toggle("off", !n); g.classList.toggle("sel", id === wHallId);
+    g.setAttribute("aria-label", `${C[id].n}: ${plural(n, "person")} in ${wYL(wYear)}`);
+  });
+  sizeLamps();
+  ye.textContent = wYL(wYear);
+  document.getElementById("wSum").innerHTML = alive.length ? `${plural(alive.length, "person")} alive<br>${plural(lit, "hall")} lit` : "";
+  const em = document.getElementById("wEmpty"); em.hidden = alive.length > 0; em.textContent = `No one in this museum yet for ${wYL(wYear)}.`;
+  document.getElementById("wDial").setAttribute("aria-valuetext", wYL(wYear));
+  document.querySelectorAll("[data-wq]").forEach(b => b.setAttribute("aria-pressed", +b.dataset.wq === wYear));
+  if (wHallId && !document.getElementById("wHall").hidden) openHall(wHallId, true);
+}
+function zoomWorld(k){
+  if (!W_REG[k]) return;
+  wRegion = k; store.set("ctm-wreg", k);
+  document.querySelectorAll("[data-wreg]").forEach(b => b.setAttribute("aria-pressed", b.dataset.wreg === k));
+  const from = wVB.slice(), to = W_REG[k], m = document.getElementById("wMap"), t0 = performance.now();
+  const dur = matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 650;
+  cancelAnimationFrame(wAnim);
+  const step = now => {
+    const t = dur ? Math.min(1, (now - t0) / dur) : 1, e = 1 - Math.pow(1 - t, 3);
+    wVB = from.map((v, i) => v + (to[i] - v) * e);
+    m.setAttribute("viewBox", wVB.join(" ")); sizeLamps();
+    if (t < 1) wAnim = requestAnimationFrame(step);
+  };
+  wAnim = requestAnimationFrame(step);
+}
+function setWorldYear(y, fromDial){
+  y = Math.max(-600, Math.min(NOW, y)); if (y === 0) y = 1;
+  const before = wYear; wYear = y; store.set("ctm-wyear", y);
+  if (Math.floor(astro(before) / 100) !== Math.floor(astro(y) / 100)) {
+    haptic("tick");
+    const ye = document.getElementById("wYear"); if (ye) { ye.classList.add("tick"); setTimeout(() => ye.classList.remove("tick"), 120); }
+  }
+  if (!fromDial) { const d = document.getElementById("wDial"); if (d) d.value = wToDial(y); }
+  drawWorld();
+}
+function openHall(id, quiet){
+  const c = C[id], box = document.getElementById("wHall"); if (!c || !box) return;
+  const first = !wStamps.has(id);
+  wHallId = id; wStamps.add(id); store.set("ctm-stamps", JSON.stringify([...wStamps]));
+  const ps = wAlive(wYear).filter(p => (p.c || []).includes(id)).sort((a, b) => astro(a.b) - astro(b.b));
+  const es = H.events.filter(e => e.c === id && Math.abs(astro(e.y) - astro(wYear)) <= 60).sort((a, b) => astro(a.y) - astro(b.y));
+  const art = (HALL_ART[id] || []).filter(([a, b, sl]) => wYear >= a && wYear <= b && IMG[sl]).map(x => x[2]).slice(0, 2);
+  box.innerHTML = `<div class="grab" aria-hidden="true"></div><button class="x" data-wclose aria-label="Close">×</button>
+    <div class="hh"><div><span class="eyebrow" style="color:var(--accent)">Hall · ${wYL(wYear)}</span><h2>${esc(c.n)}</h2></div>
+      <div class="stamp" aria-label="Passport stamp">Stamped<br>${wStamps.size} / ${Object.keys(GEO.pts).filter(k => C[k]).length}</div></div>
+    <p class="blurb">${esc(c.blurb)}</p>
+    ${art.length ? `<div class="hall-art">${art.map(sl => imgFig(sl, "", true)).join("")}</div>` : ""}
+    <h3>Alive here in ${wYL(wYear)} · ${ps.length}</h3>
+    ${ps.length ? `<div class="hall-list">${ps.map(p => `<a class="hall-p" href="#p-${p.id}"><span class="dot" style="${fc(p.f)}"></span><span><b>${esc(p.n)}</b><small>${esc(F[p.f] ? F[p.f].label : "")} · ${esc(span(p))}</small></span><span class="age">age ${p.a ? "c. " : ""}${ageAt(p, wYear)}</span></a>`).join("")}</div>`
+      : `<p class="muted" style="margin:0;font:italic 400 16px/1.4 var(--display)">No one in this museum was alive here in ${wYL(wYear)}. Turn the dial to find them.</p>`}
+    ${es.length ? `<h3>Around this time</h3><div class="hall-list">${es.map(e => `<a class="hall-ev" href="#e-${e.id}"><span class="yr">${fy(e.y, e.a)}</span><span>${esc(e.n)}</span></a>`).join("")}</div>` : ""}
+    <a class="btn ghost" href="#c-${id}">Everything about ${esc(c.n)}</a>
+    <p class="hall-foot">These are the people in this museum linked to ${esc(c.n)}, not everyone who lived there. Dates marked "c." are approximate.</p>`;
+  box.hidden = false;
+  document.getElementById("wScrim").hidden = false;
+  document.getElementById("wStage").classList.add("has-hall");
+  document.querySelectorAll("#wLamps .lamp").forEach(g => g.classList.toggle("sel", g.dataset.lamp === id));
+  if (!quiet) { haptic(first ? "success" : "open"); box.scrollTop = 0; }
+  sizeLamps();
+}
+function closeHall(){
+  wHallId = null;
+  const box = document.getElementById("wHall"); if (box) box.hidden = true;
+  const sc = document.getElementById("wScrim"); if (sc) sc.hidden = true;
+  const st = document.getElementById("wStage"); if (st) st.classList.remove("has-hall");
+  document.querySelectorAll("#wLamps .lamp.sel").forEach(g => g.classList.remove("sel"));
+  sizeLamps();
+}
+
+/* ---------- Library ---------- */
+function viewLibrary(){
+  const chs = Object.keys(CH).filter(id => P.get(id));
+  view.innerHTML = `
+  <section>
+    <div class="big-title"><h1>Library</h1></div>
+    <button class="fake-search" data-search type="button"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>Search people, events, places</button>
+  </section>
+  <section><div class="lib">
+    <a class="lib-card" href="#people"><b>People</b><span>${plural(H.people.length, "person")}, from Confucius to today</span></a>
+    <a class="lib-card" href="#events"><b>Events</b><span>${plural(H.events.length, "event")} on one timeline</span></a>
+    <a class="lib-card" href="#places"><b>Places</b><span>${plural(Object.keys(C).length, "hall")} around the world</span></a>
+  </div></section>
+  <section><div class="sec-head"><h2>Long stories</h2><p>Full chapters, with every claim labelled</p></div><div class="lib">
+    ${chs.map(id => `<a class="lib-card" href="#p-${id}"><b>${esc(P.get(id).n)}</b><span>${esc(CH[id].lede || "")}</span></a>`).join("")}
+  </div></section>
+  <section><div class="sec-head"><h2>How labels work</h2></div><p class="legend">Every entry carries a label: <b>Verified</b> (well documented), <b>Likely</b> (good evidence, some uncertainty), <b>Disputed</b> (historians disagree) or <b>Myth / legend</b>. Ages are worked out from birth years, so they can be off by one, and dates marked "c." are approximate. Connections are documented meetings, letters, teaching and rivalries, not guesses. Generations count 25 years each.</p></section>`;
+}
+
+/* ---------- tabs and the small switch at the top of a tab ---------- */
+const SEGS = {timeline:[["timeline","Timeline"],["tm","Time Machine"]], gallery:[["art","Art & Music"],["walk","Walk in"]],
+  play:[["play","Games"],["talk","Talk"]], library:[["library","Library"],["people","People"],["events","Events"],["places","Places"]]};
+function drawSeg(tab, h){
+  const el = document.getElementById("seg"), g = SEGS[tab];
+  const top = g && g.find(([k]) => h === k || (k === "tm" && h.startsWith("tm-")) || (k === "walk" && h.startsWith("walk-")) || (k === "play" && PLAY_VIEWS[h]));
+  el.hidden = !top;
+  el.innerHTML = top ? `<nav class="seg" aria-label="Views">${g.map(([k, n]) => `<a href="#${k}" class="${k === top[0] ? "on" : ""}">${esc(n)}</a>`).join("")}</nav>` : "";
+}
+/* search opens as a sheet from the top */
+function openSearch(){ const sh = document.getElementById("searchSheet"); sh.hidden = false; const qi = document.getElementById("q"); qi.focus(); }
+function closeSearch(){ const sh = document.getElementById("searchSheet"); if (sh.hidden) return; sh.hidden = true; const qi = document.getElementById("q"); qi.value = ""; qi.blur(); document.getElementById("results").hidden = true; }
+document.getElementById("ssClose").addEventListener("click", closeSearch);
+document.addEventListener("keydown", e => { if (e.key === "Escape") { closeSearch(); if (wHallId) closeHall(); } });
+
 /* ---------- router ---------- */
 const PLAY_VIEWS = {degrees:viewDegrees, race:viewRace, cards:viewCards, you:viewYou, whatif:viewWhatIf};
 function route(){
-  let h = decodeURIComponent(location.hash.slice(1)) || "timeline", sec = null;
+  let h = decodeURIComponent(location.hash.slice(1)) || "world", sec = null;
   const at = h.indexOf("@"); if (at > -1) { sec = h.slice(at + 1); h = h.slice(0, at); }
-  stopMusic(); clearInterval(raceTimer);
-  let tab = "timeline";
-  if (h === "tm" || h.startsWith("tm-")) tab = "tm";
-  else if (h === "walk" || h.startsWith("walk-")) tab = "walk";
-  else if (h === "people" || h.startsWith("p-")) tab = "people";
-  else if (h === "events" || h.startsWith("e-")) tab = "events";
-  else if (h === "art") tab = "art";
-  else if (h === "places" || h.startsWith("c-")) tab = "places";
-  else if (h === "play" || PLAY_VIEWS[h]) tab = "play";
-  else if (h === "talk" || h.startsWith("talk-")) tab = "talk";
-  document.querySelectorAll("#tabs a").forEach(a => a.classList.toggle("on", a.dataset.tab === tab));
+  stopMusic(); clearInterval(raceTimer); closeSearch();
+  let tab = "world";
+  if (h === "timeline" || h === "tm" || h.startsWith("tm-")) tab = "timeline";
+  else if (h === "art" || h === "walk" || h.startsWith("walk-")) tab = "gallery";
+  else if (h === "play" || PLAY_VIEWS[h] || h === "talk" || h.startsWith("talk-")) tab = "play";
+  else if (["library", "people", "events", "places"].includes(h) || /^[pec]-/.test(h)) tab = "library";
+  document.querySelectorAll("#tabs a").forEach(a => { a.classList.toggle("on", a.dataset.tab === tab); a.toggleAttribute("aria-current", a.dataset.tab === tab); });
+  drawSeg(tab, h);
   if (h.startsWith("p-")) viewPerson(h.slice(2));
   else if (h.startsWith("e-")) viewEvent(h.slice(2));
   else if (h.startsWith("c-")) viewCountry(h.slice(2));
@@ -2054,7 +2331,9 @@ function route(){
   else if (h === "art") viewArt();
   else if (h === "play") viewPlay();
   else if (PLAY_VIEWS[h]) PLAY_VIEWS[h]();
-  else viewTimeline();
+  else if (h === "timeline") viewTimeline();
+  else if (h === "library") viewLibrary();
+  else viewWorld();
   window.scrollTo(0, 0);
   if (sec) scrollToSec(sec);
 }
@@ -2066,6 +2345,11 @@ view.addEventListener("error", e => { const f = e.target && e.target.tagName ===
 /* upgrade interactions (delegated) */
 view.addEventListener("click", ev => {
   const t = ev.target;
+  if (t.closest("[data-search]")) { openSearch(); return; }
+  const wl = t.closest("[data-lamp]"); if (wl) { openHall(wl.dataset.lamp); return; }
+  if (t.closest("[data-wclose]")) { closeHall(); return; }
+  const wr = t.closest("[data-wreg]"); if (wr) { zoomWorld(wr.dataset.wreg); haptic("select"); return; }
+  const wq = t.closest("[data-wq]"); if (wq) { setWorldYear(parseInt(wq.dataset.wq, 10)); if (wq.dataset.wr !== wRegion) zoomWorld(wq.dataset.wr); haptic("select"); return; }
   const pb = t.closest("[data-play]"); if (pb) { playMusic(pb.dataset.play); return; }
   const cs = t.closest(".ch-chips [data-sec]"); if (cs) { ev.preventDefault(); history.replaceState(null, "", cs.getAttribute("href")); scrollToSec(cs.dataset.sec); return; }
   const tm = t.closest("[data-tmm]"); if (tm) { tellMore(tm.dataset.tmm); return; }
@@ -2096,6 +2380,8 @@ view.addEventListener("click", ev => {
   const wp = t.closest("[data-wp]"); if (wp && !wkDragged) { selectWalk(wp.dataset.wp); return; }
   const ask = t.closest("[data-ask]"); if (ask) { sendTalk(location.hash.slice(6), ask.dataset.ask); return; }
 });
+view.addEventListener("input", ev => { if (ev.target.id === "wDial") setWorldYear(wToYear(+ev.target.value), true); });
+view.addEventListener("keydown", ev => { const l = ev.target.closest && ev.target.closest("[data-lamp]"); if (l && (ev.key === "Enter" || ev.key === " ")) { ev.preventDefault(); openHall(l.dataset.lamp); } });
 view.addEventListener("change", ev => {
   const t = ev.target;
   if (t.id === "mythT") { showMyths = t.checked; store.set("ctm-myths", showMyths ? "1" : "0"); viewEvents(); return; }
@@ -2230,7 +2516,9 @@ res.addEventListener("click", e => { if (e.target.closest("a")) { q.value = ""; 
 document.addEventListener("click", e => { if (!e.target.closest(".search")) res.hidden = true; });
 
 route();
-if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { const h = location.hash; if (!h || h === "#timeline") mainTL && mainTL.render(true); });
-let rz; window.addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(() => { if (mainTL && document.getElementById("tl-main")) mainTL.render(true); }, 200); });
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { const h = location.hash; if (h === "#timeline") mainTL && mainTL.render(true); sizeLamps(); });
+let rz; window.addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(() => { if (mainTL && document.getElementById("tl-main")) mainTL.render(true); sizeLamps(); }, 200); });
+/* tell the app the page is ready, so the opening animation can hand over to it */
+requestAnimationFrame(() => { try { window.webkit.messageHandlers.ready.postMessage("1"); } catch(e){} });
 })();
 </script>

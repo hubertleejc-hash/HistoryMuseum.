@@ -39,6 +39,7 @@ Each change also runs the app in Apple's simulators and takes screenshots:
 | `app/img/` | 20 public-domain pictures; `manifest.json` has each one's title, artist, date, collection and licence. |
 | `app/fonts/` | Fraunces, Inter and IBM Plex Mono (SIL Open Font License), so the app needs no internet. |
 | `app/build.py` | Builds `app/index.html` (web page) and `ios/HistoryMuseum/Web/index.html` (app page, pictures and fonts built in). |
+| `app/geo.js` | World coastlines and a map point for each Hall (Natural Earth, public domain). Remake with `tools/make-geo.mjs`. |
 | `ios/HistoryMuseum/` | The iPhone/iPad app: SwiftUI with a web view that shows the museum page. |
 | `project.yml` | XcodeGen spec for the Xcode project. |
 | `.github/workflows/build-ipa.yml` | Builds the unsigned `Contemporaries.ipa` and attaches it to the latest release. |

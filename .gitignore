@@ -9,3 +9,4 @@ ci-output/
 xcuserdata/
 *.ipa
 __pycache__/
+ios/Info.plist
