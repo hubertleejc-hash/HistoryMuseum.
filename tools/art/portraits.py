@@ -137,10 +137,15 @@ def main():
         title = (pick or {}).get("title") or plain(md.get("ObjectName", {}).get("value")) or re.sub(r"\.\w+$", "", fname).replace("_", " ")
         man[p["id"]] = {"title": title, "artist": plain(md.get("Artist", {}).get("value"), 120) or "Unknown",
                         "date": date or "Date unknown", "licence": lic_name or "Public domain", "page": ii.get("descriptionurl", ""),
-                        "file": fname, "w": im.size[0], "h": im.size[1], **({"note": note} if note else {})}
+                        "file": fname, **({"hand": 1} if pick and pick.get("title") else {}), "w": im.size[0], "h": im.size[1], **({"note": note} if note else {})}
         found += 1
         print("  portrait:", p["n"], "|", title[:60], "|", lic_name, flush=True)
         time.sleep(0.3)
+    sys.path.insert(0, str(Path(__file__).parent))
+    from clean_titles import tidy
+    for pid, v in man.items():
+        nm = next((re.sub(r"\s*\(.*\)", "", q["n"]) for q in people() if q["id"] == pid), pid)
+        if not v.get("hand"): v["title"] = tidy(v["title"], nm)
     MAN.write_text(json.dumps(dict(sorted(man.items())), ensure_ascii=False, indent=1) + "\n")
     print(f"Portraits: {len(man)} in all, {found} new, {missed} people without a public-domain portrait")
 
