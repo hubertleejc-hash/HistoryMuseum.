@@ -38,7 +38,7 @@ ALLOW = set(OVERRIDES.get("allow", []))
 NEVER = re.compile(r"mu[hḥ]amm[ae]d|moh?amm[ae]d|mahomet|\bmi['`ʿ’]?r[aā]j\b|\bburaq\b|ascension of the prophet|night journey|siyer|qisas|anbiya|"
                    r"dante|inferno|divine comedy|divina commedia", re.I)
 # Not for a classy all-ages museum: erotica and racist caricature.
-UNFIT = re.compile(r"shunga|erotic|pillow (book|picture)|makura-?e|spring pictures|caricature|minstrel|blackface|pickaninny|sambo|\bcoons?\b|darkie|golliwog|mammy|lynch", re.I)
+UNFIT = re.compile(r"shunga(?!\s*(?:period|dynasty|empire|p\b))|erotic|pillow (book|picture)|makura-?e|spring pictures|caricature|minstrel|blackface|pickaninny|sambo|\bcoons?\b|darkie|golliwog|mammy|lynch", re.I)
 # In Islamic-world works, a bare "the Prophet" also means him.
 ISLAMIC_HINT = re.compile(r"islam|persia|iran|ottoman|turk|arab|mughal|safavid|timurid|ilkhanid|mamluk|qur|koran|deccan|afghan|uzbek|central asia", re.I)
 PROPHET = re.compile(r"\bprophet\b|\bpbuh\b|rasul|nabi\b", re.I)
@@ -49,6 +49,18 @@ def sensitive(texts, islamic):
     if islamic and PROPHET.search(t): return "Islamic-world work mentioning a prophet"
     if UNFIT.search(t): return "unfit"
     return None
+
+# Islamic-culture pictures made outside the "Islamic world" region (Mughal India, Deccan...): court portraits,
+# hunts and epics are fine, but illustrated histories and stories of prophets, angels and miracles are held back.
+RISKY_SUBJECT = re.compile(r"tarikh|tawarikh|history of the|qisas|anbiya|siyar|siyer|rauzat|habib al-siyar|majalis|prophet|angel|gabriel|jibra|miracle|veiled|ascension|paradise|heaven", re.I)
+def islamic_risky(rec):
+    if rec["id"] in ALLOW or rec["r"] == "islamic" or rec["k"] not in ("painting", "drawing", "print", "book"): return False
+    return bool(ISLAMIC_HINT.search(rec.get("c", "") + " " + rec.get("dept", ""))) and bool(RISKY_SUBJECT.search(rec["t"] + " " + rec.get("x", "") + " " + rec.get("fy", "")))
+
+def still_ok(rec):
+    """Re-screen a stored record with today's rules (rules get stricter over time)."""
+    isl = bool(ISLAMIC_HINT.search(rec.get("c", "") + " " + rec.get("dept", "")))
+    return not (sensitive([rec["t"], rec.get("x"), rec.get("fy"), rec.get("c")], isl) or figural_islamic(rec) or islamic_risky(rec))
 
 def figural_islamic(rec):
     """Figural paintings, drawings and book pages from the Islamic world are only shown when hand-approved."""
@@ -157,7 +169,7 @@ def from_cma(r):
     why = sensitive([r.get("title"), " ".join(r.get("alternate_titles") or []), r.get("description"), r.get("wall_description"),
                      r.get("did_you_know"), r.get("collection")], bool(ISLAMIC_HINT.search(culture + " " + (r.get("department") or ""))))
     if why: return None, why
-    if figural_islamic(rec): return None, "Islamic-world figural work, needs hand approval"
+    if figural_islamic(rec) or islamic_risky(rec): return None, "Islamic-world figural work, needs hand approval"
     return rec, None
 
 # ---------- The Met ----------
@@ -206,7 +218,7 @@ def from_met(r):
         "u": r.get("objectURL") or "", "w": 0, "h": 0, "img": big, "th": big.replace("/web-large/", "/mobile-large/"),
         "hi": 1 if r.get("isHighlight") else 0, "on": r.get("objectName") or "", "dept": dept,
     }
-    if figural_islamic(rec): return None, "Islamic-world figural work, needs hand approval"
+    if figural_islamic(rec) or islamic_risky(rec): return None, "Islamic-world figural work, needs hand approval"
     return rec, None
 
 # ---------- pictures ----------
@@ -288,13 +300,20 @@ def main():
     ap.add_argument("--online", type=int, default=6000)
     ap.add_argument("--met", type=int, default=2000)
     ap.add_argument("--met-per-dept", type=int, default=400)
+    ap.add_argument("--recheck-only", action="store_true", help="only re-screen the works already gathered")
     ap.add_argument("--seed", type=int, default=int(time.time()) // 86400)
     a = ap.parse_args()
     random.seed(a.seed)
     ART.mkdir(parents=True, exist_ok=True)
     cat_path = ART / "catalog.json"
     cat = json.loads(cat_path.read_text()) if cat_path.exists() else []
-    cat = [r for r in cat if r["id"] not in DENY]
+    dropped = [r for r in cat if r["id"] in DENY or not still_ok(r)]
+    cat = [r for r in cat if r["id"] not in DENY and still_ok(r)]
+    for r in dropped:
+        for sub in ("t", "f", "m"): (ART / sub / (r["id"] + ".jpg")).unlink(missing_ok=True)
+    if dropped: print(f"Removed {len(dropped)} works that today's screens hold back")
+    if a.recheck_only:
+        cat_path.write_text("[\n" + ",\n".join(json.dumps(r, ensure_ascii=False, separators=(",", ":")) for r in cat) + "\n]\n"); return
     have = {r["id"] for r in cat}
     keys = {norm_key(r) for r in cat}
     rejected = []
