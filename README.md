@@ -37,6 +37,8 @@ Each change also runs the app in Apple's simulators and takes screenshots:
 | `app/app.src.html` | The whole museum: HTML, CSS and JavaScript. |
 | `app/data.js`, `content.js`, `deep.js`, `chapters.js` | People, events, works, myths, stories and the long chapters. |
 | `app/img/` | 20 public-domain pictures; `manifest.json` has each one's title, artist, date, collection and licence. |
+| `app/art/` | The Gallery's collection: `catalog.json` (every work with its museum, credit and licence), `t/` and `f/` (thumbnail and full picture of works inside the app), `m/` (small tiles of the Online wing, whose large picture loads from the museum). Gathered by `tools/art/gather.py`. |
+| `tools/art/` | The art gatherer. Run **Actions > Gather art > Run workflow** to add more works: it only adds, never removes. `overrides.json` hides a work by id (`deny`). |
 | `app/fonts/` | Fraunces, Inter and IBM Plex Mono (SIL Open Font License), so the app needs no internet. |
 | `app/build.py` | Builds `app/index.html` (web page) and `ios/HistoryMuseum/Web/index.html` (app page, pictures and fonts built in). |
 | `app/geo.js` | World coastlines and a map point for each Hall (Natural Earth, public domain). Remake with `tools/make-geo.mjs`. |
