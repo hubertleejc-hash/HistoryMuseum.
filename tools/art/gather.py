@@ -45,14 +45,17 @@ PROPHET = re.compile(r"\bprophet\b|\bpbuh\b|rasul|nabi\b", re.I)
 
 def sensitive(texts, islamic):
     t = " \n ".join(x for x in texts if x)
-    if NEVER.search(t): return "mentions the Prophet Muhammad"
+    if NEVER.search(t): return "prophet rule (may show the Prophet Muhammad)"
     if islamic and PROPHET.search(t): return "Islamic-world work mentioning a prophet"
     if UNFIT.search(t): return "unfit"
     return None
 
 def figural_islamic(rec):
     """Figural paintings, drawings and book pages from the Islamic world are only shown when hand-approved."""
-    return rec["r"] == "islamic" and rec["k"] in ("painting", "drawing", "book", "print") and rec["id"] not in ALLOW
+    if rec["r"] != "islamic" or rec["id"] in ALLOW: return False
+    if rec["k"] in ("painting", "drawing", "print"): return True
+    # book pages: Qur'an folios and calligraphy are writing, not pictures; other pages may be illustrated
+    return rec["k"] == "book" and not re.search(r"qur'?an|koran|calligraph|text page|folio from a qur", rec["t"], re.I)
 
 # ---------- helpers ----------
 def get(url, tries=4, raw=False):
@@ -301,7 +304,7 @@ def main():
         for raw in raw_list:
             rec, why = conv(raw)
             if not rec:
-                if why and ("rophet" in why or why == "unfit"): rejected.append(f"{why}: {raw.get('id') or raw.get('objectID')} {raw.get('title')}")
+                if why and ("prophet rule" in why or "mentioning" in why or why == "unfit"): rejected.append(f"{why}: {raw.get('id') or raw.get('objectID')} {raw.get('title')}")
                 continue
             if rec["id"] in have or rec["id"] in DENY: continue
             k = norm_key(rec)
@@ -334,7 +337,7 @@ def main():
         print("The Met...", flush=True)
         ids = [i for i in met_ids(a.met_per_dept) if "met-" + str(i) not in have]
         random.shuffle(ids)
-        ids = ids[: room * 2]
+        ids = ids[: room * 4]
         with cf.ThreadPoolExecutor(10) as ex:
             raws = [r for r in ex.map(met_obj, ids) if r]
         met = balanced(take(raws, from_met), room, per_artist=25)
