@@ -345,11 +345,11 @@ details.why p{margin:6px 0 0; padding-left:12px; border-left:2px solid var(--rul
   .ch-top .d-head{padding-top:8px}
 }
 .ch-wrap{display:flex; flex-direction:column; gap:36px}
-.ch-chips{position:sticky; top:calc(env(safe-area-inset-top, 0px) + 43px); z-index:15; display:flex; gap:6px; overflow-x:auto; scrollbar-width:none; padding:10px 0; margin:-10px 0; background:var(--bg); border-bottom:1px solid var(--rule)}
+.ch-chips{position:sticky; top:env(safe-area-inset-top, 0px); z-index:15; display:flex; gap:6px; overflow-x:auto; scrollbar-width:none; padding:10px 0; margin:-10px 0; background:var(--bg); border-bottom:1px solid var(--rule)}
 .ch-chips::-webkit-scrollbar{display:none}
 .ch-chips .chip{white-space:nowrap; flex:none}
 .ch-chips .chip:hover{text-decoration:none}
-.ch-sec{scroll-margin-top:110px; display:flex; flex-direction:column; gap:14px}
+.ch-sec{scroll-margin-top:calc(70px + env(safe-area-inset-top, 0px)); display:flex; flex-direction:column; gap:14px}
 .ch-body{display:flex; flex-direction:column; gap:14px; max-width:68ch}
 .ch-body p,.ch-lp p{margin:0; font:400 17.5px/1.65 var(--display); overflow-wrap:anywhere}
 .ch-lp{display:flex; flex-direction:column; gap:6px}
