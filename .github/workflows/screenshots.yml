@@ -1,0 +1,88 @@
+name: Screenshots
+
+# Runs the app in the simulator and takes screenshots of museum pages on the iPhone Duo
+# (closed, open and half open), an iPhone and an iPad. They are pushed to the ci-results-duo
+# and ci-results branches so they can be viewed on github.com without signing in.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: screenshots-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # iPhone Duo on iOS 27.1. Needs the xcode-27 image (public preview).
+  duo:
+    runs-on: xcode-27
+    timeout-minutes: 60
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - name: Select Xcode 27.1
+        run: |
+          sudo xcode-select -s /Applications/Xcode_27.1.app/Contents/Developer
+          xcodebuild -version
+      - name: Probe Xcode, iOS runtimes and iPhone Duo support
+        run: |
+          mkdir -p ci-output
+          ci/probe-sdk.sh | tee ci-output/probe.txt
+      - name: Build the museum page and the Xcode project
+        run: |
+          python3 app/build.py
+          brew install xcodegen
+          xcodegen generate
+      - name: Create iPhone Duo simulator (iOS 27.1)
+        run: ci/create-duo.sh
+      - name: Screenshots on iPhone Duo (closed, then open, then half open)
+        env:
+          SIMULATOR_LIST_CMD: ci/create-duo.sh
+          FOLD_POSES: "open:180 partial:120"
+        run: ci/take-screenshots.sh
+      - name: Publish screenshots to the ci-results-duo branch
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ci/publish-results.sh ci-results-duo
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: screenshots-duo
+          path: ci-output
+          retention-days: 14
+
+  # iPhone + iPad on the stable image.
+  phone-and-ipad:
+    runs-on: macos-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Select newest Xcode
+        run: |
+          XCODE=$(ls -d /Applications/Xcode_*.app | grep -vi beta | sort -V | tail -1)
+          sudo xcode-select -s "$XCODE/Contents/Developer"
+          xcodebuild -version
+      - name: Build the museum page and the Xcode project
+        run: |
+          mkdir -p ci-output
+          python3 app/build.py
+          brew install xcodegen
+          xcodegen generate
+      - name: Screenshots on iPhone and iPad
+        run: ci/take-screenshots.sh
+      - name: Publish screenshots to the ci-results branch
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ci/publish-results.sh ci-results
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: screenshots-iphone-ipad
+          path: ci-output
+          retention-days: 14

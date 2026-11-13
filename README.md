@@ -26,7 +26,7 @@ Good to know:
 
 ## Screenshots
 
-Each change will also run the app in Apple's simulators and take screenshots:
+Each change also runs the app in Apple's simulators and takes screenshots:
 - iPhone Duo, closed, open and half open: the **ci-results-duo** branch
 - iPhone and iPad: the **ci-results** branch
 
