@@ -2254,5 +2254,525 @@ Object.assign(window.HISTORY.chapters, {
       {n:"Further reading: Rosamund Bartlett, Tolstoy: A Russian Life (2010)"}
     ]}
   ]
+},
+
+"marco-polo": {
+  hero: "",
+  kw: ["Venice","Kublai Khan","Khanbaliq","Xanadu","Shangdu","Silk Road","Travels","Il Milione","Rustichello","Genoa","prison","pasta@myths","Great Wall@myths","paper money","Hangzhou","Quinsai","Niccolò","Maffeo"],
+  lede: "A Venetian merchant's son who spent 24 years in Asia, much of it serving Kublai Khan, then told his story in a Genoese prison to a writer of romances. Europe called it 'the Million' and half believed it.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Marco Polo was born in Venice around 1254. In 1271, at 17, he set out with his father Niccolò and uncle Maffeo, merchants who had already been to the court of the Mongol ruler Kublai Khan.",
+      "They reached Kublai's summer capital, Shangdu (Xanadu), around 1275. Marco says he served the Khan for about 17 years, travelling on missions across China and beyond. The Polos returned to Venice by sea in 1295.",
+      "Captured in a war with Genoa, he dictated his travels to a fellow prisoner, Rustichello of Pisa. The book, known as The Description of the World or Il Milione, became one of the most widely read books of medieval Europe. He died in Venice in 1324."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "Venice was a merchant republic whose ships traded across the Mediterranean and the Black Sea. The Polos were a family of traders with a house in Constantinople and a trading post in the Crimea.",
+      "When Marco was a small child, his father and uncle travelled east to trade and ended up, by chance, at Kublai Khan's court. They came back in 1269 carrying a letter from the Khan to the Pope, asking for a hundred learned Christians.",
+      "Marco's mother had died while they were away. He met his father for the first time, as far as we know, when he was about 15."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Departure, 1271. The three Polos left with letters from the new Pope, Gregory X, and two friars, who soon turned back in fear. They crossed Armenia, Persia and Afghanistan, then the Pamir mountains and the Taklamakan desert.",
+      {t:"Arrival, about 1275. After three and a half years on the road they reached Kublai at Shangdu. Marco says the Khan took a liking to him and sent him on missions because he learned languages quickly and reported on the customs of distant places.", lab:"likely", why:"This is Marco's own account. No Chinese record names him, though some details he gives about Yuan officials and taxes match Chinese sources."},
+      "Years in China, about 1275 to 1291. He describes Kublai's capital Khanbaliq (Beijing), the great southern city of Quinsai (Hangzhou), paper money, coal (black stones that burn), the postal relay stations, and the Grand Canal. He claims to have governed the city of Yangzhou for three years, a claim most historians doubt.",
+      {t:"The voyage home, 1291 to 1295. The Polos sailed as escorts for a Mongol princess, Kököchin, travelling to marry the Ilkhan of Persia. The voyage, via Sumatra, Sri Lanka and India, took about two years, and many of the 600 passengers died.", lab:"likely", why:"A Persian historian, Rashid al-Din, and a Chinese document both name the three envoys who escorted the princess, matching Marco's account. Neither names the Polos, and the passenger numbers are Marco's own."},
+      {t:"Prison and the book, about 1298 to 1299. Back in Venice, Marco was captured in a war against Genoa, by tradition while serving on a galley. In prison he met Rustichello, who wrote down his stories in a French mixed with Italian.", lab:"likely", why:"The book's own prologue says it was written in a Genoese prison in 1298. The details of his capture come from later writers and do not agree."},
+      "Last years. Released in 1299, he married Donata Badoer, had three daughters, and lived as a wealthy merchant in Venice until his death in January 1324. In his will he freed a Tartar servant named Peter."
+    ]},
+    {k:"works", h:"The book", ps:[
+      "It is less a travel diary than a description of the world as far as Japan, which Marco called Cipangu and never visited. It covers geography, trade goods, customs, wonders and the power and riches of Kublai Khan.",
+      "No original manuscript survives. About 150 manuscripts in many languages differ from one another, sometimes a lot, because copyists cut, added and translated.",
+      {t:"Christopher Columbus owned a printed Latin copy and wrote notes in its margins. He hoped to reach the lands it described by sailing west.", lab:"verified", why:"Columbus's annotated copy is in the Biblioteca Colombina in Seville."}
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Niccolò and Maffeo Polo, his father and uncle, who made the first journey east and took him on the second.",
+      "Kublai Khan (1215 to 1294), grandson of Genghis Khan, founder of the Yuan dynasty in China, whom Marco served.",
+      "Rustichello of Pisa, a writer of Arthurian romances, who shaped the book and added some of its romantic flourishes."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "The Mongol Empire, the largest land empire in history, made it possible to travel safely from the Black Sea to China, the 'Pax Mongolica'.",
+      "Dante, born about 1265, was his younger contemporary in Italy. Ibn Battuta set out from Tangier in 1325, the year after Marco died.",
+      "The Mamluks took Acre, the last crusader city in the Holy Land, in 1291, the year the Polos left China."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "The book shaped European maps of Asia for two centuries and inspired explorers, including Columbus.",
+      "The name 'the Million' may come from his nickname, perhaps for the millions he spoke of, or from a family name, Emilione.",
+      "Venice's international airport is named after him."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He brought pasta from China to Italy.", lab:"myth", t:"Pasta was known in Italy before he returned. The story was spread by an American pasta trade magazine in 1929."},
+      {c:"He never went to China at all.", lab:"disputed", t:"Some historians argued this, noting that he never mentions tea, chopsticks, foot-binding or the Great Wall. Most now think he did go, since many details he gives match Chinese and Persian records."},
+      {c:"He described the Great Wall.", lab:"myth", t:"He did not mention it. The great stone walls seen today were built later, under the Ming, and in his time the old earth walls were not a notable sight on his route."},
+      {c:"On his deathbed he said: 'I did not tell half of what I saw.'", lab:"tradition", t:"The line comes from Jacopo d'Acqui, a Dominican friar writing some years after his death, who said Marco told friends this. It cannot be checked further."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"The Travels of Marco Polo, translated by Henry Yule, revised by Henri Cordier (1903), volume 1, Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/10636"},
+      {n:"The Travels of Marco Polo, Yule and Cordier, volume 2, Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/12410"},
+      {n:"Further reading: Frances Wood, Did Marco Polo Go to China? (1995)"},
+      {n:"Further reading: Hans Ulrich Vogel, Marco Polo Was in China (2013)"}
+    ]}
+  ]
+},
+
+"charlemagne": {
+  hero: "",
+  kw: ["Charles the Great","Carolus Magnus","Karl der Grosse","Franks","Carolingian","Aachen","Pope Leo III","emperor 800","Christmas Day 800","Saxons","Verden","Roland","Roncevaux","Einhard","Alcuin","Carolingian minuscule","Harun al-Rashid@people","elephant","Abul-Abbas","Holy Roman Empire"],
+  lede: "A Frankish king who fought for over thirty years to build an empire across Western Europe, was crowned emperor in Rome on Christmas Day 800, and pushed a revival of learning even though he never managed to learn to write well.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Charles, later called Charlemagne ('Charles the Great'), was born around 748, the son of Pepin the Short, king of the Franks. He became king in 768, at first sharing the kingdom with his brother Carloman, who died in 771.",
+      "Through almost constant war he conquered the Lombards in Italy, the Saxons in Germany, Bavaria and the Avars, and fought in Spain. His realm stretched from the Pyrenees to the Elbe and from the North Sea to central Italy.",
+      "On Christmas Day 800, Pope Leo III crowned him emperor in Rome, the first in the West for over 300 years. He made Aachen his capital, gathered scholars to his court and died there in 814."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      {t:"His birth year is uncertain: 742, 747 and 748 have all been proposed. His biographer Einhard admitted he knew nothing of Charlemagne's childhood.", lab:"disputed", why:"Einhard's Life of Charlemagne, chapter 4. A note in an early annal points to 748, which most historians now prefer."},
+      "His father Pepin had deposed the last Merovingian king in 751 with the Pope's blessing, founding the Carolingian dynasty.",
+      "In 754 Pope Stephen II anointed Pepin and his sons, including the young Charles, at the abbey of Saint-Denis near Paris."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Sole king, 771. When his brother Carloman died, Charles took his lands, and Carloman's widow and sons fled to the Lombards in Italy.",
+      "Italy, 773 to 774. At the Pope's request he invaded the Lombard kingdom, besieged Pavia and took the title King of the Lombards.",
+      {t:"Roncevaux, 778. Returning from a failed campaign in Spain, his rearguard was ambushed in the Pyrenees by Basques and wiped out. Among the dead was Roland, prefect of the Breton March, later the hero of the epic Song of Roland, which turned the Basques into Muslims.", lab:"verified", why:"Einhard, chapter 9, and the revised version of the Royal Frankish Annals (the original version leaves the defeat out). The Song of Roland was written about 300 years later."},
+      {t:"The Saxon wars, 772 to 804. Thirty years of campaigns forced the pagan Saxons to accept Frankish rule and Christianity. In 782 at Verden, after a revolt, he had about 4,500 Saxon prisoners beheaded in a single day, according to the royal annals.", lab:"likely", why:"The Royal Frankish Annals give the figure. A few historians have suggested a copying error, but most accept a mass execution."},
+      "Emperor, 800. Pope Leo III, attacked and nearly blinded by enemies in Rome, fled to Charles for protection. Charles came to Rome to restore him, and on Christmas Day, as he rose from prayer in St Peter's, Leo placed a crown on his head and the crowd hailed him as emperor.",
+      "Last years, 806 to 814. He planned to divide the empire among his sons, but two died. In 813 he crowned his surviving son Louis himself, at Aachen. He died on 28 January 814, aged about 66, and was buried in his chapel at Aachen."
+    ]},
+    {k:"works", h:"What he did", ps:[
+      "He governed through counts in every district and sent pairs of royal inspectors, the missi dominici, to check on them.",
+      "He issued capitularies, written decrees on everything from church discipline to the running of royal farms.",
+      {t:"He gathered scholars from across Europe: Alcuin of York, Paul the Deacon from Italy, Theodulf from Spain. Monasteries copied ancient Latin texts, and many Roman works survive only because Carolingian scribes copied them.", lab:"verified", why:"Most surviving manuscripts of many classical authors date from the 9th century, as studies of manuscript history show."},
+      "Carolingian minuscule, a clear new script with lower-case letters and spaces between words, spread from his court. Our lower-case printed letters descend from it.",
+      "He built the Palatine Chapel at Aachen, modelled on churches in Ravenna, which still stands inside Aachen Cathedral."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Einhard (about 775 to 840), a courtier who wrote his biography, modelled on Suetonius's lives of the Roman emperors.",
+      "Alcuin of York (about 735 to 804), an English scholar who ran the palace school and later the abbey of Tours.",
+      {t:"Harun al-Rashid, the Abbasid caliph in Baghdad, exchanged embassies with him and sent him an elephant named Abul-Abbas, which arrived in 802 and died in 810.", lab:"verified", why:"Reported in the Royal Frankish Annals and by Einhard. No Arabic source mentions the embassies."},
+      "He married at least four times and had several concubines and about 18 children. He kept his daughters at court and did not let them marry."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "The Abbasid Caliphate in Baghdad and the Byzantine Empire in Constantinople were far richer than his realm. In 797 the Byzantine Empress Irene became the first woman to rule there alone, which helped the Pope argue the imperial throne was empty.",
+      "Vikings began raiding England in 793, with the attack on Lindisfarne, and soon reached his coasts.",
+      "In China the Tang dynasty was still ruling. In Japan the capital moved to Heian (Kyoto) in 794."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "His empire split among his grandsons by the Treaty of Verdun in 843, roughly into the lands that became France, Germany and a middle strip between them.",
+      "The title of emperor in the West continued, becoming the Holy Roman Empire, which lasted until 1806.",
+      "Both France and Germany claim him as a founder, and he is called the 'Father of Europe'. The Charlemagne Prize, awarded by the city of Aachen since 1950, honours work for European unity."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He could not read.", lab:"disputed", t:"Einhard says he spoke Latin well, understood Greek, and kept writing tablets under his pillow to practise writing, but started too late and did not succeed well. He could probably read; he struggled to write."},
+      {c:"The Pope surprised him with the crown.", lab:"disputed", t:"Einhard says he would not have gone to church that day had he known what the Pope planned. Most historians think the coronation was agreed in advance, and Einhard was showing his modesty."},
+      {c:"He was unusually tall.", lab:"likely", t:"Einhard calls him tall. A 2010 study of a shin bone from his tomb estimated about 1.84 metres, very tall for his time, though not the giant of later legend."},
+      {c:"His beard was long and white.", lab:"myth", t:"Einhard does not mention a beard, and coins show him with a moustache. The 'emperor with the flowing beard' comes from the Song of Roland and later art."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Einhard and Notker the Stammerer, Early Lives of Charlemagne, translated by A. J. Grant (1905), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/48870"},
+      {n:"Royal Frankish Annals (about 741 to 829), public domain translations"},
+      {n:"The Song of Roland, translated by C. K. Scott Moncrieff (1919), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/391"},
+      {n:"Further reading: Rosamond McKitterick, Charlemagne: The Formation of a European Identity (2008)"},
+      {n:"Further reading: Johannes Fried, Charlemagne (2016)"}
+    ]}
+  ]
+},
+
+"rembrandt": {
+  hero: "",
+  kw: ["Rembrandt van Rijn","Night Watch","self-portraits","Leiden","Amsterdam","Saskia","Titus","Hendrickje","chiaroscuro","etching","bankruptcy","Anatomy Lesson","Dutch Golden Age","Jewish Bride","Rijksmuseum","Syndics"],
+  lede: "A miller's son from Leiden who became the most sought-after painter in Amsterdam, went bankrupt, outlived his wife, his partner and his son, and painted himself about forty times, tracing his own ageing face with brutal honesty.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Rembrandt Harmenszoon van Rijn was born in Leiden in 1606, during the Dutch Republic's Golden Age. By his late twenties he was the leading portrait painter in Amsterdam.",
+      "He painted portraits, Bible stories, history scenes and landscapes, and made some of the greatest etchings ever produced. His use of light and shadow, and his insight into people, set him apart.",
+      "Money troubles led to bankruptcy in 1656. He lost his house and collection, and his wife, his partner Hendrickje and his son Titus all died before him. He died in Amsterdam in 1669, aged 63."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "He was born on 15 July 1606, the ninth child of a miller whose windmill stood on the Rhine at Leiden, and a baker's daughter.",
+      "He was enrolled at Leiden University at 14 but left to train as a painter, first in Leiden and then for six months in Amsterdam with Pieter Lastman, a painter of history scenes.",
+      {t:"Back in Leiden, he shared a studio with the painter Jan Lievens. A visiting statesman, Constantijn Huygens, praised both young men and helped Rembrandt win commissions from the Prince of Orange.", lab:"verified", why:"Huygens wrote about them in his Latin autobiography of about 1630."}
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Amsterdam, 1631. He moved to Amsterdam and worked with the art dealer Hendrick Uylenburgh. The Anatomy Lesson of Dr Nicolaes Tulp (1632), a group portrait of surgeons around a corpse, made his name.",
+      "Saskia, 1634. He married Uylenburgh's cousin Saskia van Uylenburgh, daughter of a wealthy family. Three of their four children died in infancy; only Titus, born 1641, survived.",
+      "The house, 1639. He bought a grand house on the Jodenbreestraat, now the Rembrandt House Museum, for 13,000 guilders, mostly on credit, and filled it with art, armour, shells and curiosities.",
+      {t:"The Night Watch and Saskia's death, 1642. He finished his huge group portrait of a civic militia company, now called The Night Watch. That same year Saskia died, aged 29.", lab:"verified", why:"Dates from the documents; the painting is dated 1642."},
+      "Hendrickje, 1640s to 1663. Hendrickje Stoffels, his housekeeper, became his partner. Saskia's will would have cut his income if he remarried, so they never married. In 1654 the church council summoned her and rebuked her for living with Rembrandt unmarried; the record uses the word 'whoredom'. They had a daughter, Cornelia.",
+      "Bankruptcy, 1656. He could not pay his debts, including what he still owed on the house. His collection and then the house were sold at auction between 1656 and 1658. Hendrickje and Titus set up an art business that employed him so his creditors could not take his paintings.",
+      "Last years. Hendrickje died in 1663, probably of plague, and Titus in 1668. Rembrandt died on 4 October 1669 and was buried in an unmarked rented grave in the Westerkerk."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "About 80 self-portraits in paint, etching and drawing, from a curly-haired young man to the lined, frank faces of his last years.",
+      "The Night Watch (1642): its real title names Captain Frans Banninck Cocq and his militia company. It shows them moving out, in dramatic light, instead of lined up in rows.",
+      "Etchings such as the Hundred Guilder Print and The Three Crosses, which he reworked again and again.",
+      "Late works such as The Jewish Bride and The Return of the Prodigal Son, painted with thick, rough paint that his critics found unfinished."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Saskia van Uylenburgh (1612 to 1642), his wife, whom he drew and painted many times.",
+      "Titus van Rijn (1641 to 1668), his son, who appears in several tender portraits.",
+      "Hendrickje Stoffels (1626 to 1663), his partner, probably the model for some of his most intimate paintings.",
+      "Pupils including Gerrit Dou, Ferdinand Bol, Govert Flinck and Carel Fabritius, who may have taught Vermeer, though that is unproven."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "The Dutch Republic, newly independent from Spain, was the richest trading nation in Europe, with the Dutch East India Company trading from Japan to South Africa.",
+      "Middle-class Dutch buyers wanted portraits, landscapes and still lifes, creating one of the first open art markets. Vermeer, in Delft, was a younger contemporary.",
+      "His neighbourhood was Amsterdam's Jewish quarter, home to refugees from Spain and Portugal, and he drew and painted his neighbours."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "He is considered the greatest painter of the Dutch Golden Age. The Rembrandt Research Project, from 1968, spent decades sorting real Rembrandts from his pupils' work.",
+      "The Night Watch is the centrepiece of the Rijksmuseum, where Operation Night Watch, from 2019, studied and restored it in public view.",
+      "In 2019, 350 years after his death, the Rijksmuseum showed all its Rembrandts together for the first time: 22 paintings, 60 drawings and more than 300 prints."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"The Night Watch shows a night scene.", lab:"myth", t:"It is set in daylight. Darkened varnish made it look like night, and it got its nickname in the late 18th century."},
+      {c:"The Night Watch ruined his career because the sitters hated it.", lab:"myth", t:"There is no evidence the militia company was unhappy. His money problems came from overspending and a changing market."},
+      {c:"He died a forgotten pauper.", lab:"disputed", t:"He was poor and in debt, but still received commissions and visitors, including Cosimo de' Medici, the future Grand Duke of Tuscany, in 1667."},
+      {c:"The Man with the Golden Helmet is one of his greatest works.", lab:"myth", t:"Once his most famous painting in Berlin, it was reattributed in 1985 to his circle, not Rembrandt himself."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Rijksmuseum, Amsterdam: collection and research (free to view)", u:"https://www.rijksmuseum.nl/en"},
+      {n:"Rembrandt House Museum, Amsterdam", u:"https://www.rembrandthuis.nl/en/"},
+      {n:"Émile Michel, Rembrandt: His Life, His Work, and His Time (1894), public domain"},
+      {n:"Further reading: Simon Schama, Rembrandt's Eyes (1999)"},
+      {n:"Further reading: Gary Schwartz, The Rembrandt Book (2006)"}
+    ]}
+  ]
+},
+
+"bach": {
+  hero: "",
+  kw: ["Johann Sebastian Bach","Leipzig","St Thomas","Thomaskantor","cantatas","St Matthew Passion","Mass in B minor","Brandenburg Concertos","Well-Tempered Clavier","Goldberg Variations","Art of Fugue","organ","Toccata and Fugue@myths","Weimar","Köthen","Arnstadt","Lübeck","Buxtehude","Mendelssohn@legacy","Anna Magdalena","Voyager@legacy"],
+  lede: "An orphan from a family of musicians who spent his whole life in a small corner of Germany as an organist and church music director, wrote over a thousand works, and was nearly forgotten before being hailed as the greatest composer of all.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Johann Sebastian Bach was born in Eisenach, in Thuringia, in 1685, into a family that had produced musicians for generations. Orphaned at ten, he was raised by his elder brother.",
+      "He worked as an organist and court musician in Arnstadt, Mühlhausen, Weimar and Köthen, and from 1723 until his death as cantor of St Thomas's School and music director for the churches of Leipzig.",
+      "He wrote cantatas, Passions, the Mass in B minor, concertos, keyboard music and organ works. He was respected as an organist in his lifetime, but his music fell out of fashion after his death in 1750 until a revival in the 19th century."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "He was born on 21 March 1685 (by the calendar then used in Protestant Germany), the youngest of eight children of Johann Ambrosius Bach, a town musician.",
+      "His mother died in 1694 and his father the next year. He moved to Ohrdruf to live with his brother Johann Christoph, an organist, who taught him keyboard.",
+      {t:"Just before he turned 15 he travelled about 350 kilometres north to Lüneburg, probably on foot, to take up a choral scholarship at St Michael's School.", lab:"likely", why:"The move is recorded in school registers and in the Obituary (1754) by his son C. P. E. Bach and pupil J. F. Agricola. That he walked is an inference from his poverty; no source says so."}
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      {t:"Lübeck, 1705. As a young organist in Arnstadt, he got four weeks' leave to hear the great organist Dieterich Buxtehude in Lübeck, about 400 kilometres away, and stayed nearly four months. His employers were not pleased.", lab:"verified", why:"The Arnstadt consistory's minutes of February 1706 record their complaint."},
+      "Weimar, 1708 to 1717. As court organist and later concertmaster he wrote many of his great organ works. When he tried to leave for a better job in Köthen, the Duke had him jailed for nearly a month for insisting.",
+      "Köthen, 1717 to 1723. The prince there loved music but belonged to a church that wanted plain worship, so Bach wrote instrumental music, including the Brandenburg Concertos and the first book of The Well-Tempered Clavier.",
+      "Loss and remarriage, 1720 to 1721. Returning from a journey, he found his first wife, Maria Barbara, dead and already buried. In 1721 he married Anna Magdalena Wilcke, a singer. He had 20 children in total, of whom 10 survived to adulthood.",
+      "Leipzig, 1723 to 1750. He became cantor of St Thomas's, responsible for music in the city's main churches. In his first years he wrote a new cantata nearly every week, and the St John and St Matthew Passions. He often clashed with the town council, who had wanted a more famous composer, Telemann.",
+      {t:"Potsdam, 1747. King Frederick the Great gave him a theme to improvise on. Bach later wrote it out as The Musical Offering and sent it to the king.", lab:"verified", why:"Reported in newspapers at the time and in the dedication of the published work."},
+      "Death, 1750. His eyesight failed, and two operations by a travelling English eye surgeon, John Taylor, left him nearly blind and weak. He died on 28 July 1750."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "About 200 surviving church cantatas, the St Matthew Passion (1727) and St John Passion (1724), the Christmas Oratorio and the Mass in B minor.",
+      "The Brandenburg Concertos (dedicated 1721), violin and keyboard concertos, and orchestral suites.",
+      "Keyboard works: The Well-Tempered Clavier, two books of 24 preludes and fugues in every key, the Goldberg Variations and the unfinished Art of Fugue.",
+      "Solo works for violin and cello, among the most demanding and admired in the repertoire.",
+      "He signed many sacred scores 'S.D.G.', Soli Deo Gloria, 'to God alone the glory'."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Anna Magdalena Bach (1701 to 1760), his second wife, a professional singer who copied many of his scores.",
+      "His sons Wilhelm Friedemann, Carl Philipp Emanuel and Johann Christian were all famous composers. In their day they were better known than their father.",
+      "Georg Philipp Telemann, a friend and godfather to C. P. E. Bach, the most famous German composer of the time.",
+      "Handel, born the same year about 130 kilometres away. The two never met, though Bach tried twice."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Germany was a patchwork of hundreds of states, each with its own court and church. Lutheran music was central to worship.",
+      "Vivaldi in Venice and Handel in London were his great contemporaries; Bach arranged several of Vivaldi's concertos.",
+      "Isaac Newton died in 1727, the year of the St Matthew Passion."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "After his death his music was studied by experts, including Mozart and Beethoven, but rarely performed.",
+      "In 1829 the 20-year-old Felix Mendelssohn conducted the St Matthew Passion in Berlin, its first major public performance since Bach's death, starting a Bach revival.",
+      "In 1977 his music was included on the Golden Record sent into space aboard the Voyager probes: the first movement of Brandenburg Concerto No. 2, and pieces for violin and keyboard."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He was forgotten completely until Mendelssohn.", lab:"myth", t:"Musicians never forgot him; Mozart, Beethoven and others studied his keyboard works. The public, though, rarely heard his music."},
+      {c:"The famous Toccata and Fugue in D minor is certainly by Bach.", lab:"disputed", t:"It survives only in later copies, and some scholars think it was written by someone else or is an arrangement."},
+      {c:"He was a solemn church musician who wrote only sacred music.", lab:"myth", t:"He loved coffee, wrote a comic 'Coffee Cantata', played in Leipzig's coffeehouse concerts and ran a busy household. He also had a temper: at 20 he drew his sword when a student bassoonist he had insulted attacked him in the street with a stick."},
+      {c:"The only authentic portrait shows him holding a puzzle canon.", lab:"likely", t:"Elias Gottlob Haussmann's portraits of 1746 and 1748 are the only ones widely accepted as showing him from life."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Johann Nikolaus Forkel, Johann Sebastian Bach: His Life, Art, and Work (1802), translated by Charles Sanford Terry (1920), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/35041"},
+      {n:"Philipp Spitta, Johann Sebastian Bach: His Work and Influence on the Music of Germany, translated by Clara Bell and J. A. Fuller-Maitland (1884), public domain"},
+      {n:"C. P. E. Bach and J. F. Agricola, Obituary of J. S. Bach (1754), public domain"},
+      {n:"Bach-Archiv Leipzig and Bach Digital: his manuscripts online (free to view)", u:"https://www.bach-digital.de"},
+      {n:"Further reading: Christoph Wolff, Johann Sebastian Bach: The Learned Musician (2000)"},
+      {n:"Further reading: John Eliot Gardiner, Music in the Castle of Heaven (2013)"}
+    ]}
+  ]
+},
+
+"catherine-the-great": {
+  hero: "",
+  kw: ["Sophie of Anhalt-Zerbst","Peter III","coup","1762","Orlov","Potemkin","Nakaz","Instruction","Pugachev","Crimea","Partitions of Poland","Hermitage","Voltaire","Diderot","Smolny","smallpox","inoculation","Enlightenment","Potemkin villages@myths","horse@myths"],
+  lede: "A minor German princess who married into the Russian royal family, overthrew her own husband, and ruled the largest empire on earth for 34 years, writing to Voltaire about reason while her empire kept millions of serfs in bondage.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Catherine was born Sophie Friederike Auguste of Anhalt-Zerbst in Stettin, Prussia (today Szczecin, Poland), in 1729. At 14 she was brought to Russia to marry the heir to the throne, the future Peter III.",
+      "In 1762, months after Peter became emperor, she led a coup with the guards regiments and took the throne for herself. Peter died in custody eight days later, almost certainly killed by his guards.",
+      "She ruled until her death in 1796. Russia gained Crimea, the northern Black Sea coast and much of Poland, and she made her court a centre of Enlightenment art, letters and collecting. She is the only Russian ruler after Peter I to be called 'the Great'."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "Her father was a Prussian general and minor prince. Her mother was ambitious and well connected, and her French governess gave her a love of books and conversation.",
+      "Empress Elizabeth of Russia chose her as a bride for her nephew Peter in 1744. Sophie converted to Russian Orthodoxy, took the name Ekaterina (Catherine), and worked hard at Russian.",
+      {t:"The marriage, in 1745, was unhappy. In her memoirs she describes Peter as childish, playing with toy soldiers in their bedroom, and herself spending years reading Voltaire, Montesquieu and Tacitus.", lab:"likely", why:"Her memoirs are the main source and were written partly to justify the coup, so their picture of Peter is one-sided."},
+      "Her son Paul, the heir, was born in 1754. Empress Elizabeth took him away to raise herself."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      {t:"The coup, June 1762. Peter III, emperor since January, made peace with Prussia, Russia's enemy, and was rumoured to plan to divorce Catherine. With the Orlov brothers and the guards regiments she declared herself empress in St Petersburg. Peter abdicated.", lab:"verified", why:"The coup and abdication are recorded in official documents and many eyewitness letters."},
+      {t:"Peter's death, July 1762. He died in custody at Ropsha, officially of 'haemorrhoidal colic'. Most historians believe he was killed by his guards, led by Alexei Orlov. Whether Catherine ordered it is unknown.", lab:"disputed", why:"A letter said to be from Orlov admitting the killing survives only as a later copy, and its authenticity is debated."},
+      "The Instruction (Nakaz), 1767. She wrote a long guide for a commission to reform Russia's laws, borrowing heavily from Montesquieu and the Italian jurist Beccaria. It argued against torture and for equality before the law. The commission met, debated for a year and a half, and was dissolved without producing a new code.",
+      "Inoculation, 1768. She had the English doctor Thomas Dimsdale inoculate her and her son against smallpox, a risky procedure, to set an example for her subjects.",
+      "Pugachev's Rebellion, 1773 to 1775. A Cossack, Yemelyan Pugachev, claimed to be the dead Peter III and led a huge rising of Cossacks, serfs and peoples of the Volga and Urals. It was crushed and Pugachev was executed in Moscow.",
+      "Crimea, 1783. After wars with the Ottoman Empire, Russia annexed the Crimean Khanate. Her partner and minister Grigory Potemkin built new towns and the Black Sea fleet at Sevastopol.",
+      "The Partitions of Poland, 1772, 1793 and 1795. With Prussia, and in 1772 and 1795 also Austria, she divided Poland-Lithuania until it disappeared from the map.",
+      "Death, November 1796. She died of a stroke at the Winter Palace, aged 67, and was succeeded by her son Paul."
+    ]},
+    {k:"works", h:"What she built and wrote", ps:[
+      "The Hermitage. She bought whole collections of paintings from across Europe, starting in 1764, and housed them beside the Winter Palace. It is now one of the largest museums in the world.",
+      "The Smolny Institute (1764), the first state school for girls in Russia.",
+      "Letters. She corresponded with Voltaire for about 15 years and with the German writer Friedrich Melchior Grimm for decades. She bought Diderot's library when he needed money, paid him to keep it, and invited him to St Petersburg.",
+      "Her own writing: the Instruction, plays, children's stories for her grandsons, satirical journalism and her memoirs, which were first published in 1859."
+    ]},
+    {k:"people", h:"Her people", ps:[
+      "Peter III (1728 to 1762), her husband, emperor for six months.",
+      "Grigory Orlov (1734 to 1783), her lover and an organiser of the coup, father of her son Alexei Bobrinsky.",
+      "Grigory Potemkin (1739 to 1791), her partner, general and governor of the south, possibly her secret husband.",
+      "Paul I (1754 to 1801), her son and successor, who resented her and was himself killed in a palace coup.",
+      "Princess Ekaterina Dashkova (1743 to 1810), friend and fellow plotter, later head of the Academy of Sciences, the first woman in the world to lead one."
+    ]},
+    {k:"world", h:"The world around her", ps:[
+      "Most Russians were serfs, bound to the land and to their owners. Under Catherine serfdom grew, spreading into Ukraine, and she gave hundreds of thousands of state peasants to her favourites.",
+      "Elsewhere in Europe the Enlightenment was questioning kings and churches. During her reign the American colonies won independence and the French Revolution began, which turned her firmly against radical ideas.",
+      "Her contemporaries on thrones included Frederick the Great of Prussia and Maria Theresa of Austria."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "Russia's borders grew by about 520,000 square kilometres in her reign. Odessa, Sevastopol and other southern cities were founded or rebuilt then.",
+      "She is remembered as an 'enlightened despot', a ruler who admired reform but kept absolute power and expanded serfdom.",
+      "The Hermitage's collections, built on her purchases, remain her most visible gift to the world."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"She died having sex with a horse.", lab:"myth", t:"She died after a stroke, in bed, a day after collapsing. The horse story is a slander spread after her death, with no evidence."},
+      {c:"She died on the toilet.", lab:"disputed", t:"She was found collapsed in her dressing room or closet. Some accounts mention a commode. She died the next day in bed."},
+      {c:"Potemkin built fake villages to fool her on her 1787 tour of Crimea.", lab:"disputed", t:"The story comes from rumours spread by his enemies and by foreign diplomats. Towns were spruced up for her visit, as for any royal tour, but historians find no evidence of painted fronts with nothing behind."},
+      {c:"She had hundreds of lovers.", lab:"myth", t:"Historians count about a dozen favourites over 44 years, usually one at a time. The exaggeration began with enemies and foreign gossip."},
+      {c:"She freed the serfs.", lab:"myth", t:"She discussed reform but extended serfdom. Russian serfs were freed only in 1861, by Alexander II."},
+      {c:"She was Russian.", lab:"myth", t:"She was German-born with not a drop of Russian blood, but she made a point of speaking Russian, keeping Orthodox rites, and presenting herself as a Russian ruler."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Memoirs of the Empress Catherine II, written by herself, with a preface by Alexander Herzen (English translation 1859), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/46407"},
+      {n:"Catherine II, The Instruction (Nakaz) of 1767, English translation by Michael Tatischeff (1768), public domain"},
+      {n:"William Tooke, The Life of Catharine II, Empress of Russia (1798), public domain"},
+      {n:"State Hermitage Museum, St Petersburg: history of the collection", u:"https://www.hermitagemuseum.org/"},
+      {n:"Further reading: Isabel de Madariaga, Russia in the Age of Catherine the Great (1981)"},
+      {n:"Further reading: Robert K. Massie, Catherine the Great: Portrait of a Woman (2011)"}
+    ]}
+  ]
+},
+
+"jane-austen": {
+  hero: "",
+  kw: ["Pride and Prejudice","Sense and Sensibility","Emma","Persuasion","Mansfield Park","Northanger Abbey","Steventon","Chawton","Bath","Winchester","Cassandra","By a Lady","Elizabeth Bennet","Mr Darcy","free indirect","Regency","writing desk","Lefroy@myths","Prince Regent"],
+  lede: "A clergyman's daughter who wrote six novels at a small table in a busy family house, published them without her name, and turned the comedy of courtship and money into the modern novel.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Jane Austen was born on 16 December 1775 at Steventon rectory in Hampshire, England, the seventh of eight children of the Reverend George Austen and his wife Cassandra.",
+      "Her four novels published in her lifetime, Sense and Sensibility (1811), Pride and Prejudice (1813), Mansfield Park (1814) and Emma (1815), appeared as 'By a Lady' or 'By the Author of...'. Northanger Abbey and Persuasion came out just after her death.",
+      "She never married. She died in Winchester on 18 July 1817, aged 41, and is buried in Winchester Cathedral."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "Steventon rectory was full of boys: her father took in pupils to make ends meet. The family read novels aloud, which some respectable households thought frivolous, and put on plays in the barn.",
+      "Jane and her only sister Cassandra were sent briefly to schools in Oxford, Southampton and Reading. Otherwise she was taught at home and read freely in her father's library of about 500 books.",
+      "From about age 12 she wrote comic stories, plays and parodies for her family, later copied into three notebooks she called Volume the First, Second and Third. They survive."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      {t:"Tom Lefroy, 1796. She flirted at local balls with a young Irishman, Tom Lefroy, and wrote to Cassandra joking about it. According to later family accounts his relatives sent him away, since he could not afford to marry a woman with no money.", lab:"likely", why:"Her letters of January 1796 mention him. The reason he left comes from family recollections written down decades later. Lefroy, in old age, reportedly said he had loved her, 'but it was a boyish love'."},
+      "First drafts, 1795 to 1799. She wrote early versions of Sense and Sensibility (as Elinor and Marianne), Pride and Prejudice (as First Impressions) and Northanger Abbey (as Susan). Her father offered First Impressions to a publisher in 1797, who declined without reading it.",
+      "Bath, 1801. Her father retired and moved the family to Bath. She wrote little there.",
+      "A proposal, 1802. Harris Bigg-Wither, a wealthy younger brother of friends, proposed. She accepted, then withdrew her acceptance the next morning.",
+      "Her father's death, 1805. Jane, Cassandra and their mother depended on the brothers for money and moved between lodgings.",
+      "Chawton, 1809. Her brother Edward, adopted by rich relatives, gave them a cottage in Chawton, Hampshire. There she revised her early novels and wrote three more.",
+      "Publication, 1811 to 1815. Her brother Henry, a banker, handled publishers. Sense and Sensibility made her about £140; Pride and Prejudice sold its copyright for £110.",
+      "Illness and death, 1816 to 1817. She fell ill, possibly with Addison's disease or a lymphoma, and moved to Winchester for treatment. She left Sanditon, a new novel, unfinished."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "Sense and Sensibility (1811): two sisters, one restrained and one passionate, lose their home and face heartbreak.",
+      "Pride and Prejudice (1813): Elizabeth Bennet and Mr Darcy misjudge each other. Its opening line about a single man with a good fortune is one of the most quoted in English.",
+      "Mansfield Park (1814), Emma (1815), and Northanger Abbey and Persuasion (published December 1817, dated 1818).",
+      "She perfected 'free indirect speech', slipping into a character's thoughts without quotation marks, so readers see the world through a heroine's mistakes.",
+      "About 160 letters to Cassandra and others survive. Cassandra burned many more in the 1840s, long after Jane's death."
+    ]},
+    {k:"people", h:"Her people", ps:[
+      "Cassandra Austen (1773 to 1845), her sister and closest friend, an amateur artist who made the only certain portraits of her.",
+      "Henry Austen (1771 to 1850), her brother, banker and literary agent, who revealed her name in a 'Biographical Notice' after her death.",
+      "Francis and Charles Austen, brothers who served in the Royal Navy in the wars against Napoleon. Both became admirals, and the navy shapes Persuasion.",
+      "James Edward Austen-Leigh (1798 to 1874), her nephew, who wrote the first full memoir of her in 1869."
+    ]},
+    {k:"world", h:"The world around her", ps:[
+      "Britain was at war with France for most of her adult life, from 1793 to 1815. Officers and sailors fill her novels, though battles stay offstage.",
+      "Women of her class could rarely earn money or inherit land. Marriage was a financial decision, which is why money is counted so precisely in her books.",
+      "Her contemporaries included Walter Scott, who praised her 'exquisite touch', and the poets Wordsworth, Byron and Keats. The Prince Regent was a fan, and she reluctantly dedicated Emma to him."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "Her novels have been in print continuously since 1833 and have been adapted for film and television countless times.",
+      "Her lively, ironic style and focus on ordinary lives shaped the novel that followed, from George Eliot to today.",
+      "Her portrait appeared on the Bank of England £10 note from 2017."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"She hid her writing under a blotter when a creaking door warned her someone was coming.", lab:"disputed", t:"This comes from her nephew's memoir of 1869, written decades later. It may be family legend; her family knew perfectly well that she wrote."},
+      {c:"She was a sweet, quiet spinster.", lab:"myth", t:"Her letters are sharp, funny and sometimes cruel. Her family softened her image after her death."},
+      {c:"Tom Lefroy was the great love of her life.", lab:"disputed", t:"It was a brief flirtation over a few weeks in 1796. Films have built a romance on very little evidence."},
+      {c:"Her novels made her rich and famous.", lab:"myth", t:"She earned about £600 to £700 in her lifetime and her name was unknown to most readers until after she died."},
+      {c:"She was killed by arsenic poisoning.", lab:"disputed", t:"The idea was raised in 2011 and again in 2017, when the British Library tested spectacles thought to be hers. It has not convinced medical historians, and arsenic was then a common ingredient in medicines. Her symptoms fit an illness such as Addison's disease or lymphoma."},
+      {c:"Her books are just romances.", lab:"myth", t:"They are comedies of manners about money, class, family and judgement. Critics from Walter Scott onward have praised their realism and moral seriousness."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Jane Austen, Pride and Prejudice (1813), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/1342"},
+      {n:"Jane Austen, Emma (1815), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/158"},
+      {n:"The Letters of Jane Austen, selected from Lord Brabourne's edition by Sarah Chauncey Woolsey, writing as Susan Coolidge (1892), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/42078"},
+      {n:"James Edward Austen-Leigh, A Memoir of Jane Austen (1869), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/17797"},
+      {n:"William and Richard Arthur Austen-Leigh, Jane Austen: Her Life and Letters, a Family Record (1913), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/22536"},
+      {n:"Further reading: Claire Tomalin, Jane Austen: A Life (1997)"},
+      {n:"Further reading: Deirdre Le Faye, A Chronology of Jane Austen and Her Family (2006)"}
+    ]}
+  ]
+},
+
+"douglass": {
+  hero: "",
+  kw: ["Frederick Bailey","slavery","Maryland","Baltimore","Covey","escape","1838","Anna Murray","Narrative","North Star","abolition","Garrison","What to the Slave","Fourth of July","Lincoln","Civil War","54th Massachusetts","Cedar Hill","photograph","suffrage","Seneca Falls"],
+  lede: "Born into slavery in Maryland, he taught himself to read, fought back against a slave-breaker, escaped disguised as a sailor, and became the most powerful voice against slavery in America, and the most photographed American of his century.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Frederick Douglass was born Frederick Augustus Washington Bailey on a plantation in Talbot County, Maryland, probably in February 1818. He was enslaved.",
+      "In 1838, aged about 20, he escaped to New York, took the name Douglass, and soon became a lecturer for the anti-slavery movement. His Narrative of the Life of Frederick Douglass (1845) became a bestseller.",
+      "He published newspapers, met President Lincoln, recruited Black soldiers in the Civil War, and later served as US Marshal and as minister to Haiti. He died at his home in Washington, DC, on 20 February 1895."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "He did not know his birthday. 'I have no accurate knowledge of my age,' he wrote, explaining that enslavers kept that knowledge from the people they owned. He later chose 14 February.",
+      "He was separated from his mother, Harriet Bailey, as an infant, and saw her only a few times, at night. He was raised by his grandmother, Betsy Bailey. His father was white, possibly his enslaver.",
+      "At about eight he was sent to Baltimore to serve the Auld family. Sophia Auld began to teach him the alphabet until her husband forbade it, saying learning would 'spoil' him. Douglass wrote that this showed him reading was 'the pathway from slavery to freedom', and he taught himself with help from white boys in the street.",
+      "With money from shining shoes he bought a copy of The Columbian Orator, a schoolbook of speeches, and studied its arguments about liberty."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      {t:"Covey, 1834. Sent to Edward Covey, known as a 'slave-breaker', he was beaten weekly until, at about 16, he fought back. Covey never whipped him again. Douglass called it the turning point of his life: 'You have seen how a man was made a slave; you shall see how a slave was made a man.'", lab:"likely", why:"The account is Douglass's own, from his Narrative. No independent record exists, but it fits what is known about Covey."},
+      "Escape, 3 September 1838. Working in the Baltimore shipyards, he borrowed the papers of a free Black sailor, dressed in a sailor's outfit, and took trains and a ferry to New York. Anna Murray, a free Black woman who had helped pay for the trip, joined him and they married.",
+      "First speech, 1841. At an anti-slavery meeting in Nantucket he spoke about his life. William Lloyd Garrison heard him, and the Massachusetts Anti-Slavery Society hired him as a lecturer.",
+      "The Narrative, 1845. Because audiences doubted that such an eloquent speaker had been enslaved, he published his life story with real names and places. It made him famous but put him at risk of capture, so he sailed to Britain and Ireland, where supporters bought his freedom in 1846.",
+      "The North Star, 1847. Back in the United States, he moved to Rochester, New York, and started his own newspaper against Garrison's advice. By 1851 the two had split over whether the Constitution could be used against slavery.",
+      "'What to the Slave Is the Fourth of July?', 1852. In Rochester he gave his most famous speech, telling a white audience that their celebration of liberty was, to the enslaved, 'a sham'.",
+      "The Civil War, 1861 to 1865. He pressed Lincoln to make the war about ending slavery and to enlist Black soldiers. Two of his sons, Lewis and Charles, enlisted in the 54th Massachusetts Regiment. He met Lincoln at the White House in 1863, 1864 and 1865.",
+      "Later life. He served as US Marshal for the District of Columbia (1877), Recorder of Deeds, and minister to Haiti (1889 to 1891). Anna died in 1882 and in 1884 he married Helen Pitts, a white activist, which caused a scandal."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "Three autobiographies: Narrative of the Life of Frederick Douglass, an American Slave (1845), My Bondage and My Freedom (1855) and Life and Times of Frederick Douglass (1881, revised 1892).",
+      "The Heroic Slave (1853), a novella about a real ship revolt.",
+      "Newspapers: The North Star, Frederick Douglass' Paper and Douglass' Monthly.",
+      "Thousands of speeches. He was one of the most celebrated orators of his age.",
+      "He sat for at least 160 photographs, more than any other American of his time, deliberately showing a dignified Black man to counter racist caricatures."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Anna Murray Douglass (about 1813 to 1882), his wife, who helped fund his escape and kept their home a stop on the Underground Railroad.",
+      "William Lloyd Garrison (1805 to 1879), abolitionist publisher, his early mentor and later rival.",
+      "Harriet Tubman, who led people out of slavery and whom he praised in an 1868 letter.",
+      "Susan B. Anthony and Elizabeth Cady Stanton. Douglass spoke for women's right to vote at the Seneca Falls Convention in 1848.",
+      "John Brown, the radical abolitionist, who tried to recruit him for the raid on Harpers Ferry in 1859. Douglass refused."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "About four million people were enslaved in the United States in 1860. The Fugitive Slave Act of 1850 meant even escaped people in the North could be seized and sent back.",
+      "Britain had passed its act abolishing slavery in most of its empire in 1833, and his lecture tour there drew large, sympathetic crowds.",
+      "After the war, the 13th, 14th and 15th Amendments ended slavery, granted citizenship and gave Black men the vote, but by his death those rights were being stripped away in the South."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "His Narrative remains one of the most read books in American history and a founding text of African American literature.",
+      "His house at Cedar Hill in Washington, DC, is a national historic site.",
+      "He is remembered not only as an abolitionist but as a campaigner for women's rights, Irish freedom and equal rights for all."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He was taught to read by his enslavers.", lab:"myth", t:"Sophia Auld taught him only the alphabet before her husband stopped her. He taught himself the rest, often in secret."},
+      {c:"Lincoln and Douglass were allies from the start.", lab:"myth", t:"Douglass sharply criticised Lincoln's slow move toward emancipation. Their respect grew during the war."},
+      {c:"He escaped via the Underground Railroad.", lab:"disputed", t:"He escaped alone by train and boat. In New York he was helped by David Ruggles, part of the network, and he later aided it himself."},
+      {c:"He was born in 1817.", lab:"myth", t:"Douglass himself believed this, and older books repeat it. His enslaver's records, found in the 20th century, give February 1818."},
+      {c:"He took the name Douglass from a famous Scottish family.", lab:"likely", t:"A friend suggested it from Walter Scott's poem The Lady of the Lake, where the Douglas family are heroes. He added an extra 's'."},
+      {c:"He was buried in Washington.", lab:"myth", t:"He died in Washington but is buried in Mount Hope Cemetery in Rochester, New York, beside Anna."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Frederick Douglass, Narrative of the Life of Frederick Douglass, an American Slave (1845), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/23"},
+      {n:"Frederick Douglass, My Bondage and My Freedom (1855), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/202"},
+      {n:"Frederick Douglass, Life and Times of Frederick Douglass (1881/1892), public domain"},
+      {n:"Frederick Douglass Papers, Library of Congress (free to view)", u:"https://www.loc.gov/collections/frederick-douglass-papers/"},
+      {n:"Frederick Douglass National Historic Site, National Park Service", u:"https://www.nps.gov/frdo/"},
+      {n:"Further reading: David W. Blight, Frederick Douglass: Prophet of Freedom (2018)"}
+    ]}
+  ]
+},
+
+"tesla": {
+  hero: "",
+  kw: ["Smiljan","Croatia","Serbian","Graz","Prague","Budapest","Edison","AC","alternating current","induction motor","Westinghouse","War of the Currents","Niagara Falls","Tesla coil","Colorado Springs","Wardenclyffe","radio","Marconi","pigeon","New Yorker Hotel","My Inventions","death ray@myths"],
+  lede: "A Serbian priest's son who saw machines in his mind before he built them, gave the world the alternating-current motor and the system behind today's power grid, and died alone in a New York hotel room, broke and feeding pigeons.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Nikola Tesla was born on 10 July 1856 in Smiljan, a village in the Military Frontier of the Austrian Empire, today in Croatia. His parents were Serbs and his father was an Orthodox priest.",
+      "He moved to the United States in 1884, briefly worked for Thomas Edison, then patented the AC induction motor in 1888. With George Westinghouse he helped win the 'War of the Currents' that made alternating current the world's standard.",
+      "He experimented with high voltages, wireless power and radio, but his grand projects failed for lack of money. He died in the Hotel New Yorker on 7 January 1943, aged 86."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "He wrote that his mother, Đuka, who could not read, invented household tools and recited long poems from memory, and that he got his inventiveness from her.",
+      {t:"As a child he had vivid visions he could not control. He learned to build machines in his imagination in such detail that, he said, he could test them in his mind before making them.", lab:"likely", why:"This is from his own autobiography, My Inventions (1919), written when he was 62."},
+      "He studied engineering at the Polytechnic in Graz, Austria, but gambled, lost his scholarship and never graduated. In Graz he watched a professor's DC machine spark and became convinced a motor could run without the sparking commutator.",
+      {t:"In Budapest in 1882, walking in a park and reciting Goethe, he says the solution came to him in a flash: a rotating magnetic field made by alternating currents. He drew it in the sand with a stick.", lab:"likely", why:"His own later account. It is consistent with his patents but cannot be independently checked."}
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Paris and New York, 1882 to 1885. He worked for Edison's company in Paris, then sailed to New York in 1884 and joined Edison's works. He left within about six months after a dispute over pay.",
+      "Ditch-digging, 1886 to 1887. A first company dropped him. He worked as a labourer for a time before new backers set up the Tesla Electric Company.",
+      "The AC patents, 1888. He received patents for the induction motor and AC power system and lectured on them to the American Institute of Electrical Engineers. George Westinghouse bought the patents.",
+      "The War of the Currents. Edison's companies promoted direct current and warned that AC was deadly. AC won because it could be sent long distances. Westinghouse lit the Chicago World's Fair with it in 1893, and in 1896 the Niagara Falls power station began sending AC power to Buffalo.",
+      "Fire, 1895. His New York laboratory burned down, destroying years of work.",
+      "Colorado Springs, 1899 to 1900. In a mountain lab he built giant coils that threw artificial lightning, trying to send power through the earth.",
+      "Wardenclyffe, 1901 to 1906. With money from the banker J. P. Morgan he built a tower on Long Island for worldwide wireless communication and power. Morgan withdrew; Marconi's simpler radio crossed the Atlantic in 1901; the tower was abandoned and demolished in 1917.",
+      "Last decades. He lived in a series of New York hotels, often unable to pay, made announcements of new inventions, and cared for pigeons. From 1934 the Westinghouse company paid his hotel bills."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "The AC induction motor and polyphase system, the basis of how electricity is generated and delivered today.",
+      "The Tesla coil (1891), a transformer that makes very high voltages at high frequency, used in early radio and still seen in demonstrations.",
+      "Radio-controlled boat, shown in New York in 1898, a forerunner of remote control.",
+      "About 300 patents worldwide. My Inventions, his autobiography, was serialised in Electrical Experimenter magazine in 1919.",
+      "The unit of magnetic flux density, the tesla, was named after him in 1960."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Thomas Edison (1847 to 1931), his first American employer and the champion of direct current.",
+      "George Westinghouse (1846 to 1914), the industrialist who bought his patents and backed AC.",
+      "J. P. Morgan (1837 to 1913), the banker who funded and then abandoned Wardenclyffe.",
+      "Mark Twain, a friend who visited his lab in the 1890s and was photographed there.",
+      "Robert and Katharine Johnson, editor and his wife, his closest friends in New York."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "He lived through the electrification of cities: when he arrived in New York, most streets were still lit by gas; when he died, electric light and motors were everywhere.",
+      "Inventors raced for patents and investors. Fame and money often went to those who could build businesses, not only to those with ideas.",
+      "His homeland was ruled by Austria-Hungary in his youth and became part of Yugoslavia after the First World War."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "His AC system runs almost every power grid on earth.",
+      "In 1943, months after his death, the US Supreme Court struck down most of Marconi's key radio tuning patent, finding that Oliver Lodge, John Stone Stone and Tesla had got there first.",
+      "The Nikola Tesla Museum in Belgrade holds his papers and ashes. He became a pop-culture hero, the lonely genius ahead of his time."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"Edison promised him $50,000 and then said it was a joke.", lab:"disputed", t:"Tesla told this story decades later. There is no record from Edison's side, and Edison was not involved day-to-day in that work."},
+      {c:"He invented radio, and Marconi stole it.", lab:"disputed", t:"Several inventors contributed. The 1943 Supreme Court case concerned specific patent claims, not who invented radio, and historians credit many people."},
+      {c:"He built a death ray.", lab:"myth", t:"In the 1930s he announced a particle-beam weapon he called 'teleforce', but no working device has ever been found."},
+      {c:"He offered free wireless power for the world.", lab:"disputed", t:"Wardenclyffe was meant to be a business, mainly for communication. Wireless power at a distance has never been shown to work as he described."},
+      {c:"He was ignored in his lifetime.", lab:"myth", t:"In the 1890s he was a celebrity, on magazine covers and lecturing across Europe. He received the Edison Medal in 1917."},
+      {c:"His papers were seized by the government.", lab:"verified", t:"After his death the Office of Alien Property took his belongings. An engineer, John G. Trump, examined them and reported nothing dangerous. Most were sent to Belgrade in 1952."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Nikola Tesla, My Inventions (1919), Wikisource (public domain)", u:"https://en.wikisource.org/wiki/My_Inventions"},
+      {n:"Thomas Commerford Martin, The Inventions, Researches and Writings of Nikola Tesla (1894), public domain"},
+      {n:"Nikola Tesla, US Patent 381,968, Electro-Magnetic Motor (1888), public domain"},
+      {n:"Nikola Tesla Museum, Belgrade", u:"https://tesla-museum.org/en/"},
+      {n:"Further reading: W. Bernard Carlson, Tesla: Inventor of the Electrical Age (2013)"},
+      {n:"Further reading: Marc J. Seifer, Wizard: The Life and Times of Nikola Tesla (1996)"}
+    ]}
+  ]
 }
 });
