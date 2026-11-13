@@ -157,7 +157,7 @@ def from_cma(r):
     why = sensitive([r.get("title"), " ".join(r.get("alternate_titles") or []), r.get("description"), r.get("wall_description"),
                      r.get("did_you_know"), r.get("collection")], bool(ISLAMIC_HINT.search(culture + " " + (r.get("department") or ""))))
     if why: return None, why
-    if figural_islamic(rec): return None, "Islamic-world figural work, needs hand approval (prophet rule)"
+    if figural_islamic(rec): return None, "Islamic-world figural work, needs hand approval"
     return rec, None
 
 # ---------- The Met ----------
@@ -206,7 +206,7 @@ def from_met(r):
         "u": r.get("objectURL") or "", "w": 0, "h": 0, "img": big, "th": big.replace("/web-large/", "/mobile-large/"),
         "hi": 1 if r.get("isHighlight") else 0, "on": r.get("objectName") or "", "dept": dept,
     }
-    if figural_islamic(rec): return None, "Islamic-world figural work, needs hand approval (prophet rule)"
+    if figural_islamic(rec): return None, "Islamic-world figural work, needs hand approval"
     return rec, None
 
 # ---------- pictures ----------
