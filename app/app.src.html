@@ -616,6 +616,14 @@ button:active, .chip:active, .btn:active, .tabbar a:active, .seg a:active, .lib-
   .w-scrim{display:none}
 }
 
+/* iPhone Duo opened: the map on the left screen, the Hall on the right, nothing under the fold */
+html.hinged .w-stage{grid-template-columns:calc(var(--hinge-x) - 16px) var(--hinge-w) minmax(0,1fr)}
+html.hinged .w-mapbox{grid-column:1; margin:0}
+html.hinged .w-hall{grid-column:3}
+html.hinged .w-scrim{display:none}
+html.hinged .big-title, html.hinged .w-regions, html.hinged .w-dial{max-width:calc(var(--hinge-x) - 32px)}
+.hall-hint{margin:auto 0; padding:40px 8px; text-align:center; font:italic 400 18px/1.45 var(--display); color:var(--ink-2)}
+
 /* ---------- Library ---------- */
 .lib{display:grid; grid-template-columns:repeat(auto-fill, minmax(240px, 1fr)); gap:12px}
 .lib-card{display:flex; flex-direction:column; gap:6px; padding:18px; background:var(--surface); border:1px solid var(--rule); border-radius:16px; color:var(--ink); box-shadow:var(--shadow)}
@@ -2177,8 +2185,18 @@ function viewWorld(){
     </div>
   </section>`;
   drawWorld();
-  if (wHallId) openHall(wHallId, true);
+  if (wHallId) openHall(wHallId, true); else closeHall();
 }
+/* The iPhone Duo app tells the page where its fold is (--hinge-* variables), then calls this. */
+window.onHinge = () => {
+  const cs = getComputedStyle(document.documentElement), n = k => parseFloat(cs.getPropertyValue(k)) || 0;
+  const x = n("--hinge-x"), w = n("--hinge-w"), h = n("--hinge-h");
+  const on = w > 0 && w < innerWidth / 3 && h >= innerHeight * .8 && x > 250 && innerWidth - x - w > 250;
+  const was = document.documentElement.classList.contains("hinged");
+  document.documentElement.classList.toggle("hinged", on);
+  if (was !== on && document.getElementById("wHall")) { if (wHallId) openHall(wHallId, true); else closeHall(); }
+  sizeLamps();
+};
 /* how many map units one screen pixel is, so lights keep the same size when zooming */
 function wUnit(){ const m = document.getElementById("wMap"); if (!m) return 1; const r = m.getBoundingClientRect(); return Math.max(wVB[2] / (r.width || 390), wVB[3] / (r.height || 400)); }
 function sizeLamps(){
@@ -2262,7 +2280,9 @@ function openHall(id, quiet){
 }
 function closeHall(){
   wHallId = null;
-  const box = document.getElementById("wHall"); if (box) box.hidden = true;
+  const box = document.getElementById("wHall");
+  if (box && document.documentElement.classList.contains("hinged")) { box.innerHTML = `<p class="hall-hint">Tap a light on the map, and its Hall opens on this side.</p>`; box.hidden = false; }
+  else if (box) box.hidden = true;
   const sc = document.getElementById("wScrim"); if (sc) sc.hidden = true;
   const st = document.getElementById("wStage"); if (st) st.classList.remove("has-hall");
   document.querySelectorAll("#wLamps .lamp.sel").forEach(g => g.classList.remove("sel"));

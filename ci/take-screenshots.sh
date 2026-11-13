@@ -44,12 +44,20 @@ shoot() {
     local route=${item%%:*} theme=${item#*:}
     n=$((n + 1))
     xcrun simctl ui "$udid" appearance "$theme" > /dev/null 2>&1 || true   # the app follows the phone's light/dark setting
-    xcrun simctl launch --terminate-running-process "$udid" "$BUNDLE" -route "$route" > /dev/null \
+    local box; box=$(xcrun simctl get_app_container "$udid" "$BUNDLE" data 2>/dev/null || true)
+    [ -n "$box" ] && rm -f "$box/tmp/snapshot.png"
+    xcrun simctl launch --terminate-running-process "$udid" "$BUNDLE" -route "$route" -snapshot 1 > /dev/null \
       || { echo "::error::[$label] could not launch the app"; status=1; continue; }
     sleep 10   # the 4 MB page, its pictures and fonts need a moment on a cold simulator
     local name; name=$(printf "%s-%02d-%s-%s" "$label" "$n" "${route//@/-}" "$theme")
-    xcrun simctl io "$udid" screenshot "$OUT/screenshots/$name.png" > /dev/null 2>&1 \
-      || echo "::warning::[$label] no screenshot for $route"
+    if ! xcrun simctl io "$udid" screenshot "$OUT/screenshots/$name.png" > /dev/null 2> "$OUT/io-error.txt"; then
+      # Some devices (the iPhone Duo) refuse a simulator screenshot; use the app's own picture of the page instead.
+      if [ -n "$box" ] && [ -f "$box/tmp/snapshot.png" ]; then
+        cp "$box/tmp/snapshot.png" "$OUT/screenshots/$name-page.png"
+      else
+        echo "::warning::[$label] no screenshot for $route: $(head -c 300 "$OUT/io-error.txt")"
+      fi
+    fi
     # A folding phone may show the app on its other display; keep that too if there is one.
     xcrun simctl io "$udid" screenshot --display=external "$OUT/screenshots/$name-other-display.png" > /dev/null 2>&1 || true
     if [ "$n" = 1 ]; then

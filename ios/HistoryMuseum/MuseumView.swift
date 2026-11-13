@@ -114,6 +114,17 @@ struct MuseumView: UIViewRepresentable {
 
         func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
             (webView as? MuseumWebView)?.applyHinge()
+            // For the screenshot runs: `-snapshot` saves a picture of the page to the app's temporary
+            // folder (snapshot.png), for devices where the simulator cannot take one, like the iPhone Duo.
+            if MuseumView.argument("-snapshot") != nil {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+                    webView.takeSnapshot(with: nil) { image, _ in
+                        guard let data = image?.pngData() else { return }
+                        let file = URL(fileURLWithPath: NSTemporaryDirectory()).appendingPathComponent("snapshot.png")
+                        try? data.write(to: file, options: .atomic)
+                    }
+                }
+            }
         }
 
         // If iOS frees the page's memory in the background, reload instead of showing a blank screen.
@@ -166,6 +177,6 @@ final class MuseumWebView: WKWebView {
             let kv = pair.split(separator: ":", maxSplits: 1)
             return "s.setProperty('\(kv[0])','\(kv.count > 1 ? kv[1] : "")');"
         }.joined()
-        evaluateJavaScript("(function(){var s=document.documentElement.style;\(pairs)})()", completionHandler: nil)
+        evaluateJavaScript("(function(){var s=document.documentElement.style;\(pairs)if(window.onHinge)window.onHinge();})()", completionHandler: nil)
     }
 }
