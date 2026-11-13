@@ -1093,5 +1093,651 @@ Object.assign(window.HISTORY.chapters, {
       {n:"Further reading: Robert G. Hoyland, Seeing Islam as Others Saw It (1997)"}
     ]}
   ]
+},
+
+"confucius": {
+  hero: "",
+  kw: ["Kongzi","Kong Qiu","Analects","Lunyu","junzi","ren","li","filial piety","Lu","Zigong","Yan Hui","Mencius","golden rule@works","Confucianism","Qufu"],
+  lede: "A minor official from the small state of Lu who failed to win the job he wanted, spent years wandering with his students, and died thinking he had achieved little. His conversations became the most influential book in East Asian history.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Kong Qiu, honoured as Kongzi, 'Master Kong', and known in the West as Confucius, lived from about 551 to 479 BC in the state of Lu, in today's Shandong province in eastern China.",
+      "He taught that good government starts with good people: rulers and officials who are humane, honest and correct in their conduct, and families bound by respect and care. He accepted students whatever their background.",
+      "He wrote no book himself. His students and their students collected his sayings in the Analects. From the Han dynasty onwards, his teaching became the official philosophy of the Chinese state for about two thousand years and shaped Korea, Japan and Vietnam too."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      {t:"He was born around 551 BC near Qufu in Lu. His father, Shuliang He, was an old soldier of a minor noble family who died when the boy was about three, and he grew up poor with his mother.", lab:"likely", why:"These details come from Sima Qian's biography in the Records of the Grand Historian (about 94 BC), written four centuries later. The broad picture is accepted; the details are uncertain."},
+      {t:"'At fifteen, I had my mind bent on learning,' he said later. As a young man he worked as a keeper of granaries and of livestock.", lab:"verified", why:"Analects 2.4 for the learning; Mencius 5B.5 for his early jobs. Both are early texts, though written down after his death."},
+      "Lu was one of many states into which China was divided under the weakening Zhou kings. Its own duke had little power; three great noble families ran it."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Teacher, from his twenties or thirties. He began taking students, charging whatever they could afford. 'I have never refused instruction to anyone who brought a bundle of dried meat,' he said (Analects 7.7).",
+      {t:"Office in Lu, about 500 BC. He held posts in the Lu government, reportedly rising to Minister of Crime.", lab:"disputed", why:"Sima Qian and the Zuo Zhuan report it, but scholars disagree on how high he really rose."},
+      {t:"Wandering, about 497 to 484 BC. Disappointed with Lu's rulers, he left with a group of students and travelled for about 13 years among the states of Wei, Song, Chen, Cai and others, hoping a ruler would put his ideas into practice. None did. He was in danger more than once and at one point ran out of food.", lab:"likely", why:"The travels are described in the Analects and by Sima Qian. Their route and dates are reconstructed."},
+      "Home, 484 BC. He returned to Lu in his late sixties and spent his last years teaching. His son Kong Li and his favourite student Yan Hui died before him. Yan Hui's death made him cry out that heaven had destroyed him (Analects 11.9).",
+      "Death, 479 BC. He died at about 72 and was buried north of Qufu, where the Kong family cemetery still lies."
+    ]},
+    {k:"works", h:"The teaching", ps:[
+      {t:"Ren, humaneness or goodness: the central virtue. Asked what it meant, he said, 'Love others.'", lab:"verified", why:"Analects 12.22."},
+      {t:"The rule of reciprocity: 'What you do not want done to yourself, do not do to others.'", lab:"verified", why:"Analects 15.24, and again in 12.2. Often compared with the Golden Rule."},
+      "Li, ritual and proper conduct: the courtesies and ceremonies that hold families and states together, practised sincerely rather than for show.",
+      "The junzi, the 'exemplary person': originally 'a lord's son', he turned it into a moral title anyone could earn by character and learning, not birth.",
+      "Rectifying names: things should be what they are called. A ruler should act as a ruler, a father as a father, a son as a son (Analects 12.11).",
+      "Government by virtue, not punishment: if you lead people with laws and punishments they will avoid trouble but feel no shame; lead them with virtue and ritual and they will correct themselves (Analects 2.3)."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Yan Hui, his most gifted and beloved student, poor and happy with a bowl of rice and a gourd of water, who died young.",
+      "Zilu, a bold former soldier who argued with him openly and later died in a palace coup in Wei.",
+      "Zigong, a clever diplomat and merchant who became rich and, tradition says, mourned at his grave for six years.",
+      "Mencius (about 372 to 289 BC), who lived a century later, became the second great Confucian teacher and argued that human nature is good."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "This was China's Spring and Autumn period, when hundreds of years of feudal order were breaking down into wars between states. Soon after his death came the even bloodier Warring States period.",
+      "Laozi, the legendary founder of Daoism, is said to have met him, but whether Laozi was a real person is uncertain.",
+      "In India the Buddha and Mahavira were teaching at roughly the same time, and in Greece Pythagoras and Heraclitus."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "In 213 BC Qin Shi Huang's government ordered many books burned, Confucian classics among them. The next dynasty, the Han, made Confucian learning the basis for training officials.",
+      "From the 600s to 1905 China's civil service exams tested candidates on the Confucian classics. For thirteen centuries, educated men across China memorised his words.",
+      "His descendants, the Kong family, kept records for more than 80 generations. Their family tree is one of the longest known.",
+      "Today Confucian ideas about family, education and respect for elders still shape life in China, Korea, Japan, Vietnam, Singapore and Chinese communities everywhere."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"'Confucius say...' jokes quote him.", lab:"myth", t:"These one-liners are an American joke format from the 1930s and 1940s. Real sayings from the Analects are usually short dialogues with students."},
+      {c:"He wrote the Analects.", lab:"myth", t:"He wrote nothing that survives for certain. The Analects were compiled by his students and later followers over perhaps two centuries."},
+      {c:"He edited the Five Classics, including the Book of Songs and the Spring and Autumn Annals.", lab:"disputed", t:"Tradition says he edited or wrote them. Modern scholars think his role, if any, was much smaller."},
+      {c:"Confucianism is a religion with Confucius as its god.", lab:"disputed", t:"He talked little about gods or the afterlife: 'While you do not know life, how can you know about death?' (Analects 11.12). But he was honoured in temples with rituals for centuries, so whether Confucianism counts as a religion is still argued."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"The Analects (Lunyu), Chinese text on Wikisource (public domain). Quotations follow Legge's translation; passage numbers follow the common modern numbering, and Legge's differ slightly", u:"https://zh.wikisource.org/wiki/論語"},
+      {n:"The Chinese Classics, vol. 1: Confucian Analects, translated by James Legge (1861, revised 1893), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/3330"},
+      {n:"Sima Qian, Records of the Grand Historian (Shiji), chapter 47, the Hereditary House of Confucius, Chinese text on Wikisource (public domain)", u:"https://zh.wikisource.org/wiki/史記/卷047"},
+      {n:"The Works of Mencius, translated by James Legge (public domain)"},
+      {n:"Further reading: Annping Chin, The Authentic Confucius (2007)"},
+      {n:"Further reading: Michael Nylan and Thomas Wilson, Lives of Confucius (2010)"}
+    ]}
+  ]
+},
+
+"socrates": {
+  hero: "",
+  kw: ["Athens","Plato","Xenophon","Apology","hemlock","Socratic method","gadfly","daimonion","oracle of Delphi","Xanthippe","Alcibiades","Aristophanes","The Clouds","unexamined life@works","I know that I know nothing@myths"],
+  lede: "A stonemason's son who walked barefoot around Athens asking people questions they could not answer. He wrote nothing, was put to death by his own city, and became the founding figure of Western philosophy.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Socrates lived in Athens from about 470 to 399 BC, during its golden age and its long war with Sparta. He served as a soldier, refused to write books, and spent his life questioning people in the streets, gymnasiums and markets.",
+      "He claimed to know nothing and to be wiser than others only because he knew it. His questioning embarrassed powerful men and charmed young ones.",
+      "In 399 BC an Athenian jury found him guilty of not honouring the city's gods, bringing in new gods, and corrupting the young. He was sentenced to death and drank poison hemlock in prison, aged about 70."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His father, Sophroniscus, was a stonemason or sculptor, and his mother, Phaenarete, a midwife. He later compared himself to a midwife who helps others give birth to ideas.",
+      {t:"He fought as a heavily armed infantryman in at least three battles of the Peloponnesian War: Potidaea, Delium and Amphipolis. At Potidaea he saved the life of the young Alcibiades, and at Delium he retreated calmly while the army fled.", lab:"likely", why:"These stories come from Plato's Symposium and Laches, written by an admirer. Most historians accept the campaigns."},
+      "He was famously ugly, with a snub nose and bulging eyes, went barefoot even in winter, and was poor. His wife was Xanthippe, and they had three sons."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      {t:"The oracle. His friend Chaerephon asked the oracle at Delphi whether anyone was wiser than Socrates. The answer was no. Socrates said he set out to prove the oracle wrong by questioning people who seemed wise, and found that they only thought they knew.", lab:"likely", why:"Told in Plato's Apology (21a). Some scholars think Plato shaped or invented the story."},
+      "Mocked on stage, 423 BC. The comic playwright Aristophanes put him in The Clouds as a fraud running a 'thinkery' who teaches students to win dishonest arguments. Socrates later said this caricature had poisoned opinion against him.",
+      "Standing alone, 406 BC. Serving on the council when the Assembly wanted to try the generals of the battle of Arginusae as a group, which was illegal, he alone of the presiding councillors opposed it. Six generals were executed anyway.",
+      "Refusing the Thirty, 404 BC. After Athens lost the war, a pro-Spartan junta, the Thirty Tyrants, ordered him and four others to arrest an innocent man, Leon of Salamis, for execution. The others went. Socrates went home.",
+      "Trial, 399 BC. Three citizens, Meletus, Anytus and Lycon, charged him with impiety and corrupting the young. Many Athenians remembered that Alcibiades, who had betrayed Athens, and Critias, leader of the Thirty, had been among his followers. A jury of about 500 citizens found him guilty by a narrow margin.",
+      {t:"The sentence. Asked to propose a penalty, he first suggested free meals for life as a public benefactor, then a fine of 30 minae, guaranteed by Plato and other friends. The jury chose death, by a larger margin than had convicted him.", lab:"likely", why:"Plato's Apology and Diogenes Laertius. Plato was present at the trial."},
+      "Death. A sacred ship's voyage to Delos delayed the execution by a month. His friend Crito arranged an escape, but Socrates refused, saying he would not break the city's laws. He drank the hemlock among his friends."
+    ]},
+    {k:"works", h:"His ideas", ps:[
+      "The Socratic method: asking a series of questions that test someone's definition of justice, courage or piety until its contradictions show. The goal is not to win but to find out what is true.",
+      {t:"'The unexamined life is not worth living for a human being.'", lab:"verified", why:"Plato, Apology 38a. As with all his words, this is Plato's account of what he said."},
+      "Virtue is knowledge: nobody does wrong willingly; people do wrong because they mistake what is good for them.",
+      "Care for the soul matters more than wealth, fame or the body. It is better to suffer injustice than to do it.",
+      "His daimonion, an inner voice that he said warned him against doing things, never urged him on."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Plato (about 427 to 347 BC), his most famous follower, wrote dozens of dialogues starring Socrates and founded the Academy. Most of what we 'know' about Socrates comes through him.",
+      "Xenophon (about 430 to 354 BC), soldier and writer, wrote his own memoirs and his own Apology of Socrates, which sometimes differ from Plato's.",
+      "Alcibiades (about 450 to 404 BC), brilliant, handsome and reckless, who loved Socrates, switched sides to Sparta, and helped ruin Athens.",
+      "Xanthippe, his wife, became a byword for a nagging wife in later stories, which may be unfair; in Plato's Phaedo she simply grieves."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "He grew up while Pericles built the Parthenon, completed in 432 BC. Athens was a direct democracy for its male citizens and ruled an empire of island allies.",
+      "The Peloponnesian War with Sparta lasted from 431 to 404 BC. A plague killed perhaps a quarter of Athens' people in 430 to 426 BC, Pericles among them.",
+      "In China, Confucius had died about nine years before Socrates was born."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "His student Plato taught Aristotle, who taught Alexander the Great. Almost all Greek philosophy after him counts him as its starting point; philosophers before him are still called 'Presocratics'.",
+      "His trial became a symbol of free thought against the state, invoked by thinkers from the Renaissance to Martin Luther King Jr., who cited him in his Letter from Birmingham Jail (1963).",
+      "Law schools and classrooms still use 'Socratic' questioning."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He said 'I know that I know nothing.'", lab:"myth", t:"That neat phrase is not in Plato. In the Apology (21d) he says that he does not think he knows what he does not know, which is subtler. The slogan is a later summary."},
+      {c:"We know exactly what Socrates thought.", lab:"myth", t:"He wrote nothing. Plato, Xenophon and Aristophanes portray him differently, and Plato often put his own ideas into Socrates' mouth. This is called the 'Socratic problem'."},
+      {c:"He died peacefully as the hemlock numbed him from the feet up.", lab:"disputed", t:"That is Plato's account in the Phaedo. Some doctors have argued poison hemlock usually causes convulsions; others think the plant species and dose could produce what Plato describes."},
+      {c:"Athens executed him for teaching philosophy.", lab:"disputed", t:"The charge was impiety and corrupting the young, but politics mattered. Many jurors connected him with Critias and Alcibiades, who had harmed Athens, and an amnesty of 403 BC barred prosecuting political crimes directly."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Plato, Apology, translated by Benjamin Jowett (1871), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/1656"},
+      {n:"Plato, Crito, translated by Benjamin Jowett, Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/1657"},
+      {n:"Xenophon, The Memorabilia, translated by H. G. Dakyns (1897), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/1177"},
+      {n:"Aristophanes, The Clouds (423 BC), public domain English translations"},
+      {n:"Diogenes Laertius, Lives of the Eminent Philosophers, book 2, translated by C. D. Yonge (1853), public domain"},
+      {n:"Further reading: Emily Wilson, The Death of Socrates (2007)"},
+      {n:"Further reading: Paul Johnson, Socrates: A Man for Our Times (2011)"}
+    ]}
+  ]
+},
+
+"alexander": {
+  hero: "",
+  kw: ["Macedon","Macedonia","Philip II","Olympias","Aristotle","Bucephalus","Gordian knot","Granicus","Issus","Gaugamela","Darius III","Persepolis","Alexandria","Siwa","Porus","Hydaspes","Hephaestion","Roxana","Babylon","Hellenistic"],
+  lede: "A king at twenty who never lost a battle, conquered the Persian Empire, reached India, founded cities across three continents, and died in Babylon at thirty-two without naming an heir.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Alexander III of Macedon was born in 356 BC, son of King Philip II, and tutored by Aristotle. He became king at 20 when his father was murdered in 336 BC.",
+      "In eleven years of campaigning he defeated the Persian Empire, the largest state in the world, and led his army from Greece through Egypt, Mesopotamia, Iran and Central Asia to the Punjab in today's Pakistan.",
+      "He died in Babylon in June 323 BC, aged 32. His generals fought over his empire and split it into kingdoms that spread Greek language and culture from Egypt to Afghanistan for three centuries."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "He was born in Pella, the Macedonian capital, in July 356 BC. His mother, Olympias, was a princess of Epirus who, ancient writers say, claimed he was the son of Zeus.",
+      {t:"As a boy he tamed the great horse Bucephalus, which nobody else could ride, by turning it to face the sun so it could not see its own shadow. Bucephalus carried him into battle for years.", lab:"likely", why:"Plutarch tells the story about 400 years later. The horse was real; the details may be embellished."},
+      "From about age 13, Aristotle taught him and other noble boys at Mieza for three years. Alexander kept a copy of Homer's Iliad, annotated by Aristotle, under his pillow on campaign, according to Plutarch.",
+      "At 18 he commanded the cavalry on the left wing at the battle of Chaeronea in 338 BC, where Philip defeated Athens and Thebes and became master of Greece."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "King, 336 BC. Philip was stabbed to death by one of his own bodyguards during his daughter's wedding celebrations. Alexander secured the throne, had rivals killed, and in 335 BC destroyed the rebel city of Thebes, sparing only its temples and the poet Pindar's house.",
+      "Into Asia, 334 BC. He crossed the Hellespont with about 37,000 men and won his first battle against Persian forces at the river Granicus.",
+      {t:"The Gordian knot, 333 BC. At Gordium a legend said whoever untied a famous knot would rule Asia. Alexander cut it with his sword, or by some accounts pulled out the pin that held it.", lab:"likely", why:"Both versions are in the ancient sources (Arrian quotes Aristobulus for the pin). The visit is accepted."},
+      "Issus, 333 BC. He defeated the Persian king Darius III, who fled, leaving his mother, wife and daughters behind. Alexander treated them with respect.",
+      "Egypt, 332 to 331 BC. After a seven-month siege of Tyre, he entered Egypt, where the Persians were unpopular, and was welcomed as pharaoh. He founded Alexandria and visited the oracle of Ammon at Siwa in the desert, which reportedly greeted him as son of the god.",
+      "Gaugamela, 331 BC. Near today's Mosul in Iraq he broke Darius's huge army. Babylon and Susa surrendered. At Persepolis, the Persian royal palace was burned in 330 BC, whether by drunken accident or as revenge for Persia's burning of Athens in 480 BC.",
+      "Central Asia, 329 to 327 BC. Darius had been murdered in 330 BC by his own satrap Bessus. Alexander spent three hard years fighting in Bactria and Sogdiana, today's Afghanistan, Uzbekistan and Tajikistan, and married Roxana, a Bactrian noblewoman.",
+      "India and turning back, 326 BC. He defeated King Porus at the Hydaspes river, in a battle that included war elephants. Bucephalus died there. At the river Hyphasis his exhausted army refused to go further, and he turned back.",
+      "Death, 323 BC. After a terrible march through the Gedrosian desert and the death of his closest friend Hephaestion, he returned to Babylon. He fell ill after a banquet and died after about eleven days, on 10 or 11 June 323 BC."
+    ]},
+    {k:"works", h:"What he did", ps:[
+      "He fought four great pitched battles and many sieges, and never lost a battle he commanded. His army combined the Macedonian phalanx, armed with 5.5-metre pikes, with heavy cavalry that he often led in person.",
+      {t:"He founded many cities, a good number named Alexandria. Alexandria in Egypt became the greatest city of the Mediterranean and home of the famous Library.", lab:"likely", why:"Plutarch says he founded over 70 cities, which modern historians think is an exaggeration; maybe a dozen to twenty are certain."},
+      "He tried to blend Macedonian and Persian rule: he wore some Persian royal dress, used Persian officials, and in 324 BC held a mass wedding at Susa where he and about 80 officers married Persian noblewomen. Many Macedonians resented it.",
+      "He was also brutal: he massacred or enslaved the populations of cities that resisted, such as Tyre and Gaza, and in a drunken rage killed his friend Cleitus, who had saved his life at the Granicus."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Philip II (382 to 336 BC), his father, who built the army Alexander used and made Macedon the strongest power in Greece.",
+      "Olympias (about 375 to 316 BC), his fierce and ambitious mother, who was killed in the wars after his death.",
+      "Hephaestion (about 356 to 324 BC), his closest friend since boyhood. When Hephaestion died, Alexander was devastated.",
+      "Ptolemy (about 367 to 282 BC), one of his generals, who took Egypt after his death and founded the dynasty that ended with Cleopatra."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Athens was still a great city of learning: Aristotle opened his school, the Lyceum, there in 335 BC. The orator Demosthenes spent his career warning Athens against Macedon.",
+      "In China the Warring States were fighting; the state of Qin was rising and would unite China a century later.",
+      "In India, soon after he left, Chandragupta Maurya founded the Maurya Empire, which took over the lands Alexander had conquered in the north-west."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "His generals, the Diadochi or 'successors', fought for 40 years and divided the empire into the kingdoms of the Ptolemies in Egypt, the Seleucids in Asia and the Antigonids in Macedon.",
+      "Greek became the common language of the eastern Mediterranean for centuries. The New Testament was later written in it.",
+      "He became a legend everywhere: the Alexander Romance was translated into dozens of languages, and he appears as a hero in Persian poetry, and some Qur'an commentators identify him with the figure Dhul-Qarnayn. In Iran's Zoroastrian tradition he is remembered as 'the accursed' who burned Persepolis.",
+      "Julius Caesar is said to have wept at a statue of Alexander, because by Caesar's age Alexander had conquered the world."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He wept because there were no more worlds to conquer.", lab:"myth", t:"No ancient source says so. Plutarch tells a different story: he wept on hearing that there were infinite worlds, because he had not yet conquered even one. The popular version comes much later."},
+      {c:"He was poisoned.", lab:"disputed", t:"Some ancient writers claimed poison, and modern theories include malaria, typhoid, alcohol-related illness and a rare nerve disorder. Nobody knows. Sources written soon after say it was a fever."},
+      {c:"His body lay uncorrupted for days.", lab:"disputed", t:"Plutarch and Curtius say his body did not decay for days in the Babylon heat. Some doctors have suggested he was deeply paralysed rather than dead at first. It cannot be checked."},
+      {c:"His tomb in Alexandria has been found.", lab:"myth", t:"Ptolemy hijacked his body and buried it in Egypt, finally in Alexandria, where Augustus and other Romans visited it. It disappeared by about AD 400, and despite many searches, it has never been found."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Arrian, The Anabasis of Alexander, translated by E. J. Chinnock (1884), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/46976"},
+      {n:"Plutarch, Life of Alexander, in Plutarch's Lives, Dryden translation revised by A. H. Clough, Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/674"},
+      {n:"Quintus Curtius Rufus, History of Alexander, and Diodorus Siculus, book 17 (public domain translations)"},
+      {n:"Further reading: Robin Lane Fox, Alexander the Great (1973)"},
+      {n:"Further reading: Paul Cartledge, Alexander the Great: The Hunt for a New Past (2004)"}
+    ]}
+  ]
+},
+
+"qin-shi-huang": {
+  hero: "",
+  kw: ["Ying Zheng","First Emperor","Qin","Terracotta Army","terracotta warriors","Great Wall@works","Li Si","burning of books@turns","scholars buried@myths","Legalism","Xianyang","mercury@legacy","immortality@turns","Xu Fu","Jing Ke","unification"],
+  lede: "A boy king who conquered six rival kingdoms, called himself the First Emperor, made China use one script, one currency and one set of weights, and was buried with an army of clay soldiers. His dynasty lasted fifteen years.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Ying Zheng was born in 259 BC and became king of Qin, a tough state in China's north-west, at 13. Between 230 and 221 BC his armies conquered the six other great states of the Warring States period.",
+      "In 221 BC he took a new title, Shi Huangdi, 'First Emperor'. He standardised writing, coins, weights and measures, and even cart axle widths, and divided the land into centrally governed commanderies.",
+      "He ruled harshly, burned books and used forced labour on a vast scale. He died in 210 BC while searching for immortality. Within four years of his death, rebellions destroyed his dynasty. The name China probably comes from Qin."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "He was born in Handan, capital of the rival state of Zhao, where his father, a Qin prince, was living as a hostage. His father became king of Qin in 250 BC and died three years later.",
+      {t:"Sima Qian reports a rumour that his real father was the rich merchant Lü Buwei, who had given his concubine to the prince. Lü became chief minister of Qin.", lab:"disputed", why:"Sima Qian wrote over a century later, under the Han dynasty that had replaced Qin. Many historians think the story was spread to discredit the First Emperor."},
+      "He became king in 246 BC, aged 13, with Lü Buwei ruling for him. In 238 BC he took power himself, crushed a revolt by his mother's lover Lao Ai, and soon removed Lü Buwei, who later killed himself."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Conquest, 230 to 221 BC. Qin's armies, rewarded for each enemy head taken, conquered Han (230), Zhao (228), Wei (225), Chu (223), Yan (222) and Qi (221).",
+      {t:"The assassin, 227 BC. Jing Ke, sent by the crown prince of Yan, came to court with a map that hid a poisoned dagger. He grabbed the king's sleeve and lunged, but the king pulled free, ran round a pillar, finally drew his long sword and wounded him. Jing Ke was killed.", lab:"likely", why:"Sima Qian tells the story in vivid detail in his chapter on assassins. The attempt is accepted; the details are a dramatic retelling."},
+      "First Emperor, 221 BC. He rejected the title 'king' as too small, abolished the old feudal states, and ruled through officials he appointed and could dismiss, advised by his chancellor Li Si.",
+      "Unifying, 221 to 210 BC. One script, the small seal script, replaced the varied scripts of the old states. Coins, weights, measures and axle widths were standardised. Thousands of kilometres of roads and canals were built.",
+      {t:"The burning of the books, 213 BC. On Li Si's advice he ordered histories of other states, the Book of Songs and the Book of Documents in private hands to be burned, except copies in the imperial library and books on medicine, divination and farming.", lab:"verified", why:"Sima Qian quotes Li Si's memorial. How completely it was carried out is debated."},
+      "The search for eternal life. He sent the magician Xu Fu with ships and, according to Sima Qian, thousands of young men and women to find the islands of the immortals in the eastern sea. Xu Fu came back empty-handed, sailed again, and never returned.",
+      "Death, 210 BC. He died on a tour of the east, aged 49. Li Si and the eunuch Zhao Gao hid his death, carrying his body back in a carriage with carts of salted fish to cover the smell, and forged orders that made his younger son emperor and forced the elder son to kill himself.",
+      "Collapse, 209 to 206 BC. Revolts broke out within a year. Zhao Gao had Li Si executed, and the dynasty fell in 206 BC. The Han dynasty, founded in 202 BC, kept much of his system."
+    ]},
+    {k:"works", h:"What he built", ps:[
+      "The empire's administrative system: 36 commanderies, later more, governed by salaried officials. It became the model for Chinese government for two thousand years.",
+      "Walls: he ordered existing northern walls joined and extended against the Xiongnu nomads, using huge numbers of conscripts. Most of the Great Wall visible today is much later, from the Ming dynasty.",
+      "The Lingqu canal, in today's Guangxi, linked two river systems and is still in use.",
+      {t:"His tomb complex near Xi'an, worked on for decades by perhaps 700,000 labourers. In 1974 farmers digging a well found the Terracotta Army: about 8,000 life-size clay soldiers, with horses and chariots, guarding the tomb from the east.", lab:"likely", why:"The labour figure is from Sima Qian. The soldiers are a UNESCO World Heritage Site; the estimate of 8,000 comes from excavation of the three main pits."}
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Li Si (about 280 to 208 BC), his chancellor, a student of the philosopher Xunzi and a champion of Legalism, the doctrine of strict laws and harsh punishments.",
+      "Lü Buwei (died 235 BC), the merchant who became chief minister and sponsored an encyclopedia of knowledge.",
+      "Meng Tian, the general who led 300,000 men against the Xiongnu and directed wall-building in the north. He was forced to commit suicide after the emperor's death.",
+      "Fusu, his eldest son, who criticised his harshness and was sent to the frontier, then tricked into suicide by a forged order."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "In the Mediterranean, Rome and Carthage were fighting the Second Punic War (218 to 201 BC); Hannibal crossed the Alps with elephants in 218 BC.",
+      "In India the Maurya Empire, having reached its height under Ashoka, was declining.",
+      "Archimedes was killed at Syracuse in 212 BC, a year after the burning of the books."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "For two thousand years Confucian historians remembered him as the model tyrant. In the 20th century Mao Zedong praised him as a unifier and compared himself to him.",
+      {t:"His own burial mound has never been opened. Sima Qian wrote that it contained a model of the empire with rivers of mercury. Soil tests over the mound in 1981 and 2003 found unusually high levels of mercury.", lab:"likely", why:"The soil studies are published; whether they show rivers of mercury inside the tomb cannot be confirmed without excavating it, which China has decided not to do for now."},
+      "The words for China in many languages, China, Chine, Cina, probably come from Qin, through Sanskrit Cīna."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He buried 460 Confucian scholars alive.", lab:"disputed", t:"Sima Qian says that in 212 BC he had 460 scholars executed, the word often read as 'buried alive'. Some historians think they were mainly magicians who had failed to find immortality potions, and that the story grew later to make him the enemy of Confucianism."},
+      {c:"He built the Great Wall.", lab:"myth", t:"He linked and extended earlier walls, mostly of rammed earth, far north of today's famous sections. The brick and stone wall tourists visit is mostly from the Ming dynasty, about 1,700 years later."},
+      {c:"Every terracotta soldier has a different face.", lab:"likely", t:"Faces were made from a limited number of moulds and then individually finished, so they vary a lot. Whether every single one is unique has never been proven."},
+      {c:"He died from mercury pills taken to live forever.", lab:"disputed", t:"Sima Qian does not give a cause of death. Later writers suggested elixirs, and mercury was used in Chinese alchemy, but there is no direct evidence."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Sima Qian, Records of the Grand Historian (Shiji), chapter 6, Basic Annals of the First Emperor of Qin, Chinese text on Wikisource (public domain)", u:"https://zh.wikisource.org/wiki/史記/卷006"},
+      {n:"Sima Qian, Shiji, chapter 87 (Li Si) and chapter 86 (assassins, including Jing Ke), Chinese text on Wikisource (public domain)", u:"https://zh.wikisource.org/wiki/史記/卷087"},
+      {n:"Emperor Qinshihuang's Mausoleum Site Museum, Xi'an", u:"https://www.bmy.com.cn"},
+      {n:"Further reading: Frances Wood, The First Emperor of China (2007)"},
+      {n:"Further reading: Derk Bodde, China's First Unifier (1938)"}
+    ]}
+  ]
+},
+
+"joan-of-arc": {
+  hero: "",
+  kw: ["Jeanne d'Arc","Maid of Orléans","Orléans","Domrémy","Charles VII","Reims","coronation","Hundred Years' War","voices","Saint Michael","Saint Catherine","Saint Margaret","Burgundians","Compiègne","Rouen","Cauchon","trial","burned@turns","men's clothing","rehabilitation","saint@legacy"],
+  lede: "A peasant teenager who said saints told her to save France, talked her way to the heir to the throne, broke the siege of Orléans and saw him crowned. At nineteen she was burned as a heretic by a church court; twenty-five years later another court cleared her.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Joan was born around 1412 in Domrémy, a village in north-eastern France, during the Hundred Years' War between England and France. From about 13 she said she heard the voices of saints.",
+      "In 1429, aged about 17, she persuaded Charles, the uncrowned heir to the French throne, to send her with an army to relieve the besieged city of Orléans. She succeeded in nine days, and two months later Charles was crowned at Reims.",
+      "Captured in 1430, she was sold to the English and tried for heresy by a church court in Rouen. She was burned at the stake on 30 May 1431. A new trial in 1456 overturned the verdict, and in 1920 the Catholic Church made her a saint."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "Her parents, Jacques d'Arc and Isabelle Romée, were farmers with about 50 acres. She spun wool, sewed, and looked after animals, and could not read or write.",
+      "Domrémy was on the border between lands loyal to the French heir and lands held by the Burgundians, who were allied with England. The village was raided at least once while she was a girl.",
+      {t:"At about 13, in her father's garden, she heard a voice she later identified as Saint Michael, and then Saints Catherine and Margaret. They told her to be good, and later to go to France and help the heir.", lab:"verified", why:"This is what she told her judges in 1431, in the trial record. Whether the voices came from God, from illness or from her own mind is a question of belief and cannot be settled by historians."}
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Vaucouleurs, 1428 to 1429. She asked Robert de Baudricourt, the local captain, for an escort to the heir. He laughed and sent her home. She came back, and in February 1429 he gave in.",
+      {t:"Later stories say he was convinced when she correctly predicted a French defeat near Orléans.", lab:"disputed", why:"The prediction story is not in the trial records; it appears in chronicles written decades later."},
+      "Chinon, February to March 1429. After an 11-day ride through enemy country, dressed in men's clothes, she met Charles at the castle of Chinon. Churchmen at Poitiers examined her for three weeks and found nothing bad in her.",
+      "Orléans, April to May 1429. The city had been under siege by the English since October 1428. Joan arrived with a relief convoy, rallied the soldiers, and was hit by an arrow between neck and shoulder at the fort of Les Tourelles. On 8 May the English withdrew.",
+      "Patay and Reims, June to July 1429. At Patay the French cavalry smashed an English army, the first big French victory in years. Joan then pushed Charles to march through enemy territory to Reims, where French kings were traditionally crowned. He was crowned Charles VII on 17 July, with Joan beside him holding her banner.",
+      "Paris and setbacks, 1429 to 1430. An attack on Paris failed and she was wounded in the thigh. The king made truces and her campaigns faltered.",
+      "Capture, May 1430. Defending Compiègne, she was pulled from her horse by Burgundian soldiers. No attempt by Charles VII to ransom or rescue her is recorded. The Burgundians sold her to the English for 10,000 livres.",
+      {t:"Trial, January to May 1431. In Rouen she was tried by a church court led by Pierre Cauchon, Bishop of Beauvais, a supporter of the English. Questioned for months, alone and without a lawyer, she answered with striking wit. Asked whether she was in God's grace, a trap either way, she replied: 'If I am not, may God put me there; and if I am, may God so keep me.'", lab:"verified", why:"The answer is in the official trial record, which survives in Latin and in parts of the French minutes."},
+      "Death, 30 May 1431. After signing an abjuration under threat of burning, she went back to wearing men's clothing within days. Witnesses at the retrial said her women's clothes had been taken away and that she feared assault by her guards. Judged a relapsed heretic, she was burned in the Old Market square of Rouen. She asked for a cross to be held up before her and called on Jesus as she died. She was about 19."
+    ]},
+    {k:"works", h:"What she did", ps:[
+      "She turned around the morale of the French side at a moment when Charles's cause seemed lost. Her presence at Orléans, Patay and Reims is widely seen as a main reason those campaigns succeeded, though at Patay the fighting was over before she reached it.",
+      {t:"She was not the commander in charge. Experienced captains, such as the Duke of Alençon and the Bastard of Orléans, led the armies, but they often followed her urging to attack.", lab:"likely", why:"Their own testimony at the 1456 retrial describes her role in councils and in the fighting. They were testifying in her favour, so may have shaped their memories."},
+      "She carried a banner rather than fighting with her sword, she said, so as not to kill anyone, and she wrote (through scribes) to the English commanders telling them to go home.",
+      "The coronation at Reims gave Charles VII the legitimacy of an anointed king, which mattered enormously in medieval eyes. The French went on to drive the English out of almost all of France by 1453."
+    ]},
+    {k:"people", h:"Her people", ps:[
+      "Charles VII (1403 to 1461), the heir she led to his coronation, who abandoned her after her capture but later ordered the inquiry that led to her rehabilitation.",
+      "Jean, Bastard of Orléans, later Count of Dunois, the commander at Orléans, who became one of her firmest supporters.",
+      "Pierre Cauchon (1371 to 1442), the bishop who ran her trial, remembered in France as a villain.",
+      "Isabelle Romée, her mother, who campaigned for years to clear her daughter's name and lived to see it done."
+    ]},
+    {k:"world", h:"The world around her", ps:[
+      "The Hundred Years' War had been going on since 1337. In 1420 the Treaty of Troyes had named England's King Henry V heir to the French throne, cutting out Charles.",
+      "In the same years the Chinese admiral Zheng He was making his last voyage; it set sail in 1431, the year she died.",
+      "In Florence, Brunelleschi was building the great dome of the cathedral, and Gutenberg was a young man in Mainz."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "In 1456 a papal court at the request of her family declared the 1431 trial unjust and void. Over 100 witnesses, from childhood friends to soldiers, gave evidence that survives.",
+      "The Catholic Church beatified her in 1909 and canonised her in 1920. She is one of the patron saints of France.",
+      "Writers from Shakespeare (who made her a witch in Henry VI) to Voltaire, Schiller, Mark Twain and George Bernard Shaw have retold her story. In France she has been claimed by the left, the right, the Church and the Republic."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"Her surname was 'of Arc', and she came from a town called Arc.", lab:"myth", t:"She called herself Jehanne la Pucelle, 'Joan the Maid'. Her father's name was written d'Arc or Darc; no link to a place called Arc has been proven."},
+      {c:"She was a soldier who killed many enemies.", lab:"myth", t:"She said at her trial she carried her banner in battle, 'so as to avoid killing anyone', and had never killed anyone. She was wounded several times."},
+      {c:"She was burned for being a witch.", lab:"myth", t:"The final charge was relapsed heresy. Witchcraft accusations were raised early in the trial but dropped. Wearing men's clothing again was treated as the sign of relapse."},
+      {c:"Her heart survived the fire and her ashes are kept in Chinon.", lab:"myth", t:"Her ashes were thrown into the Seine. A jar of supposed relics found in Paris in 1867 was tested in 2007 and turned out to contain an Egyptian mummy's remains and a cat bone."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Jules Quicherat (ed.), Procès de condamnation et de réhabilitation de Jeanne d'Arc (1841 to 1849), the trial records, public domain"},
+      {n:"T. Douglas Murray (ed.), Jeanne d'Arc, Maid of Orleans, Deliverer of France, the trial and rehabilitation records in translation (1902), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/57389"},
+      {n:"Further reading: Régine Pernoud and Marie-Véronique Clin, Joan of Arc: Her Story (1999)"},
+      {n:"Further reading: Helen Castor, Joan of Arc: A History (2014)"}
+    ]}
+  ]
+},
+
+"ibn-battuta": {
+  hero: "",
+  kw: ["Rihla","Tangier","Mecca","hajj","Delhi","Muhammad bin Tughluq","Maldives","Calicut","Quanzhou","Zaytun","Mali","Timbuktu","Mansa Sulayman","Ibn Juzayy","Black Death@turns","Golden Horde","Constantinople","qadi"],
+  lede: "A young legal scholar from Tangier who set out for Mecca at 21 and came home nearly 30 years later, having travelled perhaps 120,000 kilometres across most of the Muslim world and beyond. He then dictated one of the greatest travel books ever made.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Abu Abdallah Muhammad Ibn Battuta was born in Tangier, Morocco, in 1304 into a Berber family of legal scholars. In 1325 he left home to make the pilgrimage to Mecca.",
+      "He kept going. Over the next 29 years he travelled through North Africa, Arabia, Persia, Anatolia, the Russian steppe, Central Asia, India, the Maldives, Sri Lanka, South-East Asia, and he said China, and finally across the Sahara to the empire of Mali.",
+      "Back in Morocco, the sultan had him dictate his story to a scholar, Ibn Juzayy. The result, known as the Rihla ('The Journey'), finished in 1355, is a priceless picture of the 14th-century world, with some parts that historians doubt."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "He was born on 24 February 1304, according to his own account. His family were Lawata Berbers, and several relatives served as qadis, Islamic judges.",
+      "He studied Maliki law, the school followed in North Africa, as was expected of a young man of his background. That training was his passport: across the Muslim world, a scholar could find hospitality, patrons and jobs.",
+      {t:"He left Tangier on 13 or 14 June 1325, alone, at 21. 'I set out alone, having neither fellow-traveller to cheer me, nor caravan,' he recalled, and he wept at leaving his parents.", lab:"verified", why:"This is in the opening of the Rihla, in his own telling (quoted here in Gibb's translation). Both his parents had died by the time he returned."}
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Egypt and Mecca, 1325 to 1327. He crossed North Africa, saw Alexandria and Cairo, the greatest city of the Islamic world, travelled through Syria and joined the hajj caravan to Mecca in 1326. Instead of going home, he went on to Iraq and Persia.",
+      "Arabia and East Africa, 1328 to 1330. He sailed down the Red Sea and the East African coast to Mogadishu, Mombasa and Kilwa, then round Arabia to Oman and the Persian Gulf.",
+      "Anatolia and the steppe, 1330 to 1333. He crossed Anatolia, then the Black Sea to the lands of the Golden Horde, the Mongol khanate of Russia. He says he travelled with a Byzantine princess, a wife of the khan Özbeg, to Constantinople.",
+      "Delhi, 1334 to 1341. He reached India, where Sultan Muhammad bin Tughluq, famous for generosity and for terrible cruelty, made him a qadi of Delhi with a large salary. He lived richly, fell into debt, and at one point feared execution when the sultan turned on one of his friends.",
+      "Shipwreck and the Maldives, 1341 to 1345. The sultan sent him as ambassador to China, but the fleet was wrecked off Calicut. Afraid to return to Delhi, he went to the Maldives, where he served as a judge, married several local women, and tried to make women cover up more, with little success.",
+      {t:"China, 1345 to 1346. He says he sailed via Sri Lanka, Bengal and Sumatra to Quanzhou (which Arabs called Zaytun), and visited Guangzhou and possibly Beijing.", lab:"disputed", why:"His descriptions of China are thin and sometimes muddled, and some scholars think he never went further than southern China, or at all. Others accept the Quanzhou visit."},
+      "The Black Death, 1348. Returning west, he passed through Syria and Egypt as the plague swept through. He describes 2,400 people dying in a single day in Damascus. He learned his mother had died of it.",
+      "Home, and Mali, 1349 to 1354. He reached Fez in 1349, visited Granada in Muslim Spain, then in 1351 crossed the Sahara to the empire of Mali, visiting Mansa Sulayman's court and Timbuktu, and returned in 1354."
+    ]},
+    {k:"works", h:"The Rihla", ps:[
+      "The full title means 'A Gift to Those Who Contemplate the Wonders of Cities and the Marvels of Travelling'. It was written down by Ibn Juzayy, a young scholar from Granada, between 1354 and 1355, on the orders of Sultan Abu Inan of Morocco.",
+      {t:"Some passages were copied from earlier travel writers, especially Ibn Jubayr's 12th-century account of Arabia and Syria.", lab:"verified", why:"Scholars have matched long passages word for word. Ibn Juzayy likely added them to fill gaps in what was dictated from memory."},
+      "Its value lies in details: the price of food, how people dressed and greeted each other, court ceremonies, the coconut trade, how Malian women had a freedom that shocked him, how yogis in Delhi seemed to float in the air, how sultans gave gifts.",
+      {t:"Modern estimates of his route come to about 117,000 kilometres (73,000 miles). No one can measure it, but it was further than any known traveller before the age of steam.", lab:"likely", why:"The figure is a modern reconstruction from his route, not a number he gave."}
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Ibn Juzayy (1321 to 1357), the scribe and editor who shaped the Rihla's elegant prose.",
+      "Muhammad bin Tughluq (ruled 1325 to 1351), the brilliant, unpredictable Sultan of Delhi who employed him for years.",
+      "Mansa Sulayman of Mali, brother of the famously rich Mansa Musa, whose court he found impressive and whose gifts he found stingy.",
+      "Many wives and children along the way, most of whom he left behind; he mentions them in passing."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "His life overlapped with Marco Polo's in only one way: Polo died in 1324, the year before he set out. Both described the Mongol world, from opposite directions.",
+      "Mansa Musa of Mali had made his famous hajj through Cairo in 1324, spending so much gold that he is said to have depressed its value there for years.",
+      "In Europe, Dante had just died (1321), and the Black Death that Ibn Battuta saw in Syria was killing a third or more of Europe's people."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "The Rihla was little known in Europe until manuscripts reached scholars in the 19th century. A full French translation by Defrémery and Sanguinetti appeared in 1853 to 1858.",
+      "Today it is a key source for the history of the Maldives, Mali, Anatolia, the Delhi Sultanate and the Swahili coast, places where few other written accounts survive.",
+      "Morocco honours him widely, and Tangier claims his tomb, though nobody knows where he is buried. A crater on the Moon is named after him, as is a shopping mall in Dubai."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"Everything in the Rihla is his eyewitness account.", lab:"myth", t:"Parts were copied from Ibn Jubayr and other writers, some journeys, like a trip to Bulgar in the far north, are probably invented, and dates often do not fit together. Most of it, though, matches other sources well."},
+      {c:"He travelled further than anyone before him.", lab:"likely", t:"No pre-modern traveller is known to have covered more ground. Comparisons are rough because no one kept count."},
+      {c:"He went to China.", lab:"disputed", t:"He says so, and some details of Quanzhou fit. But his China chapter is vague, and some historians think it is borrowed from merchants' tales."},
+      {c:"He travelled alone.", lab:"myth", t:"He left Tangier alone, but almost always travelled with caravans, servants, slaves and companions, often with a large household."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Ibn Battuta, Rihla, edited and translated into French by C. Defrémery and B. R. Sanguinetti, Voyages d'Ibn Batoutah (1853 to 1858), 4 volumes, public domain"},
+      {n:"The Travels of Ibn Batuta, translated by Samuel Lee (1829), public domain"},
+      {n:"Ibn Battuta, Travels in Asia and Africa 1325 to 1354, selections translated by H. A. R. Gibb (1929), Fordham Medieval Sourcebook (free to read)", u:"https://sourcebooks.web.fordham.edu/source/batuta.asp"},
+      {n:"Further reading: Ross E. Dunn, The Adventures of Ibn Battuta (1986)"},
+      {n:"Further reading: Tim Mackintosh-Smith, Travels with a Tangerine (2001)"}
+    ]}
+  ]
+},
+
+"mozart": {
+  hero: "",
+  kw: ["Wolfgang","Amadeus","Salzburg","Leopold","Nannerl","Vienna","Constanze","Don Giovanni","The Marriage of Figaro","Figaro","The Magic Flute","Requiem","Così fan tutte","Köchel","Salieri@myths","Haydn","Colloredo","Mozart effect@myths","Prague"],
+  lede: "A child star who toured Europe's courts at six, wrote more than 600 works, broke with his employer to go freelance in Vienna, and died at 35 leaving his Requiem unfinished.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Wolfgang Amadeus Mozart was born in Salzburg in 1756, the son of Leopold Mozart, a court violinist and composer. He was performing for emperors at six and writing symphonies at eight.",
+      "After years in the service of Salzburg's prince-archbishop, he moved to Vienna in 1781 to work as a freelance pianist, teacher and composer. There he wrote his greatest operas, The Marriage of Figaro, Don Giovanni, Così fan tutte and The Magic Flute, along with piano concertos, symphonies and chamber music.",
+      "He died in Vienna on 5 December 1791, aged 35, probably of an illness with fever and swelling. He left more than 600 works, catalogued by Ludwig von Köchel in 1862, which is why his pieces carry 'K.' numbers."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "He was born on 27 January 1756 and baptised Joannes Chrysostomus Wolfgangus Theophilus. He later used the Latin form of Theophilus, Amadeus, now and then; he usually signed 'Wolfgang Amadè'.",
+      "His sister Maria Anna, called Nannerl, four and a half years older, was also a brilliant keyboard player. Leopold taught them both and published a famous violin method the year Wolfgang was born.",
+      {t:"From 1762 the family toured: Munich, Vienna, then a three-and-a-half-year grand tour to Paris, London and the Netherlands. In Vienna, the six-year-old jumped onto Empress Maria Theresa's lap and kissed her.", lab:"likely", why:"The tours are fully documented in Leopold's letters. The lap story is in a letter from Leopold."},
+      "In London, in 1764 and 1765, he met Johann Christian Bach, Johann Sebastian's youngest son, who played with him on his knee, and wrote his first symphonies.",
+      "In Italy, 1769 to 1773, he was knighted by the Pope and wrote operas for Milan."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Salzburg and frustration, 1773 to 1781. He worked for the new prince-archbishop, Hieronymus Colloredo, who paid him little and allowed him few trips. On a job-hunting tour to Mannheim and Paris in 1777 to 1779, his mother, who travelled with him, died in Paris.",
+      {t:"The kick, 1781. Called to Vienna with the archbishop's household, he quarrelled with Colloredo and resigned. The archbishop's steward, Count Arco, showed him out with a kick in the backside.", lab:"verified", why:"Mozart describes it himself in a letter to his father of 9 June 1781."},
+      "Marriage, 1782. He married Constanze Weber, against his father's wishes. They had six children; only two sons survived infancy.",
+      "Success, 1782 to 1786. His German opera The Abduction from the Seraglio was a hit in 1782. He gave subscription concerts, playing his own piano concertos, and earned well. Joseph Haydn told Leopold in 1785 that his son was the greatest composer he knew.",
+      "Figaro and Don Giovanni, 1786 to 1787. With the librettist Lorenzo Da Ponte he wrote The Marriage of Figaro (1786), based on a banned French play, and Don Giovanni (1787), premiered in Prague, where audiences adored him.",
+      "Harder years, 1788 to 1790. War with Turkey hit Vienna's musical life. He wrote begging letters to his friend Michael Puchberg, but also his last three symphonies, in about six weeks in summer 1788.",
+      "The last year, 1791. He wrote The Magic Flute for a popular theatre, La clemenza di Tito for a coronation in Prague, a clarinet concerto, and began a Requiem commissioned anonymously by Count Walsegg. He fell ill in November and died early on 5 December."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "Opera: The Marriage of Figaro, Don Giovanni and Così fan tutte, all with Da Ponte, and The Magic Flute, a magical comedy in German. They are among the most performed operas in the world.",
+      "Piano concertos: 27, many written to perform himself in Vienna, which shaped the form for Beethoven and after.",
+      "Symphonies: about 41 numbered, ending with No. 40 in G minor and No. 41, 'Jupiter', in 1788.",
+      "Chamber music, sonatas, masses and the Requiem, which was completed after his death by his pupil Franz Xaver Süssmayr, at Constanze's request.",
+      {t:"He wrote fast. His own catalogue, begun in 1784, lists pieces in the order he finished them.", lab:"verified", why:"His handwritten thematic catalogue survives in the British Library."}
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Leopold Mozart (1719 to 1787), his father, teacher, manager and fierce critic, whose letters to and from Wolfgang are the main record of his life.",
+      "Nannerl Mozart (1751 to 1829), his sister, a prodigy herself, whose career was cut short because she was a woman; she married, moved to nearby St Gilgen, and returned to Salzburg as a widow.",
+      "Constanze Mozart (1762 to 1842), his wife, who after his death protected his manuscripts, sold them carefully, and married a Danish diplomat who wrote an early major biography of him.",
+      "Joseph Haydn (1732 to 1809), friend and mentor, to whom Mozart dedicated six string quartets."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "He lived in the Age of Enlightenment. Emperor Joseph II, an Enlightenment reformer, allowed Figaro to be staged even though the play mocked aristocrats.",
+      "The American Declaration of Independence came in 1776, when he was 20. The French Revolution began in 1789, two years before his death.",
+      "Beethoven, almost 15 years younger, came to Vienna from Bonn in 1787 hoping to study with him, but had to go home after a few weeks when his mother fell ill."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "He wrote in every form of his time and excelled in all, which few composers have done before or since.",
+      "His music is the backbone of the classical repertoire, from student piano pieces to the opera house. Salzburg, which he was glad to leave, now celebrates him with a festival every summer.",
+      "Peter Shaffer's play Amadeus (1979) and Miloš Forman's 1984 film made him a pop-culture figure, and also spread several myths about him."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"Salieri poisoned him.", lab:"myth", t:"Rumours of poison began soon after his death and fixed on Salieri in the 1820s, and Pushkin turned them into a short play in 1830, which inspired Amadeus. Salieri denied it, there is no evidence, and the two men worked together; Salieri even attended The Magic Flute with Mozart, who was pleased with his praise."},
+      {c:"He was buried in a pauper's grave.", lab:"myth", t:"He had a common grave, which was the normal, inexpensive burial for ordinary Viennese under Joseph II's rules, not a pauper's. The exact spot is unknown."},
+      {c:"He died penniless.", lab:"disputed", t:"He earned well in good years and was in debt in the late 1780s, but his income was rising again in 1791. He spent freely, so he was short of money, not destitute."},
+      {c:"Playing Mozart makes babies smarter.", lab:"myth", t:"The 'Mozart effect' came from a 1993 study showing a small, short-lived improvement in one spatial task in college students. It was never about babies, and later studies failed to show a lasting effect."},
+      {c:"He wrote music perfectly without corrections.", lab:"myth", t:"Some of his manuscripts are very clean, but sketches and drafts with corrections survive, especially for complex works."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"The Letters of Wolfgang Amadeus Mozart (1769 to 1791), translated by Lady Wallace (1866), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/5307"},
+      {n:"Otto Jahn, Life of Mozart, translated by Pauline Townsend (1882), public domain"},
+      {n:"Neue Mozart-Ausgabe (Digital Mozart Edition), Mozarteum Foundation Salzburg (free to view)", u:"https://dme.mozarteum.at"},
+      {n:"Further reading: Maynard Solomon, Mozart: A Life (1995)"},
+      {n:"Further reading: Jan Swafford, Mozart: The Reign of Love (2020)"}
+    ]}
+  ]
+},
+
+"darwin": {
+  hero: "",
+  kw: ["Beagle","Galápagos","Galapagos","finches@myths","natural selection","evolution","On the Origin of Species","Origin of Species","Descent of Man","Down House","Emma","Wallace","Huxley","Wilberforce","survival of the fittest@myths","tortoises","barnacles","earthworms"],
+  lede: "A young man who dropped medical school, sailed round the world for five years, then spent twenty years quietly gathering evidence before publishing the idea that all living things share common ancestors, shaped by natural selection.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Charles Darwin was born in Shrewsbury, England, in 1809 into a wealthy family of doctors and pottery manufacturers. From 1831 to 1836 he sailed around the world as a naturalist on HMS Beagle.",
+      "Back home, he worked out the theory of evolution by natural selection: living things vary, more are born than survive, and those with useful variations are more likely to survive and pass them on. Over vast time, this creates new species.",
+      "He published On the Origin of Species in 1859, after Alfred Russel Wallace reached the same idea independently. The book transformed biology. He died in 1882 and was buried in Westminster Abbey."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "He was born on 12 February 1809, the same day as Abraham Lincoln. His grandfathers were the doctor and poet Erasmus Darwin, who had speculated about evolution, and the potter Josiah Wedgwood.",
+      "His mother died when he was eight. At school he collected beetles, shells and minerals and was considered ordinary.",
+      {t:"At 16 he went to Edinburgh to study medicine, but could not bear surgery without anaesthetic. His father then sent him to Cambridge to become a clergyman. There the botanist John Stevens Henslow became his mentor.", lab:"verified", why:"Darwin describes all this in his Autobiography, written for his family in 1876."}
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "The Beagle, 1831 to 1836. Henslow recommended him as a gentleman companion and naturalist for Captain Robert FitzRoy on a survey voyage. He was 22. He was often seasick, but spent most of the five years ashore in South America, collecting fossils, rocks, plants and animals.",
+      "The Galápagos, 1835. He spent five weeks on these Pacific islands. He noticed that the mockingbirds differed from island to island, and the vice-governor told him he could tell which island a tortoise came from by its shell.",
+      "The idea, 1837 to 1838. Back in England, experts told him his Galápagos birds were distinct species. In July 1837 he began a notebook on 'transmutation' and drew a branching tree with the words 'I think'. In 1838, reading Thomas Malthus on population, he saw how competition could drive natural selection.",
+      "Twenty quiet years, 1839 to 1858. He married his cousin Emma Wedgwood in 1839, moved to Down House in Kent, and suffered long bouts of illness. He studied barnacles for eight years, bred pigeons and wrote to correspondents worldwide, building his case. His beloved daughter Annie died in 1851, aged ten, which deepened his loss of faith.",
+      "Wallace, 1858. Alfred Russel Wallace, collecting in the Malay Archipelago, sent Darwin an essay with the same theory. Friends arranged for both men's work to be read together at the Linnean Society on 1 July 1858.",
+      "On the Origin of Species, 1859. Published on 24 November, its first printing of 1,250 copies was taken up by booksellers on the first day. It went through six editions in his lifetime.",
+      "Debate, 1860. At a meeting in Oxford, Bishop Samuel Wilberforce mocked the theory and Thomas Henry Huxley defended it. Darwin was away, ill, at a water-cure clinic.",
+      "Humans, 1871. In The Descent of Man he argued that humans too had evolved, probably in Africa, and explained differences between the sexes by sexual selection."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "The Voyage of the Beagle (1839), his journal of the voyage, was a bestseller in its own right.",
+      "On the Origin of Species (1859): the case for common descent and natural selection, built from thousands of observations, including on domestic animals, fossils and geography.",
+      "The Descent of Man (1871) and The Expression of the Emotions in Man and Animals (1872), one of the first books with photographs.",
+      "Books on orchids, climbing plants, carnivorous plants and, his last, earthworms (1881), which showed how worms slowly build soil. It sold better at first than the Origin."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Emma Darwin (1808 to 1896), his wife, a devout Christian who worried about his loss of faith but supported his work and nursed him. They had ten children.",
+      "Alfred Russel Wallace (1823 to 1913), co-discoverer of natural selection, who stayed generous to Darwin all his life and called his own book Darwinism.",
+      "Thomas Henry Huxley (1825 to 1895), 'Darwin's bulldog', who fought his public battles.",
+      "Joseph Dalton Hooker (1817 to 1911), botanist and his closest scientific confidant, one of the first people he told about his theory, in 1844."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Britain was at the height of its empire and industrial power. The Beagle's job was to chart coastlines for the Royal Navy and for trade.",
+      "Geology had just shown the Earth was very old; Charles Lyell's Principles of Geology, which Darwin read on the Beagle, was crucial to his thinking.",
+      "Gregor Mendel published his pea experiments on heredity in 1866. Darwin never knew of them, and the link between the two was made only in the 20th century."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "Evolution by natural selection, combined with genetics, is the foundation of modern biology. 'Nothing in biology makes sense except in the light of evolution,' the geneticist Theodosius Dobzhansky wrote in 1973.",
+      "His ideas were misused by others to justify racism and 'social Darwinism', which Darwin did not invent, though some of his own views on race reflected the prejudices of his time.",
+      "Down House is now a museum, and his notebooks, letters and collections are digitised and free to read online."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"Darwin's finches made him think of evolution on the spot.", lab:"myth", t:"He did not label his finches by island and did not realise their importance until the ornithologist John Gould studied them in London in 1837. The mockingbirds and tortoises struck him more at the time."},
+      {c:"He said 'survival of the fittest'.", lab:"likely", t:"The phrase was coined by Herbert Spencer in 1864. Darwin adopted it in the fifth edition of the Origin (1869) as another name for natural selection. 'Fittest' means best suited to the environment, not strongest."},
+      {c:"He said humans descended from monkeys.", lab:"myth", t:"He argued that humans and apes share a common ancestor, not that humans came from living monkeys."},
+      {c:"He renounced evolution on his deathbed.", lab:"myth", t:"The story was spread by an evangelist, Lady Hope, in 1915. His children, who were with him, said it never happened."},
+      {c:"He came up with evolution.", lab:"myth", t:"The idea of evolution was older, including his grandfather Erasmus and the French naturalist Lamarck. Darwin's contribution was the mechanism, natural selection, and the mass of evidence."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Charles Darwin, On the Origin of Species (1859), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/1228"},
+      {n:"Charles Darwin, The Voyage of the Beagle (Journal of Researches), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/3704"},
+      {n:"The Autobiography of Charles Darwin, edited by Francis Darwin (1887), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/2010"},
+      {n:"Darwin Correspondence Project, University of Cambridge (free to read)", u:"https://www.darwinproject.ac.uk"},
+      {n:"Further reading: Janet Browne, Charles Darwin: Voyaging (1995) and The Power of Place (2002)"}
+    ]}
+  ]
+},
+
+"lincoln": {
+  hero: "",
+  kw: ["Abe","Honest Abe","log cabin","Illinois","Springfield","Mary Todd","Douglas","debates","Republican","Civil War","Emancipation Proclamation","Gettysburg Address","Gettysburg","13th Amendment","Thirteenth Amendment","Ford's Theatre","John Wilkes Booth","assassination","Grant","Frederick Douglass@people"],
+  lede: "A frontier boy with less than a year of schooling who taught himself law, rose to the presidency as the country broke apart, led the Union through civil war, moved to end slavery, and was shot five days after the war was won.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Abraham Lincoln was born in a log cabin in Kentucky in 1809 and grew up on frontier farms in Indiana. He became a lawyer and politician in Illinois.",
+      "He was elected the 16th President of the United States in 1860 on a platform of stopping slavery from spreading. Eleven Southern states left the Union and the Civil War began in April 1861.",
+      "He issued the Emancipation Proclamation in 1863, gave the Gettysburg Address, won re-election in 1864, and pushed the 13th Amendment abolishing slavery through Congress. He was assassinated on 14 April 1865 and died the next morning."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "He was born on 12 February 1809 near Hodgenville, Kentucky, to Thomas and Nancy Lincoln, poor farmers. The family moved to Indiana when he was seven.",
+      "His mother died when he was nine. His father remarried, and his stepmother, Sarah Bush Johnston, encouraged his reading.",
+      {t:"He had, by his own estimate, less than a year of formal schooling in total. He read whatever he could borrow: the Bible, Aesop's Fables, Pilgrim's Progress, a life of George Washington.", lab:"verified", why:"Lincoln wrote this in a short autobiography for a campaign biography in 1860."},
+      "In 1831 he settled in New Salem, Illinois, working as a storekeeper, postmaster and surveyor. He served briefly as a militia captain in the Black Hawk War of 1832 and saw no combat."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Law and politics, 1834 to 1849. He was elected to the Illinois legislature in 1834, taught himself law, and moved to Springfield in 1837. He married Mary Todd in 1842. He served one term in Congress, from 1847 to 1849, where he opposed the Mexican War.",
+      "Back in the fight, 1854. The Kansas-Nebraska Act allowed slavery into new territories if settlers voted for it. Outraged, Lincoln returned to politics and joined the new Republican Party.",
+      {t:"The Lincoln-Douglas debates, 1858. Running for the Senate against Stephen Douglas, he held seven debates across Illinois. He lost the election but became nationally known. He had said that 'a house divided against itself cannot stand'.", lab:"verified", why:"His 'House Divided' speech, 16 June 1858, quoting the Gospels (Mark 3:25)."},
+      "President, 1860. With the Democrats split, he won the presidency with about 40 per cent of the popular vote and almost none in the South. Before he took office, seven Southern states seceded and formed the Confederacy.",
+      "War, April 1861. Confederate guns fired on Fort Sumter in Charleston harbour. Lincoln called for troops. Four more states seceded.",
+      "Emancipation, 1862 to 1863. After the Union victory at Antietam, he issued a preliminary proclamation; on 1 January 1863 the Emancipation Proclamation declared enslaved people in the rebelling states free and allowed Black men to join the Union army. About 180,000 did.",
+      {t:"Gettysburg, November 1863. At the dedication of a cemetery for soldiers killed in the battle of Gettysburg he spoke for about two minutes, about a nation 'conceived in Liberty' and a 'new birth of freedom', ending with 'government of the people, by the people, for the people'.", lab:"verified", why:"Five manuscript copies survive in his hand, with small differences between them."},
+      "Re-election and the 13th Amendment, 1864 to 1865. With General Ulysses S. Grant's victories, he won re-election in November 1864. In January 1865 the House passed the 13th Amendment abolishing slavery, after intense lobbying by his administration.",
+      "Victory and death, April 1865. General Lee surrendered on 9 April. On 14 April, Good Friday, at Ford's Theatre in Washington, the actor and Confederate sympathiser John Wilkes Booth shot him in the back of the head. He died at 7.22 the next morning, aged 56."
+    ]},
+    {k:"works", h:"What he did", ps:[
+      "He held the Union together through a war that killed over 600,000 soldiers, roughly as many as in all other American wars up to Vietnam combined.",
+      "He moved from opposing the spread of slavery to ending it, through the Emancipation Proclamation and the 13th Amendment, ratified in December 1865 after his death.",
+      {t:"He suspended habeas corpus, the right to challenge imprisonment in court, in parts of the country, and thousands of civilians were arrested without trial during the war.", lab:"verified", why:"The suspension and the arrests are well documented, including the federal court case Ex parte Merryman (1861), in which Chief Justice Taney, sitting as a circuit judge, ruled against him and Lincoln ignored the ruling."},
+      "His speeches, especially the Gettysburg Address and the Second Inaugural ('With malice toward none, with charity for all'), are among the most admired in the English language."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Mary Todd Lincoln (1818 to 1882), his wife, from a slaveholding Kentucky family. Three of their four sons died before adulthood; Willie died in the White House in 1862.",
+      {t:"Frederick Douglass (1818 to 1895), the abolitionist, met him three times at the White House and pushed him to move faster on emancipation and equal pay for Black soldiers. Douglass later called him 'preeminently the white man's President' but also praised his growth.", lab:"verified", why:"Douglass's 'Oration in Memory of Abraham Lincoln' (1876)."},
+      "Ulysses S. Grant (1822 to 1885), the general whose persistence won the war.",
+      "William H. Seward (1801 to 1872), his rival for the nomination who became his Secretary of State; he was stabbed in a separate attack on the night Lincoln was shot and survived."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Charles Darwin was born on exactly the same day, 12 February 1809. Darwin's Origin of Species came out the year before Lincoln was elected.",
+      "Russia freed its serfs in 1861, the year the Civil War began. Britain had abolished slavery in its empire in 1834.",
+      "Victoria was Queen of Britain, and Britain stayed neutral, partly because the Emancipation Proclamation made it hard to support a slave state."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "He is often ranked by historians as the greatest American president. The Lincoln Memorial in Washington, dedicated in 1922, was where Martin Luther King Jr. gave his 'I Have a Dream' speech in 1963.",
+      "His views on race changed over time. In 1858 he said he did not support social and political equality for Black people. By 1865 he publicly supported the vote for some Black men, which is the speech that made Booth decide to kill him.",
+      "His face is on the US penny and the five-dollar bill, and carved into Mount Rushmore."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"The Emancipation Proclamation freed all the slaves.", lab:"myth", t:"It applied only in states in rebellion, not in loyal slave states like Kentucky and Maryland. It freed people as Union armies advanced. Slavery was abolished everywhere by the 13th Amendment in 1865."},
+      {c:"He wrote the Gettysburg Address on the back of an envelope on the train.", lab:"myth", t:"He drafted it in Washington and revised it in Gettysburg. The surviving copies are on ordinary paper."},
+      {c:"He fought the war to end slavery from the start.", lab:"myth", t:"His first aim was to save the Union. In 1862 he wrote to the editor Horace Greeley that if he could save the Union without freeing any slave he would do it. But he was already drafting the Emancipation Proclamation."},
+      {c:"He was born in a log cabin.", lab:"verified", t:"He was. The cabin displayed at his birthplace memorial in Kentucky, though, is a symbolic one; its logs are not from the original."},
+      {c:"'You can fool all the people some of the time...' is his line.", lab:"disputed", t:"It is widely credited to him, but it does not appear in his speeches or writings and was first attributed to him decades after his death."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Speeches and Letters of Abraham Lincoln, 1832 to 1865, edited by Merwin Roe (1907), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/14721"},
+      {n:"Collected Works of Abraham Lincoln, edited by Roy P. Basler, University of Michigan digital library (free to read)", u:"https://quod.lib.umich.edu/l/lincoln/"},
+      {n:"Frederick Douglass, Oration in Memory of Abraham Lincoln (1876), public domain"},
+      {n:"Further reading: David Herbert Donald, Lincoln (1995)"},
+      {n:"Further reading: Eric Foner, The Fiery Trial: Abraham Lincoln and American Slavery (2010)"}
+    ]}
+  ]
+},
+
+"gandhi": {
+  hero: "",
+  kw: ["Mohandas","Mahatma","Bapu","satyagraha","nonviolence","ahimsa","South Africa","Pietermaritzburg","Salt March","Dandi","Quit India","spinning wheel","khadi","Champaran","Kasturba","Nehru","Jinnah","Partition","Godse","assassination","fasts"],
+  lede: "A shy lawyer thrown off a train in South Africa who turned peaceful mass disobedience into a weapon, led India's struggle against British rule, and was shot by a Hindu nationalist five months after independence.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Mohandas Karamchand Gandhi was born in 1869 in Porbandar, in western India. He studied law in London and spent 21 years in South Africa, where he developed satyagraha, 'holding firmly to truth', a method of nonviolent resistance.",
+      "Back in India from 1915, he led mass campaigns against British rule: non-cooperation, the Salt March of 1930 and the Quit India movement of 1942. He lived simply, spun his own cloth and fasted for causes. People called him Mahatma, 'great soul'.",
+      "India became independent on 15 August 1947 but was partitioned with terrible violence. On 30 January 1948 Gandhi was shot dead in Delhi by Nathuram Godse, a Hindu nationalist."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "He was born on 2 October 1869. His father was chief minister of the small princely state of Porbandar. His mother was deeply religious and fasted often, which influenced him.",
+      "At 13 he was married to Kasturbai Makhanji Kapadia, who was 14, in an arranged marriage. They had four sons.",
+      {t:"At 18 he sailed to London to study law, promising his mother to avoid meat, alcohol and women. He joined the London Vegetarian Society and first read the Bhagavad Gita, in English.", lab:"verified", why:"Described in his autobiography, The Story of My Experiments with Truth (1927 to 1929)."},
+      "Back in India in 1891, he failed as a lawyer: in his first case he was too nervous to speak."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      {t:"The train, 1893. Working for an Indian firm in South Africa, he was thrown off a train at Pietermaritzburg for refusing to leave a first-class carriage reserved for whites. He spent a cold night in the station and decided to fight the injustice.", lab:"verified", why:"His own account in the autobiography. He told this as the turning point of his life."},
+      "South Africa, 1893 to 1914. He organised Indians against discriminatory laws, founded a newspaper and two communal farms, and in 1906 led the first mass satyagraha against a law requiring Indians to register and carry passes. He was jailed several times.",
+      "Return to India, 1915. He toured the country by third-class railway, then led local campaigns for indigo farmers in Champaran (1917) and mill workers in Ahmedabad (1918).",
+      "Non-cooperation, 1920 to 1922. After troops under a British general shot dead hundreds of unarmed people at Amritsar in 1919, he called for Indians to boycott British goods, courts and schools. When a crowd killed 22 policemen at Chauri Chaura in 1922, he called the movement off. He was then jailed for six years and served two.",
+      "The Salt March, 1930. British law taxed salt and forbade Indians to make it. He walked about 390 kilometres from his ashram near Ahmedabad to the sea at Dandi with 78 followers, and on 6 April picked up a lump of natural salt. Tens of thousands followed and were arrested, including him.",
+      "London, 1931. He attended a Round Table Conference in London, dressed in his loincloth and shawl, and visited cotton workers in Lancashire who had lost jobs because of the Indian boycott. They cheered him.",
+      "Quit India, 1942. During the Second World War he demanded that Britain leave India immediately. He and the whole Congress leadership were arrested. Kasturba died in detention in 1944.",
+      "Independence and partition, 1947. Britain agreed to leave, but India was divided into India and Pakistan. Gandhi opposed partition. As up to a million people died in religious violence, he walked through riot areas and fasted to stop killings in Calcutta and Delhi.",
+      "Death, 30 January 1948. On his way to evening prayers at Birla House in Delhi, he was shot three times at close range by Nathuram Godse, who blamed him for being too soft on Muslims and Pakistan. He was 78."
+    ]},
+    {k:"works", h:"His ideas", ps:[
+      "Satyagraha: resisting injustice openly and without violence, accepting punishment, and trying to convert the opponent rather than defeat them.",
+      "Ahimsa, non-harm, drawn from Hindu and Jain teaching, and influenced by Tolstoy's writings, with whom he corresponded, and by the Sermon on the Mount.",
+      "Swadeshi and swaraj: self-reliance and self-rule. He spun cotton daily on a charkha, a spinning wheel, and urged Indians to wear khadi, homespun cloth, instead of British imports. The wheel was on the flag of the independence movement.",
+      "He campaigned against untouchability, calling Dalits 'Harijans', 'children of God', a name many Dalits later rejected as patronising."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Kasturba Gandhi (1869 to 1944), his wife, who joined his campaigns and went to jail herself.",
+      "Jawaharlal Nehru (1889 to 1964), his chosen political heir and India's first Prime Minister.",
+      "Muhammad Ali Jinnah (1876 to 1948), once a Congress ally, who led the Muslim League and founded Pakistan.",
+      {t:"B. R. Ambedkar (1891 to 1956), leader of the Dalits and chief architect of India's constitution, who clashed with him sharply over how to end caste oppression.", lab:"verified", why:"Their disputes, including over separate electorates in 1932, are well documented in both men's writings."}
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "He was born four years after the American Civil War ended and died three years after the Second World War. Tolstoy, whom he admired, died in 1910.",
+      "The British Raj ruled about 300 million people with a few thousand British officials and an army largely of Indian soldiers.",
+      "Charlie Chaplin met him in London in 1931 and asked about his objection to machines."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "His methods inspired Martin Luther King Jr. and the American civil rights movement, Nelson Mandela's early campaigns, and peaceful protests around the world.",
+      "His birthday, 2 October, is a national holiday in India and the UN's International Day of Non-Violence.",
+      {t:"He was nominated for the Nobel Peace Prize five times but never received it. Later members of the Nobel committee have publicly regretted it.", lab:"verified", why:"Nobelprize.org, 'Mahatma Gandhi, the Missing Laureate' (Øyvind Tønnesson, 1999); the committee's secretary Geir Lundestad called it the greatest omission in the prize's history in 2006."},
+      "He is also criticised: for his early views on Black Africans in South Africa, his treatment of his wife and family, his sexual 'experiments' in old age, and his approach to caste. Historians weigh these alongside his achievements."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He said 'Be the change you wish to see in the world.'", lab:"myth", t:"That phrase does not appear in his writings. He wrote something related in 1913: that if we could change ourselves, the tendencies in the world would also change. The bumper-sticker version is a later paraphrase."},
+      {c:"He alone won India's independence.", lab:"myth", t:"Many movements and leaders, including revolutionaries, the Indian National Army, naval mutinies in 1946, and Britain's exhaustion after the Second World War, all played a part."},
+      {c:"'Mahatma' was his name.", lab:"myth", t:"It is an honorific meaning 'great soul', popularised around 1915; the poet Rabindranath Tagore is often credited, though it was used earlier. He said he disliked it."},
+      {c:"His last words were 'Hé Ram' ('Oh God').", lab:"disputed", t:"This is the traditional account and is carved on his memorial at Raj Ghat. Some people who were there said he said nothing, or could not hear. Historians remain divided."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"M. K. Gandhi, An Autobiography, or The Story of My Experiments with Truth, translated by Mahadev Desai (1927 to 1929), Standard Ebooks (public domain in the United States)", u:"https://standardebooks.org/ebooks/mahatma-gandhi/the-story-of-my-experiments-with-truth/mahadev-desai"},
+      {n:"M. K. Gandhi, Indian Home Rule (Hind Swaraj) (1909), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/40461"},
+      {n:"The Collected Works of Mahatma Gandhi, Publications Division, Government of India, hosted on the Gandhi Heritage Portal of the Sabarmati Ashram Trust (free to read online)", u:"https://www.gandhiheritageportal.org"},
+      {n:"Further reading: Ramachandra Guha, Gandhi Before India (2013) and Gandhi: The Years That Changed the World (2018)"},
+      {n:"Further reading: Judith M. Brown, Gandhi: Prisoner of Hope (1989)"}
+    ]}
+  ]
 }
 });
