@@ -54,6 +54,16 @@
   "w": 595,
   "h": 800
  },
+ "andersen": {
+  "title": "Hans Christian Andersen by Thora Hallager 1869",
+  "artist": "Thora Hallager",
+  "date": "10 October or 16 October 1869",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Hans_Christian_Andersen_by_Thora_Hallager_1869.jpg",
+  "file": "Hans Christian Andersen by Thora Hallager 1869.jpg",
+  "w": 525,
+  "h": 800
+ },
  "archimedes": {
   "title": "Archimedes Thoughtful - Portrait of a Scholar (Archimedes?)",
   "artist": "Domenico Fetti",
@@ -81,6 +91,16 @@
    "likely",
    "Probably made long after their lifetime. Nobody knows how close it is to their real face."
   ]
+ },
+ "armstrong": {
+  "title": "Neil Armstrong pose",
+  "artist": "Unknown author Unknown author",
+  "date": "Taken on 1 July 1969",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Neil_Armstrong_pose.jpg",
+  "file": "Neil Armstrong pose.jpg",
+  "w": 640,
+  "h": 800
  },
  "babbage": {
   "title": "The Late Mr. Babbage",
@@ -146,6 +166,16 @@
    "An artist's imagining made many centuries after his life"
   ]
  },
+ "byron": {
+  "title": "Portrait of Lord Byron , British poet (1788–1824)",
+  "artist": "Thomas Phillips",
+  "date": "1813 date QS:P571,+1813-00-00T00:00:00Z/9",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Byron_1813_by_Phillips.jpg",
+  "file": "Byron 1813 by Phillips.jpg",
+  "w": 621,
+  "h": 800
+ },
  "catherine-the-great": {
   "title": "Portrait of Catherine II of Russia",
   "artist": "Johann Baptist von Lampi the Elder",
@@ -154,6 +184,16 @@
   "page": "https://commons.wikimedia.org/wiki/File:Catherine_II_by_J.B.Lampi_(1794,_Hermitage).jpg",
   "file": "Catherine II by J.B.Lampi (1794, Hermitage).jpg",
   "w": 507,
+  "h": 800
+ },
+ "cervantes": {
+  "title": "Portrait of Miguel de Cervantes y Saavedra (1547-1615)",
+  "artist": "Attributed to Juan de Jáuregui",
+  "date": "circa 1600 date QS:P571,+1600-00-00T00:00:00Z/9,P1480,Q5727902",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Cervantes_J%C3%A1uregui.jpg",
+  "file": "Cervantes Jáuregui.jpg",
+  "w": 610,
   "h": 800
  },
  "charlemagne": {
@@ -178,6 +218,16 @@
   "page": "https://commons.wikimedia.org/wiki/File:Chopin,_by_Wodzinska.JPG",
   "file": "Chopin, by Wodzinska.JPG",
   "w": 593,
+  "h": 800
+ },
+ "churchill": {
+  "title": "The Roaring Lion",
+  "artist": "Unknown",
+  "date": "30 December 1941",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Sir_Winston_Churchill_-_19086236948_(restored).jpg",
+  "file": "Sir Winston Churchill - 19086236948 (restored).jpg",
+  "w": 644,
   "h": 800
  },
  "cleopatra": {
@@ -228,6 +278,20 @@
   "w": 800,
   "h": 782
  },
+ "dante": {
+  "title": "Portrait of Dante",
+  "artist": "Sandro Botticelli",
+  "date": "1495",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Portrait_de_Dante.jpg",
+  "file": "Portrait de Dante.jpg",
+  "w": 360,
+  "h": 550,
+  "note": [
+   "likely",
+   "Made about 174 years after Dante Alighieri died, so it shows how later artists imagined them."
+  ]
+ },
  "descartes": {
   "title": "Portrait of René Descartes",
   "artist": "After Frans Hals",
@@ -259,13 +323,13 @@
   "h": 800
  },
  "douglass": {
-  "title": "Frederick Douglass as a younger man",
-  "artist": "Engraved by J.C. Buttre from a daguerreotype.",
-  "date": "1855",
+  "title": "Frederick Douglass (circa 1879)",
+  "artist": "George Kendall Warren",
+  "date": "circa 1879 date QS:P,+1879-00-00T00:00:00Z/9,P1480,Q5727902",
   "licence": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Frederick_Douglass_as_a_younger_man.jpg",
-  "file": "Frederick Douglass as a younger man.jpg",
-  "w": 698,
+  "page": "https://commons.wikimedia.org/wiki/File:Frederick_Douglass_(circa_1879).jpg",
+  "file": "Frederick Douglass (circa 1879).jpg",
+  "w": 557,
   "h": 800
  },
  "du-fu": {
@@ -460,6 +524,20 @@
   "w": 662,
   "h": 800
  },
+ "harun-al-rashid": {
+  "title": "Harun Al-Rashid and the World of the Thousand and One Nights",
+  "artist": "Unknown artist Unknown artist",
+  "date": "16 th century date QS:P571,+1550-00-00T00:00:00Z/7",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Harun_Al-Rashid_and_the_World_of_the_Thousand_and_One_Nights.jpg",
+  "file": "Harun Al-Rashid and the World of the Thousand and One Nights.jpg",
+  "w": 447,
+  "h": 800,
+  "note": [
+   "likely",
+   "Made about 741 years after Harun al-Rashid died, so it shows how later artists imagined them."
+  ]
+ },
  "haydn": {
   "title": "Portrait of Joseph Haydn",
   "artist": "Thomas Hardy",
@@ -530,6 +608,16 @@
   "w": 319,
   "h": 400
  },
+ "hume": {
+  "title": "Portrait of David Hume",
+  "artist": "Allan Ramsay",
+  "date": "1766",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:David_Hume_Ramsay.jpg",
+  "file": "David Hume Ramsay.jpg",
+  "w": 661,
+  "h": 800
+ },
  "jane-austen": {
   "title": "Portrait of Jane Austen",
   "artist": "Cassandra Austen",
@@ -549,6 +637,20 @@
   "file": "Official Presidential portrait of Thomas Jefferson (by Rembrandt Peale, 1800)(cropped).jpg",
   "w": 651,
   "h": 800
+ },
+ "jesus": {
+  "title": "Spas vsederzhitel sinay (cropped1)",
+  "artist": "Unknown artist Unknown artist",
+  "date": "6 th century date QS:P571,+550-00-00T00:00:00Z/7",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Spas_vsederzhitel_sinay_(cropped1).jpg",
+  "file": "Spas vsederzhitel sinay (cropped1).jpg",
+  "w": 412,
+  "h": 800,
+  "note": [
+   "likely",
+   "Probably made long after their lifetime. Nobody knows how close it is to their real face."
+  ]
  },
  "joan-of-arc": {
   "title": "Portrait of Joan of Arc",
@@ -640,6 +742,16 @@
   "page": "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumKhubilaiPortrait.jpg",
   "file": "YuanEmperorAlbumKhubilaiPortrait.jpg",
   "w": 641,
+  "h": 800
+ },
+ "lafayette": {
+  "title": "Marie Joseph Paul Yves Roch Gilbert Motier, Marquis De Lafayette",
+  "artist": "Charles Willson Peale",
+  "date": "between 1779 and 1780 date QS:P571,+1750-00-00T00:00:00Z/7,P1319,+1779-00-00T00:",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Marquis_de_Lafayette_2.jpg",
+  "file": "Marquis de Lafayette 2.jpg",
+  "w": 634,
   "h": 800
  },
  "leibniz": {
@@ -786,6 +898,16 @@
   "w": 636,
   "h": 800
  },
+ "mlk": {
+  "title": "The Rev. Dr. Martin Luther King Jr. Color Portrait (high quality)",
+  "artist": "Associated Press",
+  "date": "1966",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_(high_quality).jpg",
+  "file": "The Rev. Dr. Martin Luther King Jr. Color Portrait (high quality).jpg",
+  "w": 542,
+  "h": 800
+ },
  "monet": {
   "title": "Portrait of Claude Monet",
   "artist": "Nadar",
@@ -900,6 +1022,16 @@
   "w": 684,
   "h": 800
  },
+ "poe": {
+  "title": "Portrait of Edgar Allan Poe",
+  "artist": "Unknown author Unknown author ; Restored by Yann Forget and Adam Cuerden",
+  "date": "1849-06",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Edgar_Allan_Poe,_circa_1849,_restored,_squared_off.jpg",
+  "file": "Edgar Allan Poe, circa 1849, restored, squared off.jpg",
+  "w": 569,
+  "h": 800
+ },
  "puyi": {
   "title": "Portrait of Puyi",
   "artist": "Unknown author Unknown author",
@@ -908,6 +1040,16 @@
   "page": "https://commons.wikimedia.org/wiki/File:%E6%BA%A5%E4%BB%AA.jpg",
   "file": "溥仪.jpg",
   "w": 615,
+  "h": 800
+ },
+ "qianlong": {
+  "title": "Portrait of Qianlong Emperor",
+  "artist": "Unidentified painter",
+  "date": "1791 date QS:P571,+1791-00-00T00:00:00Z/9",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_the_Qianlong_Emperor_in_Court_Dress.jpg",
+  "file": "Portrait of the Qianlong Emperor in Court Dress.jpg",
+  "w": 606,
   "h": 800
  },
  "qin-shi-huang": {
@@ -988,6 +1130,16 @@
   "w": 584,
   "h": 800
  },
+ "rousseau": {
+  "title": "Portrait of Jean-Jacques Rousseau (1712–1778)",
+  "artist": "Maurice Quentin de La Tour",
+  "date": "third quarter of 18 th century date QS:P571,+1750-00-00T00:00:00Z/7",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Jean-Jacques_Rousseau_(painted_portrait).jpg",
+  "file": "Jean-Jacques Rousseau (painted portrait).jpg",
+  "w": 574,
+  "h": 800
+ },
  "schiele": {
   "title": "Egon Schiele photo",
   "artist": "unattributed",
@@ -1011,6 +1163,16 @@
    "likely",
    "Made about 47 years after Franz Schubert died, so it shows how later artists imagined them."
   ]
+ },
+ "scott": {
+  "title": "Scott of the Antarctic (bw) (cropped)",
+  "artist": "Henry Maull (1829–1914) and John Fox (1832–1907)",
+  "date": "1905",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Scott_of_the_Antarctic_(bw)_(cropped).jpg",
+  "file": "Scott of the Antarctic (bw) (cropped).jpg",
+  "w": 602,
+  "h": 800
  },
  "shah-jahan": {
   "title": "Jujhar Singh Bundela Kneels in Submission to Shah Jahan",
@@ -1104,6 +1266,26 @@
   "w": 571,
   "h": 800
  },
+ "tchaikovsky": {
+  "title": "Porträt des Komponisten Pjotr I. Tschaikowski (1840-1893)",
+  "artist": "Nikolai Kuznetsov",
+  "date": "1906",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Portr%C3%A4t_des_Komponisten_Pjotr_I._Tschaikowski_(1840-1893).jpg",
+  "file": "Porträt des Komponisten Pjotr I. Tschaikowski (1840-1893).jpg",
+  "w": 623,
+  "h": 800
+ },
+ "tesla": {
+  "title": "Tesla circa 1890",
+  "artist": "Napoleon Sarony",
+  "date": "circa 1890 date QS:P,+1890-00-00T00:00:00Z/9,P1480,Q5727902",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Tesla_circa_1890.jpeg",
+  "file": "Tesla circa 1890.jpeg",
+  "w": 597,
+  "h": 800
+ },
  "tolstoy": {
   "title": "Portrait of Leo Tolstoy",
   "artist": "Sergei Prokudin-Gorskii",
@@ -1148,6 +1330,36 @@
   "w": 430,
   "h": 586
  },
+ "turing": {
+  "title": "Portrait of Alan Turing",
+  "artist": "Elliott & Fry",
+  "date": "1951-03-29",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Alan_Turing_(1951)_(crop).jpg",
+  "file": "Alan Turing (1951) (crop).jpg",
+  "w": 600,
+  "h": 800
+ },
+ "verdi": {
+  "title": "Giuseppe Verdi xilografia",
+  "artist": "Disegnatore: A. Cairoli - Incisore: Ernesto Mancastroppa",
+  "date": "1887",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Giuseppe_Verdi_xilografia.jpg",
+  "file": "Giuseppe Verdi xilografia.jpg",
+  "w": 576,
+  "h": 800
+ },
+ "vermeer": {
+  "title": "The Procuress",
+  "artist": "Johannes Vermeer",
+  "date": "1656 date QS:P571,+1656-00-00T00:00:00Z/9",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg",
+  "file": "Cropped version of Jan Vermeer van Delft 002.jpg",
+  "w": 575,
+  "h": 800
+ },
  "victor-hugo": {
   "title": "Portrait of Victor Hugo",
   "artist": "Étienne Carjat",
@@ -1156,6 +1368,16 @@
   "page": "https://commons.wikimedia.org/wiki/File:Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg",
   "file": "Victor Hugo by Étienne Carjat 1876 - full.jpg",
   "w": 650,
+  "h": 800
+ },
+ "victoria": {
+  "title": "Queen Victoria by Bassano",
+  "artist": "Alexander Bassano",
+  "date": "1882",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Queen_Victoria_by_Bassano.jpg",
+  "file": "Queen Victoria by Bassano.jpg",
+  "w": 567,
   "h": 800
  },
  "vivaldi": {
@@ -1200,6 +1422,16 @@
   "page": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
   "file": "Gilbert Stuart Williamstown Portrait of George Washington.jpg",
   "w": 659,
+  "h": 800
+ },
+ "wilbur-wright": {
+  "title": "Portrait of Wilbur Wright",
+  "artist": "Orville Wright and Wilbur Wright (credited as photographers) [1] , [2]",
+  "date": "1905",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Wilbur_Wright.jpg",
+  "file": "Wilbur Wright.jpg",
+  "w": 606,
   "h": 800
  },
  "wu-zetian": {
