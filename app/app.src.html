@@ -1235,12 +1235,12 @@ function viewPerson(id){
   const circle = new Set(cs.map(c => c.id));
   const ch = CH[p.id], inCh = !ch && Object.keys(CH).find(k => (CH[k].kw || []).some(w => w.toLowerCase() === p.n.toLowerCase()));
   view.innerHTML = `
-  ${ch ? `<div class="ch-top">${p.sacred || p.noimg ? "" : imgFig(ch.hero, "ch-hero", true)}` : ""}
+  ${ch ? `<div class="ch-top">${p.noimg ? "" : imgFig(ch.hero, "ch-hero", true)}` : ""}
   <section class="d-head">
     <div class="crumbs"><a href="#people">People</a><span>/</span><span>${F[p.f].label}</span></div>
     <h1>${esc(p.n)}</h1>
     <div class="d-meta"><span class="yr">${span(p)}</span><span>lived ${p.a ? "about " : ""}${lived(p)} years</span><span class="tag" style="${fc(p.f)}"><i class="dot"></i>${F[p.f].label}</span><span>${p.c.map(c => `<a href="#c-${c}">${esc(C[c].n)}</a>`).join(", ")}</span></div>
-    ${ch ? `<p class="bio ch-lede">${esc(ch.lede)}</p>${!p.sacred && !p.noimg && ch.portrait && ch.portrait !== ch.hero && IMG[ch.portrait] ? `<a class="ch-portrait" href="#p-${p.id}@short" title="${esc(IMG[ch.portrait].title)}"><img src="${esc(IMG[ch.portrait].src)}" alt="${esc(IMG[ch.portrait].title)}" loading="lazy"><span>${IMG_NOTE[ch.portrait] ? labHTML(IMG_NOTE[ch.portrait][0]) + " " : ""}${esc(IMG[ch.portrait].title)}, ${esc(IMG[ch.portrait].date)}</span></a>` : ""}` : `<p class="bio">${esc(p.bio)}</p>`}
+    ${ch ? `<p class="bio ch-lede">${esc(ch.lede)}</p>${!p.noimg && ch.portrait && ch.portrait !== ch.hero && IMG[ch.portrait] ? `<a class="ch-portrait" href="#p-${p.id}@short" title="${esc(IMG[ch.portrait].title)}"><img src="${esc(IMG[ch.portrait].src)}" alt="${esc(IMG[ch.portrait].title)}" loading="lazy"><span>${IMG_NOTE[ch.portrait] ? labHTML(IMG_NOTE[ch.portrait][0]) + " " : ""}${esc(IMG[ch.portrait].title)}, ${esc(IMG[ch.portrait].date)}</span></a>` : ""}` : `<p class="bio">${esc(p.bio)}</p>`}
     <div class="counts"><div><b>${overl.length}</b><span>people here alive at the same time</span></div><div><b>${cs.length}</b><span>real connections</span></div><div><b>${evs.length}</b><span>events in their lifetime</span></div></div>
   </section>
   ${ch ? `</div>` : ""}
@@ -2194,7 +2194,7 @@ const SCENES = [
 let taShown = null, taAnim = 0;
 const sceneFor = y => SCENES.filter(sc => Math.abs(astro(sc.y) - astro(y)) <= sc.tol).sort((a, b) => Math.abs(a.y - y) - Math.abs(b.y - y) || b.tol - a.tol)[0] || null;
 const nearestScene = y => SCENES.slice().sort((a, b) => Math.abs(astro(a.y) - astro(y)) - Math.abs(astro(b.y) - astro(y)))[0] || null;
-const portraitOf = p => { const ch = CH[p.id]; const sl = ch && (ch.portrait || ch.hero); return sl && IMG[sl] && !p.sacred && !p.noimg ? IMG[sl].src : null; };
+const portraitOf = p => { const ch = CH[p.id]; const sl = ch && (ch.portrait || ch.hero); return sl && IMG[sl] && !p.noimg ? IMG[sl].src : null; };
 const initials = n => n.replace(/\b(the|of|da|de|van|von|al)\b/gi, "").split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0]).join("").toUpperCase();
 function whoCards(list, y){
   return `<div class="who">${list.map(p => { const ph = portraitOf(p);
