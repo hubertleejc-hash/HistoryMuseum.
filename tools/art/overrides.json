@@ -8,14 +8,7 @@
     "muhammad"
   ],
   "portrait_file": {
-    "zheng-he": {
-      "file": "Portrait of Zheng He, published about 1600.jpg",
-      "note": [
-        "likely",
-        "Printed about 170 years after his death"
-      ],
-      "title": "Portrait of Zheng He"
-    },
+    "zheng-he": "Admiral Zhenghe.jpg",
     "hokusai": {
       "file": "Hokusai selfportrait.jpg",
       "title": "Self-portrait of Hokusai"
@@ -36,14 +29,7 @@
       ],
       "title": "Shaka Nyorai (Shakyamuni)"
     },
-    "jesus": {
-      "file": "Spas vsederzhitel sinay.jpg",
-      "note": [
-        "likely",
-        "Icon painted about 500 years after his life; no likeness from life exists"
-      ],
-      "title": "Christ Pantocrator"
-    },
+    "jesus": "Spas Vsederzhitel Sinay.jpg",
     "confucius": {
       "file": "Konfuzius-1770.jpg",
       "note": [
@@ -84,22 +70,9 @@
       ],
       "title": "Joan of Arc"
     },
-    "mozart": {
-      "file": "Wolfgang-amadeus-mozart 1.jpg",
-      "title": "Wolfgang Amadeus Mozart"
-    },
-    "darwin": {
-      "file": "Charles Darwin by Julia Margaret Cameron, c. 1868.jpg",
-      "title": "Charles Darwin",
-      "note": [
-        "verified",
-        "Photograph by Julia Margaret Cameron, 1868"
-      ]
-    },
-    "lincoln": {
-      "file": "Abraham Lincoln O-77 by Gardner, 1863.jpg",
-      "title": "Abraham Lincoln"
-    },
+    "mozart": "Croce-Mozart-Detail.jpg",
+    "darwin": "Charles Darwin by Julia Margaret Cameron, c. 1868.jpg",
+    "lincoln": "Abraham Lincoln O-77 matte collodion print.jpg",
     "gandhi": {
       "file": "Mahatma-Gandhi, studio, 1931.jpg",
       "title": "Mahatma Gandhi"
@@ -112,22 +85,12 @@
       "file": "GodfreyKneller-IsaacNewton-1689.jpg",
       "title": "Isaac Newton"
     },
-    "einstein": {
-      "file": "Albert Einstein 1921 by F Schmutzer.jpg",
-      "title": "Albert Einstein",
-      "note": [
-        "verified",
-        "Photograph by Ferdinand Schmutzer, 1921"
-      ]
-    },
+    "einstein": "Einstein 1921 by F Schmutzer - restoration.jpg",
     "elizabeth-i": {
       "file": "Elizabeth I Darnley Portrait.jpg",
       "title": "The Darnley Portrait of Elizabeth I"
     },
-    "michelangelo": {
-      "file": "Michelangelo Daniele da Volterra (dettaglio).jpg",
-      "title": "Portrait of Michelangelo"
-    },
+    "michelangelo": "Miguel Ángel, por Daniele da Volterra (detalle).jpg",
     "akbar": {
       "file": "Contemporary seated portrait of Akbar, 1605.jpg",
       "title": "Seated portrait of Akbar"
@@ -139,6 +102,20 @@
         "verified",
         "Colour photograph by Sergei Prokudin-Gorsky, 1908"
       ]
-    }
+    },
+    "marco-polo": "Marco Polo portrait.jpg",
+    "charlemagne": "Albrecht Dürer - Emperor Charlemagne.jpg",
+    "rembrandt": "Rembrandt van Rijn - Self-Portrait - Google Art Project.jpg",
+    "bach": "Johann Sebastian Bach.jpg",
+    "catherine-the-great": "Catherine II by J.B.Lampi (1794, Hermitage).jpg",
+    "jane-austen": "CassandraAusten-JaneAusten(c.1810) hires.jpg",
+    "douglass": "Frederick Douglass (circa 1879).jpg",
+    "tesla": "Tesla circa 1890.jpeg",
+    "julius-caesar": "Gaius Julius Caesar (100-44 BC).JPG",
+    "plato": "Plato Silanion Musei Capitolini MC1377.jpg",
+    "murasaki": "Murasaki Shikibu.jpg",
+    "dante": "Portrait de Dante.jpg",
+    "columbus": "Portrait of a Man, Said to be Christopher Columbus.jpg",
+    "copernicus": "Nikolaus Kopernikus.jpg"
   }
 }
