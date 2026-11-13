@@ -20,7 +20,8 @@ MAN = ROOT / "app" / "art" / "portraits.json"
 UA = "ContemporariesMuseumApp/1.0 (educational open-source app; portrait gatherer)"
 OV = json.loads((Path(__file__).parent / "overrides.json").read_text())
 
-def get(url, raw=False, tries=4):
+def get(url, raw=False, tries=6):
+    time.sleep(0.8)  # Wikimedia asks bots to go slowly
     for i in range(tries):
         try:
             with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=60) as r:
@@ -29,7 +30,7 @@ def get(url, raw=False, tries=4):
         except Exception as e:
             if i == tries - 1:
                 print("  give up:", url[:140], e, file=sys.stderr); return None
-            time.sleep(2 * (i + 1))
+            time.sleep((20 if "429" in str(e) else 2) * (i + 1))
 
 def people():
     src = (ROOT / "app" / "data.js").read_text()

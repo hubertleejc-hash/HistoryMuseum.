@@ -639,7 +639,7 @@
   "h": 800
  },
  "jesus": {
-  "title": "Spas vsederzhitel sinay (cropped1)",
+  "title": "Christ Pantocrator, Saint Catherine's Monastery, Sinai",
   "artist": "Unknown artist Unknown artist",
   "date": "6 th century date QS:P571,+550-00-00T00:00:00Z/7",
   "licence": "Public domain",
@@ -649,8 +649,9 @@
   "h": 800,
   "note": [
    "likely",
-   "Probably made long after their lifetime. Nobody knows how close it is to their real face."
-  ]
+   "An icon painted in the 6th century, about 500 years after his lifetime. No likeness from life exists."
+  ],
+  "hand": 1
  },
  "joan-of-arc": {
   "title": "Portrait of Joan of Arc",

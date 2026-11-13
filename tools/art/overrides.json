@@ -29,7 +29,14 @@
       ],
       "title": "Shaka Nyorai (Shakyamuni)"
     },
-    "jesus": "Spas Vsederzhitel Sinay.jpg",
+    "jesus": {
+      "file": "Spas vsederzhitel sinay (cropped1).jpg",
+      "title": "Christ Pantocrator, Saint Catherine's Monastery, Sinai",
+      "note": [
+        "likely",
+        "An icon painted in the 6th century, about 500 years after his lifetime. No likeness from life exists."
+      ]
+    },
     "confucius": {
       "file": "Konfuzius-1770.jpg",
       "note": [
