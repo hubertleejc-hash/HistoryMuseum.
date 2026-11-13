@@ -1,0 +1,96 @@
+name: Build IPA
+
+# Builds an UNSIGNED Release .ipa of Contemporaries for real iPhones and iPads.
+# No secrets, certificates or paid developer account: Sideloadly signs it with a free Apple ID
+# when you install it. The .ipa is attached to the "latest" release so it is easy to download.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-ipa-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  ipa:
+    runs-on: xcode-27
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Select Xcode 27.1
+        run: |
+          XCODE=/Applications/Xcode_27.1.app
+          if [ ! -d "$XCODE" ]; then
+            echo "::error::$XCODE not found on this runner. Installed:"; ls -d /Applications/Xcode*.app
+            exit 1
+          fi
+          sudo xcode-select -s "$XCODE/Contents/Developer"
+          xcodebuild -version
+
+      - name: Build the museum page (pictures and fonts built in)
+        run: |
+          python3 --version
+          python3 app/build.py
+          SIZE=$(stat -f%z ios/HistoryMuseum/Web/index.html)
+          echo "App page: $SIZE bytes"
+          [ "$SIZE" -gt 3000000 ] || { echo "::error::App page is only $SIZE bytes; pictures or fonts were not built in"; exit 1; }
+
+      - name: Generate Xcode project
+        run: |
+          brew install xcodegen
+          xcodegen generate
+
+      - name: Build Release for a generic iOS device (code signing off)
+        run: |
+          set -o pipefail
+          xcodebuild build \
+            -project HistoryMuseum.xcodeproj \
+            -scheme HistoryMuseum \
+            -configuration Release \
+            -destination "generic/platform=iOS" \
+            -derivedDataPath build/DerivedData \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            | tee build-ipa.log | grep -E "error:|warning: .*HistoryMuseum|\*\* BUILD" || true
+          grep -q "\*\* BUILD SUCCEEDED \*\*" build-ipa.log || { echo "::error::Release device build failed"; grep -E "error:" build-ipa.log | sort -u; exit 1; }
+
+      - name: Package unsigned Contemporaries.ipa
+        run: |
+          APP=build/DerivedData/Build/Products/Release-iphoneos/HistoryMuseum.app
+          [ -d "$APP" ] || { echo "::error::$APP was not built"; ls -R build/DerivedData/Build/Products | head -50; exit 1; }
+          PLATFORM=$(/usr/libexec/PlistBuddy -c "Print :DTPlatformName" "$APP/Info.plist")
+          NAME=$(/usr/libexec/PlistBuddy -c "Print :CFBundleDisplayName" "$APP/Info.plist")
+          echo "Platform: $PLATFORM, display name: $NAME"
+          [ "$PLATFORM" = "iphoneos" ] || { echo "::error::Expected an iphoneos build, got $PLATFORM"; exit 1; }
+          [ "$NAME" = "Contemporaries" ] || echo "::warning::Display name is '$NAME', expected 'Contemporaries'"
+          [ -f "$APP/index.html" ] || { echo "::error::index.html is not in the app"; ls "$APP"; exit 1; }
+          INSIDE=$(stat -f%z "$APP/index.html")
+          echo "Museum page inside the app: $INSIDE bytes"
+          [ "$INSIDE" -gt 3000000 ] || { echo "::error::The museum page inside the app is only $INSIDE bytes"; exit 1; }
+          rm -rf ipa && mkdir -p ipa/Payload
+          cp -R "$APP" ipa/Payload/
+          (cd ipa && zip -qry ../Contemporaries.ipa Payload)
+          ls -lh Contemporaries.ipa
+
+      - name: Upload Contemporaries.ipa (run artifact)
+        uses: actions/upload-artifact@v4
+        with:
+          name: Contemporaries-ipa
+          path: Contemporaries.ipa
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Attach Contemporaries.ipa to the "latest" release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          NOTES="Unsigned build of ${GITHUB_SHA::7}. Install it with Sideloadly: see the README."
+          gh release delete latest --cleanup-tag --yes >/dev/null 2>&1 || true
+          gh release create latest Contemporaries.ipa --target "$GITHUB_SHA" --title "Latest app build" --notes "$NOTES"
