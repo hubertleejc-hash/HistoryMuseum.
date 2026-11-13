@@ -3,7 +3,7 @@
 
 Runs on GitHub Actions. For each person: Wikidata finds the person (a human whose birth year matches),
 its "image" (P18) names a Wikimedia Commons file, and Commons says the file's licence.
-Only public-domain or CC0 files are used. Sacred people (sacred:1 or noimg:1) never get a picture.
+Only public-domain or CC0 files are used. People marked noimg:1 (the Prophet Muhammad) never get a picture.
 
 Writes app/art/p/<person id>.jpg (800 px long side) and app/art/portraits.json with the title, artist,
 date, licence, source page and an honesty note when the picture was made long after the person died.
@@ -37,7 +37,7 @@ def people():
     for m in re.finditer(r'\{id:"([^"]+)", n:"([^"]+)", b:(-?\d+), d:(-?\d+|null)([^\n]*)', src):
         rest = m.group(5)
         out.append({"id": m.group(1), "n": m.group(2), "b": int(m.group(3)), "d": int(m.group(4)) if m.group(4) != "null" else None,
-                    "sacred": "sacred:1" in rest or "noimg:1" in rest, "alive": "alive:true" in rest})
+                    "sacred": "noimg:1" in rest, "alive": "alive:true" in rest})
     return out
 
 def wd(params):
