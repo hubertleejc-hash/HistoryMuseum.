@@ -124,12 +124,14 @@ final class MuseumWebView: WKWebView {
         var report = "none"
         var css = "--hinge-active:0;--hinge-w:0px;--hinge-h:0px"
         #if FOLD_APIS
-        let regions = reservedRegions(kind: .division, options: .includeInactive)
-        if let region = regions.first(where: \.isActive) ?? regions.first,
-           !region.frame.isNull, region.frame.width > 0 || region.frame.height > 0 {
-            let f = region.frame
-            report = "active=\(region.isActive) region=\(Int(f.minX)),\(Int(f.minY)),\(Int(f.width)),\(Int(f.height)) bounds=\(Int(bounds.width))x\(Int(bounds.height))"
-            css = "--hinge-active:\(region.isActive ? 1 : 0);--hinge-x:\(Int(f.minX))px;--hinge-y:\(Int(f.minY))px;--hinge-w:\(Int(f.width))px;--hinge-h:\(Int(f.height))px"
+        if #available(iOS 27.1, *) {
+            let regions = reservedRegions(kind: .division, options: .includeInactive)
+            if let region = regions.first(where: \.isActive) ?? regions.first,
+               !region.frame.isNull, region.frame.width > 0 || region.frame.height > 0 {
+                let f = region.frame
+                report = "active=\(region.isActive) region=\(Int(f.minX)),\(Int(f.minY)),\(Int(f.width)),\(Int(f.height)) bounds=\(Int(bounds.width))x\(Int(bounds.height))"
+                css = "--hinge-active:\(region.isActive ? 1 : 0);--hinge-x:\(Int(f.minX))px;--hinge-y:\(Int(f.minY))px;--hinge-w:\(Int(f.width))px;--hinge-h:\(Int(f.height))px"
+            }
         }
         #endif
         guard report != lastReport else { return }
