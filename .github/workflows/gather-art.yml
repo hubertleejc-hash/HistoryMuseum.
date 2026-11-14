@@ -14,7 +14,7 @@ on:
         default: "6000"
       met:
         description: "New Met works for the Online wing"
-        default: "2000"
+        default: "0"
       commons:
         description: "New Louvre and British Museum works per museum (public-domain photos on Wikimedia Commons)"
         default: "0"

@@ -1507,7 +1507,7 @@ const WORK_IMG = {"school-of-athens":"school-athens"};
 const FEAT_REG = {"great-wave":"east-asia","qingming":"east-asia","tribute-giraffe":"east-asia","genghis":"east-asia","wu-zetian":"east-asia"};
 let ART = null, artF = {k:"", r:"", e:"", q:""}, artList = [], artShown = 0, artObs = null, artCur = -1;
 const artDetail = {}, artShardWait = {};
-const ART_SRC = {cma:"The Cleveland Museum of Art", met:"The Metropolitan Museum of Art", louvre:"The Louvre", bm:"The British Museum"};
+const ART_SRC = {cma:"The Cleveland Museum of Art", met:"The Metropolitan Museum of Art", louvre:"The Louvre", bm:"The British Museum", metc:"The Metropolitan Museum of Art"};
 const artPath = (it, size) => it.src === "feat" ? it.img : `art/${it.wing === "app" ? size : "m"}/${it.id}.jpg`;
 function featuredArt(){
   const works = new Map(H.works.map(w => [WORK_IMG[w.id] || w.id, w]));

@@ -225,40 +225,47 @@ def from_met(r):
 # Their own sites do not license images for reuse in an app, but Wikimedia Commons holds photographs of
 # their public-domain works. Only files Commons marks public domain or CC0 are kept, with a credit line.
 COMMONS_ROOTS = {
-    "louvre": ("The Louvre", ["Paintings in the Louvre Museum", "Drawings in the Louvre Museum", "Sculptures in the Louvre Museum",
-                              "Egyptian antiquities in the Louvre", "Greek antiquities in the Louvre"]),
-    "bm": ("The British Museum", ["Prints in the British Museum", "Drawings in the British Museum", "Paintings in the British Museum",
-                                  "Egyptian antiquities in the British Museum", "Asian art in the British Museum"]),
+    # Commons search queries: structured data "collection" (P195) first, then the museum's category trees.
+    "louvre": ("The Louvre", ['haswbstatement:P195=Q19675', 'deepcat:"Paintings in the Louvre"', 'deepcat:"Drawings in the Louvre"',
+                              'deepcat:"Collections of the Louvre"']),
+    "bm": ("The British Museum", ['haswbstatement:P195=Q6373', 'deepcat:"Prints in the British Museum"', 'deepcat:"Drawings in the British Museum"',
+                                  'deepcat:"Paintings in the British Museum"', 'deepcat:"Collections of the British Museum"']),
+    "metc": ("The Metropolitan Museum of Art", ['haswbstatement:P195=Q160236', 'deepcat:"Paintings in the Metropolitan Museum of Art"']),
 }
 CAPI = "https://commons.wikimedia.org/w/api.php?"
 
 def capi(params):
-    time.sleep(0.4)  # Wikimedia asks bots to go slowly
+    time.sleep(0.5)  # Wikimedia asks bots to go slowly
     for i in range(6):
         d = get(CAPI + urllib.parse.urlencode({**params, "format": "json"}), tries=1)
         if d is not None: return d
         time.sleep(15 * (i + 1))
     return None
 
-def commons_files(root, want, max_cats=300):
-    """Walk a Commons category tree breadth first and yield (page, categories text) for each image file."""
-    seen, queue, n = {root}, [root], 0
-    while queue and n < want and len(seen) <= max_cats:
-        cat = queue.pop(0)
-        cont = {}
-        while n < want:
-            d = capi({"action": "query", "generator": "categorymembers", "gcmtitle": "Category:" + cat, "gcmtype": "file|subcat",
-                      "gcmlimit": 50, "prop": "imageinfo", "iiprop": "url|size|extmetadata", "iiurlwidth": 1024,
-                      "iiextmetadatalanguage": "en", **cont})
-            if not d: break
-            for pg in (d.get("query", {}).get("pages") or {}).values():
-                if pg.get("ns") == 14:
-                    sub = pg["title"].split(":", 1)[1]
-                    if sub not in seen: seen.add(sub); queue.append(sub)
-                elif pg.get("imageinfo"):
-                    n += 1; yield pg, cat
-            if "continue" not in d: break
-            cont = {k: v for k, v in d["continue"].items() if k != "continue"}
+def commons_files(query, want, src="", have=()):
+    """Yield (page, query) for image files that a Commons search finds, a page of 50 at a time."""
+    off, n = 0, 0
+    while n < want and off < 9950:
+        d = capi({"action": "query", "generator": "search", "gsrsearch": query + " filetype:bitmap", "gsrnamespace": 6,
+                  "gsrlimit": 50, "gsroffset": off, "prop": "imageinfo", "iiprop": "url|size|extmetadata", "iiurlwidth": 1024,
+                  "iiextmetadatalanguage": "en"})
+        pages = list(((d or {}).get("query", {}).get("pages") or {}).values())
+        for pg in pages:
+            if pg.get("imageinfo") and f"{src}-{pg['pageid']}" not in have:
+                n += 1; yield pg, query.split(":", 1)[-1].strip('"')
+        if not d or "continue" not in d: break
+        off = d["continue"].get("gsroffset", off + 50)
+
+GENERIC = {"drawing", "print", "painting", "photograph", "object", "sculpture", "untitled", "statue", "figure", "vase", "relief"}
+def commons_title(fname):
+    t = re.sub(r"^File:|\.\w+$", "", fname).replace("_", " ")
+    t = re.sub(r"\s*[-,(]?\s*(British Museum|Louvre|Met(ropolitan Museum)?|MET)\b.*$", "", t, flags=re.I)
+    t = re.sub(r"\s*\b(DP|BM|MET)?[-_ ]?\d{4,}.*$", "", t).strip(" -,")
+    return t or "Untitled"
+
+def tidy_commons(t):
+    t = re.sub(r"\s*label QS:.*$", "", t)
+    return re.sub(r"^(Anonymous|Unknown)\s*-\s*", "", t).strip() or "Untitled"
 
 def commons_year(s):
     m = re.search(r"\b(1[0-9]{3}|[1-9][0-9]{2})\b", s or "")
@@ -278,7 +285,9 @@ def from_commons(arg):
     if not (lic.startswith("pd") or lic.startswith("cc0") or lic_name.lower().startswith("public domain")): return None, "not public domain"
     if not ii.get("thumburl") or min(ii.get("width", 0), ii.get("height", 0)) < 500: return None, "small"
     if not re.search(r"\.(jpe?g|png|tiff?)$", pg["title"], re.I): return None, "not a picture"
-    cats, title = v("Categories", 3000), v("ObjectName", 200) or re.sub(r"^File:|\.\w+$", "", pg["title"]).replace("_", " ")
+    cats, title = v("Categories", 3000), v("ObjectName", 200)
+    if len(title) < 4 or title.lower() in GENERIC: title = commons_title(pg["title"])
+    title = tidy_commons(title)
     date = v("DateTimeOriginal", 120); y = commons_year(date)
     if y is None: return None, "no date or title"
     artist = re.sub(r"^(unknown|anonymous)\b.*", "", v("Artist", 120), flags=re.I)
@@ -289,7 +298,7 @@ def from_commons(arg):
     rec = {"id": f"{src}-{pg['pageid']}", "src": src, "t": title, "a": artist, "d": date, "y": y,
            "r": region_from("", blob), "k": kind_from(cat + " " + title), "c": clean(cat, 160), "m": "",
            "x": desc if len(desc) > 60 and desc.lower() != title.lower() else "", "fy": "",
-           "cr": f"{museum}. Photograph via Wikimedia Commons ({lic_name or 'public domain'}).",
+           "cr": f"{museum}. Photo via Wikimedia Commons ({lic_name or 'public domain'}).",
            "u": ii.get("descriptionurl", ""), "w": ii.get("width", 0), "h": ii.get("height", 0),
            "img": ii["thumburl"], "th": ii["thumburl"].replace("/1024px-", "/320px-"), "hi": 0, "on": "", "dept": museum}
     if re.search(r"egypt|greek|roman|etrus|assyr|mesopotam", cat, re.I): rec["r"] = "ancient"
@@ -320,7 +329,15 @@ def save_pictures(rec):
 def save_micro(rec):
     """Online wing: a small 160 px tile ships in the app; the big picture loads from the museum."""
     from PIL import Image
-    b = get(rec.get("th") or rec["img"], raw=True)
+    url = rec.get("th") or rec["img"]
+    if "upload.wikimedia.org" in url:  # Wikimedia answers 429 when pictures are fetched too fast
+        b = None
+        for i in range(5):
+            time.sleep(1.0 + 10 * i)
+            b = get(url, raw=True, tries=1)
+            if b: break
+    else:
+        b = get(url, raw=True)
     if not b: return False
     try:
         im = Image.open(io.BytesIO(b)); im.load()
@@ -441,14 +458,16 @@ def main():
         print(COMMONS_ROOTS[src][0] + " (Wikimedia Commons)...", flush=True)
         got = []
         for root in COMMONS_ROOTS[src][1]:
-            got += take([(x, src) for x in commons_files(root, a.commons * 2 // len(COMMONS_ROOTS[src][1]))], from_commons)
+            got += take([(x, src) for x in commons_files(root, a.commons * 2 // len(COMMONS_ROOTS[src][1]), src, have)], from_commons)
             print(f"  {root}: {len(got)} usable so far", flush=True)
         got = balanced(got, a.commons, per_artist=25)
         print(f"  {len(got)} new works", flush=True); met += got
     print(f"Downloading {len(online) + len(met)} small tiles for the Online wing...", flush=True)
     web = []
-    with cf.ThreadPoolExecutor(12) as ex:
-        for rec, good in zip(online + met, ex.map(save_micro, online + met)):
+    wiki = [r for r in online + met if "upload.wikimedia.org" in (r.get("th") or r["img"])]
+    other = [r for r in online + met if r not in wiki]
+    with cf.ThreadPoolExecutor(12) as ex, cf.ThreadPoolExecutor(2) as slow:
+        for rec, good in list(zip(other, ex.map(save_micro, other))) + list(zip(wiki, slow.map(save_micro, wiki))):
             if good:
                 rec["wing"] = "web"; rec.pop("th", None); web.append(rec)
     print(f"  saved {len(web)}", flush=True)
