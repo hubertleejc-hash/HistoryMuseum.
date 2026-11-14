@@ -5374,5 +5374,521 @@ Object.assign(window.HISTORY.chapters, {
       {n:"Further reading: Conrad Totman, Tokugawa Ieyasu: Shogun (1983)"}
     ]}
   ]
+},
+
+"tycho-brahe": {
+  hero: "",
+  kw: ["Tycho","Denmark","Uraniborg","Hven","Stjerneborg","new star","supernova","1572","comet","1577","Tychonic system","Kepler","Prague","Rudolf II","metal nose","moose","observatory","naked eye","quadrant"],
+  lede: "A hot-tempered Danish nobleman with a metal nose who built the greatest observatory in Europe on his own island, measured the stars more precisely than anyone before the telescope, and left his data to Kepler.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Tycho Brahe was born on 14 December 1546 at Knutstorp Castle in Scania, then part of Denmark (now Sweden), into one of Denmark's leading noble families.",
+      "His observation of a 'new star' in 1572 showed that the heavens could change. King Frederick II gave him the island of Hven, where he built the observatories Uraniborg and Stjerneborg.",
+      "After losing royal favour he moved to Prague in 1599 as Imperial Mathematician to Rudolf II, took on Johannes Kepler as his assistant, and died there on 24 October 1601."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      {t:"He was raised by his wealthy uncle Jørgen Brahe, who, by Tycho's own account, took him away as a small child without his parents' knowledge.", lab:"likely", why:"From Tycho's own autobiographical notes; the family arrangement is not otherwise documented."},
+      "A solar eclipse in 1560, predicted in advance, made him want to study astronomy. He studied in Copenhagen, Leipzig, Wittenberg, Rostock and Basel.",
+      {t:"In 1566, in Rostock, he fought a duel with another Danish student, Manderup Parsberg, reportedly over a mathematical point. Part of his nose was cut off, and he wore a replacement for the rest of his life.", lab:"verified", why:"Recorded by contemporaries. Tests on his remains in 2010 found traces of brass and copper near the nose, suggesting the everyday nose was not the gold or silver of legend."}
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "The new star, November 1572. He saw a bright star in Cassiopeia where none had been. His careful measurements showed it had no parallax and so lay far beyond the moon, in the heavens that Aristotle said never changed. His book De nova stella (1573) made him famous. It was a supernova.",
+      "Hven, 1576. To keep him in Denmark, King Frederick II granted him the island of Hven and income from estates. He built Uraniborg, a castle-observatory with instruments, a printing press and a paper mill, and later Stjerneborg, with instruments set underground to keep them steady.",
+      "The comet, 1577. He showed that the great comet of 1577 was also beyond the moon, passing through what were thought to be solid crystal spheres.",
+      "Twenty years of data. With assistants he measured the positions of about 1,000 stars and the planets night after night, to about one minute of arc, without a telescope.",
+      "Exile, 1597. The new king, Christian IV, cut his funding, and Tycho left Denmark with his instruments.",
+      "Prague, 1599 to 1601. Emperor Rudolf II made him Imperial Mathematician. Kepler joined him in 1600. Tycho asked him to work on the orbit of Mars.",
+      {t:"Death, 1601. He fell ill after a banquet, reportedly because he would not leave the table to relieve himself, and died 11 days later. His last words, as Kepler recorded them, were a plea that he should not seem to have lived in vain.", lab:"likely", why:"Kepler's account of his last days. Modern study of his remains suggests a bladder or kidney failure."}
+    ]},
+    {k:"works", h:"The work", ps:[
+      "Star and planet positions far more accurate than any before, which Kepler used to discover his laws.",
+      "Giant instruments: a mural quadrant two metres across, armillary spheres and sextants.",
+      "The Tychonic system: the planets circle the sun, while the sun and moon circle a fixed earth. It matched observations as well as Copernicus's model and kept the earth still.",
+      "Astronomiae instauratae mechanica (1598), describing his instruments with fine illustrations."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Kirsten Jørgensdatter, his partner, a commoner. They could not marry formally, but lived as husband and wife and had eight children.",
+      "Sophie Brahe (1556 to 1643), his sister, who helped with observations and studied chemistry and medicine.",
+      "Johannes Kepler (1571 to 1630), his assistant and successor.",
+      "Frederick II of Denmark and Emperor Rudolf II, his patrons.",
+      "Jeppe, a dwarf jester at Uraniborg, said to be able to see the future."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Copernicus's book had appeared three years before Tycho was born. Few astronomers yet accepted a moving earth.",
+      "Denmark controlled the Øresund strait and grew rich from its tolls.",
+      "Shakespeare was writing Hamlet, set in nearby Elsinore, around the year Tycho died. Two of Tycho's relatives were named Rosenkrantz and Guildenstern."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "His data made possible Kepler's laws and, later, Newton's.",
+      "His proof that the heavens change helped end belief in Aristotle's perfect, unchanging sky.",
+      "A lunar crater and the supernova remnant SN 1572, 'Tycho's Supernova', bear his name."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He died because his bladder burst at a banquet.", lab:"disputed", t:"Kepler's account blames holding his urine at a banquet. He died 11 days later, probably of kidney failure or a bladder problem, not a burst bladder."},
+      {c:"He was poisoned with mercury, possibly by Kepler.", lab:"myth", t:"Tests on his remains in 2010 found no deadly level of mercury."},
+      {c:"His nose was made of gold.", lab:"disputed", t:"He may have owned gold and silver noses for show, but traces on his skull point to a brass one for daily use."},
+      {c:"He owned a pet moose that died after drinking too much beer.", lab:"tradition", t:"A story from a 17th-century biography by Pierre Gassendi. It may be true; it cannot be checked."},
+      {c:"He was against Copernicus.", lab:"disputed", t:"He admired Copernicus's mathematics but rejected a moving earth, partly for physical reasons and partly because he could detect no star parallax."},
+      {c:"He used a telescope.", lab:"myth", t:"He died before the telescope was invented. All his work was done with the naked eye."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Tycho Brahe, De nova stella (1573), original Latin, public domain"},
+      {n:"Tycho Brahe, Astronomiae instauratae mechanica (1598), digitised copies (public domain)"},
+      {n:"J. L. E. Dreyer, Tycho Brahe: A Picture of Scientific Life and Work in the Sixteenth Century (1890), public domain"},
+      {n:"Further reading: Victor E. Thoren, The Lord of Uraniborg (1990)"}
+    ]}
+  ]
+},
+
+"descartes": {
+  hero: "",
+  kw: ["René Descartes","I think therefore I am","cogito","Discourse on Method","Meditations","doubt","dualism","mind and body","Cartesian coordinates","analytic geometry","La Flèche","Netherlands","Queen Christina","Stockholm","Princess Elisabeth","pineal gland","rationalism","stove-heated room"],
+  lede: "A French soldier-philosopher who shut himself in a heated room, resolved to doubt everything, and found one thing he could not doubt: 'I think, therefore I am.' He also gave us the x and y axes of the graph.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "René Descartes was born on 31 March 1596 in La Haye, Touraine, France (the town is now called Descartes).",
+      "Educated by Jesuits, he served as a volunteer soldier, then spent about 20 years in the Dutch Republic, writing on philosophy, mathematics and science.",
+      "He went to Stockholm in 1649 to teach Queen Christina of Sweden and died there of pneumonia on 11 February 1650."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His mother died when he was about one. He was raised largely by his grandmother.",
+      "From about 1607 he studied at the Jesuit college of La Flèche, where, because of poor health, he was allowed to stay in bed in the mornings, a habit he kept.",
+      "He took a law degree at Poitiers in 1616, but later said he decided to seek knowledge only in himself or in 'the great book of the world'."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Soldier, 1618 to 1619. He joined the army of Maurice of Nassau in Breda, where he met the scientist Isaac Beeckman, who encouraged his work in mathematics and physics.",
+      {t:"The stove-heated room, November 1619. In winter quarters in Germany he spent a day alone in a heated room thinking, and that night had three vivid dreams that he took as a sign to rebuild all knowledge on certain foundations.", lab:"likely", why:"From his own Discourse on Method and from an early notebook described by his biographer Adrien Baillet."},
+      "The Dutch Republic, 1628 to 1649. He settled in the Netherlands, moving house often to keep his privacy. When he heard that Galileo had been condemned in 1633, he held back his book The World, which said the earth moves.",
+      {t:"Discourse on Method, 1637. Published in French so ordinary readers could follow, it included his method of doubt and the famous line 'I think, therefore I am', with essays on optics, meteorology and geometry.", lab:"verified", why:"The 1637 edition survives."},
+      "Meditations, 1641. In Latin, he tried to prove from first principles that he exists, that God exists, and that mind and body are different substances. Leading thinkers, including Hobbes and Gassendi, wrote objections, which he printed with his replies.",
+      "Princess Elisabeth, 1643 to 1650. Elisabeth of Bohemia challenged him in letters about how a non-physical mind could move a physical body. Their correspondence is one of the great philosophical exchanges.",
+      "Sweden, 1649 to 1650. Queen Christina invited him to Stockholm and asked for lessons at five in the morning. In the cold winter he fell ill and died."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "Discourse on Method (1637) and Meditations on First Philosophy (1641).",
+      "Principles of Philosophy (1644) and The Passions of the Soul (1649).",
+      "La Géométrie (1637), joining algebra and geometry so curves could be described by equations. The x-y grid is named Cartesian after him.",
+      "Work on optics, including the law of refraction and an explanation of the rainbow."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Isaac Beeckman (1588 to 1637), the Dutch scientist who inspired him.",
+      "Marin Mersenne (1588 to 1648), a French friar who acted as his link to the scientific world through letters.",
+      "Elisabeth of Bohemia (1618 to 1680), philosopher and correspondent.",
+      "Queen Christina of Sweden (1626 to 1689), his last patron.",
+      "Francine, his daughter with a servant named Helena Jans; she died of fever at five, in 1640. He said it was the greatest sorrow of his life."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "The Thirty Years' War (1618 to 1648) raged across Europe.",
+      "The Dutch Republic was the freest place in Europe to publish new ideas, though even there his views caused controversy at Utrecht and Leiden universities.",
+      "Galileo and Kepler were transforming astronomy; Harvey had shown that blood circulates."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "He is often called the father of modern philosophy. The 'mind-body problem' he raised is still debated.",
+      "Cartesian coordinates are taught in every school.",
+      "His remains were moved to France in 1667, though his skull, separated along the way, is kept in the Musée de l'Homme in Paris."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He first wrote 'Cogito, ergo sum' in Latin.", lab:"myth", t:"He first wrote it in French: 'je pense, donc je suis', in the Discourse on Method. The Latin form appears in later works."},
+      {c:"He invented the graph after watching a fly on his ceiling.", lab:"tradition", t:"A popular story with no source in his writings."},
+      {c:"Queen Christina's early lessons killed him.", lab:"disputed", t:"The cold and the hours may have weakened him, but he caught pneumonia, perhaps from the French ambassador he was nursing. A theory that he was poisoned with arsenic has little support."},
+      {c:"He believed animals feel no pain.", lab:"disputed", t:"He called animals machines without minds, and later Cartesians claimed they felt nothing. Scholars disagree whether he himself denied all animal feeling."},
+      {c:"He doubted everything because he was a sceptic.", lab:"myth", t:"He used doubt as a method to reach certainty, not as an end in itself."},
+      {c:"He was an atheist.", lab:"myth", t:"He was a Catholic who offered proofs of God's existence, though his critics accused him of undermining faith."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"René Descartes, Discourse on Method, translated by John Veitch (1850), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/59"},
+      {n:"René Descartes, Meditations on First Philosophy, translated by John Veitch, public domain"},
+      {n:"Adrien Baillet, La Vie de Monsieur Des-Cartes (1691), public domain"},
+      {n:"Further reading: Stanford Encyclopedia of Philosophy, 'René Descartes' (free online)", u:"https://plato.stanford.edu/entries/descartes/"},
+      {n:"Further reading: Stephen Gaukroger, Descartes: An Intellectual Biography (1995)"}
+    ]}
+  ]
+},
+
+"milton": {
+  hero: "",
+  kw: ["John Milton","Paradise Lost","Satan","Adam and Eve","blindness","Areopagitica","free press","Cromwell","Commonwealth","regicide","Latin Secretary","Restoration","Paradise Regained","Samson Agonistes","Lycidas","On His Blindness","dictated","daughters"],
+  lede: "A Puritan poet and pamphleteer who defended free printing and the execution of a king, went blind serving Cromwell's government, narrowly escaped the scaffold, and then dictated Paradise Lost, the great English epic of Satan's rebellion and the fall of Adam and Eve.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "John Milton was born in London on 9 December 1608. His father was a scrivener (a legal writer and moneylender) and a composer.",
+      "He wrote poetry from youth, then spent about 20 years writing prose for religious and political freedom, and served Oliver Cromwell's government as Secretary for Foreign Tongues.",
+      "Blind from 1652, he composed Paradise Lost (1667) by dictation. He died in London on 8 November 1674."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "He studied at St Paul's School and Christ's College, Cambridge, where his delicate looks earned him the nickname 'the Lady of Christ's'.",
+      "After Cambridge he spent about six years reading at his father's homes in Hammersmith and Horton, preparing to be a great poet. There he wrote Comus (1634) and the elegy Lycidas (1637).",
+      {t:"On a tour of Italy in 1638 to 1639 he visited the aged Galileo, then under house arrest near Florence.", lab:"likely", why:"Milton mentions the visit in Areopagitica (1644). No other record of it exists."}
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Pamphlets, 1641 onward. As tension grew between King Charles I and Parliament, he wrote against bishops.",
+      "Marriage and divorce, 1642 to 1645. His 17-year-old wife Mary Powell left him weeks after their wedding. He wrote pamphlets arguing that unhappy marriages should be ended by divorce, causing scandal. She returned in 1645.",
+      {t:"Areopagitica, 1644. In this speech-in-print to Parliament he argued against licensing books before publication, writing that killing a good book is almost like killing a man.", lab:"verified", why:"The 1644 pamphlet survives."},
+      "Defending the regicide, 1649. Weeks after Charles I was beheaded, Milton published The Tenure of Kings and Magistrates, arguing that people may depose and punish a tyrant. He became Latin secretary to the Council of State.",
+      "Blindness, 1652. He completed his sight-destroying defence of the English people in Latin and was fully blind by 1652. His first wife died the same year.",
+      "The Restoration, 1660. When Charles II returned, Milton went into hiding. His books were burned, and he was briefly jailed, but he was spared, perhaps through friends such as the poet Andrew Marvell.",
+      "Paradise Lost, 1667. He dictated the poem to helpers, perhaps in the mornings, after composing lines in his head at night. It was published in ten books, and in twelve in 1674."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "Paradise Lost (1667): over 10,000 lines of blank verse, telling of Satan's rebellion against God, his fall, and his temptation of Adam and Eve. He said his aim was to 'justify the ways of God to men'.",
+      "Paradise Regained and Samson Agonistes (1671).",
+      "Sonnets, including 'When I consider how my light is spent', on his blindness, which ends 'They also serve who only stand and wait.'",
+      "Areopagitica (1644) and many political pamphlets."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Mary Powell, Katherine Woodcock and Elizabeth Minshull, his three wives.",
+      "His daughters Anne, Mary and Deborah, who resented being made to read to him in languages they did not understand, according to later accounts.",
+      "Oliver Cromwell, whom he served and praised in a sonnet.",
+      "Andrew Marvell, poet and assistant, who helped save him at the Restoration."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "England fought civil wars from 1642 to 1651, executed its king in 1649, and was a republic until 1660.",
+      "Puritans wanted to purify the Church of England of Catholic practices; many emigrated to New England.",
+      "The Great Plague (1665) and Great Fire of London (1666) struck while he finished Paradise Lost."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "Paradise Lost is often called the greatest epic poem in English. Romantic poets such as Blake and Shelley admired its Satan.",
+      "Areopagitica is quoted in defences of free speech, including by the US Supreme Court.",
+      "Many phrases he coined, such as 'pandemonium' (Satan's capital), entered English."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He sold Paradise Lost for only £10.", lab:"verified", t:"His contract of 1667 gave him £5 up front and another £5 if the first edition sold, with more for later editions. His widow sold the remaining rights for £8."},
+      {c:"Paradise Lost makes Satan the hero.", lab:"disputed", t:"William Blake said Milton was 'of the Devil's party without knowing it'. Most readers think Milton meant to show Satan's grandeur as false."},
+      {c:"His daughters wrote down Paradise Lost.", lab:"disputed", t:"A famous image in paintings. Various helpers, including friends and paid amanuenses, took his dictation; his daughters' role is unclear."},
+      {c:"He supported freedom of the press for everyone.", lab:"myth", t:"In Areopagitica he excluded Catholic and blasphemous writings. Later he even served as a licenser of newsbooks."},
+      {c:"He was blind from birth.", lab:"myth", t:"He lost his sight gradually in his thirties and forties, probably from glaucoma or a detached retina."},
+      {c:"He invented the word 'pandemonium'.", lab:"verified", t:"He formed it from Greek for 'all demons', as the name of Satan's palace in Paradise Lost."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"John Milton, Paradise Lost (1667/1674), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/26"},
+      {n:"John Milton, Areopagitica (1644), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/608"},
+      {n:"David Masson, The Life of John Milton (1859 to 1894), public domain"},
+      {n:"Christ's College, Cambridge: Milton collection"},
+      {n:"Further reading: Barbara K. Lewalski, The Life of John Milton (2000)"}
+    ]}
+  ]
+},
+
+"kangxi": {
+  hero: "",
+  kw: ["Kangxi Emperor","Xuanye","Qing dynasty","Manchu","Oboi","Three Feudatories","Taiwan","Zheng","Treaty of Nerchinsk","Russia","Jesuits","Verbiest","Kangxi Dictionary","Southern Tours","Galdan","Dzungar","Sacred Edict","longest reign","smallpox"],
+  lede: "A boy emperor who survived smallpox, overthrew his overbearing regent at fifteen, put down a great rebellion, took Taiwan, signed China's first treaty with a European power, learned geometry from Jesuits, and ruled for 61 years, longer than any other Chinese emperor.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Xuanye was born in Beijing on 4 May 1654, a son of the Shunzhi Emperor, the first Qing (Manchu) emperor to rule from Beijing.",
+      "He became emperor in 1661, aged six, with the reign name Kangxi. He ruled personally from 1669, put down the Revolt of the Three Feudatories, conquered Taiwan, and fought the Dzungar Mongols.",
+      "He died on 20 December 1722 after a reign of 61 years, the longest of any Chinese emperor."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      {t:"He survived smallpox as a child. Because survivors were immune, this was reportedly one reason he was chosen as heir over his brothers.", lab:"likely", why:"Reported in Qing sources and by the Jesuit Adam Schall, who claimed to have advised it."},
+      "His father died in 1661, and four regents ruled in his name. The most powerful, Oboi, dominated the court.",
+      {t:"In 1669, aged 15, he had Oboi arrested, reportedly by young wrestlers he had trained as companions, and took power himself.", lab:"likely", why:"The arrest is recorded. The wrestling story comes from later accounts and may be embellished."}
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "The Three Feudatories, 1673 to 1681. When he moved to reduce the power of three Chinese generals who ruled southern China almost as kings, they rebelled, led by Wu Sangui. After eight years of war the Qing won.",
+      "Taiwan, 1683. Qing forces defeated the Zheng family's kingdom on Taiwan, and the island became part of the Qing empire.",
+      "Nerchinsk, 1689. After clashes with Russian settlers on the Amur river, his envoys, helped by Jesuit interpreters speaking Latin, signed the Treaty of Nerchinsk with Russia, fixing a border.",
+      "Galdan, 1690 to 1697. He personally led campaigns into Mongolia against Galdan, the Dzungar leader, who died in 1697.",
+      "Southern Tours, 1684 to 1707. He made six great tours to the south to inspect flood works on the Yellow River and Grand Canal and to win over Chinese scholars.",
+      "Learning from the Jesuits. He studied geometry, astronomy and music with Jesuits such as Ferdinand Verbiest, and in 1692 issued an edict tolerating Christianity. Later, after the Pope forbade Chinese Christians to honour Confucius and their ancestors, he banned missionary preaching.",
+      {t:"The succession crisis, 1708 to 1722. He deposed his chosen heir Yinreng twice. When he died, his fourth son became the Yongzheng Emperor, with rumours that the will had been forged.", lab:"disputed", why:"The forgery rumour circulated at the time and later; historians generally find it unproven."}
+    ]},
+    {k:"works", h:"What he left", ps:[
+      "The Kangxi Dictionary (1716), with about 47,000 characters, the standard Chinese dictionary for two centuries.",
+      "The Sacred Edict (1670), sixteen moral maxims read aloud in villages across China.",
+      "The Complete Tang Poems (1705) and a huge encyclopedia, the Gujin tushu jicheng.",
+      "Surveys mapping the empire with Jesuit help, completed in 1718."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Empress Dowager Xiaozhuang (1613 to 1688), his grandmother and wise adviser.",
+      "Oboi, the regent he overthrew.",
+      "Ferdinand Verbiest (1623 to 1688), Flemish Jesuit astronomer and tutor.",
+      "Wu Sangui (1612 to 1678), the general who led the great revolt.",
+      "Yinzhen, his son and successor, the Yongzheng Emperor."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "The Manchus had conquered China in 1644. Many Chinese scholars still resented them, and Kangxi worked to win their loyalty.",
+      "His reign overlapped almost exactly with that of Louis XIV of France, and with Peter the Great of Russia.",
+      "China's population and economy grew strongly in a long period of peace."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "He began the 'High Qing' era, continued by his son and his grandson, the Qianlong Emperor.",
+      "Chinese historians and popular dramas regard him as one of the greatest emperors.",
+      "He is buried at the Eastern Qing Tombs, east of Beijing."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He converted to Christianity.", lab:"myth", t:"He respected the Jesuits and tolerated Christianity, but remained a Confucian ruler who also honoured Buddhist and shamanist traditions."},
+      {c:"His will was forged to make Yongzheng emperor.", lab:"disputed", t:"A popular story claims 'to the 14th son' was altered to 'to the 4th son'. The surviving will is in Manchu and Chinese and the story is doubted."},
+      {c:"He was Han Chinese.", lab:"myth", t:"He was a Manchu, though he was steeped in Chinese culture and wrote fine Chinese calligraphy."},
+      {c:"He had a Jesuit doctor cure him with quinine.", lab:"verified", t:"In 1693 Jesuits treated his malaria with cinchona bark, and he recovered."},
+      {c:"He ruled for 61 years from the age of six.", lab:"verified", t:"He reigned from 1661 to 1722, though regents governed until 1669."},
+      {c:"He banned all Christians.", lab:"myth", t:"He banned missionary preaching in 1721 but allowed Jesuits who accepted Chinese rites to stay at court."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Joachim Bouvet, The History of Cang-Hy, the Present Emperour of China (English 1699), public domain"},
+      {n:"The Sacred Edict, translated by F. W. Baller (1892), public domain"},
+      {n:"Palace Museum, Beijing: Kangxi era collections"},
+      {n:"Further reading: Jonathan D. Spence, Emperor of China: Self-Portrait of K'ang-hsi (1974)"}
+    ]}
+  ]
+},
+"adam-smith": {
+  hero: "",
+  kw: ["Wealth of Nations","invisible hand","Theory of Moral Sentiments","Kirkcaldy","Glasgow","Edinburgh","division of labour","pin factory","free trade","mercantilism","Scottish Enlightenment","David Hume","customs","sympathy","economics","self-interest","butcher brewer baker"],
+  lede: "A famously absent-minded Scottish professor who explained how a pin factory, a butcher and a baker add up to the wealth of nations, and who wrote just as seriously about sympathy as about self-interest. He is called the father of economics.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Adam Smith was baptised on 5 June 1723 in Kirkcaldy, a port town in Fife, Scotland. His father, a customs official, had died months before.",
+      "He taught moral philosophy at the University of Glasgow and wrote The Theory of Moral Sentiments (1759). After touring Europe as a tutor, he wrote An Inquiry into the Nature and Causes of the Wealth of Nations (1776).",
+      "He spent his last years as a commissioner of customs in Edinburgh and died there on 17 July 1790."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "He was raised by his mother, Margaret Douglas, to whom he was devoted all his life. He never married.",
+      {t:"As a small child he was briefly carried off by a band of travelling people (then called gypsies) and soon recovered.", lab:"likely", why:"Told by his first biographer, Dugald Stewart, in 1793, from family memory."},
+      "He studied at Glasgow under the philosopher Francis Hutcheson, then spent six years at Balliol College, Oxford, which he found dull; he later wrote that most Oxford professors had given up even pretending to teach."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Edinburgh lectures, 1748 to 1751. Public lectures on rhetoric and law made his name.",
+      "Glasgow professor, 1751 to 1764. He taught logic, then moral philosophy, and became a close friend of David Hume.",
+      "The Theory of Moral Sentiments, 1759. He argued that morality grows from our ability to imagine others' feelings, and from an imagined 'impartial spectator' inside us.",
+      "The Grand Tour, 1764 to 1766. He resigned to tutor the young Duke of Buccleuch on a trip to France and Switzerland, for a pension for life. He met Voltaire and the French économistes such as François Quesnay. He began writing an economics book to pass the time in Toulouse.",
+      {t:"The Wealth of Nations, 9 March 1776. After about ten years' work in Kirkcaldy and London, he published his great book, attacking the mercantile system of trade restrictions and arguing that freer markets and the division of labour create wealth.", lab:"verified", why:"First edition published in London by Strahan and Cadell."},
+      "Customs commissioner, 1778 to 1790. Ironically, he took a well-paid post enforcing customs duties in Edinburgh. Before he died he had most of his unpublished papers burned."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "The Theory of Moral Sentiments (1759), revised up to 1790.",
+      "The Wealth of Nations (1776): the pin factory, where ten workers dividing the tasks could make 48,000 pins a day; the observation that we get our dinner not from the benevolence of the butcher, brewer or baker but from their regard to their own interest.",
+      "He used the phrase 'invisible hand' only once in the Wealth of Nations, about investors who, seeking their own gain, end up benefiting society.",
+      "He also warned that merchants meeting together rarely do so without a conspiracy against the public, and he backed public education."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Margaret Douglas, his mother.",
+      "David Hume (1711 to 1776), philosopher and his best friend.",
+      "Francis Hutcheson, his teacher at Glasgow.",
+      "The Duke of Buccleuch, his pupil and patron.",
+      "James Watt, who was given a workshop at Glasgow University while Smith taught there."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "The Scottish Enlightenment made Edinburgh and Glasgow centres of new thinking in philosophy, science and economics.",
+      "Britain's empire ran on mercantilist rules protecting home industries and controlling colonial trade. The Wealth of Nations appeared months before the American Declaration of Independence, and Smith discussed the American conflict in it.",
+      "The early Industrial Revolution was beginning around him."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "The Wealth of Nations is seen as the founding work of economics.",
+      "Both free-market thinkers and their critics claim parts of his thought.",
+      "His portrait was on the Bank of England £20 note from 2007 to 2020."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He believed greed is good.", lab:"myth", t:"He wrote that self-interest in markets can serve the public, but praised sympathy and justice and attacked the greed of monopolists."},
+      {c:"The 'invisible hand' is the core of his book.", lab:"myth", t:"The phrase appears once in the Wealth of Nations, once in the Moral Sentiments and once in an essay on astronomy. Later economists made it famous."},
+      {c:"He opposed all government action.", lab:"myth", t:"He supported defence, justice, public works, public schools and some regulation, such as of banking."},
+      {c:"He was very absent-minded.", lab:"likely", t:"Friends told stories of him talking to himself and walking miles in his dressing gown while lost in thought. Some may be exaggerated."},
+      {c:"He invented the idea of the division of labour.", lab:"myth", t:"Plato and others had discussed it. Smith made it central to explaining growth."},
+      {c:"He was pro-slavery as an economist.", lab:"myth", t:"He condemned slavery as both cruel and economically inefficient."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations (1776), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/3300"},
+      {n:"Adam Smith, The Theory of Moral Sentiments (1759), public domain"},
+      {n:"Dugald Stewart, Account of the Life and Writings of Adam Smith (1793), public domain"},
+      {n:"John Rae, Life of Adam Smith (1895), public domain"},
+      {n:"Further reading: Nicholas Phillipson, Adam Smith: An Enlightened Life (2010)"}
+    ]}
+  ]
+},
+
+"haydn": {
+  hero: "",
+  kw: ["Joseph Haydn","Papa Haydn","Esterházy","Eszterháza","symphony","string quartet","Surprise Symphony","Farewell Symphony","London","Salomon","The Creation","Emperor's Hymn","Gott erhalte","Mozart","Beethoven","Vienna","Rohrau","Napoleon"],
+  lede: "A wheelwright's son who spent thirty years as a court musician in a remote Hungarian palace, where, as he said, he was forced to become original. He shaped the symphony and string quartet, taught Beethoven, and became the most famous composer in Europe.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Franz Joseph Haydn was born on 31 March 1732 in Rohrau, Lower Austria, near the Hungarian border.",
+      "From 1761 he served the Esterházy princes for almost 30 years, writing music for their court. Two visits to London in the 1790s made him an international celebrity.",
+      "He wrote 104 numbered symphonies, about 68 string quartets, operas, masses and the oratorio The Creation. He died in Vienna on 31 May 1809, as Napoleon's army occupied the city."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His father was a wheelwright who played the harp by ear. At about six Joseph was sent to a relative to learn music.",
+      "At eight he became a choirboy at St Stephen's Cathedral in Vienna. When his voice broke he was dismissed, around 1749, reportedly after cutting off another chorister's pigtail.",
+      "He struggled for years, teaching, playing and studying counterpoint on his own. He worked as an assistant and valet to the composer Nicola Porpora to learn from him."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Esterházy, 1761. He joined the household of Prince Paul Anton Esterházy as vice-Kapellmeister, and in 1766 became Kapellmeister under Prince Nikolaus 'the Magnificent'.",
+      "Eszterháza. Nikolaus built a magnificent palace in the Hungarian countryside with an opera house and a marionette theatre. Haydn ran the orchestra, opera and music for every occasion.",
+      {t:"The Farewell Symphony, 1772. When the prince kept the musicians at the palace too long, away from their families, Haydn wrote a symphony in which players leave one by one in the last movement. The prince took the hint.", lab:"likely", why:"The story comes from Haydn's early biographers, Griesinger and Dies, based on his own recollections."},
+      "Mozart, 1780s. He met Mozart in Vienna; they played quartets together. He told Mozart's father that his son was the greatest composer he knew.",
+      "London, 1791 to 1792 and 1794 to 1795. After Nikolaus died, the impresario Johann Peter Salomon brought him to London. His 12 'London' symphonies were a sensation, and Oxford gave him an honorary doctorate.",
+      "The Creation, 1798. Inspired by Handel's oratorios in London, he wrote The Creation, which was a triumph.",
+      "Last years. His health failed after 1803. In May 1809 French cannon shelled Vienna, and Napoleon placed a guard of honour at his house. He died weeks later."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "104 symphonies, including the Farewell (No. 45), the Surprise (No. 94), the Clock (No. 101) and the London (No. 104).",
+      "String quartets, including the 'Emperor' quartet, Op. 76 No. 3. He is called the father of the string quartet.",
+      "The Creation (1798) and The Seasons (1801), oratorios.",
+      "The 'Emperor's Hymn' (1797), 'Gott erhalte Franz den Kaiser'. Its melody is now Germany's national anthem."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Prince Nikolaus Esterházy (1714 to 1790), his patron.",
+      "Wolfgang Amadeus Mozart, his friend.",
+      "Ludwig van Beethoven, who studied with him in Vienna in 1792 to 1794, not always happily.",
+      "Johann Peter Salomon, the violinist and impresario who brought him to London.",
+      "Maria Anna Keller, his wife, in an unhappy marriage; Luigia Polzelli, a singer at Eszterháza, was his companion."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Musicians were servants of nobles and the Church. Haydn lived to see public concerts and music publishing give composers new independence.",
+      "The French Revolution and Napoleonic Wars shook Europe in his last 20 years.",
+      "Vienna became the centre of music, with Haydn, Mozart and then Beethoven."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "He is the founder of the Classical style together with Mozart, and his forms shaped symphonies and quartets for over a century.",
+      "His affectionate nickname 'Papa Haydn' came from his musicians.",
+      "His tomb is in the Bergkirche in Eisenstadt, Austria."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"The Surprise Symphony's loud chord was meant to wake sleeping audiences.", lab:"disputed", t:"A popular story. Haydn told his biographer Griesinger he wanted to surprise the public with something new, not wake them."},
+      {c:"He wrote all 104 symphonies' nicknames himself.", lab:"myth", t:"Most nicknames, like 'Clock' and 'Bear', were added by publishers and audiences."},
+      {c:"His body has rested whole in its grave since 1809.", lab:"myth", t:"Phrenologists stole his head after burial. It was reunited with his body only in 1954."},
+      {c:"He taught Beethoven well.", lab:"disputed", t:"Beethoven later said he learned nothing from him and took secret lessons from others, though he dedicated works to Haydn."},
+      {c:"He was a cheerful man without troubles.", lab:"myth", t:"He had an unhappy marriage, years of poverty, and long isolation at Eszterháza."},
+      {c:"He wrote the German national anthem.", lab:"verified", t:"He wrote the melody in 1797 as a hymn for the Austrian emperor. The words of the German anthem were added later by Hoffmann von Fallersleben in 1841."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Georg August Griesinger, Biographical Notes Concerning Joseph Haydn (1810), public domain"},
+      {n:"Albert Christoph Dies, Biographical Accounts of Joseph Haydn (1810), public domain"},
+      {n:"Haydn's scores, IMSLP (public domain editions)", u:"https://imslp.org/"},
+      {n:"Haydnhaus Eisenstadt and Esterházy Palace"},
+      {n:"Further reading: H. C. Robbins Landon, Haydn: Chronicle and Works (1976 to 1980)"}
+    ]}
+  ]
+},
+
+"goethe": {
+  hero: "",
+  kw: ["Johann Wolfgang von Goethe","Frankfurt","Weimar","Faust","Werther","Sturm und Drang","Schiller","Italian Journey","theory of colours","Duke Karl August","Napoleon","Wilhelm Meister","Mephistopheles","Charlotte von Stein","Weltliteratur","More light@myths"],
+  lede: "Germany's greatest writer, who became famous at 25 with a novel that set young Europe weeping, ran a small duchy's government, studied plants, bones and colours, met Napoleon, and spent sixty years writing Faust, the story of a scholar who sells his soul.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Johann Wolfgang Goethe was born in Frankfurt am Main on 28 August 1749 into a wealthy family. He was ennobled in 1782, becoming 'von Goethe'.",
+      "His novel The Sorrows of Young Werther (1774) made him famous. From 1775 he lived in Weimar, serving Duke Karl August as minister and running the court theatre.",
+      "He wrote poems, plays, novels and scientific works, worked with Friedrich Schiller, and finished Faust just before his death in Weimar on 22 March 1832."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His father, a lawyer with an imperial title, taught him and his sister at home: languages, drawing, music and fencing.",
+      "He watched French troops occupy Frankfurt in the Seven Years' War and loved the French theatre they brought.",
+      "He studied law in Leipzig and Strasbourg. In Strasbourg he met the thinker Johann Gottfried Herder, who opened his eyes to folk song, Shakespeare and Gothic architecture."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Sturm und Drang, 1771 to 1775. His play Götz von Berlichingen (1773) helped launch the 'Storm and Stress' movement of passionate young writers.",
+      {t:"Werther, 1774. Drawing on his own love for Charlotte Buff, who was engaged to another man, and the suicide of an acquaintance, he wrote a novel in letters about a young man who kills himself for love. It was a sensation across Europe.", lab:"verified", why:"Goethe described the novel's roots in his autobiography, Poetry and Truth."},
+      "Weimar, 1775. Invited by the 18-year-old Duke Karl August, he moved to Weimar and soon became a minister, overseeing roads, mines, finances and war. His friendship with Charlotte von Stein shaped him deeply.",
+      "Italy, 1786 to 1788. Exhausted, he slipped away to Italy under a false name. Seeing Roman ruins and Renaissance art, he turned to a calmer classical style.",
+      "Schiller, 1794 to 1805. His friendship and collaboration with the poet and dramatist Friedrich Schiller created 'Weimar Classicism'. Schiller's death in 1805 grieved him deeply.",
+      {t:"Napoleon, 1808. At Erfurt, Napoleon met Goethe, who was already famous for Werther. Napoleon greeted him by saying 'You are a man!' and said he had read Werther seven times.", lab:"likely", why:"From Goethe's own notes on the meeting. Other witnesses give slightly different words."},
+      "Faust, 1808 and 1832. Faust Part One appeared in 1808. He sealed the manuscript of Part Two months before his death, to be published afterwards."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "Faust: Part One and Part Two, the story of the scholar Faust and the devil Mephistopheles, and of Gretchen, whom Faust seduces and ruins.",
+      "The Sorrows of Young Werther (1774) and Wilhelm Meister's Apprenticeship (1795 to 1796), a model for the coming-of-age novel.",
+      "Poems such as 'The Erl-King' and 'Wanderer's Night Song', set to music by Schubert and others.",
+      "Science: he discovered the human intermaxillary bone in 1784, wrote on the metamorphosis of plants, and published a Theory of Colours (1810) that challenged Newton.",
+      "Conversations with Goethe, recorded by his secretary Johann Peter Eckermann."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Friedrich Schiller (1759 to 1805), his great friend and collaborator.",
+      "Duke Karl August of Saxe-Weimar (1757 to 1828), his patron and friend.",
+      "Charlotte von Stein, the married court lady who was his confidante for ten years.",
+      "Christiane Vulpius, a flower-maker who became his companion in 1788; they married in 1806.",
+      "Johann Peter Eckermann, who recorded his late conversations."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Germany was a patchwork of hundreds of states within the Holy Roman Empire, which ended in 1806.",
+      "He lived through the French Revolution, Napoleon's wars and the start of the Industrial Revolution.",
+      "Weimar, a small capital, became the centre of German culture thanks to him, Schiller, Herder and Wieland."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "Goethe is to German what Shakespeare is to English. Germany's cultural institute abroad is called the Goethe-Institut.",
+      "He coined the idea of 'world literature' (Weltliteratur).",
+      "Faust has inspired operas by Gounod and Berlioz, symphonies by Liszt and Mahler, and countless works since."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"His last words were 'More light!'", lab:"tradition", t:"His doctor reported he asked for the shutter to be opened to let in more light. The grand version became famous; what he said exactly is uncertain."},
+      {c:"Werther caused a wave of suicides.", lab:"disputed", t:"Some cases were reported and the book was banned in places. Historians doubt there was a true epidemic, but 'the Werther effect' is still used for copycat suicides."},
+      {c:"He invented the Faust story.", lab:"myth", t:"The legend of Doctor Faustus dates to the 16th century and was dramatised by Christopher Marlowe around 1590."},
+      {c:"His colour theory was simply wrong.", lab:"disputed", t:"His attack on Newton's optics failed, but his studies of how we perceive colour influenced painters and psychologists."},
+      {c:"He was only a writer.", lab:"myth", t:"He was a senior government minister for years and published serious scientific research."},
+      {c:"He was a German nationalist.", lab:"myth", t:"He admired Napoleon and distrusted nationalist fervour, and championed world literature."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Johann Wolfgang von Goethe, Faust, Part One, translated by Bayard Taylor (1870), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/14591"},
+      {n:"Johann Wolfgang von Goethe, The Sorrows of Young Werther, translated by R. D. Boylan (1854), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/2527"},
+      {n:"Johann Peter Eckermann, Conversations with Goethe, translated by John Oxenford (1850), public domain"},
+      {n:"Goethe, Poetry and Truth (autobiography), public domain translations"},
+      {n:"Further reading: Nicholas Boyle, Goethe: The Poet and the Age (1991 and 2000)"}
+    ]}
+  ]
+},
+
+"shah-jahan": {
+  hero: "",
+  kw: ["Mughal","Khurram","Taj Mahal","Mumtaz Mahal","Agra","Red Fort","Shahjahanabad","Delhi","Peacock Throne","Jama Masjid","Jahangir","Aurangzeb","Dara Shikoh","imprisoned","Agra Fort","architecture","Black Taj@myths","cut off hands@myths"],
+  lede: "The Mughal emperor who built the Taj Mahal as a tomb for his beloved wife, created a new capital at Delhi and the jewelled Peacock Throne, and spent his last years as his son's prisoner, looking across the river at the tomb he had made.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Prince Khurram was born in Lahore on 5 January 1592, a son of the Mughal emperor Jahangir and grandson of Akbar.",
+      "He became emperor in 1628 as Shah Jahan, 'King of the World'. His reign was the height of Mughal architecture: the Taj Mahal, the Red Fort and the city of Shahjahanabad in Delhi.",
+      "In 1658 his son Aurangzeb seized the throne and imprisoned him in Agra Fort, where he died on 22 January 1666."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "He was raised largely by Akbar's childless first wife, Ruqaiya Sultan Begum, and was a favourite of his grandfather.",
+      "In 1612 he married Arjumand Banu Begum, later called Mumtaz Mahal, 'Chosen One of the Palace'. They had 14 children.",
+      "As a prince he led successful campaigns in Mewar and the Deccan, and his father gave him the title Shah Jahan."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Rebellion, 1622 to 1626. Fearing his stepmother Nur Jahan's influence over the succession, he rebelled against his father and was defeated, but was later pardoned.",
+      "Emperor, 1628. After Jahangir's death he took the throne, after his supporters had his rivals, including his brother Shahryar, killed.",
+      {t:"Mumtaz Mahal's death, 1631. She died in Burhanpur giving birth to their 14th child. Court chroniclers write that the emperor's grief turned his beard white and that he gave up music and fine clothes for a time.", lab:"likely", why:"From the official court histories, which also served to celebrate the emperor."},
+      "The Taj Mahal, 1632 to about 1653. In Agra he began a white marble tomb for her by the Yamuna river, with gardens, a mosque and guest house. About 20,000 workers built it.",
+      "Shahjahanabad, 1639 to 1648. He built a new walled capital at Delhi, with the Red Fort and later the Jama Masjid, one of India's largest mosques.",
+      {t:"The war of succession, 1657 to 1658. When he fell ill, his four sons fought for the throne. Aurangzeb defeated his elder brother Dara Shikoh, the emperor's favourite, imprisoned his father in Agra Fort, and later had Dara executed.", lab:"verified", why:"Recorded in Mughal histories and by European witnesses such as François Bernier."},
+      "Captivity, 1658 to 1666. He lived his last eight years in Agra Fort, cared for by his daughter Jahanara. He was buried beside Mumtaz in the Taj Mahal."
+    ]},
+    {k:"works", h:"What he built", ps:[
+      "The Taj Mahal, a UNESCO World Heritage Site and one of the most famous buildings on earth.",
+      "The Red Fort and Jama Masjid in Delhi, and additions to Agra Fort, including the Pearl Mosque.",
+      "The Peacock Throne, covered in gold and precious stones, which the Persian ruler Nader Shah carried off in 1739.",
+      "The Shalimar Gardens in Lahore."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Mumtaz Mahal (1593 to 1631), his wife.",
+      "Jahangir, his father, and Nur Jahan, his powerful stepmother.",
+      "Dara Shikoh (1615 to 1659), his eldest son, a scholar who translated the Upanishads into Persian.",
+      "Aurangzeb (1618 to 1707), the son who overthrew him.",
+      "Jahanara Begum (1614 to 1681), his daughter, who shared his captivity."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "The Mughal Empire ruled most of the Indian subcontinent and was one of the richest states in the world.",
+      "European trading companies, including the English and Dutch East India Companies, were setting up posts on India's coasts.",
+      "Famine struck the Deccan and Gujarat in 1630 to 1632, as the Taj Mahal was begun."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "His buildings define Mughal architecture at its peak, and the Taj Mahal draws millions of visitors a year.",
+      "His spending and wars strained the treasury.",
+      "The poet Rabindranath Tagore called the Taj Mahal 'a teardrop on the cheek of time'."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He cut off the hands of the Taj Mahal's builders so they could never build anything as beautiful.", lab:"myth", t:"There is no historical evidence. Many of the same craftsmen went on to work on his buildings in Delhi."},
+      {c:"He planned a black Taj Mahal for himself across the river.", lab:"myth", t:"The story comes from the French traveller Jean-Baptiste Tavernier. Excavations found the Mehtab Bagh garden there, not foundations of a tomb."},
+      {c:"The Taj Mahal was originally a Hindu temple.", lab:"myth", t:"Court records, design and construction accounts show it was built as a tomb for Mumtaz Mahal. Indian courts and the Archaeological Survey of India have rejected the temple claim."},
+      {c:"He could see the Taj Mahal from his prison.", lab:"likely", t:"Agra Fort overlooks the Taj across the river, and tradition says he gazed at it from the Musamman Burj tower."},
+      {c:"Mumtaz Mahal was his only wife.", lab:"myth", t:"He had other wives, but she was his favourite and chief consort."},
+      {c:"The Taj Mahal took 22 years to build.", lab:"likely", t:"The main tomb was finished around 1643 and the whole complex around 1653."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"François Bernier, Travels in the Mogul Empire, translated by Archibald Constable (1891), public domain"},
+      {n:"Jean-Baptiste Tavernier, Travels in India, translated by V. Ball (1889), public domain"},
+      {n:"Abdul Hamid Lahori, Padshahnama (official history), public domain in the original"},
+      {n:"Taj Mahal, official website (Uttar Pradesh Tourism)", u:"https://www.tajmahal.gov.in/"},
+      {n:"Further reading: Ebba Koch, The Complete Taj Mahal (2006)"}
+    ]}
+  ]
 }
 });
