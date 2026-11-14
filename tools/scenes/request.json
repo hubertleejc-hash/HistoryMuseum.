@@ -1,38 +1,47 @@
 {
- "mode": "search",
- "groups": {
-  "paris-1889": {
-   "limit": 40,
-   "cats": [
-    "Exposition Universelle (1889)",
-    "Photochrom prints of Paris",
-    "Paintings by Jean Béraud",
-    "Construction of the Eiffel Tower"
-   ],
-   "search": [
-    "Paris 1889 photograph boulevard",
-    "Paris photochrom boulevard",
-    "Exposition universelle 1889 photograph",
-    "Paris omnibus 1889",
-    "Jean Béraud boulevard",
-    "Paris rue 1889 photographie"
-   ]
+ "mode": "fetch",
+ "picks": [
+  {
+   "id": "paris-1889-1",
+   "file": "Léon & Lévy, Boulevard et porte Saint-Denis, c. 1889 02.jpg",
+   "depth": true,
+   "trim": true
   },
-  "florence-1505": {
+  {
+   "id": "paris-1889-2",
+   "file": "Béraud - Le théâtre du Vaudeville, 1889.jpg",
+   "depth": true
+  },
+  {
+   "id": "paris-1889-3",
+   "file": "Central Dome and the Fountain Coutan seen through the base of the Eiffel Tower, with crowd on the Champ de Mars, Paris Exposition, 1889 LCCN92519768.jpg",
+   "depth": true,
+   "trim": true
+  },
+  {
+   "id": "paris-1889-4",
+   "file": "Alexandre-Georges Roux - Fête de nuit à l'Exposition universelle de 1889, sous la tour Eiffel - P1994 - Musée Carnavalet.jpg",
+   "depth": true
+  },
+  {
+   "id": "florence-1505-1",
+   "file": "Francesco Rosselli (attribution). Pianta della Catena, 1470.jpg"
+  },
+  {
+   "id": "florence-1505-2",
+   "file": "Filippo Dolciati (1443 - 1519) Execution of Girolamo Savonarola. 1498, Florence, Museo di San Marco.jpg"
+  }
+ ],
+ "groups": {
+  "florence-1505b": {
    "limit": 30,
-   "cats": [
-    "Veduta della Catena",
-    "Execution of Girolamo Savonarola",
-    "Frescos in the Sassetti Chapel"
-   ],
    "search": [
-    "Savonarola Piazza della Signoria 1498",
-    "Veduta della Catena Florence",
-    "Ghirlandaio Piazza della Signoria fresco",
-    "Florence 15th century painting street",
-    "Firenze veduta quattrocento"
+    "Ghirlandaio Conferma della regola francescana",
+    "Ghirlandaio Sassetti Chapel fresco",
+    "Ghirlandaio Resurrection of the boy Santa Trinita",
+    "Ghirlandaio Tornabuoni Chapel Visitation",
+    "Florence Ponte Vecchio painting 15th century"
    ]
   }
- },
- "run": 2
+ }
 }

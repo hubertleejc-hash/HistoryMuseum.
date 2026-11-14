@@ -28,7 +28,7 @@ jobs:
       - name: Depth model tools (fetch only)
         if: ${{ hashFiles('tools/scenes/request.json') != '' }}
         run: |
-          if grep -q '"fetch"' tools/scenes/request.json; then
+          if grep -q '"picks"' tools/scenes/request.json; then
             pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cpu
             pip install transformers==4.46.3
           fi

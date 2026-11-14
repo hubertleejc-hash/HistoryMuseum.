@@ -65,6 +65,19 @@ def search(groups):
                 dr.text(((k % 4) * 300 + 6, (k // 4) * 230 + 204), f"#{c['n']}  {c['date'][:22]}  {c['w']}px", fill=(240, 200, 110))
             sheet.save(OUT / f"{g}-{s // 24 + 1:02d}.jpg", quality=80)
 
+def trim(im):
+    """Cut away a plain scanner border or mount (near-white or near-black rows and columns at the edges)."""
+    from PIL import ImageStat
+    g = im.convert("L"); w, h = g.size
+    plain = lambda box: (lambda st: st.stddev[0] < 14 and (st.mean[0] > 200 or st.mean[0] < 40))(ImageStat.Stat(g.crop(box)))
+    l, t, r, b = 0, 0, w, h
+    while l < w * .2 and plain((l, 0, l + 4, h)): l += 4
+    while r > w * .8 and plain((r - 4, 0, r, h)): r -= 4
+    while t < h * .2 and plain((0, t, w, t + 4)): t += 4
+    while b > h * .8 and plain((0, b - 4, w, b)): b -= 4
+    pad = round(min(w, h) * .01)
+    return im.crop((l + pad, t + pad, r - pad, b - pad)) if (l, t, r, b) != (0, 0, w, h) else im
+
 def fetch(picks):
     from PIL import Image
     IMG.mkdir(parents=True, exist_ok=True)
@@ -72,13 +85,15 @@ def fetch(picks):
     cred = json.loads(cred_f.read_text()) if cred_f.exists() else {}
     depth = None
     for pk in picks:
-        pg = query({"titles": "File:" + pk["file"]}, width=1600)
+        pg = query({"titles": "File:" + pk["file"]}, width=1800)
         ii = (pg[0].get("imageinfo") or [None])[0] if pg else None
         if not ii: print("not found:", pk["file"]); continue
         md = ii.get("extmetadata", {})
         if not is_free(md): print("not public domain:", pk["file"]); continue
         b = get(ii.get("thumburl") or ii["url"], raw=True)
         im = Image.open(io.BytesIO(b)).convert("RGB")
+        if pk.get("trim"): im = trim(im)
+        if pk.get("crop"): l, t, r, b = pk["crop"]; im = im.crop((round(l * im.width), round(t * im.height), round(r * im.width), round(b * im.height)))
         if im.width > 1600: im = im.resize((1600, round(im.height * 1600 / im.width)), Image.LANCZOS)
         im.save(IMG / (pk["id"] + ".jpg"), "JPEG", quality=80, optimize=True, progressive=True)
         if pk.get("depth"):
@@ -96,4 +111,5 @@ def fetch(picks):
     cred_f.write_text(json.dumps(cred, ensure_ascii=False, indent=1))
 
 if __name__ == "__main__":
-    search(REQ["groups"]) if REQ["mode"] == "search" else fetch(REQ["picks"])
+    if REQ.get("picks"): fetch(REQ["picks"])
+    if REQ.get("groups"): search(REQ["groups"])
