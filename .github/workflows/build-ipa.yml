@@ -75,7 +75,8 @@ jobs:
           [ -f "$APP/index.html" ] || { echo "::error::index.html is not in the app"; ls "$APP"; exit 1; }
           INSIDE=$(stat -f%z "$APP/index.html")
           echo "Museum page inside the app: $INSIDE bytes"
-          [ "$INSIDE" -gt 3000000 ] || { echo "::error::The museum page inside the app is only $INSIDE bytes"; exit 1; }
+          [ "$INSIDE" -gt 1000000 ] || { echo "::error::The museum page inside the app is only $INSIDE bytes"; exit 1; }
+          ls "$APP/img/"*.jpg >/dev/null 2>&1 || { echo "::error::The story pictures (img/) are not in the app"; exit 1; }
           rm -rf ipa && mkdir -p ipa/Payload
           cp -R "$APP" ipa/Payload/
           (cd ipa && zip -qry ../Contemporaries.ipa Payload)
