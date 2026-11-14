@@ -4855,5 +4855,524 @@ Object.assign(window.HISTORY.chapters, {
       {n:"Further reading: Annette Gordon-Reed, The Hemingses of Monticello (2008)"}
     ]}
   ]
+},
+
+"cicero": {
+  hero: "",
+  kw: ["Marcus Tullius Cicero","Arpinum","orator","Catiline","consul","63 BCE","Verres","Pompey","Caesar","Mark Antony","Philippics","letters","Atticus","republic","new man","proscription","Latin prose","On Duties","Tiro"],
+  lede: "A small-town 'new man' who talked his way to the top of Rome, crushed a conspiracy as consul, wrote the Latin that schoolchildren learned for two thousand years, and was killed for his speeches against Mark Antony. His severed hands were nailed up in the Forum.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Marcus Tullius Cicero was born on 3 January 106 BCE in Arpinum, a hill town south-east of Rome, into a well-off family that had never held high office.",
+      "He became Rome's greatest lawyer and orator and was elected consul in 63 BCE, when he exposed the conspiracy of Catiline.",
+      "He tried to defend the republic through the civil wars of Caesar and Pompey. After Caesar's murder he attacked Mark Antony in a series of speeches and was killed on Antony's orders on 7 December 43 BCE."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His father sent him and his brother Quintus to Rome to study law, rhetoric and Greek philosophy.",
+      "He served briefly in the army during the Social War (91 to 88 BCE), but had no taste for soldiering.",
+      {t:"His first big case, in 80 BCE, defended Sextus Roscius against a murder charge brought by allies of the dictator Sulla's powerful freedman. Winning it was a bold act.", lab:"verified", why:"His speech, Pro Roscio Amerino, survives."},
+      "He then spent two years studying in Athens and Rhodes, improving his voice and style."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Verres, 70 BCE. He prosecuted Gaius Verres, the corrupt governor of Sicily. His evidence was so crushing that Verres fled into exile after the first hearing. The case made Cicero the leading advocate in Rome.",
+      {t:"Consul and Catiline, 63 BCE. As consul he revealed a plot by the bankrupt aristocrat Lucius Sergius Catilina to seize power. In the Senate he opened his first speech against Catiline with the famous question 'How long, Catiline, will you abuse our patience?' Five conspirators were executed without trial on his authority.", lab:"verified", why:"The four Catilinarian speeches survive, and the historian Sallust wrote an account of the conspiracy."},
+      "Exile, 58 to 57 BCE. The populist tribune Clodius passed a law against anyone who had executed citizens without trial. Cicero fled to Greece and his house was destroyed. He was recalled 18 months later.",
+      "Civil war, 49 to 47 BCE. He reluctantly joined Pompey against Caesar, then accepted Caesar's pardon after Pompey's defeat.",
+      "Philosophy and grief, 46 to 44 BCE. Shut out of politics and devastated by the death of his daughter Tullia in 45 BCE, he wrote most of his philosophical works in about two years.",
+      {t:"The Philippics and death, 44 to 43 BCE. After Caesar's murder he led the Senate against Mark Antony in fourteen speeches he called Philippics. When Antony, Octavian and Lepidus formed the Second Triumvirate, Cicero was on the list of the proscribed. Soldiers caught him near his villa at Formiae; he leaned out of his litter and offered his neck.", lab:"likely", why:"The death scene is described by Plutarch, Livy (quoted by Seneca the Elder) and Appian, who agree on the main points."}
+    ]},
+    {k:"works", h:"The work", ps:[
+      "58 surviving speeches, including those against Verres, against Catiline and against Antony.",
+      "Philosophical works: On Duties, On the Nature of the Gods, On Old Age, On Friendship, the Tusculan Disputations and On the Republic.",
+      "Rhetoric: On the Orator and Brutus, about how to speak well.",
+      "Over 900 letters, to his friend Atticus, his brother and others, which give the most vivid picture of daily politics in any ancient society.",
+      "He brought Greek philosophy into Latin, coining words such as qualitas (quality) and humanitas."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Titus Pomponius Atticus, his closest friend, to whom he wrote hundreds of letters.",
+      "Terentia, his wife for 30 years, and Tullia, his beloved daughter.",
+      "Tiro, his enslaved secretary, later freed, who is credited with inventing a shorthand system and with helping to publish his letters.",
+      "Pompey and Julius Caesar, the great men he tried to steer.",
+      "Mark Antony, his final enemy, and Octavian, who let him die."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "The Roman Republic was breaking down under ambitious generals, mob violence and civil war.",
+      "As a 'new man' (novus homo), the first of his family in the Senate, he was always somewhat looked down on by the old aristocracy.",
+      "In his lifetime Rome annexed Syria and conquered Gaul. Egypt stayed independent until 30 BCE, after his death."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "His Latin became the model of classical prose. Renaissance humanists such as Petrarch, who rediscovered his letters to Atticus in 1345, revered him.",
+      "His ideas on natural law, duty and the republic influenced thinkers from Augustine to John Locke and the American founders.",
+      "His name is still a byword for eloquence."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"His name means 'chickpea'.", lab:"verified", t:"Plutarch says an ancestor had a cleft in his nose like a chickpea (cicer). Friends urged him to change it; he said he would make it famous."},
+      {c:"He was a firm, brave hero of the republic.", lab:"disputed", t:"He was brave at the end, but his letters show him vain, hesitant and changing sides. Historians judge him very differently."},
+      {c:"The executions of 63 BCE were legal.", lab:"disputed", t:"The Senate passed an emergency decree and debated the case, but Roman citizens had a right of appeal, which was denied. This was the charge that sent him into exile."},
+      {c:"Fulvia stabbed his tongue with a hairpin.", lab:"tradition", t:"Cassius Dio, writing over 200 years later, says Antony's wife did this to his severed head. It may be embellishment."},
+      {c:"He invented 'Lorem ipsum'.", lab:"myth", t:"Lorem ipsum is scrambled text from his On the Ends of Good and Evil, made by later printers. He wrote the original, not the gibberish."},
+      {c:"He was a lifelong enemy of Caesar.", lab:"myth", t:"They were on friendly terms for long periods, exchanged letters and admired each other's writing. Cicero was not part of the plot to kill Caesar, though he welcomed it."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Cicero, Orations, translated by C. D. Yonge (1856), public domain"},
+      {n:"Cicero, Letters to Atticus and others, translated by Evelyn S. Shuckburgh (1899 to 1900), public domain"},
+      {n:"Cicero, On Duties, translated by Walter Miller (1913), public domain in the US"},
+      {n:"Plutarch, Life of Cicero, translated by John Dryden and revised by A. H. Clough, public domain"},
+      {n:"Further reading: Anthony Everitt, Cicero: The Life and Times of Rome's Greatest Politician (2001)"}
+    ]}
+  ]
+},
+
+"sima-qian": {
+  hero: "",
+  kw: ["Shiji","Records of the Grand Historian","Han dynasty","Emperor Wu","Grand Historian","Sima Tan","Li Ling","castration","letter to Ren An","biographies","annals","Confucius","First Emperor","Xiongnu","historiography","Chang'an"],
+  lede: "The father of Chinese history, who chose castration rather than death so he could finish his father's great book, and wrote the Records of the Grand Historian: some 2,500 years in 130 chapters, told through the lives of emperors, rebels, assassins and merchants.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Sima Qian was born around 145 BCE (some say 135 BCE) near Longmen, in today's Shaanxi province, China.",
+      "He succeeded his father Sima Tan as Grand Historian (taishi ling) at the court of Emperor Wu of the Han dynasty, an office in charge of astronomy, the calendar and records.",
+      "In 99 BCE he defended a defeated general and was sentenced to death. He accepted castration instead and spent his remaining years finishing the Shiji. He probably died around 86 BCE."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "He wrote that at ten he could read texts in the old script, and that he studied with leading Confucian scholars.",
+      {t:"At about 20 he travelled across China, visiting places linked to the legendary emperor Yu, to Confucius, and to the founders of the Han, collecting stories and seeing the land for himself.", lab:"verified", why:"He describes these journeys in his autobiographical postface to the Shiji."},
+      "He then joined the court as a gentleman attendant and went on missions to the south-west."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      {t:"His father's charge, 110 BCE. Sima Tan, dying, wept and made his son promise to complete the history he had begun. Sima Qian became Grand Historian in 108 BCE.", lab:"verified", why:"Described by Sima Qian himself in the postface."},
+      "The calendar, 104 BCE. He helped reform the Han calendar, the Taichu calendar.",
+      {t:"The Li Ling affair, 99 BCE. The general Li Ling surrendered to the Xiongnu after a desperate fight against huge odds. When Sima Qian spoke in his defence, the furious emperor had him charged with deceiving the throne. Unable to pay to escape punishment, he chose castration over death.", lab:"verified", why:"From his own letter to Ren An and the History of the Han, written nearly two centuries later."},
+      "Finishing the book. He was later made palace secretary (zhongshu ling), close to the emperor, and continued writing.",
+      {t:"The letter to Ren An, about 93 or 91 BCE. In a famous letter to a condemned friend, he explained that he endured shame because death would have left his work unfinished, and that a man's death can be 'heavier than Mount Tai or lighter than a feather'.", lab:"likely", why:"The letter is preserved in the History of the Han. Its date and some details are debated."}
+    ]},
+    {k:"works", h:"The work", ps:[
+      "The Shiji (Records of the Grand Historian): 130 chapters and about 526,000 characters, covering Chinese history from the legendary Yellow Emperor to his own time.",
+      "It is organised in five parts: basic annals of rulers, tables, treatises on topics such as music, rivers and economics, hereditary houses of noble families, and 70 'arrayed traditions', mostly biographies.",
+      "The biographies include not only kings and generals but assassins, wandering knights, jesters, merchants and foreign peoples like the Xiongnu.",
+      "It gives our main account of the First Emperor of Qin and of the rise of the Han."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Sima Tan (died 110 BCE), his father, who began the history.",
+      "Emperor Wu of Han (reigned 141 to 87 BCE), his ruler and punisher.",
+      "Li Ling, the general he defended.",
+      "Ren An, the friend to whom he wrote his famous letter.",
+      "His grandson Yang Yun, who helped make the Shiji public."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Emperor Wu's reign was one of the most powerful in Chinese history. He made Confucianism the official philosophy, fought the Xiongnu nomads, and sent Zhang Qian west, opening routes that became the Silk Road.",
+      "In Rome, the Gracchi brothers' reforms and Marius's career were happening at the same time.",
+      "History-writing in China before him consisted mostly of court chronicles."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "The Shiji is the first of China's 24 official dynastic histories and the model for the rest.",
+      "Its lively storytelling made it a source for plays, novels and idioms that are still used in China.",
+      "He is often compared to Herodotus as a 'father of history'."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"Everything in the Shiji is reliable history.", lab:"myth", t:"He used oral tales, legends and earlier texts, and sometimes reports speeches no one could have recorded. He also noted where his sources disagreed."},
+      {c:"He wrote the Shiji alone.", lab:"disputed", t:"His father began it, and some chapters were lost and later filled in by others, such as Chu Shaosun."},
+      {c:"He hated Emperor Wu and wrote to attack him.", lab:"disputed", t:"He criticised Wu's wars and superstition in subtle ways, but scholars debate how far the book is a protest."},
+      {c:"His birth year is certain.", lab:"myth", t:"Commentators give 145 or 135 BCE, and the question is still argued."},
+      {c:"He was a Confucian.", lab:"disputed", t:"He admired Confucius deeply, but also praised Daoist ideas and people Confucians disapproved of, like merchants and knights-errant."},
+      {c:"The Shiji was published in his lifetime.", lab:"myth", t:"He hid one copy and kept one in the capital, and it was made public by his grandson after his death."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Sima Qian, Shiji, original classical Chinese text, Chinese Text Project (public domain)", u:"https://ctext.org/shiji"},
+      {n:"Sima Qian, Letter to Ren An, in the History of the Han (Hanshu), public domain"},
+      {n:"Herbert A. Giles, A History of Chinese Literature (1901), public domain"},
+      {n:"Édouard Chavannes, Les Mémoires historiques de Se-ma Ts'ien (1895 to 1905, French), public domain"},
+      {n:"Further reading: Burton Watson, Ssu-ma Ch'ien: Grand Historian of China (1958)"}
+    ]}
+  ]
+},
+
+"harun-al-rashid": {
+  hero: "",
+  kw: ["Abbasid","caliph","Baghdad","Round City","Arabian Nights","Thousand and One Nights","Barmakids","Ja'far","Zubaida","Charlemagne","elephant","Abul-Abbas","water clock","Byzantium","Nikephoros","Raqqa","House of Wisdom","al-Amin","al-Ma'mun","Islamic Golden Age"],
+  lede: "The caliph of Baghdad at the height of its glory, remembered from The Thousand and One Nights wandering his city in disguise. The real Harun ruled a vast empire, fought Byzantium, sent an elephant to Charlemagne, and destroyed the family of ministers who had raised him.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Harun al-Rashid was born around 763 or 766, probably in Rayy, near today's Tehran, a son of the Abbasid caliph al-Mahdi and al-Khayzuran, a former enslaved woman from Yemen who became very powerful.",
+      "He became caliph in 786, ruling an empire from North Africa to Central Asia. His reign is often seen as the high point of the Abbasid caliphate.",
+      "He died on 24 March 809 at Tus, in Khorasan, on campaign against a rebellion. Civil war between his sons followed."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "He was raised by Yahya ibn Khalid, of the Barmakid family, a Persian Buddhist-descended family of administrators from Balkh, whom Harun called 'father'.",
+      {t:"As a young prince he led expeditions against the Byzantine Empire, reaching the Bosporus in 782. His father gave him the title al-Rashid, 'the rightly guided'.", lab:"verified", why:"Recorded by the historian al-Tabari and in Byzantine chronicles, which describe the tribute the Empress Irene agreed to pay."},
+      "His elder brother al-Hadi became caliph in 785 and tried to remove Harun from the succession, but died suddenly in 786."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Caliph, 786. He made Yahya the Barmakid his chief minister, and Yahya's sons Ja'far and al-Fadl held great power. Their rule brought efficient government and patronage of learning.",
+      "Pilgrimage and war. He made the pilgrimage to Mecca many times and led or sent campaigns against Byzantium almost every year.",
+      {t:"Charlemagne, 797 to 802. He exchanged embassies with Charlemagne. His gifts included an elephant named Abul-Abbas, which reached Aachen in 802, and later, according to Frankish annals, a remarkable water clock with mechanical horsemen.", lab:"verified", why:"Recorded in the Royal Frankish Annals and Einhard. Arabic sources do not mention the embassies."},
+      {t:"The fall of the Barmakids, 803. Suddenly Harun had Ja'far executed and the rest of the family imprisoned and their wealth seized. Why is unknown.", lab:"disputed", why:"Later stories blame a secret marriage between Ja'far and Harun's sister Abbasa, but historians think Harun more likely resented their power and wealth."},
+      "Raqqa. From 796 he lived much of the time at Raqqa on the Euphrates, closer to the Byzantine frontier, rather than in Baghdad.",
+      "Nikephoros, 803 to 806. When the Byzantine emperor Nikephoros refused to pay tribute, Harun invaded Anatolia with a large army and forced him to pay again.",
+      "Succession and death. He divided the empire between his sons al-Amin and al-Ma'mun and had the agreement hung in the Kaaba. He died at Tus in 809, and civil war broke out between the brothers in 811."
+    ]},
+    {k:"works", h:"What he left", ps:[
+      "Baghdad at its peak: perhaps the largest city in the world, a centre of trade, scholarship, poetry and music.",
+      "Patronage of scholars, poets such as Abu Nuwas, and musicians such as Ibrahim al-Mawsili.",
+      "The beginnings of the translation of Greek, Persian and Indian works into Arabic, which flourished under his son al-Ma'mun at the House of Wisdom.",
+      "Hospitals, mosques and wells along the pilgrim road to Mecca, many built by his wife Zubaida."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Al-Khayzuran (died 789), his mother, a powerful political figure.",
+      "Zubaida bint Ja'far (died 831), his wife, famous for her wealth and charity, including the 'Zubaida trail' of wells to Mecca.",
+      "Yahya and Ja'far the Barmakids, his ministers.",
+      "Abu Nuwas, the brilliant, scandalous poet of his court.",
+      "Charlemagne, with whom he exchanged gifts."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "The Abbasid caliphate had overthrown the Umayyads in 750 and founded Baghdad in 762. It drew on Persian traditions of government.",
+      "In the west, an Umayyad emir ruled Spain from Córdoba, independent of Baghdad.",
+      "Paper-making, learned from China, spread through the empire; the first paper mill in Baghdad is said to date from his reign."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "The Thousand and One Nights turned him into a legendary figure of fairy-tale splendour and justice.",
+      "His reign is remembered as the start of the Islamic Golden Age of science and learning.",
+      "His grave lies within the shrine of Imam Reza in Mashhad, Iran. The imam was buried next to him in 818."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He walked Baghdad at night in disguise to see how his people lived.", lab:"tradition", t:"This is a favourite story in The Thousand and One Nights. No early historian reports it."},
+      {c:"The Thousand and One Nights was written in his time.", lab:"myth", t:"The collection grew over centuries from Persian, Indian and Arab tales. Many stories set in his court were added long after."},
+      {c:"He sent Charlemagne the keys of the Holy Sepulchre.", lab:"disputed", t:"Frankish sources say the Patriarch of Jerusalem sent them. Whether Harun was involved is unclear."},
+      {c:"He was a gentle, wise ruler.", lab:"disputed", t:"He was pious and generous to scholars, but could be ruthless, as the Barmakids learned."},
+      {c:"He founded the House of Wisdom.", lab:"disputed", t:"A palace library existed under him, but the House of Wisdom as a great centre of translation is linked mainly to his son al-Ma'mun."},
+      {c:"The water clock he sent amazed the Franks because they had never seen a clock.", lab:"myth", t:"The Franks had sundials and water clocks. It was the mechanical show of figures and bells that impressed them."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Al-Tabari, History of the Prophets and Kings (about 915), public domain in the original"},
+      {n:"Royal Frankish Annals (entries for 801, 802 and 807), public domain translations"},
+      {n:"Einhard, Life of Charlemagne, chapter 16, in Early Lives of Charlemagne, translated by A. J. Grant, Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/48870"},
+      {n:"The Book of the Thousand Nights and a Night, translated by Richard Burton (1885), public domain"},
+      {n:"Further reading: Hugh Kennedy, When Baghdad Ruled the Muslim World (2005)"}
+    ]}
+  ]
+},
+
+"su-shi": {
+  hero: "",
+  kw: ["Su Dongpo","Song dynasty","Meishan","Sichuan","Wang Anshi","New Policies","Crow Terrace","poetry trial","Huangzhou","Red Cliff","Hangzhou","Su Causeway","West Lake","Dongpo pork","Hainan","calligraphy","ci","Su Zhe","Su Xun"],
+  lede: "A brilliant Song-dynasty official, poet, painter, calligrapher and cook, exiled three times for speaking his mind, who turned every banishment into poems about moonlight, wine and friendship. Chinese readers still love him as Su Dongpo.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Su Shi was born on 8 January 1037 in Meishan, Sichuan, into a literary family. His father Su Xun and brother Su Zhe were also famous writers.",
+      "He passed the highest civil service exam in 1057, placed near the top, and served in posts across China. His opposition to the reformer Wang Anshi's New Policies got him tried and exiled.",
+      "Recalled, exiled again and sent as far as Hainan Island, he died in Changzhou on 24 August 1101 while returning from his last exile."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His mother, Cheng, taught him at home; his father travelled to study. Su Shi read the classics and histories from a young age.",
+      {t:"In 1057 he and his brother passed the jinshi exam. The examiner Ouyang Xiu, the leading writer of the age, was so struck by his essay that he said he must step aside to let this young man rise.", lab:"likely", why:"Ouyang Xiu's remark is reported in Song-dynasty sources and in letters, though wording varies."},
+      "His mother died that same year, and he went home for mourning. His first wife, Wang Fu, died in 1065; ten years later he wrote a famous poem about dreaming of her."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "The New Policies, 1069 onwards. The chief minister Wang Anshi began sweeping reforms of taxes, loans and the army. Su Shi wrote against them and asked for posts away from the capital, serving in Hangzhou, Mizhou and Xuzhou.",
+      {t:"The Crow Terrace trial, 1079. Officials accused him of mocking the emperor in his poems. He was arrested, held in the Censorate (nicknamed the Crow Terrace) for over 100 days, and expected to die. He was spared and exiled to Huangzhou.", lab:"verified", why:"Records of the case, including the poems used as evidence, survive."},
+      "Huangzhou, 1080 to 1084. Poor, he farmed a plot on an eastern slope and took the name Dongpo, 'Eastern Slope'. There he wrote the two Prose Poems on the Red Cliff and the song 'Remembering the Past at Red Cliff'.",
+      "Return and Hangzhou, 1085 to 1091. When the reformers fell, he was recalled and promoted, but he also criticised the anti-reformers for undoing good laws. As governor of Hangzhou he dredged West Lake and built the long causeway still called the Su Causeway.",
+      "Last exiles, 1094 to 1100. When the reformers returned, he was exiled to Huizhou in the far south and then to Hainan Island, the edge of the empire. There he taught local students.",
+      "Death, 1101. Pardoned by a new emperor, he started north but fell ill and died in Changzhou."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "About 2,700 poems and 300 ci (song lyrics), including 'Prelude to Water Music' ('When will the moon be clear and bright?'), written for his brother at the Mid-Autumn Festival.",
+      "The two Red Cliff prose poems (1082), meditations on time and nature written during his exile.",
+      "Essays, letters and memorials to the throne.",
+      "Calligraphy, such as the Cold Food Observance scroll, and ink paintings of bamboo and rocks. He argued that painting should express the artist's mind, not just copy appearance."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Su Zhe (1039 to 1112), his brother and lifelong correspondent.",
+      "Su Xun (1009 to 1066), his father, an essayist.",
+      "Wang Anshi (1021 to 1086), the reformer he opposed, with whom he later had a friendly meeting.",
+      "Wang Zhaoyun, his concubine and companion, who followed him into exile and died in Huizhou.",
+      "Huang Tingjian and Mi Fu, poet and calligrapher friends."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "The Northern Song was rich, urban and inventive: printing, paper money and the compass spread, and scholar-officials chosen by exam ran the state.",
+      "Court factions over reform fought bitterly, and losers were exiled.",
+      "To the north the Khitan Liao and the Tangut Western Xia were powerful rivals."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "He is counted among the 'Eight Great Prose Masters of the Tang and Song' and as one of the greatest Chinese poets.",
+      "His calm, humorous acceptance of hardship made him a model for later generations.",
+      "Dongpo pork, a slow-braised pork belly dish, is named after him, and the Su Causeway is part of Hangzhou's West Lake World Heritage Site."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He invented Dongpo pork.", lab:"tradition", t:"He wrote a light poem about cooking pork slowly with little water in Huangzhou. The dish's link to him is old tradition."},
+      {c:"The Red Cliff he wrote about was the site of the famous battle of 208.", lab:"myth", t:"Most scholars believe the battle was elsewhere. He knew this and wrote with a hint of doubt."},
+      {c:"He was a total opponent of reform.", lab:"myth", t:"He opposed parts of Wang Anshi's New Policies, but later defended some of them against the conservatives."},
+      {c:"He was nearly executed for his poems.", lab:"verified", t:"In 1079 he expected death and wrote farewell poems to his brother from prison."},
+      {c:"He disliked exile.", lab:"disputed", t:"He suffered poverty and illness, but his writings from exile are famous for their good humour and peace of mind."},
+      {c:"He was a Buddhist monk.", lab:"myth", t:"He was a Confucian official who also loved Buddhist and Daoist ideas and had monk friends."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Su Shi, collected poems and prose, original classical Chinese texts (public domain)"},
+      {n:"Herbert A. Giles, Gems of Chinese Literature (1922), public domain, with prose by Su Shi"},
+      {n:"History of Song (Songshi), biography of Su Shi (1345), public domain"},
+      {n:"National Palace Museum, Taipei: Cold Food Observance calligraphy scroll"},
+      {n:"Further reading: Ronald C. Egan, Word, Image, and Deed in the Life of Su Shi (1994)"}
+    ]}
+  ]
+},
+"magellan": {
+  hero: "",
+  kw: ["Fernão de Magalhães","Fernando de Magallanes","Portugal","Spain","Charles V","Spice Islands","Moluccas","Strait of Magellan","Pacific","Patagonia","mutiny","San Julián","Trinidad","Victoria","Elcano","Philippines","Cebu","Mactan","Lapulapu","Pigafetta","circumnavigation"],
+  lede: "A Portuguese captain who, refused by his own king, sailed for Spain to reach the Spice Islands by going west, found the strait at the tip of South America, crossed the vast Pacific, and was killed in the Philippines. Eighteen of his men made it home, the first to sail around the world.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Ferdinand Magellan (Fernão de Magalhães in Portuguese) was born around 1480 in northern Portugal into a family of minor nobility.",
+      "After years serving Portugal in India and Southeast Asia, he quarrelled with King Manuel I and offered his plan to King Charles I of Spain: to reach the Spice Islands (the Moluccas) by sailing west.",
+      "He left Spain in September 1519 with five ships and about 260 men, found the strait now named after him, and crossed the Pacific. He was killed in battle on Mactan in the Philippines on 27 April 1521. One ship, the Victoria, returned to Spain in September 1522."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "He served as a page at the Portuguese royal court in Lisbon as a boy.",
+      "In 1505 he sailed to India with the fleet of Francisco de Almeida and fought in battles at Kannur and Diu.",
+      {t:"He took part in the Portuguese capture of Malacca in 1511. There he acquired an enslaved man from Sumatra, whom he named Enrique, who would later serve as his interpreter.", lab:"likely", why:"From Magellan's will and Pigafetta's account. Enrique's origins are debated."},
+      "Back in Portugal, he was wounded in the knee in Morocco in 1513 and walked with a limp. Accused of trading with the enemy, he was cleared, but King Manuel refused him a raise and told him he could serve whom he liked."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Spain, 1517 to 1519. He moved to Seville, married Beatriz Barbosa, and with the astronomer Rui Faleiro won the backing of the young King Charles. The Spanish believed the Moluccas might lie in their half of the world under the Treaty of Tordesillas.",
+      "Departure, 20 September 1519. Five ships, the Trinidad, San Antonio, Concepción, Victoria and Santiago, left Sanlúcar de Barrameda.",
+      {t:"Mutiny, April 1520. While wintering at San Julián in Patagonia, three Spanish captains rebelled. Magellan crushed the mutiny, had one captain killed, executed another, and later marooned a third with a priest.", lab:"verified", why:"Recorded by Antonio Pigafetta and in the later Spanish inquiry."},
+      "The strait, October to November 1520. The Santiago had been wrecked scouting the coast in May, and the San Antonio deserted in the strait and sailed home. The three remaining ships spent 38 days threading the strait at the southern tip of South America.",
+      {t:"The Pacific, November 1520 to March 1521. He named the calm ocean the Pacific. The crossing took over three months. Pigafetta says they ate biscuit powder full of worms, sawdust, rats and leather from the yards, and that many died of scurvy.", lab:"verified", why:"Pigafetta's eyewitness journal."},
+      {t:"The Philippines and Mactan, March to April 1521. At Cebu, the ruler Humabon and many of his people were baptised. Magellan then attacked Lapulapu, chief of nearby Mactan, who refused to submit. With about 50 men against a far larger force, he was killed in the shallows.", lab:"verified", why:"Pigafetta was in the battle and was wounded."},
+      "Home, 1522. After more losses, the Victoria, captained by Juan Sebastián Elcano, loaded cloves in the Moluccas and sailed home across the Indian Ocean. It reached Spain on 6 September 1522 with 18 men."
+    ]},
+    {k:"works", h:"What the voyage achieved", ps:[
+      "The first circumnavigation of the earth, completed by his crew.",
+      "Proof that the Pacific was enormous and that the Americas were a separate continent between Europe and Asia.",
+      "The discovery of a 'lost' day: the crew found their calendar was one day behind Spain's, because they had sailed west around the world.",
+      "Antonio Pigafetta's journal, the main source, with early word lists of Malay, Cebuano and other languages."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Antonio Pigafetta (about 1491 to 1531), an Italian scholar who sailed as a passenger and wrote the voyage's history.",
+      "Juan Sebastián Elcano (about 1486 to 1526), a Basque officer who had joined the mutiny, was pardoned, and led the Victoria home.",
+      "Enrique of Malacca, his interpreter.",
+      "Lapulapu, chief of Mactan, now honoured as the first Filipino to resist European rule.",
+      "Beatriz Barbosa, his wife, who died with their son before news of the voyage reached Spain."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Portugal and Spain were racing for the spice trade. The Treaty of Tordesillas (1494) had split the newly found lands between them, but no one knew where the line fell on the far side of the globe.",
+      "Cloves, nutmeg and mace grew only in a few islands of today's Indonesia and were worth fortunes in Europe.",
+      "Cortés was conquering the Aztec Empire in Mexico in the same years."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "The Strait of Magellan and the Magellanic Clouds, two galaxies seen from the southern hemisphere, bear his name.",
+      "Spain later colonised the Philippines, beginning in 1565.",
+      "In the Philippines, Lapulapu is a national hero; the 500th anniversary in 2021 was marked as a victory of resistance."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"Magellan sailed around the world.", lab:"myth", t:"He died in the Philippines, halfway. His crew completed the voyage. He had, however, been east as far as Malacca earlier, so he had covered most of the globe's longitude in his life."},
+      {c:"Enrique was the first person to go around the world.", lab:"disputed", t:"If he came from the Philippine region, he would have closed the circle when he reached Cebu. His origins are uncertain, and he vanished after Magellan's death."},
+      {c:"Lapulapu personally killed Magellan.", lab:"tradition", t:"Pigafetta does not say who struck the fatal blow. Filipino tradition credits Lapulapu."},
+      {c:"Magellan proved the earth was round.", lab:"myth", t:"Educated people already knew that. The voyage showed its true size and that the oceans connect."},
+      {c:"The voyage was a financial disaster.", lab:"myth", t:"Despite losing four ships and most of the crew, the cloves the Victoria carried home roughly covered the cost of the whole fleet, with a small profit."},
+      {c:"Patagonia means land of giants.", lab:"disputed", t:"Pigafetta described very tall people there and Magellan called them 'Patagones'. The origin of the name is debated."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Antonio Pigafetta, Magellan's Voyage Around the World, translated by James Alexander Robertson (1906), public domain"},
+      {n:"The First Voyage Round the World by Magellan, translated by Lord Stanley of Alderley (Hakluyt Society, 1874), public domain"},
+      {n:"Maximilianus Transylvanus, De Moluccis Insulis (1523), public domain"},
+      {n:"Further reading: Laurence Bergreen, Over the Edge of the World (2003)"}
+    ]}
+  ]
+},
+
+"raphael": {
+  hero: "",
+  kw: ["Raffaello Sanzio","Urbino","Perugino","Florence","Rome","Pope Julius II","Leo X","Vatican","Stanze","School of Athens","Sistine Madonna","Madonna","cherubs","tapestries","Sistine Chapel","Fornarina","St Peter's","architect","Pantheon","High Renaissance"],
+  lede: "The youngest of the three giants of the High Renaissance, a painter of serene Madonnas and of the School of Athens, who ran a huge workshop in papal Rome, was put in charge of building St Peter's, and died at 37.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Raffaello Sanzio (or Santi) was born in Urbino, Italy, in 1483, probably on 6 April. His father, Giovanni Santi, was court painter to the Duke of Urbino.",
+      "He trained in central Italy, studied the work of Leonardo and Michelangelo in Florence, and in 1508 was called to Rome by Pope Julius II to paint rooms in the Vatican.",
+      "In Rome he became the most fashionable artist of his day, painter and architect to two popes. He died on 6 April 1520, aged 37, and is buried in the Pantheon."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "Urbino's court was one of the most refined in Italy. His father wrote a long poem about artists and taught him the basics.",
+      "His mother died when he was eight and his father when he was 11.",
+      {t:"He probably worked with the painter Pietro Perugino in Perugia. His early style is so close to Perugino's that some of their works were long confused.", lab:"likely", why:"Vasari says he was Perugino's pupil. Modern scholars think he may have been more a collaborator than a pupil."}
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Florence, 1504 to 1508. He studied Leonardo's pyramid compositions and soft shading, and Michelangelo's muscular figures. He painted a series of Madonnas, such as the Madonna of the Meadow.",
+      {t:"The Vatican rooms, 1508 to 1520. Julius II gave him the decoration of his private apartments, the Stanze. In the Stanza della Segnatura he painted the School of Athens, with Plato and Aristotle at its centre.", lab:"verified", why:"Payment records and the frescoes themselves, dated by inscriptions."},
+      "Rival to Michelangelo. While Michelangelo painted the Sistine ceiling nearby, Raphael's star rose. Michelangelo later complained that 'all he had of art he got from me'.",
+      "Leo X, 1513 to 1520. Under the Medici pope he ran a large workshop, designed tapestries for the Sistine Chapel, painted portraits, and decorated villas.",
+      "Architect of St Peter's, 1514. After Bramante's death he was made chief architect of the new St Peter's Basilica. He also oversaw ancient Roman ruins and proposed a map of ancient Rome.",
+      {t:"Death, 1520. He died after a short fever on Good Friday, 6 April, his birthday. His last great painting, the Transfiguration, was placed at the head of his bier.", lab:"likely", why:"Vasari blamed excessive lovemaking; letters of the time describe a fever. The cause is unknown."}
+    ]},
+    {k:"works", h:"The work", ps:[
+      "The School of Athens (1509 to 1511): ancient philosophers gathered in a great hall; Plato may have the face of Leonardo.",
+      "The Sistine Madonna (about 1512 to 1513), with two dreamy cherubs at the bottom, now in Dresden.",
+      "Portraits of Pope Julius II, Baldassare Castiglione and Leo X.",
+      "Cartoons for the Sistine Chapel tapestries (1515 to 1516), seven of which are in the Victoria and Albert Museum, London.",
+      "The Transfiguration (1516 to 1520), Vatican Museums."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Pope Julius II (reigned 1503 to 1513) and Pope Leo X (reigned 1513 to 1521), his patrons.",
+      "Baldassare Castiglione, his friend, author of The Book of the Courtier.",
+      "Giulio Romano and Giovan Francesco Penni, assistants who inherited his workshop.",
+      "Maria Bibbiena, his fiancée, niece of a cardinal; they never married.",
+      "Margherita Luti, said to be his lover 'La Fornarina', the baker's daughter."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Rome under Julius II and Leo X was being rebuilt as a capital of art and power.",
+      "Leonardo and Michelangelo were his great elders; with them he defines the High Renaissance.",
+      "Martin Luther posted his theses in 1517, partly in protest at indulgences sold to pay for St Peter's."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "For 300 years academies taught his work as the model of perfect painting.",
+      "The 19th-century Pre-Raphaelite Brotherhood took its name from rejecting that academic ideal.",
+      "His tomb in the Pantheon bears an epitaph by Pietro Bembo saying that Nature feared to be outdone while he lived."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He died from too much love-making.", lab:"tradition", t:"Vasari says so, but he wrote 30 years later. A fever, perhaps malaria or pneumonia, is more likely."},
+      {c:"La Fornarina was his secret wife.", lab:"tradition", t:"A romantic tradition. Some studies of the painting suggest a ring was painted over, but there is no documentary evidence of marriage."},
+      {c:"Michelangelo and Raphael were bitter enemies.", lab:"disputed", t:"They were rivals, and Michelangelo resented him. Raphael admired Michelangelo and is thought to have painted him into the School of Athens as the brooding philosopher in the foreground."},
+      {c:"Raphael painted all of his works himself.", lab:"myth", t:"His large workshop did much of the painting from his designs, especially after 1514."},
+      {c:"He painted the Sistine Chapel.", lab:"myth", t:"Michelangelo painted the ceiling and the Last Judgement. Raphael designed tapestries hung in the chapel."},
+      {c:"The cherubs from the Sistine Madonna are a separate painting.", lab:"myth", t:"They are a small detail at the bottom of a much larger altarpiece."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Giorgio Vasari, Lives of the Most Eminent Painters, Sculptors and Architects: Raphael (1550 and 1568), translated by Gaston du C. de Vere (1912 to 1915), public domain"},
+      {n:"Vatican Museums: Raphael's Rooms", u:"https://www.museivaticani.va/"},
+      {n:"Victoria and Albert Museum: the Raphael Cartoons"},
+      {n:"National Gallery of Art, Washington: Raphael works, open access images"},
+      {n:"Further reading: Roger Jones and Nicholas Penny, Raphael (1983)"}
+    ]}
+  ]
+},
+
+"henry-viii": {
+  hero: "",
+  kw: ["Tudor","six wives","Catherine of Aragon","Anne Boleyn","Jane Seymour","Anne of Cleves","Catherine Howard","Catherine Parr","Church of England","Reformation","Act of Supremacy","dissolution of the monasteries","Thomas More","Thomas Cromwell","Wolsey","Mary Rose","Field of the Cloth of Gold","Holbein","Edward VI","Elizabeth I"],
+  lede: "A golden, sporty young king who became a bloated, dangerous old one. He married six times in search of a son, broke England from the Pope, closed the monasteries, and had two of his wives beheaded.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Henry Tudor was born at Greenwich Palace on 28 June 1491, the second son of King Henry VII and Elizabeth of York.",
+      "He became heir when his brother Arthur died in 1502 and king in 1509, aged 17. Desperate for a male heir, he broke with the Pope to end his first marriage and made himself head of the Church of England in 1534.",
+      "He married six times, executed two wives and many ministers and opponents, and died at the Palace of Whitehall on 28 January 1547. His three children, Edward VI, Mary I and Elizabeth I, all reigned after him."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "As a younger son he received a broad education in Latin, French, theology and music. He wrote songs and played the lute.",
+      "After Arthur's death he was betrothed to Arthur's widow, Catherine of Aragon, daughter of the Spanish monarchs Ferdinand and Isabella, to keep the Spanish alliance.",
+      "As a young king he was tall, athletic and loved jousting, hunting and tennis. Visitors called him the handsomest prince in Christendom."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Early reign, 1509 to 1527. He married Catherine weeks after becoming king. He fought France, met the French king at the lavish Field of the Cloth of Gold (1520), and left government largely to Cardinal Thomas Wolsey. In 1521 the Pope named him Defender of the Faith for a book attacking Martin Luther.",
+      "The 'Great Matter', 1527 to 1533. Catherine had a daughter, Mary, but no surviving son. Henry, in love with Anne Boleyn, sought an annulment, arguing the marriage was invalid because Catherine had been his brother's wife. The Pope, under the control of Catherine's nephew Emperor Charles V, refused.",
+      {t:"The break with Rome, 1533 to 1534. He married Anne secretly in January 1533. Archbishop Thomas Cranmer annulled the first marriage. The Act of Supremacy (1534) declared the king Supreme Head of the Church of England.", lab:"verified", why:"The acts of Parliament survive."},
+      "Executions, 1535 to 1536. Sir Thomas More and Bishop John Fisher were beheaded for refusing to accept the king's supremacy. Anne Boleyn, who had a daughter, Elizabeth, but no son, was accused of adultery and treason and beheaded in May 1536.",
+      "The monasteries, 1536 to 1541. Thomas Cromwell closed about 800 monasteries, convents and friaries, and the Crown took their lands and treasure. A great northern rising, the Pilgrimage of Grace, was crushed.",
+      "A son, 1537. Jane Seymour gave birth to Edward but died 12 days later.",
+      "Last marriages, 1540 to 1547. He married Anne of Cleves and had the marriage annulled within months, then executed his fifth wife Catherine Howard for adultery in 1542. His sixth wife, Catherine Parr, outlived him. Obese and with an ulcerated leg after a jousting fall in 1536, he died at 55."
+    ]},
+    {k:"works", h:"What he left", ps:[
+      "The Church of England, separate from Rome.",
+      "The Royal Navy, much enlarged; his warship the Mary Rose sank in 1545 and was raised in 1982.",
+      "Palaces such as Hampton Court, which he took from Wolsey, and Nonsuch.",
+      "The Act of Union with Wales (1536) and the title King of Ireland (1541).",
+      "Portraits by Hans Holbein the Younger that fixed his image as a massive, commanding figure."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "His six wives: Catherine of Aragon, Anne Boleyn, Jane Seymour, Anne of Cleves, Catherine Howard and Catherine Parr.",
+      "Thomas Wolsey (about 1473 to 1530), cardinal and chief minister, who fell for failing to get the annulment.",
+      "Thomas Cromwell (about 1485 to 1540), minister who engineered the break with Rome, then was beheaded.",
+      "Sir Thomas More (1478 to 1535), author of Utopia, lord chancellor and martyr.",
+      "Thomas Cranmer, Archbishop of Canterbury."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "The Protestant Reformation was spreading across Europe from 1517.",
+      "His great rivals were Francis I of France and Emperor Charles V.",
+      "England had about 2.5 to 3 million people, far fewer than France or Spain."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "His break with Rome shaped English religion and politics for centuries.",
+      "The dissolution of the monasteries transferred huge amounts of land to the Crown and then to the gentry.",
+      "Children still learn his wives' fates with the rhyme 'Divorced, beheaded, died; divorced, beheaded, survived'."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He wrote 'Greensleeves'.", lab:"myth", t:"The song first appears in 1580, decades after his death, and its style is Elizabethan."},
+      {c:"He founded Protestantism in England.", lab:"disputed", t:"He broke with the Pope but kept much Catholic belief and burned Protestants as heretics. True Protestant reform came under his son Edward VI."},
+      {c:"He was always fat.", lab:"myth", t:"He stayed athletic into his forties. He grew very heavy after his jousting accident in 1536."},
+      {c:"He threw chicken bones over his shoulder at banquets.", lab:"myth", t:"A popular image from films. There is no evidence; Tudor court dining had strict manners."},
+      {c:"He had syphilis.", lab:"myth", t:"There is no evidence from his treatment records. Other explanations of his ill-health, such as diabetes or leg ulcers, are proposed."},
+      {c:"Anne of Cleves was ugly.", lab:"disputed", t:"Henry said he did not like her. Others found her pleasant-looking, and Holbein's portrait was thought a fair likeness."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Letters and Papers, Foreign and Domestic, Henry VIII, calendared state papers (1862 to 1932), British History Online (free to read)"},
+      {n:"Edward Hall, Hall's Chronicle (1548), public domain"},
+      {n:"A. F. Pollard, Henry VIII (1902), public domain"},
+      {n:"Mary Rose Museum, Portsmouth", u:"https://maryrose.org/"},
+      {n:"Further reading: J. J. Scarisbrick, Henry VIII (1968)"}
+    ]}
+  ]
+},
+
+"tokugawa-ieyasu": {
+  hero: "",
+  kw: ["shogun","Edo","Tokyo","Okazaki","Mikawa","hostage","Imagawa","Oda Nobunaga","Toyotomi Hideyoshi","Sekigahara","1600","Tokugawa shogunate","Osaka","Nikko","Toshogu","William Adams","daimyo","sakoku","cuckoo"],
+  lede: "A boy raised as a hostage who waited his whole life for his turn, outlasted Japan's two great unifiers, won the battle of Sekigahara, and founded a family of shoguns that kept Japan at peace for two and a half centuries.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Tokugawa Ieyasu was born on 31 January 1543 at Okazaki Castle in Mikawa province, the son of a minor warlord, Matsudaira Hirotada. His childhood name was Takechiyo.",
+      "He allied with Oda Nobunaga, then served Toyotomi Hideyoshi, and after Hideyoshi's death won the battle of Sekigahara in 1600. In 1603 the emperor named him shogun.",
+      "He ruled from Edo (today's Tokyo), destroyed the Toyotomi at Osaka in 1615, and died at Sunpu on 1 June 1616. His family ruled Japan until 1868."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "Japan was in the Sengoku, 'Warring States', period, with rival lords fighting for land.",
+      {t:"As a child he was sent as a hostage to the powerful Imagawa clan. On the way he was seized and held by the rival Oda clan for two years, then traded to the Imagawa at Sunpu, where he spent his youth.", lab:"verified", why:"Recorded in many Japanese chronicles, including the Tokugawa family's own histories."},
+      "His father died in 1549, by some accounts killed by a retainer. Ieyasu grew up learning patience and the ways of a powerful court."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Freedom, 1560. When Oda Nobunaga killed the Imagawa leader at the battle of Okehazama, Ieyasu returned to Okazaki and soon allied with Nobunaga.",
+      "A new name, 1567. He took the surname Tokugawa.",
+      "Mikatagahara, 1573. He suffered a terrible defeat by the warlord Takeda Shingen. A later tradition says he had a portrait painted of himself looking defeated to remind him not to be rash.",
+      {t:"His son's death, 1579. Under pressure from Nobunaga, who suspected a plot, Ieyasu had his wife executed and ordered his eldest son Nobuyasu to commit suicide.", lab:"likely", why:"The event is recorded, but its causes are debated and may have been political rivalry within the Tokugawa household."},
+      "Under Hideyoshi, 1584 to 1598. After Nobunaga's murder in 1582, Ieyasu fought Hideyoshi to a draw, then accepted him as overlord. In 1590 Hideyoshi moved him to the Kanto plain, where he made the small fishing town of Edo his base.",
+      {t:"Sekigahara, 21 October 1600. After Hideyoshi's death, Ieyasu led the eastern army against a western coalition loyal to Hideyoshi's young son. Key western lords switched sides during the battle, giving him a decisive victory.", lab:"verified", why:"Many accounts and letters from both sides survive."},
+      "Shogun, 1603. The emperor appointed him shogun. In 1605 he handed the title to his son Hidetada but kept real power.",
+      "Osaka, 1614 to 1615. He besieged Osaka Castle, the stronghold of Hideyoshi's son Toyotomi Hideyori. In 1615 the castle fell and Hideyori and his mother killed themselves. He died a year later."
+    ]},
+    {k:"works", h:"What he built", ps:[
+      "The Tokugawa shogunate, which ruled Japan from 1603 to 1868.",
+      "Edo, which grew into one of the largest cities in the world and became Tokyo.",
+      "A system of control over the daimyo (regional lords), including laws for warrior households and later the rule that lords spend alternate years in Edo.",
+      "The Tōshō-gū shrine at Nikkō, where he is honoured as a god, first built in 1617 under his son Hidetada and rebuilt in its present lavish form by his grandson Iemitsu in 1636."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Oda Nobunaga (1534 to 1582), his ally, the first great unifier.",
+      "Toyotomi Hideyoshi (1537 to 1598), the second unifier, whom he served.",
+      "Tokugawa Hidetada (1579 to 1632), his son and the second shogun.",
+      "William Adams, an English pilot who reached Japan on a battered Dutch ship in 1600, whom he made an adviser and samurai, the model for the hero of the novel Shōgun.",
+      "Ishida Mitsunari, leader of the western army at Sekigahara, executed after the battle."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Portuguese traders and Jesuit missionaries had brought guns and Christianity to Japan from the 1540s.",
+      "He tolerated Christians at first but banned Christianity from 1612, and across Japan in 1614, fearing foreign influence.",
+      "The Ming dynasty ruled China, and Hideyoshi's invasions of Korea (1592 to 1598) had failed."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "The 'Great Peace' of the Edo period (1603 to 1868) saw cities, trade, kabuki theatre and woodblock prints like Hokusai's flourish.",
+      "Later shoguns restricted foreign contact severely from the 1630s, a policy later called sakoku.",
+      "He is remembered for patience: a Japanese saying compares the three unifiers to men waiting for a cuckoo to sing."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"Nobunaga said 'If the cuckoo will not sing, kill it'; Hideyoshi, 'make it sing'; Ieyasu, 'wait for it to sing'.", lab:"tradition", t:"These verses were composed much later, in the Edo period, to sum up their characters."},
+      {c:"He closed Japan to the world.", lab:"myth", t:"He encouraged foreign trade, including with the Dutch and English. The strict closure came under his grandson Iemitsu."},
+      {c:"He died from eating tempura.", lab:"disputed", t:"He fell ill after eating sea bream fried in oil, according to an old account, but probably died of stomach cancer months later."},
+      {c:"Sekigahara was won by battle skill alone.", lab:"myth", t:"Secret deals made beforehand, especially the betrayal by Kobayakawa Hideaki, decided it."},
+      {c:"He was a samurai from a great family.", lab:"myth", t:"His family were minor lords. He later claimed descent from the famous Minamoto clan to qualify as shogun."},
+      {c:"He had a scowling portrait painted after his defeat at Mikatagahara.", lab:"disputed", t:"A portrait of him grimacing survives in Nagoya, but recent research finds that the link to the battle appears only in the 20th century."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+            {n:"James Murdoch, A History of Japan, Vol. 2 (1903), public domain"},
+      {n:"William Adams, letters from Japan (1611 to 1617), public domain"},
+      {n:"Nikko Toshogu Shrine, official website (in Japanese)", u:"https://www.toshogu.jp/"},
+      {n:"Further reading: A. L. Sadler, The Maker of Modern Japan: The Life of Tokugawa Ieyasu (1937)"},
+      {n:"Further reading: Conrad Totman, Tokugawa Ieyasu: Shogun (1983)"}
+    ]}
+  ]
 }
 });
