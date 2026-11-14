@@ -1,0 +1,128 @@
+{
+  "_about": "deny: ids never shown (removed on the next gather). allow: Islamic-world figural works checked by hand and approved (the Prophet Muhammad is never shown).",
+  "deny": [],
+  "allow": [],
+  "_portraits": "portrait_deny: person ids whose found portrait is wrong. portrait_file: person id -> Wikimedia Commons file name to use instead.",
+  "portrait_deny": [
+    "kahlo",
+    "muhammad"
+  ],
+  "portrait_file": {
+    "zheng-he": "Admiral Zhenghe.jpg",
+    "hokusai": {
+      "file": "Hokusai selfportrait.jpg",
+      "title": "Self-portrait of Hokusai"
+    },
+    "moses": {
+      "file": "Rembrandt - Moses with the Ten Commandments - Google Art Project.jpg",
+      "note": [
+        "likely",
+        "An artist's imagining; no likeness from life exists"
+      ],
+      "title": "Moses with the Ten Commandments"
+    },
+    "buddha": {
+      "file": "釈迦如来像-Shaka Nyorai MET DP231168.jpg",
+      "note": [
+        "likely",
+        "An artist's imagining made many centuries after his life"
+      ],
+      "title": "Shaka Nyorai (Shakyamuni)"
+    },
+    "jesus": {
+      "file": "Spas vsederzhitel sinay (cropped1).jpg",
+      "title": "Christ Pantocrator, Saint Catherine's Monastery, Sinai",
+      "note": [
+        "likely",
+        "An icon painted in the 6th century, about 500 years after his lifetime. No likeness from life exists."
+      ]
+    },
+    "confucius": {
+      "file": "Konfuzius-1770.jpg",
+      "note": [
+        "likely",
+        "Engraved about 2,250 years after his death"
+      ],
+      "title": "Confucius"
+    },
+    "socrates": {
+      "file": "Jacques-Louis David - The Death of Socrates - Google Art Project.jpg",
+      "note": [
+        "likely",
+        "Painted about 2,200 years after his death"
+      ],
+      "title": "The Death of Socrates"
+    },
+    "alexander": {
+      "file": "Alexander Mosaic detail of Alexander the Great.jpg",
+      "note": [
+        "likely",
+        "Roman mosaic copy made about 200 years after his death"
+      ],
+      "title": "Alexander in the Battle of Issus mosaic (detail)"
+    },
+    "qin-shi-huang": {
+      "file": "QinShiHuang18thCentury.jpg",
+      "note": [
+        "likely",
+        "Painted about 1,900 years after his death"
+      ],
+      "title": "Qin Shi Huang"
+    },
+    "joan-of-arc": {
+      "file": "Joan of Arc miniature graded.jpg",
+      "note": [
+        "likely",
+        "Made decades after her death; not drawn from life"
+      ],
+      "title": "Joan of Arc"
+    },
+    "mozart": "Croce-Mozart-Detail.jpg",
+    "darwin": "Charles Darwin by Julia Margaret Cameron, c. 1868.jpg",
+    "lincoln": "Abraham Lincoln O-77 matte collodion print.jpg",
+    "gandhi": {
+      "file": "Mahatma-Gandhi, studio, 1931.jpg",
+      "title": "Mahatma Gandhi"
+    },
+    "galileo": {
+      "file": "Justus Sustermans - Portrait of Galileo Galilei, 1636.jpg",
+      "title": "Portrait of Galileo Galilei"
+    },
+    "newton": {
+      "file": "GodfreyKneller-IsaacNewton-1689.jpg",
+      "title": "Isaac Newton"
+    },
+    "einstein": "Einstein 1921 by F Schmutzer - restoration.jpg",
+    "elizabeth-i": {
+      "file": "Elizabeth I Darnley Portrait.jpg",
+      "title": "The Darnley Portrait of Elizabeth I"
+    },
+    "michelangelo": "Miguel Ángel, por Daniele da Volterra (detalle).jpg",
+    "akbar": {
+      "file": "Contemporary seated portrait of Akbar, 1605.jpg",
+      "title": "Seated portrait of Akbar"
+    },
+    "tolstoy": {
+      "file": "L.N.Tolstoy Prokudin-Gorsky.jpg",
+      "title": "Leo Tolstoy",
+      "note": [
+        "verified",
+        "Colour photograph by Sergei Prokudin-Gorsky, 1908"
+      ]
+    },
+    "marco-polo": "Marco Polo portrait.jpg",
+    "charlemagne": "Albrecht Dürer - Emperor Charlemagne.jpg",
+    "rembrandt": "Rembrandt van Rijn - Self-Portrait - Google Art Project.jpg",
+    "bach": "Johann Sebastian Bach.jpg",
+    "catherine-the-great": "Catherine II by J.B.Lampi (1794, Hermitage).jpg",
+    "jane-austen": "CassandraAusten-JaneAusten(c.1810) hires.jpg",
+    "douglass": "Frederick Douglass (circa 1879).jpg",
+    "tesla": "Tesla circa 1890.jpeg",
+    "julius-caesar": "Gaius Julius Caesar (100-44 BC).JPG",
+    "plato": "Plato Silanion Musei Capitolini MC1377.jpg",
+    "murasaki": "Murasaki Shikibu.jpg",
+    "dante": "Portrait de Dante.jpg",
+    "columbus": "Portrait of a Man, Said to be Christopher Columbus.jpg",
+    "copernicus": "Nikolaus Kopernikus.jpg"
+  }
+}

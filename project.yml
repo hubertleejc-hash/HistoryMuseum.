@@ -16,6 +16,14 @@ targets:
     platform: iOS
     sources:
       - path: ios/HistoryMuseum
+        excludes:
+          - "Web/art"
+          - "Web/art/**"
+      # The Gallery's pictures and records, kept as a folder so the page finds them at art/...
+      - path: ios/HistoryMuseum/Web/art
+        type: folder
+        buildPhase: resources
+        optional: true
     # The first frame matches the opening animation: warm white in light mode, museum black in dark mode.
     info:
       path: ios/Info.plist
