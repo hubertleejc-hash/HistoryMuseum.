@@ -103,10 +103,35 @@ section{display:flex; flex-direction:column; gap:14px; min-width:0}
 .hero h1{font-size:clamp(30px, 5.4vw, 48px); line-height:1.08; max-width:18ch}
 .hero .lede{margin:0; color:var(--ink-2); font-size:16px; max-width:60ch}
 .cmp{background:var(--surface); border:1px solid var(--rule); border-radius:14px; padding:18px; display:flex; flex-direction:column; gap:16px}
-.cmp-pick{display:grid; grid-template-columns:minmax(0,1fr) auto minmax(0,1fr); gap:10px; align-items:end}
-.cmp-pick label{display:flex; flex-direction:column; gap:5px; min-width:0}
-.cmp-pick select{width:100%; padding:9px 10px; border-radius:8px; border:1px solid var(--rule); background:var(--bg)}
 .swap{border:1px solid var(--rule); background:var(--bg); border-radius:8px; padding:8px 10px; cursor:pointer; color:var(--ink-2)}
+/* the two people, side by side: first on the left, second on the right */
+.vs{display:grid; grid-template-columns:minmax(0,1fr) auto minmax(0,1fr); gap:8px; align-items:center}
+.pc{position:relative; display:flex; flex-direction:column; align-items:center; text-align:center; gap:6px; padding:14px 8px 10px; border:1px solid var(--rule); border-radius:16px; background:var(--bg); min-width:0; -webkit-tap-highlight-color:transparent}
+.pc:active{transform:scale(.98)}
+.pc .pcf{display:contents}
+.pc .ph{width:76px; height:76px; border-radius:50%; overflow:hidden; display:flex; align-items:center; justify-content:center; background:color-mix(in srgb, var(--fc) 24%, var(--sunk)); border:2px solid var(--fc); font:600 24px/1 var(--display); color:var(--ink)}
+.pc .ph img{width:100%; height:100%; object-fit:cover; object-position:center 20%}
+.pc b{font:600 16px/1.2 var(--display); max-width:100%; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical}
+.pc small{font:12px var(--mono); color:var(--ink-3)}
+.pc .chg{font-size:12px; color:var(--accent); display:flex; align-items:center; gap:3px}
+.pc select{position:absolute; inset:0; width:100%; height:100%; opacity:0; cursor:pointer; font-size:16px}
+.pc:focus-within{border-color:var(--accent)}
+.vs .swap{border-radius:50%; width:44px; height:44px; padding:0; display:flex; align-items:center; justify-content:center}
+/* life lines: time runs down the page, one column per person */
+.ll{position:relative; display:grid; grid-template-columns:minmax(0,1fr) 64px minmax(0,1fr); height:300px; margin:6px 0 4px}
+.ll .col{position:relative}
+.ll .bar{position:absolute; left:24%; right:24%; border-radius:12px; background:color-mix(in srgb, var(--fc) 30%, var(--surface)); border:1.5px solid var(--fc); min-height:6px; z-index:1}
+.ll .bar span{position:absolute; left:0; right:0; text-align:center; font:500 11px var(--mono); color:var(--ink-2); white-space:nowrap}
+.ll .bar .t{top:-17px} .ll .bar .e{bottom:-17px}
+.ll .ax{position:relative; display:flex; justify-content:center}
+.ll .ax::before{content:""; position:absolute; top:0; bottom:0; left:50%; border-left:1px solid var(--rule)}
+.ll .band{position:absolute; left:0; right:0; background:var(--band); border-top:1px dashed var(--accent); border-bottom:1px dashed var(--accent); z-index:0}
+.ll .gap{position:absolute; left:0; right:0; border-top:1px dashed var(--rel-rival); border-bottom:1px dashed var(--rel-rival); background:repeating-linear-gradient(135deg, transparent 0 6px, rgba(179,38,62,.10) 6px 7px); z-index:0}
+.ll .llab{position:absolute; left:50%; transform:translate(-50%,-50%); z-index:2; background:var(--surface); border:1px solid var(--accent); color:var(--accent); border-radius:10px; padding:4px 5px; font:600 10px/1.15 var(--mono); text-align:center; width:62px}
+.ll .llab.no{border-color:var(--rel-rival); color:var(--rel-rival)}
+.ll .llab b{display:block; font:700 17px/1 var(--display)}
+@media (prefers-reduced-motion:no-preference){ .ll .bar{animation:llgrow .5s cubic-bezier(.2,.8,.2,1) both; transform-origin:top} .ll .col:last-child .bar{animation-delay:.08s} }
+@keyframes llgrow{from{transform:scaleY(.04); opacity:.3} to{transform:none; opacity:1}}
 .verdict{display:flex; flex-direction:column; gap:10px}
 .verdict .word{font:700 13px/1 var(--ui); letter-spacing:.12em; text-transform:uppercase}
 .verdict.yes .word{color:var(--f-leaders)} .verdict.no .word{color:var(--rel-rival)}
@@ -114,7 +139,7 @@ section{display:flex; flex-direction:column; gap:14px; min-width:0}
 .verdict p{margin:0; color:var(--ink-2); max-width:64ch}
 .knew{border-left:3px solid var(--rel-warm); padding:4px 0 4px 12px; color:var(--ink)!important}
 .bridges{display:flex; flex-wrap:wrap; gap:6px; align-items:center; font-size:14px; color:var(--ink-2)}
-@media (max-width:560px){ .cmp-pick{grid-template-columns:minmax(0,1fr)} .swap{justify-self:start} }
+
 
 /* two-bar compare chart */
 .duo{position:relative; padding:22px 0 26px; margin-top:4px}
@@ -629,6 +654,37 @@ html.hinged .big-title, html.hinged .w-regions, html.hinged .w-dial{max-width:ca
 .hall-hint{margin:auto 0; padding:40px 8px; text-align:center; font:italic 400 18px/1.45 var(--display); color:var(--ink-2)}
 
 /* ---------- Library ---------- */
+/* Eras */
+.eras-grp{display:flex; flex-direction:column; gap:10px}
+.era-c{position:relative; display:grid; grid-template-columns:minmax(0,1fr); gap:4px; align-items:center; padding:14px 14px 14px 18px; border:1px solid var(--rule); border-radius:16px; background:var(--surface); color:var(--ink); overflow:hidden}
+.era-c:hover{text-decoration:none; border-color:var(--rc)}
+.era-c:active{transform:scale(.985)}
+.era-c::before{content:""; position:absolute; left:0; top:0; bottom:0; width:5px; background:var(--rc)}
+.era-c b{font:600 19px/1.15 var(--display)}
+.era-c .yrs{font:12px var(--mono); color:var(--ink-3); white-space:nowrap}
+.era-c p{grid-column:1 / -1; margin:0; font-size:14px; color:var(--ink-2)}
+.era-c .meta{grid-column:1 / -1; display:flex; align-items:center; gap:10px; margin-top:4px}
+.rgn{font:600 10.5px/1 var(--ui); letter-spacing:.08em; text-transform:uppercase; color:var(--rc); border:1px solid color-mix(in srgb, var(--rc) 45%, transparent); padding:4px 7px; border-radius:20px; white-space:nowrap}
+.faces{display:flex; margin-left:auto}
+.faces span{width:30px; height:30px; border-radius:50%; overflow:hidden; border:2px solid var(--surface); margin-left:-9px; background:color-mix(in srgb, var(--fc) 24%, var(--sunk)); display:flex; align-items:center; justify-content:center; font:600 11px var(--display); color:var(--ink)}
+.faces img{width:100%; height:100%; object-fit:cover; object-position:center 20%}
+.era-hero{border-radius:20px; padding:22px 18px; background:linear-gradient(160deg, color-mix(in srgb, var(--rc) 22%, var(--surface)), var(--surface) 70%); border:1px solid var(--rule); display:flex; flex-direction:column; gap:10px}
+.era-hero h1{font-size:clamp(32px, 7vw, 52px); line-height:1.04}
+.era-hero .span{font:500 15px var(--mono); color:var(--ink)}
+.era-hero .tagl{margin:0; color:var(--ink-2); font-size:17px}
+.era-ruler{position:relative; height:26px; margin-top:4px}
+.era-ruler::before{content:""; position:absolute; left:0; right:0; top:11px; height:4px; border-radius:2px; background:var(--sunk)}
+.era-ruler i{position:absolute; top:7px; height:12px; border-radius:6px; background:var(--rc); min-width:6px}
+.era-ruler span{position:absolute; top:0; font:10px var(--mono); color:var(--ink-3); transform:translateY(16px)}
+.era-txt{font-size:17px; line-height:1.6; margin:0; max-width:64ch}
+.era-note{border-left:3px solid var(--rc); padding:2px 0 2px 12px; color:var(--ink-2); margin:0; max-width:64ch}
+.era-nav{display:grid; grid-template-columns:1fr 1fr; gap:10px}
+.era-nav a{border:1px solid var(--rule); border-radius:14px; padding:10px 12px; background:var(--surface); color:var(--ink); font-size:14px; min-width:0}
+.era-nav a small{display:block; color:var(--ink-3); font-size:11px; text-transform:uppercase; letter-spacing:.08em}
+.era-nav a:last-child{text-align:right}
+.era-chips .chip{min-height:36px; padding:8px 12px}
+.srcs{margin:0; padding-left:18px; color:var(--ink-3); font-size:13px}
+.era-chips{display:flex; flex-wrap:wrap; gap:6px}
 .lib{display:grid; grid-template-columns:repeat(auto-fill, minmax(240px, 1fr)); gap:12px}
 .lib-card{display:flex; flex-direction:column; gap:6px; padding:18px; background:var(--surface); border:1px solid var(--rule); border-radius:16px; color:var(--ink); box-shadow:var(--shadow)}
 .lib-card:hover{text-decoration:none; border-color:var(--accent)}
@@ -771,6 +827,7 @@ html.hinged .big-title, html.hinged .w-regions, html.hinged .w-dial{max-width:ca
 <script>/*__DATA__*/</script>
 <script>/*__CONTENT__*/</script>
 <script>/*__DEEP__*/</script>
+<script>/*__ERAS__*/</script>
 <script>/*__CHAPTERS__*/</script>
 <script>/*__IMAGES__*/</script>
 <script>/*__GEO__*/</script>
@@ -1059,6 +1116,33 @@ function duoChart(a, b){
   const ax = uniq.map(m => `<span style="left:${pct(m)}">${unastro(m) < 0 ? -unastro(m) + " BC" : unastro(m)}</span>`).join("");
   return `<div class="duo">${extra}${row(a)}${row(b)}<div class="ax">${ax}</div></div>`;
 }
+/* a person's card in the compare: portrait, name, years; the hidden select on top opens the phone's own picker */
+function pcFace(id){
+  const p = getP(id); if (!p) return "";
+  const ph = p.id === "you" ? null : portraitOf(p);
+  return `<span class="pcf" aria-hidden="true"><span class="ph">${ph ? `<img src="${esc(ph)}" alt="">` : esc(p.id === "you" ? "You" : initials(p.n))}</span><b>${esc(p.n)}</b><small>${span(p)}</small><span class="chg">Change<svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 3.5l3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span></span>`;
+}
+function drawPC(){
+  for (const [k, id] of [["A", cmpA], ["B", cmpB]]) {
+    const el = document.getElementById("pc" + k); if (!el) continue;
+    const sel = el.querySelector("select"), p = getP(id);
+    el.querySelectorAll(":scope > :not(select)").forEach(n => n.remove());
+    sel.insertAdjacentHTML("beforebegin", pcFace(id));
+    el.setAttribute("style", fc(p ? p.f : ""));
+  }
+}
+/* two lives side by side: time runs down, the first person on the left, the second on the right, the shared years shaded across both */
+function lifeLines(a, b){
+  const lo = Math.min(astro(a.b), astro(b.b)), hi = Math.max(astro(end(a)), astro(end(b)));
+  const pad = Math.max(2, Math.round((hi - lo) * 0.04)), s = lo - pad, W = hi + pad - s;
+  const pct = x => ((x - s) / W * 100).toFixed(2) + "%";
+  const o = ov(a, b), yr = x => { const u = unastro(x); return u < 0 ? -u + " BC" : u; };
+  const bar = p => `<div class="col"><div class="bar" style="top:${pct(astro(p.b))};height:calc(${pct(astro(end(p)))} - ${pct(astro(p.b))});${fc(p.f)}"><span class="t">${p.a ? "c. " : ""}${yr(astro(p.b))}</span><span class="e">${p.alive || p.id === "you" ? "now" : (p.a ? "c. " : "") + yr(astro(end(p)))}</span></div></div>`;
+  const mid = pct((o.s + o.e) / 2), zone = o.len >= 0
+    ? `<div class="band" style="top:${pct(o.s)};height:calc(${pct(o.e)} - ${pct(o.s)})"></div><span class="llab" style="top:${mid}">${o.len === 0 ? "the same year" : `<b>${o.len}</b>${o.len === 1 ? "year" : "years"} together`}</span>`
+    : `<div class="gap" style="top:${pct(o.e)};height:calc(${pct(o.s)} - ${pct(o.e)})"></div><span class="llab no" style="top:${mid}"><b>${-o.len}</b>${-o.len === 1 ? "year" : "years"} apart</span>`;
+  return `<div class="ll" role="img" aria-label="${esc(a.n)} on the left, ${esc(b.n)} on the right. ${o.len >= 0 ? o.len + " years alive together" : -o.len + " years apart"}.">${zone}${bar(a)}<div class="ax"></div>${bar(b)}</div>`;
+}
 function bridgesFor(a, b){
   return H.people.filter(p => p.id !== a.id && p.id !== b.id && ov(p, a).len >= 1 && ov(p, b).len >= 1)
     .map(p => ({p, k: Math.min(ov(p, a).len, ov(p, b).len)})).sort((x, y) => y.k - x.k).slice(0, 4);
@@ -1087,7 +1171,7 @@ function verdictHTML(){
   let bridge = "";
   const br = bridgesFor(a, b);
   if (br.length) bridge = `<div class="bridges"><span>${o.len >= 0 ? "Others alive alongside both:" : "Alive at the same time as both:"}</span>${br.map(x => `<a class="chip" href="#p-${x.p.id}" style="${fc(x.p.f)}"><i class="dot"></i>${esc(x.p.n)}</a>`).join("")}</div>`;
-  return `<div class="verdict ${cls}"><span class="word">${cls === "yes" ? "Same time" : "Never overlapped"}</span><h3>${h}</h3><p>${p}</p>${knew}${gensHTML(a, b)}${duoChart(a, b)}${bridge}</div>`;
+  return `<div class="verdict ${cls}"><span class="word">${cls === "yes" ? "Same time" : "Never overlapped"}</span><h3>${h}</h3><p>${p}</p>${knew}${lifeLines(a, b)}${gensHTML(a, b)}${bridge}</div>`;
 }
 
 /* ---------- surprise facts ---------- */
@@ -1136,10 +1220,10 @@ function viewTimeline(){
     <p class="lede">We learn history in separate chapters, so people feel centuries apart. Pick any two and see how close they really were, and whether they ever met.</p>
     <p class="walk-cta"><a class="btn" href="#walk-1889">Walk into Paris, 1889</a><span class="muted" style="font-size:14px">Meet everyone alive that year on one street, and talk to any of them.</span></p>
     <div class="cmp">
-      <div class="cmp-pick">
-        <label><span class="eyebrow">First person</span><select id="cmpA">${personOptions(cmpA)}</select></label>
+      <div class="vs">
+        <label class="pc" id="pcA" style="${fc((getP(cmpA) || {}).f)}">${pcFace(cmpA)}<select id="cmpA" aria-label="First person">${personOptions(cmpA)}</select></label>
         <button class="swap" type="button" id="swap" aria-label="Swap the two people">⇄</button>
-        <label><span class="eyebrow">Second person</span><select id="cmpB">${personOptions(cmpB)}</select></label>
+        <label class="pc" id="pcB" style="${fc((getP(cmpB) || {}).f)}">${pcFace(cmpB)}<select id="cmpB" aria-label="Second person">${personOptions(cmpB)}</select></label>
       </div>
       <div id="verdict">${verdictHTML()}</div>
     </div>
@@ -1308,6 +1392,7 @@ function viewPerson(id){
     <div class="crumbs"><a href="#people">People</a><span>/</span><span>${F[p.f].label}</span></div>
     <h1>${esc(p.n)}</h1>
     <div class="d-meta"><span class="yr">${span(p)}</span><span>lived ${p.a ? "about " : ""}${lived(p)} years</span><span class="tag" style="${fc(p.f)}"><i class="dot"></i>${F[p.f].label}</span><span>${p.c.map(c => `<a href="#c-${c}">${esc(C[c].n)}</a>`).join(", ")}</span></div>
+    ${erasOf(p).length ? `<div class="era-chips">${erasOf(p).map(e => `<a class="chip" href="#era-${e.id}" style="${rc(e)};--fc:var(--rc)"><i class="dot"></i>${esc(e.n)}</a>`).join("")}</div>` : ""}
     ${ch ? `<p class="bio ch-lede">${esc(ch.lede)}</p>` : `<p class="bio">${esc(p.bio)}</p>`}${(() => { const po = pic && ((ch && ch.portrait && IMG[ch.portrait] && ch.portrait) || pt); return po && po !== top ? `<a class="ch-portrait" href="#art-${esc(po)}" data-pfeat="${esc(po)}" title="${esc(IMG[po].title)}"><img src="${esc(IMG[po].src)}" alt="${esc(IMG[po].title)}" loading="lazy"><span>${IMG_NOTE[po] ? labHTML(IMG_NOTE[po][0]) + " " : ""}${esc(IMG[po].title)}, ${esc(IMG[po].date)}</span></a>` : ""; })()}
     <div class="counts"><div><b>${overl.length}</b><span>people here alive at the same time</span></div><div><b>${cs.length}</b><span>real connections</span></div><div><b>${evs.length}</b><span>events in their lifetime</span></div></div>
   </section>
@@ -2917,6 +3002,70 @@ function closeHall(){
   sizeLamps();
 }
 
+/* ---------- Eras: the big chapters of world history ---------- */
+const WE = H.eras || [];
+const RC = {"World":"you", "Europe":"art", "Mediterranean":"art", "South Asia":"music", "China":"invention", "Islamic world":"exploration", "Asia":"leaders", "India":"music", "Japan":"faith", "Africa":"writing", "Americas":"philosophy"};
+const rc = e => `--rc:var(--f-${RC[e.region] || "you"})`;
+const eraEnd = e => e.e >= NOW ? NOW : e.e;
+const eraSpan = e => `${e.approx ? "c. " : ""}${e.s <= -10000 ? "2.5 million years ago" : fy(e.s)} – ${e.e >= NOW ? "today" : (e.s < 0 && e.e > 0 ? "AD " : "") + fy(e.e)}`;
+const eraLen = e => astro(eraEnd(e)) - astro(e.s);
+const erasOf = p => WE.filter(e => (e.people || []).includes(p.id));
+const ERA_GRPS = [["Ancient world", -1e9, 300], ["Middle ages around the world", 300, 1350], ["Early modern", 1350, 1750], ["Modern", 1750, 1e9]];
+function faceRow(ids, n){
+  return `<span class="faces">${ids.map(id => P.get(id)).filter(Boolean).slice(0, n).map(p => { const ph = portraitOf(p); return `<span style="${fc(p.f)}">${ph ? `<img src="${esc(ph)}" alt="" loading="lazy">` : esc(initials(p.n))}</span>`; }).join("")}</span>`;
+}
+function viewEras(){
+  view.innerHTML = `
+  <section class="stack" style="gap:8px">
+    <div class="big-title"><h1>Eras</h1></div>
+    <p class="lede" style="margin:0;color:var(--ink-2)">History's big chapters, from the Stone Age to today, around the whole world. Eras overlap, because different places changed at different times. Tap one to see what happened and who lived then.</p>
+  </section>
+  ${ERA_GRPS.map(([g, lo, hi]) => { const es = WE.filter(e => e.s >= lo && e.s < hi); return es.length ? `<section class="eras-grp"><div class="sec-head"><h2>${g}</h2></div>
+    ${es.map(e => `<a class="era-c" href="#era-${e.id}" style="${rc(e)}"><b>${esc(e.n)}</b><span class="yrs">${eraSpan(e)}</span><p>${esc(e.tag)}</p><span class="meta"><span class="rgn">${esc(e.region)}</span>${faceRow(e.people || [], 4)}</span></a>`).join("")}</section>` : ""; }).join("")}
+  <section><p class="legend">Dates marked "c." are approximate. Each era page says where historians disagree about its dates or its name.</p></section>`;
+}
+function viewEra(id){
+  const i = WE.findIndex(e => e.id === id), e = WE[i]; if (!e) return notFound();
+  const s = astro(e.s), en = astro(eraEnd(e));
+  const key = (e.people || []).map(x => P.get(x)).filter(Boolean);
+  const keyIds = new Set(key.map(p => p.id));
+  const inE = p => Math.min(astro(end(p)), en) - Math.max(astro(p.b), s);
+  const also = H.people.filter(p => !keyIds.has(p.id) && inE(p) >= Math.min(30, (en - s) / 2))
+    .sort((a, b) => inE(b) - inE(a)).slice(0, 12).sort((a, b) => astro(a.b) - astro(b.b));
+  /* events spread evenly across the era, not only its first years */
+  const evAll = H.events.filter(v => astro(v.y) >= s && astro(v.y) <= en).sort((a, b) => astro(a.y) - astro(b.y));
+  const evs = evAll.length <= 10 ? evAll : Array.from({length: 10}, (_, k) => evAll[Math.round(k * (evAll.length - 1) / 9)]);
+  const mid = Math.max(-600, Math.min(NOW, unastro(Math.round((Math.max(s, astro(-600)) + en) / 2))));
+  /* where this era sits on the museum's line, 600 BC to today (older eras pin to the left edge) */
+  const L = astro(-600), R = astro(NOW), x = v => Math.max(0, Math.min(100, (v - L) / (R - L) * 100));
+  const ruler = `<div class="era-ruler" aria-hidden="true"><i style="left:${x(s).toFixed(1)}%;width:${Math.max(1.5, x(en) - x(s)).toFixed(1)}%"></i><span style="left:0">600 BC</span><span style="left:${x(astro(1)).toFixed(1)}%;transform:translate(-50%,16px)">AD 1</span><span style="left:${x(astro(1000)).toFixed(1)}%;transform:translate(-50%,16px)">1000</span><span style="right:0">Today</span></div>`;
+  const prev = WE[i - 1], next = WE[i + 1];
+  view.innerHTML = `
+  <section class="stack" style="gap:16px">
+    <div class="crumbs"><a href="#eras">Eras</a><span>/</span><span>${esc(e.region)}</span></div>
+    <div class="era-hero" style="${rc(e)}">
+      <span class="rgn" style="align-self:flex-start">${esc(e.region)}</span>
+      <h1>${esc(e.n)}</h1>
+      <span class="span">${eraSpan(e)}${e.s > -10000 ? ` · ${e.approx ? "about " : ""}${plural(eraLen(e), "year")}` : ""}</span>
+      <p class="tagl">${esc(e.tag)}</p>
+      ${en > L ? ruler : ""}
+    </div>
+  </section>
+  <section class="stack" style="gap:12px"><div class="sec-head"><h2>What happened</h2></div><p class="era-txt">${esc(e.what)}</p>
+    <p class="era-note" style="${rc(e)}"><b>Why it matters.</b> ${esc(e.why)}</p></section>
+  ${key.length ? `<section class="stack" style="gap:12px"><div class="sec-head"><h2>Key people</h2><p>In this museum</p></div>${eraWho(key)}</section>` : `<section><p class="legend">No one from this era has a room in the museum yet.</p></section>`}
+  ${also.length ? `<section class="stack" style="gap:12px"><div class="sec-head"><h2>Also alive in these years</h2></div><div class="era-chips">${also.map(p => `<a class="chip" href="#p-${p.id}" style="${fc(p.f)}"><i class="dot"></i>${esc(p.n)}</a>`).join("")}</div></section>` : ""}
+  ${evs.length ? `<section class="stack" style="gap:12px"><div class="sec-head"><h2>What was going on</h2></div><div class="wl panel">${evs.map(evRow).join("")}</div></section>` : ""}
+  ${e.s >= -600 || en > astro(-600) ? `<section><a class="btn" href="#tm-${mid}">Travel to ${fy(mid)} in the Time Machine</a></section>` : ""}
+  <section class="stack" style="gap:8px"><div class="sec-head"><h2>When exactly?</h2></div><p class="era-note" style="${rc(e)}">${esc(e.differ)}</p></section>
+  <section class="era-nav">${prev ? `<a href="#era-${prev.id}"><small>Earlier</small>${esc(prev.n)}</a>` : "<span></span>"}${next ? `<a href="#era-${next.id}"><small>Later</small>${esc(next.n)}</a>` : "<span></span>"}</section>
+  <section class="stack" style="gap:6px"><span class="eyebrow">Sources</span><ul class="srcs">${(e.src || []).map(x => `<li>${esc(x.t)}</li>`).join("")}</ul></section>`;
+}
+function eraWho(list){
+  return `<div class="who">${list.map(p => { const ph = portraitOf(p);
+    return `<a href="#p-${p.id}" style="${fc(p.f)}"><span class="ph">${ph ? `<img src="${esc(ph)}" alt="" loading="lazy">` : esc(initials(p.n))}</span><span style="min-width:0"><b>${esc(p.n)}</b><small>${span(p)} · ${esc(F[p.f] ? F[p.f].label : "")}</small></span></a>`; }).join("")}</div>`;
+}
+
 /* ---------- Library ---------- */
 function viewLibrary(){
   const chs = Object.keys(CH).filter(id => P.get(id));
@@ -2928,6 +3077,7 @@ function viewLibrary(){
   <section><div class="lib">
     <a class="lib-card" href="#people"><b>People</b><span>${plural(H.people.length, "person")}, from Confucius to today</span></a>
     <a class="lib-card" href="#events"><b>Events</b><span>${plural(H.events.length, "event")} on one timeline</span></a>
+    <a class="lib-card" href="#eras"><b>Eras</b><span>${plural(WE.length, "era")}, from the Stone Age to today</span></a>
     <a class="lib-card" href="#places"><b>Places</b><span>${plural(Object.keys(C).length, "hall")} around the world</span></a>
   </div></section>
   <section><div class="sec-head"><h2>Long stories</h2><p>Full chapters, with every claim labelled</p></div><div class="lib">
@@ -2937,11 +3087,11 @@ function viewLibrary(){
 }
 
 /* ---------- tabs and the small switch at the top of a tab ---------- */
-const SEGS = {timeline:[["timeline","Timeline"],["tm","Time Machine"]], gallery:[["art","Collection"],["walk","Walk in"]],
+const SEGS = {timeline:[["timeline","Timeline"],["eras","Eras"],["tm","Time Machine"]], gallery:[["art","Collection"],["walk","Walk in"]],
   play:[["play","Games"],["talk","Talk"]], library:[["library","Library"],["people","People"],["events","Events"],["places","Places"]]};
 function drawSeg(tab, h){
   const el = document.getElementById("seg"), g = SEGS[tab];
-  const top = g && g.find(([k]) => h === k || (k === "tm" && h.startsWith("tm-")) || (k === "walk" && h.startsWith("walk-")) || (k === "art" && h.startsWith("art-")) || (k === "play" && PLAY_VIEWS[h]));
+  const top = g && g.find(([k]) => h === k || (k === "tm" && h.startsWith("tm-")) || (k === "eras" && h.startsWith("era-")) || (k === "walk" && h.startsWith("walk-")) || (k === "art" && h.startsWith("art-")) || (k === "play" && PLAY_VIEWS[h]));
   el.hidden = !top;
   el.innerHTML = top ? `<nav class="seg" aria-label="Views">${g.map(([k, n]) => `<a href="#${k}" class="${k === top[0] ? "on" : ""}">${esc(n)}</a>`).join("")}</nav>` : "";
 }
@@ -2965,7 +3115,7 @@ function route(){
   }
   closeArt(true); galleryOn = false;
   let tab = "world";
-  if (h === "timeline" || h === "tm" || h.startsWith("tm-")) tab = "timeline";
+  if (h === "timeline" || h === "tm" || h.startsWith("tm-") || h === "eras" || h.startsWith("era-")) tab = "timeline";
   else if (h === "art" || h.startsWith("art-") || h === "walk" || h.startsWith("walk-")) tab = "gallery";
   else if (h === "play" || PLAY_VIEWS[h] || h === "talk" || h.startsWith("talk-")) tab = "play";
   else if (["library", "people", "events", "places"].includes(h) || /^[pec]-/.test(h)) tab = "library";
@@ -2976,6 +3126,8 @@ function route(){
   else if (h.startsWith("c-")) viewCountry(h.slice(2));
   else if (h.startsWith("tm-")) viewTM(parseInt(h.slice(3), 10));
   else if (h === "tm") viewTM();
+  else if (h === "eras") viewEras();
+  else if (h.startsWith("era-")) viewEra(h.slice(4));
   else if (h.startsWith("walk-")) { const m = /^walk-(-?\d+)(?:-(.+))?$/.exec(h); viewWalk(m ? parseInt(m[1], 10) : null, m && m[2]); }
   else if (h === "walk") viewWalk();
   else if (h.startsWith("talk-")) viewTalk(h.slice(5));
@@ -3076,6 +3228,7 @@ view.addEventListener("change", ev => {
   if (ev.target.id === "cmpA" || ev.target.id === "cmpB") {
     if (ev.target.id === "cmpA") cmpA = ev.target.value; else cmpB = ev.target.value;
     store.set("ctm-a", cmpA); store.set("ctm-b", cmpB);
+    drawPC(); haptic("select");
     document.getElementById("verdict").innerHTML = verdictHTML();
   }
 });
@@ -3083,6 +3236,7 @@ view.addEventListener("click", ev => {
   if (ev.target.closest("#swap")) {
     [cmpA, cmpB] = [cmpB, cmpA]; store.set("ctm-a", cmpA); store.set("ctm-b", cmpB);
     document.getElementById("cmpA").value = cmpA; document.getElementById("cmpB").value = cmpB;
+    drawPC(); haptic("select");
     document.getElementById("verdict").innerHTML = verdictHTML(); return;
   }
   if (ev.target.closest("[data-shuffle]")) { document.getElementById("rand").innerHTML = randHTML(); return; }
@@ -3112,7 +3266,7 @@ view.addEventListener("input", ev => {
   mainTL && mainTL.render(true);
   const a = document.getElementById("cmpA"), b = document.getElementById("cmpB");
   if (!youYear) { if (cmpA === "you") cmpA = "van-gogh"; if (cmpB === "you") cmpB = "beethoven"; }
-  if (a) { a.innerHTML = personOptions(cmpA); b.innerHTML = personOptions(cmpB); document.getElementById("verdict").innerHTML = verdictHTML(); }
+  if (a) { a.innerHTML = personOptions(cmpA); b.innerHTML = personOptions(cmpB); drawPC(); document.getElementById("verdict").innerHTML = verdictHTML(); }
 });
 
 /* ---------- search ---------- */

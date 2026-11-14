@@ -40,7 +40,7 @@ if [ -f app/art/catalog.json ]; then
 fi
 
 # Pages to photograph: <route>:<theme>
-SHOTS="world:dark world:light art:dark art-mona-lisa:dark walk-1889:dark walk-1505:light p-van-gogh@myths:light library:dark talk-van-gogh:dark"
+SHOTS="world:dark world:light art:dark art-mona-lisa:dark walk-1889:dark walk-1505:light p-van-gogh@myths:light library:dark talk-van-gogh:dark timeline:dark eras:dark era-renaissance:light"
 status=0
 
 # shoot <udid> <label>: one screenshot per page; on a folding phone, both displays are tried.
