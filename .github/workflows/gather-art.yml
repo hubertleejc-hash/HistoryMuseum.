@@ -1,0 +1,53 @@
+name: Gather art
+
+# Downloads public-domain (CC0) artworks from museums' open-access APIs and commits them
+# to the branch it runs on. Manual only (Actions > Gather art > Run workflow), because each
+# run adds pictures to the repository. Re-run it to grow the collection: it only adds new works.
+on:
+  workflow_dispatch:
+    inputs:
+      offline:
+        description: "New works shipped inside the app (full pictures, work offline)"
+        default: "300"
+      online:
+        description: "New Cleveland works for the Online wing (small tiles in the app, big picture online)"
+        default: "6000"
+      met:
+        description: "New Met works for the Online wing"
+        default: "2000"
+      portraits:
+        description: "Also look for a public-domain portrait of every person (yes/no)"
+        default: "no"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gather-art-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  gather:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install Pillow==11.3.0
+      - name: Gather
+        if: ${{ inputs.offline != '0' || inputs.online != '0' || inputs.met != '0' }}
+        run: python3 tools/art/gather.py --offline "${{ inputs.offline }}" --online "${{ inputs.online }}" --met "${{ inputs.met }}"
+      - name: Portraits
+        if: ${{ inputs.portraits == 'yes' }}
+        run: python3 tools/art/portraits.py
+      - name: Size of the collection
+        run: du -sh app/art app/art/* | sort -h
+      - name: Commit the new works
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/art
+          git commit -qm "Gather art: more public-domain works from the Cleveland Museum of Art and the Met" || { echo "Nothing new"; exit 0; }
+          for i in 1 2 3; do git pull --rebase -q origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}" && break; sleep 5; done

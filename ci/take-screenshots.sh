@@ -33,8 +33,14 @@ APP="$DERIVED/Build/Products/Debug-iphonesimulator/HistoryMuseum.app"
 SIZE=$(stat -f%z "$APP/index.html" 2>/dev/null || echo 0)
 [ "$SIZE" -gt 3000000 ] || { echo "::error::The museum page inside the app is only $SIZE bytes"; exit 1; }
 
+# The Gallery's collection ships as a folder next to the page
+if [ -f app/art/catalog.json ]; then
+  [ -f "$APP/art/index.js" ] || { echo "::error::The Gallery folder (art/index.js) is not in the app"; ls "$APP" | head -30; exit 1; }
+  echo "Gallery files in the app: $(find "$APP/art" -type f | wc -l)"
+fi
+
 # Pages to photograph: <route>:<theme>
-SHOTS="world:dark world:light walk-1889:dark walk-1505:light p-van-gogh@myths:light library:dark talk-van-gogh:dark"
+SHOTS="world:dark world:light art:dark art-mona-lisa:dark walk-1889:dark walk-1505:light p-van-gogh@myths:light library:dark talk-van-gogh:dark"
 status=0
 
 # shoot <udid> <label>: one screenshot per page; on a folding phone, both displays are tried.
