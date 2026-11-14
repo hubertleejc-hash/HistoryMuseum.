@@ -33,9 +33,14 @@ struct MuseumView: UIViewRepresentable {
         web.navigationDelegate = context.coordinator
         web.uiDelegate = context.coordinator
         context.coordinator.talk.webView = web
-        web.isOpaque = false
+        // An opaque web view scrolls more smoothly: iOS does not have to blend every frame of the page
+        // with what is behind it. The opening animation covers the page until it has drawn.
+        web.isOpaque = true
         web.backgroundColor = MuseumView.pageBG
+        web.underPageBackgroundColor = MuseumView.pageBG
         web.scrollView.backgroundColor = MuseumView.pageBG
+        web.scrollView.decelerationRate = .normal       // the same glide as the rest of iOS
+        web.scrollView.keyboardDismissMode = .interactive
         web.scrollView.contentInsetAdjustmentBehavior = .never
         web.allowsLinkPreview = false          // no web-style link previews on a long press
         // An app does not zoom when you double-tap or pinch: turn the web view's zooming off.

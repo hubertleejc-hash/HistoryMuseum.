@@ -31,7 +31,8 @@ xcodebuild build \
 grep -q "\*\* BUILD SUCCEEDED \*\*" "$OUT/build.log" || { echo "::error::Simulator build failed"; grep -E "error:" "$OUT/build.log" | sort -u; exit 1; }
 APP="$DERIVED/Build/Products/Debug-iphonesimulator/HistoryMuseum.app"
 SIZE=$(stat -f%z "$APP/index.html" 2>/dev/null || echo 0)
-[ "$SIZE" -gt 3000000 ] || { echo "::error::The museum page inside the app is only $SIZE bytes"; exit 1; }
+[ "$SIZE" -gt 1000000 ] || { echo "::error::The museum page inside the app is only $SIZE bytes"; exit 1; }
+ls "$APP/img/"*.jpg >/dev/null 2>&1 || { echo "::error::The story pictures (img/) are not in the app"; ls "$APP" | head -30; exit 1; }
 
 # The Gallery's collection ships as a folder next to the page
 if [ -f app/art/catalog.json ]; then
@@ -40,7 +41,7 @@ if [ -f app/art/catalog.json ]; then
 fi
 
 # Pages to photograph: <route>:<theme>
-SHOTS="world:dark world:light art:dark art-mona-lisa:dark walk-1889:dark walk-1505:light p-van-gogh@myths:light library:dark talk-van-gogh:dark"
+SHOTS="world:dark world:light art:dark art-mona-lisa:dark walk-1889:dark walk-1505:light p-van-gogh@myths:light library:dark talk-van-gogh:dark timeline:dark eras:dark era-renaissance:light"
 status=0
 
 # shoot <udid> <label>: one screenshot per page; on a folding phone, both displays are tried.
