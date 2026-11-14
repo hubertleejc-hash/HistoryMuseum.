@@ -720,11 +720,11 @@ html.hinged .big-title, html.hinged .w-regions, html.hinged .w-dial{max-width:ca
 @keyframes avIn{from{opacity:0}to{opacity:1}}
 .av-stage{position:absolute; inset:0; overflow:hidden; touch-action:none; display:flex; align-items:center; justify-content:center}
 .av-stage img{position:absolute; max-width:100%; max-height:100%; transform-origin:0 0; will-change:transform; pointer-events:none}
-.av-stage .av-lo{opacity:.85}
+.av-stage .av-lo{filter:blur(8px)}
 .av-stage #avImg{opacity:0}
 .av-stage #avImg.in{opacity:1; transition:opacity .2s ease-out}
 .av-top{position:absolute; left:0; right:0; top:0; display:flex; align-items:center; gap:10px; padding:calc(env(safe-area-inset-top, 0px) + 10px) 14px 24px; background:linear-gradient(rgba(0,0,0,.6), transparent); transition:opacity .25s}
-.av-top button{width:40px; height:40px; border-radius:50%; border:0; background:rgba(40,38,34,.82); color:#EDE3CF; font-size:22px; line-height:1; cursor:pointer}
+.av-top button{width:40px; height:40px; border-radius:50%; border:0; background:rgba(40,38,34,.72); color:#EDE3CF; font-size:22px; line-height:1; cursor:pointer; -webkit-backdrop-filter:blur(12px); backdrop-filter:blur(12px)}
 .av-top span{flex:1; text-align:center; font:500 12px var(--mono); color:rgba(237,227,207,.7)}
 .av.bare .av-top, .av.bare .av-sheet{opacity:0; pointer-events:none}
 .av-sheet{position:absolute; left:0; right:0; bottom:0; max-height:72%; display:flex; flex-direction:column; background:rgba(22,21,19,.96); border-radius:18px 18px 0 0; border-top:1px solid rgba(212,175,90,.18); transform:translateY(calc(100% - var(--peek, 132px))); transition:transform .32s cubic-bezier(.2,.8,.2,1), opacity .25s; padding-bottom:env(safe-area-inset-bottom, 0px)}
@@ -1677,7 +1677,9 @@ function openArt(it, idx, push){
   img.onerror = () => { img.classList.add("in"); if (it.wing === "web") { const n = document.getElementById("avNote"); n.hidden = false; n.textContent = "The large picture needs the internet. This is the small one in the app."; } };
   if (it.wing === "web") { loadDetail(it, () => { const d = artDetail[it.id]; if (d && d.img && avIt === it) img.src = d.img; }); }
   else img.src = big;
-  requestAnimationFrame(fitArt);
+  requestAnimationFrame(() => { fitArt(); const lo = document.getElementById("avLo"), st = document.getElementById("avStage");
+    if (lo && st && it.w && it.h) { const W = st.clientWidth, Hh = st.clientHeight, r = Math.min(W / it.w, Hh / it.h, 4 * 1024 / Math.max(it.w, it.h));
+      Object.assign(lo.style, {width:it.w * r + "px", height:it.h * r + "px", maxWidth:"none", maxHeight:"none"}); } });
   const sheet = document.getElementById("avSheet");
   sheet.style.setProperty("--peek", (document.getElementById("avGrab").offsetHeight + 8) + "px");
   loadDetail(it, () => { if (avIt === it) document.getElementById("avBody").innerHTML = artInfoHTML(it); });
@@ -1791,9 +1793,9 @@ function avUp(e){
   if (!avG || !img) { avG = null; return; }
   if (avG.pinch) { if (avPts.size === 0) { clampArt(); img.style.transition = "transform .25s ease"; fitArt(); setTimeout(() => img && (img.style.transition = ""), 260); avG = null; } else { const p = [...avPts.values()][0]; avG = {x0:p.x, y0:p.y, x:avX, y:avY, t:Date.now(), moved:true}; } return; }
   const dx = e.clientX - avG.x0, dy = e.clientY - avG.y0, g = avG; avG = null;
+  if (avS <= 1.01 && g.moved && g.dir === "v" && dy > 110) { closeArt(); return; }  /* keeps the dimmed backdrop while it fades */
   av.style.background = "";
   if (avS <= 1.01 && g.moved) {
-    if (g.dir === "v" && dy > 110) { closeArt(); return; }
     if (g.dir === "h" && Math.abs(dx) > 70) { stepArt(dx < 0 ? 1 : -1); return; }
     img.style.transition = "transform .22s ease"; fitArt(); setTimeout(() => img && (img.style.transition = ""), 240); return;
   }
@@ -1815,10 +1817,12 @@ av.addEventListener("click", e => {
   if (t.closest("[data-avmore]")) { const r = avIt.r; closeArt(); artF = {k:"", r, e:"", q:""}; setTimeout(() => { if (galleryOn) { viewArt(); const c = document.getElementById("galCol"); c && c.scrollIntoView({block:"start"}); } }, 50); return; }
   const go = t.closest("[data-avgo]"); if (go) { e.preventDefault(); const h = go.getAttribute("href"); closeArt(true); avPushed = false; location.hash = h; }
 });
+/* the page behind stays still while the viewer is open (without switching the page's overflow, which made it lay out again) */
+av.addEventListener("touchmove", e => { const b = e.target.closest(".av-body"); if (!b || b.scrollHeight <= b.clientHeight) e.preventDefault(); }, {passive:false});
 /* swipe the sheet up or down */
 (() => { let y0 = null; av.addEventListener("touchstart", e => { if (e.target.closest("#avGrab")) y0 = e.touches[0].clientY; }, {passive:true});
   av.addEventListener("touchend", e => { if (y0 == null) return; const dy = e.changedTouches[0].clientY - y0; y0 = null; const sh = document.getElementById("avSheet"); if (!sh) return; if (dy < -30) sh.classList.add("up"); else if (dy > 30) sh.classList.remove("up"); }, {passive:true}); })();
-document.addEventListener("keydown", e => { if (av.hidden) return; if (e.key === "Escape") closeArt(); if (e.key === "ArrowRight") stepArt(1); if (e.key === "ArrowLeft") stepArt(-1); });
+document.addEventListener("keydown", e => { if (av.hidden || av.classList.contains("out")) return; if (e.key === "Escape") closeArt(); if (e.key === "ArrowRight") stepArt(1); if (e.key === "ArrowLeft") stepArt(-1); });
 window.addEventListener("resize", () => { if (!av.hidden) { avS = 1; avX = 0; avY = 0; fitArt(); } });
 /* a tiny md5, only to find which detail file holds a work (must match build.py) */
 function md5(str){
