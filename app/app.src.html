@@ -695,10 +695,10 @@ html.hinged .big-title, html.hinged .w-regions, html.hinged .w-dial{max-width:ca
 .gal-q{display:flex; gap:10px; align-items:center}
 .gal-q input{flex:1; min-width:0; border:1px solid var(--rule); background:var(--surface); color:var(--ink); border-radius:999px; padding:9px 14px; font:16px var(--ui)}
 .gal-q span{font:500 12px var(--mono); color:var(--ink-3); white-space:nowrap}
-.gal-grid{columns:2 150px; column-gap:10px}
-@media (min-width:700px){ .gal-grid{columns:4 170px; column-gap:14px} }
-@media (min-width:1100px){ .gal-grid{columns:5 180px} }
-.gt{display:block; width:100%; break-inside:avoid; margin:0 0 14px; border:0; padding:0; background:none; color:inherit; text-align:left; cursor:pointer; font:inherit; content-visibility:auto; contain-intrinsic-size:auto 220px; -webkit-touch-callout:none}
+.gal-cols{display:flex; align-items:flex-start; gap:10px}
+.gal-col{flex:1 1 0; min-width:0}
+@media (min-width:700px){ .gal-cols{gap:14px} }
+.gt{display:block; width:100%; break-inside:avoid; margin:0 0 14px; border:0; padding:0; background:none; color:inherit; text-align:left; cursor:pointer; font:inherit; content-visibility:auto; contain-intrinsic-size:auto var(--ch, 220px); -webkit-touch-callout:none}
 .gt-img{position:relative; display:block; width:100%; background:var(--sunk); border-radius:8px; overflow:hidden}
 .gt-img img{display:block; width:100%; height:100%; object-fit:cover; opacity:0; transition:opacity .35s ease}
 .gt-img img.in{opacity:1}
@@ -707,30 +707,33 @@ html.hinged .big-title, html.hinged .w-regions, html.hinged .w-dial{max-width:ca
 .gt small{display:block; font-size:12px; color:var(--ink-3); margin-top:2px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
 .gt:active .gt-img{transform:scale(.98)}
 .fig-frame[data-pfeat]{cursor:zoom-in}
-.gal-sec{column-span:all; margin:18px 0 14px; padding-top:6px}
+.gal-sec{margin:18px 0 14px; padding-top:6px}
 .gal-sec h3{font:500 22px/1.2 var(--display)}
 .gal-sec p{margin:4px 0 0; font-size:13.5px; color:var(--ink-3)}
 .gal-more{display:block; margin:8px auto 0; height:40px}
 .gal-empty{padding:30px 0; color:var(--ink-3); text-align:center}
 
 /* ---------- Gallery: the full-screen viewer ---------- */
-.av{position:fixed; inset:0; z-index:200; background:#000; color:#EDE3CF; display:flex; flex-direction:column; overscroll-behavior:contain; -webkit-user-select:none; user-select:none; -webkit-touch-callout:none; animation:avIn .22s ease-out}
+.av{position:fixed; inset:0; z-index:200; background:#000; color:#EDE3CF; display:flex; flex-direction:column; overscroll-behavior:contain; -webkit-user-select:none; user-select:none; -webkit-touch-callout:none; touch-action:none; animation:avIn .22s ease-out; transition:opacity .18s ease-out}
 .av[hidden]{display:none}
+.av.out{opacity:0; pointer-events:none}
 @keyframes avIn{from{opacity:0}to{opacity:1}}
 .av-stage{position:absolute; inset:0; overflow:hidden; touch-action:none; display:flex; align-items:center; justify-content:center}
 .av-stage img{position:absolute; max-width:100%; max-height:100%; transform-origin:0 0; will-change:transform; pointer-events:none}
-.av-stage .av-lo{filter:blur(8px); transform:scale(1.02)}
+.av-stage .av-lo{opacity:.85}
+.av-stage #avImg{opacity:0}
+.av-stage #avImg.in{opacity:1; transition:opacity .2s ease-out}
 .av-top{position:absolute; left:0; right:0; top:0; display:flex; align-items:center; gap:10px; padding:calc(env(safe-area-inset-top, 0px) + 10px) 14px 24px; background:linear-gradient(rgba(0,0,0,.6), transparent); transition:opacity .25s}
-.av-top button{width:40px; height:40px; border-radius:50%; border:0; background:rgba(40,38,34,.72); color:#EDE3CF; font-size:22px; line-height:1; cursor:pointer; -webkit-backdrop-filter:blur(12px); backdrop-filter:blur(12px)}
+.av-top button{width:40px; height:40px; border-radius:50%; border:0; background:rgba(40,38,34,.82); color:#EDE3CF; font-size:22px; line-height:1; cursor:pointer}
 .av-top span{flex:1; text-align:center; font:500 12px var(--mono); color:rgba(237,227,207,.7)}
 .av.bare .av-top, .av.bare .av-sheet{opacity:0; pointer-events:none}
-.av-sheet{position:absolute; left:0; right:0; bottom:0; max-height:72%; display:flex; flex-direction:column; background:rgba(22,21,19,.94); -webkit-backdrop-filter:blur(18px); backdrop-filter:blur(18px); border-radius:18px 18px 0 0; border-top:1px solid rgba(212,175,90,.18); transform:translateY(calc(100% - var(--peek, 132px))); transition:transform .32s cubic-bezier(.2,.8,.2,1), opacity .25s; padding-bottom:env(safe-area-inset-bottom, 0px)}
+.av-sheet{position:absolute; left:0; right:0; bottom:0; max-height:72%; display:flex; flex-direction:column; background:rgba(22,21,19,.96); border-radius:18px 18px 0 0; border-top:1px solid rgba(212,175,90,.18); transform:translateY(calc(100% - var(--peek, 132px))); transition:transform .32s cubic-bezier(.2,.8,.2,1), opacity .25s; padding-bottom:env(safe-area-inset-bottom, 0px)}
 .av-sheet.up{transform:none}
 .av-grab{flex:none; padding:10px 18px 4px; cursor:pointer; touch-action:none}
 .av-grab::before{content:""; display:block; width:38px; height:5px; border-radius:3px; background:rgba(237,227,207,.3); margin:0 auto 10px}
 .av-grab h2{font:500 21px/1.2 var(--display); color:#F4EBD8; margin:0}
 .av-grab p{margin:4px 0 0; font-size:13.5px; color:#B9AE98}
-.av-body{overflow-y:auto; -webkit-overflow-scrolling:touch; padding:4px 18px 26px; font-size:15px; line-height:1.55; color:#D9CFBA; -webkit-user-select:text; user-select:text}
+.av-body{overflow-y:auto; -webkit-overflow-scrolling:touch; overscroll-behavior:contain; touch-action:pan-y; padding:4px 18px 26px; font-size:15px; line-height:1.55; color:#D9CFBA; -webkit-user-select:text; user-select:text}
 .av-body .eyebrow{color:#D4AF5A; display:block; margin:16px 0 6px}
 .av-body p{margin:0 0 10px}
 .av-body dl{display:grid; grid-template-columns:auto 1fr; gap:4px 14px; margin:6px 0 0; font-size:13.5px}
@@ -1551,9 +1554,9 @@ function artFilter(){
   l.sort((a, b) => key(a) - key(b));
   return l;
 }
-function tileHTML(it, i){
+function tileHTML(it, i, ch){
   const ar = it.w && it.h ? `aspect-ratio:${it.w}/${it.h}` : "aspect-ratio:1";
-  return `<button type="button" class="gt" data-art="${i}"><span class="gt-img" style="${ar}"><img src="${esc(artPath(it, "t"))}" alt="${esc(it.t)}" loading="lazy" decoding="async" onload="this.classList.add('in')" onerror="this.parentNode.classList.add('broken')"></span><b>${esc(it.t)}</b><small>${esc(it.a || ART_REG.find(r => r[0] === it.r)[1])}${it.y != null ? " · " + esc(fy(it.y)) : ""}</small></button>`;
+  return `<button type="button" class="gt" data-art="${i}"${ch ? ` style="--ch:${ch}px"` : ""}><span class="gt-img" style="${ar}"><img src="${esc(artPath(it, "t"))}" alt="${esc(it.t)}" loading="lazy" decoding="async" onload="this.classList.add('in')" onerror="this.parentNode.classList.add('broken')"></span><b>${esc(it.t)}</b><small>${esc(it.a || ART_REG.find(r => r[0] === it.r)[1])}${it.y != null ? " · " + esc(fy(it.y)) : ""}</small></button>`;
 }
 const chipRow = (key, opts, all) => `<div class="chips" role="group">${[["", all]].concat(opts).map(([k, n]) => `<button type="button" class="chip" data-af="${key}" data-v="${k}" aria-pressed="${artF[key] === k}">${esc(n)}</button>`).join("")}</div>`;
 function viewArt(){
@@ -1585,25 +1588,46 @@ function viewArt(){
 }
 function drawArtGrid(){
   const g = document.getElementById("galGrid"); if (!g || !ART) return;
-  artList = artFilter(); artShown = 0; g.innerHTML = "";
+  artList = artFilter(); artShown = 0; artCols = null; g.innerHTML = "";
   document.getElementById("galN").textContent = artList.length.toLocaleString("en");
   if (!artList.length) { g.innerHTML = `<p class="gal-empty">Nothing matches. Try fewer filters.</p>`; return; }
   moreArt();
   if (artObs) artObs.disconnect();
   if ("IntersectionObserver" in window) { artObs = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) moreArt(); }, {rootMargin:"1200px 0px"}); artObs.observe(document.getElementById("galMore")); }
 }
+/* The grid is real columns. Each new tile goes to the shortest column, worked out from the
+   picture's shape, so tiles already on screen never move when more load (CSS columns reshuffled them). */
+let artCols = null;
+const artColN = () => innerWidth >= 1100 ? 5 : innerWidth >= 700 ? 4 : 2;
+function artBlock(g){
+  const n = artColN(), gap = n > 2 ? 14 : 10, row = document.createElement("div");
+  row.className = "gal-cols"; row.innerHTML = '<div class="gal-col"></div>'.repeat(n); g.appendChild(row);
+  artCols = {n, cols:[...row.children], h:new Array(n).fill(0), w:Math.max(80, ((g.clientWidth || innerWidth - 32) - gap * (n - 1)) / n)};
+}
 function moreArt(){
   const g = document.getElementById("galGrid"); if (!g || artShown >= artList.length) return;
   const from = artShown, to = Math.min(artList.length, artShown + 60);
-  let h = "";
+  if (!artCols) artBlock(g);
+  let html = artCols.cols.map(() => "");
+  const flush = () => { artCols.cols.forEach((c, k) => html[k] && c.insertAdjacentHTML("beforeend", html[k])); html = artCols.cols.map(() => ""); };
   for (let i = from; i < to; i++) {
     const it = artList[i], prev = artList[i - 1];
-    if (it.wing === "web" && (!prev || prev.wing !== "web")) h += `<div class="gal-sec"><h3>More from the museums</h3><p>Small pictures are in the app. The large picture opens when you are online.</p></div>`;
-    h += tileHTML(it, i);
+    if (it.wing === "web" && (!prev || prev.wing !== "web")) {
+      flush(); g.insertAdjacentHTML("beforeend", `<div class="gal-sec"><h3>More from the museums</h3><p>Small pictures are in the app. The large picture opens when you are online.</p></div>`);
+      artBlock(g); html = artCols.cols.map(() => "");
+    }
+    /* the tile's height: the picture at the column's width, plus a caption of one or two lines */
+    const c = artCols.h.indexOf(Math.min(...artCols.h)), ch = Math.round(artCols.w * (it.w && it.h ? it.h / it.w : 1) + 27 + (it.t.length * 7.4 > artCols.w ? 36 : 18));
+    artCols.h[c] += ch + 14; html[c] += tileHTML(it, i, ch);
   }
-  g.insertAdjacentHTML("beforeend", h);
+  flush();
   artShown = to;
 }
+/* turning an iPad or opening a foldable changes the number of columns: lay the same tiles out again */
+window.addEventListener("resize", () => {
+  const g = document.getElementById("galGrid"); if (!g || !artCols || artCols.n === artColN()) return;
+  const n = artShown; artShown = 0; artCols = null; g.innerHTML = ""; while (artShown < n) moreArt();
+});
 
 /* ---------- a person's page: their works and the art of their world, from the collection ---------- */
 const C_REG = {egypt:"ancient", greece:"ancient", italy:"europe", china:"east-asia", mongolia:"east-asia", japan:"east-asia", india:"south-asia", malaysia:"south-asia",
@@ -1637,7 +1661,7 @@ const regName = r => (ART_REG.find(x => x[0] === r) || ["", ""])[1];
 const personByName = (() => { let m; return n => { if (!m) { m = new Map(); H.people.forEach(p => m.set(p.n.toLowerCase(), p)); } const p = m.get(String(n || "").toLowerCase()); return p && !p.sacred ? p : null; }; })();
 function openArt(it, idx, push){
   avIt = it; artCur = idx;
-  document.body.style.overflow = "hidden";
+  clearTimeout(avOutT); av.classList.remove("out");
   const big = artPath(it, "f"), lo = artPath(it, "t");
   const count = idx >= 0 && artList.length ? `${(idx + 1).toLocaleString("en")} of ${artList.length.toLocaleString("en")}` : "";
   av.innerHTML = `<div class="av-stage" id="avStage"><img class="av-lo" id="avLo" src="${esc(lo)}" alt=""><img id="avImg" alt="${esc(it.t + (it.a ? ", " + it.a : ""))}"></div>
@@ -1647,8 +1671,10 @@ function openArt(it, idx, push){
   av.hidden = false; av.classList.remove("bare");
   avS = 1; avX = 0; avY = 0;
   const img = document.getElementById("avImg");
-  img.onload = () => { document.getElementById("avLo").remove(); fitArt(); };
-  img.onerror = () => { if (it.wing === "web") { const n = document.getElementById("avNote"); n.hidden = false; n.textContent = "The large picture needs the internet. This is the small one in the app."; } };
+  /* decode the big picture off the main thread, then fade it in over the small one */
+  img.onload = () => { const show = () => { if (avIt !== it) return; fitArt(); img.classList.add("in"); setTimeout(() => { const lo = document.getElementById("avLo"); if (lo && avIt === it) lo.remove(); }, 220); };
+    img.decode ? img.decode().then(show, show) : show(); };
+  img.onerror = () => { img.classList.add("in"); if (it.wing === "web") { const n = document.getElementById("avNote"); n.hidden = false; n.textContent = "The large picture needs the internet. This is the small one in the app."; } };
   if (it.wing === "web") { loadDetail(it, () => { const d = artDetail[it.id]; if (d && d.img && avIt === it) img.src = d.img; }); }
   else img.src = big;
   requestAnimationFrame(fitArt);
@@ -1662,10 +1688,13 @@ function openArt(it, idx, push){
   haptic("open");
   setTimeout(() => { const b = av.querySelector("[data-avx]"); if (b) b.focus({preventScroll:true}); }, 30);
 }
+let avOutT = null;
 function closeArt(fromRoute){
-  if (av.hidden) return;
-  av.hidden = true; av.innerHTML = ""; avIt = null;
-  document.body.style.overflow = "";
+  if (av.hidden || av.classList.contains("out")) return;
+  avIt = null; avPts.clear(); avG = null;
+  /* fade out, then empty it */
+  av.classList.add("out");
+  avOutT = setTimeout(() => { av.hidden = true; av.classList.remove("out"); av.innerHTML = ""; av.style.background = ""; }, 190);
   if (!fromRoute && !avStay) { if (avPushed) { avPushed = false; history.back(); } else try { history.replaceState(null, "", "#art"); } catch(e){} }
   avPushed = false;
 }

@@ -33,13 +33,15 @@ jobs:
           sudo xcode-select -s "$XCODE/Contents/Developer"
           xcodebuild -version
 
-      - name: Build the museum page (pictures and fonts built in)
+      - name: Build the museum page (fonts built in, pictures as files)
         run: |
           python3 --version
           python3 app/build.py
           SIZE=$(stat -f%z ios/HistoryMuseum/Web/index.html)
           echo "App page: $SIZE bytes"
-          [ "$SIZE" -gt 3000000 ] || { echo "::error::App page is only $SIZE bytes; pictures or fonts were not built in"; exit 1; }
+          [ "$SIZE" -gt 1000000 ] || { echo "::error::App page is only $SIZE bytes; fonts or stories were not built in"; exit 1; }
+          N=$(ls ios/HistoryMuseum/Web/img/*.jpg | wc -l); echo "Story pictures: $N"
+          [ "$N" -gt 10 ] || { echo "::error::The story pictures (Web/img) were not copied"; exit 1; }
 
       - name: Generate Xcode project
         run: |

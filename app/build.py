@@ -68,10 +68,8 @@ import base64, re
 app_dir = d.parent/"ios"/"HistoryMuseum"/"Web"
 if app_dir.parent.exists():
     app_src = src
-    for slug in images:
-        if not images[slug]["src"].startswith(IMG_BASE): continue  # portraits ship as files in art/p/
-        b64 = base64.b64encode((d/"img"/(slug + ".jpg")).read_bytes()).decode()
-        app_src = app_src.replace('"' + IMG_BASE + slug + '.jpg"', '"data:image/jpeg;base64,' + b64 + '"')
+    # The pictures ship as files in Web/img (a folder reference, see project.yml), not as base64 inside
+    # the page: a page with megabytes of base64 parsed slowly, and every person page re-parsed its picture.
     # Google Fonts -> fonts built into the page
     links = re.findall(r'<link rel="(?:preconnect|stylesheet)" href="https://fonts\.g[^>]*>\n', app_src)
     assert len(links) == 3, links
@@ -91,10 +89,14 @@ if app_dir.parent.exists():
             'html{touch-action:manipulation}\n'
             'html body input, html body select, html body textarea{font-size:16px}</style>\n')
     app_dir.mkdir(exist_ok=True)
+    import shutil
     (app_dir/"index.html").write_text(head + app_src)
     # The collection ships as a folder next to the page (project.yml adds Web/art as a folder reference),
     # so the page uses the same art/... paths in the app as on the web.
-    import shutil
+    if (app_dir/"img").exists(): shutil.rmtree(app_dir/"img")
+    (app_dir/"img").mkdir()
+    for slug in images:
+        if images[slug]["src"].startswith(IMG_BASE): shutil.copy2(d/"img"/(slug + ".jpg"), app_dir/"img"/(slug + ".jpg"))
     if (app_dir/"art").exists(): shutil.rmtree(app_dir/"art")
     if catalog or portraits:
         (app_dir/"art").mkdir()
