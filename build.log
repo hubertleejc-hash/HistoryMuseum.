@@ -1,0 +1,660 @@
+Command line invocation:
+    /Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild build -project /Users/runner/work/HistoryMuseum./HistoryMuseum./HistoryMuseum.xcodeproj -scheme HistoryMuseum -configuration Debug -destination "generic/platform=iOS Simulator" -derivedDataPath /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData CODE_SIGNING_ALLOWED=NO
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'HistoryMuseum' in project 'HistoryMuseum' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode_26.6.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/Assets.xcassets
+
+ExecuteExternalTool /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode_26.6.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: af570a296774f9706307ce0687e7dc0e
+Build description path: /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/XCBuildData/af570a296774f9706307ce0687e7dc0e.xcbuilddata
+CreateBuildDirectory /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum./HistoryMuseum.xcodeproj
+    builtin-create-build-directory /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products
+
+CreateBuildDirectory /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum./HistoryMuseum.xcodeproj
+    builtin-create-build-directory /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex
+
+ClangStatCache /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448ff45c64a1807a658693f2a61704f17a36.sdkstatcache
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum./HistoryMuseum.xcodeproj
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -o /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448ff45c64a1807a658693f2a61704f17a36.sdkstatcache
+
+CreateBuildDirectory /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum./HistoryMuseum.xcodeproj
+    builtin-create-build-directory /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator
+
+WriteAuxiliaryFile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum-3f44f511c3c6a17d7a1daaef17d34fc0-VFS-iphonesimulator/all-product-headers.yaml
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum./HistoryMuseum.xcodeproj
+    write-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum-3f44f511c3c6a17d7a1daaef17d34fc0-VFS-iphonesimulator/all-product-headers.yaml
+
+CreateBuildDirectory /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum./HistoryMuseum.xcodeproj
+    builtin-create-build-directory /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/ExplicitPrecompiledModules
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum./HistoryMuseum.xcodeproj
+    builtin-create-build-directory /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum./HistoryMuseum.xcodeproj
+    builtin-create-build-directory /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+
+WriteAuxiliaryFile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum.SwiftFileList (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    write-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum.SwiftFileList
+
+WriteAuxiliaryFile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum_const_extract_protocols.json (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    write-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum.SwiftConstValuesFileList (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    write-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum.LinkFileList (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    write-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum.LinkFileList
+
+WriteAuxiliaryFile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum-OutputFileMap.json (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    write-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum_const_extract_protocols.json (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    write-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum.SwiftFileList (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    write-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum.SwiftFileList
+
+WriteAuxiliaryFile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum.SwiftConstValuesFileList (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    write-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum.LinkFileList (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    write-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum.LinkFileList
+
+WriteAuxiliaryFile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum-OutputFileMap.json (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    write-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum.hmap (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    write-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum.hmap
+
+WriteAuxiliaryFile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum.DependencyStaticMetadataFileList (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    write-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum.DependencyMetadataFileList (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    write-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-project-headers.hmap (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    write-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-project-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-own-target-headers.hmap (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    write-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-generated-files.hmap (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    write-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-generated-files.hmap
+
+WriteAuxiliaryFile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-all-target-headers.hmap (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    write-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-all-non-framework-target-headers.hmap (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    write-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-DebugDylibPath-normal-x86_64.txt (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    write-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-DebugDylibPath-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-DebugDylibPath-normal-arm64.txt (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    write-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-DebugDylibPath-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-DebugDylibInstallName-normal-x86_64.txt (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    write-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-DebugDylibInstallName-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-DebugDylibInstallName-normal-arm64.txt (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    write-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-DebugDylibInstallName-normal-arm64.txt
+
+MkDir /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    /bin/mkdir -p /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app
+
+Ld /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/Binary/__preview.dylib normal x86_64 (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios16.0-simulator -dynamiclib -isysroot /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator -install_name @rpath/HistoryMuseum.debug.dylib -Xlinker -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum_dependency_info.dat -o /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/Binary/__preview.dylib
+
+Ld /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/Binary/__preview.dylib normal arm64 (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios16.0-simulator -dynamiclib -isysroot /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator -install_name @rpath/HistoryMuseum.debug.dylib -Xlinker -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum_dependency_info.dat -o /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/Binary/__preview.dylib
+
+MkDir /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/assetcatalog_output/unthinned (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    /bin/mkdir -p /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/assetcatalog_output/unthinned
+
+MkDir /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/assetcatalog_output/thinned (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    /bin/mkdir -p /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/assetcatalog_output/thinned
+
+GenerateAssetSymbols /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/Assets.xcassets (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    /Applications/Xcode_26.6.app/Contents/Developer/usr/bin/actool /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/Assets.xcassets --compile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app --output-format human-readable-text --notices --warnings --export-dependency-info /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/assetcatalog_dependencies --output-partial-info-plist /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/assetcatalog_generated_info.plist --app-icon AppIcon --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --target-device ipad --minimum-deployment-target 16.0 --platform iphonesimulator --bundle-identifier com.hubert.contemporaries --generate-swift-asset-symbol-extensions NO --generate-swift-asset-symbols /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources/GeneratedAssetSymbols.swift --generate-objc-asset-symbols /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources/GeneratedAssetSymbols.h --generate-asset-symbol-index /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/* com.apple.actool.compilation-results */
+/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources/GeneratedAssetSymbols.h
+/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources/GeneratedAssetSymbols.swift
+
+
+CpResource /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/index.html /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/Web/index.html (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/Web/index.html /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app
+
+CreateUniversalBinary /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/__preview.dylib normal arm64\ x86_64 (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/Binary/__preview.dylib /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/Binary/__preview.dylib -output /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/__preview.dylib
+
+CpResource /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/img /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/Web/img (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/Web/img /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app
+
+CpResource /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/art /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/Web/art (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/Web/art /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app
+
+CompileAssetCatalogVariant thinned /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/Assets.xcassets (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    /Applications/Xcode_26.6.app/Contents/Developer/usr/bin/actool /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/Assets.xcassets --compile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/assetcatalog_output/thinned --output-format human-readable-text --notices --warnings --export-dependency-info /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/assetcatalog_dependencies_thinned --output-partial-info-plist /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/assetcatalog_generated_info.plist_thinned --app-icon AppIcon --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --target-device ipad --minimum-deployment-target 16.0 --platform iphonesimulator
+/* com.apple.actool.compilation-results */
+/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/assetcatalog_generated_info.plist_thinned
+/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/assetcatalog_output/thinned/AppIcon60x60@2x.png
+/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/assetcatalog_output/thinned/AppIcon76x76@2x~ipad.png
+/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/assetcatalog_output/thinned/Assets.car
+
+
+SwiftDriver HistoryMuseum normal arm64 com.apple.xcode.tools.swift.compiler (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    builtin-SwiftDriver -- /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name HistoryMuseum -Onone @/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios16.0-simulator -g -module-cache-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator -F /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448ff45c64a1807a658693f2a61704f17a36.sdkstatcache -output-file-map /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-generated-files.hmap -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-own-target-headers.hmap -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-project-headers.hmap -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum-Swift.h -working-directory /Users/runner/work/HistoryMuseum./HistoryMuseum. -experimental-emit-module-separately -disable-cmo
+
+SwiftDriver HistoryMuseum normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    builtin-SwiftDriver -- /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name HistoryMuseum -Onone @/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios16.0-simulator -g -module-cache-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator -F /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448ff45c64a1807a658693f2a61704f17a36.sdkstatcache -output-file-map /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-generated-files.hmap -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-own-target-headers.hmap -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-project-headers.hmap -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources-normal/x86_64 -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources/x86_64 -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum-Swift.h -working-directory /Users/runner/work/HistoryMuseum./HistoryMuseum. -experimental-emit-module-separately -disable-cmo
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/SwiftShims-E5WABJ3KH3EVFA75RR568TXGG.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/ptrcheck-8FJ2WDQ2CEK714VQ6I27QBEOW.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_Builtin_stdarg-DM2E60A1MJ285OVNRE8KYUU3G.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_Builtin_float-BC6HL609N9FDNWD1NHB0ZYVEW.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/ptrauth-6JYFH76ZGM5UWLPYJOWBK15IU.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_AvailabilityInternal-5D345G02CJ9GE5OVVWD0HNOKW.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_SwiftConcurrencyShims-61EI2Q2CQ1CQGXDVQYM8D3U99.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/ptrauth-B0ZAAJW9JKWTZ5A734NO4AGNX.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/DeveloperToolsSupport-68OZL22HF6UO8VUGB8ITZ1U2T.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_SwiftConcurrencyShims-7Z9HZH336HPG4K0ZPVFMKOXD9.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_Builtin_stdbool-1BUAWP0AKWX22CGSXZH4QE8VI.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_Builtin_stdarg-7LTX4SHN763ORVLJSM16RWHJ7.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/SwiftShims-1FN3TENS1U0KS4M9ZGZ330C1X.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_Builtin_float-4PJTSXLJF1FQW9J4Q3RP12BQ3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_Builtin_stdbool-9VSTNEKMKHBUSFYXZDWTTAI3K.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_AvailabilityInternal-D81SLBR9FDQPIVF5XA35ORFL4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/ptrcheck-E844EU941NDY8O9RQX4611V15.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_Builtin_stddef-DOK6IET8CLDULK13BQ81FZ0ME.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_DarwinFoundation1-18E0PMY33C2UCCGBBHIJLX5FJ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_Builtin_stddef-C59FPR9NN0JIF5SR6RUFFVIZS.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_Builtin_limits-ENTZ8XYTKA7A6DU2E5306IXVO.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/DeveloperToolsSupport-ALT59VPFY5EDWBTVOPOR9FCYI.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_DarwinFoundation2-AZILF6OZMTW4KKL8A8NGRT6X3.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_DarwinFoundation1-4HHUI22KY3U72C5LQ737C0WM6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/sys_types-C1SUTW3UVWA6H6ODZCOFP0ITO.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_Builtin_limits-E8XH3FYYZDT2JCHONT8W05CFY.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_Builtin_stdint-8MEEQJVSRSJI245KV6R9323Z1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_Builtin_tgmath-7PRKN90J0TC0JXWGIK61CJLXG.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_DarwinFoundation2-BVIVH2P4JI7AIJYE6T99VVSET.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_Builtin_intrinsics-7JMPJOI5VTWL3JGMMA00MJU26.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_DarwinFoundation3-AK3ADFS18PZDIDLWGY9RKUQWK.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_Builtin_tgmath-9CYJP3MYMQQOR9Y2W9C1TAMR7.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/sys_types-97Z11N1I2LLJOH0R0D8D38X3K.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/simd-3PLF43N825QGU1ERB86LVNL4A.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_Builtin_inttypes-3ECT90V53KILA84IGWESTYWTA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_Builtin_stdatomic-6LQP8YP1S6DE7WG23ZKPJU35K.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/Darwin-27B6W1ZUMZS21UAANEH3WECI1.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_Builtin_stdint-E6Z6IZABMB5TS9ISTAO7JGBX1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/Spatial-BJ7LR3EMZHWO5CC4V1ZSYBI3V.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_Builtin_stdatomic-DLC52U2J0KLKTCGT8XM73DV68.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/ObjectiveC-EMD5RW52IQ5GHF8BUHGUINHOO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/MachO-E3SBJYOGE44C2LPRVUAAQLNYX.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/os_object-9YRVGYGO2SQQVWVOZV33YPRMZ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_DarwinFoundation3-C8OIMVLE60MRMBCP1Z7TTE90Y.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/os_workgroup-71INSIFKVGC5BAXH58O5BQ0P5.pcm
+
+LinkAssetCatalog /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/Assets.xcassets (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    builtin-linkAssetCatalog --thinned /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/assetcatalog_output/thinned --thinned-dependencies /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/assetcatalog_dependencies_thinned --thinned-info-plist-content /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/assetcatalog_generated_info.plist_thinned --unthinned /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/assetcatalog_output/unthinned --unthinned-dependencies /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/assetcatalog_dependencies_unthinned --unthinned-info-plist-content /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/assetcatalog_generated_info.plist_unthinned --output /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app --plist-output /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/assetcatalog_generated_info.plist
+note: Emplaced /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/AppIcon76x76@2x~ipad.png (in target 'HistoryMuseum' from project 'HistoryMuseum')
+note: Emplaced /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/Assets.car (in target 'HistoryMuseum' from project 'HistoryMuseum')
+note: Emplaced /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/AppIcon60x60@2x.png (in target 'HistoryMuseum' from project 'HistoryMuseum')
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/Dispatch-7C5X3IP85QZLCN3KGMVMFM460.pcm
+
+ProcessInfoPlistFile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/Info.plist /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/Info.plist (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    builtin-infoPlistUtility /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/assetcatalog_generated_info.plist -o /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/Info.plist
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_Builtin_inttypes-20SJN99O51LYNEF4F2XCLR6QK.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/_Builtin_intrinsics-EX7PIEQ0UVGLEOO30OLJUOH48.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/Darwin-4DY5EFM777TQMNW4FQFU7GGPT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/dnssd-4KJHVWGO8QHMQDLXBQ7WKLEFZ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/CoreFoundation-FNNEFE6501M9LO6OLXYZYCWG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/XPC-1HNXFE9TAK27OG3EKTKZK441N.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/MachO-CVOV9KYRTDP9WE8ZOCQ4IHJZZ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/Security-BYM9H17TUEW249873FQKFH62Q.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/CFNetwork-2CJGYJESQ6QL3RA63OLO2O1PQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/os-3L2P9C4V05LHACUGXZQVO63LH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/CoreGraphics-AY7JTLMLTXEB18GVM9CK3QQW8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/Foundation-CS02BFEAP64IZISJOKMHHRS00.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/ObjectiveC-6J6CG8F7JSLGUVSFLSS14P8HQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/CoreText-29U9ZJOH02LBSN7BKYYMFE9A.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/simd-AU3JE6B1DTHGNK61U29QV0EJ5.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/os_object-2I3C2FOYYVF8D8F1Z0FAYOS68.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/ImageIO-9QAGNVBPCMB8VDAI3EAAJ4Y3O.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/os_workgroup-4OOUD9K7XY5MASMENC8DC102Z.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/Dispatch-272G5JZXUJQ26BOLVZBH18VAY.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/CoreFoundation-6XM00YBO8DR2FO7N2BRPZ7MD1.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/XPC-CI9C8BMP158080VA3HBSYJHO0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/UniformTypeIdentifiers-9G7AWX7NXMSKTP168Y31OGF9B.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/OpenGLES-41DUVBRE72TXF3IBLPWUBGFLV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/CoreData-ECR76FDMANE0W3D2JFEJJFHLX.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/Security-E0TPS97NDNEJP1KC1S8B6L8TJ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/Network-5HFD8LR3SD2VT8SMZC44POIP9.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/CoreGraphics-8K7HAO9JID51TPJCZVOV3ZQD8.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/Spatial-TJPXMJA7EOCYRLCL5QORQPZH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/CoreTransferable-5UYUFHB5I9B0WOSP77VTZGYUF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/UIUtilities-CG9YVQDEU4GZD1TB43QIQVH99.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/ImageIO-DXKGYDNK26YMYAXAM3TU9DT4G.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/CoreText-9C0N4OE4R99EKAF3BXCBDBO9A.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/UserNotifications-62K4649ACF5FTZFJ928YQUI9Y.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/FileProvider-3IEGD1TZ1FXVQ9VFTHQPM7BIB.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/Symbols-363OKVUVSSGXZM4O1GBDIYBSX.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/os-AW5S96RYFGYMC9M7TCTP7980U.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/Accessibility-1LGR7DB9JRA28J18QY2Y6HKBE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/OSLog-6A1DAQVCPGBGJT3RZCZJBBDFT.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/CFNetwork-1M0V6FHLI8NA14QSDN0MFTWDD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/IOSurface-4QMYO5EMX2GXFGNJ40AWNG5EM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/DataDetection-DVVEIUNJOKXRO8VBCIIVMSR.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/dnssd-81A5SXQFAL66ZADAJHZUQCOY6.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/Foundation-ER8BU3YCLLB2PGLDAN65F0XDQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/Metal-BJEZ80RX2G912VP9MVM3EK8D2.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/CoreVideo-B67TNJOVSZKTSOJYJ9XLX1LP5.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/QuartzCore-2H676WCW4SNMV5Y2LD6HMHR17.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/CoreImage-9AGRSOSNK09NGZ77DFD94B8OU.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/FileProvider-6FI7KHN35YRLHM678MAE1PEV.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/UniformTypeIdentifiers-3JAUBFQJ3YEQ145SVZM6E67NR.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/UserNotifications-3JK3MQAHSWNKSQPCBJZTZHP3J.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/Symbols-2JE3MEAAM36M7652G0OS4ELU5.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/SwiftUICore-6YF3L29KHV5UBPJHTL99NOFVV.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/Accessibility-EVQ9WE5RCYUMSNQXRFEYJA79S.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/OpenGLES-51Z2FO8MJVPMCWEM8M34QQS5M.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/Network-G5CCKX32CDLJ949VIIQ0QVX0.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/DataDetection-CJ8INEEF9IV4SLCOMSD17TT6I.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/UIKit-1TA16OEULKNSY56HIWSLOPLH7.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/CoreData-BDTMEBYXHN7M7XIJID7YPKZCD.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/OSLog-6NPT5E2LE7I39BRYSBTY5PSXD.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/UIUtilities-2G6GAKVNAZEL5S59B3GV2UIJD.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/IOSurface-1WYUYFYWOUIOAQG0B60URWHZ6.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/CoreTransferable-D24CG5BIIZTI04XC5S5JUXXGI.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/Metal-AFWXIFWGDLVKGT3VB8WVTF00Y.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/CoreVideo-51Z6S2SO02RYSL9ZVUMCAFT3Q.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/QuartzCore-1DJ1N9C6EDVR93MXUJJGYL6D2.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/CoreImage-A4HPYNMXBPYQ1GSEEVS9E2GTS.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/SwiftUICore-B0Y04N2CPV27O7IATRUMMBC0W.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/UIKit-2R0J9E7AGY4L03PIRK2TJK4CQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/WebKit-BAUO99BFSITOFE20GQ512NL52.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/SwiftUI-4NQTBGWXP258YOSV2Y8JBAZ67.pcm
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ HistoryMuseum (in target 'HistoryMuseum' from project 'HistoryMuseum')
+EmitSwiftModule normal arm64 (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    
+
+SwiftCompile normal arm64 Compiling\ HistoryMuseumApp.swift,\ LaunchView.swift /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/HistoryMuseumApp.swift /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/LaunchView.swift (in target 'HistoryMuseum' from project 'HistoryMuseum')
+SwiftCompile normal arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/HistoryMuseumApp.swift (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    
+
+SwiftCompile normal arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/LaunchView.swift (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    
+
+SwiftCompile normal arm64 Compiling\ GeneratedAssetSymbols.swift /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'HistoryMuseum' from project 'HistoryMuseum')
+SwiftCompile normal arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/SwiftUI-Q7G2PXXQ3YU4CZJLLDFBAOI4.pcm
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for HistoryMuseum (in target 'HistoryMuseum' from project 'HistoryMuseum')
+
+SwiftDriver\ Compilation\ Requirements HistoryMuseum normal arm64 com.apple.xcode.tools.swift.compiler (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name HistoryMuseum -Onone @/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios16.0-simulator -g -module-cache-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator -F /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448ff45c64a1807a658693f2a61704f17a36.sdkstatcache -output-file-map /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-generated-files.hmap -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-own-target-headers.hmap -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-project-headers.hmap -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum-Swift.h -working-directory /Users/runner/work/HistoryMuseum./HistoryMuseum. -experimental-emit-module-separately -disable-cmo
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/WebKit-AC0U8PWUJUAHW4JRL3J3M1Z3U.pcm
+
+Copy /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.swiftmodule/arm64-apple-ios-simulator.swiftmodule /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum.swiftmodule (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum.swiftmodule /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.swiftmodule/arm64-apple-ios-simulator.swiftmodule
+
+Copy /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.swiftmodule/arm64-apple-ios-simulator.swiftdoc /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum.swiftdoc (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum.swiftdoc /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.swiftmodule/arm64-apple-ios-simulator.swiftdoc
+
+Copy /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.swiftmodule/arm64-apple-ios-simulator.abi.json /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum.abi.json (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum.abi.json /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.swiftmodule/arm64-apple-ios-simulator.abi.json
+
+Copy /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum.swiftsourceinfo (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum.swiftsourceinfo /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo
+
+SwiftEmitModule normal x86_64 Emitting\ module\ for\ HistoryMuseum (in target 'HistoryMuseum' from project 'HistoryMuseum')
+
+EmitSwiftModule normal x86_64 (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    
+
+SwiftCompile normal arm64 Compiling\ MuseumView.swift,\ TalkBridge.swift /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/MuseumView.swift /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/TalkBridge.swift (in target 'HistoryMuseum' from project 'HistoryMuseum')
+
+SwiftCompile normal arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/MuseumView.swift (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    
+
+SwiftCompile normal arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/TalkBridge.swift (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    
+
+SwiftDriverJobDiscovery normal x86_64 Emitting module for HistoryMuseum (in target 'HistoryMuseum' from project 'HistoryMuseum')
+
+SwiftDriver\ Compilation\ Requirements HistoryMuseum normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name HistoryMuseum -Onone @/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios16.0-simulator -g -module-cache-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator -F /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448ff45c64a1807a658693f2a61704f17a36.sdkstatcache -output-file-map /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-generated-files.hmap -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-own-target-headers.hmap -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-project-headers.hmap -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources-normal/x86_64 -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources/x86_64 -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum-Swift.h -working-directory /Users/runner/work/HistoryMuseum./HistoryMuseum. -experimental-emit-module-separately -disable-cmo
+
+SwiftDriverJobDiscovery normal arm64 Compiling HistoryMuseumApp.swift, LaunchView.swift (in target 'HistoryMuseum' from project 'HistoryMuseum')
+
+SwiftCompile normal x86_64 Compiling\ MuseumView.swift,\ TalkBridge.swift /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/MuseumView.swift /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/TalkBridge.swift (in target 'HistoryMuseum' from project 'HistoryMuseum')
+SwiftCompile normal x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/MuseumView.swift (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    
+
+SwiftCompile normal x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/TalkBridge.swift (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    
+
+SwiftMergeGeneratedHeaders /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources/HistoryMuseum-Swift.h /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum-Swift.h /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum-Swift.h (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    builtin-swiftHeaderTool -arch arm64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum-Swift.h -arch x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum-Swift.h -o /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources/HistoryMuseum-Swift.h
+
+SwiftDriverJobDiscovery normal arm64 Compiling MuseumView.swift, TalkBridge.swift (in target 'HistoryMuseum' from project 'HistoryMuseum')
+
+Copy /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.swiftmodule/x86_64-apple-ios-simulator.swiftmodule /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum.swiftmodule (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum.swiftmodule /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.swiftmodule/x86_64-apple-ios-simulator.swiftmodule
+
+Copy /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.swiftmodule/x86_64-apple-ios-simulator.swiftdoc /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum.swiftdoc (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum.swiftdoc /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.swiftmodule/x86_64-apple-ios-simulator.swiftdoc
+
+Copy /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.swiftmodule/x86_64-apple-ios-simulator.abi.json /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum.abi.json (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum.abi.json /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.swiftmodule/x86_64-apple-ios-simulator.abi.json
+
+Copy /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum.swiftsourceinfo (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum.swiftsourceinfo /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo
+
+SwiftCompile normal x86_64 Compiling\ GeneratedAssetSymbols.swift /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'HistoryMuseum' from project 'HistoryMuseum')
+SwiftCompile normal x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling GeneratedAssetSymbols.swift (in target 'HistoryMuseum' from project 'HistoryMuseum')
+
+SwiftCompile normal x86_64 Compiling\ HistoryMuseumApp.swift,\ LaunchView.swift /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/HistoryMuseumApp.swift /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/LaunchView.swift (in target 'HistoryMuseum' from project 'HistoryMuseum')
+
+SwiftCompile normal x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/HistoryMuseumApp.swift (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    
+
+SwiftCompile normal x86_64 /Users/runner/work/HistoryMuseum./HistoryMuseum./ios/HistoryMuseum/LaunchView.swift (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    
+
+SwiftDriver\ Compilation HistoryMuseum normal arm64 com.apple.xcode.tools.swift.compiler (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    builtin-Swift-Compilation -- /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name HistoryMuseum -Onone @/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios16.0-simulator -g -module-cache-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator -F /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448ff45c64a1807a658693f2a61704f17a36.sdkstatcache -output-file-map /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-generated-files.hmap -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-own-target-headers.hmap -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-project-headers.hmap -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum-Swift.h -working-directory /Users/runner/work/HistoryMuseum./HistoryMuseum. -experimental-emit-module-separately -disable-cmo
+
+SwiftDriverJobDiscovery normal x86_64 Compiling HistoryMuseumApp.swift, LaunchView.swift (in target 'HistoryMuseum' from project 'HistoryMuseum')
+
+Ld /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/Binary/HistoryMuseum.debug.dylib normal arm64 (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios16.0-simulator -dynamiclib -isysroot /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator -filelist /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum.LinkFileList -install_name @rpath/HistoryMuseum.debug.dylib -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum.swiftmodule @/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum-linker-args.resp -weak_framework FoundationModels -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -o /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/Binary/HistoryMuseum.debug.dylib
+
+SwiftDriverJobDiscovery normal x86_64 Compiling MuseumView.swift, TalkBridge.swift (in target 'HistoryMuseum' from project 'HistoryMuseum')
+
+ConstructStubExecutorLinkFileList /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-ExecutorLinkFileList-normal-arm64.txt (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    construct-stub-executor-link-file-list /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/Binary/HistoryMuseum.debug.dylib /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-ExecutorLinkFileList-normal-arm64.txt
+note: Using stub executor library with Swift entry point. (in target 'HistoryMuseum' from project 'HistoryMuseum')
+
+Ld /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/Binary/HistoryMuseum normal arm64 (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios16.0-simulator -isysroot /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-DebugDylibPath-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-DebugDylibInstallName-normal-arm64.txt -Xlinker -filelist -Xlinker /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-ExecutorLinkFileList-normal-arm64.txt /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/Binary/HistoryMuseum.debug.dylib -o /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/Binary/HistoryMuseum
+
+SwiftDriverJobDiscovery normal x86_64 Compiling GeneratedAssetSymbols.swift (in target 'HistoryMuseum' from project 'HistoryMuseum')
+
+SwiftDriver\ Compilation HistoryMuseum normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    builtin-Swift-Compilation -- /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name HistoryMuseum -Onone @/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios16.0-simulator -g -module-cache-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator -F /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448ff45c64a1807a658693f2a61704f17a36.sdkstatcache -output-file-map /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-generated-files.hmap -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-own-target-headers.hmap -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-project-headers.hmap -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources-normal/x86_64 -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources/x86_64 -Xcc -I/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum-Swift.h -working-directory /Users/runner/work/HistoryMuseum./HistoryMuseum. -experimental-emit-module-separately -disable-cmo
+
+Ld /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/Binary/HistoryMuseum.debug.dylib normal x86_64 (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios16.0-simulator -dynamiclib -isysroot /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator -filelist /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum.LinkFileList -install_name @rpath/HistoryMuseum.debug.dylib -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum.swiftmodule @/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum-linker-args.resp -weak_framework FoundationModels -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -o /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/Binary/HistoryMuseum.debug.dylib
+
+ConstructStubExecutorLinkFileList /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-ExecutorLinkFileList-normal-x86_64.txt (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    construct-stub-executor-link-file-list /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/Binary/HistoryMuseum.debug.dylib /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-ExecutorLinkFileList-normal-x86_64.txt
+note: Using stub executor library with Swift entry point. (in target 'HistoryMuseum' from project 'HistoryMuseum')
+
+CreateUniversalBinary /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/HistoryMuseum.debug.dylib normal arm64\ x86_64 (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/Binary/HistoryMuseum.debug.dylib /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/Binary/HistoryMuseum.debug.dylib -output /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/HistoryMuseum.debug.dylib
+
+Ld /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/Binary/HistoryMuseum normal x86_64 (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios16.0-simulator -isysroot /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-DebugDylibPath-normal-x86_64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-DebugDylibInstallName-normal-x86_64.txt -Xlinker -filelist -Xlinker /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum-ExecutorLinkFileList-normal-x86_64.txt /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/Binary/HistoryMuseum.debug.dylib -o /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/Binary/HistoryMuseum
+
+CreateUniversalBinary /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/HistoryMuseum normal arm64\ x86_64 (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/Binary/HistoryMuseum /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/Binary/HistoryMuseum -output /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/HistoryMuseum
+
+ExtractAppIntentsMetadata (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.6.109.0.HnRk2g/Metal.xctoolchain --module-name HistoryMuseum --sdk-root /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk --xcode-version 17F113 --platform-family iOS --deployment-target 16.0 --bundle-identifier com.hubert.contemporaries --output /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app --target-triple arm64-apple-ios16.0-simulator --target-triple x86_64-apple-ios16.0-simulator --binary-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/HistoryMuseum --dependency-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum_dependency_info.dat --dependency-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum_dependency_info.dat --stringsdata-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --stringsdata-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum.SwiftFileList --source-file-list /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum.SwiftFileList --metadata-file-list /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum.DependencyMetadataFileList --static-metadata-file-list /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum.DependencyStaticMetadataFileList --swift-const-vals-list /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/arm64/HistoryMuseum.SwiftConstValuesFileList --swift-const-vals-list /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/Objects-normal/x86_64/HistoryMuseum.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-11-14 05:51:58.604 appintentsmetadataprocessor[5741:20533] Starting appintentsmetadataprocessor export
+2026-11-14 05:51:58.622 appintentsmetadataprocessor[5741:20533] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+
+CopySwiftLibs /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/HistoryMuseum.debug.dylib --scan-folder /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/Frameworks --scan-folder /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/PlugIns --scan-folder /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/SystemExtensions --scan-folder /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/Extensions --platform iphonesimulator --toolchain /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.6.109.0.HnRk2g/Metal.xctoolchain --toolchain /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os --back-deploy-swift-span
+Ignoring --strip-bitcode because --sign was not passed
+
+AppIntentsSSUTraining (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/Info.plist --temp-dir-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/ssu --bundle-id com.hubert.contemporaries --product-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app --extracted-metadata-path /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/Metadata.appintents --metadata-file-list /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Intermediates.noindex/HistoryMuseum.build/Debug-iphonesimulator/HistoryMuseum.build/HistoryMuseum.DependencyMetadataFileList --source-file /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app/Info.plist --archive-ssu-assets
+2026-11-14 05:51:58.695 appintentsnltrainingprocessor[5758:20581] Parsing options for appintentsnltrainingprocessor
+2026-11-14 05:51:58.697 appintentsnltrainingprocessor[5758:20581] Starting AppIntents SSU YAML Generation
+2026-11-14 05:51:58.702 appintentsnltrainingprocessor[5758:20581] No AppShortcuts found - Skipping.
+
+RegisterExecutionPolicyException /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    builtin-RegisterExecutionPolicyException /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app
+
+Validate /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    builtin-validationUtility /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app -shallow-bundle -infoplist-subpath Info.plist
+
+Touch /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app (in target 'HistoryMuseum' from project 'HistoryMuseum')
+    cd /Users/runner/work/HistoryMuseum./HistoryMuseum.
+    /usr/bin/touch -c /Users/runner/work/HistoryMuseum./HistoryMuseum./build/DerivedData/Build/Products/Debug-iphonesimulator/HistoryMuseum.app
+
+** BUILD SUCCEEDED **
+
