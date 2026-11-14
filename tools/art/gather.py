@@ -22,6 +22,8 @@ Usage: python3 tools/art/gather.py [--offline N] [--online N]
   --offline N  add up to N new works to the In-the-app wing (default 300)
   --online N   add up to N new Cleveland works to the Online wing (default 6000)
   --met N      add up to N new Met works to the Online wing (default 2000)
+  --feed       send the new Online-wing works to online/art/ instead (the online feed the app fetches
+               without a new install; see tools/online/build_feed.py). Nothing is added to app/art.
 """
 import argparse, concurrent.futures as cf, hashlib, html, io, json, os, random, re, sys, time, urllib.parse, urllib.request
 from pathlib import Path
@@ -301,9 +303,14 @@ def main():
     ap.add_argument("--met", type=int, default=2000)
     ap.add_argument("--met-per-dept", type=int, default=400)
     ap.add_argument("--recheck-only", action="store_true", help="only re-screen the works already gathered")
+    ap.add_argument("--feed", action="store_true", help="add the new Online-wing works to online/art/ (fetched by the app), not app/art/")
     ap.add_argument("--seed", type=int, default=int(time.time()) // 86400)
     a = ap.parse_args()
     random.seed(a.seed)
+    global ART
+    app_cat = json.loads((ART / "catalog.json").read_text()) if (ART / "catalog.json").exists() else []
+    if a.feed:
+        ART, a.offline = ROOT / "online" / "art", 0
     ART.mkdir(parents=True, exist_ok=True)
     cat_path = ART / "catalog.json"
     cat = json.loads(cat_path.read_text()) if cat_path.exists() else []
@@ -314,8 +321,9 @@ def main():
     if dropped: print(f"Removed {len(dropped)} works that today's screens hold back")
     if a.recheck_only:
         cat_path.write_text("[\n" + ",\n".join(json.dumps(r, ensure_ascii=False, separators=(",", ":")) for r in cat) + "\n]\n"); return
-    have = {r["id"] for r in cat}
-    keys = {norm_key(r) for r in cat}
+    both = cat + (app_cat if a.feed else [])
+    have = {r["id"] for r in both}
+    keys = {norm_key(r) for r in both}
     rejected = []
 
     def take(raw_list, conv):

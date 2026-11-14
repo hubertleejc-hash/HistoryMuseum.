@@ -1,0 +1,36 @@
+name: Online feed
+
+# Checks and rebuilds online/feed.json, the extra stories and Gallery works the app fetches
+# from main without a new install (see tools/online/build_feed.py). On a pull request it only
+# checks the rules; on main it also commits feed.json if it is out of date.
+on:
+  pull_request:
+    paths: ["online/**", "tools/online/**", "tools/art/**", "app/data.js", "app/chapters.js"]
+  push:
+    branches: [main]
+    paths: ["online/stories/**", "online/art/catalog.json", "tools/online/**", "tools/art/overrides.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  feed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build and check the feed
+        run: python3 tools/online/build_feed.py
+      - name: Commit the feed
+        if: ${{ github.event_name != 'pull_request' }}
+        run: |
+          git diff --quiet -- online/feed.json && { echo "Feed is up to date"; exit 0; }
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add online/feed.json
+          git commit -qm "Online feed: rebuild feed.json"
+          for i in 1 2 3; do git pull --rebase -q origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}" && break; sleep 5; done

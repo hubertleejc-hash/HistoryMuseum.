@@ -872,6 +872,46 @@ const getP = id => id === "you" ? youP() : P.get(id);
 /* ---------- v4: chapters and real images ---------- */
 const CH = H.chapters || {};
 const IMG = H.images || {};
+/* ---------- Online extras ----------
+   Everything above ships inside the app and works offline. New stories and Gallery works can also arrive
+   without a new install: a few seconds after the app opens, while nothing else is happening, it fetches
+   online/feed.json from the project's GitHub repository (tools/online/build_feed.py), keeps a copy for
+   offline use, and adds what is new. Nothing on screen is redrawn when it arrives (no jumps while you scroll):
+   new works join the Gallery the next time it is filled, new stories the next time a person is opened.
+   A bundled chapter always wins, and online stories only use pictures that ship in the app. */
+const FEED_BASE = "https://raw.githubusercontent.com/hubertleejc-hash/historymuseum./main/online/";
+let FEED = (() => { try { const f = JSON.parse(store.get("ctm-feed") || "null"); return f && f.v === 1 ? f : null; } catch(e){ return null; } })();
+const CH_BUNDLED = new Set(Object.keys(CH));
+function feedChapters(f){
+  const added = [];
+  Object.entries((f && f.chapters) || {}).forEach(([id, ch]) => {
+    const p = P.get(id);
+    if (CH_BUNDLED.has(id) || CH[id] === ch || !p || !ch || !Array.isArray(ch.sections)) return;
+    if (p.sacred) { ch.hero = ch.portrait = ""; ch.sections.forEach(s => { s.img = ""; }); }
+    ch.online = true; CH[id] = ch; added.push(id);
+  });
+  return added;
+}
+feedChapters(FEED);
+const feedCount = () => FEED && FEED.art ? FEED.art.length : 0;
+function feedArt(f, have){
+  if (!f || !Array.isArray(f.art)) return [];
+  Object.assign(artDetail, f.detail || {});
+  return f.art.filter(r => !have.has(r[0]) && ART_REG[r[4]] && ART_KIND[r[5]])
+    .map(r => ({id:r[0], src:r[0].split("-")[0], t:r[1], a:r[2], y:r[3], r:ART_REG[r[4]][0], k:ART_KIND[r[5]][0], w:r[6], h:r[7], wing:"web", net:true, hasText:!!r[8]}));
+}
+let feedTried = false;
+function fetchFeed(){
+  if (feedTried || navigator.onLine === false) return;
+  feedTried = true;
+  fetch(FEED_BASE + "feed.json", {cache:"no-cache"}).then(r => r.ok ? r.json() : null).then(f => {
+    if (!f || f.v !== 1 || (FEED && FEED.rev === f.rev)) return;
+    store.set("ctm-feed", JSON.stringify(f));
+    FEED = f;
+    feedChapters(f).forEach(indexChapter);
+    if (ART) { const have = new Set(ART.map(it => it.id)); ART.push(...feedArt(f, have)); }
+  }).catch(() => { feedTried = false; });
+}
 /* Honesty notes for images: shown right under the picture, never in a tooltip. */
 const IMG_NOTE = {
   "leonardo-self": ["disputed", "Presumed self-portrait of Leonardo. Historians disagree about who it shows."],
@@ -1596,7 +1636,7 @@ const FEAT_REG = {"great-wave":"east-asia","qingming":"east-asia","tribute-giraf
 let ART = null, artF = {k:"", r:"", e:"", q:""}, artList = [], artShown = 0, artObs = null, artCur = -1;
 const artDetail = {}, artShardWait = {};
 const ART_SRC = {cma:"The Cleveland Museum of Art", met:"The Metropolitan Museum of Art"};
-const artPath = (it, size) => it.src === "feat" ? it.img : `art/${it.wing === "app" ? size : "m"}/${it.id}.jpg`;
+const artPath = (it, size) => it.src === "feat" ? it.img : it.net ? `${FEED_BASE}art/m/${it.id}.jpg` : `art/${it.wing === "app" ? size : "m"}/${it.id}.jpg`;
 function featuredArt(){
   const works = new Map(H.works.map(w => [WORK_IMG[w.id] || w.id, w]));
   return Object.keys(IMG).map(sl => {
@@ -1611,6 +1651,7 @@ function loadArt(cb){
   const feat = featuredArt();
   const done = rows => {
     ART = feat.concat((rows || []).map(r => ({id:r[0], src:r[0].split("-")[0], t:r[1], a:r[2], y:r[3], r:ART_REG[r[4]][0], k:ART_KIND[r[5]][0], w:r[6], h:r[7], wing:r[8] ? "web" : "app", hasText:!!r[9]})));
+    ART.push(...feedArt(FEED, new Set(ART.map(it => it.id))));
     cb();
   };
   if (!H.artCount) return done([]);
@@ -1633,7 +1674,8 @@ const daySeed = () => hashStr(today());
 function artFilter(){
   const q = artF.q.trim().toLowerCase(), era = ART_ERA.find(e => e[0] === artF.e);
   const seed = daySeed();
-  const l = ART.filter(it => it.src !== "feat" && (!artF.k || it.k === artF.k) && (!artF.r || it.r === artF.r) && (!era || (it.y != null && it.y >= era[2] && it.y <= era[3])) &&
+  const off = navigator.onLine === false;
+  const l = ART.filter(it => it.src !== "feat" && !(off && it.net) && (!artF.k || it.k === artF.k) && (!artF.r || it.r === artF.r) && (!era || (it.y != null && it.y >= era[2] && it.y <= era[3])) &&
     (!q || (it.t + " " + it.a + " " + (ART_REG.find(r => r[0] === it.r) || ["",""])[1]).toLowerCase().includes(q)));
   const key = it => (it.wing === "app" ? 0 : 2) + (it.hasText ? 0 : 1) + (hashStr(it.id + seed) % 1000) / 1000;
   l.sort((a, b) => key(a) - key(b));
@@ -1648,7 +1690,7 @@ function viewArt(){
   galleryOn = true;
   const ws = H.works.slice().sort((a, b) => astro(a.y) - astro(b.y));
   const other = ws.filter(w => !IMG[WORK_IMG[w.id] || w.id]);
-  view.innerHTML = `<section class="gal-head"><div class="sec-head"><h2>Gallery</h2><p id="galCount">${H.artCount ? plural(H.artCount + Object.keys(IMG).length, "work") + " from every continent" : ""}</p></div></section>
+  view.innerHTML = `<section class="gal-head"><div class="sec-head"><h2>Gallery</h2><p id="galCount">${H.artCount ? plural(H.artCount + feedCount() + Object.keys(IMG).length, "work") + " from every continent" : ""}</p></div></section>
     <section><span class="eyebrow">From this museum's stories</span><div class="gal-feat" id="galFeat" style="margin-top:10px"></div></section>
     <section id="galCol" style="gap:0">
       <div class="gal-ctl">
@@ -3314,7 +3356,8 @@ const IDX = [].concat(
 const norm = t => String(t).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 const reEsc = t => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const CHX = [];
-Object.keys(CH).forEach(id => {
+Object.keys(CH).forEach(indexChapter);
+function indexChapter(id){
   const p = P.get(id); if (!p) return;
   const nm = short(p);
   CH[id].sections.forEach(s => CHX.push({h:`#p-${id}@${s.k}`, n:`${nm} › ${s.h}`, s:"Chapter", k:norm(s.h), body:secText(s)}));
@@ -3325,7 +3368,7 @@ Object.keys(CH).forEach(id => {
     if (to) s = CH[id].sections.find(x => x.k === to) || s;
     CHX.push({h:`#p-${id}@${s.k}`, n:`${nm} › ${s.h}`, s:w, k:nw, kw:true});
   });
-});
+}
 const q = document.getElementById("q"), res = document.getElementById("results");
 let hits = [], sel = 0;
 function snip(body, s){
@@ -3363,5 +3406,8 @@ if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { co
 let rz; window.addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(() => { if (mainTL && document.getElementById("tl-main")) mainTL.render(true); sizeLamps(); }, 200); });
 /* tell the app the page is ready, so the opening animation can hand over to it */
 requestAnimationFrame(() => { try { window.webkit.messageHandlers.ready.postMessage("1"); } catch(e){} });
+/* online extras: fetched once the opening is over and the page is idle; again when the connection comes back */
+setTimeout(() => (window.requestIdleCallback || (f => f()))(fetchFeed), 6000);
+window.addEventListener("online", () => setTimeout(fetchFeed, 3000));
 })();
 </script>
