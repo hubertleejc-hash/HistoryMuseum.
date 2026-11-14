@@ -1,0 +1,8 @@
+{"mode": "search", "groups": {
+ "paris-1889": {"limit": 40,
+  "cats": ["Exposition Universelle (1889)", "Photochrom prints of Paris", "Paintings by Jean Béraud", "Construction of the Eiffel Tower"],
+  "search": ["Paris 1889 photograph boulevard", "Paris photochrom boulevard", "Exposition universelle 1889 photograph", "Paris omnibus 1889", "Jean Béraud boulevard", "Paris rue 1889 photographie"]},
+ "florence-1505": {"limit": 30,
+  "cats": ["Veduta della Catena", "Execution of Girolamo Savonarola", "Frescos in the Sassetti Chapel"],
+  "search": ["Savonarola Piazza della Signoria 1498", "Veduta della Catena Florence", "Ghirlandaio Piazza della Signoria fresco", "Florence 15th century painting street", "Firenze veduta quattrocento"]}
+}}
