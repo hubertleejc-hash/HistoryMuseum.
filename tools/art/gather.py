@@ -247,7 +247,7 @@ def commons_files(query, want, src="", have=()):
     off, n = 0, 0
     while n < want and off < 9950 and time.time() < DEADLINE - 3600:
         d = capi({"action": "query", "generator": "search", "gsrsearch": query + " filetype:bitmap", "gsrnamespace": 6,
-                  "gsrlimit": 50, "gsroffset": off, "prop": "imageinfo", "iiprop": "url|size|extmetadata", "iiurlwidth": 1024,
+                  "gsrlimit": 50, "gsroffset": off, "prop": "imageinfo", "iiprop": "url|size|extmetadata", "iiurlwidth": 960,
                   "iiextmetadatalanguage": "en"})
         pages = list(((d or {}).get("query", {}).get("pages") or {}).values())
         for pg in pages:
@@ -267,6 +267,11 @@ def tidy_commons(t):
     t = re.sub(r"\s*label QS:.*$", "", t)
     return re.sub(r"^(Anonymous|Unknown)\s*-\s*", "", t).strip() or "Untitled"
 
+def wm_thumb(url, w):
+    """A thumbnail at one of Wikimedia's standard widths (250, 330, 500, 960, 1280): those are cached and not rate limited."""
+    m = re.match(r"(https://upload\.wikimedia\.org/wikipedia/commons)/(\w/\w\w)/([^/?]+)", url)
+    return f"{m.group(1)}/thumb/{m.group(2)}/{m.group(3)}/{w}px-{m.group(3)}" if m else url
+
 def commons_year(s):
     m = re.search(r"\b(1[0-9]{3}|[1-9][0-9]{2})\b", s or "")
     if m: return int(m.group(1))
@@ -284,7 +289,7 @@ def from_commons(arg):
     lic = (md.get("License", {}).get("value") or "").lower(); lic_name = v("LicenseShortName", 80)
     if not (lic.startswith("pd") or lic.startswith("cc0") or lic_name.lower().startswith("public domain")): return None, "not public domain"
     if not ii.get("thumburl") or min(ii.get("width", 0), ii.get("height", 0)) < 500: return None, "small"
-    if not re.search(r"\.(jpe?g|png|tiff?)$", pg["title"], re.I): return None, "not a picture"
+    if not re.search(r"\.(jpe?g|png)$", pg["title"], re.I): return None, "not a picture"
     cats, title = v("Categories", 3000), v("ObjectName", 200)
     if len(title) < 4 or title.lower() in GENERIC: title = commons_title(pg["title"])
     title = tidy_commons(title)
@@ -300,7 +305,7 @@ def from_commons(arg):
            "x": desc if len(desc) > 60 and desc.lower() != title.lower() else "", "fy": "",
            "cr": f"{museum}. Photo via Wikimedia Commons ({lic_name or 'public domain'}).",
            "u": ii.get("descriptionurl", ""), "w": ii.get("width", 0), "h": ii.get("height", 0),
-           "img": ii["thumburl"], "th": ii["thumburl"].replace("/1024px-", "/320px-"), "hi": 0, "on": "", "dept": museum}
+           "img": wm_thumb(ii["url"], 960), "th": wm_thumb(ii["url"], 330), "hi": 0, "on": "", "dept": museum}
     if re.search(r"egypt|greek|roman|etrus|assyr|mesopotam", cat, re.I): rec["r"] = "ancient"
     if figural_islamic(rec) or islamic_risky(rec): return None, "Islamic-world figural work, needs hand approval"
     return rec, None
