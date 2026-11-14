@@ -1635,7 +1635,7 @@ const WORK_IMG = {"school-of-athens":"school-athens"};
 const FEAT_REG = {"great-wave":"east-asia","qingming":"east-asia","tribute-giraffe":"east-asia","genghis":"east-asia","wu-zetian":"east-asia"};
 let ART = null, artF = {k:"", r:"", e:"", q:""}, artList = [], artShown = 0, artObs = null, artCur = -1;
 const artDetail = {}, artShardWait = {};
-const ART_SRC = {cma:"The Cleveland Museum of Art", met:"The Metropolitan Museum of Art"};
+const ART_SRC = {cma:"The Cleveland Museum of Art", met:"The Metropolitan Museum of Art", louvre:"The Louvre", bm:"The British Museum", metc:"The Metropolitan Museum of Art"};
 const artPath = (it, size) => it.src === "feat" ? it.img : it.net ? `${FEED_BASE}art/m/${it.id}.jpg` : `art/${it.wing === "app" ? size : "m"}/${it.id}.jpg`;
 function featuredArt(){
   const works = new Map(H.works.map(w => [WORK_IMG[w.id] || w.id, w]));
@@ -1646,13 +1646,16 @@ function featuredArt(){
   });
 }
 /* the collection index loads once, the first time the Gallery opens */
+let artWaiters = null;
 function loadArt(cb){
   if (ART) return cb();
+  if (artWaiters) return artWaiters.push(cb);  // already loading: wait for the same index
+  artWaiters = [cb];
   const feat = featuredArt();
   const done = rows => {
     ART = feat.concat((rows || []).map(r => ({id:r[0], src:r[0].split("-")[0], t:r[1], a:r[2], y:r[3], r:ART_REG[r[4]][0], k:ART_KIND[r[5]][0], w:r[6], h:r[7], wing:r[8] ? "web" : "app", hasText:!!r[9]})));
     ART.push(...feedArt(FEED, new Set(ART.map(it => it.id))));
-    cb();
+    const w = artWaiters; artWaiters = null; w.forEach(f => f());
   };
   if (!H.artCount) return done([]);
   window.ART_INDEX = rows => { window.ART_INDEX = null; done(rows); };
