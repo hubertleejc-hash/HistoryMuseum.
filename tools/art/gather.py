@@ -245,7 +245,7 @@ def capi(params):
 def commons_files(query, want, src="", have=()):
     """Yield (page, query) for image files that a Commons search finds, a page of 50 at a time."""
     off, n = 0, 0
-    while n < want and off < 9950:
+    while n < want and off < 9950 and time.time() < DEADLINE - 3600:
         d = capi({"action": "query", "generator": "search", "gsrsearch": query + " filetype:bitmap", "gsrnamespace": 6,
                   "gsrlimit": 50, "gsroffset": off, "prop": "imageinfo", "iiprop": "url|size|extmetadata", "iiurlwidth": 1024,
                   "iiextmetadatalanguage": "en"})
@@ -326,8 +326,10 @@ def save_pictures(rec):
     rec["w"], rec["h"] = full.size
     return True
 
+DEADLINE = float("inf")
 def save_micro(rec):
     """Online wing: a small 160 px tile ships in the app; the big picture loads from the museum."""
+    if time.time() > DEADLINE: return False  # out of time: leave it for the next run
     from PIL import Image
     url = rec.get("th") or rec["img"]
     if "upload.wikimedia.org" in url:  # Wikimedia answers 429 when pictures are fetched too fast
@@ -392,10 +394,13 @@ def main():
     ap.add_argument("--online", type=int, default=6000)
     ap.add_argument("--met", type=int, default=2000)
     ap.add_argument("--met-per-dept", type=int, default=400)
+    ap.add_argument("--minutes", type=int, default=290, help="stop fetching new pictures after this long, so the run can still save what it found")
     ap.add_argument("--commons", type=int, default=0, help="new Louvre and British Museum works from Wikimedia Commons, per museum")
     ap.add_argument("--recheck-only", action="store_true", help="only re-screen the works already gathered")
     ap.add_argument("--seed", type=int, default=int(time.time()) // 86400)
     a = ap.parse_args()
+    global DEADLINE
+    DEADLINE = time.time() + a.minutes * 60
     random.seed(a.seed)
     ART.mkdir(parents=True, exist_ok=True)
     cat_path = ART / "catalog.json"
