@@ -3805,5 +3805,1055 @@ Object.assign(window.HISTORY.chapters, {
       {n:"Further reading: Jackie Wullschlager, Hans Christian Andersen: The Life of a Storyteller (2000)"}
     ]}
   ]
+},
+
+"aristotle": {
+  hero: "",
+  kw: ["Stagira","Macedon","Plato","Academy","Lyceum","Peripatetic","Alexander the Great","logic","syllogism","biology","Lesbos","Nicomachean Ethics","Politics","Poetics","Metaphysics","golden mean","four causes","The Philosopher","heavy objects@myths"],
+  lede: "A doctor's son from northern Greece who studied with Plato for twenty years, tutored the young Alexander the Great, and then tried to understand everything: logic, animals, stars, ethics, politics, poetry. For two thousand years scholars simply called him 'the Philosopher'.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Aristotle was born in 384 BCE in Stagira, a small Greek town in Chalcidice, near the kingdom of Macedon.",
+      "At about 17 he went to Athens and studied at Plato's Academy for some 20 years. He later tutored the young Alexander of Macedon, then founded his own school in Athens, the Lyceum, in 335 BCE.",
+      "He wrote on almost every field of knowledge. About a third of his work survives, mostly as lecture notes. He died in Chalcis, on the island of Euboea, in 322 BCE."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His father, Nicomachus, was physician to King Amyntas III of Macedon, the grandfather of Alexander. Both parents died when he was young, and a guardian, Proxenus, raised him.",
+      "In Athens he became the best-known student of Plato's Academy.", {t:"Plato is said to have called him 'the mind' of the school.", lab:"tradition", why:"The nickname comes from biographies written many centuries later."},
+      "When Plato died in 347 BCE, the Academy passed to Plato's nephew Speusippus. Aristotle left Athens, perhaps also because anti-Macedonian feeling was rising there."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Assos and Lesbos, 347 to 343 BCE. He lived at the court of Hermias, ruler of Atarneus in Asia Minor, and married his niece or adopted daughter Pythias. On the island of Lesbos, with his student Theophrastus, he studied sea creatures in the lagoon of Pyrrha.",
+      {t:"Tutor to Alexander, 343 to about 340 BCE. King Philip II invited him to teach his teenage son Alexander at Mieza, in Macedon.", lab:"likely", why:"Reported by Plutarch and other later writers. The tutoring is generally accepted, though we know little about what he taught."},
+      "The Lyceum, 335 BCE. Back in Athens, he taught at a gymnasium sacred to Apollo Lyceus. His followers were called Peripatetics, probably after the school's covered walkway, the peripatos; a later tradition says he taught while walking. He collected a large library and specimens.",
+      "Flight, 323 BCE. When Alexander died, Athenians turned against Macedonians. Accused of impiety, Aristotle left for Chalcis, reportedly saying he would not let Athens 'sin twice against philosophy', recalling Socrates. He died there the next year."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "Logic: the Organon, which set out the syllogism, the first formal logic. The textbook example, added by later tradition, runs: 'All men are mortal; Socrates is a man; so Socrates is mortal'.",
+      "Nature: Physics, On the Heavens and On the Soul. He described four kinds of cause for anything: what it is made of, its form, what made it, and its purpose.",
+      "Biology: History of Animals and Parts of Animals, describing hundreds of species from careful observation, including how octopuses mate and how a chick develops in the egg.",
+      "Ethics and politics: the Nicomachean Ethics, on happiness as a life of virtue, with virtue as a mean between extremes, and the Politics, comparing constitutions of Greek cities.",
+      "The Poetics, on tragedy, plot and catharsis, and the Rhetoric, on persuasion."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Plato (about 428 to 347 BCE), his teacher, whose theory of Forms he rejected.",
+      "Alexander the Great (356 to 323 BCE), his pupil.",
+      "Theophrastus (about 371 to 287 BCE), his student and successor at the Lyceum, the founder of botany.",
+      "Pythias, his wife, and after her death Herpyllis, his companion and mother of his son Nicomachus."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Philip II of Macedon conquered Greece, and Alexander went on to conquer the Persian Empire. Aristotle's world shifted from independent city-states to great kingdoms.",
+      "Yet in the Politics he still treated the city-state as the natural form of community.",
+      "He accepted slavery as natural for some people and treated women as inferior, views common in his time and long challenged since."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "His works were preserved and studied in Arabic by scholars such as al-Farabi, Avicenna and Averroes, then returned to Latin Europe in the 12th and 13th centuries.",
+      "Thomas Aquinas combined his philosophy with Christian theology. Dante called him 'the master of those who know'.",
+      "His physics was overturned in the Scientific Revolution, but his logic, ethics and biology are still studied."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"No one questioned his idea that heavier objects fall faster until Galileo.", lab:"myth", t:"He did teach that heavier bodies fall faster. But John Philoponus in the 6th century, and medieval and Renaissance thinkers after him, had challenged it long before Galileo."},
+      {c:"He believed women have fewer teeth than men.", lab:"verified", t:"He wrote it in History of Animals. Bertrand Russell later mocked him for not simply counting."},
+      {c:"He taught Alexander to conquer the world.", lab:"myth", t:"There is no evidence he influenced Alexander's conquests, and the two seem to have grown apart after Alexander had Aristotle's relative Callisthenes arrested in 327 BCE."},
+      {c:"His surviving works are polished books.", lab:"myth", t:"What survives are mostly lecture notes and treatises for his school. His polished dialogues for the public, praised by Cicero, are lost."},
+      {c:"His manuscripts were lost in a cellar for centuries.", lab:"disputed", t:"The ancient geographer Strabo says they were hidden in a cellar in Scepsis and recovered in the 1st century BCE. Historians debate how much this story matters."},
+      {c:"He thought the brain was for cooling the blood.", lab:"verified", t:"Yes. He believed the heart was the seat of thought and the brain cooled it."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Aristotle, The Nicomachean Ethics, translated by D. P. Chase (1847; Everyman edition 1911), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/8438"},
+      {n:"Aristotle, Politics, translated by William Ellis (1912 edition), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/6762"},
+      {n:"Aristotle, Poetics, translated by S. H. Butcher (1895), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/1974"},
+      {n:"Diogenes Laertius, Lives of Eminent Philosophers, Book V (about 3rd century CE), public domain translations"},
+      {n:"Further reading: Stanford Encyclopedia of Philosophy, 'Aristotle' (free online)", u:"https://plato.stanford.edu/entries/aristotle/"},
+      {n:"Further reading: Armand Marie Leroi, The Lagoon: How Aristotle Invented Science (2014)"}
+    ]}
+  ]
+},
+
+"archimedes": {
+  hero: "",
+  kw: ["Syracuse","Sicily","Eureka","bath","crown","buoyancy","lever","Give me a place to stand","pi","circle","sphere and cylinder","Archimedes screw","claw","siege","Marcellus","Second Punic War","palimpsest","Method","death ray@myths","mirrors@myths"],
+  lede: "The greatest mathematician of the ancient world, who worked out the value of pi, the volume of a sphere and the law of the lever, built war machines that held off the Roman army, and was killed, the story goes, while drawing circles in the sand.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Archimedes was born around 287 BCE in Syracuse, a Greek city on the island of Sicily. His father, Phidias, was an astronomer.",
+      "He studied geometry, mechanics and hydrostatics, wrote at least ten surviving works, and invented machines for his city's king, Hiero II.",
+      "During the Second Punic War, Syracuse sided with Carthage. When Rome finally took the city in 212 BCE, a Roman soldier killed him, against the orders of the Roman general Marcellus."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "Little is known of his youth. He may have studied in Alexandria, the great centre of Greek learning in Egypt, because he wrote letters to mathematicians there, including Eratosthenes.",
+      "He may have been related to King Hiero II, according to Plutarch.",
+      "He dedicated his work The Sand-Reckoner to Hiero's son Gelon."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      {t:"The crown, and 'Eureka!'. Hiero suspected a goldsmith had mixed silver into a gold crown. Archimedes, noticing the water rise as he stepped into a bath, realised he could compare volumes of water displaced, and ran home naked shouting 'Eureka!' ('I have found it!').", lab:"tradition", why:"The story comes from the Roman architect Vitruvius, writing about 200 years later. Archimedes' own On Floating Bodies uses a different, more precise principle."},
+      {t:"Moving the ship. To show the power of levers and pulleys, he is said to have moved a fully loaded ship single-handed, and to have told Hiero: 'Give me a place to stand, and I will move the earth.'", lab:"tradition", why:"Reported by Plutarch and Pappus of Alexandria centuries later. The quotation exists in several versions."},
+      "The siege of Syracuse, 214 to 212 BCE. When the Romans attacked, his machines defended the walls: catapults of different ranges and the 'claw', a crane that hooked Roman ships, lifted them and dropped them. The Roman army gave up assault and blockaded the city instead.",
+      {t:"His death, 212 BCE. After the Romans entered Syracuse during a festival, a soldier found him absorbed in a geometry problem. In the best-known version he told the soldier not to disturb his circles, and was killed.", lab:"likely", why:"Ancient writers agree he was killed by a soldier, against Marcellus's orders. The 'circles' detail varies between Livy, Plutarch and Valerius Maximus."}
+    ]},
+    {k:"works", h:"The work", ps:[
+      "On the Measurement of a Circle: he showed that pi lies between 3 10/71 and 3 1/7 using polygons with 96 sides.",
+      "On the Sphere and Cylinder: a sphere has two-thirds the volume and surface area of the cylinder that encloses it. He asked for this to be carved on his tomb.",
+      "On the Equilibrium of Planes, setting out the law of the lever, and On Floating Bodies, with the principle that a floating body displaces its own weight of fluid.",
+      "The Sand-Reckoner, in which he invented a system for naming enormous numbers and estimated how many grains of sand would fill the universe.",
+      "The Method, which shows how he used ideas close to modern calculus. It was known only from the Archimedes Palimpsest, a 10th-century copy scraped and overwritten with prayers, rediscovered in 1906."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Hiero II (ruled about 270 to 215 BCE), king of Syracuse, his patron.",
+      "Eratosthenes of Cyrene (about 276 to 194 BCE), the scholar in Alexandria who measured the earth, and to whom he sent The Method.",
+      "Conon of Samos, an astronomer friend in Alexandria, whose death he mourned.",
+      "Marcus Claudius Marcellus, the Roman general who besieged Syracuse and is said to have grieved at his death."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Syracuse was one of the largest Greek cities, caught between the rising powers of Rome and Carthage.",
+      "Alexandria under the Ptolemies had the famous Library and Museum, where Euclid had worked a generation earlier.",
+      "In China, the Qin dynasty unified the country in 221 BCE, a decade before his death."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "He is counted with Newton and Gauss among the greatest mathematicians of all time.",
+      "In 75 BCE the Roman orator Cicero found his neglected tomb near Syracuse, recognising it by the carved sphere and cylinder.",
+      "The Archimedes screw, a spiral pump for lifting water, is still used. The Fields Medal, mathematics' top prize, carries his portrait."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He set Roman ships on fire with mirrors.", lab:"myth", t:"The first hints of a fire weapon come about 350 years after his death, and mirrors are named only by still later writers. Modern tests suggest it would be very hard to do. The earliest sources mention only the claw and catapults."},
+      {c:"He invented the Archimedes screw.", lab:"disputed", t:"It is named after him and Diodorus credits him, but similar devices may have existed earlier in Egypt or Assyria."},
+      {c:"He ran naked through the streets shouting 'Eureka!'.", lab:"tradition", t:"A famous story with no evidence closer than two centuries after him."},
+      {c:"His last words were 'Do not disturb my circles.'", lab:"tradition", t:"Versions of the line appear in later sources, often in Latin. It may be legend."},
+      {c:"He discovered pi.", lab:"myth", t:"Babylonians and Egyptians used approximate values earlier. He found the first rigorous method for calculating it."},
+      {c:"His most important work was lost forever.", lab:"myth", t:"The Method was hidden under prayers in the Palimpsest. Modern imaging in 1999 to 2008 revealed most of its text."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"The Works of Archimedes, edited by T. L. Heath (1897), public domain"},
+      {n:"T. L. Heath, Archimedes (1920), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/35550"},
+      {n:"Archimedes, Geometrical Solutions Derived from Mechanics (the Method), edited by J. L. Heiberg, translated by Lydia G. Robinson (1909), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/7825"},
+      {n:"Plutarch, Life of Marcellus, translated by John Dryden, revised by A. H. Clough, public domain"},
+      {n:"Vitruvius, The Ten Books on Architecture, Book IX, translated by Morris Hicky Morgan (1914), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/20239"},
+      {n:"The Archimedes Palimpsest project, Walters Art Museum (images released openly)"},
+      {n:"Further reading: Reviel Netz and William Noel, The Archimedes Codex (2007)"}
+    ]}
+  ]
+},
+
+"augustus": {
+  hero: "",
+  kw: ["Octavian","Octavius","Julius Caesar","heir","Mark Antony","Cleopatra","Actium","Second Triumvirate","princeps","Pax Romana","Res Gestae","Livia","Agrippa","Tiberius","marble","August","Ara Pacis","Prima Porta","Virgil","emperor"],
+  lede: "A sickly 18-year-old who inherited Julius Caesar's name, out-fought and out-thought every rival, and became Rome's first emperor while insisting he had restored the republic. He boasted that he found Rome a city of brick and left it marble.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Gaius Octavius was born in Rome on 23 September 63 BCE. His mother Atia was the niece of Julius Caesar.",
+      "Caesar adopted him in his will, and after Caesar's murder in 44 BCE he fought a long series of civil wars, finally defeating Mark Antony and Cleopatra at Actium in 31 BCE.",
+      "In 27 BCE the Senate gave him the name Augustus, 'the revered one'. He ruled as first citizen, princeps, for 40 years, ushering in the Pax Romana, and died at Nola on 19 August 14 CE."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His father, a wealthy man from the town of Velletri, died when he was four. Caesar took an interest in him, and in 45 BCE he joined Caesar on campaign in Spain.",
+      "He was often ill, and ancient writers describe him as short and not strong, but determined and calculating.",
+      "He was studying at Apollonia, across the Adriatic, when news came that Caesar had been killed and that he had been named Caesar's son and heir."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Caesar's heir, 44 BCE. Against his family's advice, he went to Rome, took the name Gaius Julius Caesar, and raised an army from Caesar's veterans with his own money.",
+      "The Second Triumvirate, 43 BCE. He joined Mark Antony and Lepidus. They proscribed their enemies, posting lists of men who could be killed; the orator Cicero was among the victims.",
+      "Philippi, 42 BCE. Their armies defeated Brutus and Cassius, Caesar's assassins, in Greece.",
+      "Actium, 31 BCE. Antony had allied with and married Cleopatra of Egypt. Octavian's admiral Marcus Agrippa defeated them in a sea battle off western Greece. Antony and Cleopatra killed themselves in Alexandria in 30 BCE, and Egypt became Roman.",
+      {t:"The 'restored republic', 27 BCE. He announced he was handing power back to the Senate and people. In return the Senate gave him the name Augustus and command of key provinces and most of the army.", lab:"verified", why:"Recorded in his own Res Gestae and in Cassius Dio. Historians agree the 'restoration' was a careful cover for his power."},
+      "Peace and building. He reorganised the army and taxes, rebuilt temples, roads and aqueducts, and supported writers such as the poets Virgil and Horace and the historian Livy. The Ara Pacis, Altar of Peace, was dedicated in 9 BCE.",
+      "The Varian disaster, 9 CE. Three Roman legions were destroyed in the Teutoburg Forest in Germany. Suetonius says Augustus beat his head against a door, crying 'Quintilius Varus, give me back my legions!'",
+      "Succession and death. His heirs kept dying, including his grandsons Gaius and Lucius. He finally adopted his stepson Tiberius, who succeeded him in 14 CE."
+    ]},
+    {k:"works", h:"What he left", ps:[
+      "The Res Gestae Divi Augusti, 'The Deeds of the Divine Augustus', his own account of his life, set up in bronze at his mausoleum. A nearly complete copy survives on a temple wall in Ankara, Turkey.",
+      "The Prima Porta statue, a famous image of him as an ideal, youthful general.",
+      "The month of August, named after him in 8 BCE.",
+      "The Roman imperial system, which lasted in the West for nearly 500 years and in the East much longer."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Livia Drusilla (58 BCE to 29 CE), his wife for over 50 years and a powerful adviser.",
+      "Marcus Agrippa (about 63 to 12 BCE), his general, admiral, builder and son-in-law.",
+      "Gaius Maecenas, his friend and adviser, patron of poets.",
+      "Julia, his only child, whom he exiled in 2 BCE for adultery.",
+      "Mark Antony (83 to 30 BCE), ally turned rival."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Rome had been torn by civil war for almost a century. Many Romans welcomed peace even at the cost of liberty.",
+      "Under Augustus the Roman Empire reached from Spain to Syria and from the Rhine to Egypt, about 50 to 60 million people.",
+      "Jesus of Nazareth was born late in his reign; Luke's Gospel ties the birth to a census ordered by Augustus, though historians debate that census and its date."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "He created the role of Roman emperor, and his name Augustus became a title for later rulers.",
+      "The two centuries of relative peace that followed are called the Pax Romana.",
+      "The words 'Augustan' and 'Augustan age' describe a golden age of literature and order."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He called himself emperor.", lab:"myth", t:"He avoided titles like king or dictator and called himself princeps, 'first citizen'. 'Emperor' comes from imperator, a title for a victorious general, which he did use as part of his name."},
+      {c:"He said 'I found Rome a city of bricks and left it a city of marble.'", lab:"likely", t:"Suetonius reports he boasted this. It may be close to his words, and his building programme was enormous."},
+      {c:"August has 31 days because he stole a day from February.", lab:"myth", t:"This story was invented in the Middle Ages. August already had 31 days under Julius Caesar's calendar."},
+      {c:"Livia poisoned his heirs and then him.", lab:"disputed", t:"Tacitus and Cassius Dio repeat rumours of poisoned figs. There is no solid evidence; historians are sceptical."},
+      {c:"His last words were about acting.", lab:"likely", t:"Suetonius says he asked friends whether he had played his part well in the comedy of life, and asked for applause."},
+      {c:"He was a hero of peace from the start.", lab:"myth", t:"As a young triumvir he was ruthless, ordering proscriptions and executions. His later image as a peacemaker was carefully built."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Augustus, Res Gestae Divi Augusti, translated by Frederick W. Shipley (1924), public domain"},
+      {n:"Suetonius, The Lives of the Twelve Caesars: Augustus, translated by Alexander Thomson, revised by T. Forester (1890s), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/6400"},
+      {n:"Cassius Dio, Roman History, Books 45 to 56, public domain translations"},
+      {n:"Ara Pacis Museum, Rome", u:"https://www.arapacis.it/en"},
+      {n:"Further reading: Adrian Goldsworthy, Augustus: First Emperor of Rome (2014)"}
+    ]}
+  ]
+},
+
+"marcus-aurelius": {
+  hero: "",
+  kw: ["Meditations","Stoic","Stoicism","emperor","Antoninus Pius","Hadrian","Lucius Verus","Antonine Plague","Marcomannic Wars","Danube","Commodus","Faustina","equestrian statue","Capitoline","philosopher-king","Epictetus","Gladiator@myths"],
+  lede: "The most powerful man in the world, who spent his nights in army camps on the Danube writing private notes to himself about patience, death and doing his duty. He never meant them to be read; we call them the Meditations.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Marcus Annius Verus was born in Rome on 26 April 121 CE into a wealthy family of Spanish origin.",
+      "The emperor Hadrian noticed him as a boy and arranged that he be adopted by the next emperor, Antoninus Pius. Marcus became emperor in 161 CE, at first sharing power with his adoptive brother Lucius Verus.",
+      "His reign was marked by plague and war on the frontiers. He died, probably near Vindobona (Vienna) or Sirmium, on 17 March 180 CE, and was succeeded by his son Commodus."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His father died when he was about three, and he was raised by his mother and grandfather. In the first book of the Meditations he thanks each of them for what they taught him.",
+      "Hadrian called him 'Verissimus', 'most truthful'. From about the age of twelve, according to the Historia Augusta, he dressed simply and slept on the ground, practising a philosopher's self-discipline.",
+      "His teachers included Marcus Cornelius Fronto, a famous orator whose letters with Marcus survive, and the Stoic Junius Rusticus, who lent him the discourses of Epictetus."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Adoption, 138 CE. Hadrian adopted Antoninus Pius on condition that Antoninus adopt Marcus and Lucius. Marcus married Antoninus's daughter Faustina in 145 CE; they had at least 13 children, many of whom died young.",
+      "Emperor, 161 CE. On Antoninus's death, Marcus insisted Lucius share power, the first time Rome had two equal emperors.",
+      "War with Parthia, 161 to 166 CE. Lucius led a war in the East that captured the Parthian capital. Returning soldiers seem to have brought back the Antonine Plague, probably smallpox, which killed millions across the empire.",
+      "The northern wars, 166 to 180 CE. Germanic peoples, the Marcomanni and Quadi, and the Sarmatians crossed the Danube and even reached Italy. Marcus spent much of his last twelve years on campaign. Lucius died in 169 CE.",
+      {t:"The Meditations, 170s CE. In camp he wrote in Greek short notes 'to himself', reminding himself to be fair, patient and unafraid of death. A note between Books 1 and 2 reads 'Among the Quadi, on the Granua'.", lab:"verified", why:"The headings in the manuscripts place parts of the work in his campaign camps."},
+      "Revolt, 175 CE. Avidius Cassius, governor of Syria, declared himself emperor on a false rumour of Marcus's death. He was killed by his own officers within three months. Marcus is said to have burned his letters unread to avoid knowing who had supported him.",
+      "Death, 180 CE. He died of illness, perhaps the plague, on campaign. Commodus, who had been co-emperor since 177, succeeded him."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "The Meditations, 12 books of private reflections, probably not written for publication. They became one of the most read works of philosophy.",
+      "Key Stoic ideas: we control only our own judgements and actions; we should do our duty to others as parts of one whole; death is natural and nothing to fear.",
+      "His letters with Fronto, rediscovered in a palimpsest in the 19th century, show him as a warm young student who complains about his lessons.",
+      "The bronze equestrian statue of him on the Capitoline Hill in Rome, the only large bronze horseman to survive from ancient Rome, spared because people thought it showed the Christian emperor Constantine."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Antoninus Pius (86 to 161 CE), his adoptive father, whose calm he admired most.",
+      "Faustina the Younger (about 130 to 175 CE), his wife, who died on campaign with him in the East.",
+      "Lucius Verus (130 to 169 CE), co-emperor.",
+      "Commodus (161 to 192 CE), his son and successor, whose cruel, chaotic reign ended in murder.",
+      "Galen, the great Greek physician, who served as his doctor."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "The Roman Empire was at its largest under the emperors before him, but pressures on its borders were growing.",
+      "Christians were a small, distrusted minority. Some were persecuted in his reign, notably at Lyon in 177 CE.",
+      "Roman envoys, claiming to come from 'Andun', perhaps Antoninus or Marcus, reached the Han court in China in 166 CE, according to Chinese records."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "He is counted as the last of the 'five good emperors', a label that goes back to Machiavelli. Edward Gibbon saw his death as the end of Rome's golden age.",
+      "The Meditations are still read for guidance by soldiers, statesmen and ordinary people, and have helped a modern revival of Stoic ideas.",
+      "Plato's dream of a philosopher-king is often said to have come closest to reality in him."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He was murdered by Commodus, as in the film Gladiator.", lab:"myth", t:"He died of illness, perhaps plague. Commodus was already co-emperor; there was no plan to give power back to the Senate."},
+      {c:"He wrote the Meditations as a book for others.", lab:"myth", t:"They are private notes, addressed to himself. How they survived and were published is unknown."},
+      {c:"He was a gentle pacifist.", lab:"myth", t:"He spent most of his reign at war and his column in Rome shows brutal scenes of the northern campaigns."},
+      {c:"He persecuted Christians.", lab:"disputed", t:"Persecutions happened in his reign under existing laws, but there is no evidence he launched a new policy against them."},
+      {c:"His troops were saved by a miraculous rainstorm.", lab:"tradition", t:"The 'Rain Miracle' around 172 CE appears on his column. Pagan writers credited an Egyptian magician; Christian writers credited the prayers of Christian soldiers."},
+      {c:"Faustina was unfaithful and plotted against him.", lab:"disputed", t:"Hostile later sources spread such stories. In the Meditations he thanks the gods for a wife so obedient, affectionate and sincere."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Marcus Aurelius, Meditations, translated by Meric Casaubon (1634), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/2680"},
+      {n:"Marcus Aurelius, Thoughts, translated by George Long (1862), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/15877"},
+      {n:"Historia Augusta, Life of Marcus Aurelius (4th century, unreliable in places), public domain translations"},
+      {n:"Cassius Dio, Roman History, Books 71 and 72, public domain translations"},
+      {n:"Further reading: Anthony Birley, Marcus Aurelius: A Biography (1987)"}
+    ]}
+  ]
+},
+"du-fu": {
+  hero: "",
+  kw: ["Tu Fu","Tang dynasty","poet-historian","Sage of Poetry","Chang'an","An Lushan Rebellion","Spring View","Chengdu","thatched cottage","Li Bai","Ballad of the Army Carts","Kuizhou","Yangtze","exam","famine","regulated verse"],
+  lede: "A failed examination candidate who lived through the collapse of the Tang golden age and wrote it all down in verse: soldiers marched to war, children starved, a nation broken while 'mountains and rivers remain'. China calls him the Sage of Poetry.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Du Fu was born in 712 near Luoyang, in Henan, into a family of scholar-officials. His grandfather Du Shenyan was a well-known poet.",
+      "He failed the imperial examination, struggled for years to win a post, and was caught up in the An Lushan Rebellion of 755, which tore China apart.",
+      "He spent his last years as a wandering refugee, partly in Chengdu and on the Yangtze River, and died in 770 on a boat in Hunan. About 1,400 of his poems survive."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His mother died when he was young, and he was raised partly by an aunt.",
+      "He said he was writing poems at seven. As a young man he travelled widely in eastern China.",
+      {t:"In 735 or 736 he failed the jinshi examination. In 747 he failed again, in a special examination in which the chief minister Li Linfu passed no one.", lab:"likely", why:"From his own later poems and the official Tang histories, which differ on details and dates."}
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Li Bai, 744. He met the older poet Li Bai, travelled with him and wrote a dozen poems about him over the years. Li Bai wrote few about Du Fu.",
+      "Chang'an, 746 to 755. He lived poor in the capital, presenting poems to the emperor in hopes of an office. He finally got a minor post in 755.",
+      {t:"The rebellion, 755 to 757. The general An Lushan rebelled and captured Chang'an. Du Fu, trying to reach the new emperor, was caught and held in the occupied city. There he wrote 'Spring View', which opens with the nation broken while mountains and rivers remain.", lab:"verified", why:"The poem is dated by its content and by his collected works. His captivity is recorded in the Tang histories."},
+      "Escape and dismissal, 757 to 759. He escaped to the emperor's court and was made a Reminder, an adviser, but was soon demoted for defending a dismissed minister. In 759, amid famine, he left office for good.",
+      "Chengdu, 760 to 765. With help from friends he built a thatched cottage outside Chengdu in Sichuan and wrote some of his most peaceful poems about his garden and family.",
+      "The river years, 765 to 770. He drifted down the Yangtze, lived two years at Kuizhou in the Three Gorges, and wrote dense, sad, autumnal poems. Ill with lung disease and deaf in one ear, he died on a boat near Tanzhou (Changsha)."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "'Ballad of the Army Carts': families weeping as conscripts march to endless frontier wars.",
+      "'Spring View' (Chun wang): the capital in ruins, his hair too thin to hold a hatpin.",
+      "'Autumn Meditations', a sequence of eight poems written at Kuizhou, often called the summit of Chinese regulated verse.",
+      "He mastered the strict eight-line 'regulated verse' (lüshi) form and was called the 'poet-historian' because his poems record the events and suffering of his age."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Li Bai (701 to 762), the poet he admired most.",
+      "Yan Wu, governor in Sichuan, his patron in Chengdu.",
+      "His wife, née Yang, and their children; one young son starved to death in 755, which he wrote about.",
+      "Gao Shi and Cen Shen, poet friends who also served the Tang."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "He was born at the start of Emperor Xuanzong's brilliant reign and lived to see its ruin.",
+      "The An Lushan Rebellion and its aftermath may have cut China's registered population by tens of millions, though much of that may be lost records rather than deaths.",
+      "The Abbasid caliphate defeated a Tang army at the Battle of Talas in 751, marking the western limit of Tang power."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "Little noticed in his lifetime, he was raised up after his death, especially by Song-dynasty critics, as China's greatest poet.",
+      "Du Fu's Thatched Cottage in Chengdu is now a museum and park.",
+      "He is admired for compassion as well as craft: a poet who wrote about ordinary people's suffering."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He died from eating too much beef and wine after a long hunger.", lab:"tradition", t:"The official Tang histories tell this story, set at Leiyang after a flood cut him off. Most modern scholars doubt it and think he died of long illness on his boat."},
+      {c:"He and Li Bai were close lifelong friends.", lab:"disputed", t:"They spent time together in 744 and 745. Du Fu kept writing about Li Bai; we have little sign the feeling was equal."},
+      {c:"He was famous in his lifetime.", lab:"myth", t:"Anthologies of his time hardly include him. His fame grew after his death."},
+      {c:"He was always poor.", lab:"disputed", t:"Partly. His family had status and he held minor posts, but he struggled for money most of his life, and wrote about borrowing and hunger."},
+      {c:"His poems are mainly political.", lab:"myth", t:"He wrote about war and politics, but also about his children, friends, rain, birds, illness and old age."},
+      {c:"He was the official historian of the Tang.", lab:"myth", t:"'Poet-historian' is a later nickname for how his poems record events. He held no historian's post."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Herbert A. Giles, Chinese Poetry in English Verse (1898), public domain"},
+      {n:"L. Cranmer-Byng, A Lute of Jade (1909), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/390"},
+      {n:"Florence Ayscough and Amy Lowell, Fir-Flower Tablets (1921), Project Gutenberg (public domain in the US)", u:"https://www.gutenberg.org/ebooks/48222"},
+      {n:"New Book of Tang and Old Book of Tang, biographies of Du Fu, classical Chinese texts (public domain)"},
+      {n:"Chinese Text Project: Du Fu poems in the original (free online)", u:"https://ctext.org/"},
+      {n:"Further reading: William Hung, Tu Fu: China's Greatest Poet (1952)"},
+      {n:"Further reading: Stephen Owen, The Poetry of Du Fu (2016, open access)"}
+    ]}
+  ]
+},
+
+"kublai-khan": {
+  hero: "",
+  kw: ["Khubilai","Genghis Khan","grandson","Mongol","Yuan dynasty","Khanbaliq","Dadu","Beijing","Shangdu","Xanadu","Southern Song","Xiangyang","Japan invasions","kamikaze","Marco Polo","paper money","Chabi","Ariq Böke","Grand Canal","Phags-pa","Coleridge"],
+  lede: "A grandson of Genghis Khan who conquered all of China, founded the Yuan dynasty, built the city that became Beijing, and ruled the largest empire of his age, yet failed twice to conquer Japan when storms wrecked his fleets.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Kublai (Khubilai) was born on 23 September 1215, a son of Tolui, the youngest son of Genghis Khan, and of Sorghaghtani Beki, a Christian princess of the Kerait people.",
+      "In 1260 he was proclaimed Great Khan of the Mongols, won a civil war with his brother, and in 1271 declared the Yuan dynasty in China. By 1279 he had conquered the Southern Song, uniting China for the first time in more than three centuries.",
+      "He ruled from Khanbaliq (Dadu, modern Beijing) and his summer capital Shangdu (Xanadu). He died on 18 February 1294."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His mother was one of the most capable women of the Mongol empire. She managed her lands in northern China wisely, protected farmers, and had her sons taught about Chinese ways.",
+      {t:"As a boy of about nine he went on his first hunt, and Genghis Khan himself smeared the fat of his kill on his finger, a Mongol rite.", lab:"likely", why:"Reported in Rashid al-Din's Persian history of the Mongols, written about 1300."},
+      "He gathered Chinese advisers, Buddhist monks and Confucian scholars at his camp in the 1240s, unusual for a Mongol prince."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Governor of northern China, 1251. His brother Möngke became Great Khan and gave him lands in north China. Kublai built a city that became Shangdu.",
+      "Great Khan, 1260. After Möngke died, Kublai was proclaimed khan by his supporters, and his younger brother Ariq Böke by others in Mongolia. Kublai won by 1264, but the western khanates no longer obeyed him fully.",
+      "Yuan, 1271. He took a Chinese dynastic name, Yuan, meaning 'origin', and moved his capital to Dadu, a new city he built beside the ruins of the Jin capital.",
+      "The Song conquest, 1268 to 1279. His armies besieged the river fortress of Xiangyang for five years, finally breaking its walls with counterweight catapults built by Muslim engineers from Persia. The Song capital Hangzhou fell in 1276, and the last Song forces were destroyed at sea in 1279.",
+      {t:"Japan, 1274 and 1281. Two huge invasion fleets failed. The second, perhaps over 100,000 men, was wrecked by a typhoon. The Japanese called the storms kamikaze, 'divine winds'.", lab:"likely", why:"Recorded in Japanese and Chinese sources. The numbers are disputed; shipwrecks found off Takashima confirm the fleet."},
+      "Other campaigns. Wars in Vietnam, Champa, Burma and Java mostly failed or brought only tribute.",
+      "Last years. His wife Chabi died in 1281 and his son and heir Zhenjin in 1285. Kublai grew obese, drank heavily, and suffered from gout. He was succeeded by his grandson Temür."
+    ]},
+    {k:"works", h:"What he built", ps:[
+      "Dadu (Khanbaliq), the planned capital whose layout shaped central Beijing.",
+      "An extension of the Grand Canal toward Dadu, to bring grain from the south.",
+      "Paper money (chao) used across his empire, which amazed Marco Polo.",
+      "The 'Phags-pa script, created by his Tibetan Buddhist adviser to write all the languages of the empire."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Chabi (died 1281), his chief wife and close adviser, a devout Buddhist.",
+      "Sorghaghtani Beki (died 1252), his mother.",
+      "Ariq Böke, his brother and rival.",
+      "'Phags-pa Lama (1235 to 1280), Tibetan Buddhist teacher and adviser.",
+      "Marco Polo, the Venetian who served him for about 17 years, by his own account."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "The Mongol empire stretched from Korea to the borders of Hungary, but it was splitting into four khanates: the Yuan, the Golden Horde, the Chagatai Khanate and the Ilkhanate in Persia.",
+      "Trade and travel across Eurasia were easier than ever before, along the Silk Roads and by sea.",
+      "Under the Yuan, Chinese society was ranked: Mongols first, then Central and West Asians, then northern Chinese, then southern Chinese."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "He reunited China, and Beijing has been its capital for most of the time since.",
+      "The Yuan dynasty fell to the Ming in 1368, less than 75 years after his death.",
+      "Samuel Taylor Coleridge's poem 'Kubla Khan' (written about 1797, published 1816), begun after reading about Xanadu, made his name famous in English."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He was a barbarian who destroyed Chinese culture.", lab:"myth", t:"He used Chinese institutions, supported Confucian rites and drama, and patronised Buddhism, though he kept Mongols at the top."},
+      {c:"He converted to Christianity.", lab:"myth", t:"He asked the Pope for teachers through the Polos, but was most drawn to Tibetan Buddhism."},
+      {c:"The kamikaze winds alone saved Japan.", lab:"disputed", t:"Japanese defenders and a coastal wall held back the invaders for weeks before the storm, and the Mongol ships may have been poorly built river boats."},
+      {c:"Xanadu was a fantasy.", lab:"myth", t:"Shangdu was a real city. Its ruins in Inner Mongolia are a UNESCO World Heritage Site."},
+      {c:"He spoke Chinese fluently.", lab:"disputed", t:"There is no clear evidence. He worked through interpreters and advisers."},
+      {c:"He ruled the whole Mongol Empire.", lab:"myth", t:"He held the title of Great Khan, but the western khanates largely went their own way after 1260."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Marco Polo, The Travels, translated by Henry Yule (1871, revised by Henri Cordier 1903), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/10636"},
+      {n:"Rashid al-Din, Compendium of Chronicles (about 1300), public domain in the original"},
+      {n:"History of Yuan (Yuanshi, 1370), classical Chinese text (public domain)"},
+      {n:"Samuel Taylor Coleridge, 'Kubla Khan' (written about 1797, published 1816), public domain"},
+      {n:"Further reading: Morris Rossabi, Khubilai Khan: His Life and Times (1988)"}
+    ]}
+  ]
+},
+
+"machiavelli": {
+  hero: "",
+  kw: ["The Prince","Florence","Medici","Soderini","Cesare Borgia","republic","Discourses on Livy","virtù","fortuna","exile","torture","strappado","Sant'Andrea","Mandragola","Art of War","militia","Machiavellian","ends justify the means@myths"],
+  lede: "A Florentine diplomat who watched Cesare Borgia carve out a state, lost his job when the Medici returned, was tortured, and in exile wrote The Prince, a short handbook on power so blunt that his name became an insult.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Niccolò Machiavelli was born in Florence on 3 May 1469 into an old but modest family.",
+      "From 1498 to 1512 he served the Florentine republic as a senior official and diplomat, meeting kings, popes and Cesare Borgia. When the Medici family returned to power in 1512 he was dismissed, then jailed and tortured.",
+      "In exile on his farm he wrote The Prince (1513), the Discourses on Livy, plays and a history of Florence. He died in Florence on 21 June 1527."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His father Bernardo was a lawyer who loved books but had little money. He kept a diary recording how he earned a copy of Livy's history of Rome by compiling an index for its printer.",
+      "Niccolò learned Latin and read the Roman historians. Little else is known about his youth.",
+      "He watched the friar Girolamo Savonarola dominate Florence after the Medici were expelled in 1494, and saw him burned in 1498. He later noted that Savonarola failed because he was an 'unarmed prophet'."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Secretary, 1498. Weeks after Savonarola's death, he became head of the Second Chancery, handling war and foreign affairs.",
+      "Missions abroad. He went on embassies to King Louis XII of France, the Emperor Maximilian, Pope Julius II and others, sending sharp reports back to Florence.",
+      {t:"Cesare Borgia, 1502 to 1503. He spent months with Cesare, the Pope's son, who was conquering a state in central Italy. He watched Cesare lure rebel captains to Senigallia and have them strangled, and admired his ruthlessness and speed.", lab:"verified", why:"His dispatches from the time survive."},
+      "The militia, 1506 to 1509. Distrusting hired mercenaries, he organised a citizen militia for Florence, which helped recapture Pisa in 1509.",
+      {t:"Fall, 1512 to 1513. A Spanish army sacked nearby Prato and the Medici returned. He was dismissed. In February 1513 his name was found on a list of suspected plotters. He was arrested and given six drops of the strappado, a torture by rope, but confessed nothing. He was freed in an amnesty when Giovanni de' Medici became Pope Leo X.", lab:"verified", why:"Court records and his own letters and sonnets from prison."},
+      {t:"Exile and The Prince, 1513. Living on his farm at Sant'Andrea in Percussina, he wrote to his friend Francesco Vettori that in the evenings he put on fine clothes and entered the courts of the ancients to talk with them. That year he wrote The Prince, dedicated to the Medici.", lab:"verified", why:"His letter of 10 December 1513 to Vettori survives."},
+      "Later years. He wrote the comedy La Mandragola, the Discourses and The Art of War, and was commissioned by the Medici to write the Florentine Histories. When the Medici fell again in 1527, the republicans distrusted him. He died weeks later."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "The Prince (written 1513, printed 1532): how new princes win and keep power. It argues a ruler must be willing to act against mercy and faith when necessary, and that it is safer to be feared than loved, if one cannot be both.",
+      "Discourses on the First Ten Books of Livy: a long defence of republics, arguing that a free people with good laws and its own army is strongest.",
+      "La Mandragola (about 1518), a sharp, funny comedy still performed.",
+      "Key ideas: virtù (the skill and boldness to shape events) against fortuna (luck), which he compared to a flooding river that can be held back by dykes."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Piero Soderini, head of the Florentine republic, his boss and patron.",
+      "Cesare Borgia (1475 to 1507), the model for parts of The Prince.",
+      "Francesco Vettori and Francesco Guicciardini, friends and fellow political thinkers.",
+      "Lorenzo di Piero de' Medici, to whom The Prince was finally dedicated.",
+      "Marietta Corsini, his wife, mother of their six children."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Italy was divided into rival states and invaded again and again by France and Spain from 1494 on.",
+      "Florence was the city of Leonardo and Michelangelo; Machiavelli once worked with Leonardo on a plan to divert the Arno river.",
+      "The Prince ends with a call for a leader to unite Italy and free it from the 'barbarians'."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "The Prince was placed on the Catholic Church's Index of banned books in 1559. 'Machiavellian' came to mean cunning and deceitful.",
+      "He is now seen as a founder of modern political science, for describing how politics works rather than how it ought to work.",
+      "His tomb is in the Church of Santa Croce in Florence."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He said 'The ends justify the means.'", lab:"myth", t:"He never wrote those words. He wrote that in judging princes, people look at results; the slogan simplifies that."},
+      {c:"He admired tyrants.", lab:"disputed", t:"The Prince gives advice to new rulers, but in the Discourses he clearly prefers republics. Some readers since Rousseau have even read The Prince as a satire."},
+      {c:"The Prince was written for a broad audience.", lab:"myth", t:"It was a gift to the Medici, partly in hope of a job. It circulated in manuscript and was printed only after his death."},
+      {c:"He was an atheist.", lab:"disputed", t:"He criticised the Church's politics fiercely, but scholars disagree about his private beliefs. According to his son, he made a deathbed confession."},
+      {c:"He was a cold man.", lab:"myth", t:"His letters are warm, funny and rude, full of jokes, gossip and love affairs."},
+      {c:"'Old Nick', meaning the devil, comes from his name.", lab:"myth", t:"The link began as a joke in Samuel Butler's poem Hudibras (1678). The nickname is recorded only from the 1600s and its real origin is unknown; dictionaries do not trace it to him."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Niccolò Machiavelli, The Prince, translated by W. K. Marriott (1908), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/1232"},
+      {n:"Niccolò Machiavelli, Discourses on the First Decade of Titus Livius, translated by Ninian Hill Thomson (1883), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/10827"},
+      {n:"Niccolò Machiavelli, letter to Francesco Vettori, 10 December 1513, public domain"},
+      {n:"Pasquale Villari, The Life and Times of Niccolò Machiavelli, translated by Linda Villari (1878 to 1883), public domain"},
+      {n:"Further reading: Maurizio Viroli, Niccolò's Smile (2000)"}
+    ]}
+  ]
+},
+
+"cervantes": {
+  hero: "",
+  kw: ["Don Quixote","Sancho Panza","windmills","La Mancha","Lepanto","Algiers","captive","ransom","tax collector","prison","Exemplary Novels","Alcalá de Henares","Madrid","one-handed@myths","Shakespeare@myths","first modern novel","Avellaneda"],
+  lede: "A wounded soldier who spent five years as a captive in Algiers, failed at almost everything else, and then, in his late fifties, wrote Don Quixote, the story of a mad old gentleman who charges at windmills, and, many say, invented the modern novel.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Miguel de Cervantes Saavedra was born in Alcalá de Henares, near Madrid, in 1547, probably on 29 September. His father was a struggling barber-surgeon.",
+      "He fought in the Battle of Lepanto in 1571, where his left hand was crippled, and was captured by Barbary pirates in 1575, spending five years as a captive in Algiers.",
+      "Back in Spain he worked as a tax and supply collector and was jailed more than once. Don Quixote, Part One (1605), made him famous. Part Two appeared in 1615. He died in Madrid on 22 April 1616."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His family moved often around Spain in search of work, and his father was jailed for debt.",
+      "In Madrid he studied with the humanist Juan López de Hoyos, who published some of his first poems in 1569.",
+      {t:"In 1569 he left for Italy. A warrant from the same year orders the arrest of a Miguel de Cervantes for wounding a man in a duel; he may have fled because of it.", lab:"disputed", why:"The warrant exists, but historians are not sure it refers to him."},
+      "In Rome he served Cardinal Giulio Acquaviva, then enlisted in the Spanish infantry in Italy."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      {t:"Lepanto, 7 October 1571. Ill with fever, he insisted on fighting aboard the galley Marquesa in the great sea battle where a Holy League fleet defeated the Ottomans. He was shot twice in the chest and once in the left hand, which he could never use again. He was proud of it all his life.", lab:"verified", why:"Recorded in service certificates and in his own prologues."},
+      "Captivity, 1575 to 1580. Sailing home with letters of recommendation, his ship was captured by Barbary corsairs. The letters made his captors think he was important, so they set a high ransom. He tried to escape four times and was not executed, perhaps because he was valuable.",
+      "Ransom, 1580. Trinitarian friars paid 500 gold escudos, raised largely by his family, for his release.",
+      "Failure and debt, 1580s and 1590s. He wrote plays and a pastoral novel, La Galatea (1585), with little success. He married Catalina de Salazar in 1584. From 1587 he requisitioned grain and oil for the Spanish Armada, and later collected taxes. Accounting problems led to prison in Seville in 1597.",
+      {t:"Don Quixote, 1605. Part One was published in Madrid in early 1605 and was an instant success, reprinted several times that year and soon translated.", lab:"verified", why:"The 1605 editions survive."},
+      "A rival sequel and Part Two, 1614 to 1615. A writer calling himself Alonso Fernández de Avellaneda published a fake Part Two in 1614. Cervantes mocked it in his own Part Two (1615), in which characters have read Part One and the false sequel.",
+      "Last years. He published the Exemplary Novels (1613) and Journey to Parnassus. He died in Madrid, perhaps of diabetes, and was buried in the Convent of the Trinitarians. His last novel, Persiles and Sigismunda, appeared after his death."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "Don Quixote (1605 and 1615): Alonso Quixano reads so many chivalry romances that he decides to become a knight-errant, Don Quixote de la Mancha, with the peasant Sancho Panza as his squire.",
+      "Famous episodes: the attack on the windmills he thinks are giants, the flock of sheep he takes for an army, and his devotion to an imaginary lady, Dulcinea.",
+      "The Exemplary Novels (1613): twelve short novels, among the first in Spanish.",
+      "Plays, including The Siege of Numantia, and poems."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Rodrigo de Cervantes, his brother, who fought beside him and was also captured.",
+      "Catalina de Salazar y Palacios, his wife.",
+      "Isabel de Saavedra, his only known child, born to Ana Franca de Rojas (also called Ana de Villafranca).",
+      "Lope de Vega, Spain's most successful playwright and his rival.",
+      "The Count of Lemos, patron to whom he dedicated Part Two."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Spain under Philip II was the greatest power in Europe, with an empire in the Americas, but it was frequently bankrupt.",
+      "Christian and Ottoman powers fought for the Mediterranean, and thousands of Christians and Muslims were held captive for ransom in Algiers and elsewhere.",
+      "Shakespeare was his contemporary. Spain's 'Golden Age' of literature included Lope de Vega, Quevedo and Góngora."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "Don Quixote is often called the first modern novel and is one of the most translated books in the world.",
+      "Spanish is called 'the language of Cervantes', and Spain's top literary prize is the Cervantes Prize.",
+      "In 2015 researchers identified bone fragments in the Trinitarian convent in Madrid that probably include his."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He lost his hand at Lepanto.", lab:"myth", t:"His left hand was crippled, not cut off. He was called 'el manco de Lepanto', the maimed man of Lepanto."},
+      {c:"He died on the same day as Shakespeare.", lab:"myth", t:"Both deaths are dated 23 April 1616, but Spain used the Gregorian calendar and England the Julian, so they died about ten days apart. Cervantes probably died on the 22nd and was buried on the 23rd."},
+      {c:"He wrote Don Quixote in prison.", lab:"disputed", t:"In his prologue he says the book was born in a prison. It may mean his time in Seville jail, or it may be a figure of speech."},
+      {c:"Don Quixote is a children's story about a silly knight.", lab:"myth", t:"It is long, comic and deeply serious, playing with reality, fiction and authorship."},
+      {c:"He made a lot of money from Don Quixote.", lab:"myth", t:"He sold the rights and remained poor, depending on patrons."},
+      {c:"Lope de Vega and he were friends.", lab:"myth", t:"They were on good terms early on, but became bitter rivals and exchanged insults in print."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Miguel de Cervantes, Don Quixote, translated by John Ormsby (1885), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/996"},
+      {n:"Miguel de Cervantes, Exemplary Novels, translated by Walter K. Kelly (1855; reprinted 1881), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/14420"},
+      {n:"Biblioteca Virtual Miguel de Cervantes (free online)", u:"https://www.cervantesvirtual.com/"},
+      {n:"James Fitzmaurice-Kelly, The Life of Miguel de Cervantes Saavedra (1892), public domain"},
+      {n:"Further reading: Jean Canavaggio, Cervantes (1990)"}
+    ]}
+  ]
+},
+"kepler": {
+  hero: "",
+  kw: ["Weil der Stadt","Tübingen","Graz","Prague","Tycho Brahe","Rudolf II","Mars","ellipse","laws of planetary motion","Astronomia nova","Harmonices Mundi","Rudolphine Tables","Mysterium Cosmographicum","Platonic solids","witch trial","mother","Linz","optics","Somnium","horoscope"],
+  lede: "A sickly, short-sighted German mathematician who wrestled for years with the orbit of Mars, threw out two thousand years of perfect circles, and found that planets move in ellipses. He also had to defend his own mother at a witch trial.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Johannes Kepler was born on 27 December 1571 in Weil der Stadt, a small free imperial city in south-west Germany (now in Baden-Württemberg).",
+      "A Lutheran who trained for the church, he became a teacher of mathematics in Graz, then assistant and successor to the Danish astronomer Tycho Brahe as Imperial Mathematician in Prague.",
+      "Using Tycho's observations, he discovered three laws of planetary motion. He died in Regensburg on 15 November 1630 while travelling to collect unpaid salary."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His father was a mercenary soldier who left the family when Johannes was a teenager and never returned. His mother Katharina was an innkeeper's daughter and herbalist.",
+      "Smallpox in childhood left him with weak eyesight and crippled hands.",
+      {t:"At six his mother took him up a hill to see the great comet of 1577, and at nine he was called outdoors to see a lunar eclipse. He remembered both all his life.", lab:"verified", why:"He mentions both in his own writings."},
+      "He won scholarships and studied at the University of Tübingen, where his teacher Michael Maestlin privately taught him Copernicus's sun-centred system."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Graz, 1594. Instead of becoming a pastor, he was sent to teach mathematics in Graz, Austria. Part of his job was making yearly astrological calendars.",
+      "The Cosmic Mystery, 1596. He proposed that the distances of the six known planets were set by nesting the five perfect Platonic solids inside each other. It was wrong, but it made him known and led him to Tycho.",
+      "Prague, 1600. Forced out of Graz because he was Protestant, he joined Tycho Brahe, who had the most accurate observations in the world but guarded them closely.",
+      "Imperial Mathematician, 1601. Tycho died suddenly in October 1601, and Kepler succeeded him in the service of Emperor Rudolf II, gaining access to Tycho's data.",
+      {t:"The war on Mars, 1601 to 1605. He spent years trying to fit Mars's orbit to circles. A difference of eight minutes of arc between his best circle and Tycho's data convinced him circles were wrong. He found the orbit was an ellipse.", lab:"verified", why:"He describes his long struggle in detail in Astronomia nova (1609)."},
+      "Linz, 1612 to 1626. After Rudolf's fall he moved to Linz. His first wife and a young son had died in 1611, shortly before the move.",
+      "His mother's trial, 1615 to 1621. Katharina Kepler was accused of witchcraft by neighbours. Johannes wrote her defence and travelled to attend. She was held for over a year and threatened with torture, but released in October 1621. She died in April 1622.",
+      "The Rudolphine Tables, 1627. He finally published tables of planetary positions based on his laws, far more accurate than any before."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "First law: planets move in ellipses with the sun at one focus.",
+      "Second law: a line from the sun to a planet sweeps out equal areas in equal times, so planets move faster when closer to the sun.",
+      "Third law (1619): the square of a planet's orbital period is proportional to the cube of its average distance from the sun.",
+      "Books: Astronomia nova (1609), Harmonices Mundi (1619), Epitome of Copernican Astronomy (1618 to 1621), and Dioptrice (1611), on lenses and the telescope.",
+      "Somnium, a story of a journey to the Moon, published after his death and sometimes called the first science fiction."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Tycho Brahe (1546 to 1601), the great observer whose data made his laws possible.",
+      "Michael Maestlin (1550 to 1631), his teacher.",
+      "Galileo Galilei, with whom he corresponded. He supported Galileo's telescope discoveries in 1610, though Galileo ignored his ellipses.",
+      "Barbara Müller and later Susanna Reuttinger, his wives.",
+      "Katharina Kepler, his mother."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Religious conflict shaped his life. As a Lutheran he was expelled from Graz and later left Linz as pressure on Protestants grew, and the Thirty Years' War (1618 to 1648) raged during his last years.",
+      "Witch trials were at a peak in parts of Germany.",
+      "The telescope was invented in 1608, and Galileo used it in 1609 to 1610."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "His laws let Newton develop his law of universal gravitation, published in 1687.",
+      "He made astronomy a physical science, asking what force moves the planets, not just describing their paths.",
+      "NASA's Kepler space telescope (2009 to 2018) discovered thousands of planets around other stars."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"Kepler murdered Tycho Brahe to get his data.", lab:"myth", t:"Tests on Tycho's remains, exhumed in 2010, found no lethal mercury. He probably died of a bladder or kidney problem."},
+      {c:"He believed in astrology.", lab:"disputed", t:"He cast horoscopes for money and believed the heavens influence the earth, but he mocked much of the astrology of his day."},
+      {c:"His laws came from a flash of insight.", lab:"myth", t:"They came from years of calculation, false starts and errors, which he recorded openly."},
+      {c:"He discovered gravity.", lab:"myth", t:"He suggested a force from the sun moved the planets, a magnetic one. Newton later explained gravity."},
+      {c:"His mother was burned as a witch.", lab:"myth", t:"She was imprisoned and threatened with torture, but freed in 1621, largely thanks to her son's defence."},
+      {c:"The Somnium was a harmless fantasy.", lab:"disputed", t:"Kepler thought a manuscript copy of it, in which the narrator's mother is a wise woman, was used as evidence against his own mother."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Walter W. Bryant, Kepler (1920), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/12406"},
+      {n:"Johannes Kepler, Astronomia nova (1609), original Latin edition, public domain"},
+      {n:"Johannes Kepler, Harmonices Mundi (1619), original Latin edition, public domain"},
+      {n:"Further reading: Max Caspar, Kepler (English translation 1959)"},
+      {n:"Further reading: Ulinka Rublack, The Astronomer and the Witch (2015)"}
+    ]}
+  ]
+},
+
+"vermeer": {
+  hero: "",
+  kw: ["Delft","Girl with a Pearl Earring","The Milkmaid","View of Delft","The Art of Painting","camera obscura","ultramarine","lapis lazuli","Catharina Bolnes","Guild of St Luke","Mauritshuis","Rijksmuseum","Sphinx of Delft","Thoré-Bürger","Van Meegeren","forgeries","light"],
+  lede: "A Delft innkeeper's son who painted only about 35 surviving pictures, quiet rooms where light falls through a window onto a woman reading, pouring milk, or turning toward us with a pearl at her ear. He died in debt and was nearly forgotten for two hundred years.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Johannes Vermeer was baptised in Delft, in the Dutch Republic, on 31 October 1632.",
+      "He became a master in the painters' Guild of St Luke in 1653 and spent his whole life in Delft, painting slowly and in small numbers. About 34 to 37 paintings are accepted as his.",
+      "He died in Delft in December 1675, aged 43, leaving his wife and 11 children deep in debt."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His father, Reynier Jansz, was a silk weaver, innkeeper and art dealer, who ran an inn called Mechelen on Delft's market square.",
+      "Nothing is known about whom he trained with. Suggestions include Carel Fabritius, a pupil of Rembrandt, who died in the Delft gunpowder explosion of 1654.",
+      "In April 1653 he married Catharina Bolnes, from a wealthier Catholic family. He probably converted to Catholicism, and the couple lived with her mother, Maria Thins."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Master painter, 1653. He joined the Guild of St Luke and was later elected one of its heads several times.",
+      "Early works, about 1655 to 1657. He began with large history and religious scenes, such as Christ in the House of Martha and Mary, then turned to quiet scenes of daily life.",
+      {t:"The mature works, about 1657 to 1670. The Milkmaid, View of Delft, Woman in Blue Reading a Letter, Girl with a Pearl Earring and The Art of Painting date from these years.", lab:"likely", why:"Few of his works are dated, so the order is worked out from style and technique."},
+      "A patron. The Delft collector Pieter van Ruijven and his wife seem to have bought many of his paintings; about 20 Vermeers were in their family's collection when it was auctioned in 1696.",
+      {t:"The disaster year, 1672. France invaded the Dutch Republic, and the art market collapsed. Vermeer could not sell paintings. His wife later said that the strain made him fall into a frenzy, and within a day and a half he was dead.", lab:"verified", why:"From Catharina Bolnes's statement to the High Court of Holland in 1677."},
+      "Death, 1675. He was buried in the Old Church in Delft on 15 December. His widow gave paintings to the baker to settle a large bread bill."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "The Milkmaid (about 1658), Rijksmuseum, Amsterdam: a maid pouring milk in a sunlit kitchen.",
+      "View of Delft (about 1660 to 1661), Mauritshuis, The Hague, which the writer Marcel Proust called the most beautiful painting in the world.",
+      "Girl with a Pearl Earring (about 1665), Mauritshuis: not a portrait but a tronie, a study of a face in costume.",
+      "The Art of Painting (about 1666 to 1668), Kunsthistorisches Museum, Vienna, which he kept until his death and his widow then tried to save from creditors.",
+      "He used costly natural ultramarine, made from lapis lazuli, even in shadows, and tiny dots of light-coloured paint (pointillés) to make surfaces sparkle."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Catharina Bolnes (about 1631 to 1688), his wife.",
+      "Maria Thins, his mother-in-law, with whom they lived.",
+      "Pieter van Ruijven (1624 to 1674), his main patron.",
+      "Antonie van Leeuwenhoek, the Delft microscope pioneer, born the same month. He was appointed trustee of Vermeer's bankrupt estate in 1676; there is no proof they were friends."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "The Dutch Republic was the richest trading nation in Europe. Prosperous households bought paintings for their homes.",
+      "Delft was famous for its blue-and-white pottery, Delftware.",
+      "Rembrandt was working in Amsterdam, and Pieter de Hooch painted similar domestic scenes in Delft."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "He was rediscovered in the 1860s by the French critic Théophile Thoré-Bürger, who called him 'the Sphinx of Delft'.",
+      "The Rijksmuseum's exhibition of 2023 gathered 28 of his paintings and sold out.",
+      "His fame drew forgers. Han van Meegeren sold fake Vermeers, including one to the Nazi leader Hermann Göring, and in 1945 proved they were fakes by painting another under guard."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"Girl with a Pearl Earring is a portrait of his maid.", lab:"myth", t:"The idea comes from a 1999 novel. No one knows who modelled; it is a tronie, an imaginary face study."},
+      {c:"He traced his paintings using a camera obscura.", lab:"disputed", t:"Some effects suggest he knew optical devices. There is no documentary evidence, and experts disagree about how much, if at all, he used one."},
+      {c:"The 'pearl' is a pearl.", lab:"disputed", t:"Some argue it is too large to be a real pearl and may be polished tin or glass. It is painted with just a few strokes."},
+      {c:"He was unknown in his lifetime.", lab:"myth", t:"He was respected in Delft and led the painters' guild. He was forgotten outside the Netherlands after his death."},
+      {c:"He painted only about 35 pictures in his life.", lab:"disputed", t:"About 34 to 37 surviving paintings are accepted as his, but old records mention others now lost. He probably finished no more than two or three a year."},
+      {c:"We know what he looked like.", lab:"disputed", t:"No certain self-portrait exists. The man at the left in The Procuress may be him."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Rijksmuseum, Amsterdam: Vermeer works, open access images", u:"https://www.rijksmuseum.nl/en"},
+      {n:"Mauritshuis, The Hague: Girl with a Pearl Earring and View of Delft", u:"https://www.mauritshuis.nl/en/"},
+      {n:"Essential Vermeer (free online resource)"},
+      {n:"Théophile Thoré-Bürger, 'Van der Meer de Delft', Gazette des Beaux-Arts (1866), public domain"},
+      {n:"Further reading: John Michael Montias, Vermeer and His Milieu (1989)"}
+    ]}
+  ]
+},
+
+"louis-xiv": {
+  hero: "",
+  kw: ["Sun King","Versailles","Fronde","Mazarin","absolutism","L'état c'est moi@myths","Colbert","Hall of Mirrors","Edict of Nantes","revocation","Huguenots","War of the Spanish Succession","ballet","Madame de Maintenon","Montespan","Marly","Vauban","Académie"],
+  lede: "A king who came to the throne at four, was chased from Paris by rebels as a boy, and spent the next sixty years making sure that would never happen again, ruling as the Sun King from the dazzling palace of Versailles for 72 years.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Louis was born at the château of Saint-Germain-en-Laye on 5 September 1638 to Louis XIII and Anne of Austria, after 23 years of childless marriage. He was called Louis-Dieudonné, 'God-given'.",
+      "He became king at four in 1643. After the death of his chief minister, Cardinal Mazarin, in 1661, he ruled personally, keeping power in his own hands.",
+      "He built Versailles, made France the leading power in Europe, fought long wars, and drove out the Protestants. He died at Versailles on 1 September 1715, after the longest reign of any major European monarch, 72 years."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His mother ruled as regent with Cardinal Mazarin, an Italian-born churchman, as chief minister.",
+      {t:"The Fronde, 1648 to 1653. Nobles and the Paris parlement rebelled against Mazarin. In January 1649 the royal family fled Paris at night. In 1651 a crowd forced its way into his bedroom to make sure he had not fled again. The fright stayed with him.", lab:"verified", why:"Recorded by many contemporaries, including the memoirs of Madame de Motteville."},
+      "He loved dancing and appeared in court ballets. In the Ballet Royal de la Nuit (1653) he danced the rising sun, the image he made his own."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Marriage, 1660. He married his cousin Maria Theresa, daughter of Philip IV of Spain, as part of a peace treaty.",
+      "Ruling alone, 1661. After Mazarin died, Louis told his ministers he would be his own first minister. He arrested his rich finance minister Nicolas Fouquet and relied on Jean-Baptiste Colbert, who reorganised taxes, industry and the navy.",
+      "Versailles, 1660s to 1682. He turned his father's hunting lodge into a vast palace and moved the court and government there in 1682. Nobles were expected to live at court, competing for his favour in elaborate rituals.",
+      "Wars of glory, 1667 to 1697. He fought Spain in the Spanish Netherlands, the Dutch Republic and coalitions of European powers, gaining territory on France's northern and eastern borders. Vauban built a ring of fortresses.",
+      {t:"The revocation, 1685. By the Edict of Fontainebleau he revoked the Edict of Nantes, which had tolerated Protestants. Around 200,000 Huguenots fled to England, the Dutch Republic, Prussia and beyond, despite a ban on leaving.", lab:"verified", why:"The edict survives. The number of refugees is a historians' estimate, generally 150,000 to 200,000."},
+      "Madame de Maintenon. After Maria Theresa died in 1683, he secretly married Françoise d'Aubigné, Madame de Maintenon, the pious former governess of his children by his mistress Madame de Montespan.",
+      "The War of the Spanish Succession, 1701 to 1714. His grandson Philip became King of Spain, and most of Europe went to war to stop France and Spain uniting. Defeats and a terrible winter in 1709 brought famine. Philip kept Spain, but France was exhausted.",
+      "Death, 1715. His son, grandson and eldest great-grandson died before him. He was succeeded by a five-year-old great-grandson, Louis XV."
+    ]},
+    {k:"works", h:"What he left", ps:[
+      "The Palace of Versailles, with its Hall of Mirrors (1678 to 1684) and gardens by André Le Nôtre.",
+      "Patronage of the arts: the playwrights Molière and Racine, the composer Lully, academies of science, painting and music, and the Paris Observatory.",
+      "A strong central state, with officials called intendants sent from Paris to govern the provinces.",
+      "Les Invalides in Paris, a home for wounded soldiers."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Anne of Austria (1601 to 1666), his mother, and Cardinal Mazarin (1602 to 1661), his teacher in politics.",
+      "Jean-Baptiste Colbert (1619 to 1683), minister of finance.",
+      "Madame de Montespan, his mistress for over a decade, and Madame de Maintenon, his second wife.",
+      "Louis, the Grand Dauphin, his only surviving legitimate son, who died in 1711.",
+      "The Duke of Saint-Simon, a courtier whose memoirs give a sharp, hostile picture of his court."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "France had about 20 million people, the largest population in western Europe.",
+      "His long reign saw the rise of Britain and the Dutch as sea powers, and of Austria and Prussia.",
+      "French became the language of European courts and diplomacy."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "He became the model of the absolute monarch, copied by rulers from Spain to Russia, who built their own Versailles.",
+      "His wars and spending left France heavily in debt, a problem that helped lead to the French Revolution in 1789.",
+      "Versailles is now a museum and a UNESCO World Heritage Site."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He said 'L'État, c'est moi' ('I am the State').", lab:"myth", t:"There is no reliable evidence he said it. On his deathbed he reportedly said, 'I am going, but the State will always remain.'"},
+      {c:"He never bathed.", lab:"myth", t:"He washed, swam and had baths built at Versailles, though bathing was less common than today."},
+      {c:"The Man in the Iron Mask was his twin brother.", lab:"myth", t:"A real masked prisoner existed, but there is no evidence he was related to the king. Voltaire hinted he was an older brother, and Alexandre Dumas turned him into a twin. The mask was probably black velvet."},
+      {c:"Versailles had no toilets.", lab:"myth", t:"It had many close-stools and, under later kings, a few flushing toilets, though sanitation was poor and corridors sometimes used as latrines."},
+      {c:"He was a tyrant who ignored all advice.", lab:"disputed", t:"He held power closely but worked long hours with ministers in council. His later wars show how hard it was to know when to stop."},
+      {c:"He was very tall, helped by high heels.", lab:"disputed", t:"His real height is uncertain: the often-quoted 1.63 metres is poorly documented, and estimates from his armour and clothes run much higher. He did wear red-heeled shoes, a fashion he restricted to nobles admitted at court."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Duc de Saint-Simon, Memoirs of Louis XIV and His Court and of the Regency, Complete, Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/3875"},
+      {n:"Voltaire, The Age of Louis XIV (1751), public domain translations"},
+      {n:"Louis XIV, Mémoires for the Instruction of the Dauphin (1660s), public domain"},
+      {n:"Palace of Versailles: history", u:"https://en.chateauversailles.fr/"},
+      {n:"Further reading: Philip Mansel, King of the World: The Life of Louis XIV (2019)"}
+    ]}
+  ]
+},
+
+"peter-the-great": {
+  hero: "",
+  kw: ["Tsar","Russia","Grand Embassy","Saardam","Deptford","shipbuilding","navy","Great Northern War","Poltava","Charles XII","St Petersburg","beard tax","Table of Ranks","Westernisation","Alexei","Catherine I","Kunstkamera","Bronze Horseman","Azov","emperor"],
+  lede: "A two-metre-tall tsar who worked incognito as a ship's carpenter in Holland, cut off his nobles' beards, beat Sweden, and built a new capital on a swamp by the Baltic so Russia would face Europe. His own son died in prison after being tortured on his orders.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Peter Alexeyevich was born in Moscow on 9 June 1672 (30 May in the old Russian calendar), the son of Tsar Alexis and his second wife, Natalya Naryshkina.",
+      "He became co-tsar at ten in 1682 and ruled alone from 1696. He travelled in western Europe, built a navy, won the Great Northern War against Sweden, and founded St Petersburg in 1703.",
+      "He forced sweeping changes on Russia's army, government, church and dress. In 1721 he took the title Emperor. He died in St Petersburg on 8 February 1725 (28 January old style)."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      {t:"In 1682, aged ten, he watched a revolt of the Streltsy, Moscow's musketeers, in which some of his mother's relatives and advisers were thrown onto pikes before his eyes.", lab:"likely", why:"Described by contemporaries. Historians link his later hatred of the Streltsy and possibly a facial twitch to this."},
+      "His half-sister Sophia then ruled as regent, while Peter and his sickly half-brother Ivan V were co-tsars.",
+      "He grew up largely outside the court, in a village near Moscow, playing war games with real soldiers and befriending foreigners in Moscow's German Quarter, who taught him mathematics, sailing and gunnery.",
+      "In 1689 he took power from Sophia and sent her to a convent."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Azov, 1695 to 1696. His first attack on the Ottoman fortress of Azov failed. He built a river fleet over one winter and took it in 1696.",
+      {t:"The Grand Embassy, 1697 to 1698. He travelled through Europe with a large delegation, supposedly incognito as 'Peter Mikhailov'. He worked as a shipwright in the Dutch East India Company yards in Amsterdam and studied shipbuilding at Deptford, near London.", lab:"verified", why:"Many Dutch and English records describe his visit, including damage his party did to John Evelyn's house in Deptford."},
+      "The Streltsy and the beards, 1698. He rushed home to crush another Streltsy revolt, executing over a thousand. On return he personally cut off the beards of his nobles, and later taxed those who kept them.",
+      "The Great Northern War, 1700 to 1721. He went to war with Sweden for access to the Baltic. After a crushing defeat at Narva (1700), he rebuilt the army.",
+      "St Petersburg, 1703. He founded a fortress at the mouth of the Neva and made the city his capital in 1712. Tens of thousands of forced labourers worked on it in harsh conditions.",
+      "Poltava, 1709. He defeated King Charles XII of Sweden in Ukraine, turning Russia into a great power. Peace came in 1721 with Russia holding the Baltic coast.",
+      {t:"Alexei, 1718. His son and heir Alexei, who opposed his reforms, fled abroad. Lured back, he was tried for treason, tortured and died in prison.", lab:"verified", why:"Court records survive. Whether Peter ordered his death directly is unclear."},
+      "Death, 1725. He died probably of a urinary or kidney illness without naming an heir. His second wife, born a peasant in Livonia and once a servant, became Empress Catherine I."
+    ]},
+    {k:"works", h:"What he built and changed", ps:[
+      "The Russian navy, starting almost from nothing.",
+      "St Petersburg, Russia's 'window on Europe', with the Peter and Paul Fortress and the Kunstkamera, Russia's first museum, founded in 1714, opened to the public in 1719 and including his collection of curiosities.",
+      "The Table of Ranks (1722), letting men rise by service rather than birth.",
+      "Reforms of the calendar, alphabet, dress, schools and the church, which he placed under a state body called the Holy Synod."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Catherine I (1684 to 1727), his second wife and successor.",
+      "Alexander Menshikov, his closest friend, who rose from humble origins to be prince and governor of St Petersburg.",
+      "Alexei Petrovich (1690 to 1718), his son.",
+      "Franz Lefort, a Swiss officer who was his early companion and adviser.",
+      "Charles XII of Sweden (1682 to 1718), his great enemy."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Russia was vast but cut off from western Europe, with no warm-water port and an army of old-style forces.",
+      "Most Russians were serfs. His reforms increased their burden through taxes and conscription.",
+      "Louis XIV ruled France, and the Ottoman Empire still held the shores of the Black Sea."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "Russia became a major European power, and St Petersburg was its capital until 1918.",
+      "The Bronze Horseman, a statue of him commissioned by Catherine the Great, stands by the Neva and inspired Pushkin's poem.",
+      "Russians have argued ever since whether he saved or betrayed Russia's traditions."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He was 2 metres tall.", lab:"likely", t:"Contemporary measurements put him at about 2.03 metres. He was famous for his height, though his hands and feet were small."},
+      {c:"His Grand Embassy was secret and nobody recognised him.", lab:"myth", t:"His incognito fooled almost no one. Everyone knew the giant 'Peter Mikhailov' was the tsar."},
+      {c:"He founded St Petersburg on empty land.", lab:"myth", t:"The area had small Finnish and Swedish settlements, including a Swedish fortress, Nyenskans."},
+      {c:"He wrote a will telling Russia to conquer the world.", lab:"myth", t:"The so-called Testament of Peter the Great was a forgery, probably drafted in the 1790s and first published in France in 1812."},
+      {c:"He loved pulling teeth.", lab:"verified", t:"He practised dentistry on courtiers. A collection of teeth he pulled is in the Kunstkamera."},
+      {c:"He personally beheaded rebels.", lab:"disputed", t:"Contemporary diplomats reported he took part in executions in 1698. Details are uncertain."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Voltaire, The History of the Russian Empire under Peter the Great, translated by Tobias Smollett, Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/42540"},
+      {n:"Jacob Abbott, History of Peter the Great (1859), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/21889"},
+      {n:"Johann Georg Korb, Diary of an Austrian Secretary of Legation at the Court of Czar Peter the Great (1700, English 1863), public domain"},
+      {n:"Kunstkamera, Peter the Great Museum of Anthropology and Ethnography, St Petersburg"},
+      {n:"Further reading: Robert K. Massie, Peter the Great: His Life and World (1980)"},
+      {n:"Further reading: Lindsey Hughes, Russia in the Age of Peter the Great (1998)"}
+    ]}
+  ]
+},
+"voltaire": {
+  hero: "",
+  kw: ["François-Marie Arouet","Paris","Bastille","England","Letters on the English","Émilie du Châtelet","Cirey","Frederick the Great","Candide","Ferney","Calas","Écrasez l'infâme","tolerance","Enlightenment","Philosophical Dictionary","Newton","Lisbon earthquake","I disapprove of what you say@myths","cultivate our garden"],
+  lede: "The sharpest wit of the Enlightenment: twice jailed in the Bastille, exiled to England, friend and then enemy of a king, he wrote the satire Candide and spent his old age fighting for victims of religious injustice. 'Crush the infamous thing,' he signed his letters.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "François-Marie Arouet was born in Paris on 21 November 1694, the son of a lawyer. He adopted the pen name Voltaire in 1718.",
+      "He wrote plays, poems, histories, philosophical tales and over 20,000 letters, attacking intolerance, superstition and the power of the Church. His books were often banned and burned.",
+      "He spent much of his life outside Paris, at Cirey, in Prussia, and finally at Ferney on the Swiss border. He returned to Paris in triumph in 1778 and died there on 30 May, aged 83."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "He was educated by Jesuits at the Collège Louis-le-Grand, where he learned Latin and the art of argument.",
+      "His father wanted him to be a lawyer; he wanted to write. He became known in Paris society for clever, cutting verses.",
+      {t:"The Bastille, 1717. Accused of writing verses mocking the Regent, he was jailed for 11 months. He used the time to write his first tragedy, Oedipe, which was a great success in 1718.", lab:"verified", why:"Prison and police records survive."}
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "The Rohan affair, 1726. After he traded insults with a nobleman, the Chevalier de Rohan, Rohan's servants beat him. When he sought a duel, he was put back in the Bastille and then allowed to go to England.",
+      "England, 1726 to 1728. He learned English, met writers and thinkers, attended Isaac Newton's funeral, and admired English freedom of religion and the press.",
+      {t:"Letters on the English, 1733 to 1734. His book praising English Quakers, Locke, Newton and religious tolerance was published in English and then French. In France it was condemned and burned, and a warrant was issued for his arrest.", lab:"verified", why:"The order of the Paris parlement of June 1734 survives."},
+      "Cirey, 1734 to 1749. He lived with the brilliant mathematician Émilie du Châtelet at her château in Champagne. Together they studied Newton's physics; she later translated Newton's Principia into French.",
+      "Prussia, 1750 to 1753. He accepted King Frederick the Great's invitation to Potsdam. They quarrelled, and Frederick's agents briefly held Voltaire at Frankfurt on his way out.",
+      "Lisbon and Candide, 1755 to 1759. The earthquake that destroyed Lisbon in 1755 led him to attack the idea that 'all is for the best'. Candide (1759), a short satirical novel, mocks that optimism.",
+      {t:"The Calas affair, 1762 to 1765. Jean Calas, a Protestant of Toulouse, was tortured and executed for supposedly murdering his son to stop him becoming Catholic. Voltaire campaigned for three years until the verdict was overturned and the family compensated.", lab:"verified", why:"Court decisions and Voltaire's Treatise on Tolerance (1763) survive."},
+      "Last return, 1778. After 28 years away he went back to Paris for the premiere of his last play, Irène, and was crowned with laurel at the theatre. He died weeks later. Refused church burial in Paris, he was buried secretly at an abbey; in 1791 the revolutionaries moved him to the Panthéon."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "Candide (1759), which ends with the advice that 'we must cultivate our garden'.",
+      "Letters on the English (1733), Treatise on Tolerance (1763) and the Philosophical Dictionary (1764).",
+      "Histories, including The Age of Louis XIV (1751) and a history of Peter the Great's Russia.",
+      "About 50 plays, once considered his greatest work, now rarely staged.",
+      "A vast correspondence with kings, empresses including Catherine the Great, scientists and friends."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Émilie du Châtelet (1706 to 1749), his partner and intellectual equal.",
+      "Frederick the Great of Prussia, his admirer and later adversary.",
+      "Catherine the Great of Russia, his correspondent for 15 years, who bought his library after his death.",
+      "Marie-Louise Denis, his niece, companion and housekeeper in his last decades.",
+      "Jean-Jacques Rousseau, whom he mocked and who came to hate him."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "France was an absolute monarchy with a powerful Catholic Church. Protestants had no legal rights after 1685.",
+      "The Enlightenment spread through salons, cafés, academies and the Encyclopédie, edited by Diderot, to which Voltaire contributed.",
+      "Censorship was strict, so many books, including his, were printed in Holland or Geneva and smuggled into France."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "He became a symbol of free thought, religious tolerance and freedom of speech.",
+      "The French Revolution claimed him as a forerunner. His heart is kept in the National Library of France.",
+      "'Voltairean' still means sceptical, witty and anticlerical."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"He said 'I disapprove of what you say, but I will defend to the death your right to say it.'", lab:"myth", t:"Those words were written by Evelyn Beatrice Hall in a 1906 biography to sum up his attitude."},
+      {c:"He was an atheist.", lab:"myth", t:"He was a deist, believing in a creator God but rejecting organised religion and miracles. He even built a church at Ferney, inscribed 'Deo erexit Voltaire'."},
+      {c:"He predicted the Bible would vanish within a century of his death.", lab:"myth", t:"A popular story, often with the claim that his house became a Bible society. There is no reliable source for either."},
+      {c:"He wrote Candide in three days.", lab:"tradition", t:"An old anecdote with no firm source. He probably worked on it over months in 1758."},
+      {c:"He was a champion of equality for all.", lab:"disputed", t:"He fought religious persecution, but he distrusted the common people, admired enlightened kings, and wrote antisemitic and racist passages."},
+      {c:"He drank 40 cups of coffee a day.", lab:"tradition", t:"A frequently repeated claim with no solid contemporary source, though he did love coffee."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Voltaire, Candide (1759), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/19942"},
+      {n:"Voltaire, Letters on England, edited by Henry Morley, Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/2445"},
+      {n:"Voltaire, A Philosophical Dictionary, Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/18569"},
+      {n:"S. G. Tallentyre (Evelyn Beatrice Hall), The Friends of Voltaire (1906), public domain"},
+      {n:"Further reading: Roger Pearson, Voltaire Almighty (2005)"}
+    ]}
+  ]
+},
+
+"handel": {
+  hero: "",
+  kw: ["Georg Friedrich Händel","Halle","Hamburg","Italy","Hanover","London","George I","Water Music","Music for the Royal Fireworks","Messiah","Hallelujah","Dublin","oratorio","opera","Rinaldo","Zadok the Priest","Foundling Hospital","Brook Street","blind","Westminster Abbey","stand up@myths"],
+  lede: "A German composer who made his name in Italy, settled in London, wrote Italian operas for the English until they went out of fashion, then turned to oratorios in English, and wrote Messiah in just over three weeks.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "George Frideric Handel (Georg Friedrich Händel) was born in Halle, then in Brandenburg-Prussia (now Saxony-Anhalt, Germany), on 23 February 1685, the same year as Johann Sebastian Bach.",
+      "After working in Hamburg and Italy, he became Kapellmeister to the Elector of Hanover and moved to London, where he stayed when the Elector became King George I. He became a British subject in 1727.",
+      "He wrote over 40 operas, about 25 oratorios including Messiah (1741), and the Water Music and Music for the Royal Fireworks. He died in London on 14 April 1759 and is buried in Westminster Abbey."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His father, a barber-surgeon in his sixties, wanted him to study law and opposed music.",
+      {t:"As a boy he is said to have practised secretly on a clavichord smuggled into the attic. On a visit to the Duke of Saxe-Weissenfels, his organ playing impressed the Duke, who persuaded his father to let him study music.", lab:"tradition", why:"From John Mainwaring's biography of 1760, the first book-length biography of a composer, based partly on Handel's own stories in old age."},
+      "He studied with Friedrich Wilhelm Zachow, organist of Halle's main church, and briefly enrolled at the university."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Hamburg, 1703 to 1706. He played violin and harpsichord in the opera orchestra. A quarrel with the composer Johann Mattheson ended in a sword duel in 1704; by Mattheson's own account, a coat button stopped his blade.",
+      "Italy, 1706 to 1710. In Florence, Rome, Naples and Venice he wrote operas, cantatas and oratorios. His opera Agrippina was a hit in Venice in 1709.",
+      "London, 1710 to 1711. On leave from Hanover, he presented Rinaldo, the first Italian opera written for London, with live birds released on stage.",
+      "A new king, 1714. His employer, the Elector of Hanover, became George I of Britain. Handel, who had overstayed his leave, was soon back in royal favour.",
+      {t:"Water Music, 1717. On 17 July 1717 the king took a barge trip on the Thames, and about 50 musicians played Handel's new suites from another boat. The king had them played three times.", lab:"verified", why:"Reported in a newspaper, the Daily Courant, and in a Prussian diplomat's dispatch."},
+      "Opera wars, 1719 to 1741. He ran companies staging Italian opera with star singers. Rival companies, the craze for The Beggar's Opera (1728) and huge costs ruined them. He lost large sums, though he was never actually bankrupt, and suffered what was probably a stroke in 1737.",
+      "Messiah, 1741 to 1742. With a text compiled from the Bible by Charles Jennens, he wrote Messiah in about 24 days, from 22 August to 14 September 1741. It premiered in Dublin on 13 April 1742 at a charity concert.",
+      "Last years. His English oratorios, such as Judas Maccabaeus, made him famous and wealthy. From 1750 he gave annual performances of Messiah for the Foundling Hospital. Blind in his last years after failed eye operations, he still played the organ in concerts."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "Messiah (1741), whose 'Hallelujah' chorus is among the most performed pieces of music in the world.",
+      "Oratorios: Israel in Egypt, Saul, Samson, Judas Maccabaeus, Solomon, Theodora and Jephtha.",
+      "Operas, including Rinaldo, Giulio Cesare and Alcina.",
+      "Zadok the Priest (1727), written for George II's coronation and sung at every British coronation since.",
+      "Water Music (1717) and Music for the Royal Fireworks (1749), whose rehearsal drew about 12,000 people and stopped traffic on London Bridge."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Charles Jennens, who compiled the words of Messiah.",
+      "George I and George II, his royal patrons.",
+      "Senesino and Francesca Cuzzoni, star singers of his operas; he is said to have threatened to drop Cuzzoni out of a window.",
+      "John Christopher Smith, his copyist and manager, and his son of the same name, who helped him when he went blind.",
+      "Johann Sebastian Bach, born the same year about 130 kilometres away. They never met."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "London was growing into the largest city in Europe, with a lively public concert life and a new middle-class audience.",
+      "The Hanoverian kings brought German connections to the British throne.",
+      "Public charity, such as the Foundling Hospital for abandoned children, was a new fashion that his concerts supported."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "Messiah has been performed every year since his death, often by huge choirs.",
+      "Haydn, after hearing Handel festivals in London, wrote The Creation. Beethoven called Handel the greatest composer who ever lived.",
+      "His house at 25 Brook Street, London, is now the museum Handel Hendrix House; Jimi Hendrix lived next door two centuries later."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"Audiences stand for the 'Hallelujah' chorus because George II stood up at the London premiere.", lab:"tradition", t:"The only source is a letter written 37 years later, and there is no evidence the king attended. The custom is real; its origin is uncertain."},
+      {c:"He wrote the Water Music to win back the king's favour.", lab:"myth", t:"The story comes from Mainwaring. Handel was already back in favour by 1714 to 1715."},
+      {c:"He wrote Messiah in a fever of inspiration, weeping.", lab:"tradition", t:"He wrote it fast, but borrowed some music from his earlier works. The weeping story was told much later."},
+      {c:"He and Bach were close.", lab:"myth", t:"They never met. Bach tried twice to visit him, but missed him each time."},
+      {c:"Messiah was a Christmas work.", lab:"myth", t:"It premiered in April 1742, just after Easter, and Handel performed it in Lent. Christmas performances became a later tradition."},
+      {c:"He was operated on by the same eye surgeon as Bach.", lab:"likely", t:"The travelling English eye surgeon John Taylor operated on Bach and, by his own account, on Handel too. Neither regained his sight. Handel was already going blind before any operation."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"John Mainwaring, Memoirs of the Life of the Late George Frederic Handel (1760), public domain"},
+      {n:"W. S. Rockstro, The Life of George Frederick Handel (1883), public domain"},
+      {n:"Romain Rolland, Handel, translated by A. Eaglefield Hull (1916), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/39671"},
+      {n:"Handel's autograph scores, British Library (free to view)"},
+      {n:"Handel Hendrix House, London (museum)", u:"https://handelhendrix.org/"},
+      {n:"Further reading: Donald Burrows, Handel (1994)"}
+    ]}
+  ]
+},
+
+"james-cook": {
+  hero: "",
+  kw: ["Captain Cook","Yorkshire","Whitby","Endeavour","Resolution","Transit of Venus","Tahiti","New Zealand","Botany Bay","Great Barrier Reef","Australia","Antarctic Circle","scurvy","sauerkraut","Hawaii","Kealakekua Bay","Northwest Passage","Joseph Banks","Tupaia","Harrison chronometer"],
+  lede: "A farm labourer's son who learned his seamanship on coal ships, then made three great voyages across the Pacific, mapped New Zealand and eastern Australia, crossed the Antarctic Circle, and was killed in Hawaii. For the peoples he met, his arrival marked the beginning of colonisation.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "James Cook was born on 27 October 1728 (7 November new style) in Marton, Yorkshire, England. His father was a Scottish farm labourer.",
+      "He learned navigation on North Sea coal ships, joined the Royal Navy in 1755, and made his name charting the St Lawrence River and Newfoundland.",
+      "He led three voyages to the Pacific between 1768 and 1779. He was killed at Kealakekua Bay, Hawaii, on 14 February 1779."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His father's employer paid for some schooling. At 16 he worked for a grocer in the fishing village of Staithes.",
+      "At 18 he was apprenticed to John Walker, a Quaker shipowner of Whitby, sailing collier ships carrying coal down the coast to London. He studied mathematics and navigation in his free time.",
+      "In 1755, when war with France was coming, he left a promising merchant career to join the navy as an able seaman."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Canada, 1758 to 1767. In the Seven Years' War he helped chart the St Lawrence for the attack on Quebec (1759). He then surveyed the coast of Newfoundland with such accuracy that his charts were used for over a century.",
+      {t:"First voyage, 1768 to 1771. Commanding HMS Endeavour, he took astronomers to Tahiti to observe the Transit of Venus in 1769. Secret orders then sent him to look for a southern continent. He charted both islands of New Zealand and the east coast of Australia, landing at Botany Bay in April 1770.", lab:"verified", why:"From his own journal and the Admiralty's orders, which survive."},
+      "The reef, June 1770. Endeavour struck the Great Barrier Reef and nearly sank. The crew spent seven weeks repairing it at the site of today's Cooktown, where they had extended contact with the Guugu Yimithirr people.",
+      "Second voyage, 1772 to 1775. In HMS Resolution he sailed farther south than anyone before, crossing the Antarctic Circle and proving that no great habitable southern continent existed. He tested a copy of John Harrison's marine chronometer, which let sailors find longitude.",
+      "Scurvy. On his voyages few men died of scurvy. He insisted on clean ships, fresh food and sauerkraut, though the real cure, vitamin C from citrus, was not understood.",
+      "Third voyage, 1776 to 1779. Searching for a Northwest Passage from the Pacific, he reached Hawaii in 1778, the first known European visit, and sailed along the coast of North America to the Bering Strait.",
+      {t:"Death, 1779. Back in Hawaii, after a ship's boat was stolen, Cook tried to take the chief Kalaniʻōpuʻu hostage. In the fight on the shore he was stabbed and killed, along with four marines and more than a dozen Hawaiians.", lab:"verified", why:"Many eyewitness accounts from the crew survive, though they differ on details."}
+    ]},
+    {k:"works", h:"What he left", ps:[
+      "Charts of New Zealand, eastern Australia, Newfoundland and much of the Pacific, of remarkable accuracy.",
+      "His journals, published in edited form after each voyage and widely read.",
+      "Scientific collections and records made by the naturalists Joseph Banks and Daniel Solander, and drawings by artists such as Sydney Parkinson and William Hodges.",
+      "Proof that sailors could stay healthy on very long voyages."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Elizabeth Batts (1742 to 1835), his wife. They had six children, all of whom died before her; he spent most of their marriage at sea.",
+      "Joseph Banks (1743 to 1820), the wealthy naturalist on the first voyage.",
+      "Tupaia, a Tahitian navigator and priest who joined Endeavour, drew a chart of over 70 Pacific islands from his own knowledge, and interpreted in New Zealand. He died in Batavia in 1770.",
+      "William Bligh, sailing master on the third voyage, later captain of the Bounty."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Britain and France competed for empire and knowledge after the Seven Years' War.",
+      "The Pacific was home to many peoples with their own great navigating traditions, including Polynesians who had settled islands across thousands of kilometres.",
+      "The American Revolution was being fought during his third voyage."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "His voyages opened the Pacific to European trade and settlement. Britain sent a convict fleet to Botany Bay in 1788 and founded a penal colony nearby at Sydney Cove.",
+      "For Aboriginal Australians, Māori and Pacific Islanders his arrival is remembered as the beginning of invasion, disease and loss of land, and his statues are now debated.",
+      "Endeavour was scuttled off Newport, Rhode Island, in 1778. Australian researchers say they have identified its wreck there, though not all experts agree."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"Cook discovered Australia.", lab:"myth", t:"Aboriginal people had lived there for at least 50,000 years, and Dutch sailors charted parts of its northern and western coasts from 1606. Cook charted the east coast."},
+      {c:"Hawaiians thought Cook was the god Lono.", lab:"disputed", t:"Historians fiercely debate this. The anthropologist Marshall Sahlins argued yes; Gananath Obeyesekere argued it was a European myth."},
+      {c:"Cook was eaten by Hawaiians.", lab:"myth", t:"His body was treated as that of a high chief: the flesh was removed and the bones kept. Some remains were returned to his crew."},
+      {c:"He sailed around the world three times.", lab:"myth", t:"He made three great voyages, but only the first two circled the globe. He died on the third, which his crew completed."},
+      {c:"He was a captain on his first voyage.", lab:"myth", t:"He was a lieutenant. He was promoted to commander in 1771 and captain in 1775."},
+      {c:"He was the first to cure scurvy.", lab:"myth", t:"James Lind had shown in 1747 that citrus helped. Cook's success came from many measures together."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"Captain Cook's Journal During His First Voyage Round the World, edited by W. J. L. Wharton (1893), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/8106"},
+      {n:"The Three Voyages of Captain Cook Round the World, Vol. I, edited by John Hawkesworth, Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/56196"},
+      {n:"National Library of Australia: Endeavour journal (digitised, free to view)"},
+      {n:"Royal Museums Greenwich: Cook voyages collections"},
+      {n:"Further reading: J. C. Beaglehole, The Life of Captain James Cook (1974)"},
+      {n:"Further reading: Anne Salmond, The Trial of the Cannibal Dog (2003)"}
+    ]}
+  ]
+},
+
+"jefferson": {
+  hero: "",
+  kw: ["Monticello","Virginia","Declaration of Independence","all men are created equal","Paris","Secretary of State","Hamilton","president","Louisiana Purchase","Lewis and Clark","University of Virginia","religious freedom","Sally Hemings","slavery","John Adams","Fourth of July","Notes on the State of Virginia","embargo"],
+  lede: "The Virginia planter who wrote 'all men are created equal' while enslaving more than 600 people across his lifetime. Author of the Declaration of Independence, third president, founder of a university, and a man of contradictions Americans still argue over.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "Thomas Jefferson was born on 13 April 1743 (2 April old style) at Shadwell, Virginia, a British colony, into a family of planters.",
+      "At 33 he drafted the Declaration of Independence. He later served as governor of Virginia, minister to France, the first Secretary of State, vice president, and the third President of the United States, from 1801 to 1809.",
+      "He founded the University of Virginia and died at his home, Monticello, on 4 July 1826, the 50th anniversary of the Declaration, a few hours before John Adams."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His father, Peter Jefferson, was a surveyor and planter who died when Thomas was 14, leaving him land and enslaved people.",
+      "He studied at the College of William and Mary and then law with George Wythe. He read widely in philosophy, science and classics.",
+      "In 1768 he began building Monticello on a mountaintop on his land, a project he worked on, rebuilt and changed for over 40 years."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "Revolution, 1774 to 1775. His pamphlet A Summary View of the Rights of British America made him known. He was sent to the Continental Congress.",
+      {t:"The Declaration, June to July 1776. A committee chose him to draft it. Congress cut about a quarter of his text, including a passage blaming the King for the slave trade. It was adopted on 4 July 1776.", lab:"verified", why:"His rough draft survives in the Library of Congress, with edits by Adams, Franklin and Congress."},
+      "Virginia, 1776 to 1781. He wrote the Virginia Statute for Religious Freedom (adopted 1786). As governor he fled Monticello just ahead of British cavalry in 1781, an episode critics used against him.",
+      "Loss, 1782. His wife Martha died after childbirth. Of their six children only two daughters lived to adulthood.",
+      "France, 1784 to 1789. As American minister in Paris, he saw the start of the French Revolution. His enslaved cook James Hemings trained in French cooking, and Sally Hemings, his late wife's enslaved half-sister, came to Paris.",
+      "Secretary of State, 1790 to 1793. He clashed with Alexander Hamilton over the power of the federal government, and the two sides became the first American political parties.",
+      "President, 1801 to 1809. In 1803 he bought the vast Louisiana Territory from Napoleon, doubling the size of the country, and sent Lewis and Clark to explore it. His trade embargo of 1807 against Britain and France was a failure.",
+      "Last years. He founded the University of Virginia, which opened in 1825, and renewed his friendship with John Adams through letters. He died deeply in debt; most of the people he enslaved were sold after his death."
+    ]},
+    {k:"works", h:"What he wrote and built", ps:[
+      "The Declaration of Independence (1776), whose second paragraph begins 'We hold these truths to be self-evident, that all men are created equal'.",
+      "The Virginia Statute for Religious Freedom, a model for the First Amendment.",
+      "Notes on the State of Virginia (1785), his only book, which includes his argument against slavery and his racist speculations about Black people.",
+      "Monticello and the University of Virginia, which he designed.",
+      "Over 18,000 letters. His library became the core of the Library of Congress after the British burned the first one in 1814."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Martha Wayles Skelton Jefferson (1748 to 1782), his wife.",
+      "Sally Hemings (about 1773 to 1835), an enslaved woman at Monticello. Most historians now accept that he fathered her six children, four of whom survived to adulthood and gained their freedom.",
+      "John Adams, ally, rival and finally friend.",
+      "James Madison, his closest political partner and successor as president.",
+      "Alexander Hamilton, his great opponent."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "Virginia's wealth rested on tobacco grown by enslaved Africans and their descendants. About 40 percent of Virginians were enslaved.",
+      "The Enlightenment ideas of natural rights that he expressed came from writers such as John Locke.",
+      "His presidency coincided with the Napoleonic Wars in Europe and the Haitian Revolution, which he regarded with fear."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "The words of the Declaration have been used by many, including abolitionists, suffragists and Martin Luther King Jr., to demand that America live up to them.",
+      "His face is carved on Mount Rushmore and appears on the US nickel.",
+      "Monticello now tells the stories of the enslaved families who lived there, including the Hemingses."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"Jefferson freed the people he enslaved.", lab:"myth", t:"He freed only seven people, all members of the Hemings family, two in his lifetime and five in his will. Around 130 were sold after his death to pay his debts."},
+      {c:"The Sally Hemings story is just a rumour.", lab:"myth", t:"A DNA study in 1998, together with historical evidence, convinced most historians, including the Thomas Jefferson Foundation, that he was the father of her children."},
+      {c:"He wrote the Declaration alone.", lab:"myth", t:"He wrote the first draft himself, but Adams, Franklin and Congress made many changes."},
+      {c:"He and Adams both died on 4 July 1826.", lab:"verified", t:"Yes. Adams's last words reportedly included 'Thomas Jefferson survives', not knowing Jefferson had died hours earlier."},
+      {c:"He made a Bible of his own by cutting the miracles out.", lab:"verified", t:"He cut and pasted passages of the Gospels to make The Life and Morals of Jesus of Nazareth, now called the Jefferson Bible."},
+      {c:"He wrote that 'the tree of liberty must be refreshed from time to time with the blood of patriots and tyrants'.", lab:"verified", t:"The words are his, from a private letter of 13 November 1787 to William Stephens Smith about Shays's Rebellion. They were not a public statement or a speech."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"The Declaration of Independence (1776), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/1"},
+      {n:"The Writings of Thomas Jefferson, Vol. 1 (Autobiography), edited by H. A. Washington (1853), Project Gutenberg (public domain)", u:"https://www.gutenberg.org/ebooks/45847"},
+      {n:"Thomas Jefferson, Notes on the State of Virginia (1785), public domain"},
+      {n:"Founders Online, National Archives: the Papers of Thomas Jefferson (free to view)", u:"https://founders.archives.gov/"},
+      {n:"Thomas Jefferson Foundation, Monticello", u:"https://www.monticello.org/"},
+      {n:"Further reading: Annette Gordon-Reed, The Hemingses of Monticello (2008)"}
+    ]}
+  ]
 }
 });
