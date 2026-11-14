@@ -19,8 +19,15 @@ targets:
         excludes:
           - "Web/art"
           - "Web/art/**"
+          - "Web/img"
+          - "Web/img/**"
       # The Gallery's pictures and records, kept as a folder so the page finds them at art/...
       - path: ios/HistoryMuseum/Web/art
+        type: folder
+        buildPhase: resources
+        optional: true
+      # The pictures of the museum's stories, kept as files so the page stays small and quick
+      - path: ios/HistoryMuseum/Web/img
         type: folder
         buildPhase: resources
         optional: true
