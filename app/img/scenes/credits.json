@@ -19,9 +19,15 @@
   "credit": "parismuseescollections.paris.fr",
   "lic": "Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:B%C3%A9raud_-_Le_th%C3%A9%C3%A2tre_du_Vaudeville,_1889.jpg",
-  "w": 1600,
-  "h": 1146,
-  "depth": true
+  "w": 1451,
+  "h": 998,
+  "depth": true,
+  "crop": [
+   0.035,
+   0.05,
+   0.965,
+   0.955
+  ]
  },
  "paris-1889-3": {
   "file": "Central Dome and the Fountain Coutan seen through the base of the Eiffel Tower, with crowd on the Champ de Mars, Paris Exposition, 1889 LCCN92519768.jpg",
@@ -31,9 +37,15 @@
   "credit": "Library of Congress Catalog: https://lccn.loc.gov/92519768 Image download: https://cdn.loc.gov/service/pnp/cph/3c00000/3c06000/3c06500/3c06599v.jpg Original url",
   "lic": "Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:Central_Dome_and_the_Fountain_Coutan_seen_through_the_base_of_the_Eiffel_Tower,_with_crowd_on_the_Champ_de_Mars,_Paris_Exposition,_1889_LCCN92519768.jpg",
-  "w": 1600,
-  "h": 1274,
-  "depth": true
+  "w": 1376,
+  "h": 1141,
+  "depth": true,
+  "crop": [
+   0.06,
+   0.045,
+   0.92,
+   0.94
+  ]
  },
  "paris-1889-4": {
   "file": "Alexandre-Georges Roux - Fête de nuit à l'Exposition universelle de 1889, sous la tour Eiffel - P1994 - Musée Carnavalet.jpg",
@@ -43,9 +55,15 @@
   "credit": "Paris Musées",
   "lic": "Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:Alexandre-Georges_Roux_-_F%C3%AAte_de_nuit_%C3%A0_l%27Exposition_universelle_de_1889,_sous_la_tour_Eiffel_-_P1994_-_Mus%C3%A9e_Carnavalet.jpg",
-  "w": 1600,
-  "h": 1093,
-  "depth": true
+  "w": 1568,
+  "h": 1071,
+  "depth": true,
+  "crop": [
+   0.01,
+   0.01,
+   0.99,
+   0.99
+  ]
  },
  "florence-1505-1": {
   "file": "Francesco Rosselli (attribution). Pianta della Catena, 1470.jpg",
@@ -67,8 +85,14 @@
   "credit": "Museo di San Marco, Florence",
   "lic": "Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:Filippo_Dolciati_(1443_-_1519)_Execution_of_Girolamo_Savonarola._1498,_Florence,_Museo_di_San_Marco.jpg",
-  "w": 1600,
-  "h": 1016,
-  "depth": false
+  "w": 872,
+  "h": 976,
+  "depth": false,
+  "crop": [
+   0.44,
+   0.02,
+   0.985,
+   0.98
+  ]
  }
 }

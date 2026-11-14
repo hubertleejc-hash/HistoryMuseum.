@@ -2,46 +2,8 @@
  "mode": "fetch",
  "picks": [
   {
-   "id": "paris-1889-1",
-   "file": "Léon & Lévy, Boulevard et porte Saint-Denis, c. 1889 02.jpg",
-   "depth": true,
-   "trim": true
-  },
-  {
-   "id": "paris-1889-2",
-   "file": "Béraud - Le théâtre du Vaudeville, 1889.jpg",
-   "depth": true
-  },
-  {
-   "id": "paris-1889-3",
-   "file": "Central Dome and the Fountain Coutan seen through the base of the Eiffel Tower, with crowd on the Champ de Mars, Paris Exposition, 1889 LCCN92519768.jpg",
-   "depth": true,
-   "trim": true
-  },
-  {
-   "id": "paris-1889-4",
-   "file": "Alexandre-Georges Roux - Fête de nuit à l'Exposition universelle de 1889, sous la tour Eiffel - P1994 - Musée Carnavalet.jpg",
-   "depth": true
-  },
-  {
-   "id": "florence-1505-1",
-   "file": "Francesco Rosselli (attribution). Pianta della Catena, 1470.jpg"
-  },
-  {
-   "id": "florence-1505-2",
-   "file": "Filippo Dolciati (1443 - 1519) Execution of Girolamo Savonarola. 1498, Florence, Museo di San Marco.jpg"
+   "id": "florence-1505-3",
+   "file": "Domenico Ghirlandaio, Cappella Sassetti, Resurrezione del fanciullo, dettaglio 2, 1485 circa.jpg"
   }
- ],
- "groups": {
-  "florence-1505b": {
-   "limit": 30,
-   "search": [
-    "Ghirlandaio Conferma della regola francescana",
-    "Ghirlandaio Sassetti Chapel fresco",
-    "Ghirlandaio Resurrection of the boy Santa Trinita",
-    "Ghirlandaio Tornabuoni Chapel Visitation",
-    "Florence Ponte Vecchio painting 15th century"
-   ]
-  }
- }
+ ]
 }
