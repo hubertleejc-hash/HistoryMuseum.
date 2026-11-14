@@ -1,0 +1,48 @@
+{
+  "hero": "",
+  "portrait": "pt-ada-lovelace",
+  "kw": ["Analytical Engine", "Babbage", "Bernoulli numbers", "Note G", "Menabrea", "Byron", "Mary Somerville", "De Morgan", "computer", "programmer", "first programmer@myths", "Ada language@legacy", "Turing@legacy"],
+  "lede": "Lord Byron's only legitimate child, raised on mathematics, who looked at Charles Babbage's unbuilt Analytical Engine and saw that a machine working on numbers might one day work on anything that symbols can stand for.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Augusta Ada Byron was born in London on 10 December 1815, the daughter of the poet Lord Byron and Anne Isabella Milbanke. Her parents separated a few weeks later, and she never knew her father.",
+      "At seventeen she met the inventor Charles Babbage and was fascinated by his calculating machines. In 1843 she published a translation of an Italian engineer's paper on Babbage's Analytical Engine, with her own notes, which were about three times longer than the paper itself.",
+      "Those notes include a step-by-step method for the engine to calculate Bernoulli numbers, and the idea that such a machine could handle music or any other symbols, not only numbers. She died in 1852, aged 36."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "Byron left England in April 1816 and died in Greece in 1824, when Ada was eight. Her mother, who had studied mathematics herself, had her taught science and mathematics, partly hoping to steer her away from her father's moods.",
+      "She was often ill as a child, and once spent long months in bed. She also dreamed of building a flying machine and studied birds' wings to work out how.",
+      {"t": "The scientist and writer Mary Somerville became her friend and mentor, and in the 1840s the mathematician Augustus De Morgan taught her by letter.", "lab": "verified", "why": "Their letters survive in the Lovelace-Byron papers."}
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "June 1833: at a party in London she met Charles Babbage and saw a working part of his Difference Engine, a machine for calculating tables. They wrote to each other for the rest of her life.",
+      "1835: she married William King. When he was made Earl of Lovelace in 1838 she became the Countess of Lovelace. They had three children.",
+      "1842 to 1843: Luigi Menabrea, a young Italian engineer, wrote up Babbage's lectures in Turin about the Analytical Engine. Ada translated the French text into English and added notes A to G. They appeared in 1843, signed only A.A.L."
+    ]},
+    {"k": "works", "h": "The Notes", "ps": [
+      "The Analytical Engine was designed to be a general-purpose machine: it had a store for numbers, a 'mill' to work on them, and instructions fed in on punched cards, borrowed from the Jacquard loom.",
+      {"t": "Note G sets out, in a table, every operation the engine would perform to calculate the Bernoulli numbers. It is often called the first computer program to be published.", "lab": "verified", "why": "The table is printed in the 1843 Scientific Memoirs."},
+      "She wrote that the engine 'weaves algebraical patterns just as the Jacquard loom weaves flowers and leaves', and that it might compose elaborate pieces of music if the rules of harmony could be expressed in its terms.",
+      "She also wrote that the engine 'has no pretensions whatever to originate anything': it can do only what we know how to order it to do."
+    ]},
+    {"k": "world", "h": "The world around her", "ps": [
+      "She lived in the age of railways, the electric telegraph and early photography. Babbage hosted famous Saturday evening parties where scientists, writers and politicians met, and Ada met Michael Faraday and Charles Dickens in that world.",
+      "Women could not attend university in Britain then. Almost everything she learned came from tutors, books and letters."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "The Analytical Engine was never built, and her notes were largely forgotten until computers were built in the 1940s. In 1950 Alan Turing answered her line about the engine never originating anything, calling it 'Lady Lovelace's Objection'.",
+      "In 1980 the United States Department of Defense named a programming language Ada after her. Ada Lovelace Day, on the second Tuesday of October, celebrates women in science and technology.",
+      "She died of cancer on 27 November 1852 and, at her own wish, was buried beside her father in Hucknall, Nottinghamshire."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Ada Lovelace was the first computer programmer.", "lab": "disputed", "t": "Babbage had written programs for his engine in his own notes from 1837, but they were never published. Her Note G was the first program published, and the most complete of its time, and her ideas about what the machine could do went further than his. Historians still argue over how much of the mathematics was hers."},
+      {"c": "She built a computer with Babbage.", "lab": "myth", "t": "No Analytical Engine was ever finished. Only parts were made, and her work was on paper."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "L. F. Menabrea, Sketch of the Analytical Engine, with notes by the translator (A.A.L.), Scientific Memoirs vol. 3 (1843), public domain", "u": "https://www.fourmilab.ch/babbage/sketch.html"},
+      {"n": "Ada Lovelace, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Ada-Lovelace"},
+      {"n": "Further reading: Betty Alexandra Toole, Ada, the Enchantress of Numbers (1992)"},
+      {"n": "Alan Turing, Computing Machinery and Intelligence, Mind (1950)"}
+    ]}
+  ]
+}

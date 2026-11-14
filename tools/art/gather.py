@@ -22,6 +22,8 @@ Usage: python3 tools/art/gather.py [--offline N] [--online N]
   --offline N  add up to N new works to the In-the-app wing (default 300)
   --online N   add up to N new Cleveland works to the Online wing (default 6000)
   --met N      add up to N new Met works to the Online wing (default 2000)
+  --feed       send the new Online-wing works to online/art/ instead (the online feed the app fetches
+               without a new install; see tools/online/build_feed.py). Nothing is added to app/art.
 """
 import argparse, concurrent.futures as cf, hashlib, html, io, json, os, random, re, sys, time, urllib.parse, urllib.request
 from pathlib import Path
@@ -264,13 +266,11 @@ def commons_title(fname):
     return t or "Untitled"
 
 def tidy_commons(t):
-    t = re.sub(r"\s*label QS:.*$", "", t)
-    return re.sub(r"^(Anonymous|Unknown)\s*-\s*", "", t).strip() or "Untitled"
-
-def wm_thumb(url, w):
-    """A thumbnail at one of Wikimedia's standard widths (250, 330, 500, 960, 1280): those are cached and not rate limited."""
-    m = re.match(r"(https://upload\.wikimedia\.org/wikipedia/commons)/(\w/\w\w)/([^/?]+)", url)
-    return f"{m.group(1)}/thumb/{m.group(2)}/{m.group(3)}/{w}px-{m.group(3)}" if m else url
+    t = re.split(r"\s+(?:label|title) QS:", t)[0]
+    t = re.sub(r"^(?:English|German|French|Italian|Spanish|Dutch|Latin):\s*", "", t)
+    t = re.split(r"\s+(?:English|German|French|Italian|Spanish|Dutch):\s", t)[0]
+    t = re.sub(r"\s*\((?:cropped|retouched|restored|detail)\)|,?\s*from C2RMF.*$|,?\s*\bby [A-Z][^,]*$", "", t)
+    return re.sub(r"^(Anonymous|Unknown)\s*-\s*", "", t).strip(" ,.-") or "Untitled"
 
 def commons_year(s):
     m = re.search(r"\b(1[0-9]{3}|[1-9][0-9]{2})\b", s or "")
@@ -293,15 +293,16 @@ def from_commons(arg):
     cats, title = v("Categories", 3000), v("ObjectName", 200)
     if len(title) < 4 or title.lower() in GENERIC: title = commons_title(pg["title"])
     title = tidy_commons(title)
-    date = v("DateTimeOriginal", 120); y = commons_year(date)
+    date = re.split(r"\s+date QS:", v("DateTimeOriginal", 300))[0][:120]; y = commons_year(date)
     if y is None: return None, "no date or title"
     artist = re.sub(r"^(unknown|anonymous)\b.*", "", v("Artist", 120), flags=re.I)
+    if re.fullmatch(r"\S*\d\S*", artist): artist = ""  # a Commons user name (the photographer), not the artist
     desc = v("ImageDescription", 1400)
     blob = " ".join([title, cat, cats])
     why = sensitive([title, desc, cats, cat], bool(ISLAMIC_HINT.search(blob)))
     if why: return None, why
     rec = {"id": f"{src}-{pg['pageid']}", "src": src, "t": title, "a": artist, "d": date, "y": y,
-           "r": region_from("", blob), "k": kind_from(cat + " " + title), "c": clean(cat, 160), "m": "",
+           "r": region_from("", title + " " + cat), "k": kind_from(cat + " " + title), "c": "", "m": "",
            "x": desc if len(desc) > 60 and desc.lower() != title.lower() else "", "fy": "",
            "cr": f"{museum}. Photo via Wikimedia Commons ({lic_name or 'public domain'}).",
            "u": ii.get("descriptionurl", ""), "w": ii.get("width", 0), "h": ii.get("height", 0),
@@ -402,11 +403,16 @@ def main():
     ap.add_argument("--minutes", type=int, default=290, help="stop fetching new pictures after this long, so the run can still save what it found")
     ap.add_argument("--commons", type=int, default=0, help="new Louvre and British Museum works from Wikimedia Commons, per museum")
     ap.add_argument("--recheck-only", action="store_true", help="only re-screen the works already gathered")
+    ap.add_argument("--feed", action="store_true", help="add the new Online-wing works to online/art/ (fetched by the app), not app/art/")
     ap.add_argument("--seed", type=int, default=int(time.time()) // 86400)
     a = ap.parse_args()
     global DEADLINE
     DEADLINE = time.time() + a.minutes * 60
     random.seed(a.seed)
+    global ART
+    app_cat = json.loads((ART / "catalog.json").read_text()) if (ART / "catalog.json").exists() else []
+    if a.feed:
+        ART, a.offline = ROOT / "online" / "art", 0
     ART.mkdir(parents=True, exist_ok=True)
     cat_path = ART / "catalog.json"
     cat = json.loads(cat_path.read_text()) if cat_path.exists() else []
@@ -417,8 +423,9 @@ def main():
     if dropped: print(f"Removed {len(dropped)} works that today's screens hold back")
     if a.recheck_only:
         cat_path.write_text("[\n" + ",\n".join(json.dumps(r, ensure_ascii=False, separators=(",", ":")) for r in cat) + "\n]\n"); return
-    have = {r["id"] for r in cat}
-    keys = {norm_key(r) for r in cat}
+    both = cat + (app_cat if a.feed else [])
+    have = {r["id"] for r in both}
+    keys = {norm_key(r) for r in both}
     rejected = []
 
     def take(raw_list, conv):
