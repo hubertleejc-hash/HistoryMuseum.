@@ -221,6 +221,81 @@ def from_met(r):
     if figural_islamic(rec) or islamic_risky(rec): return None, "Islamic-world figural work, needs hand approval"
     return rec, None
 
+# ---------- the Louvre and the British Museum, through Wikimedia Commons ----------
+# Their own sites do not license images for reuse in an app, but Wikimedia Commons holds photographs of
+# their public-domain works. Only files Commons marks public domain or CC0 are kept, with a credit line.
+COMMONS_ROOTS = {
+    "louvre": ("The Louvre", ["Paintings in the Louvre Museum", "Drawings in the Louvre Museum", "Sculptures in the Louvre Museum",
+                              "Egyptian antiquities in the Louvre", "Greek antiquities in the Louvre"]),
+    "bm": ("The British Museum", ["Prints in the British Museum", "Drawings in the British Museum", "Paintings in the British Museum",
+                                  "Egyptian antiquities in the British Museum", "Asian art in the British Museum"]),
+}
+CAPI = "https://commons.wikimedia.org/w/api.php?"
+
+def capi(params):
+    time.sleep(0.4)  # Wikimedia asks bots to go slowly
+    for i in range(6):
+        d = get(CAPI + urllib.parse.urlencode({**params, "format": "json"}), tries=1)
+        if d is not None: return d
+        time.sleep(15 * (i + 1))
+    return None
+
+def commons_files(root, want, max_cats=300):
+    """Walk a Commons category tree breadth first and yield (page, categories text) for each image file."""
+    seen, queue, n = {root}, [root], 0
+    while queue and n < want and len(seen) <= max_cats:
+        cat = queue.pop(0)
+        cont = {}
+        while n < want:
+            d = capi({"action": "query", "generator": "categorymembers", "gcmtitle": "Category:" + cat, "gcmtype": "file|subcat",
+                      "gcmlimit": 50, "prop": "imageinfo", "iiprop": "url|size|extmetadata", "iiurlwidth": 1024,
+                      "iiextmetadatalanguage": "en", **cont})
+            if not d: break
+            for pg in (d.get("query", {}).get("pages") or {}).values():
+                if pg.get("ns") == 14:
+                    sub = pg["title"].split(":", 1)[1]
+                    if sub not in seen: seen.add(sub); queue.append(sub)
+                elif pg.get("imageinfo"):
+                    n += 1; yield pg, cat
+            if "continue" not in d: break
+            cont = {k: v for k, v in d["continue"].items() if k != "continue"}
+
+def commons_year(s):
+    m = re.search(r"\b(1[0-9]{3}|[1-9][0-9]{2})\b", s or "")
+    if m: return int(m.group(1))
+    m = re.search(r"\b(\d{1,2})(?:st|nd|rd|th)[ -]century( BC| BCE)?", s or "", re.I)
+    if m:
+        y = int(m.group(1)) * 100 - 50
+        return -y if m.group(2) else y
+    return None
+
+def from_commons(arg):
+    (pg, cat), src = arg
+    museum = COMMONS_ROOTS[src][0]
+    ii = pg["imageinfo"][0]; md = ii.get("extmetadata", {})
+    v = lambda k, cap=400: clean((md.get(k) or {}).get("value"), cap)
+    lic = (md.get("License", {}).get("value") or "").lower(); lic_name = v("LicenseShortName", 80)
+    if not (lic.startswith("pd") or lic.startswith("cc0") or lic_name.lower().startswith("public domain")): return None, "not public domain"
+    if not ii.get("thumburl") or min(ii.get("width", 0), ii.get("height", 0)) < 500: return None, "small"
+    if not re.search(r"\.(jpe?g|png|tiff?)$", pg["title"], re.I): return None, "not a picture"
+    cats, title = v("Categories", 3000), v("ObjectName", 200) or re.sub(r"^File:|\.\w+$", "", pg["title"]).replace("_", " ")
+    date = v("DateTimeOriginal", 120); y = commons_year(date)
+    if y is None: return None, "no date or title"
+    artist = re.sub(r"^(unknown|anonymous)\b.*", "", v("Artist", 120), flags=re.I)
+    desc = v("ImageDescription", 1400)
+    blob = " ".join([title, cat, cats])
+    why = sensitive([title, desc, cats, cat], bool(ISLAMIC_HINT.search(blob)))
+    if why: return None, why
+    rec = {"id": f"{src}-{pg['pageid']}", "src": src, "t": title, "a": artist, "d": date, "y": y,
+           "r": region_from("", blob), "k": kind_from(cat + " " + title), "c": clean(cat, 160), "m": "",
+           "x": desc if len(desc) > 60 and desc.lower() != title.lower() else "", "fy": "",
+           "cr": f"{museum}. Photograph via Wikimedia Commons ({lic_name or 'public domain'}).",
+           "u": ii.get("descriptionurl", ""), "w": ii.get("width", 0), "h": ii.get("height", 0),
+           "img": ii["thumburl"], "th": ii["thumburl"].replace("/1024px-", "/320px-"), "hi": 0, "on": "", "dept": museum}
+    if re.search(r"egypt|greek|roman|etrus|assyr|mesopotam", cat, re.I): rec["r"] = "ancient"
+    if figural_islamic(rec) or islamic_risky(rec): return None, "Islamic-world figural work, needs hand approval"
+    return rec, None
+
 # ---------- pictures ----------
 def save_pictures(rec):
     """Download the web image once; write a 1024 px full picture and a 320 px thumbnail."""
@@ -300,6 +375,7 @@ def main():
     ap.add_argument("--online", type=int, default=6000)
     ap.add_argument("--met", type=int, default=2000)
     ap.add_argument("--met-per-dept", type=int, default=400)
+    ap.add_argument("--commons", type=int, default=0, help="new Louvre and British Museum works from Wikimedia Commons, per museum")
     ap.add_argument("--recheck-only", action="store_true", help="only re-screen the works already gathered")
     ap.add_argument("--seed", type=int, default=int(time.time()) // 86400)
     a = ap.parse_args()
@@ -323,7 +399,7 @@ def main():
         for raw in raw_list:
             rec, why = conv(raw)
             if not rec:
-                if why and ("prophet rule" in why or "mentioning" in why or why == "unfit"): rejected.append(f"{why}: {raw.get('id') or raw.get('objectID')} {raw.get('title')}")
+                if why and ("prophet rule" in why or "mentioning" in why or why == "unfit"): rejected.append(f"{why}: {raw.get('id') or raw.get('objectID')} {raw.get('title')}" if isinstance(raw, dict) else f"{why}: {raw[0][0].get('title')}")
                 continue
             if rec["id"] in have or rec["id"] in DENY: continue
             k = norm_key(rec)
@@ -361,6 +437,14 @@ def main():
             raws = [r for r in ex.map(met_obj, ids) if r]
         met = balanced(take(raws, from_met), room, per_artist=25)
         print(f"  {len(met)} new Met works", flush=True)
+    for src in (COMMONS_ROOTS if a.commons > 0 else []):
+        print(COMMONS_ROOTS[src][0] + " (Wikimedia Commons)...", flush=True)
+        got = []
+        for root in COMMONS_ROOTS[src][1]:
+            got += take([(x, src) for x in commons_files(root, a.commons * 2 // len(COMMONS_ROOTS[src][1]))], from_commons)
+            print(f"  {root}: {len(got)} usable so far", flush=True)
+        got = balanced(got, a.commons, per_artist=25)
+        print(f"  {len(got)} new works", flush=True); met += got
     print(f"Downloading {len(online) + len(met)} small tiles for the Online wing...", flush=True)
     web = []
     with cf.ThreadPoolExecutor(12) as ex:
