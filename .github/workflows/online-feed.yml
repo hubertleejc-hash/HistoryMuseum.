@@ -5,10 +5,10 @@ name: Online feed
 # checks the rules; on main it also commits feed.json if it is out of date.
 on:
   pull_request:
-    paths: ["online/**", "tools/online/**", "tools/art/**", "app/data.js", "app/chapters.js"]
+    paths: ["online/**", "tools/online/**", "tools/art/**", "app/data.js", "app/chapters.js", "app/img/guide/**"]
   push:
     branches: [main]
-    paths: ["online/stories/**", "online/art/catalog.json", "tools/online/**", "tools/art/overrides.json"]
+    paths: ["online/stories/**", "online/places/**", "online/art/catalog.json", "tools/online/**", "tools/art/overrides.json"]
   workflow_dispatch:
 
 permissions:

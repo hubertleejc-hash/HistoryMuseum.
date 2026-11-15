@@ -1,0 +1,87 @@
+{
+ "id": "amsterdam",
+ "n": "Amsterdam",
+ "kind": "city",
+ "where": "Netherlands",
+ "lat": 52.3676,
+ "lon": 4.9041,
+ "r": 9000,
+ "blurb": "The busiest port of the 1600s, rich from trade, and unusually free. Painters sold to merchants, and philosophers came to write in peace.",
+ "facts": [
+  {
+   "h": "The Night Watch is a daytime scene",
+   "when": "1642",
+   "lab": "verified",
+   "people": [
+    "rembrandt"
+   ],
+   "t": "Rembrandt painted a company of the city's civic guard setting off. Layers of darkened varnish later made people call it The Night Watch. In 1715 it was trimmed on all sides to fit a wall in the town hall. It hangs in the Rijksmuseum, where it is being studied in public behind glass.",
+   "src": [
+    {
+     "n": "Rijksmuseum: The Night Watch",
+     "u": "https://www.rijksmuseum.nl/en/collection/SK-C-5"
+    },
+    {
+     "n": "Wikipedia: The Night Watch",
+     "u": "https://en.wikipedia.org/wiki/The_Night_Watch"
+    }
+   ]
+  },
+  {
+   "h": "Rembrandt's house, and how he lost it",
+   "when": "1639 to 1658",
+   "lab": "verified",
+   "people": [
+    "rembrandt"
+   ],
+   "t": "At the height of his fame Rembrandt bought a grand house on the Jodenbreestraat, which he could not really afford. He went bankrupt in 1656, and the house and his collection were sold. The inventory of the sale helped restore it, and it is now the Rembrandt House Museum.",
+   "src": [
+    {
+     "n": "Rembrandt House Museum",
+     "u": "https://www.rembrandthuis.nl/en/"
+    },
+    {
+     "n": "Wikipedia: Rembrandt House Museum",
+     "u": "https://en.wikipedia.org/wiki/Rembrandt_House_Museum"
+    }
+   ]
+  },
+  {
+   "h": "Descartes chose the Dutch Republic",
+   "when": "1628 to 1649",
+   "lab": "verified",
+   "people": [
+    "descartes"
+   ],
+   "t": "The French philosopher lived in the Netherlands for about twenty years, moving house often, because he wanted quiet and freedom to write. He lodged in Amsterdam at the Westermarkt, and wrote that in this city full of merchants nobody bothered him.",
+   "src": [
+    {
+     "n": "Stanford Encyclopedia of Philosophy: Descartes",
+     "u": "https://plato.stanford.edu/entries/descartes/"
+    },
+    {
+     "n": "Wikipedia: René Descartes",
+     "u": "https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes"
+    }
+   ]
+  },
+  {
+   "h": "Why the Van Gogh Museum is here",
+   "lab": "verified",
+   "people": [
+    "van-gogh"
+   ],
+   "t": "Most of Vincent's paintings and letters stayed with his family. Theo's widow, Jo van Gogh-Bonger, spent her life showing his work and published his letters. Their son gave the collection to a foundation, and the museum opened in 1973. It holds the largest Van Gogh collection in the world.",
+   "src": [
+    {
+     "n": "Van Gogh Museum: history",
+     "u": "https://www.vangoghmuseum.nl/en/about/organisation/history-of-the-van-gogh-museum"
+    },
+    {
+     "n": "Wikipedia: Van Gogh Museum",
+     "u": "https://en.wikipedia.org/wiki/Van_Gogh_Museum"
+    }
+   ]
+  }
+ ]
+}

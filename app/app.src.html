@@ -607,6 +607,56 @@ button:active, .chip:active, .btn:active, .tabbar a:active, .seg a:active, .lib-
 .w-scale{display:flex; justify-content:space-between; margin-top:-8px; font:500 11px/1 var(--ui); color:var(--ink-3); font-variant-numeric:tabular-nums}
 .w-stops{display:flex; gap:8px; overflow-x:auto; scrollbar-width:none; padding-top:6px}
 .w-note{margin:2px 0 0; font-size:11.5px; line-height:1.45; color:var(--ink-3)}
+/* Near me: museum guides and facts about places */
+.near-chip{text-decoration:none; color:var(--accent)}
+.near-chip svg{width:15px; height:15px}
+.near-chip.on{background:var(--accent); color:var(--accent-ink); border-color:var(--accent)}
+.near-row:active, .guide-card:active{transform:scale(.99)}
+.near-ico{flex:none; width:36px; height:36px; border-radius:50%; display:grid; place-items:center; background:var(--accent-soft); color:var(--accent)}
+.near-ico.sm{width:30px; height:30px}
+.near-ico.sm svg{width:16px; height:16px}
+.near-txt{display:flex; flex-direction:column; gap:2px; min-width:0; flex:1}
+.near-txt b{font-weight:600; font-size:15px}
+.near-txt small{font-size:12.5px; color:var(--ink-3); overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.near-chev{color:var(--ink-3); font-size:22px; line-height:1}
+.near{display:flex; flex-direction:column; gap:22px}
+.near-loc{gap:10px}
+.near-loc .btn{display:inline-flex; align-items:center; gap:8px; min-height:40px; padding:8px 16px}
+.near-loc .btn svg{width:18px; height:18px}
+.near-at{font-size:26px}
+.near-busy{color:var(--ink-2)}
+.near-list{display:flex; flex-direction:column; border:1px solid var(--rule); border-radius:14px; background:var(--surface); overflow:hidden; margin-top:10px}
+.near-row{display:flex; align-items:center; gap:12px; padding:11px 14px; color:var(--ink); text-decoration:none; min-height:56px}
+.near-row + .near-row{border-top:1px solid var(--rule)}
+.near-tag{flex:none; font:600 10.5px/1 var(--ui); letter-spacing:.06em; text-transform:uppercase; padding:5px 7px; border-radius:6px; background:var(--accent); color:var(--accent-ink)}
+.near-tag.soft{background:transparent; color:var(--ink-3); border:1px solid var(--rule)}
+.near-back{font-size:14px; color:var(--accent); text-decoration:none; align-self:flex-start; padding:6px 0}
+.pl-h{margin:6px 0 8px}
+.pl-blurb{color:var(--ink-2); margin:0; max-width:62ch}
+.guide-card{display:flex; flex-direction:column; gap:8px; padding:18px; border-radius:16px; text-decoration:none; color:var(--ink); background:linear-gradient(160deg, var(--accent-soft), transparent 70%), var(--surface); border:1px solid var(--rule)}
+.guide-card h2{font-size:24px; margin:0}
+.guide-card p{margin:0; color:var(--ink-2); font-size:14px}
+.guide-card .btn{margin-top:6px}
+.guide-thumbs{display:flex; gap:6px; margin-top:4px}
+.guide-thumbs img{width:25%; max-width:96px; aspect-ratio:1; object-fit:cover; border-radius:8px; background:var(--sunk)}
+.pf-list, .stops{display:grid; gap:14px; grid-template-columns:repeat(auto-fill, minmax(min(100%, 340px), 1fr)); margin:10px 0 0; padding:0; list-style:none}
+.pf-top, .stop-top{display:flex; align-items:center; gap:10px; flex-wrap:wrap}
+.pf-when{font:500 12px/1 var(--mono, var(--ui)); color:var(--ink-3)}
+.pf h3, .stop h3{font-size:19px; margin:0}
+.pf-go{display:flex; flex-wrap:wrap; gap:6px}
+.pf-go .chip{text-decoration:none; color:var(--ink-2)}
+.pf-go .dot{width:8px; height:8px; border-radius:50%; background:var(--fc, var(--accent))}
+.pf-src{margin:6px 0 0; padding-left:18px; font-size:13px; color:var(--ink-2)}
+.pf-fig, .stop-fig{margin:0}
+.stop-n{width:28px; height:28px; border-radius:50%; display:grid; place-items:center; background:var(--accent); color:var(--accent-ink); font:600 13px/1 var(--ui)}
+.stop-gal{font:600 11px/1 var(--ui); letter-spacing:.1em; text-transform:uppercase; color:var(--accent)}
+.stop-by{margin:-6px 0 0; color:var(--ink-3); font-size:13.5px}
+.stop-look{font-size:14px; color:var(--ink-2)}
+.stop-look b{font-weight:600; color:var(--ink)}
+.stop-foot{display:flex; align-items:center; justify-content:space-between; gap:10px; margin-top:auto; font-size:13px}
+.stop-end{font-style:italic; color:var(--ink-3)}
+.stop{scroll-margin-top:calc(14px + env(safe-area-inset-top, 0px))}
+.guide-floor{margin-top:8px}
 .w-scrim{position:fixed; inset:0; z-index:44; background:rgba(0,0,0,.38); border:0; padding:0; cursor:pointer}
 .w-scrim[hidden]{display:none}
 .w-hall{position:fixed; left:0; right:0; bottom:0; z-index:45; max-height:78vh; overflow-y:auto; overscroll-behavior:contain;
@@ -2928,6 +2978,175 @@ function walkYearFor(p){
 }
 
 
+/* ---------- Near me: museum guides and facts about places ----------
+   A small list of places (museums, cities, battlefields) ships inside the app, with a starter set of their
+   pages (H.places, from online/places/). New places come with the online feed (FEED.places), and a place's
+   page is downloaded by its name only (online/places/<id>.json), then kept on the phone for offline use.
+   "Use my location" asks the phone once, only when tapped. This page compares the position with the
+   list right here and forgets it: nothing is saved, sent or tracked, and no coordinates ever leave the phone. */
+const PL_BASE = FEED_BASE + "places/";
+const PL0 = H.places || {list:[], files:{}};
+const PL_KIND = [["museum", "Museums"], ["city", "Cities and towns"], ["site", "Battlefields and landmarks"]];
+function plList(){
+  const m = new Map(PL0.list.map(p => [p.id, p]));
+  ((FEED && FEED.places) || []).forEach(p => { if (p && /^[a-z0-9-]+$/.test(p.id || "") && typeof p.lat === "number" && typeof p.lon === "number") m.set(p.id, p); });
+  return [...m.values()].sort((a, b) => a.n.localeCompare(b.n));
+}
+const plStub = id => plList().find(p => p.id === id);
+const plSaved = id => { try { const f = JSON.parse(store.get("ctm-place-" + id) || "null"); return f && f.id === id ? f : null; } catch(e){ return null; } };
+/* The best copy on the phone: a saved download that is current, else the one built into the app, else an older download. */
+function plFile(id){
+  const s = plStub(id), saved = plSaved(id), built = PL0.files[id];
+  if (saved && s && saved.rev === s.rev) return saved;
+  return built || saved || null;
+}
+const plFresh = id => { const s = plStub(id), f = plFile(id); return !!f && (!s || f.rev === s.rev); };
+const plLoading = new Set(), plFailed = new Set();
+function plFetch(id, done){
+  if (plLoading.has(id) || plFailed.has(id) || navigator.onLine === false || !plStub(id)) return false;
+  plLoading.add(id);
+  fetch(PL_BASE + id + ".json", {cache:"no-cache"}).then(r => r.ok ? r.json() : null).then(f => {
+    plLoading.delete(id);
+    if (!f || f.id !== id || !Array.isArray(f.facts)) return done(false);
+    f.rev = plStub(id).rev; store.set("ctm-place-" + id, JSON.stringify(f)); done(true);
+  }).catch(() => { plLoading.delete(id); done(false); });
+  return true;
+}
+/* distance in km between two points on the Earth */
+function kmBetween(a, b, c, d){
+  const r = Math.PI / 180, x = Math.sin((c - a) * r / 2), y = Math.sin((d - b) * r / 2);
+  return 12742 * Math.asin(Math.sqrt(x * x + Math.cos(a * r) * Math.cos(c * r) * y * y));
+}
+const kmText = k => k < 1 ? Math.max(50, Math.round(k * 20) * 50) + " m" : k < 20 ? k.toFixed(1).replace(/\.0$/, "") + " km" : Math.round(k).toLocaleString("en") + " km";
+/* where the phone is, kept in memory only while the app is open */
+let nearFix = null, nearState = "idle", nearAuto = false, nearTimer = 0;
+function nearNow(){
+  if (!nearFix) return {at:null, close:[]};
+  const all = plList().map(p => ({p, k:kmBetween(nearFix.lat, nearFix.lon, p.lat, p.lon)})).sort((a, b) => a.k - b.k);
+  const slack = Math.min(nearFix.acc || 0, 1500) / 1000;
+  const inside = all.filter(x => x.k <= (x.p.r || 1000) / 1000 + slack);
+  /* the smallest place you are inside wins: The Met before New York */
+  const at = inside.sort((a, b) => (a.p.r || 1000) - (b.p.r || 1000))[0] || null;
+  return {at, close:all.filter(x => x.k < 400).slice(0, 6), nearest:all[0]};
+}
+window.__where = {onEvent(e){
+  if (!e || !e.t) return;
+  if (e.t === "status") { if (e.s === "granted" && !nearFix) nearLocate(true); return; }
+  clearTimeout(nearTimer);
+  if (e.t === "fix" && typeof e.lat === "number") { nearFix = {lat:e.lat, lon:e.lon, acc:e.acc || 0}; nearState = "ok"; }
+  else nearState = e.t === "denied" ? "denied" : "error";
+  nearRedraw();
+}};
+function nearLocate(quiet){
+  if (!quiet) { nearState = "asking"; nearRedraw(); }
+  clearTimeout(nearTimer);
+  nearTimer = setTimeout(() => window.__where.onEvent({t:"error"}), 25000);
+  try { if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.where) { window.webkit.messageHandlers.where.postMessage({op:"locate"}); return; } } catch(e){}
+  if (!navigator.geolocation) return window.__where.onEvent({t:"error"});
+  navigator.geolocation.getCurrentPosition(p => window.__where.onEvent({t:"fix", lat:p.coords.latitude, lon:p.coords.longitude, acc:p.coords.accuracy}),
+    er => window.__where.onEvent({t:er && er.code === 1 ? "denied" : "error"}), {enableHighAccuracy:false, maximumAge:300000, timeout:20000});
+}
+/* On the World page: if the visitor already allowed location, look once (no prompt) so the card can say where they are. */
+function nearAutoCheck(){
+  if (nearAuto) return; nearAuto = true;
+  try { if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.where) { window.webkit.messageHandlers.where.postMessage({op:"status"}); return; } } catch(e){}
+  if (navigator.permissions && navigator.geolocation) navigator.permissions.query({name:"geolocation"}).then(s => { if (s.state === "granted") nearLocate(true); }).catch(() => {});
+}
+const PIN_SVG = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg>`;
+function nearCardHTML(){
+  const {at} = nearNow(), p = at && at.p;
+  const href = p ? (p.guide ? "#guide-" + p.id : "#place-" + p.id) : "#near";
+  return `<a class="chip near-chip${p ? " on" : ""}" id="nearCard" href="${href}">${PIN_SVG}${p ? esc(p.short || p.n) + (p.guide ? " guide" : "") : "Near me"}</a>`;
+}
+function nearRedraw(){
+  const h = decodeURIComponent(location.hash.slice(1));
+  if (h === "near") viewNear(true);
+  const c = document.getElementById("nearCard"); if (c) c.outerHTML = nearCardHTML();
+}
+const plRow = (p, k) => `<a class="near-row" href="#${p.guide ? "guide" : "place"}-${p.id}"><span class="near-ico sm">${PIN_SVG}</span><span class="near-txt"><b>${esc(p.n)}</b><small>${esc(p.where || "")}${k != null ? " · " + kmText(k) : ""}</small></span>${p.guide ? `<span class="near-tag">Guide</span>` : ""}${PL0.files[p.id] || plSaved(p.id) ? "" : `<span class="near-tag soft">Online</span>`}<span class="near-chev" aria-hidden="true">›</span></a>`;
+function viewNear(keep){
+  const y = keep ? scrollY : 0, {at, close, nearest} = nearNow(), all = plList();
+  const PRIV = `<p class="w-note">Your position stays on this phone. The app compares it with its own list of places, then forgets it, and downloads only that place's public page, the same one everyone gets. Nothing is collected.</p>`;
+  let box;
+  if (nearState === "asking") box = `<p class="near-busy">Finding where you are…</p>`;
+  else if (nearState === "denied") box = `<p>Location is off for this app, and that is fine: pick a place below.</p><p class="w-note">To turn it on later: Settings › Contemporaries › Location › While Using the App.</p>`;
+  else if (nearState === "error") box = `<p>We could not find where you are just now. Pick a place below, or try again.</p><button type="button" class="btn" data-locate>Try again</button>`;
+  else if (nearState === "ok") box = at
+    ? `<span class="eyebrow" style="color:var(--accent)">You seem to be at</span><h2 class="near-at">${esc(at.p.n)}</h2><div class="row-btns">${at.p.guide ? `<a class="btn" href="#guide-${at.p.id}">Start the one-hour guide</a>` : ""}<a class="btn${at.p.guide ? " ghost" : ""}" href="#place-${at.p.id}">What happened here</a></div>`
+    : `<p>We have no guide or place story close to you yet.${nearest ? ` The nearest place is <b>${esc(nearest.p.n)}</b>, ${kmText(nearest.k)} away.` : ""} New places arrive online, without a new install.</p><button type="button" class="btn ghost" data-locate>Check again</button>`;
+  else box = `<p>Find the museum guide, or the history of the town you are standing in.</p><button type="button" class="btn" data-locate>${PIN_SVG}<span>Use my location</span></button>${PRIV}`;
+  const closeOthers = close.filter(x => !at || x.p.id !== at.p.id);
+  const nearList = nearState === "ok" && closeOthers.length ? `<section><div class="sec-head"><h2>Also close to you</h2></div><div class="near-list">${closeOthers.map(x => plRow(x.p, x.k)).join("")}</div></section>` : "";
+  view.innerHTML = `<section class="near">
+    <div class="big-title"><div><span class="eyebrow" style="color:var(--accent)">Places and guides</span><h1>Near me</h1></div></div>
+    <div class="panel near-loc" aria-live="polite">${box}</div>
+    ${nearList}
+    ${PL_KIND.map(([k, n]) => { const ps = all.filter(p => (p.kind || "city") === k); return ps.length ? `<section><div class="sec-head"><h2>${n}</h2><p>${plural(ps.length, "place")}</p></div><div class="near-list">${ps.map(p => plRow(p, nearFix ? kmBetween(nearFix.lat, nearFix.lon, p.lat, p.lon) : null)).join("")}</div></section>` : ""; }).join("")}
+    <p class="w-note">Every fact is written for this museum from public sources, which are listed with it. Museum rooms change: if a work is not where we say, a guard will know.</p>
+  </section>`;
+  if (keep) scrollTo(0, y);
+}
+const plPeople = ids => (ids || []).map(id => P.get(id)).filter(Boolean).map(p => `<a class="chip pf-p" href="#p-${p.id}"><span class="dot" style="${fc(p.f)}"></span>${esc(p.n)}</a>`).join("");
+const plSources = (src, title) => src && src.length ? `<details class="why"><summary>${esc(title || "How we know")}</summary><ul class="pf-src">${src.map(s => `<li>${s.u ? `<a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.n)}</a>` : esc(s.n)}</li>`).join("")}</ul></details>` : "";
+/* a place's page is shown from the phone's copy; if there is none, it is fetched once, then the page draws */
+function plNeed(id, draw){
+  const f = plFile(id);
+  const here = () => decodeURIComponent(location.hash.slice(1)).endsWith("-" + id);
+  const asked = !plFresh(id) && plFetch(id, ok => { if (!f && here()) { if (!ok) plFailed.add(id); draw(); } });
+  if (f) return f;
+  const s = plStub(id), msg = !s ? "This place is not in the museum yet." : asked ? "Opening…"
+    : "This place needs the internet once. After that it stays on your phone, also offline.";
+  plFailed.delete(id);
+  view.innerHTML = `<section class="near"><a class="near-back" href="#near">‹ Near me</a><div class="panel near-loc"><h2>${esc(s ? s.n : "Place not found")}</h2><p>${msg}</p></div></section>`;
+  return null;
+}
+function viewPlace(id){
+  const f = plNeed(id, () => viewPlace(id)); if (!f) return;
+  const g = f.guide, gimgs = g ? g.stops.map(s => s.img).filter(s => IMG[s]).slice(0, 4) : [];
+  view.innerHTML = `<section class="near place">
+    <a class="near-back" href="#near">‹ Near me</a>
+    <div><span class="eyebrow" style="color:var(--accent)">${esc((PL_KIND.find(k => k[0] === f.kind) || ["", "Place"])[1].replace(/s$/, "").replace("Cities and town", "City"))} · ${esc(f.where || "")}</span><h1 class="pl-h">${esc(f.n)}</h1><p class="pl-blurb">${esc(f.blurb || "")}</p></div>
+    ${g ? `<a class="guide-card" href="#guide-${f.id}"><span class="eyebrow" style="color:var(--accent)">${g.mins || 60}-minute guide</span><h2>${esc(g.n)}</h2><p>${plural(g.stops.length, "stop")} · ${esc([...new Set(g.stops.map(s => "Floor " + s.floor))].join(" and "))} · in walking order</p>${gimgs.length ? `<span class="guide-thumbs">${gimgs.map(s => `<img src="${esc(IMG[s].src)}" alt="" loading="lazy" decoding="async">`).join("")}</span>` : ""}<span class="btn">Start the guide</span></a>` : ""}
+    <div class="sec-head"><h2>${f.kind === "museum" ? "About this museum" : "What happened here"}</h2></div>
+    <div class="pf-list">${(f.facts || []).map(x => `<article class="panel pf">
+      <div class="pf-top">${labHTML(x.lab)}${x.when ? `<span class="pf-when">${esc(x.when)}</span>` : ""}</div>
+      <h3>${esc(x.h)}</h3>
+      ${x.img && IMG[x.img] ? imgFig(x.img, "pf-fig") : ""}
+      <p>${esc(x.t)}</p>
+      ${x.people && x.people.length || x.go ? `<div class="pf-go">${plPeople(x.people)}${x.go ? `<a class="chip" href="${esc(x.go[0])}">${esc(x.go[1])} ›</a>` : ""}</div>` : ""}
+      ${plSources(x.src)}
+    </article>`).join("")}</div>
+    <p class="w-note">Written for this museum from the sources under each card, in our own words.${f.checked ? " Checked " + esc(f.checked) + "." : ""}</p>
+  </section>`;
+}
+function viewGuide(id){
+  const f = plNeed(id, () => viewGuide(id)); if (!f) return;
+  const g = f.guide; if (!g) return viewPlace(id);
+  const floors = [...new Set(g.stops.map(s => s.floor))];
+  let n = 0;
+  view.innerHTML = `<section class="near guide">
+    <a class="near-back" href="#place-${f.id}">‹ ${esc(f.short || f.n)}</a>
+    <div><span class="eyebrow" style="color:var(--accent)">${esc(f.short || f.n)} · ${g.mins || 60} minutes</span><h1 class="pl-h">${esc(g.n)}</h1><p class="pl-blurb">${esc(g.intro || "")}</p>
+      <p class="w-note">${esc(g.note || "")}</p></div>
+    ${floors.map(fl => `<div class="sec-head guide-floor"><h2>Floor ${fl}</h2><p>${plural(g.stops.filter(s => s.floor === fl).length, "stop")}</p></div>
+      <ol class="stops">${g.stops.filter(s => s.floor === fl).map(s => { n++; return `<li class="panel stop" id="stop-${n}">
+        <div class="stop-top"><span class="stop-n">${n}</span><span class="stop-gal">${s.gal ? "Gallery " + esc(s.gal) : "On view"} · Floor ${s.floor}</span></div>
+        ${s.img && IMG[s.img] ? imgFig(s.img, "stop-fig", n <= 2) : ""}
+        <h3>${esc(s.t)}</h3><p class="stop-by">${esc([s.by, s.date].filter(Boolean).join(" · "))}</p>
+        <p>${esc(s.story)}</p>
+        ${s.look ? `<p class="stop-look"><b>Look for</b> ${esc(s.look)}</p>` : ""}
+        ${s.people && s.people.length ? `<div class="pf-go">${plPeople(s.people)}</div>` : ""}
+        <div class="stop-foot">${s.u ? `<a class="muted" href="${esc(s.u)}" target="_blank" rel="noopener">The Met's record</a>` : "<span></span>"}${n < g.stops.length ? `<button type="button" class="btn ghost" data-next="${n + 1}">Next stop ›</button>` : `<span class="stop-end">That is the hour.</span>`}</div>
+      </li>`; }).join("")}</ol>`).join("")}
+    ${plSources(g.src, "Sources for this guide")}
+  </section>`;
+}
+view.addEventListener("click", ev => {
+  const b = ev.target.closest("[data-locate],[data-next]"); if (!b) return;
+  if (b.hasAttribute("data-locate")) { nearLocate(false); return; }
+  const t = document.getElementById("stop-" + b.dataset.next);
+  if (t) { haptic("select"); t.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"start"}); }
+});
 /* ---------- World: the map home ---------- */
 /* The phone buzzes softly (iPhone only) through the app's "haptic" bridge. Ignored on the web. */
 const haptic = k => { try { window.webkit.messageHandlers.haptic.postMessage(k); } catch(e){} };
@@ -2971,12 +3190,13 @@ function viewWorld(){
       <div class="top"><div class="w-year" id="wYear" aria-live="polite"></div><div class="w-sum" id="wSum"></div></div>
       <input id="wDial" type="range" min="0" max="1000" step="1" value="${wToDial(wYear)}" aria-label="Year dial">
       <div class="w-scale" aria-hidden="true"><span>600 BC</span><span>AD 1</span><span>1000</span><span>1700</span><span>Today</span></div>
-      <div class="w-stops">${stops.map(([y, n, r]) => `<button class="chip" data-wq="${y}" data-wr="${r}">${esc(n)}</button>`).join("")}</div>
+      <div class="w-stops">${nearCardHTML()}${stops.map(([y, n, r]) => `<button class="chip" data-wq="${y}" data-wr="${r}">${esc(n)}</button>`).join("")}</div>
       <p class="w-note">Lights show people in this museum who are linked to each place and alive in that year, not everyone who lived there. Coastlines are today's.</p>
     </div>
   </section>`;
   drawWorld();
   if (wHallId) openHall(wHallId, true); else closeHall();
+  nearAutoCheck();
 }
 /* The iPhone Duo app tells the page where its fold is (--hinge-* variables), then calls this. */
 window.onHinge = () => {
@@ -3208,6 +3428,9 @@ function route(){
   else if (h.startsWith("era-")) viewEra(h.slice(4));
   else if (h.startsWith("walk-")) { const m = /^walk-(-?\d+)(?:-(.+))?$/.exec(h); viewWalk(m ? parseInt(m[1], 10) : null, m && m[2]); }
   else if (h === "walk") viewWalk();
+  else if (h === "near") viewNear();
+  else if (h.startsWith("place-")) viewPlace(h.slice(6));
+  else if (h.startsWith("guide-")) viewGuide(h.slice(6));
   else if (h.startsWith("talk-")) viewTalk(h.slice(5));
   else if (h === "talk") viewTalkHome();
   else if (h === "people") viewPeople();

@@ -1,0 +1,119 @@
+{
+ "id": "london",
+ "n": "London",
+ "kind": "city",
+ "where": "England",
+ "lat": 51.5074,
+ "lon": -0.1278,
+ "r": 15000,
+ "starter": true,
+ "blurb": "A Roman river port that grew into the capital of an empire. Plays, fires, plagues and the first computers all have an address here.",
+ "facts": [
+  {
+   "h": "Shakespeare's Globe, and the cannon that burned it",
+   "when": "1599 to 1613",
+   "lab": "verified",
+   "people": [
+    "shakespeare"
+   ],
+   "img": "shakespeare",
+   "go": [
+    "#e-globe-theatre",
+    "The Globe is built"
+   ],
+   "t": "Shakespeare's company built the Globe on Bankside in 1599 from the timbers of an older theatre. In 1613, during a play about Henry VIII, a stage cannon set the thatched roof alight and the building burned down in about an hour. Nobody died. Today's Globe, a careful rebuilding, opened nearby in 1997.",
+   "src": [
+    {
+     "n": "Wikipedia: Globe Theatre",
+     "u": "https://en.wikipedia.org/wiki/Globe_Theatre"
+    },
+    {
+     "n": "Shakespeare's Globe: history",
+     "u": "https://www.shakespearesglobe.com/discover/about-us/history-of-the-globe/"
+    }
+   ]
+  },
+  {
+   "h": "The Great Fire, and the scientist who rebuilt the city",
+   "when": "September 1666",
+   "lab": "verified",
+   "people": [
+    "hooke"
+   ],
+   "go": [
+    "#e-great-fire",
+    "The Great Fire"
+   ],
+   "t": "The fire began in a bakery on Pudding Lane and burned for four days, destroying about 13,000 houses and the old St Paul's. Robert Hooke, the scientist who first drew a cell under a microscope, became one of the city's surveyors and helped Christopher Wren design the Monument, the column that marks where it started.",
+   "src": [
+    {
+     "n": "Wikipedia: Great Fire of London",
+     "u": "https://en.wikipedia.org/wiki/Great_Fire_of_London"
+    },
+    {
+     "n": "Wikipedia: Monument to the Great Fire of London",
+     "u": "https://en.wikipedia.org/wiki/Monument_to_the_Great_Fire_of_London"
+    }
+   ]
+  },
+  {
+   "h": "Newton and Darwin, a few steps apart",
+   "when": "1727 and 1882",
+   "lab": "verified",
+   "people": [
+    "newton",
+    "darwin"
+   ],
+   "t": "Isaac Newton was buried in Westminster Abbey in 1727 with a state funeral, a rare honour for a scientist. When Charles Darwin died in 1882, scientists and members of Parliament asked for him to lie there too, and he was buried close to Newton.",
+   "src": [
+    {
+     "n": "Westminster Abbey: Sir Isaac Newton",
+     "u": "https://www.westminster-abbey.org/abbey-commemorations/commemorations/sir-isaac-newton"
+    },
+    {
+     "n": "Westminster Abbey: Charles Darwin",
+     "u": "https://www.westminster-abbey.org/abbey-commemorations/commemorations/charles-darwin"
+    }
+   ]
+  },
+  {
+   "h": "A computer built 142 years late",
+   "when": "1849 and 1991",
+   "lab": "verified",
+   "people": [
+    "babbage",
+    "ada-lovelace"
+   ],
+   "t": "Charles Babbage drew plans for his Difference Engine No. 2 in London in the late 1840s, but it was never built in his lifetime. In 1991 the Science Museum built it from his drawings, with parts made to the precision of his day, and it worked. Ada Lovelace, his friend, had already written how such machines could do far more than sums.",
+   "src": [
+    {
+     "n": "Science Museum: Babbage's Difference Engine No. 2",
+     "u": "https://www.sciencemuseum.org.uk/objects-and-stories/charles-babbages-difference-engines-and-science-museum"
+    },
+    {
+     "n": "Wikipedia: Difference engine",
+     "u": "https://en.wikipedia.org/wiki/Difference_engine"
+    }
+   ]
+  },
+  {
+   "h": "Where Oliver Twist was written",
+   "when": "1837 to 1839",
+   "lab": "verified",
+   "people": [
+    "dickens"
+   ],
+   "t": "Charles Dickens rented 48 Doughty Street as a young, newly famous writer. In less than three years there he finished The Pickwick Papers and wrote Oliver Twist and Nicholas Nickleby. It is his only London home still standing, and it is now the Charles Dickens Museum.",
+   "src": [
+    {
+     "n": "Charles Dickens Museum",
+     "u": "https://dickensmuseum.com/pages/history-of-48-doughty-street"
+    },
+    {
+     "n": "Wikipedia: Charles Dickens Museum",
+     "u": "https://en.wikipedia.org/wiki/Charles_Dickens_Museum"
+    }
+   ]
+  }
+ ]
+}

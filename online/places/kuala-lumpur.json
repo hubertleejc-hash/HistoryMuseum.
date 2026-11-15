@@ -1,0 +1,51 @@
+{
+ "id": "kuala-lumpur",
+ "n": "Kuala Lumpur",
+ "kind": "city",
+ "where": "Malaysia",
+ "lat": 3.139,
+ "lon": 101.6869,
+ "r": 12000,
+ "blurb": "A tin-mining town at a muddy river meeting that became the capital of an independent Malaya.",
+ "facts": [
+  {
+   "h": "Merdeka, seven times",
+   "when": "31 August 1957",
+   "lab": "verified",
+   "people": [
+    "tunku"
+   ],
+   "go": [
+    "#e-merdeka",
+    "Malaya becomes independent"
+   ],
+   "t": "At the new Merdeka Stadium, built for the day, Tunku Abdul Rahman read the proclamation of independence and led the crowd in shouting Merdeka, freedom, seven times. The night before, the Union Jack had come down at the Selangor Club padang, now Dataran Merdeka.",
+   "src": [
+    {
+     "n": "Wikipedia: Malayan Declaration of Independence",
+     "u": "https://en.wikipedia.org/wiki/Malayan_Declaration_of_Independence"
+    },
+    {
+     "n": "Wikipedia: Stadium Merdeka",
+     "u": "https://en.wikipedia.org/wiki/Stadium_Merdeka"
+    }
+   ]
+  },
+  {
+   "h": "Named after mud",
+   "when": "1857",
+   "lab": "likely",
+   "t": "Kuala Lumpur means muddy confluence, where the Gombak and Klang rivers meet. Chinese tin miners founded the settlement around 1857. The Masjid Jamek mosque, finished in 1909, stands right on that meeting point.",
+   "src": [
+    {
+     "n": "Wikipedia: Kuala Lumpur, history",
+     "u": "https://en.wikipedia.org/wiki/History_of_Kuala_Lumpur"
+    },
+    {
+     "n": "Wikipedia: Masjid Jamek",
+     "u": "https://en.wikipedia.org/wiki/Masjid_Jamek_Sultan_Abdul_Samad"
+    }
+   ]
+  }
+ ]
+}
