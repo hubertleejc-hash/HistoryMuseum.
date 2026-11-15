@@ -66,7 +66,8 @@ BM = [
 def stops(lst, louvre):
     out = []
     for key, floor, room, t, by, date, people, story, look, wiki in lst:
-        pic = (EX["commons"].get(("lv-" if louvre else "bm-") + key) or {}).get("pic")
+        c = EX["commons"].get(("lv-" if louvre else "bm-") + key) or {}
+        pic = None if c.get("rejected") else c.get("pic")
         u = "https://en.wikipedia.org/wiki/" + wiki
         if louvre:
             rec = next((r for r in EX["louvre"].get(key, []) if r.get("room")), None)
@@ -93,12 +94,12 @@ def write(id, guide):
 write("louvre", {"n": "The Louvre in one hour", "mins": 60, "room": "Room",
     "floors": {"0": "Level 0", "1": "Level 1"},
     "intro": "Twelve works in walking order, starting with Mesopotamia and Greece on level 0, then up the Daru staircase to the Winged Victory and the great paintings. The Mona Lisa room gets crowded; go early or late.",
-    "note": "Room numbers from the Louvre's collections site where it gives one, checked 15 November 2026. Rooms close and works move; the Louvre's app and the guards know where things are today.",
+    "note": "Room numbers are the Louvre's usual rooms for these works; we could not check them automatically, and rooms close and works move. The Louvre's app and the guards know where things are today.",
     "src": [{"n": "Louvre collections database", "u": "https://collections.louvre.fr/en/"}, {"n": "Musée du Louvre: plan your visit", "u": "https://www.louvre.fr/en"}, W("Louvre")],
     "stops": stops(LV, True)})
 write("british-museum", {"n": "The British Museum in one hour", "mins": 60, "room": "Room",
     "floors": {"0": "Ground floor", "1": "Upper floor"},
     "intro": "Eleven objects in walking order: the ground-floor galleries of Egypt, Assyria and Greece, then the upper floor. Entry is free.",
-    "note": "Room numbers from the British Museum's floor plan, checked 15 November 2026. Rooms close for repairs and objects travel: ask at the information desk in the Great Court.",
+    "note": "Room numbers are the British Museum's usual rooms for these objects; we could not check them automatically, and rooms close for repairs and objects travel. Ask at the information desk in the Great Court.",
     "src": [{"n": "British Museum: collection online", "u": "https://www.britishmuseum.org/collection"}, {"n": "British Museum: visit", "u": "https://www.britishmuseum.org/visit"}, W("British_Museum")],
     "stops": stops(BM, False)})

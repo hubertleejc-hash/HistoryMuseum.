@@ -116,7 +116,7 @@ def place(f, ppl, pics):
             assert pid in ppl, f"{where}: no person with id {pid} in app/data.js"
         if x.get("pic"):
             pc = x["pic"]
-            assert re.match(r"https://(upload\.wikimedia\.org|images\.metmuseum\.org)/", pc.get("u", "")), f"{where}: pictures load only from Wikimedia Commons or The Met"
+            assert re.match(r"https://((upload|thumb)\.wikimedia\.org|images\.metmuseum\.org)/", pc.get("u", "")), f"{where}: pictures load only from Wikimedia Commons or The Met"
             assert pc.get("cr") and pc.get("lic") and str(pc.get("page", "")).startswith("https://"), f"{where}: a picture needs its credit (cr), licence (lic) and page"
             assert re.search(r"public domain|cc0|cc by", pc["lic"], re.I) and not re.search(r"\bnc\b|non-?commercial|\bnd\b", pc["lic"], re.I), f"{where}: licence {pc['lic']} is not free for a paid app"
             assert not any(ppl.get(pid) for pid in x.get("people", [])), f"{where}: out of respect, no picture with a sacred figure"

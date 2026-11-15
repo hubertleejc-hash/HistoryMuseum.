@@ -71,7 +71,7 @@
    "1": "Upper floor"
   },
   "intro": "Eleven objects in walking order: the ground-floor galleries of Egypt, Assyria and Greece, then the upper floor. Entry is free.",
-  "note": "Room numbers from the British Museum's floor plan, checked 15 November 2026. Rooms close for repairs and objects travel: ask at the information desk in the Great Court.",
+  "note": "Room numbers are the British Museum's usual rooms for these objects; we could not check them automatically, and rooms close for repairs and objects travel. Ask at the information desk in the Great Court.",
   "src": [
    {
     "n": "British Museum: collection online",
@@ -111,7 +111,15 @@
     "people": [
      "napoleon"
     ],
-    "u": "https://en.wikipedia.org/wiki/Rosetta_Stone"
+    "u": "https://en.wikipedia.org/wiki/Rosetta_Stone",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Rosetta_Stone.JPG/960px-Rosetta_Stone.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1053,
+     "page": "https://commons.wikimedia.org/wiki/File:Rosetta_Stone.JPG",
+     "lic": "CC BY-SA 4.0",
+     "cr": "Hans Hillewaert, via Wikimedia Commons"
+    }
    },
    {
     "floor": 0,
@@ -122,7 +130,15 @@
     "story": "The 'Younger Memnon' came from Ramesses II's temple at Thebes. The hole in his right chest is said to have been drilled by Napoleon's men trying to move him. The poet Shelley wrote Ozymandias as it was on its way to London.",
     "look": "the hole on his right side",
     "people": [],
-    "u": "https://en.wikipedia.org/wiki/Younger_Memnon"
+    "u": "https://en.wikipedia.org/wiki/Younger_Memnon",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/BM%2C_AES_Egyptian_Sulpture_~_Colossal_bust_of_Ramesses_II%2C_the_%27Younger_Memnon%27_%281250_BC%29_%28Room_4%29.jpg/960px-BM%2C_AES_Egyptian_Sulpture_~_Colossal_bust_of_Ramesses_II%2C_the_%27Younger_Memnon%27_%281250_BC%29_%28Room_4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1200,
+     "page": "https://commons.wikimedia.org/wiki/File:BM,_AES_Egyptian_Sulpture_~_Colossal_bust_of_Ramesses_II,_the_%27Younger_Memnon%27_(1250_BC)_(Room_4).jpg",
+     "lic": "CC BY-SA 3.0",
+     "cr": "Unknown, via Wikimedia Commons"
+    }
    },
    {
     "floor": 0,
@@ -133,7 +149,15 @@
     "story": "Carved panels from the palace at Nineveh show King Ashurbanipal killing lions released from cages in an arena. The dying lions are some of the most moving animals in ancient art.",
     "look": "the wounded lioness dragging her back legs",
     "people": [],
-    "u": "https://en.wikipedia.org/wiki/Lion_Hunt_of_Ashurbanipal"
+    "u": "https://en.wikipedia.org/wiki/Lion_Hunt_of_Ashurbanipal",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Ashurbanipal%27s_lion-hunt_scene%2C_wall_relief%2C_7th_century_BC%2C_from_Nineveh%2C_the_British_Museum.jpg/960px-Ashurbanipal%27s_lion-hunt_scene%2C_wall_relief%2C_7th_century_BC%2C_from_Nineveh%2C_the_British_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 601,
+     "page": "https://commons.wikimedia.org/wiki/File:Ashurbanipal%27s_lion-hunt_scene,_wall_relief,_7th_century_BC,_from_Nineveh,_the_British_Museum.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "Osama Shukir Muhammed Amin FRCP(Glasg), via Wikimedia Commons"
+    }
    },
    {
     "floor": 0,
@@ -146,7 +170,15 @@
     "people": [
      "socrates"
     ],
-    "u": "https://en.wikipedia.org/wiki/Elgin_Marbles"
+    "u": "https://en.wikipedia.org/wiki/Elgin_Marbles",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/London_-_Great_Russell_Street_-_British_Museum_-_Greece-_Parthenon_-_Elgin_Marbles_-_Parts_of_the_Frieze.jpg/960px-London_-_Great_Russell_Street_-_British_Museum_-_Greece-_Parthenon_-_Elgin_Marbles_-_Parts_of_the_Frieze.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 600,
+     "page": "https://commons.wikimedia.org/wiki/File:London_-_Great_Russell_Street_-_British_Museum_-_Greece-_Parthenon_-_Elgin_Marbles_-_Parts_of_the_Frieze.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "Txllxt TxllxT, via Wikimedia Commons"
+    }
    },
    {
     "floor": 0,
@@ -157,7 +189,15 @@
     "story": "A moai, one of the great stone ancestor figures of Rapa Nui, taken by a British ship's crew in 1868. Islanders have asked for him to come home. Look at his back: later carvings show the island's birdman ceremony.",
     "look": "the carvings on his back",
     "people": [],
-    "u": "https://en.wikipedia.org/wiki/Hoa_Hakananai'a"
+    "u": "https://en.wikipedia.org/wiki/Hoa_Hakananai'a",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Hoa_Hakananai%27a_1.jpg/960px-Hoa_Hakananai%27a_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1350,
+     "page": "https://commons.wikimedia.org/wiki/File:Hoa_Hakananai%27a_1.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "Photograph by Mike Peel (www.mikepeel.net)., via Wikimedia Commons"
+    }
    },
    {
     "floor": 1,
@@ -179,7 +219,15 @@
     "story": "The Egyptian death rooms show mummies, coffins and the tools of embalming. Scans have let the museum see inside without unwrapping anyone.",
     "look": "the painted faces on the coffin lids",
     "people": [],
-    "u": "https://en.wikipedia.org/wiki/Mummy"
+    "u": "https://en.wikipedia.org/wiki/Mummy",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Mummy_of_an_adolescent_boy%2C_British_Museum.jpg/960px-Mummy_of_an_adolescent_boy%2C_British_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 625,
+     "page": "https://commons.wikimedia.org/wiki/File:Mummy_of_an_adolescent_boy,_British_Museum.jpg",
+     "lic": "CC BY 4.0",
+     "cr": "APK, via Wikimedia Commons"
+    }
    },
    {
     "floor": 1,
@@ -214,7 +262,15 @@
     "story": "Found on the Isle of Lewis in Scotland in 1831, carved mostly from walrus ivory, probably in Norway. The rook-warriors bite their shields in a battle rage.",
     "look": "the warriors biting their shields",
     "people": [],
-    "u": "https://en.wikipedia.org/wiki/Lewis_chessmen"
+    "u": "https://en.wikipedia.org/wiki/Lewis_chessmen",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Lewis_Chessmen%2C_British_Museum.jpg/960px-Lewis_Chessmen%2C_British_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 723,
+     "page": "https://commons.wikimedia.org/wiki/File:Lewis_Chessmen,_British_Museum.jpg",
+     "lic": "CC BY 4.0",
+     "cr": "APK, via Wikimedia Commons"
+    }
    }
   ]
  },

@@ -3091,7 +3091,8 @@ function viewNear(keep){
 }
 const plPeople = ids => (ids || []).map(id => P.get(id)).filter(Boolean).map(p => `<a class="chip pf-p" href="#p-${p.id}"><span class="dot" style="${fc(p.f)}"></span>${esc(p.n)}</a>`).join("");
 /* a picture that loads from Wikimedia Commons or a museum's server (places that come online), with its credit */
-const plPic = (x, cls) => x.pic && /^https:\/\/(upload\.wikimedia\.org|images\.metmuseum\.org)\//.test(x.pic.u || "") ? `<figure class="fig ${cls}"><div class="fig-frame" style="aspect-ratio:${x.pic.w || 4}/${x.pic.h || 3}"><img src="${esc(x.pic.u)}" alt="${esc(x.t || x.h || "")}" loading="lazy" decoding="async"></div><figcaption class="credit"><span>${esc(x.pic.cr || "")}${x.pic.lic ? " · " + esc(x.pic.lic) : ""}${x.pic.page ? ` · <a href="${esc(x.pic.page)}" target="_blank" rel="noopener">source</a>` : ""}. Not made by AI.</span></figcaption></figure>` : "";
+const plPicOk = u => /^https:\/\/((upload|thumb)\.wikimedia\.org|images\.metmuseum\.org)\//.test(u || "");
+const plPic = (x, cls) => x.pic && plPicOk(x.pic.u) ? `<figure class="fig ${cls}"><div class="fig-frame" style="aspect-ratio:${x.pic.w || 4}/${x.pic.h || 3}"><img src="${esc(x.pic.u)}" alt="${esc(x.t || x.h || "")}" loading="lazy" decoding="async"></div><figcaption class="credit"><span>${esc(x.pic.cr || "")}${x.pic.lic ? " · " + esc(x.pic.lic) : ""}${x.pic.page ? ` · <a href="${esc(x.pic.page)}" target="_blank" rel="noopener">source</a>` : ""}. Not made by AI.</span></figcaption></figure>` : "";
 const plSources = (src, title) => src && src.length ? `<details class="why"><summary>${esc(title || "How we know")}</summary><ul class="pf-src">${src.map(s => `<li>${s.u ? `<a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.n)}</a>` : esc(s.n)}</li>`).join("")}</ul></details>` : "";
 /* a place's page is shown from the phone's copy; if there is none, it is fetched once, then the page draws */
 function plNeed(id, draw){
@@ -3107,7 +3108,7 @@ function plNeed(id, draw){
 }
 function viewPlace(id){
   const f = plNeed(id, () => viewPlace(id)); if (!f) return;
-  const g = f.guide, gimgs = g ? g.stops.map(s => s.img).filter(s => IMG[s]).slice(0, 4) : [];
+  const g = f.guide, gimgs = g ? g.stops.map(s => IMG[s.img] ? IMG[s.img].src : s.pic && plPicOk(s.pic.u) && s.pic.u).filter(Boolean).slice(0, 4) : [];
   view.innerHTML = `<section class="near pl-page">
     <a class="near-back" href="#near">‹ Near me</a>
     <div><span class="eyebrow" style="color:var(--accent)">${esc((PL_KIND.find(k => k[0] === f.kind) || ["", "Place"])[1].replace(/s$/, "").replace("Cities and town", "City"))} · ${esc(f.where || "")}</span><h1 class="pl-h">${esc(f.n)}</h1><p class="pl-blurb">${esc(f.blurb || "")}</p></div>

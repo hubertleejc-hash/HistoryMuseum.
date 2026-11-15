@@ -74,7 +74,7 @@
    "1": "Level 1"
   },
   "intro": "Twelve works in walking order, starting with Mesopotamia and Greece on level 0, then up the Daru staircase to the Winged Victory and the great paintings. The Mona Lisa room gets crowded; go early or late.",
-  "note": "Room numbers from the Louvre's collections site where it gives one, checked 15 November 2026. Rooms close and works move; the Louvre's app and the guards know where things are today.",
+  "note": "Room numbers are the Louvre's usual rooms for these works; we could not check them automatically, and rooms close and works move. The Louvre's app and the guards know where things are today.",
   "src": [
    {
     "n": "Louvre collections database",
@@ -99,7 +99,15 @@
     "story": "These human-headed winged bulls guarded a gate of King Sargon II's palace at Khorsabad, in today's Iraq. Each weighs about 30 tonnes. Count the legs: five, so they look right both from the front and from the side.",
     "look": "the fifth leg",
     "people": [],
-    "u": "https://en.wikipedia.org/wiki/Lamassu"
+    "u": "https://en.wikipedia.org/wiki/Lamassu",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Lamassu_du_palais_de_Khorsabad%2C_Mus%C3%A9e_du_Louvre.jpg/960px-Lamassu_du_palais_de_Khorsabad%2C_Mus%C3%A9e_du_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1851,
+     "page": "https://commons.wikimedia.org/wiki/File:Lamassu_du_palais_de_Khorsabad,_Mus%C3%A9e_du_Louvre.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "ROTA Hugo, via Wikimedia Commons"
+    }
    },
    {
     "floor": 0,
@@ -110,7 +118,15 @@
     "story": "King Hammurabi of Babylon had 282 laws carved on this basalt pillar, under a picture of himself before the sun god. 'An eye for an eye' is here, about 1,000 years before it appears in the Bible. French archaeologists found it in Susa, Iran, in 1901.",
     "look": "the king and the god at the top",
     "people": [],
-    "u": "https://en.wikipedia.org/wiki/Code_of_Hammurabi"
+    "u": "https://en.wikipedia.org/wiki/Code_of_Hammurabi",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/P1050763_Louvre_code_Hammurabi_face_rwk.JPG/960px-P1050763_Louvre_code_Hammurabi_face_rwk.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1481,
+     "page": "https://commons.wikimedia.org/wiki/File:P1050763_Louvre_code_Hammurabi_face_rwk.JPG",
+     "lic": "CC BY 3.0",
+     "cr": "Mbzt, via Wikimedia Commons"
+    }
    },
    {
     "floor": 0,
@@ -121,7 +137,15 @@
     "story": "A farmer found her on the Greek island of Milos in 1820, and the French ambassador bought her for the king. Her arms were never found. She is probably Aphrodite, though some think she is the sea goddess Amphitrite.",
     "look": "the twist of the body, and the line where the two blocks of marble meet",
     "people": [],
-    "u": "https://en.wikipedia.org/wiki/Venus_de_Milo"
+    "u": "https://en.wikipedia.org/wiki/Venus_de_Milo",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Venus_de_Milo_Louvre_Ma399_n4.jpg/960px-Venus_de_Milo_Louvre_Ma399_n4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1510,
+     "page": "https://commons.wikimedia.org/wiki/File:Venus_de_Milo_Louvre_Ma399_n4.jpg",
+     "lic": "Public domain",
+     "cr": "Unknown artistUnknown artist, via Wikimedia Commons"
+    }
    },
    {
     "floor": 0,
@@ -134,7 +158,15 @@
     "people": [
      "michelangelo"
     ],
-    "u": "https://en.wikipedia.org/wiki/Dying_Slave"
+    "u": "https://en.wikipedia.org/wiki/Dying_Slave",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Dying_slave_Louvre_MR_1590%2C_Louvre.jpg/960px-Dying_slave_Louvre_MR_1590%2C_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1246,
+     "page": "https://commons.wikimedia.org/wiki/File:Dying_slave_Louvre_MR_1590,_Louvre.jpg",
+     "lic": "CC0",
+     "cr": "Michelangelo Buenarroti (1475-1564), via Wikimedia Commons"
+    }
    },
    {
     "floor": 1,
@@ -145,7 +177,15 @@
     "story": "Nike, goddess of victory, lands on the prow of a warship, her dress blown against her by the sea wind. She was found in pieces on the island of Samothrace in 1863. Her head and arms are lost; a hand found later is in a case nearby.",
     "look": "the wind in the dress",
     "people": [],
-    "u": "https://en.wikipedia.org/wiki/Winged_Victory_of_Samothrace"
+    "u": "https://en.wikipedia.org/wiki/Winged_Victory_of_Samothrace",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Nike_of_Samothrake_Louvre_Ma2369_n4.jpg/960px-Nike_of_Samothrake_Louvre_Ma2369_n4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1364,
+     "page": "https://commons.wikimedia.org/wiki/File:Nike_of_Samothrake_Louvre_Ma2369_n4.jpg",
+     "lic": "Public domain",
+     "cr": "Unknown, via Wikimedia Commons"
+    }
    },
    {
     "floor": 1,
@@ -158,7 +198,15 @@
     "people": [
      "leonardo"
     ],
-    "u": "https://en.wikipedia.org/wiki/Mona_Lisa"
+    "u": "https://en.wikipedia.org/wiki/Mona_Lisa",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/960px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1341,
+     "page": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg",
+     "lic": "Public domain",
+     "cr": "Leonardo da Vinci, via Wikimedia Commons"
+    }
    },
    {
     "floor": 1,
@@ -171,7 +219,15 @@
     "people": [
      "napoleon"
     ],
-    "u": "https://en.wikipedia.org/wiki/The_Wedding_at_Cana"
+    "u": "https://en.wikipedia.org/wiki/The_Wedding_at_Cana",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/The_Wedding_at_Cana_by_Paolo_Veronese%2C_Muse%C3%A9_du_Louvre%2C_left_side%2C_taken_on_July_26%2C_2026.jpg/960px-The_Wedding_at_Cana_by_Paolo_Veronese%2C_Muse%C3%A9_du_Louvre%2C_left_side%2C_taken_on_July_26%2C_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 675,
+     "page": "https://commons.wikimedia.org/wiki/File:The_Wedding_at_Cana_by_Paolo_Veronese,_Muse%C3%A9_du_Louvre,_left_side,_taken_on_July_26,_2026.jpg",
+     "lic": "CC0",
+     "cr": "Abzeronow, via Wikimedia Commons"
+    }
    },
    {
     "floor": 1,
@@ -184,7 +240,15 @@
     "people": [
      "napoleon"
     ],
-    "u": "https://en.wikipedia.org/wiki/The_Coronation_of_Napoleon"
+    "u": "https://en.wikipedia.org/wiki/The_Coronation_of_Napoleon",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg/960px-Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 566,
+     "page": "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_The_Coronation_of_Napoleon_(1805-1807).jpg",
+     "lic": "Public domain",
+     "cr": "Jacques-Louis David / Georges Rouget, via Wikimedia Commons"
+    }
    },
    {
     "floor": 1,
@@ -195,7 +259,15 @@
     "story": "Critics laughed when it was shown in 1819: her back has two or three extra vertebrae. Ingres made her longer on purpose, for the line.",
     "look": "how long the back is",
     "people": [],
-    "u": "https://en.wikipedia.org/wiki/Grande_Odalisque"
+    "u": "https://en.wikipedia.org/wiki/Grande_Odalisque",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/T%C3%AAte_de_la_grande_odalisque_couch%C3%A9e_par_Jean-Auguste-Dominique_Ingres.jpg/960px-T%C3%AAte_de_la_grande_odalisque_couch%C3%A9e_par_Jean-Auguste-Dominique_Ingres.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1002,
+     "page": "https://commons.wikimedia.org/wiki/File:T%C3%AAte_de_la_grande_odalisque_couch%C3%A9e_par_Jean-Auguste-Dominique_Ingres.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "JackyM59, via Wikimedia Commons"
+    }
    },
    {
     "floor": 1,
@@ -208,7 +280,15 @@
     "people": [
      "victor-hugo"
     ],
-    "u": "https://en.wikipedia.org/wiki/Liberty_Leading_the_People"
+    "u": "https://en.wikipedia.org/wiki/Liberty_Leading_the_People",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg/960px-Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 712,
+     "page": "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg",
+     "lic": "Public domain",
+     "cr": "Eugène Delacroix, via Wikimedia Commons"
+    }
    },
    {
     "floor": 1,
@@ -219,7 +299,15 @@
     "story": "In 1816 a French navy ship ran aground off Africa, and 147 people were set adrift on a raft; 15 survived. Géricault interviewed survivors, studied corpses in a hospital and built a model of the raft to paint it.",
     "look": "the tiny ship on the horizon",
     "people": [],
-    "u": "https://en.wikipedia.org/wiki/The_Raft_of_the_Medusa"
+    "u": "https://en.wikipedia.org/wiki/The_Raft_of_the_Medusa",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg/960px-JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 614,
+     "page": "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg",
+     "lic": "Public domain",
+     "cr": "Théodore Géricault, via Wikimedia Commons"
+    }
    },
    {
     "floor": 1,
@@ -230,7 +318,15 @@
     "story": "A painted limestone scribe with eyes of rock crystal set in copper, so lifelike they seem to follow you. He was found at Saqqara in 1850. Nobody knows his name.",
     "look": "the eyes, from the side",
     "people": [],
-    "u": "https://en.wikipedia.org/wiki/Seated_Scribe"
+    "u": "https://en.wikipedia.org/wiki/Seated_Scribe",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/The_seated_scribe-E_3023-IMG_4267-gradient-contrast.jpg/960px-The_seated_scribe-E_3023-IMG_4267-gradient-contrast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 900,
+     "page": "https://commons.wikimedia.org/wiki/File:The_seated_scribe-E_3023-IMG_4267-gradient-contrast.jpg",
+     "lic": "CC BY-SA 3.0 fr",
+     "cr": "Rama, via Wikimedia Commons"
+    }
    }
   ]
  },

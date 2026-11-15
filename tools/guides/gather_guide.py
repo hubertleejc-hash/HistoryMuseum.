@@ -145,7 +145,7 @@ def extra():
     path = OUT / "extra.json"
     old = json.loads(path.read_text()) if path.exists() else {"commons": {}, "louvre": {}}
     for want in req.get("commons", []):
-        if want["key"] in old["commons"] and old["commons"][want["key"]].get("pic"):
+        if want["key"] in old["commons"] and (old["commons"][want["key"]].get("pic") or old["commons"][want["key"]].get("rejected")):
             continue
         print("commons", want["key"])
         pic, tried = commons(want)

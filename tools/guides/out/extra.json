@@ -379,40 +379,26 @@
    ]
   },
   "bm-enlightenment": {
-   "pic": {
-    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/The_Watchers_by_Hew_Locke%2C_British_Museum_Enlightenment_Gallry_03.jpg/960px-The_Watchers_by_Hew_Locke%2C_British_Museum_Enlightenment_Gallry_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 900,
-    "h": 836,
-    "page": "https://commons.wikimedia.org/wiki/File:The_Watchers_by_Hew_Locke,_British_Museum_Enlightenment_Gallry_03.jpg",
-    "lic": "CC0",
-    "cr": "14GTR, via Wikimedia Commons",
-    "file": "File:The Watchers by Hew Locke, British Museum Enlightenment Gallry 03.jpg"
-   },
+   "pic": null,
    "tried": [
     [
      "File:The Watchers by Hew Locke, British Museum Enlightenment Gallry 03.jpg",
      "CC0",
      3719
     ]
-   ]
+   ],
+   "rejected": "wrong subject (modern artwork / another museum's copy)"
   },
   "bm-portland": {
-   "pic": {
-    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Portland_vase_MET_DP104684.jpg/960px-Portland_vase_MET_DP104684.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 900,
-    "h": 900,
-    "page": "https://commons.wikimedia.org/wiki/File:Portland_vase_MET_DP104684.jpg",
-    "lic": "CC0",
-    "cr": "Wedgwood, via Wikimedia Commons",
-    "file": "File:Portland vase MET DP104684.jpg"
-   },
+   "pic": null,
    "tried": [
     [
      "File:Portland vase MET DP104684.jpg",
      "CC0",
      4000
     ]
-   ]
+   ],
+   "rejected": "wrong subject (modern artwork / another museum's copy)"
   },
   "bm-reading": {
    "pic": {
