@@ -17,7 +17,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "app" / "art" / "p"
 MAN = ROOT / "app" / "art" / "portraits.json"
-UA = "ContemporariesMuseumApp/1.0 (educational open-source app; portrait gatherer)"
+UA = "ContemporariesMuseum/1.0 (https://github.com/hubertleejc-hash/HistoryMuseum.; open-access art gatherer) python-urllib"
 OV = json.loads((Path(__file__).parent / "overrides.json").read_text())
 
 def get(url, raw=False, tries=6):

@@ -30,7 +30,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 ART = ROOT / "app" / "art"
-UA = "Contemporaries-museum-app/1.0 (open-access art gatherer; GitHub Actions)"
+UA = "ContemporariesMuseum/1.0 (https://github.com/hubertleejc-hash/HistoryMuseum.; open-access art gatherer) python-urllib"
 OVERRIDES = json.loads((Path(__file__).parent / "overrides.json").read_text())
 DENY = set(OVERRIDES.get("deny", []))
 ALLOW = set(OVERRIDES.get("allow", []))
