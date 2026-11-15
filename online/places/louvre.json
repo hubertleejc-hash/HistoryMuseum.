@@ -1,0 +1,68 @@
+{
+ "id": "louvre",
+ "n": "Musée du Louvre",
+ "short": "The Louvre",
+ "kind": "museum",
+ "where": "Paris",
+ "lat": 48.8606,
+ "lon": 2.3376,
+ "r": 350,
+ "rank": 1,
+ "blurb": "The most visited museum in the world, in a royal palace that grew for 800 years along the Seine.",
+ "facts": [
+  {
+   "h": "A fortress, a palace, then a museum",
+   "when": "1190 to 1793",
+   "lab": "verified",
+   "people": [
+    "louis-xiv"
+   ],
+   "t": "The Louvre began around 1200 as a fortress. Kings turned it into a palace, and when Louis XIV moved to Versailles it filled with artists and academies. The Revolution opened it to the public as a museum in 1793.",
+   "src": [
+    {
+     "n": "Wikipedia: Louvre Palace",
+     "u": "https://en.wikipedia.org/wiki/Louvre_Palace"
+    },
+    {
+     "n": "Wikipedia: Louvre",
+     "u": "https://en.wikipedia.org/wiki/Louvre"
+    }
+   ]
+  },
+  {
+   "h": "Napoleon's museum",
+   "when": "1803 to 1815",
+   "lab": "verified",
+   "people": [
+    "napoleon"
+   ],
+   "t": "Napoleon brought paintings and statues to the Louvre from the countries he conquered, and for a few years it was called the Musée Napoléon. After his fall in 1815 about 5,000 works were sent back, though not all; Veronese's Wedding at Cana stayed.",
+   "src": [
+    {
+     "n": "Wikipedia: Louvre",
+     "u": "https://en.wikipedia.org/wiki/Louvre"
+    },
+    {
+     "n": "Wikipedia: Napoleonic looting of art",
+     "u": "https://en.wikipedia.org/wiki/Napoleonic_looting_of_art"
+    }
+   ]
+  },
+  {
+   "h": "The glass pyramid",
+   "when": "1989",
+   "lab": "verified",
+   "t": "The architect I. M. Pei's glass pyramid opened in 1989 as a new main entrance. Many Parisians hated it at first, as they had once hated the Eiffel Tower.",
+   "src": [
+    {
+     "n": "Wikipedia: Louvre Pyramid",
+     "u": "https://en.wikipedia.org/wiki/Louvre_Pyramid"
+    },
+    {
+     "n": "Musée du Louvre",
+     "u": "https://www.louvre.fr/en"
+    }
+   ]
+  }
+ ]
+}

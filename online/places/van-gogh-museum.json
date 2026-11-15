@@ -1,0 +1,54 @@
+{
+ "id": "van-gogh-museum",
+ "n": "Van Gogh Museum",
+ "kind": "museum",
+ "where": "Amsterdam",
+ "lat": 52.3584,
+ "lon": 4.8811,
+ "r": 150,
+ "rank": 31,
+ "blurb": "The largest collection of Van Gogh's work in the world, kept by his family.",
+ "facts": [
+  {
+   "h": "The Potato Eaters",
+   "when": "1885",
+   "lab": "verified",
+   "people": [
+    "van-gogh"
+   ],
+   "t": "Van Gogh painted The Potato Eaters in Nuenen in 1885 and thought it his first real work. He wanted the peasants to look as if they had dug up the potatoes they were eating.",
+   "src": [
+    {
+     "n": "Wikipedia: The Potato Eaters",
+     "u": "https://en.wikipedia.org/wiki/The_Potato_Eaters"
+    },
+    {
+     "n": "Van Gogh Museum",
+     "u": "https://www.vangoghmuseum.nl/en"
+    }
+   ]
+  },
+  {
+   "h": "Saved by Jo",
+   "lab": "verified",
+   "people": [
+    "van-gogh"
+   ],
+   "go": [
+    "#place-amsterdam",
+    "Amsterdam"
+   ],
+   "t": "After Vincent and Theo died, Theo's widow Jo van Gogh-Bonger kept the paintings, published the letters and lent the works to exhibitions until he was famous. Her son gave the collection to the nation.",
+   "src": [
+    {
+     "n": "Wikipedia: Jo van Gogh-Bonger",
+     "u": "https://en.wikipedia.org/wiki/Jo_van_Gogh-Bonger"
+    },
+    {
+     "n": "Wikipedia: Van Gogh Museum",
+     "u": "https://en.wikipedia.org/wiki/Van_Gogh_Museum"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "id": "uffizi",
+ "n": "Uffizi Galleries",
+ "short": "The Uffizi",
+ "kind": "museum",
+ "where": "Florence",
+ "lat": 43.7678,
+ "lon": 11.2553,
+ "r": 200,
+ "rank": 10,
+ "blurb": "Offices built for the Medici in 1560, now holding the Renaissance at its best.",
+ "facts": [
+  {
+   "h": "Uffizi means offices",
+   "when": "1560 to 1737",
+   "lab": "verified",
+   "t": "Cosimo I de' Medici had Giorgio Vasari build the Uffizi from 1560 as offices for the magistrates of Florence. The Medici displayed their art on the top floor. The last of the family, Anna Maria Luisa, left it all to Florence in 1737, on condition it never leave the city.",
+   "src": [
+    {
+     "n": "Wikipedia: Uffizi",
+     "u": "https://en.wikipedia.org/wiki/Uffizi"
+    },
+    {
+     "n": "Uffizi Galleries",
+     "u": "https://www.uffizi.it/en"
+    }
+   ]
+  },
+  {
+   "h": "Leonardo's first great painting",
+   "when": "c. 1472 to 1481",
+   "lab": "verified",
+   "people": [
+    "leonardo"
+   ],
+   "go": [
+    "#place-florence",
+    "Florence"
+   ],
+   "t": "The Annunciation, painted around 1472 to 1476 while Leonardo was still in Verrocchio's workshop, hangs here, as does the Adoration of the Magi he left unfinished when he moved to Milan.",
+   "src": [
+    {
+     "n": "Wikipedia: Annunciation (Leonardo)",
+     "u": "https://en.wikipedia.org/wiki/Annunciation_(Leonardo)"
+    },
+    {
+     "n": "Wikipedia: Adoration of the Magi (Leonardo)",
+     "u": "https://en.wikipedia.org/wiki/Adoration_of_the_Magi_(Leonardo)"
+    }
+   ]
+  }
+ ]
+}

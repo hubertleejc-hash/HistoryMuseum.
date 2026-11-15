@@ -1,0 +1,47 @@
+{
+ "id": "samarkand",
+ "n": "Samarkand",
+ "kind": "city",
+ "where": "Uzbekistan",
+ "lat": 39.627,
+ "lon": 66.975,
+ "r": 6000,
+ "blurb": "A Silk Road city of blue domes.",
+ "facts": [
+  {
+   "h": "Alexander's Maracanda",
+   "when": "329 BC",
+   "lab": "likely",
+   "people": [
+    "alexander"
+   ],
+   "t": "Alexander the Great took the city, then called Maracanda, in 329 BC. Greek writers say that here, at a feast, he killed his friend Cleitus in a drunken rage.",
+   "src": [
+    {
+     "n": "Wikipedia: Samarkand",
+     "u": "https://en.wikipedia.org/wiki/Samarkand"
+    },
+    {
+     "n": "Wikipedia: Cleitus the Black",
+     "u": "https://en.wikipedia.org/wiki/Cleitus_the_Black"
+    }
+   ]
+  },
+  {
+   "h": "The Registan",
+   "when": "1417 to 1660",
+   "lab": "verified",
+   "t": "Three madrasas of the 1400s and 1600s, covered in tiles, face one square. Ulugh Beg, an astronomer-king, built the first and an observatory on the hill outside town.",
+   "src": [
+    {
+     "n": "Wikipedia: Registan",
+     "u": "https://en.wikipedia.org/wiki/Registan"
+    },
+    {
+     "n": "Wikipedia: Ulugh Beg Observatory",
+     "u": "https://en.wikipedia.org/wiki/Ulugh_Beg_Observatory"
+    }
+   ]
+  }
+ ]
+}

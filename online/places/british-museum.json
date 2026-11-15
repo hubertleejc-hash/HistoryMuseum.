@@ -1,0 +1,65 @@
+{
+ "id": "british-museum",
+ "n": "The British Museum",
+ "kind": "museum",
+ "where": "London",
+ "lat": 51.5194,
+ "lon": -0.127,
+ "r": 250,
+ "rank": 2,
+ "blurb": "The first national public museum in the world, free since it opened in 1759, with about eight million objects from every continent.",
+ "facts": [
+  {
+   "h": "Founded on one doctor's collection",
+   "when": "1753 to 1759",
+   "lab": "verified",
+   "t": "When the physician Hans Sloane died in 1753 he left 71,000 objects to the nation in return for £20,000 for his heirs. Parliament founded the museum to hold them, and it opened in 1759, free to all 'studious and curious persons'.",
+   "src": [
+    {
+     "n": "Wikipedia: British Museum",
+     "u": "https://en.wikipedia.org/wiki/British_Museum"
+    },
+    {
+     "n": "Wikipedia: Hans Sloane",
+     "u": "https://en.wikipedia.org/wiki/Hans_Sloane"
+    }
+   ]
+  },
+  {
+   "h": "Marx wrote Capital in the Reading Room",
+   "when": "1857 onwards",
+   "lab": "verified",
+   "people": [
+    "marx",
+    "gandhi",
+    "woolf"
+   ],
+   "t": "The round Reading Room under the great dome opened in 1857. Karl Marx worked there for years on Das Kapital, and Gandhi, Lenin and Virginia Woolf held reader's tickets too.",
+   "src": [
+    {
+     "n": "Wikipedia: British Museum Reading Room",
+     "u": "https://en.wikipedia.org/wiki/British_Museum_Reading_Room"
+    },
+    {
+     "n": "Wikipedia: Das Kapital",
+     "u": "https://en.wikipedia.org/wiki/Das_Kapital"
+    }
+   ]
+  },
+  {
+   "h": "Objects other countries ask for",
+   "lab": "verified",
+   "t": "Some of the most famous objects, like the Parthenon sculptures and the Benin Bronzes, were taken in ways many people now see as wrong, and Greece and Nigeria ask for them back. The museum's founding law limits what it can give away.",
+   "src": [
+    {
+     "n": "Wikipedia: Elgin Marbles",
+     "u": "https://en.wikipedia.org/wiki/Elgin_Marbles"
+    },
+    {
+     "n": "Wikipedia: Benin Bronzes",
+     "u": "https://en.wikipedia.org/wiki/Benin_Bronzes"
+    }
+   ]
+  }
+ ]
+}

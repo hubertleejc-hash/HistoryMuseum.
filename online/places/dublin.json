@@ -1,0 +1,47 @@
+{
+ "id": "dublin",
+ "n": "Dublin",
+ "kind": "city",
+ "where": "Ireland",
+ "lat": 53.3498,
+ "lon": -6.2603,
+ "r": 8000,
+ "blurb": "The city James Joyce left, and never stopped writing about.",
+ "facts": [
+  {
+   "h": "Bloomsday",
+   "when": "16 June 1904",
+   "lab": "verified",
+   "people": [
+    "joyce"
+   ],
+   "t": "Ulysses follows Leopold Bloom around Dublin on 16 June 1904, the day Joyce first went out with Nora Barnacle. Every year on 16 June readers retrace the route.",
+   "src": [
+    {
+     "n": "Wikipedia: Bloomsday",
+     "u": "https://en.wikipedia.org/wiki/Bloomsday"
+    },
+    {
+     "n": "Wikipedia: Ulysses (novel)",
+     "u": "https://en.wikipedia.org/wiki/Ulysses_(novel)"
+    }
+   ]
+  },
+  {
+   "h": "The Book of Kells",
+   "when": "c. 800",
+   "lab": "verified",
+   "t": "Trinity College Library shows a few pages at a time of the Book of Kells, a gospel book made by Irish monks around 800.",
+   "src": [
+    {
+     "n": "Wikipedia: Book of Kells",
+     "u": "https://en.wikipedia.org/wiki/Book_of_Kells"
+    },
+    {
+     "n": "Wikipedia: Trinity College Dublin",
+     "u": "https://en.wikipedia.org/wiki/Trinity_College_Dublin"
+    }
+   ]
+  }
+ ]
+}

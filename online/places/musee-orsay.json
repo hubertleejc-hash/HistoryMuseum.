@@ -1,0 +1,50 @@
+{
+ "id": "musee-orsay",
+ "n": "Musée d'Orsay",
+ "kind": "museum",
+ "where": "Paris",
+ "lat": 48.86,
+ "lon": 2.3266,
+ "r": 200,
+ "rank": 12,
+ "blurb": "A railway station of 1900, turned into the museum of the Impressionists.",
+ "facts": [
+  {
+   "h": "A station for the 1900 World's Fair",
+   "when": "1900 and 1986",
+   "lab": "verified",
+   "t": "The Gare d'Orsay was built for the 1900 Exposition. Its platforms became too short for modern trains, and after years of plans to knock it down it reopened as a museum in 1986. The big station clock still keeps time.",
+   "src": [
+    {
+     "n": "Wikipedia: Musée d'Orsay",
+     "u": "https://en.wikipedia.org/wiki/Musée_d'Orsay"
+    },
+    {
+     "n": "Musée d'Orsay",
+     "u": "https://www.musee-orsay.fr/en"
+    }
+   ]
+  },
+  {
+   "h": "Van Gogh, Monet, Renoir, Cézanne",
+   "lab": "verified",
+   "people": [
+    "van-gogh",
+    "monet",
+    "renoir",
+    "cezanne"
+   ],
+   "t": "It holds the world's largest Impressionist collection, including Renoir's dance at the Moulin de la Galette, Monet's Rouen Cathedral series and Van Gogh's swirling self-portrait from Saint-Rémy, 1889.",
+   "src": [
+    {
+     "n": "Wikipedia: Bal du moulin de la Galette",
+     "u": "https://en.wikipedia.org/wiki/Bal_du_moulin_de_la_Galette"
+    },
+    {
+     "n": "Wikipedia: Musée d'Orsay",
+     "u": "https://en.wikipedia.org/wiki/Musée_d'Orsay"
+    }
+   ]
+  }
+ ]
+}

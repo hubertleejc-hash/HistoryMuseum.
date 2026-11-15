@@ -1,0 +1,67 @@
+{
+ "id": "giza",
+ "n": "Pyramids of Giza",
+ "short": "Giza",
+ "kind": "site",
+ "where": "Giza, Egypt",
+ "lat": 29.9792,
+ "lon": 31.1342,
+ "r": 1500,
+ "blurb": "The last of the Seven Wonders of the ancient world still standing.",
+ "facts": [
+  {
+   "h": "The tallest building for almost 4,000 years",
+   "when": "c. 2560 BC",
+   "lab": "verified",
+   "go": [
+    "#e-great-pyramid",
+    "The Great Pyramid"
+   ],
+   "t": "The Great Pyramid was built for the pharaoh Khufu around 2560 BC. At about 146 metres it was the tallest structure made by people until Lincoln Cathedral's spire passed it around 1311.",
+   "src": [
+    {
+     "n": "Wikipedia: Great Pyramid of Giza",
+     "u": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"
+    },
+    {
+     "n": "UNESCO: Memphis and its Necropolis",
+     "u": "https://whc.unesco.org/en/list/86/"
+    }
+   ]
+  },
+  {
+   "h": "Built by paid workers, not slaves",
+   "lab": "likely",
+   "t": "Workers' villages and tombs found near the pyramids since the 1990s show the builders were organised Egyptian labourers who were fed bread, beer and meat, and buried with honour. The story of slaves building them comes from much later.",
+   "src": [
+    {
+     "n": "Wikipedia: Great Pyramid of Giza",
+     "u": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"
+    },
+    {
+     "n": "Wikipedia: Giza pyramid complex",
+     "u": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+    }
+   ]
+  },
+  {
+   "h": "Napoleon's scholars",
+   "when": "1798",
+   "lab": "verified",
+   "people": [
+    "napoleon"
+   ],
+   "t": "Napoleon's army reached Egypt in 1798 with 167 scholars, who measured the pyramids and drew everything for the great Description de l'Égypte. The story that his soldiers shot the Sphinx's nose off is false: drawings show it missing earlier.",
+   "src": [
+    {
+     "n": "Wikipedia: French campaign in Egypt and Syria",
+     "u": "https://en.wikipedia.org/wiki/French_campaign_in_Egypt_and_Syria"
+    },
+    {
+     "n": "Wikipedia: Great Sphinx of Giza",
+     "u": "https://en.wikipedia.org/wiki/Great_Sphinx_of_Giza"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "id": "israel-museum",
+ "n": "The Israel Museum",
+ "kind": "museum",
+ "where": "Jerusalem",
+ "lat": 31.7724,
+ "lon": 35.2042,
+ "r": 250,
+ "rank": 35,
+ "blurb": "Israel's largest cultural institution, home of the Dead Sea Scrolls.",
+ "facts": [
+  {
+   "h": "The Shrine of the Book",
+   "when": "1947 onwards",
+   "lab": "verified",
+   "go": [
+    "#place-jerusalem",
+    "Jerusalem"
+   ],
+   "t": "The Dead Sea Scrolls, found from 1947 in caves at Qumran, first by Bedouin shepherds, are the oldest known manuscripts of the Hebrew Bible. Their shrine has a white dome shaped like the lid of the jars they were found in.",
+   "src": [
+    {
+     "n": "Wikipedia: Shrine of the Book",
+     "u": "https://en.wikipedia.org/wiki/Shrine_of_the_Book"
+    },
+    {
+     "n": "Wikipedia: Dead Sea Scrolls",
+     "u": "https://en.wikipedia.org/wiki/Dead_Sea_Scrolls"
+    }
+   ]
+  }
+ ]
+}

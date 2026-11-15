@@ -1,0 +1,28 @@
+{
+ "id": "teotihuacan",
+ "n": "Teotihuacan",
+ "kind": "site",
+ "where": "Mexico",
+ "lat": 19.6925,
+ "lon": -98.8438,
+ "r": 3000,
+ "blurb": "A city of pyramids, already ancient and in ruins when the Aztecs found it.",
+ "facts": [
+  {
+   "h": "The place where gods were born",
+   "when": "c. 100 BC to AD 550",
+   "lab": "likely",
+   "t": "The Aztecs gave the ruined city its name, meaning the place where the gods were created. At its height around AD 450 it held perhaps 100,000 people. Nobody knows what its builders called it.",
+   "src": [
+    {
+     "n": "Wikipedia: Teotihuacan",
+     "u": "https://en.wikipedia.org/wiki/Teotihuacan"
+    },
+    {
+     "n": "UNESCO: Pre-Hispanic City of Teotihuacan",
+     "u": "https://whc.unesco.org/en/list/414/"
+    }
+   ]
+  }
+ ]
+}

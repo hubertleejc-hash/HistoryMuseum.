@@ -1,0 +1,34 @@
+{
+ "id": "v-and-a",
+ "n": "Victoria and Albert Museum",
+ "short": "The V&A",
+ "kind": "museum",
+ "where": "London",
+ "lat": 51.4966,
+ "lon": -0.1722,
+ "r": 200,
+ "rank": 51,
+ "blurb": "The world's largest museum of design and decorative arts, born from the Great Exhibition of 1851.",
+ "facts": [
+  {
+   "h": "Raphael's cartoons",
+   "when": "1515 and 1865",
+   "lab": "verified",
+   "people": [
+    "raphael",
+    "victoria"
+   ],
+   "t": "Raphael's full-size designs for tapestries for the Sistine Chapel, made in 1515 and 1516, belong to the King and have hung at the V&A since 1865, lent by Queen Victoria.",
+   "src": [
+    {
+     "n": "Wikipedia: Raphael Cartoons",
+     "u": "https://en.wikipedia.org/wiki/Raphael_Cartoons"
+    },
+    {
+     "n": "Wikipedia: Victoria and Albert Museum",
+     "u": "https://en.wikipedia.org/wiki/Victoria_and_Albert_Museum"
+    }
+   ]
+  }
+ ]
+}

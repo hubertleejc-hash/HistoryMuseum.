@@ -1,0 +1,54 @@
+{
+ "id": "stratford",
+ "n": "Stratford-upon-Avon",
+ "kind": "city",
+ "where": "England",
+ "lat": 52.1917,
+ "lon": -1.7083,
+ "r": 3000,
+ "blurb": "The market town where Shakespeare was born, married, and died.",
+ "facts": [
+  {
+   "h": "Birthplace on Henley Street",
+   "when": "1564",
+   "lab": "verified",
+   "people": [
+    "shakespeare"
+   ],
+   "t": "Shakespeare was baptised here on 26 April 1564 and grew up in his father's house on Henley Street, which has been visited by tourists since the 1700s.",
+   "src": [
+    {
+     "n": "Wikipedia: Shakespeare's Birthplace",
+     "u": "https://en.wikipedia.org/wiki/Shakespeare's_Birthplace"
+    },
+    {
+     "n": "Shakespeare Birthplace Trust",
+     "u": "https://www.shakespeare.org.uk/"
+    }
+   ]
+  },
+  {
+   "h": "A grave with a curse",
+   "when": "1616",
+   "lab": "likely",
+   "people": [
+    "shakespeare"
+   ],
+   "go": [
+    "#place-london",
+    "The Globe, London"
+   ],
+   "t": "He was buried in Holy Trinity Church in 1616. The stone over him warns 'curst be he that moves my bones'. In 2016 a radar survey suggested his skull may be missing.",
+   "src": [
+    {
+     "n": "Wikipedia: Holy Trinity Church, Stratford-upon-Avon",
+     "u": "https://en.wikipedia.org/wiki/Holy_Trinity_Church,_Stratford-upon-Avon"
+    },
+    {
+     "n": "Wikipedia: William Shakespeare",
+     "u": "https://en.wikipedia.org/wiki/William_Shakespeare"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "id": "shanghai",
+ "n": "Shanghai",
+ "kind": "city",
+ "where": "China",
+ "lat": 31.2304,
+ "lon": 121.4737,
+ "r": 20000,
+ "blurb": "A fishing town turned into Asia's great treaty port.",
+ "facts": [
+  {
+   "h": "Lu Xun's last home",
+   "when": "1927 to 1936",
+   "lab": "verified",
+   "people": [
+    "lu-xun"
+   ],
+   "t": "The writer Lu Xun spent his last ten years in Shanghai, in a terraced house on Shanyin Road, now a museum. He died in 1936; his tomb is in Lu Xun Park nearby.",
+   "src": [
+    {
+     "n": "Wikipedia: Lu Xun",
+     "u": "https://en.wikipedia.org/wiki/Lu_Xun"
+    },
+    {
+     "n": "Wikipedia: Lu Xun Park",
+     "u": "https://en.wikipedia.org/wiki/Lu_Xun_Park"
+    }
+   ]
+  },
+  {
+   "h": "The Bund",
+   "when": "1900s to 1930s",
+   "lab": "verified",
+   "go": [
+    "#e-opium-war",
+    "The Opium War"
+   ],
+   "t": "The riverfront of banks and trading houses was built mostly between the 1900s and 1930s, when foreign concessions ran much of the city under their own laws after the Opium Wars.",
+   "src": [
+    {
+     "n": "Wikipedia: The Bund",
+     "u": "https://en.wikipedia.org/wiki/The_Bund"
+    },
+    {
+     "n": "Wikipedia: Shanghai International Settlement",
+     "u": "https://en.wikipedia.org/wiki/Shanghai_International_Settlement"
+    }
+   ]
+  }
+ ]
+}

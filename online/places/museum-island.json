@@ -1,0 +1,45 @@
+{
+ "id": "museum-island",
+ "n": "Museum Island",
+ "kind": "museum",
+ "where": "Berlin",
+ "lat": 52.5208,
+ "lon": 13.3977,
+ "r": 400,
+ "rank": 21,
+ "blurb": "Five museums on an island in the Spree, a World Heritage Site.",
+ "facts": [
+  {
+   "h": "The Ishtar Gate of Babylon",
+   "when": "c. 575 BC",
+   "lab": "verified",
+   "t": "The blue glazed gate King Nebuchadnezzar II built around 575 BC was excavated in pieces and rebuilt in the Pergamon Museum. The Pergamon is closed for renovation from 2023 into the late 2020s, so check before you go.",
+   "src": [
+    {
+     "n": "Wikipedia: Ishtar Gate",
+     "u": "https://en.wikipedia.org/wiki/Ishtar_Gate"
+    },
+    {
+     "n": "Wikipedia: Pergamon Museum",
+     "u": "https://en.wikipedia.org/wiki/Pergamon_Museum"
+    }
+   ]
+  },
+  {
+   "h": "Nefertiti",
+   "when": "c. 1345 BC",
+   "lab": "verified",
+   "t": "The painted bust of Queen Nefertiti, found by a German team at Amarna in 1912, is in the Neues Museum. Egypt has long asked for it back.",
+   "src": [
+    {
+     "n": "Wikipedia: Nefertiti Bust",
+     "u": "https://en.wikipedia.org/wiki/Nefertiti_Bust"
+    },
+    {
+     "n": "Wikipedia: Neues Museum",
+     "u": "https://en.wikipedia.org/wiki/Neues_Museum"
+    }
+   ]
+  }
+ ]
+}

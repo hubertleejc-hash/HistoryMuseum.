@@ -1,0 +1,32 @@
+{
+ "id": "australian-museum",
+ "n": "Australian Museum",
+ "kind": "museum",
+ "where": "Sydney",
+ "lat": -33.8743,
+ "lon": 151.213,
+ "r": 150,
+ "rank": 44,
+ "blurb": "Australia's first museum, founded in 1827, with natural history and First Nations cultures.",
+ "facts": [
+  {
+   "h": "The first museum in Australia",
+   "when": "1827",
+   "lab": "verified",
+   "people": [
+    "james-cook"
+   ],
+   "t": "It was founded in 1827, only 39 years after the First Fleet arrived, to collect the strange animals and minerals of the colony. The voyages of James Cook had first brought Australian specimens to Europe.",
+   "src": [
+    {
+     "n": "Wikipedia: Australian Museum",
+     "u": "https://en.wikipedia.org/wiki/Australian_Museum"
+    },
+    {
+     "n": "Australian Museum",
+     "u": "https://australian.museum/"
+    }
+   ]
+  }
+ ]
+}

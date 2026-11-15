@@ -1,0 +1,75 @@
+{
+ "id": "st-petersburg",
+ "n": "St Petersburg",
+ "kind": "city",
+ "where": "Russia",
+ "lat": 59.9311,
+ "lon": 30.3609,
+ "r": 15000,
+ "blurb": "A capital built on a swamp by one tsar's will.",
+ "facts": [
+  {
+   "h": "Built from nothing in 1703",
+   "when": "1703",
+   "lab": "verified",
+   "people": [
+    "peter-the-great"
+   ],
+   "t": "Peter the Great founded the city in 1703 on marshland taken from Sweden, and made it the capital in 1712, his window on Europe.",
+   "src": [
+    {
+     "n": "Wikipedia: Saint Petersburg",
+     "u": "https://en.wikipedia.org/wiki/Saint_Petersburg"
+    },
+    {
+     "n": "Wikipedia: Peter the Great",
+     "u": "https://en.wikipedia.org/wiki/Peter_the_Great"
+    }
+   ]
+  },
+  {
+   "h": "The Bronze Horseman",
+   "when": "1782",
+   "lab": "verified",
+   "people": [
+    "catherine-the-great",
+    "peter-the-great"
+   ],
+   "go": [
+    "#place-hermitage",
+    "The Hermitage"
+   ],
+   "t": "Catherine the Great had this statue of Peter on a rearing horse put up in 1782. It stands on a single granite boulder, the Thunder Stone, dragged to the city over two years.",
+   "src": [
+    {
+     "n": "Wikipedia: Bronze Horseman",
+     "u": "https://en.wikipedia.org/wiki/Bronze_Horseman"
+    },
+    {
+     "n": "Wikipedia: Thunder Stone",
+     "u": "https://en.wikipedia.org/wiki/Thunder_Stone"
+    }
+   ]
+  },
+  {
+   "h": "Dostoevsky's streets",
+   "when": "1866 to 1881",
+   "lab": "verified",
+   "people": [
+    "dostoevsky",
+    "tchaikovsky"
+   ],
+   "t": "Dostoevsky set Crime and Punishment in the streets around the Haymarket, where he lived, and died in his flat on Kuznechny Lane in 1881.",
+   "src": [
+    {
+     "n": "Wikipedia: Crime and Punishment",
+     "u": "https://en.wikipedia.org/wiki/Crime_and_Punishment"
+    },
+    {
+     "n": "Wikipedia: Fyodor Dostoevsky",
+     "u": "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky"
+    }
+   ]
+  }
+ ]
+}

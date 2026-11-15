@@ -1,0 +1,36 @@
+{
+ "id": "musee-orangerie",
+ "n": "Musée de l'Orangerie",
+ "kind": "museum",
+ "where": "Paris",
+ "lat": 48.8638,
+ "lon": 2.3227,
+ "r": 120,
+ "rank": 48,
+ "blurb": "Monet's Water Lilies, in two oval rooms lit by the sky.",
+ "facts": [
+  {
+   "h": "A gift for peace",
+   "when": "1918 to 1927",
+   "lab": "verified",
+   "people": [
+    "monet"
+   ],
+   "go": [
+    "#e-ww1",
+    "The First World War"
+   ],
+   "t": "On 12 November 1918, the day after the Armistice, Monet offered two paintings to France as a monument to peace. The gift grew into eight huge Water Lilies panels, installed here in 1927, a few months after he died.",
+   "src": [
+    {
+     "n": "Wikipedia: Water Lilies (Monet series)",
+     "u": "https://en.wikipedia.org/wiki/Water_Lilies_(Monet_series)"
+    },
+    {
+     "n": "Musée de l'Orangerie",
+     "u": "https://www.musee-orangerie.fr/en"
+    }
+   ]
+  }
+ ]
+}

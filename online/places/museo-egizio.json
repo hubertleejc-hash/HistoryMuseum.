@@ -1,0 +1,32 @@
+{
+ "id": "museo-egizio",
+ "n": "Museo Egizio",
+ "kind": "museum",
+ "where": "Turin",
+ "lat": 45.0684,
+ "lon": 7.6844,
+ "r": 150,
+ "rank": 29,
+ "blurb": "The oldest museum in the world devoted entirely to ancient Egypt.",
+ "facts": [
+  {
+   "h": "Champollion's workshop",
+   "when": "1824",
+   "lab": "verified",
+   "people": [
+    "napoleon"
+   ],
+   "t": "The king of Sardinia bought the collection of Napoleon's consul in Egypt, Bernardino Drovetti, in 1824. That same year Jean-François Champollion, who had just cracked the hieroglyphs, came to study its papyri.",
+   "src": [
+    {
+     "n": "Wikipedia: Museo Egizio",
+     "u": "https://en.wikipedia.org/wiki/Museo_Egizio"
+    },
+    {
+     "n": "Wikipedia: Jean-François Champollion",
+     "u": "https://en.wikipedia.org/wiki/Jean-François_Champollion"
+    }
+   ]
+  }
+ ]
+}

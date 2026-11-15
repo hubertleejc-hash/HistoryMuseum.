@@ -1,0 +1,29 @@
+{
+ "id": "deutsches-museum",
+ "n": "Deutsches Museum",
+ "kind": "museum",
+ "where": "Munich",
+ "lat": 48.1299,
+ "lon": 11.5834,
+ "r": 250,
+ "rank": 53,
+ "blurb": "One of the largest museums of science and technology in the world, on an island in the Isar.",
+ "facts": [
+  {
+   "h": "Founded by an engineer",
+   "when": "1903 to 1925",
+   "lab": "verified",
+   "t": "Oskar von Miller founded it in 1903 to show the masterpieces of science and technology. It opened on the Museumsinsel in 1925. Among its treasures are Karl Benz's first motor car of 1886 and Rudolf Diesel's first working engine of 1897.",
+   "src": [
+    {
+     "n": "Wikipedia: Deutsches Museum",
+     "u": "https://en.wikipedia.org/wiki/Deutsches_Museum"
+    },
+    {
+     "n": "Deutsches Museum",
+     "u": "https://www.deutsches-museum.de/en"
+    }
+   ]
+  }
+ ]
+}

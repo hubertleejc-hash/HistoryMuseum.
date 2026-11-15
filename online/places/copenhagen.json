@@ -1,0 +1,51 @@
+{
+ "id": "copenhagen",
+ "n": "Copenhagen",
+ "kind": "city",
+ "where": "Denmark",
+ "lat": 55.6761,
+ "lon": 12.5683,
+ "r": 8000,
+ "blurb": "The city of Hans Christian Andersen and the Little Mermaid.",
+ "facts": [
+  {
+   "h": "The Little Mermaid",
+   "when": "1837 and 1913",
+   "lab": "verified",
+   "people": [
+    "andersen"
+   ],
+   "t": "Andersen published The Little Mermaid in 1837. The bronze statue on the Langelinie was given to the city by the brewer Carl Jacobsen in 1913.",
+   "src": [
+    {
+     "n": "Wikipedia: The Little Mermaid (statue)",
+     "u": "https://en.wikipedia.org/wiki/The_Little_Mermaid_(statue)"
+    },
+    {
+     "n": "Wikipedia: Hans Christian Andersen",
+     "u": "https://en.wikipedia.org/wiki/Hans_Christian_Andersen"
+    }
+   ]
+  },
+  {
+   "h": "Bohr's institute",
+   "when": "1921",
+   "lab": "verified",
+   "people": [
+    "bohr",
+    "einstein"
+   ],
+   "t": "Niels Bohr's Institute for Theoretical Physics opened in 1921 and became the meeting place for the founders of quantum theory.",
+   "src": [
+    {
+     "n": "Wikipedia: Niels Bohr Institute",
+     "u": "https://en.wikipedia.org/wiki/Niels_Bohr_Institute"
+    },
+    {
+     "n": "Wikipedia: Niels Bohr",
+     "u": "https://en.wikipedia.org/wiki/Niels_Bohr"
+    }
+   ]
+  }
+ ]
+}

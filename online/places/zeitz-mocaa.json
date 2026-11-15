@@ -1,0 +1,29 @@
+{
+ "id": "zeitz-mocaa",
+ "n": "Zeitz MOCAA",
+ "kind": "museum",
+ "where": "Cape Town",
+ "lat": -33.9085,
+ "lon": 18.4227,
+ "r": 150,
+ "rank": 40,
+ "blurb": "The largest museum of contemporary African art, carved out of a grain silo.",
+ "facts": [
+  {
+   "h": "Galleries cut from concrete tubes",
+   "when": "2017",
+   "lab": "verified",
+   "t": "The 42 tubes of a 1920s grain silo on the V&A Waterfront were sliced through to make an atrium shaped like a grain of corn. The museum opened in 2017.",
+   "src": [
+    {
+     "n": "Wikipedia: Zeitz Museum of Contemporary Art Africa",
+     "u": "https://en.wikipedia.org/wiki/Zeitz_Museum_of_Contemporary_Art_Africa"
+    },
+    {
+     "n": "Zeitz MOCAA",
+     "u": "https://zeitzmocaa.museum/"
+    }
+   ]
+  }
+ ]
+}

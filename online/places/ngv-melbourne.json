@@ -1,0 +1,33 @@
+{
+ "id": "ngv-melbourne",
+ "n": "National Gallery of Victoria",
+ "kind": "museum",
+ "where": "Melbourne",
+ "lat": -37.8226,
+ "lon": 144.9689,
+ "r": 200,
+ "rank": 36,
+ "blurb": "Australia's oldest and most visited art museum, founded in 1861.",
+ "facts": [
+  {
+   "h": "Cleopatra's banquet",
+   "when": "1743 to 1744",
+   "lab": "verified",
+   "people": [
+    "cleopatra",
+    "catherine-the-great"
+   ],
+   "t": "Giambattista Tiepolo's Banquet of Cleopatra, painted around 1743 to 1744, shows a story Pliny told, probably a legend: Cleopatra won a bet by dissolving a pearl in vinegar and drinking it. Catherine the Great once owned it; the Soviet government sold it to Melbourne in 1932.",
+   "src": [
+    {
+     "n": "Wikipedia: The Banquet of Cleopatra (Tiepolo)",
+     "u": "https://en.wikipedia.org/wiki/The_Banquet_of_Cleopatra_(Tiepolo)"
+    },
+    {
+     "n": "NGV",
+     "u": "https://www.ngv.vic.gov.au/"
+    }
+   ]
+  }
+ ]
+}

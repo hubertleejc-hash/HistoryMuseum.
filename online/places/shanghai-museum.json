@@ -1,0 +1,29 @@
+{
+ "id": "shanghai-museum",
+ "n": "Shanghai Museum",
+ "kind": "museum",
+ "where": "Shanghai",
+ "lat": 31.2286,
+ "lon": 121.4752,
+ "r": 200,
+ "rank": 25,
+ "blurb": "Ancient Chinese bronzes, ceramics and paintings, in a building shaped like an ancient cooking vessel.",
+ "facts": [
+  {
+   "h": "A building like a bronze ding",
+   "when": "1996",
+   "lab": "verified",
+   "t": "The museum on People's Square, opened in 1996, has a round top on a square base, after the old Chinese idea of a round heaven over a square earth. Seen from afar it looks like a bronze ding.",
+   "src": [
+    {
+     "n": "Wikipedia: Shanghai Museum",
+     "u": "https://en.wikipedia.org/wiki/Shanghai_Museum"
+    },
+    {
+     "n": "Shanghai Museum",
+     "u": "https://www.shanghaimuseum.net/mu/frontend/pg/en/index"
+    }
+   ]
+  }
+ ]
+}

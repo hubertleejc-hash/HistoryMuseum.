@@ -1,0 +1,51 @@
+{
+ "id": "musee-rodin",
+ "n": "Musée Rodin",
+ "kind": "museum",
+ "where": "Paris",
+ "lat": 48.8553,
+ "lon": 2.3158,
+ "r": 150,
+ "rank": 49,
+ "blurb": "Rodin's studio house and rose garden, with The Thinker outside.",
+ "facts": [
+  {
+   "h": "His gift to France",
+   "when": "1916 to 1919",
+   "lab": "verified",
+   "people": [
+    "rodin"
+   ],
+   "t": "Rodin gave all his works and his own collection to the state in 1916, on condition that the Hôtel Biron, where he worked, become his museum. It opened in 1919, two years after his death.",
+   "src": [
+    {
+     "n": "Wikipedia: Musée Rodin",
+     "u": "https://en.wikipedia.org/wiki/Musée_Rodin"
+    },
+    {
+     "n": "Musée Rodin",
+     "u": "https://www.musee-rodin.fr/en"
+    }
+   ]
+  },
+  {
+   "h": "A room for Camille Claudel",
+   "lab": "verified",
+   "people": [
+    "claudel",
+    "rodin"
+   ],
+   "t": "The museum has a room of sculptures by Camille Claudel, Rodin's student, model and lover, whose own work was overshadowed by his for a century.",
+   "src": [
+    {
+     "n": "Wikipedia: Camille Claudel",
+     "u": "https://en.wikipedia.org/wiki/Camille_Claudel"
+    },
+    {
+     "n": "Wikipedia: Musée Rodin",
+     "u": "https://en.wikipedia.org/wiki/Musée_Rodin"
+    }
+   ]
+  }
+ ]
+}
