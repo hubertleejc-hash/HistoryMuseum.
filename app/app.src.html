@@ -802,6 +802,36 @@ html.hinged .big-title, html.hinged .w-regions, html.hinged .w-dial{max-width:ca
 .av-cred{font-size:12.5px; color:#958A76; margin-top:16px; border-top:1px solid rgba(237,227,207,.1); padding-top:12px}
 .av-note{font-size:12.5px; color:#B9AE98; text-align:center; position:absolute; left:0; right:0; top:calc(env(safe-area-inset-top, 0px) + 64px); pointer-events:none}
 .av .lab{color:inherit}
+/* ---------- Today in history ---------- */
+.td{display:flex; flex-direction:column; gap:22px; animation:tdIn .5s ease both}
+@keyframes tdIn{from{opacity:0; transform:translateY(8px)}to{opacity:1; transform:none}}
+@media (prefers-reduced-motion: reduce){.td{animation:none}}
+.td-top{display:flex; align-items:flex-start; justify-content:space-between; gap:12px}
+.td-top h1{font-size:40px; line-height:1.05; margin:6px 0 0}
+.td-top .wd{color:var(--ink-3); font-size:14px; margin-top:4px}
+.td-skip{background:none; border:0; color:var(--ink-3); font:500 15px var(--ui); padding:10px 4px; cursor:pointer}
+.td-hero{display:grid; grid-template-columns:minmax(0,1fr); border-radius:22px; overflow:hidden; background:var(--surface); border:1px solid var(--rule); box-shadow:var(--shadow); color:var(--ink)}
+.td-hero:hover{text-decoration:none}
+.td-hero .ph{aspect-ratio:4/3; background:color-mix(in srgb, var(--fc) 22%, var(--sunk)); display:flex; align-items:center; justify-content:center; font:600 54px var(--display); color:var(--ink-2); overflow:hidden}
+.td-hero .ph img{width:100%; height:100%; object-fit:cover; object-position:center 22%}
+.td-hero .tx{padding:16px 18px 18px; display:flex; flex-direction:column; gap:6px}
+.td-n{font:600 30px/1.05 var(--display); color:var(--gold)}
+.td-n small{font:500 13px var(--ui); color:var(--ink-3); margin-left:6px; letter-spacing:0}
+.td-hero h2{font-size:24px; margin:0}
+.td-hero p{margin:0; color:var(--ink-2)}
+.td-tag{align-self:flex-start; font:600 11px/1 var(--ui); letter-spacing:.08em; text-transform:uppercase; color:var(--ink-3); border:1px solid var(--rule); border-radius:999px; padding:5px 8px}
+.td-list{display:flex; flex-direction:column; border-top:1px solid var(--rule)}
+.td-row{display:flex; align-items:center; gap:14px; padding:12px 2px; border-bottom:1px solid var(--rule); color:var(--ink)}
+.td-row:hover{text-decoration:none; background:var(--accent-soft)}
+.td-row .td-av{width:48px; height:48px; flex:none; border-radius:50%; overflow:hidden; background:color-mix(in srgb, var(--fc) 24%, var(--sunk)); display:flex; align-items:center; justify-content:center; font:600 15px var(--display); color:var(--ink)}
+.td-row .td-av img{width:100%; height:100%; object-fit:cover; object-position:center 20%}
+.td-row b{display:block; font:600 16px/1.25 var(--display)}
+.td-row span.s{display:block; color:var(--ink-3); font-size:13.5px; margin-top:2px}
+.td-row .yr{margin-left:auto; text-align:right; font:600 17px/1 var(--display); color:var(--gold); white-space:nowrap}
+.td-row .yr small{display:block; font:500 11px var(--ui); color:var(--ink-3); margin-top:3px}
+.td-go{display:block; width:100%; border:0; border-radius:16px; padding:15px; background:var(--accent); color:var(--accent-ink); font:600 16px var(--ui); cursor:pointer}
+.td-note{font-size:12.5px; color:var(--ink-3); margin:0}
+@media (min-width:760px){.td-hero{grid-template-columns:minmax(0,5fr) minmax(0,6fr)} .td-hero .ph{aspect-ratio:auto; min-height:260px} .td-hero .tx{justify-content:center; padding:24px}}
 </style>
 <script>/* light or dark follows the phone's own setting */
 (function(){var m=window.matchMedia&&matchMedia("(prefers-color-scheme: dark)");document.documentElement.setAttribute("data-theme",m&&!m.matches?"light":"dark")})();</script>
@@ -2954,6 +2984,7 @@ function viewWorld(){
   view.innerHTML = `
   <section class="world">
     <div class="big-title"><div><span class="eyebrow" style="color:var(--accent)">Contemporaries</span><h1>World</h1></div>
+      <a class="icon-btn" href="#today" aria-label="Today in history" style="margin-left:auto;margin-right:8px;text-decoration:none"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="4" y="5.5" width="16" height="14.5" rx="2.5"/><path d="M4 10h16M8.5 3.5v4M15.5 3.5v4"/></svg></a>
       <button class="icon-btn" data-search aria-label="Search the museum"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg></button></div>
     <div class="w-regions" role="group" aria-label="Zoom to">${W_REG_N.map(([k, n]) => `<button class="chip" data-wreg="${k}" aria-pressed="${k === wRegion}">${n}</button>`).join("")}</div>
     <div class="w-stage" id="wStage">
@@ -3180,10 +3211,88 @@ function closeSearch(){ const sh = document.getElementById("searchSheet"); if (s
 document.getElementById("ssClose").addEventListener("click", closeSearch);
 document.addEventListener("keydown", e => { if (e.key === "Escape") { closeSearch(); if (wHallId) closeHall(); } });
 
+/* ---------- Today in history ----------
+   The first page after the launch, once a day: people of the museum born or who died on today's date
+   (exact days from Wikidata, app/today.js), round anniversaries first, then nearby days this week, then
+   round anniversaries this year (years only). Everything is in the app: it works offline. */
+const DAYS = H.days || {};
+const MON = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const ROUND = [2000, 1500, 1000, 750, 500, 400, 300, 250, 200, 150, 100, 75, 50, 25];
+const yearsSince = (y, now) => astro(now) - astro(y);
+const roundOf = n => ROUND.find(r => n === r) || 0;
+const isLeap = y => (y % 4 === 0 && y % 100 !== 0) || y % 400 === 0;
+/* every exact day in the museum, as {p, k:"b"|"d", m, d, j, y} */
+function dayItems(){
+  const out = [];
+  for (const id in DAYS) {
+    const p = P.get(id); if (!p || p.a) continue;            // approximate people never get an exact day
+    for (const k of ["b", "d"]) { const v = DAYS[id][k]; if (!v || (k === "d" && p.alive)) continue;
+      out.push({p, k, m: v[0], d: v[1], j: v[2] === "j", y: k === "b" ? p.b : p.d, q: DAYS[id].q}); }
+  }
+  return out;
+}
+/* Feb 29 days are kept on Feb 28 in years without a Feb 29 */
+const onDay = (it, m, d, yr) => (it.m === m && it.d === d) || (!isLeap(yr) && it.m === 2 && it.d === 29 && m === 2 && d === 28);
+function todayPicks(date){
+  const yr = date.getFullYear(), m = date.getMonth() + 1, d = date.getDate(), all = dayItems();
+  const score = it => { const n = yearsSince(it.y, yr), r = roundOf(n); return (r ? 10000 + r : 0) + (CH[it.p.id] ? 500 : 0) + (portraitOf(it.p) ? 200 : 0) + (it.k === "d" ? 1 : 0); };
+  const exact = all.filter(it => onDay(it, m, d, yr)).sort((a, b) => score(b) - score(a));
+  const week = [];
+  for (let off = -3; off <= 3; off++) { if (!off) continue;
+    const x = new Date(yr, m - 1, d + off);
+    all.filter(it => onDay(it, x.getMonth() + 1, x.getDate(), x.getFullYear())).forEach(it => week.push({...it, off, when: x}));
+  }
+  week.sort((a, b) => Math.abs(a.off) - Math.abs(b.off) || score(b) - score(a));
+  const seen = new Set(exact.map(it => it.p.id));
+  const thisYear = [];
+  for (const p of H.people) for (const k of ["b", "d"]) {
+    const y = k === "b" ? p.b : p.d; if (y == null || (k === "d" && p.alive)) continue;
+    const n = yearsSince(y, yr), r = roundOf(n); if (r && r >= 50 && !seen.has(p.id)) thisYear.push({p, k, y, n});
+  }
+  thisYear.sort((a, b) => b.n - a.n || (CH[b.p.id] ? 1 : 0) - (CH[a.p.id] ? 1 : 0));
+  return {exact, week: week.filter(it => !seen.has(it.p.id)).slice(0, 6), thisYear: thisYear.slice(0, 8)};
+}
+const avHTML = p => { const ph = portraitOf(p); return `<span class="td-av" style="${fc(p.f)}">${ph ? `<img src="${esc(ph)}" alt="" loading="lazy">` : esc(initials(p.n))}</span>`; };
+const nYears = n => n.toLocaleString("en-US") + (n === 1 ? " year" : " years");
+function viewToday(){
+  const now = new Date(), yr = now.getFullYear(), {exact, week, thisYear} = todayPicks(now);
+  const lead = exact[0], rest = exact.slice(1, 6);
+  const tag = it => it.j ? `<span class="td-tag">Julian calendar date</span>` : "";
+  const heroHTML = it => { const ph = portraitOf(it.p), n = yearsSince(it.y, yr);
+    return `<a class="td-hero" href="#p-${it.p.id}" data-tdgo style="${fc(it.p.f)}">
+      <div class="ph">${ph ? `<img src="${esc(ph)}" alt="">` : esc(initials(it.p.n))}</div>
+      <div class="tx"><span class="eyebrow">${it.k === "b" ? "Born" : "Died"} ${it.j ? "on this date" : "today"}, ${fy(it.y)}</span>
+        <h2>${esc(it.p.n)}</h2>
+        <div class="td-n">${nYears(n)} ago</div><p>${esc(it.p.bio)}</p>${tag(it)}</div></a>`; };
+  const row = (it, right, sub) => `<a class="td-row" href="#p-${it.p.id}" data-tdgo style="${fc(it.p.f)}">${avHTML(it.p)}<span><b>${esc(it.p.n)}</b><span class="s">${sub}</span></span><span class="yr">${right}</span></a>`;
+  const wd = now.toLocaleDateString("en-US", {weekday: "long"});
+  view.innerHTML = `
+  <section class="td" aria-label="Today in history">
+    <div class="td-top"><div><span class="eyebrow" style="color:var(--accent)">Today in history</span><h1>${now.getDate()} ${MON[now.getMonth()]}</h1><div class="wd">${wd}, ${yr}</div></div>
+      <button class="td-skip" data-tdskip>Skip</button></div>
+    ${lead ? heroHTML(lead) : `<p class="lede" style="margin:0;color:var(--ink-2)">No one in the museum has a recorded birthday or death on this exact date. Here is who is close by, and whose anniversaries fall this year.</p>`}
+    ${rest.length ? `<div><div class="sec-head"><h2>Also on ${now.getDate()} ${MON[now.getMonth()]}</h2></div><div class="td-list">${rest.map(it => row(it, `${nYears(yearsSince(it.y, yr))}<small>ago</small>`, `${it.k === "b" ? "Born" : "Died"} ${fy(it.y)}${it.j ? " · Julian date" : ""}`)).join("")}</div></div>` : ""}
+    ${week.length ? `<div><div class="sec-head"><h2>This week</h2></div><div class="td-list">${week.map(it => row(it, `${it.when.getDate()} ${MON[it.when.getMonth()].slice(0, 3)}<small>${it.off < 0 ? (it.off === -1 ? "yesterday" : -it.off + " days ago") : (it.off === 1 ? "tomorrow" : "in " + it.off + " days")}</small>`, `${it.k === "b" ? "Born" : "Died"} ${fy(it.y)}, ${nYears(yearsSince(it.y, yr))} ago${it.j ? " · Julian date" : ""}`)).join("")}</div></div>` : ""}
+    ${thisYear.length ? `<div><div class="sec-head"><h2>Round anniversaries in ${yr}</h2></div><div class="td-list">${thisYear.map(it => row(it, `${it.n.toLocaleString("en-US")}<small>years</small>`, `${it.k === "b" ? "Born" : "Died"} ${fy(it.y, it.p.a)}${it.p.a ? ", the year is approximate" : ""}`)).join("")}</div></div>` : ""}
+    <button class="td-go" data-tdskip>Enter the museum</button>
+    <p class="td-note">Exact days come from Wikidata (free, CC0) and are shown only when they agree with the museum's own years. Days before the 1580s are usually given in the Julian calendar, so "on this date" is not quite the same day of the year as today. People whose dates are uncertain appear only under the year.</p>
+  </section>`;
+}
+const todaySeen = () => store.set("ctm-today", today());
+view.addEventListener("click", ev => {
+  if (ev.target.closest("[data-tdskip]")) { todaySeen(); haptic("select"); location.replace("#world"); }
+  else if (ev.target.closest("[data-tdgo]")) todaySeen();
+});
+/* First open of the day, with no page asked for (screenshot runs pass -route): start on Today. */
+if (!location.hash && store.get("ctm-today") !== today() && Object.keys(DAYS).length) history.replaceState(null, "", "#today");
+
 /* ---------- router ---------- */
 const PLAY_VIEWS = {degrees:viewDegrees, race:viewRace, cards:viewCards, you:viewYou, whatif:viewWhatIf};
+let lastH = null;
 function route(){
   let h = decodeURIComponent(location.hash.slice(1)) || "world", sec = null;
+  if (lastH === "today" && h !== "today") todaySeen();
+  lastH = h;
   const at = h.indexOf("@"); if (at > -1) { sec = h.slice(at + 1); h = h.slice(0, at); }
   stopMusic(); clearInterval(raceTimer); closeSearch();
   /* inside the Gallery, opening or closing a work does not redraw the page */
@@ -3220,6 +3329,7 @@ function route(){
   else if (PLAY_VIEWS[h]) PLAY_VIEWS[h]();
   else if (h === "timeline") viewTimeline();
   else if (h === "library") viewLibrary();
+  else if (h === "today") viewToday();
   else viewWorld();
   window.scrollTo(0, 0);
   if (sec) scrollToSec(sec);
