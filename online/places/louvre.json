@@ -64,5 +64,175 @@
     }
    ]
   }
- ]
+ ],
+ "guide": {
+  "n": "The Louvre in one hour",
+  "mins": 60,
+  "room": "Room",
+  "floors": {
+   "0": "Level 0",
+   "1": "Level 1"
+  },
+  "intro": "Twelve works in walking order, starting with Mesopotamia and Greece on level 0, then up the Daru staircase to the Winged Victory and the great paintings. The Mona Lisa room gets crowded; go early or late.",
+  "note": "Room numbers from the Louvre's collections site where it gives one, checked 15 November 2026. Rooms close and works move; the Louvre's app and the guards know where things are today.",
+  "src": [
+   {
+    "n": "Louvre collections database",
+    "u": "https://collections.louvre.fr/en/"
+   },
+   {
+    "n": "Musée du Louvre: plan your visit",
+    "u": "https://www.louvre.fr/en"
+   },
+   {
+    "n": "Wikipedia: Louvre",
+    "u": "https://en.wikipedia.org/wiki/Louvre"
+   }
+  ],
+  "stops": [
+   {
+    "floor": 0,
+    "gal": "229",
+    "t": "Winged bulls of Khorsabad",
+    "by": "Assyrian",
+    "date": "c. 713 to 706 BC",
+    "story": "These human-headed winged bulls guarded a gate of King Sargon II's palace at Khorsabad, in today's Iraq. Each weighs about 30 tonnes. Count the legs: five, so they look right both from the front and from the side.",
+    "look": "the fifth leg",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Lamassu"
+   },
+   {
+    "floor": 0,
+    "gal": "227",
+    "t": "The Code of Hammurabi",
+    "by": "Babylonian",
+    "date": "c. 1754 BC",
+    "story": "King Hammurabi of Babylon had 282 laws carved on this basalt pillar, under a picture of himself before the sun god. 'An eye for an eye' is here, about 1,000 years before it appears in the Bible. French archaeologists found it in Susa, Iran, in 1901.",
+    "look": "the king and the god at the top",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Code_of_Hammurabi"
+   },
+   {
+    "floor": 0,
+    "gal": "345",
+    "t": "Venus de Milo",
+    "by": "Greek",
+    "date": "c. 150 to 125 BC",
+    "story": "A farmer found her on the Greek island of Milos in 1820, and the French ambassador bought her for the king. Her arms were never found. She is probably Aphrodite, though some think she is the sea goddess Amphitrite.",
+    "look": "the twist of the body, and the line where the two blocks of marble meet",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Venus_de_Milo"
+   },
+   {
+    "floor": 0,
+    "gal": "403",
+    "t": "Dying Slave",
+    "by": "Michelangelo",
+    "date": "1513 to 1516",
+    "story": "Carved for the tomb of Pope Julius II, which shrank again and again over 40 years. Michelangelo gave this figure and its pair, the Rebellious Slave, to a friend. Nobody agrees whether he is dying, sleeping or waking.",
+    "look": "the unfinished monkey behind his leg",
+    "people": [
+     "michelangelo"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Dying_Slave"
+   },
+   {
+    "floor": 1,
+    "gal": "703",
+    "t": "Winged Victory of Samothrace",
+    "by": "Greek",
+    "date": "c. 190 BC",
+    "story": "Nike, goddess of victory, lands on the prow of a warship, her dress blown against her by the sea wind. She was found in pieces on the island of Samothrace in 1863. Her head and arms are lost; a hand found later is in a case nearby.",
+    "look": "the wind in the dress",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Winged_Victory_of_Samothrace"
+   },
+   {
+    "floor": 1,
+    "gal": "711",
+    "t": "Mona Lisa",
+    "by": "Leonardo da Vinci",
+    "date": "c. 1503 to 1519",
+    "story": "Leonardo began the portrait of Lisa Gherardini, a Florentine silk merchant's wife, in 1503, and was still working on it when he died in France. It is smaller than people expect, 77 by 53 centimetres. Turn around afterwards: the largest painting in the Louvre is behind you.",
+    "look": "the two different landscapes on either side of her",
+    "people": [
+     "leonardo"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Mona_Lisa"
+   },
+   {
+    "floor": 1,
+    "gal": "711",
+    "t": "The Wedding at Cana",
+    "by": "Paolo Veronese",
+    "date": "1562 to 1563",
+    "story": "Veronese filled ten metres of canvas with about 130 guests. Tradition says the musicians in front are Veronese himself, Titian and other Venetian painters. Napoleon's soldiers cut it from a Venetian monastery in 1797. It was never sent back.",
+    "look": "the musicians in the middle",
+    "people": [
+     "napoleon"
+    ],
+    "u": "https://en.wikipedia.org/wiki/The_Wedding_at_Cana"
+   },
+   {
+    "floor": 1,
+    "gal": "702",
+    "t": "The Coronation of Napoleon",
+    "by": "Jacques-Louis David",
+    "date": "1805 to 1807",
+    "story": "David shows Napoleon crowning Josephine in Notre-Dame in 1804. He changed things to please him: Napoleon's mother, who stayed away, sits in a place of honour.",
+    "look": "Madame Mère in the box, who was not there",
+    "people": [
+     "napoleon"
+    ],
+    "u": "https://en.wikipedia.org/wiki/The_Coronation_of_Napoleon"
+   },
+   {
+    "floor": 1,
+    "gal": "702",
+    "t": "Grande Odalisque",
+    "by": "Jean-Auguste-Dominique Ingres",
+    "date": "1814",
+    "story": "Critics laughed when it was shown in 1819: her back has two or three extra vertebrae. Ingres made her longer on purpose, for the line.",
+    "look": "how long the back is",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Grande_Odalisque"
+   },
+   {
+    "floor": 1,
+    "gal": "700",
+    "t": "Liberty Leading the People",
+    "by": "Eugène Delacroix",
+    "date": "1830",
+    "story": "Delacroix painted the July Revolution of 1830, three days of fighting in Paris, the same year. The boy with two pistols may have helped inspire Victor Hugo's Gavroche in Les Misérables, though nobody can be sure.",
+    "look": "the towers of Notre-Dame in the smoke",
+    "people": [
+     "victor-hugo"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Liberty_Leading_the_People"
+   },
+   {
+    "floor": 1,
+    "gal": "700",
+    "t": "The Raft of the Medusa",
+    "by": "Théodore Géricault",
+    "date": "1818 to 1819",
+    "story": "In 1816 a French navy ship ran aground off Africa, and 147 people were set adrift on a raft; 15 survived. Géricault interviewed survivors, studied corpses in a hospital and built a model of the raft to paint it.",
+    "look": "the tiny ship on the horizon",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/The_Raft_of_the_Medusa"
+   },
+   {
+    "floor": 1,
+    "gal": "635",
+    "t": "The Seated Scribe",
+    "by": "Egyptian",
+    "date": "c. 2600 to 2350 BC",
+    "story": "A painted limestone scribe with eyes of rock crystal set in copper, so lifelike they seem to follow you. He was found at Saqqara in 1850. Nobody knows his name.",
+    "look": "the eyes, from the side",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Seated_Scribe"
+   }
+  ]
+ },
+ "checked": "15 November 2026"
 }

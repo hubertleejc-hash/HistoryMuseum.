@@ -61,5 +61,162 @@
     }
    ]
   }
- ]
+ ],
+ "guide": {
+  "n": "The British Museum in one hour",
+  "mins": 60,
+  "room": "Room",
+  "floors": {
+   "0": "Ground floor",
+   "1": "Upper floor"
+  },
+  "intro": "Eleven objects in walking order: the ground-floor galleries of Egypt, Assyria and Greece, then the upper floor. Entry is free.",
+  "note": "Room numbers from the British Museum's floor plan, checked 15 November 2026. Rooms close for repairs and objects travel: ask at the information desk in the Great Court.",
+  "src": [
+   {
+    "n": "British Museum: collection online",
+    "u": "https://www.britishmuseum.org/collection"
+   },
+   {
+    "n": "British Museum: visit",
+    "u": "https://www.britishmuseum.org/visit"
+   },
+   {
+    "n": "Wikipedia: British Museum",
+    "u": "https://en.wikipedia.org/wiki/British_Museum"
+   }
+  ],
+  "stops": [
+   {
+    "floor": 0,
+    "gal": "1",
+    "t": "The Enlightenment Gallery",
+    "by": "",
+    "date": "Built 1820s",
+    "story": "This long room was built in the 1820s to hold the library of George III, which his son gave to the nation. Today it shows how 18th-century collectors tried to sort the whole world into cases.",
+    "look": "the cases of shells, coins and fossils, sorted the old way",
+    "people": [
+     "george-iii"
+    ],
+    "u": "https://en.wikipedia.org/wiki/British_Museum"
+   },
+   {
+    "floor": 0,
+    "gal": "4",
+    "t": "The Rosetta Stone",
+    "by": "Egyptian",
+    "date": "196 BC",
+    "story": "The same decree written three ways: in hieroglyphs, in everyday Egyptian script and in Greek. Napoleon's soldiers found it in 1799; the British took it in 1801. Champollion used it to read hieroglyphs in 1822.",
+    "look": "the three kinds of writing, top to bottom",
+    "people": [
+     "napoleon"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Rosetta_Stone"
+   },
+   {
+    "floor": 0,
+    "gal": "4",
+    "t": "Colossal bust of Ramesses II",
+    "by": "Egyptian",
+    "date": "c. 1250 BC",
+    "story": "The 'Younger Memnon' came from Ramesses II's temple at Thebes. The hole in his right chest is said to have been drilled by Napoleon's men trying to move him. The poet Shelley wrote Ozymandias as it was on its way to London.",
+    "look": "the hole on his right side",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Younger_Memnon"
+   },
+   {
+    "floor": 0,
+    "gal": "10",
+    "t": "Lion hunt of Ashurbanipal",
+    "by": "Assyrian",
+    "date": "c. 645 to 635 BC",
+    "story": "Carved panels from the palace at Nineveh show King Ashurbanipal killing lions released from cages in an arena. The dying lions are some of the most moving animals in ancient art.",
+    "look": "the wounded lioness dragging her back legs",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Lion_Hunt_of_Ashurbanipal"
+   },
+   {
+    "floor": 0,
+    "gal": "18",
+    "t": "Parthenon sculptures",
+    "by": "Greek",
+    "date": "447 to 432 BC",
+    "story": "About half of the surviving sculpture of the Parthenon, removed by Lord Elgin's agents from 1801 and bought by Parliament in 1816. Greece asks for them back, and the Acropolis Museum keeps space for them.",
+    "look": "the horse of the moon goddess, tired at the end of the night",
+    "people": [
+     "socrates"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Elgin_Marbles"
+   },
+   {
+    "floor": 0,
+    "gal": "24",
+    "t": "Hoa Hakananai'a",
+    "by": "Rapa Nui (Easter Island)",
+    "date": "c. 1000 to 1200",
+    "story": "A moai, one of the great stone ancestor figures of Rapa Nui, taken by a British ship's crew in 1868. Islanders have asked for him to come home. Look at his back: later carvings show the island's birdman ceremony.",
+    "look": "the carvings on his back",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Hoa_Hakananai'a"
+   },
+   {
+    "floor": 1,
+    "gal": "56",
+    "t": "The Royal Game of Ur",
+    "by": "Sumerian",
+    "date": "c. 2600 to 2400 BC",
+    "story": "One of the oldest board games known, found in a royal tomb at Ur in Iraq. Its rules were worked out from a cuneiform tablet written 2,000 years later, and people still play it.",
+    "look": "the rosettes, which are the lucky squares",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Royal_Game_of_Ur"
+   },
+   {
+    "floor": 1,
+    "gal": "62",
+    "t": "Egyptian mummies",
+    "by": "Egyptian",
+    "date": "c. 3500 BC to AD 300",
+    "story": "The Egyptian death rooms show mummies, coffins and the tools of embalming. Scans have let the museum see inside without unwrapping anyone.",
+    "look": "the painted faces on the coffin lids",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Mummy"
+   },
+   {
+    "floor": 1,
+    "gal": "70",
+    "t": "The Portland Vase",
+    "by": "Roman",
+    "date": "c. AD 1 to 25",
+    "story": "A Roman cameo-glass vase from the time of Augustus, white figures cut from a layer over dark blue glass. In 1845 a visitor smashed it into almost 200 pieces; it has been put back together three times.",
+    "look": "the thin white glass of the figures",
+    "people": [
+     "augustus"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Portland_Vase"
+   },
+   {
+    "floor": 1,
+    "gal": "41",
+    "t": "Sutton Hoo helmet",
+    "by": "Anglo-Saxon",
+    "date": "early 600s",
+    "story": "In 1939 an amateur archaeologist, Basil Brown, dug out the imprint of a 27-metre ship buried in Suffolk, probably for the East Anglian king Rædwald. The helmet was found crushed into hundreds of pieces.",
+    "look": "the dragon flying across the face",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Sutton_Hoo_helmet"
+   },
+   {
+    "floor": 1,
+    "gal": "40",
+    "t": "Lewis Chessmen",
+    "by": "Norse",
+    "date": "c. 1150 to 1200",
+    "story": "Found on the Isle of Lewis in Scotland in 1831, carved mostly from walrus ivory, probably in Norway. The rook-warriors bite their shields in a battle rage.",
+    "look": "the warriors biting their shields",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Lewis_chessmen"
+   }
+  ]
+ },
+ "checked": "15 November 2026"
 }

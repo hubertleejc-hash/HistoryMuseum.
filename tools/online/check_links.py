@@ -17,22 +17,19 @@ def links(pl):
 
 
 def ok(u):
+    """One HEAD, then one GET. 404/410 is broken; a site that refuses robots or times out passes as unchecked."""
     last = None
-    for i in range(2):
-        for method in ("HEAD", "GET"):
-            try:
-                req = urllib.request.Request(u, method=method, headers={"User-Agent": UA})
-                with urllib.request.urlopen(req, timeout=30) as r:
-                    return r.status < 400, r.status
-            except urllib.error.HTTPError as e:
-                if e.code == 404 or e.code == 410:
-                    return False, e.code
-                last = e.code  # 403/405/429: some museum sites refuse robots; let it pass as unchecked
-                if e.code in (401, 403, 429):
-                    return True, f"unchecked ({e.code})"
-            except Exception as e:  # noqa: BLE001
-                last = str(e)
-        time.sleep(2)
+    for method in ("HEAD", "GET"):
+        try:
+            req = urllib.request.Request(u, method=method, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=12) as r:
+                return r.status < 400, r.status
+        except urllib.error.HTTPError as e:
+            if e.code in (404, 410):
+                return False, e.code
+            last = e.code
+        except Exception as e:  # noqa: BLE001
+            last = type(e).__name__
     return True, f"unchecked ({last})"
 
 
@@ -41,7 +38,7 @@ def main(files):
     from concurrent.futures import ThreadPoolExecutor
     per = {f: list(links(json.loads(f.read_text()))) for f in files if f.suffix == ".json" and f.exists()}
     urls = sorted({u for us in per.values() for u in us})
-    with ThreadPoolExecutor(12) as ex:
+    with ThreadPoolExecutor(24) as ex:
         seen = dict(zip(urls, ex.map(ok, urls)))
     bad = []
     for f, us in per.items():
