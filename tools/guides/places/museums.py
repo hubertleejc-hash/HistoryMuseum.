@@ -85,7 +85,7 @@ M.append(place("tokyo-national-museum", "Tokyo National Museum", "museum", "Toky
  facts=[F("Founded in 1872", "It began with an exhibition at the Yushima Seidō in 1872, just after the Meiji Restoration, when Japan was opening to the world. It holds about 120,000 objects, including 89 National Treasures.",
           [W("Tokyo_National_Museum"), O("Tokyo National Museum", "https://www.tnm.jp/?lang=en")], when="1872", go=["#e-meiji-restoration", "The Meiji Restoration"]),
         F("Pine trees in the mist", "Hasegawa Tōhaku's Pine Trees screens, painted in ink around 1595, show trees vanishing into fog. They are a National Treasure and come out only for a few weeks each New Year.",
-          [W("Pine_Trees_(Hasegawa_Tōhaku)"), W("Tokyo_National_Museum")], when="c. 1595")]))
+          [W("Hasegawa_Tōhaku"), W("Tokyo_National_Museum")], when="c. 1595")]))
 M.append(place("grand-egyptian-museum", "Grand Egyptian Museum", "museum", "Giza", 29.9947, 31.1191, 400, rank=15,
  blurb="The largest museum in the world devoted to one civilization, two kilometres from the pyramids.",
  facts=[F("Tutankhamun, all together", "For the first time since Howard Carter opened the tomb in 1922, the whole burial treasure of Tutankhamun, about 5,000 objects, is shown in one place. The museum opened fully in November 2025.",
