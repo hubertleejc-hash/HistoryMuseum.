@@ -630,6 +630,8 @@ button:active, .chip:active, .btn:active, .tabbar a:active, .seg a:active, .lib-
 .near-row + .near-row{border-top:1px solid var(--rule)}
 .near-tag{flex:none; font:600 10.5px/1 var(--ui); letter-spacing:.06em; text-transform:uppercase; padding:5px 7px; border-radius:6px; background:var(--accent); color:var(--accent-ink)}
 .near-tag.soft{background:transparent; color:var(--ink-3); border:1px solid var(--rule)}
+.near-find{width:100%; font:inherit; font-size:16px; padding:11px 14px; border-radius:12px; border:1px solid var(--rule); background:var(--surface); color:var(--ink)}
+.near-row[hidden], .near-sec[hidden]{display:none}
 .near-back{font-size:14px; color:var(--accent); text-decoration:none; align-self:flex-start; padding:6px 0}
 .pl-h{margin:6px 0 8px}
 .pl-blurb{color:var(--ink-2); margin:0; max-width:62ch}
@@ -3063,7 +3065,7 @@ function nearRedraw(){
   if (h === "near") viewNear(true);
   const c = document.getElementById("nearCard"); if (c) c.outerHTML = nearCardHTML();
 }
-const plRow = (p, k) => `<a class="near-row" href="#${p.guide ? "guide" : "place"}-${p.id}"><span class="near-ico sm">${PIN_SVG}</span><span class="near-txt"><b>${esc(p.n)}</b><small>${esc(p.where || "")}${k != null ? " · " + kmText(k) : ""}</small></span>${p.guide ? `<span class="near-tag">Guide</span>` : ""}${plSaved(p.id) ? `<span class="near-tag soft">Saved</span>` : ""}<span class="near-chev" aria-hidden="true">›</span></a>`;
+const plRow = (p, k) => `<a class="near-row" data-find="${esc((p.n + " " + (p.short || "") + " " + (p.where || "")).toLowerCase())}" href="#${p.guide ? "guide" : "place"}-${p.id}"><span class="near-ico sm">${PIN_SVG}</span><span class="near-txt"><b>${esc(p.n)}</b><small>${esc(p.where || "")}${k != null ? " · " + kmText(k) : ""}</small></span>${p.guide ? `<span class="near-tag">Guide</span>` : ""}${plSaved(p.id) ? `<span class="near-tag soft">Saved</span>` : ""}<span class="near-chev" aria-hidden="true">›</span></a>`;
 function viewNear(keep){
   const y = keep ? scrollY : 0, {at, close, nearest} = nearNow(), all = plList();
   const PRIV = `<p class="w-note">Your position stays on this phone. The app compares it with its own list of places, then forgets it, and downloads only that place's public page, the same one everyone gets. Nothing is collected.</p>`;
@@ -3081,7 +3083,8 @@ function viewNear(keep){
     <div class="big-title"><div><span class="eyebrow" style="color:var(--accent)">Places and guides</span><h1>Near me</h1></div></div>
     <div class="panel near-loc" aria-live="polite">${box}</div>
     ${nearList}
-    ${PL_KIND.map(([k, n]) => { const ps = all.filter(p => (p.kind || "city") === k).sort((a, b) => (a.rank || 999) - (b.rank || 999) || a.n.localeCompare(b.n)); return ps.length ? `<section><div class="sec-head"><h2>${n}</h2><p>${plural(ps.length, "place")}</p></div><div class="near-list">${ps.map(p => plRow(p, nearFix ? kmBetween(nearFix.lat, nearFix.lon, p.lat, p.lon) : null)).join("")}</div></section>` : ""; }).join("")}
+    <input type="search" class="near-find" id="nearFind" placeholder="Find a museum or a place" aria-label="Find a museum or a place" autocomplete="off">
+    ${PL_KIND.map(([k, n]) => { const ps = all.filter(p => (p.kind || "city") === k).sort((a, b) => (a.rank || 999) - (b.rank || 999) || a.n.localeCompare(b.n)); return ps.length ? `<section class="near-sec"><div class="sec-head"><h2>${n}</h2><p>${plural(ps.length, "place")}</p></div><div class="near-list">${ps.map(p => plRow(p, nearFix ? kmBetween(nearFix.lat, nearFix.lon, p.lat, p.lon) : null)).join("")}</div></section>` : ""; }).join("")}
     <p class="w-note">Every fact is written for this museum from public sources, which are listed with it. Museum rooms change: if a work is not where we say, a guard will know.</p>
   </section>`;
   if (keep) scrollTo(0, y);
@@ -3105,7 +3108,7 @@ function plNeed(id, draw){
 function viewPlace(id){
   const f = plNeed(id, () => viewPlace(id)); if (!f) return;
   const g = f.guide, gimgs = g ? g.stops.map(s => s.img).filter(s => IMG[s]).slice(0, 4) : [];
-  view.innerHTML = `<section class="near place">
+  view.innerHTML = `<section class="near pl-page">
     <a class="near-back" href="#near">‹ Near me</a>
     <div><span class="eyebrow" style="color:var(--accent)">${esc((PL_KIND.find(k => k[0] === f.kind) || ["", "Place"])[1].replace(/s$/, "").replace("Cities and town", "City"))} · ${esc(f.where || "")}</span><h1 class="pl-h">${esc(f.n)}</h1><p class="pl-blurb">${esc(f.blurb || "")}</p></div>
     ${g ? `<a class="guide-card" href="#guide-${f.id}"><span class="eyebrow" style="color:var(--accent)">${g.mins || 60}-minute guide</span><h2>${esc(g.n)}</h2><p>${plural(g.stops.length, "stop")} · ${esc([...new Set(g.stops.map(s => (g.floors || {})[s.floor] || "Floor " + s.floor))].join(", "))} · in walking order</p>${gimgs.length ? `<span class="guide-thumbs">${gimgs.map(u => `<img src="${esc(u)}" alt="" loading="lazy" decoding="async">`).join("")}</span>` : ""}<span class="btn">Start the guide</span></a>` : ""}
@@ -3143,6 +3146,12 @@ function viewGuide(id){
     ${plSources(g.src, "Sources for this guide")}
   </section>`;
 }
+view.addEventListener("input", ev => {
+  if (ev.target.id !== "nearFind") return;
+  const q = ev.target.value.trim().toLowerCase();
+  document.querySelectorAll(".near-list .near-row[data-find]").forEach(r => { r.hidden = !!q && !r.dataset.find.includes(q); });
+  document.querySelectorAll(".near-sec").forEach(sec => { sec.hidden = !sec.querySelector(".near-row:not([hidden])"); });
+});
 view.addEventListener("click", ev => {
   const b = ev.target.closest("[data-locate],[data-next]"); if (!b) return;
   if (b.hasAttribute("data-locate")) { nearLocate(false); return; }

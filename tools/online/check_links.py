@@ -1,6 +1,6 @@
 """Checks that every source link in online/places/*.json opens (runs on GitHub Actions for pull requests).
 A citation that does not exist is worse than none. Usage: python3 tools/online/check_links.py [files...]"""
-import json, sys, time, urllib.request
+import json, sys, time, urllib.error, urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -17,7 +17,8 @@ def links(pl):
 
 
 def ok(u):
-    for i in range(3):
+    last = None
+    for i in range(2):
         for method in ("HEAD", "GET"):
             try:
                 req = urllib.request.Request(u, method=method, headers={"User-Agent": UA})
@@ -26,23 +27,25 @@ def ok(u):
             except urllib.error.HTTPError as e:
                 if e.code == 404 or e.code == 410:
                     return False, e.code
-                last = e.code  # 403/405/429: some museum sites refuse robots; try again, then let it pass
+                last = e.code  # 403/405/429: some museum sites refuse robots; let it pass as unchecked
+                if e.code in (401, 403, 429):
+                    return True, f"unchecked ({e.code})"
             except Exception as e:  # noqa: BLE001
                 last = str(e)
-        time.sleep(2 + 3 * i)
+        time.sleep(2)
     return True, f"unchecked ({last})"
 
 
 def main(files):
     files = [Path(f) for f in files] or sorted((ROOT / "online" / "places").glob("*.json"))
-    seen, bad = {}, []
-    for f in files:
-        if f.suffix != ".json" or not f.exists():
-            continue
-        for u in links(json.loads(f.read_text())):
-            if u not in seen:
-                seen[u] = ok(u)
-                time.sleep(.2)
+    from concurrent.futures import ThreadPoolExecutor
+    per = {f: list(links(json.loads(f.read_text()))) for f in files if f.suffix == ".json" and f.exists()}
+    urls = sorted({u for us in per.values() for u in us})
+    with ThreadPoolExecutor(12) as ex:
+        seen = dict(zip(urls, ex.map(ok, urls)))
+    bad = []
+    for f, us in per.items():
+        for u in us:
             good, code = seen[u]
             if not good:
                 bad.append(f"{f.name}: {u} ({code})")
