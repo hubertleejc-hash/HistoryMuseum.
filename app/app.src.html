@@ -829,6 +829,8 @@ html.hinged .big-title, html.hinged .w-regions, html.hinged .w-dial{max-width:ca
 .td-row span.s{display:block; color:var(--ink-3); font-size:13.5px; margin-top:2px}
 .td-row .yr{margin-left:auto; text-align:right; font:600 17px/1 var(--display); color:var(--gold); white-space:nowrap}
 .td-row .yr small{display:block; font:500 11px var(--ui); color:var(--ink-3); margin-top:3px}
+.td-hero.td-evh .tx{padding:22px 20px}
+.td-av.td-evi{background:var(--accent-soft); color:var(--gold)}
 .td-go{display:block; width:100%; border:0; border-radius:16px; padding:15px; background:var(--accent); color:var(--accent-ink); font:600 16px var(--ui); cursor:pointer}
 .td-note{font-size:12.5px; color:var(--ink-3); margin:0}
 @media (min-width:760px){.td-hero{grid-template-columns:minmax(0,5fr) minmax(0,6fr)} .td-hero .ph{aspect-ratio:auto; min-height:260px; max-height:380px} .td-hero .tx{justify-content:center; padding:24px}}
@@ -941,6 +943,7 @@ function fetchFeed(){
     FEED = f;
     feedChapters(f).forEach(indexChapter);
     if (ART) { const have = new Set(ART.map(it => it.id)); ART.push(...feedArt(f, have)); }
+    if (f.today && location.hash === "#today" && scrollY < 40) viewToday();
   }).catch(() => { feedTried = false; });
 }
 /* Honesty notes for images: shown right under the picture, never in a tooltip. */
@@ -3212,22 +3215,28 @@ document.getElementById("ssClose").addEventListener("click", closeSearch);
 document.addEventListener("keydown", e => { if (e.key === "Escape") { closeSearch(); if (wHallId) closeHall(); } });
 
 /* ---------- Today in history ----------
-   The first page after the launch, once a day: people of the museum born or who died on today's date
-   (exact days from Wikidata, app/today.js), round anniversaries first, then nearby days this week, then
-   round anniversaries this year (years only). Everything is in the app: it works offline. */
-const DAYS = H.days || {};
+   The first page after the launch, once a day: people of the museum born or who died on today's date,
+   and events that happened on it, round anniversaries first, then nearby days this week, then round
+   anniversaries this year (years only). The date is the phone's own clock. The exact days come from
+   Wikidata (tools/today/dates.py): a copy is built into the app (works offline), and a newer copy
+   arrives with the online feed, so Today grows without a new install. */
+const TODAY = () => (FEED && FEED.today && FEED.today.days) ? FEED.today : (H.today || {days: {}, events: []});
 const MON = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 const ROUND = [2000, 1500, 1000, 750, 500, 400, 300, 250, 200, 150, 100, 75, 50, 25];
 const yearsSince = (y, now) => astro(now) - astro(y);
 const roundOf = n => ROUND.find(r => n === r) || 0;
 const isLeap = y => (y % 4 === 0 && y % 100 !== 0) || y % 400 === 0;
-/* every exact day in the museum, as {p, k:"b"|"d", m, d, j, y} */
+/* every exact day in the museum: {key, p | ev, k: "b" | "d" | "e", m, d, j, y} */
 function dayItems(){
-  const out = [];
-  for (const id in DAYS) {
+  const T = TODAY(), out = [];
+  for (const id in T.days || {}) {
     const p = P.get(id); if (!p || p.a) continue;            // approximate people never get an exact day
-    for (const k of ["b", "d"]) { const v = DAYS[id][k]; if (!v || (k === "d" && p.alive)) continue;
-      out.push({p, k, m: v[0], d: v[1], j: v[2] === "j", y: k === "b" ? p.b : p.d, q: DAYS[id].q}); }
+    for (const k of ["b", "d"]) { const v = T.days[id][k]; if (!v || (k === "d" && p.alive)) continue;
+      out.push({key: id, p, k, m: v[0], d: v[1], j: v[2] === "j", y: k === "b" ? p.b : p.d}); }
+  }
+  for (const x of T.events || []) {
+    const e = x.e && E.get(x.e), ev = e ? {id: e.id, n: e.n, t: e.t, y: e.y, c: e.c} : (x.n && x.y != null ? {n: x.n, t: x.t || "", y: x.y} : null);
+    if (ev && !(e && e.a)) out.push({key: "e:" + (x.e || x.n), ev, k: "e", m: x.m, d: x.d, j: !!x.j, y: ev.y});
   }
   return out;
 }
@@ -3235,7 +3244,7 @@ function dayItems(){
 const onDay = (it, m, d, yr) => (it.m === m && it.d === d) || (!isLeap(yr) && it.m === 2 && it.d === 29 && m === 2 && d === 28);
 function todayPicks(date){
   const yr = date.getFullYear(), m = date.getMonth() + 1, d = date.getDate(), all = dayItems();
-  const score = it => { const n = yearsSince(it.y, yr), r = roundOf(n); return (r ? 10000 + r : 0) + (CH[it.p.id] ? 500 : 0) + (portraitOf(it.p) ? 200 : 0) + (it.k === "d" ? 1 : 0); };
+  const score = it => { const n = yearsSince(it.y, yr), r = roundOf(n); return (r ? 10000 + r : 0) + (it.p ? (CH[it.p.id] ? 500 : 0) + (portraitOf(it.p) ? 200 : 0) + (it.k === "d" ? 1 : 0) : 300); };
   const exact = all.filter(it => onDay(it, m, d, yr)).sort((a, b) => score(b) - score(a));
   const week = [];
   for (let off = -3; off <= 3; off++) { if (!off) continue;
@@ -3243,39 +3252,45 @@ function todayPicks(date){
     all.filter(it => onDay(it, x.getMonth() + 1, x.getDate(), x.getFullYear())).forEach(it => week.push({...it, off, when: x}));
   }
   week.sort((a, b) => Math.abs(a.off) - Math.abs(b.off) || score(b) - score(a));
-  const seen = new Set(exact.map(it => it.p.id)), seenDay = new Set(seen);
+  const seen = new Set(exact.map(it => it.key)), seenDay = new Set(seen);
   const thisYear = [];
   for (const p of H.people) for (const k of ["b", "d"]) {
     const y = k === "b" ? p.b : p.d; if (y == null || (k === "d" && p.alive)) continue;
     const n = yearsSince(y, yr), r = roundOf(n); if (r && r >= 50 && !seenDay.has(p.id)) thisYear.push({p, k, y, n});
   }
   thisYear.sort((a, b) => b.n - a.n || (CH[b.p.id] ? 1 : 0) - (CH[a.p.id] ? 1 : 0));
-  return {exact, week: week.filter(it => !seen.has(it.p.id) && (seen.add(it.p.id), true)).slice(0, 6), thisYear: thisYear.slice(0, 8)};
+  return {exact, week: week.filter(it => !seen.has(it.key) && (seen.add(it.key), true)).slice(0, 6), thisYear: thisYear.slice(0, 8)};
 }
-const avHTML = p => { const ph = portraitOf(p); return `<span class="td-av" style="${fc(p.f)}">${ph ? `<img src="${esc(ph)}" alt="" loading="lazy">` : esc(initials(p.n))}</span>`; };
+const EV_ICON = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><rect x="4" y="5.5" width="16" height="14.5" rx="2.5"/><path d="M4 10h16M8.5 3.5v4M15.5 3.5v4"/></svg>`;
+const avHTML = it => { if (!it.p) return `<span class="td-av td-evi">${EV_ICON}</span>`; const ph = portraitOf(it.p); return `<span class="td-av" style="${fc(it.p.f)}">${ph ? `<img src="${esc(ph)}" alt="" loading="lazy">` : esc(initials(it.p.n))}</span>`; };
 const nYears = n => n.toLocaleString("en-US") + (n === 1 ? " year" : " years");
+const itName = it => it.p ? it.p.n : it.ev.n;
+const itHref = it => it.p ? `#p-${it.p.id}` : it.ev.id ? `#e-${it.ev.id}` : "";
+const itWhat = it => it.k === "b" ? "Born" : it.k === "d" ? "Died" : "Happened";
 function viewToday(){
   const now = new Date(), yr = now.getFullYear(), {exact, week, thisYear} = todayPicks(now);
-  const lead = exact[0], rest = exact.slice(1, 6);
+  const lead = exact.find(it => it.p && portraitOf(it.p)) || exact[0], rest = exact.filter(it => it !== lead).slice(0, 6);
   const tag = it => it.j ? `<span class="td-tag">Julian calendar date</span>` : "";
-  const heroHTML = it => { const ph = portraitOf(it.p), n = yearsSince(it.y, yr);
-    return `<a class="td-hero" href="#p-${it.p.id}" data-tdgo style="${fc(it.p.f)}">
-      <div class="ph">${ph ? `<img src="${esc(ph)}" alt="">` : esc(initials(it.p.n))}</div>
-      <div class="tx"><span class="eyebrow">${it.k === "b" ? "Born" : "Died"} ${it.j ? "on this date" : "today"}, ${fy(it.y)}</span>
-        <h2>${esc(it.p.n)}</h2>
-        <div class="td-n">${nYears(n)} ago</div><p>${esc(it.p.bio)}</p>${tag(it)}</div></a>`; };
-  const row = (it, right, sub) => `<a class="td-row" href="#p-${it.p.id}" data-tdgo style="${fc(it.p.f)}">${avHTML(it.p)}<span><b>${esc(it.p.n)}</b><span class="s">${sub}</span></span><span class="yr">${right}</span></a>`;
+  const open = (it, cls, extra) => { const h = itHref(it); return h ? `<a class="${cls}" href="${h}" data-tdgo ${extra}>` : `<div class="${cls}" ${extra}>`; };
+  const close = it => itHref(it) ? "</a>" : "</div>";
+  const heroHTML = it => { const ph = it.p && portraitOf(it.p), n = yearsSince(it.y, yr);
+    return `${open(it, "td-hero" + (it.p ? "" : " td-evh"), it.p ? `style="${fc(it.p.f)}"` : "")}
+      ${it.p ? `<div class="ph">${ph ? `<img src="${esc(ph)}" alt="">` : esc(initials(it.p.n))}</div>` : ""}
+      <div class="tx"><span class="eyebrow">${itWhat(it)} ${it.j ? "on this date" : "today"}, ${fy(it.y)}</span>
+        <h2>${esc(itName(it))}</h2>
+        <div class="td-n">${nYears(n)} ago</div><p>${esc(it.p ? it.p.bio : it.ev.t)}</p>${tag(it)}</div>${close(it)}`; };
+  const row = (it, right, sub) => `${open(it, "td-row", it.p ? `style="${fc(it.p.f)}"` : "")}${avHTML(it)}<span><b>${esc(itName(it))}</b><span class="s">${sub}</span></span><span class="yr">${right}</span>${close(it)}`;
   const wd = now.toLocaleDateString("en-US", {weekday: "long"});
   view.innerHTML = `
   <section class="td" aria-label="Today in history">
     <div class="td-top"><div><span class="eyebrow" style="color:var(--accent)">Today in history</span><h1>${now.getDate()} ${MON[now.getMonth()]}</h1><div class="wd">${wd}, ${yr}</div></div>
       <button class="td-skip" data-tdskip>Skip</button></div>
-    ${lead ? heroHTML(lead) : `<p class="lede" style="margin:0;color:var(--ink-2)">No one in the museum has a recorded birthday or death on this exact date. Here is who is close by, and whose anniversaries fall this year.</p>`}
-    ${rest.length ? `<div><div class="sec-head"><h2>Also on ${now.getDate()} ${MON[now.getMonth()]}</h2></div><div class="td-list">${rest.map(it => row(it, `${nYears(yearsSince(it.y, yr))}<small>ago</small>`, `${it.k === "b" ? "Born" : "Died"} ${fy(it.y)}${it.j ? " · Julian date" : ""}`)).join("")}</div></div>` : ""}
-    ${week.length ? `<div><div class="sec-head"><h2>This week</h2></div><div class="td-list">${week.map(it => row(it, `${it.when.getDate()} ${MON[it.when.getMonth()].slice(0, 3)}<small>${it.off < 0 ? (it.off === -1 ? "yesterday" : -it.off + " days ago") : (it.off === 1 ? "tomorrow" : "in " + it.off + " days")}</small>`, `${it.k === "b" ? "Born" : "Died"} ${fy(it.y)}, ${nYears(yearsSince(it.y, yr))} ago${it.j ? " · Julian date" : ""}`)).join("")}</div></div>` : ""}
+    ${lead ? heroHTML(lead) : `<p class="lede" style="margin:0;color:var(--ink-2)">Nothing in the museum has a recorded date on this exact day. Here is what is close by, and whose anniversaries fall this year.</p>`}
+    ${rest.length ? `<div><div class="sec-head"><h2>Also on ${now.getDate()} ${MON[now.getMonth()]}</h2></div><div class="td-list">${rest.map(it => row(it, `${nYears(yearsSince(it.y, yr))}<small>ago</small>`, `${itWhat(it)} ${fy(it.y)}${it.j ? " · Julian date" : ""}`)).join("")}</div></div>` : ""}
+    ${week.length ? `<div><div class="sec-head"><h2>This week</h2></div><div class="td-list">${week.map(it => row(it, `${it.when.getDate()} ${MON[it.when.getMonth()].slice(0, 3)}<small>${it.off < 0 ? (it.off === -1 ? "yesterday" : -it.off + " days ago") : (it.off === 1 ? "tomorrow" : "in " + it.off + " days")}</small>`, `${itWhat(it)} ${fy(it.y)}, ${nYears(yearsSince(it.y, yr))} ago${it.j ? " · Julian date" : ""}`)).join("")}</div></div>` : ""}
     ${thisYear.length ? `<div><div class="sec-head"><h2>Round anniversaries in ${yr}</h2></div><div class="td-list">${thisYear.map(it => row(it, `${it.n.toLocaleString("en-US")}<small>years</small>`, `${it.k === "b" ? "Born" : "Died"} ${fy(it.y, it.p.a)}${it.p.a ? ", the year is approximate" : ""}`)).join("")}</div></div>` : ""}
     <button class="td-go" data-tdskip>Enter the museum</button>
-    <p class="td-note">Exact days come from Wikidata (free, CC0) and are shown only when they agree with the museum's own years. Days before the 1580s are usually given in the Julian calendar, so "on this date" is not quite the same day of the year as today. People whose dates are uncertain appear only under the year.</p>
+    <p class="td-note">The date is your phone's. Exact days come from Wikidata (free, CC0) and are shown only when they agree with the museum's own years; new ones arrive when you are online. Days before the 1580s are usually given in the Julian calendar, so "on this date" is not quite the same day of the year as today. People whose dates are uncertain appear only under the year.</p>
   </section>`;
 }
 const todaySeen = () => store.set("ctm-today", today());
@@ -3284,8 +3299,7 @@ view.addEventListener("click", ev => {
   else if (ev.target.closest("[data-tdgo]")) todaySeen();
 });
 /* First open of the day, with no page asked for (screenshot runs pass -route): start on Today. */
-if (!location.hash && store.get("ctm-today") !== today() && Object.keys(DAYS).length) history.replaceState(null, "", "#today");
-
+if (!location.hash && store.get("ctm-today") !== today() && Object.keys(TODAY().days || {}).length) history.replaceState(null, "", "#today");
 /* ---------- router ---------- */
 const PLAY_VIEWS = {degrees:viewDegrees, race:viewRace, cards:viewCards, you:viewYou, whatif:viewWhatIf};
 let lastH = null;
