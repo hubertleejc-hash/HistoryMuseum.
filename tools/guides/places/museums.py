@@ -77,7 +77,7 @@ M.append(place("musee-orsay", "Musée d'Orsay", "museum", "Paris", 48.8600, 2.32
 M.append(place("national-palace-museum", "National Palace Museum", "museum", "Taipei", 25.1024, 121.5485, 300, rank=13,
  blurb="About 700,000 treasures of the Chinese emperors, carried across the sea in 1948 and 1949.",
  facts=[F("The collection that crossed the strait", "During the Chinese Civil War the best of the Forbidden City's collection was shipped to Taiwan. The museum in Taipei opened in 1965. Much of it had been collected by the Qianlong Emperor.",
-          [W("National_Palace_Museum"), O("National Palace Museum", "https://www.npm.gov.tw/en/")], when="1948 to 1965", people=["qianlong"]),
+          [W("National_Palace_Museum"), O("National Palace Museum", "https://www.npm.gov.tw/")], when="1948 to 1965", people=["qianlong"]),
         F("The cabbage everyone queues for", "The Jadeite Cabbage, carved from one piece of jade half green and half white, with two insects on its leaves, is the museum's most popular object. It came from the Forbidden City's Palace of Eternal Harmony.",
           [W("Jadeite_Cabbage"), W("National_Palace_Museum")])]))
 M.append(place("tokyo-national-museum", "Tokyo National Museum", "museum", "Tokyo", 35.7188, 139.7765, 300, rank=14,
@@ -247,7 +247,7 @@ M.append(place("van-gogh-museum", "Van Gogh Museum", "museum", "Amsterdam", 52.3
  facts=[F("The Potato Eaters", "Van Gogh painted The Potato Eaters in Nuenen in 1885 and thought it his first real work. He wanted the peasants to look as if they had dug up the potatoes they were eating.",
           [W("The_Potato_Eaters"), O("Van Gogh Museum", "https://www.vangoghmuseum.nl/en")], when="1885", people=["van-gogh"]),
         F("Saved by Jo", "After Vincent and Theo died, Theo's widow Jo van Gogh-Bonger kept the paintings, published the letters and lent the works to exhibitions until he was famous. Her son gave the collection to the nation.",
-          [W("Jo_van_Gogh-Bonger"), W("Van_Gogh_Museum")], people=["van-gogh"], go=["#place-amsterdam", "Amsterdam"])]))
+          [W("Johanna_van_Gogh-Bonger"), W("Van_Gogh_Museum")], people=["van-gogh"], go=["#place-amsterdam", "Amsterdam"])]))
 M.append(place("musee-orangerie", "Musée de l'Orangerie", "museum", "Paris", 48.8638, 2.3227, 120, rank=48,
  blurb="Monet's Water Lilies, in two oval rooms lit by the sky.",
  facts=[F("A gift for peace", "On 12 November 1918, the day after the Armistice, Monet offered two paintings to France as a monument to peace. The gift grew into eight huge Water Lilies panels, installed here in 1927, a few months after he died.",
@@ -299,7 +299,7 @@ M.append(place("getty-center", "The Getty Center", "museum", "Los Angeles", 34.0
 M.append(place("casa-azul", "Frida Kahlo Museum (La Casa Azul)", "museum", "Mexico City", 19.3551, -99.1625, 100, rank=58, short="La Casa Azul",
  blurb="The blue house in Coyoacán where Frida Kahlo was born and died.",
  facts=[F("Born and died in the same house", "Frida Kahlo was born here in 1907 and died here in 1954. Diego Rivera gave the house and its contents to the nation, and it opened as a museum in 1958.",
-          [W("Frida_Kahlo_Museum"), O("Museo Frida Kahlo", "https://www.museofridakahlo.org.mx/en/")], when="1907 to 1958", people=["kahlo", "rivera"]),
+          [W("Frida_Kahlo_Museum"), O("Museo Frida Kahlo", "https://www.museofridakahlo.org.mx/")], when="1907 to 1958", people=["kahlo", "rivera"]),
         F("Trotsky's refuge", "Leon Trotsky, exiled from Stalin's Soviet Union, lived in the Blue House from 1937 to 1939. He moved to a house nearby, where a Soviet agent killed him in 1940.",
           [W("Leon_Trotsky"), W("Frida_Kahlo_Museum")], when="1937 to 1940", people=["trotsky", "stalin"])]))
 M.append(place("hiroshima-peace-museum", "Hiroshima Peace Memorial Museum", "museum", "Hiroshima", 34.3915, 132.4525, 300, rank=59,

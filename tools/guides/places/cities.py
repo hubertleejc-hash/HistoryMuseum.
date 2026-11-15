@@ -114,7 +114,7 @@ C.append(place("hangzhou", "Hangzhou", "city", "China", 30.2741, 120.1551, 10000
 C.append(place("salzburg", "Salzburg", "city", "Austria", 47.8095, 13.0550, 5000,
  blurb="A prince-archbishop's city on the Salzach, where Mozart was born.",
  facts=[F("Born at Getreidegasse 9", "Wolfgang Amadeus Mozart was born on the third floor of this house on 27 January 1756. His childhood violin is there today.",
-          [W("Mozart's_Birthplace"), O("Mozarteum Foundation", "https://mozarteum.at/en/")], when="1756", people=["mozart"]),
+          [W("Mozart's_Birthplace"), O("Mozarteum Foundation", "https://mozarteum.at/")], when="1756", people=["mozart"]),
         F("He left in a hurry", "Mozart worked for the Archbishop of Salzburg, who treated him like a servant. In 1781, in Vienna, the archbishop's steward ended their quarrel with a kick, and Mozart stayed in Vienna as a free musician.",
           [W("Wolfgang_Amadeus_Mozart"), W("Hieronymus_von_Colloredo")], when="1781", people=["mozart"], go=["#place-vienna", "Vienna"])]))
 C.append(place("bonn", "Bonn", "city", "Germany", 50.7374, 7.0982, 6000,
@@ -126,7 +126,7 @@ C.append(place("bonn", "Bonn", "city", "Germany", 50.7374, 7.0982, 6000,
 C.append(place("leipzig", "Leipzig", "city", "Germany", 51.3397, 12.3731, 6000,
  blurb="A city of trade fairs and music, where Bach worked for 27 years.",
  facts=[F("Bach at St Thomas", "Bach was cantor of St Thomas Church from 1723 until he died in 1750, writing a new cantata almost every week for years. His grave has been in the church since 1950.",
-          [W("St._Thomas_Church,_Leipzig"), O("Bach-Archiv Leipzig", "https://www.bach-leipzig.de/en")], when="1723 to 1750", people=["bach"]),
+          [W("St._Thomas_Church,_Leipzig"), O("Bach-Archiv Leipzig", "https://www.bach-leipzig.de/")], when="1723 to 1750", people=["bach"]),
         F("Mendelssohn revived him", "Felix Mendelssohn, who led the Gewandhaus orchestra here, conducted the St Matthew Passion in Berlin in 1829, the first time since Bach's death, and started the Bach revival.",
           [W("Felix_Mendelssohn"), W("St_Matthew_Passion")], when="1829", people=["mendelssohn", "bach", "clara-schumann", "robert-schumann"])]))
 C.append(place("weimar", "Weimar", "city", "Germany", 50.9795, 11.3235, 4000,
