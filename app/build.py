@@ -35,7 +35,7 @@ images_js = "window.HISTORY.images = " + json.dumps(images, ensure_ascii=False, 
 places = {"list": [], "files": {}}
 for f in sorted((d.parent/"online"/"places").glob("*.json")) if (d.parent/"online"/"places").exists() else []:
     pl = json.loads(f.read_text()); pl["rev"] = __import__("hashlib").sha1(f.read_bytes()).hexdigest()[:10]
-    places["list"].append({k: pl[k] for k in ("id", "n", "short", "kind", "where", "lat", "lon", "r", "rev") if k in pl} | ({"guide": 1} if pl.get("guide") else {}))
+    places["list"].append({k: pl[k] for k in ("id", "n", "short", "kind", "where", "lat", "lon", "r", "rank", "rev") if k in pl} | ({"guide": 1} if pl.get("guide") else {}))
     if pl.get("starter"): places["files"][pl["id"]] = pl
 images_js += "\nwindow.HISTORY.places = " + json.dumps(places, ensure_ascii=False, separators=(",", ":")) + ";"
 print("places:", len(places["list"]), "in the list,", len(places["files"]), "pages built in")

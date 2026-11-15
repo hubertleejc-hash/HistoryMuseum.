@@ -1,4 +1,4 @@
-"""Writes online/places/met.json (The Met's place page and its one-hour route) and app/img/guide/credits.json.
+"""Writes online/places/met.json (The Met's place page and its one-hour route) (pictures load from The Met's own server, so the app stays small).
 
 Facts per work (title, artist, date, gallery, credit, picture) come from The Met's open-access records in
 tools/guides/out/met.json (gather_guide.py, CC0). The stories below are written for this app from the
@@ -67,23 +67,19 @@ MAX = 15
 FLOOR = lambda g: 1 if str(g)[:1] in "1345" else 2
 
 def main():
-    stops, credits = [], {}
+    stops = []
     for key, by, people, story, look in STOPS:
         r = REC.get(key)
         if not r or not r.get("GalleryNumber") or len(stops) >= MAX:
             continue
-        slug = f"met-{r['objectID']}"
-        img = slug if (ROOT / "app" / "img" / "guide" / (slug + ".jpg")).exists() else None
-        if img:
-            credits[slug] = {"title": r["title"].split(" (")[0], "by": r["artistDisplayName"] or by, "date": r["objectDate"],
-                             "coll": "The Metropolitan Museum of Art, Open Access",
-                             "lic": "Public domain (CC0)", "page": r["objectURL"], "w": r["w"], "h": r["h"]}
-        stops.append({"floor": FLOOR(r["GalleryNumber"]), "gal": r["GalleryNumber"], "met": r["objectID"], "img": img,
+        pic = {"u": r["primaryImageSmall"], "w": r.get("w") or 4, "h": r.get("h") or 3, "page": r["objectURL"],
+               "cr": "The Metropolitan Museum of Art, Open Access", "lic": "Public domain (CC0)"} if r.get("isPublicDomain") and r.get("primaryImageSmall") else None
+        stops.append({"floor": FLOOR(r["GalleryNumber"]), "gal": r["GalleryNumber"], "met": r["objectID"], "pic": pic,
                       "t": r["title"].split(" (")[0], "by": by, "date": r["objectDate"],
                       "story": story, "look": look, "people": people, "u": r["objectURL"]})
     stops.sort(key=lambda s: s["floor"])  # stable: keeps the walking order inside a floor
     pl = {"id": "met", "n": "The Metropolitan Museum of Art", "short": "The Met", "kind": "museum", "where": "New York",
-          "lat": 40.7794, "lon": -73.9632, "r": 300, "starter": True, "checked": "15 November 2026",
+          "lat": 40.7794, "lon": -73.9632, "r": 300, "rank": 3, "checked": "15 November 2026",
           "blurb": "The largest art museum in the Americas, with about two million works from five thousand years. You cannot see it in a day, so here is one good hour.",
           "guide": {"n": "The Met in one hour", "mins": 60,
                     "intro": f"{len(stops)} works that people cross the world to see, in walking order: ground floor first, then up the stairs. About three minutes each, with time to walk. Tap Next stop as you go.",
@@ -101,7 +97,6 @@ def main():
                "src": [{"n": "The Met: Open Access", "u": "https://www.metmuseum.org/hubs/open-access"}, {"n": "The Met Collection API", "u": "https://metmuseum.github.io/"}]}]}
     out = ROOT / "online" / "places" / "met.json"
     out.write_text(json.dumps(pl, ensure_ascii=False, indent=1) + "\n")
-    (ROOT / "app" / "img" / "guide" / "credits.json").write_text(json.dumps(credits, ensure_ascii=False, indent=1) + "\n")
     print(len(stops), "stops:", [(s["floor"], s["gal"], s["t"][:24]) for s in stops])
 
 if __name__ == "__main__":

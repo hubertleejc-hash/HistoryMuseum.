@@ -3063,7 +3063,7 @@ function nearRedraw(){
   if (h === "near") viewNear(true);
   const c = document.getElementById("nearCard"); if (c) c.outerHTML = nearCardHTML();
 }
-const plRow = (p, k) => `<a class="near-row" href="#${p.guide ? "guide" : "place"}-${p.id}"><span class="near-ico sm">${PIN_SVG}</span><span class="near-txt"><b>${esc(p.n)}</b><small>${esc(p.where || "")}${k != null ? " · " + kmText(k) : ""}</small></span>${p.guide ? `<span class="near-tag">Guide</span>` : ""}${PL0.files[p.id] || plSaved(p.id) ? "" : `<span class="near-tag soft">Online</span>`}<span class="near-chev" aria-hidden="true">›</span></a>`;
+const plRow = (p, k) => `<a class="near-row" href="#${p.guide ? "guide" : "place"}-${p.id}"><span class="near-ico sm">${PIN_SVG}</span><span class="near-txt"><b>${esc(p.n)}</b><small>${esc(p.where || "")}${k != null ? " · " + kmText(k) : ""}</small></span>${p.guide ? `<span class="near-tag">Guide</span>` : ""}${plSaved(p.id) ? `<span class="near-tag soft">Saved</span>` : ""}<span class="near-chev" aria-hidden="true">›</span></a>`;
 function viewNear(keep){
   const y = keep ? scrollY : 0, {at, close, nearest} = nearNow(), all = plList();
   const PRIV = `<p class="w-note">Your position stays on this phone. The app compares it with its own list of places, then forgets it, and downloads only that place's public page, the same one everyone gets. Nothing is collected.</p>`;
@@ -3081,12 +3081,14 @@ function viewNear(keep){
     <div class="big-title"><div><span class="eyebrow" style="color:var(--accent)">Places and guides</span><h1>Near me</h1></div></div>
     <div class="panel near-loc" aria-live="polite">${box}</div>
     ${nearList}
-    ${PL_KIND.map(([k, n]) => { const ps = all.filter(p => (p.kind || "city") === k); return ps.length ? `<section><div class="sec-head"><h2>${n}</h2><p>${plural(ps.length, "place")}</p></div><div class="near-list">${ps.map(p => plRow(p, nearFix ? kmBetween(nearFix.lat, nearFix.lon, p.lat, p.lon) : null)).join("")}</div></section>` : ""; }).join("")}
+    ${PL_KIND.map(([k, n]) => { const ps = all.filter(p => (p.kind || "city") === k).sort((a, b) => (a.rank || 999) - (b.rank || 999) || a.n.localeCompare(b.n)); return ps.length ? `<section><div class="sec-head"><h2>${n}</h2><p>${plural(ps.length, "place")}</p></div><div class="near-list">${ps.map(p => plRow(p, nearFix ? kmBetween(nearFix.lat, nearFix.lon, p.lat, p.lon) : null)).join("")}</div></section>` : ""; }).join("")}
     <p class="w-note">Every fact is written for this museum from public sources, which are listed with it. Museum rooms change: if a work is not where we say, a guard will know.</p>
   </section>`;
   if (keep) scrollTo(0, y);
 }
 const plPeople = ids => (ids || []).map(id => P.get(id)).filter(Boolean).map(p => `<a class="chip pf-p" href="#p-${p.id}"><span class="dot" style="${fc(p.f)}"></span>${esc(p.n)}</a>`).join("");
+/* a picture that loads from Wikimedia Commons or a museum's server (places that come online), with its credit */
+const plPic = (x, cls) => x.pic && /^https:\/\/(upload\.wikimedia\.org|images\.metmuseum\.org)\//.test(x.pic.u || "") ? `<figure class="fig ${cls}"><div class="fig-frame" style="aspect-ratio:${x.pic.w || 4}/${x.pic.h || 3}"><img src="${esc(x.pic.u)}" alt="${esc(x.t || x.h || "")}" loading="lazy" decoding="async"></div><figcaption class="credit"><span>${esc(x.pic.cr || "")}${x.pic.lic ? " · " + esc(x.pic.lic) : ""}${x.pic.page ? ` · <a href="${esc(x.pic.page)}" target="_blank" rel="noopener">source</a>` : ""}. Not made by AI.</span></figcaption></figure>` : "";
 const plSources = (src, title) => src && src.length ? `<details class="why"><summary>${esc(title || "How we know")}</summary><ul class="pf-src">${src.map(s => `<li>${s.u ? `<a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.n)}</a>` : esc(s.n)}</li>`).join("")}</ul></details>` : "";
 /* a place's page is shown from the phone's copy; if there is none, it is fetched once, then the page draws */
 function plNeed(id, draw){
@@ -3106,12 +3108,12 @@ function viewPlace(id){
   view.innerHTML = `<section class="near place">
     <a class="near-back" href="#near">‹ Near me</a>
     <div><span class="eyebrow" style="color:var(--accent)">${esc((PL_KIND.find(k => k[0] === f.kind) || ["", "Place"])[1].replace(/s$/, "").replace("Cities and town", "City"))} · ${esc(f.where || "")}</span><h1 class="pl-h">${esc(f.n)}</h1><p class="pl-blurb">${esc(f.blurb || "")}</p></div>
-    ${g ? `<a class="guide-card" href="#guide-${f.id}"><span class="eyebrow" style="color:var(--accent)">${g.mins || 60}-minute guide</span><h2>${esc(g.n)}</h2><p>${plural(g.stops.length, "stop")} · ${esc([...new Set(g.stops.map(s => "Floor " + s.floor))].join(" and "))} · in walking order</p>${gimgs.length ? `<span class="guide-thumbs">${gimgs.map(s => `<img src="${esc(IMG[s].src)}" alt="" loading="lazy" decoding="async">`).join("")}</span>` : ""}<span class="btn">Start the guide</span></a>` : ""}
+    ${g ? `<a class="guide-card" href="#guide-${f.id}"><span class="eyebrow" style="color:var(--accent)">${g.mins || 60}-minute guide</span><h2>${esc(g.n)}</h2><p>${plural(g.stops.length, "stop")} · ${esc([...new Set(g.stops.map(s => (g.floors || {})[s.floor] || "Floor " + s.floor))].join(", "))} · in walking order</p>${gimgs.length ? `<span class="guide-thumbs">${gimgs.map(u => `<img src="${esc(u)}" alt="" loading="lazy" decoding="async">`).join("")}</span>` : ""}<span class="btn">Start the guide</span></a>` : ""}
     <div class="sec-head"><h2>${f.kind === "museum" ? "About this museum" : "What happened here"}</h2></div>
     <div class="pf-list">${(f.facts || []).map(x => `<article class="panel pf">
       <div class="pf-top">${labHTML(x.lab)}${x.when ? `<span class="pf-when">${esc(x.when)}</span>` : ""}</div>
       <h3>${esc(x.h)}</h3>
-      ${x.img && IMG[x.img] ? imgFig(x.img, "pf-fig") : ""}
+      ${x.img && IMG[x.img] ? imgFig(x.img, "pf-fig") : plPic(x, "pf-fig")}
       <p>${esc(x.t)}</p>
       ${x.people && x.people.length || x.go ? `<div class="pf-go">${plPeople(x.people)}${x.go ? `<a class="chip" href="${esc(x.go[0])}">${esc(x.go[1])} ›</a>` : ""}</div>` : ""}
       ${plSources(x.src)}
@@ -3128,10 +3130,10 @@ function viewGuide(id){
     <a class="near-back" href="#place-${f.id}">‹ ${esc(f.short || f.n)}</a>
     <div><span class="eyebrow" style="color:var(--accent)">${esc(f.short || f.n)} · ${g.mins || 60} minutes</span><h1 class="pl-h">${esc(g.n)}</h1><p class="pl-blurb">${esc(g.intro || "")}</p>
       <p class="w-note">${esc(g.note || "")}</p></div>
-    ${floors.map(fl => `<div class="sec-head guide-floor"><h2>Floor ${fl}</h2><p>${plural(g.stops.filter(s => s.floor === fl).length, "stop")}</p></div>
+    ${floors.map(fl => `<div class="sec-head guide-floor"><h2>${esc((g.floors || {})[fl] || "Floor " + fl)}</h2><p>${plural(g.stops.filter(s => s.floor === fl).length, "stop")}</p></div>
       <ol class="stops">${g.stops.filter(s => s.floor === fl).map(s => { n++; return `<li class="panel stop" id="stop-${n}">
-        <div class="stop-top"><span class="stop-n">${n}</span><span class="stop-gal">${s.gal ? "Gallery " + esc(s.gal) : "On view"} · Floor ${s.floor}</span></div>
-        ${s.img && IMG[s.img] ? imgFig(s.img, "stop-fig", n <= 2) : ""}
+        <div class="stop-top"><span class="stop-n">${n}</span><span class="stop-gal">${s.gal ? (g.room || "Gallery") + " " + esc(s.gal) : "On view"} · ${esc((g.floors || {})[s.floor] || "Floor " + s.floor)}</span></div>
+        ${s.img && IMG[s.img] ? imgFig(s.img, "stop-fig", n <= 2) : plPic(s, "stop-fig")}
         <h3>${esc(s.t)}</h3><p class="stop-by">${esc([s.by, s.date].filter(Boolean).join(" · "))}</p>
         <p>${esc(s.story)}</p>
         ${s.look ? `<p class="stop-look"><b>Look for</b> ${esc(s.look)}</p>` : ""}
