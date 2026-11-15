@@ -1,19 +1,123 @@
-{"note": "Works for The Met 1-hour route. Each is found by Met object id, or by a search (q) checked against the artist and a title word. Edit and push to run 'Gather guide'.",
+{
+ "note": "Works for The Met 1-hour route. Each is found by Met object id, or by a search (q) checked against the artist and a title word. Edit and push to run 'Gather guide'.",
  "met": [
-  {"key": "dendur", "id": 547802, "title": "Dendur"},
-  {"key": "henry-armor", "q": "Field Armor of King Henry VIII", "title": "Henry VIII"},
-  {"key": "washington", "id": 11417, "artist": "Leutze", "title": "Washington"},
-  {"key": "madame-x", "id": 12127, "artist": "Sargent", "title": "Madame X"},
-  {"key": "harvesters", "id": 435809, "artist": "Bruegel", "title": "Harvesters"},
-  {"key": "toledo", "q": "El Greco View of Toledo", "artist": "Greco", "title": "Toledo"},
-  {"key": "pareja", "id": 437869, "artist": "Vel", "title": "Pareja"},
-  {"key": "socrates", "id": 436105, "artist": "David", "title": "Socrates"},
-  {"key": "aristotle", "id": 437394, "artist": "Rembrandt", "title": "Aristotle"},
-  {"key": "pitcher", "id": 437881, "artist": "Vermeer", "title": "Pitcher"},
-  {"key": "cypresses", "id": 436535, "artist": "Gogh", "title": "Cypresses"},
-  {"key": "straw-hat", "id": 436532, "artist": "Gogh", "title": "Straw Hat"},
-  {"key": "lilies", "q": "Monet Bridge over a Pond of Water Lilies", "artist": "Monet", "title": "Lilies"},
-  {"key": "card-players", "q": "Cezanne The Card Players", "artist": "zanne", "title": "Card Players"},
-  {"key": "kouros", "q": "Marble statue of a kouros", "title": "kouros"},
-  {"key": "perseus", "q": "Canova Perseus with the Head of Medusa", "artist": "Canova", "title": "Perseus"}
- ]}
+  {
+   "key": "dendur",
+   "id": 547802,
+   "title": "Dendur"
+  },
+  {
+   "key": "washington",
+   "id": 11417,
+   "artist": "Leutze",
+   "title": "Washington"
+  },
+  {
+   "key": "madame-x",
+   "id": 12127,
+   "artist": "Sargent",
+   "title": "Madame X"
+  },
+  {
+   "key": "harvesters",
+   "id": 435809,
+   "artist": "Bruegel",
+   "title": "Harvesters"
+  },
+  {
+   "key": "pareja",
+   "id": 437869,
+   "artist": "Vel",
+   "title": "Pareja"
+  },
+  {
+   "key": "socrates",
+   "id": 436105,
+   "artist": "David",
+   "title": "Socrates"
+  },
+  {
+   "key": "aristotle",
+   "id": 437394,
+   "artist": "Rembrandt",
+   "title": "Aristotle"
+  },
+  {
+   "key": "pitcher",
+   "id": 437881,
+   "artist": "Vermeer",
+   "title": "Pitcher"
+  },
+  {
+   "key": "cypresses",
+   "id": 436535,
+   "artist": "Gogh",
+   "title": "Cypresses"
+  },
+  {
+   "key": "straw-hat",
+   "id": 436532,
+   "artist": "Gogh",
+   "title": "Straw Hat"
+  },
+  {
+   "key": "henry-armor",
+   "q": "Armor of Henry VIII",
+   "title": "Henry VIII"
+  },
+  {
+   "key": "toledo",
+   "id": 436575,
+   "artist": "Greco",
+   "title": "Toledo",
+   "q": "View of Toledo"
+  },
+  {
+   "key": "lilies",
+   "id": 437127,
+   "artist": "Monet",
+   "title": "Lilies",
+   "q": "Bridge over a Pond of Water Lilies"
+  },
+  {
+   "key": "card-players",
+   "id": 435868,
+   "artist": "zanne",
+   "title": "Card Players",
+   "q": "Card Players"
+  },
+  {
+   "key": "kouros",
+   "id": 253370,
+   "title": "kouros",
+   "q": "statue of a kouros"
+  },
+  {
+   "key": "perseus",
+   "q": "Perseus with the Head of Medusa",
+   "artist": "Canova",
+   "title": "Perseus"
+  },
+  {
+   "key": "rembrandt-self",
+   "id": 437397,
+   "artist": "Rembrandt",
+   "title": "Self-Portrait",
+   "q": "Rembrandt Self-Portrait"
+  },
+  {
+   "key": "great-wave",
+   "id": 45434,
+   "artist": "Hokusai",
+   "title": "Great Wave",
+   "q": "Great Wave"
+  },
+  {
+   "key": "dance-class",
+   "id": 438817,
+   "artist": "Degas",
+   "title": "Dance Class",
+   "q": "Degas The Dance Class"
+  }
+ ]
+}

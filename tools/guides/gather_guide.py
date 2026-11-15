@@ -50,8 +50,9 @@ def find(want):
     q = want.get("q") or want.get("title")
     seen = []
     for extra in ("&isHighlight=true", "&hasImages=true", ""):
-        res = get(API + "search?q=" + urllib.parse.quote(q) + extra) or {}
-        for i in (res.get("objectIDs") or [])[:25]:
+        # the Met API reads filters only before q
+        res = get(API + "search?" + extra.lstrip("&") + ("&" if extra else "") + "q=" + urllib.parse.quote(q)) or {}
+        for i in (res.get("objectIDs") or [])[:12]:
             o = obj(i)
             if o:
                 seen.append([i, o.get("title"), o.get("artistDisplayName"), o.get("GalleryNumber"), o.get("isHighlight")])
@@ -66,8 +67,12 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     IMG.mkdir(parents=True, exist_ok=True)
     out, misses = {}, {}
+    old = json.loads((OUT / "met.json").read_text())["works"] if (OUT / "met.json").exists() else {}
     for want in req["met"]:
         print("work", want["key"])
+        if want["key"] in old and (IMG / f"met-{old[want['key']]['objectID']}.jpg").exists():
+            out[want["key"]] = old[want["key"]]
+            continue
         o, seen = find(want)
         if not o:
             misses[want["key"]] = seen
