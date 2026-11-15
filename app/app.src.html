@@ -831,7 +831,7 @@ html.hinged .big-title, html.hinged .w-regions, html.hinged .w-dial{max-width:ca
 .td-row .yr small{display:block; font:500 11px var(--ui); color:var(--ink-3); margin-top:3px}
 .td-go{display:block; width:100%; border:0; border-radius:16px; padding:15px; background:var(--accent); color:var(--accent-ink); font:600 16px var(--ui); cursor:pointer}
 .td-note{font-size:12.5px; color:var(--ink-3); margin:0}
-@media (min-width:760px){.td-hero{grid-template-columns:minmax(0,5fr) minmax(0,6fr)} .td-hero .ph{aspect-ratio:auto; min-height:260px} .td-hero .tx{justify-content:center; padding:24px}}
+@media (min-width:760px){.td-hero{grid-template-columns:minmax(0,5fr) minmax(0,6fr)} .td-hero .ph{aspect-ratio:auto; min-height:260px; max-height:380px} .td-hero .tx{justify-content:center; padding:24px}}
 </style>
 <script>/* light or dark follows the phone's own setting */
 (function(){var m=window.matchMedia&&matchMedia("(prefers-color-scheme: dark)");document.documentElement.setAttribute("data-theme",m&&!m.matches?"light":"dark")})();</script>
@@ -3243,14 +3243,14 @@ function todayPicks(date){
     all.filter(it => onDay(it, x.getMonth() + 1, x.getDate(), x.getFullYear())).forEach(it => week.push({...it, off, when: x}));
   }
   week.sort((a, b) => Math.abs(a.off) - Math.abs(b.off) || score(b) - score(a));
-  const seen = new Set(exact.map(it => it.p.id));
+  const seen = new Set(exact.map(it => it.p.id)), seenDay = new Set(seen);
   const thisYear = [];
   for (const p of H.people) for (const k of ["b", "d"]) {
     const y = k === "b" ? p.b : p.d; if (y == null || (k === "d" && p.alive)) continue;
-    const n = yearsSince(y, yr), r = roundOf(n); if (r && r >= 50 && !seen.has(p.id)) thisYear.push({p, k, y, n});
+    const n = yearsSince(y, yr), r = roundOf(n); if (r && r >= 50 && !seenDay.has(p.id)) thisYear.push({p, k, y, n});
   }
   thisYear.sort((a, b) => b.n - a.n || (CH[b.p.id] ? 1 : 0) - (CH[a.p.id] ? 1 : 0));
-  return {exact, week: week.filter(it => !seen.has(it.p.id)).slice(0, 6), thisYear: thisYear.slice(0, 8)};
+  return {exact, week: week.filter(it => !seen.has(it.p.id) && (seen.add(it.p.id), true)).slice(0, 6), thisYear: thisYear.slice(0, 8)};
 }
 const avHTML = p => { const ph = portraitOf(p); return `<span class="td-av" style="${fc(p.f)}">${ph ? `<img src="${esc(ph)}" alt="" loading="lazy">` : esc(initials(p.n))}</span>`; };
 const nYears = n => n.toLocaleString("en-US") + (n === 1 ? " year" : " years");
