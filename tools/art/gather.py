@@ -272,6 +272,11 @@ def tidy_commons(t):
     t = re.sub(r"\s*\((?:cropped|retouched|restored|detail)\)|,?\s*from C2RMF.*$|,?\s*\bby [A-Z][^,]*$", "", t)
     return re.sub(r"^(Anonymous|Unknown)\s*-\s*", "", t).strip(" ,.-") or "Untitled"
 
+def wm_thumb(url, w):
+    """A thumbnail at one of Wikimedia's standard widths (250, 330, 500, 960, 1280): those are cached and not rate limited."""
+    m = re.match(r"(https://upload\.wikimedia\.org/wikipedia/commons)/(\w/\w\w)/([^/?]+)", url)
+    return f"{m.group(1)}/thumb/{m.group(2)}/{m.group(3)}/{w}px-{m.group(3)}" if m else url
+
 def commons_year(s):
     m = re.search(r"\b(1[0-9]{3}|[1-9][0-9]{2})\b", s or "")
     if m: return int(m.group(1))
