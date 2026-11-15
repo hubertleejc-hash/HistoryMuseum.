@@ -2,9 +2,11 @@ name: Today dates
 
 # Looks up the exact birth and death days of the museum's people on Wikidata (CC0) for the
 # "Today in history" page, and commits app/today.js to the branch it runs on. Manual only;
-# re-run it after new people are added to app/data.js.
+# also runs when tools/today changes. Re-run it after new people are added to app/data.js.
 on:
   workflow_dispatch:
+  push:
+    paths: ["tools/today/**"]
 
 permissions:
   contents: write
