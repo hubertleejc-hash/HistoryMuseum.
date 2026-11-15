@@ -1,0 +1,54 @@
+{
+ "id": "washington-dc",
+ "n": "Washington, D.C.",
+ "kind": "city",
+ "where": "USA",
+ "lat": 38.8895,
+ "lon": -77.0353,
+ "r": 8000,
+ "blurb": "A capital planned from scratch on the Potomac in 1791.",
+ "facts": [
+  {
+   "h": "The Lincoln Memorial",
+   "when": "1922",
+   "lab": "verified",
+   "people": [
+    "lincoln"
+   ],
+   "t": "Dedicated in 1922, the memorial's walls carry the Gettysburg Address and Lincoln's second inaugural speech.",
+   "src": [
+    {
+     "n": "Wikipedia: Lincoln Memorial",
+     "u": "https://en.wikipedia.org/wiki/Lincoln_Memorial"
+    },
+    {
+     "n": "National Park Service: Lincoln Memorial",
+     "u": "https://www.nps.gov/linc/"
+    }
+   ]
+  },
+  {
+   "h": "I have a dream",
+   "when": "1963",
+   "lab": "verified",
+   "people": [
+    "mlk"
+   ],
+   "go": [
+    "#place-air-and-space",
+    "Air and Space Museum"
+   ],
+   "t": "On 28 August 1963 Martin Luther King Jr. spoke to about 250,000 people from the memorial's steps. The spot where he stood is marked.",
+   "src": [
+    {
+     "n": "Wikipedia: I Have a Dream",
+     "u": "https://en.wikipedia.org/wiki/I_Have_a_Dream"
+    },
+    {
+     "n": "Wikipedia: March on Washington for Jobs and Freedom",
+     "u": "https://en.wikipedia.org/wiki/March_on_Washington_for_Jobs_and_Freedom"
+    }
+   ]
+  }
+ ]
+}

@@ -67,7 +67,8 @@ def main():
     old = json.loads(old.group(1)) if old else {}
     old = old.get("days", old) if "days" in old or "events" in old else old
     if old and "--people" not in sys.argv:
-        out = {k: v for k, v in old.items() if not any(f"{k}:{x}" in deny for x in "bd")}
+        # a denied date drops only that date; the person's other date stays
+        out = {k: w for k, v in old.items() if (w := {x: y for x, y in v.items() if f"{k}:{x}" not in deny}) and ("b" in w or "d" in w)}
     for p in ([] if out else people()):
         ent = find_entity(p)
         if not ent: miss.append(p["id"]); continue

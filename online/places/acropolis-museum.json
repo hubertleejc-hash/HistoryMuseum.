@@ -1,0 +1,48 @@
+{
+ "id": "acropolis-museum",
+ "n": "Acropolis Museum",
+ "kind": "museum",
+ "where": "Athens",
+ "lat": 37.9684,
+ "lon": 23.7285,
+ "r": 150,
+ "rank": 22,
+ "blurb": "A glass museum at the foot of the Acropolis, built over a dig you can see through the floor.",
+ "facts": [
+  {
+   "h": "A gallery waiting for its missing half",
+   "when": "2009",
+   "lab": "verified",
+   "t": "The top floor has the Parthenon frieze laid out at its real size, facing the temple itself. Casts in white fill the places of the pieces that are in the British Museum.",
+   "src": [
+    {
+     "n": "Wikipedia: Acropolis Museum",
+     "u": "https://en.wikipedia.org/wiki/Acropolis_Museum"
+    },
+    {
+     "n": "Wikipedia: Elgin Marbles",
+     "u": "https://en.wikipedia.org/wiki/Elgin_Marbles"
+    }
+   ]
+  },
+  {
+   "h": "The Parthenon of Socrates' city",
+   "when": "447 to 432 BC",
+   "lab": "verified",
+   "people": [
+    "socrates"
+   ],
+   "t": "The Parthenon was built from 447 to 432 BC, when Socrates was a young man in Athens. The Caryatids of the nearby Erechtheion, five of the six maidens, stand here; the sixth is in London.",
+   "src": [
+    {
+     "n": "Wikipedia: Parthenon",
+     "u": "https://en.wikipedia.org/wiki/Parthenon"
+    },
+    {
+     "n": "Wikipedia: Erechtheion",
+     "u": "https://en.wikipedia.org/wiki/Erechtheion"
+    }
+   ]
+  }
+ ]
+}

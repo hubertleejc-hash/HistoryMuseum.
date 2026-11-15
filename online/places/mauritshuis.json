@@ -1,0 +1,51 @@
+{
+ "id": "mauritshuis",
+ "n": "Mauritshuis",
+ "kind": "museum",
+ "where": "The Hague",
+ "lat": 52.0804,
+ "lon": 4.3143,
+ "r": 100,
+ "rank": 54,
+ "blurb": "A small palace with some of the best Dutch paintings of all.",
+ "facts": [
+  {
+   "h": "Girl with a Pearl Earring",
+   "when": "c. 1665",
+   "lab": "verified",
+   "people": [
+    "vermeer"
+   ],
+   "t": "Vermeer painted her around 1665. She is not a portrait but a tronie, a study of a face in an exotic turban. Nobody knows who sat for it.",
+   "src": [
+    {
+     "n": "Wikipedia: Girl with a Pearl Earring",
+     "u": "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring"
+    },
+    {
+     "n": "Mauritshuis",
+     "u": "https://www.mauritshuis.nl/en"
+    }
+   ]
+  },
+  {
+   "h": "Rembrandt's anatomy lesson",
+   "when": "1632",
+   "lab": "verified",
+   "people": [
+    "rembrandt"
+   ],
+   "t": "In 1632 the young Rembrandt painted the Amsterdam surgeons' guild watching Dr Nicolaes Tulp dissect a hanged thief's arm. It made his name.",
+   "src": [
+    {
+     "n": "Wikipedia: The Anatomy Lesson of Dr. Nicolaes Tulp",
+     "u": "https://en.wikipedia.org/wiki/The_Anatomy_Lesson_of_Dr._Nicolaes_Tulp"
+    },
+    {
+     "n": "Wikipedia: Mauritshuis",
+     "u": "https://en.wikipedia.org/wiki/Mauritshuis"
+    }
+   ]
+  }
+ ]
+}

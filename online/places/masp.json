@@ -1,0 +1,51 @@
+{
+ "id": "masp",
+ "n": "São Paulo Museum of Art",
+ "short": "MASP",
+ "kind": "museum",
+ "where": "São Paulo",
+ "lat": -23.5614,
+ "lon": -46.6559,
+ "r": 150,
+ "rank": 37,
+ "blurb": "A red box floating over Avenida Paulista, with the best European art collection in the southern hemisphere.",
+ "facts": [
+  {
+   "h": "A museum lifted off the ground",
+   "when": "1968",
+   "lab": "verified",
+   "t": "Lina Bo Bardi's building of 1968 hangs from two red frames, leaving a free span of 74 metres below as a public square. Inside, she hung the paintings on glass easels, so you walk among them as in a crowd.",
+   "src": [
+    {
+     "n": "Wikipedia: São Paulo Museum of Art",
+     "u": "https://en.wikipedia.org/wiki/São_Paulo_Museum_of_Art"
+    },
+    {
+     "n": "MASP",
+     "u": "https://masp.org.br/en"
+    }
+   ]
+  },
+  {
+   "h": "Van Gogh in Brazil",
+   "when": "1888",
+   "lab": "verified",
+   "people": [
+    "van-gogh",
+    "renoir",
+    "cezanne"
+   ],
+   "t": "Among its Van Goghs is The Schoolboy, painted in Arles in 1888 of the postman Roulin's son. MASP also owns works by Renoir and Cézanne.",
+   "src": [
+    {
+     "n": "Wikipedia: São Paulo Museum of Art",
+     "u": "https://en.wikipedia.org/wiki/São_Paulo_Museum_of_Art"
+    },
+    {
+     "n": "Wikipedia: Roulin Family",
+     "u": "https://en.wikipedia.org/wiki/Roulin_Family"
+    }
+   ]
+  }
+ ]
+}

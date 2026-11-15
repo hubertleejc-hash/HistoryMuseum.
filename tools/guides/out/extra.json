@@ -1,0 +1,466 @@
+{
+ "commons": {
+  "lv-mona-lisa": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/960px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1341,
+    "page": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg",
+    "lic": "Public domain",
+    "cr": "Leonardo da Vinci, via Wikimedia Commons",
+    "file": "File:Mona Lisa, by Leonardo da Vinci, from C2RMF retouched.jpg"
+   },
+   "tried": [
+    [
+     "File:Mona Lisa, by Leonardo da Vinci, from C2RMF retouched.jpg",
+     "Public domain",
+     7479
+    ]
+   ]
+  },
+  "lv-venus": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Venus_de_Milo_Louvre_Ma399_n4.jpg/960px-Venus_de_Milo_Louvre_Ma399_n4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1510,
+    "page": "https://commons.wikimedia.org/wiki/File:Venus_de_Milo_Louvre_Ma399_n4.jpg",
+    "lic": "Public domain",
+    "cr": "Unknown artistUnknown artist, via Wikimedia Commons",
+    "file": "File:Venus de Milo Louvre Ma399 n4.jpg"
+   },
+   "tried": [
+    [
+     "File:Venus de Milo Louvre Ma399 n4.jpg",
+     "Public domain",
+     2250
+    ]
+   ]
+  },
+  "lv-victory": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Nike_of_Samothrake_Louvre_Ma2369_n4.jpg/960px-Nike_of_Samothrake_Louvre_Ma2369_n4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1364,
+    "page": "https://commons.wikimedia.org/wiki/File:Nike_of_Samothrake_Louvre_Ma2369_n4.jpg",
+    "lic": "Public domain",
+    "cr": "Unknown, via Wikimedia Commons",
+    "file": "File:Nike of Samothrake Louvre Ma2369 n4.jpg"
+   },
+   "tried": [
+    [
+     "File:Nike of Samothrake Louvre Ma2369 n4.jpg",
+     "Public domain",
+     2300
+    ]
+   ]
+  },
+  "lv-cana": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/The_Wedding_at_Cana_by_Paolo_Veronese%2C_Muse%C3%A9_du_Louvre%2C_left_side%2C_taken_on_July_26%2C_2026.jpg/960px-The_Wedding_at_Cana_by_Paolo_Veronese%2C_Muse%C3%A9_du_Louvre%2C_left_side%2C_taken_on_July_26%2C_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 675,
+    "page": "https://commons.wikimedia.org/wiki/File:The_Wedding_at_Cana_by_Paolo_Veronese,_Muse%C3%A9_du_Louvre,_left_side,_taken_on_July_26,_2026.jpg",
+    "lic": "CC0",
+    "cr": "Abzeronow, via Wikimedia Commons",
+    "file": "File:The Wedding at Cana by Paolo Veronese, Museé du Louvre, left side, taken on July 26, 2026.jpg"
+   },
+   "tried": [
+    [
+     "File:The Wedding at Cana by Paolo Veronese, Museé du Louvre, left side, taken on July 26, 2026.jpg",
+     "CC0",
+     4000
+    ]
+   ]
+  },
+  "lv-coronation": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg/960px-Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 566,
+    "page": "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_The_Coronation_of_Napoleon_(1805-1807).jpg",
+    "lic": "Public domain",
+    "cr": "Jacques-Louis David / Georges Rouget, via Wikimedia Commons",
+    "file": "File:Jacques-Louis David - The Coronation of Napoleon (1805-1807).jpg"
+   },
+   "tried": [
+    [
+     "File:Jacques-Louis David - The Coronation of Napoleon (1805-1807).jpg",
+     "Public domain",
+     6000
+    ]
+   ]
+  },
+  "lv-liberty": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg/960px-Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 712,
+    "page": "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg",
+    "lic": "Public domain",
+    "cr": "Eugène Delacroix, via Wikimedia Commons",
+    "file": "File:Eugène Delacroix - La liberté guidant le peuple.jpg"
+   },
+   "tried": [
+    [
+     "File:Eugène Delacroix - La liberté guidant le peuple.jpg",
+     "Public domain",
+     3133
+    ]
+   ]
+  },
+  "lv-medusa": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg/960px-JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 614,
+    "page": "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg",
+    "lic": "Public domain",
+    "cr": "Théodore Géricault, via Wikimedia Commons",
+    "file": "File:JEAN LOUIS THÉODORE GÉRICAULT - La Balsa de la Medusa (Museo del Louvre, 1818-19).jpg"
+   },
+   "tried": [
+    [
+     "File:JEAN LOUIS THÉODORE GÉRICAULT - La Balsa de la Medusa (Museo del Louvre, 1818-19).jpg",
+     "Public domain",
+     5872
+    ]
+   ]
+  },
+  "lv-scribe": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/The_seated_scribe-E_3023-IMG_4267-gradient-contrast.jpg/960px-The_seated_scribe-E_3023-IMG_4267-gradient-contrast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 900,
+    "page": "https://commons.wikimedia.org/wiki/File:The_seated_scribe-E_3023-IMG_4267-gradient-contrast.jpg",
+    "lic": "CC BY-SA 3.0 fr",
+    "cr": "Rama, via Wikimedia Commons",
+    "file": "File:The seated scribe-E 3023-IMG 4267-gradient-contrast.jpg"
+   },
+   "tried": [
+    [
+     "File:The seated scribe-E 3023-IMG 4267-gradient-contrast.jpg",
+     "CC BY-SA 3.0 fr",
+     5000
+    ]
+   ]
+  },
+  "lv-hammurabi": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/P1050763_Louvre_code_Hammurabi_face_rwk.JPG/960px-P1050763_Louvre_code_Hammurabi_face_rwk.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1481,
+    "page": "https://commons.wikimedia.org/wiki/File:P1050763_Louvre_code_Hammurabi_face_rwk.JPG",
+    "lic": "CC BY 3.0",
+    "cr": "Mbzt, via Wikimedia Commons",
+    "file": "File:P1050763 Louvre code Hammurabi face rwk.JPG"
+   },
+   "tried": [
+    [
+     "File:P1050763 Louvre code Hammurabi face rwk.JPG",
+     "CC BY 3.0",
+     1215
+    ]
+   ]
+  },
+  "lv-lamassu": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Lamassu_du_palais_de_Khorsabad%2C_Mus%C3%A9e_du_Louvre.jpg/960px-Lamassu_du_palais_de_Khorsabad%2C_Mus%C3%A9e_du_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1851,
+    "page": "https://commons.wikimedia.org/wiki/File:Lamassu_du_palais_de_Khorsabad,_Mus%C3%A9e_du_Louvre.jpg",
+    "lic": "CC BY-SA 4.0",
+    "cr": "ROTA Hugo, via Wikimedia Commons",
+    "file": "File:Lamassu du palais de Khorsabad, Musée du Louvre.jpg"
+   },
+   "tried": [
+    [
+     "File:Human-headed Winged Bulls Gate Khorsabad - Louvre 02a.jpg",
+     "CC BY-SA 3.0",
+     2816
+    ],
+    [
+     "File:Lamassu du palais de Khorsabad, Musée du Louvre.jpg",
+     "CC BY-SA 4.0",
+     1960
+    ]
+   ]
+  },
+  "lv-slave": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Dying_slave_Louvre_MR_1590%2C_Louvre.jpg/960px-Dying_slave_Louvre_MR_1590%2C_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1246,
+    "page": "https://commons.wikimedia.org/wiki/File:Dying_slave_Louvre_MR_1590,_Louvre.jpg",
+    "lic": "CC0",
+    "cr": "Michelangelo Buenarroti (1475-1564), via Wikimedia Commons",
+    "file": "File:Dying slave Louvre MR 1590, Louvre.jpg"
+   },
+   "tried": [
+    [
+     "File:Dying slave Louvre MR 1590, Louvre.jpg",
+     "CC0",
+     4311
+    ]
+   ]
+  },
+  "lv-odalisque": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/T%C3%AAte_de_la_grande_odalisque_couch%C3%A9e_par_Jean-Auguste-Dominique_Ingres.jpg/960px-T%C3%AAte_de_la_grande_odalisque_couch%C3%A9e_par_Jean-Auguste-Dominique_Ingres.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1002,
+    "page": "https://commons.wikimedia.org/wiki/File:T%C3%AAte_de_la_grande_odalisque_couch%C3%A9e_par_Jean-Auguste-Dominique_Ingres.jpg",
+    "lic": "CC BY-SA 4.0",
+    "cr": "JackyM59, via Wikimedia Commons",
+    "file": "File:Tête de la grande odalisque couchée par Jean-Auguste-Dominique Ingres.jpg"
+   },
+   "tried": [
+    [
+     "File:Tête de la grande odalisque couchée par Jean-Auguste-Dominique Ingres.jpg",
+     "CC BY-SA 4.0",
+     3187
+    ]
+   ]
+  },
+  "lv-lacemaker": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Johannes_Vermeer_-_The_lacemaker_%28c.1669-1671%29.jpg/960px-Johannes_Vermeer_-_The_lacemaker_%28c.1669-1671%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1032,
+    "page": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_The_lacemaker_(c.1669-1671).jpg",
+    "lic": "Public domain",
+    "cr": "Johannes Vermeer, via Wikimedia Commons",
+    "file": "File:Johannes Vermeer - The lacemaker (c.1669-1671).jpg"
+   },
+   "tried": [
+    [
+     "File:Spitzenklöpplerin des Johannes Vermeer im Louvre.jpg",
+     "CC BY-SA 3.0",
+     2806
+    ],
+    [
+     "File:Johannes Vermeer - The lacemaker (c.1669-1671).jpg",
+     "Public domain",
+     1596
+    ]
+   ]
+  },
+  "bm-rosetta": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Rosetta_Stone.JPG/960px-Rosetta_Stone.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1053,
+    "page": "https://commons.wikimedia.org/wiki/File:Rosetta_Stone.JPG",
+    "lic": "CC BY-SA 4.0",
+    "cr": "Hans Hillewaert, via Wikimedia Commons",
+    "file": "File:Rosetta Stone.JPG"
+   },
+   "tried": [
+    [
+     "File:Rosetta Stone.JPG",
+     "CC BY-SA 4.0",
+     3665
+    ]
+   ]
+  },
+  "bm-memnon": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/BM%2C_AES_Egyptian_Sulpture_~_Colossal_bust_of_Ramesses_II%2C_the_%27Younger_Memnon%27_%281250_BC%29_%28Room_4%29.jpg/960px-BM%2C_AES_Egyptian_Sulpture_~_Colossal_bust_of_Ramesses_II%2C_the_%27Younger_Memnon%27_%281250_BC%29_%28Room_4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1200,
+    "page": "https://commons.wikimedia.org/wiki/File:BM,_AES_Egyptian_Sulpture_~_Colossal_bust_of_Ramesses_II,_the_%27Younger_Memnon%27_(1250_BC)_(Room_4).jpg",
+    "lic": "CC BY-SA 3.0",
+    "cr": "Unknown, via Wikimedia Commons",
+    "file": "File:BM, AES Egyptian Sulpture ~ Colossal bust of Ramesses II, the 'Younger Memnon' (1250 BC) (Room 4).jpg"
+   },
+   "tried": [
+    [
+     "File:BM, AES Egyptian Sulpture ~ Colossal bust of Ramesses II, the 'Younger Memnon' (1250 BC) (Room 4).jpg",
+     "CC BY-SA 3.0",
+     1200
+    ]
+   ]
+  },
+  "bm-lion": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Ashurbanipal%27s_lion-hunt_scene%2C_wall_relief%2C_7th_century_BC%2C_from_Nineveh%2C_the_British_Museum.jpg/960px-Ashurbanipal%27s_lion-hunt_scene%2C_wall_relief%2C_7th_century_BC%2C_from_Nineveh%2C_the_British_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 601,
+    "page": "https://commons.wikimedia.org/wiki/File:Ashurbanipal%27s_lion-hunt_scene,_wall_relief,_7th_century_BC,_from_Nineveh,_the_British_Museum.jpg",
+    "lic": "CC BY-SA 4.0",
+    "cr": "Osama Shukir Muhammed Amin FRCP(Glasg), via Wikimedia Commons",
+    "file": "File:Ashurbanipal's lion-hunt scene, wall relief, 7th century BC, from Nineveh, the British Museum.jpg"
+   },
+   "tried": [
+    [
+     "File:Ashurbanipal's lion-hunt scene, wall relief, 7th century BC, from Nineveh, the British Museum.jpg",
+     "CC BY-SA 4.0",
+     6016
+    ]
+   ]
+  },
+  "bm-parthenon": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/London_-_Great_Russell_Street_-_British_Museum_-_Greece-_Parthenon_-_Elgin_Marbles_-_Parts_of_the_Frieze.jpg/960px-London_-_Great_Russell_Street_-_British_Museum_-_Greece-_Parthenon_-_Elgin_Marbles_-_Parts_of_the_Frieze.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 600,
+    "page": "https://commons.wikimedia.org/wiki/File:London_-_Great_Russell_Street_-_British_Museum_-_Greece-_Parthenon_-_Elgin_Marbles_-_Parts_of_the_Frieze.jpg",
+    "lic": "CC BY-SA 4.0",
+    "cr": "Txllxt TxllxT, via Wikimedia Commons",
+    "file": "File:London - Great Russell Street - British Museum - Greece- Parthenon - Elgin Marbles - Parts of the Frieze.jpg"
+   },
+   "tried": [
+    [
+     "File:London - Great Russell Street - British Museum - Greece- Parthenon - Elgin Marbles - Parts of the Frieze.jpg",
+     "CC BY-SA 4.0",
+     3024
+    ]
+   ]
+  },
+  "bm-hoa": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Hoa_Hakananai%27a_1.jpg/960px-Hoa_Hakananai%27a_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1350,
+    "page": "https://commons.wikimedia.org/wiki/File:Hoa_Hakananai%27a_1.jpg",
+    "lic": "CC BY-SA 4.0",
+    "cr": "Photograph by Mike Peel (www.mikepeel.net)., via Wikimedia Commons",
+    "file": "File:Hoa Hakananai'a 1.jpg"
+   },
+   "tried": [
+    [
+     "File:Hoa Hakananai'a 1.jpg",
+     "CC BY-SA 4.0",
+     2592
+    ]
+   ]
+  },
+  "bm-ur": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Royal_game_of_Ur%2C_2010-08-03_circles_%28cropped_and_adjusted%29.jpg/960px-Royal_game_of_Ur%2C_2010-08-03_circles_%28cropped_and_adjusted%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 400,
+    "page": "https://commons.wikimedia.org/wiki/File:Royal_game_of_Ur,_2010-08-03_circles_(cropped_and_adjusted).jpg",
+    "lic": "CC BY-SA 4.0",
+    "cr": "Szilas, via Wikimedia Commons",
+    "file": "File:Royal game of Ur, 2010-08-03 circles (cropped and adjusted).jpg"
+   },
+   "tried": [
+    [
+     "File:Royal game of Ur, 2010-08-03 circles (cropped and adjusted).jpg",
+     "CC BY-SA 4.0",
+     1823
+    ]
+   ]
+  },
+  "bm-sutton": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Replica_of_the_Sutton_Hoo_helmet%2C_British_Museum.jpg/960px-Replica_of_the_Sutton_Hoo_helmet%2C_British_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1563,
+    "page": "https://commons.wikimedia.org/wiki/File:Replica_of_the_Sutton_Hoo_helmet,_British_Museum.jpg",
+    "lic": "CC BY 4.0",
+    "cr": "APK, via Wikimedia Commons",
+    "file": "File:Replica of the Sutton Hoo helmet, British Museum.jpg"
+   },
+   "tried": [
+    [
+     "File:Replica of the Sutton Hoo helmet, British Museum.jpg",
+     "CC BY 4.0",
+     2214
+    ]
+   ]
+  },
+  "bm-lewis": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Lewis_Chessmen%2C_British_Museum.jpg/960px-Lewis_Chessmen%2C_British_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 723,
+    "page": "https://commons.wikimedia.org/wiki/File:Lewis_Chessmen,_British_Museum.jpg",
+    "lic": "CC BY 4.0",
+    "cr": "APK, via Wikimedia Commons",
+    "file": "File:Lewis Chessmen, British Museum.jpg"
+   },
+   "tried": [
+    [
+     "File:Lewis Chessmen, British Museum.jpg",
+     "CC BY 4.0",
+     3629
+    ]
+   ]
+  },
+  "bm-mummy": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Mummy_of_an_adolescent_boy%2C_British_Museum.jpg/960px-Mummy_of_an_adolescent_boy%2C_British_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 625,
+    "page": "https://commons.wikimedia.org/wiki/File:Mummy_of_an_adolescent_boy,_British_Museum.jpg",
+    "lic": "CC BY 4.0",
+    "cr": "APK, via Wikimedia Commons",
+    "file": "File:Mummy of an adolescent boy, British Museum.jpg"
+   },
+   "tried": [
+    [
+     "File:Mummy of an adolescent boy, British Museum.jpg",
+     "CC BY 4.0",
+     3856
+    ]
+   ]
+  },
+  "bm-enlightenment": {
+   "pic": null,
+   "tried": [
+    [
+     "File:The Watchers by Hew Locke, British Museum Enlightenment Gallry 03.jpg",
+     "CC0",
+     3719
+    ]
+   ],
+   "rejected": "wrong subject (modern artwork / another museum's copy)"
+  },
+  "bm-portland": {
+   "pic": null,
+   "tried": [
+    [
+     "File:Portland vase MET DP104684.jpg",
+     "CC0",
+     4000
+    ]
+   ],
+   "rejected": "wrong subject (modern artwork / another museum's copy)"
+  },
+  "bm-reading": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/British_Museum_Reading_Room_Panorama_Feb_2006.jpg/960px-British_Museum_Reading_Room_Panorama_Feb_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 306,
+    "page": "https://commons.wikimedia.org/wiki/File:British_Museum_Reading_Room_Panorama_Feb_2006.jpg",
+    "lic": "CC BY 2.5",
+    "cr": "Diliff, via Wikimedia Commons",
+    "file": "File:British Museum Reading Room Panorama Feb 2006.jpg"
+   },
+   "tried": [
+    [
+     "File:British Museum Reading Room Panorama Feb 2006.jpg",
+     "CC BY 2.5",
+     4996
+    ]
+   ]
+  }
+ },
+ "louvre": {
+  "mona-lisa": [],
+  "venus": [],
+  "victory": [],
+  "cana": [],
+  "coronation": [],
+  "liberty": [],
+  "medusa": [],
+  "scribe": [],
+  "hammurabi": [],
+  "lamassu": [],
+  "slave": [],
+  "odalisque": [],
+  "lacemaker": [],
+  "sphinx": []
+ }
+}

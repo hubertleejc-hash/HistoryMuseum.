@@ -1,0 +1,48 @@
+{
+ "id": "istanbul",
+ "n": "Istanbul",
+ "kind": "city",
+ "where": "Türkiye",
+ "lat": 41.0082,
+ "lon": 28.9784,
+ "r": 12000,
+ "blurb": "Byzantium, then Constantinople, then Istanbul: a capital of empires for 1,600 years.",
+ "facts": [
+  {
+   "h": "Hagia Sophia",
+   "when": "537 to 2020",
+   "lab": "verified",
+   "go": [
+    "#e-constantinople-falls",
+    "The fall of Constantinople"
+   ],
+   "t": "Emperor Justinian built Hagia Sophia in five years, finishing in 537. After the Ottoman conquest in 1453 it became a mosque, in 1934 a museum, and in 2020 a mosque again.",
+   "src": [
+    {
+     "n": "Wikipedia: Hagia Sophia",
+     "u": "https://en.wikipedia.org/wiki/Hagia_Sophia"
+    },
+    {
+     "n": "UNESCO: Historic Areas of Istanbul",
+     "u": "https://whc.unesco.org/en/list/356/"
+    }
+   ]
+  },
+  {
+   "h": "Ships over the hills",
+   "when": "1453",
+   "lab": "verified",
+   "t": "In 1453 Sultan Mehmed II had about 70 ships hauled overland on greased logs into the Golden Horn, behind the chain that blocked its mouth.",
+   "src": [
+    {
+     "n": "Wikipedia: Fall of Constantinople",
+     "u": "https://en.wikipedia.org/wiki/Fall_of_Constantinople"
+    },
+    {
+     "n": "Wikipedia: Golden Horn",
+     "u": "https://en.wikipedia.org/wiki/Golden_Horn"
+    }
+   ]
+  }
+ ]
+}

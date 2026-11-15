@@ -1,0 +1,53 @@
+{
+ "id": "hermitage",
+ "n": "State Hermitage Museum",
+ "short": "The Hermitage",
+ "kind": "museum",
+ "where": "St Petersburg",
+ "lat": 59.9398,
+ "lon": 30.3146,
+ "r": 350,
+ "rank": 6,
+ "blurb": "Catherine the Great's private gallery, grown into one of the largest museums on Earth, in the Winter Palace of the tsars.",
+ "facts": [
+  {
+   "h": "Catherine's 225 paintings",
+   "when": "1764",
+   "lab": "verified",
+   "people": [
+    "catherine-the-great"
+   ],
+   "t": "In 1764 Catherine the Great bought 225 paintings from a Berlin merchant who could not pay his debts to Prussia. That purchase is taken as the founding of the Hermitage. She called it her hermitage because only a few friends were allowed in.",
+   "src": [
+    {
+     "n": "Wikipedia: Hermitage Museum",
+     "u": "https://en.wikipedia.org/wiki/Hermitage_Museum"
+    },
+    {
+     "n": "Wikipedia: Catherine the Great",
+     "u": "https://en.wikipedia.org/wiki/Catherine_the_Great"
+    }
+   ]
+  },
+  {
+   "h": "The storming of the Winter Palace",
+   "when": "1917",
+   "lab": "verified",
+   "go": [
+    "#e-russian-revolution",
+    "The Russian Revolution"
+   ],
+   "t": "On the night of 7 November 1917 (25 October in the old Russian calendar), Bolshevik forces entered the Winter Palace and arrested the government sitting there. The palace has belonged to the museum ever since.",
+   "src": [
+    {
+     "n": "Wikipedia: Storming of the Winter Palace",
+     "u": "https://en.wikipedia.org/wiki/Storming_of_the_Winter_Palace"
+    },
+    {
+     "n": "Wikipedia: Winter Palace",
+     "u": "https://en.wikipedia.org/wiki/Winter_Palace"
+    }
+   ]
+  }
+ ]
+}

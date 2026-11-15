@@ -1,0 +1,45 @@
+{
+ "id": "national-museum-korea",
+ "n": "National Museum of Korea",
+ "kind": "museum",
+ "where": "Seoul",
+ "lat": 37.5239,
+ "lon": 126.9803,
+ "r": 300,
+ "rank": 24,
+ "blurb": "One of the largest museums in Asia, with 5,000 years of Korean history.",
+ "facts": [
+  {
+   "h": "The room of quiet",
+   "when": "600s",
+   "lab": "verified",
+   "t": "Two gilt-bronze Pensive Bodhisattvas from the 6th and 7th centuries, both National Treasures, share a dark room of their own, with nothing else to look at.",
+   "src": [
+    {
+     "n": "Wikipedia: National Museum of Korea",
+     "u": "https://en.wikipedia.org/wiki/National_Museum_of_Korea"
+    },
+    {
+     "n": "National Museum of Korea",
+     "u": "https://www.museum.go.kr/site/eng/home"
+    }
+   ]
+  },
+  {
+   "h": "A new home in 2005",
+   "when": "2005",
+   "lab": "verified",
+   "t": "The museum moved to Yongsan in 2005, into a building 400 metres long, so big that a ten-storey stone pagoda from the Goryeo period stands inside it.",
+   "src": [
+    {
+     "n": "Wikipedia: National Museum of Korea",
+     "u": "https://en.wikipedia.org/wiki/National_Museum_of_Korea"
+    },
+    {
+     "n": "National Museum of Korea",
+     "u": "https://www.museum.go.kr/site/eng/home"
+    }
+   ]
+  }
+ ]
+}

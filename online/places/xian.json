@@ -1,0 +1,92 @@
+{
+ "id": "xian",
+ "n": "Xi'an",
+ "kind": "city",
+ "where": "China",
+ "lat": 34.3416,
+ "lon": 108.9398,
+ "r": 15000,
+ "blurb": "Once Chang'an, capital of the Tang and the eastern end of the Silk Road.",
+ "facts": [
+  {
+   "h": "The biggest city in the world",
+   "when": "618 to 907",
+   "lab": "likely",
+   "people": [
+    "li-bai",
+    "du-fu"
+   ],
+   "go": [
+    "#e-tang-founded",
+    "The Tang dynasty"
+   ],
+   "t": "Under the Tang, Chang'an had perhaps a million people inside its walls, laid out in a grid of 108 wards. Li Bai and Du Fu both came here hoping for posts at court.",
+   "src": [
+    {
+     "n": "Wikipedia: Chang'an",
+     "u": "https://en.wikipedia.org/wiki/Chang'an"
+    },
+    {
+     "n": "Wikipedia: Tang dynasty",
+     "u": "https://en.wikipedia.org/wiki/Tang_dynasty"
+    }
+   ]
+  },
+  {
+   "h": "China's only empress",
+   "when": "690 to 705",
+   "lab": "verified",
+   "people": [
+    "wu-zetian"
+   ],
+   "t": "Wu Zetian ruled from here and from Luoyang, and in 690 declared her own dynasty. She is buried with her husband in the Qianling tomb, north-west of the city.",
+   "src": [
+    {
+     "n": "Wikipedia: Wu Zetian",
+     "u": "https://en.wikipedia.org/wiki/Wu_Zetian"
+    },
+    {
+     "n": "Wikipedia: Qianling Mausoleum",
+     "u": "https://en.wikipedia.org/wiki/Qianling_Mausoleum"
+    }
+   ]
+  },
+  {
+   "h": "Monk Xuanzang's pagoda",
+   "when": "652",
+   "lab": "verified",
+   "people": [
+    "buddha"
+   ],
+   "t": "The Big Wild Goose Pagoda was built in 652 to keep the Buddhist scriptures the monk Xuanzang brought back from India after 17 years of travel.",
+   "src": [
+    {
+     "n": "Wikipedia: Giant Wild Goose Pagoda",
+     "u": "https://en.wikipedia.org/wiki/Giant_Wild_Goose_Pagoda"
+    },
+    {
+     "n": "Wikipedia: Xuanzang",
+     "u": "https://en.wikipedia.org/wiki/Xuanzang"
+    }
+   ]
+  },
+  {
+   "h": "The Terracotta Army",
+   "lab": "verified",
+   "people": [
+    "qin-shi-huang"
+   ],
+   "go": [
+    "#place-terracotta-army",
+    "Terracotta Army"
+   ],
+   "t": "Qin Shi Huang's clay army is about 35 km east of the city.",
+   "src": [
+    {
+     "n": "Wikipedia: Terracotta Army",
+     "u": "https://en.wikipedia.org/wiki/Terracotta_Army"
+    }
+   ]
+  }
+ ]
+}

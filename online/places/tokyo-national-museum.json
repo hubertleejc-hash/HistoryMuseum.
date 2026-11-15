@@ -1,0 +1,49 @@
+{
+ "id": "tokyo-national-museum",
+ "n": "Tokyo National Museum",
+ "kind": "museum",
+ "where": "Tokyo",
+ "lat": 35.7188,
+ "lon": 139.7765,
+ "r": 300,
+ "rank": 14,
+ "blurb": "Japan's oldest and largest museum, in Ueno Park.",
+ "facts": [
+  {
+   "h": "Founded in 1872",
+   "when": "1872",
+   "lab": "verified",
+   "go": [
+    "#e-meiji-restoration",
+    "The Meiji Restoration"
+   ],
+   "t": "It began with an exhibition at the Yushima Seidō in 1872, just after the Meiji Restoration, when Japan was opening to the world. It holds about 120,000 objects, including 89 National Treasures.",
+   "src": [
+    {
+     "n": "Wikipedia: Tokyo National Museum",
+     "u": "https://en.wikipedia.org/wiki/Tokyo_National_Museum"
+    },
+    {
+     "n": "Tokyo National Museum",
+     "u": "https://www.tnm.jp/?lang=en"
+    }
+   ]
+  },
+  {
+   "h": "Pine trees in the mist",
+   "when": "c. 1595",
+   "lab": "verified",
+   "t": "Hasegawa Tōhaku's Pine Trees screens, painted in ink around 1595, show trees vanishing into fog. They are a National Treasure and come out only for a few weeks each New Year.",
+   "src": [
+    {
+     "n": "Wikipedia: Pine Trees (Hasegawa Tōhaku)",
+     "u": "https://en.wikipedia.org/wiki/Hasegawa_Tōhaku"
+    },
+    {
+     "n": "Wikipedia: Tokyo National Museum",
+     "u": "https://en.wikipedia.org/wiki/Tokyo_National_Museum"
+    }
+   ]
+  }
+ ]
+}

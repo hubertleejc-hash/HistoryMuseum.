@@ -1,0 +1,52 @@
+{
+ "id": "rijksmuseum",
+ "n": "Rijksmuseum",
+ "kind": "museum",
+ "where": "Amsterdam",
+ "lat": 52.36,
+ "lon": 4.8852,
+ "r": 200,
+ "rank": 11,
+ "blurb": "The national museum of the Netherlands, home of the Dutch Golden Age.",
+ "facts": [
+  {
+   "h": "A cathedral for art",
+   "when": "1885",
+   "lab": "verified",
+   "t": "Pierre Cuypers designed the building, opened in 1885; he also designed Amsterdam's Central Station. Some Protestants complained it looked too much like a Catholic church.",
+   "src": [
+    {
+     "n": "Wikipedia: Rijksmuseum",
+     "u": "https://en.wikipedia.org/wiki/Rijksmuseum"
+    },
+    {
+     "n": "Rijksmuseum",
+     "u": "https://www.rijksmuseum.nl/en"
+    }
+   ]
+  },
+  {
+   "h": "Rembrandt and Vermeer under one roof",
+   "lab": "verified",
+   "people": [
+    "rembrandt",
+    "vermeer"
+   ],
+   "go": [
+    "#place-amsterdam",
+    "Amsterdam"
+   ],
+   "t": "The Night Watch has its own hall at the end of the Gallery of Honour, and Vermeer's Milkmaid hangs nearby. The museum has opened most of its collection online, free to use.",
+   "src": [
+    {
+     "n": "Wikipedia: The Night Watch",
+     "u": "https://en.wikipedia.org/wiki/The_Night_Watch"
+    },
+    {
+     "n": "Wikipedia: The Milkmaid (Vermeer)",
+     "u": "https://en.wikipedia.org/wiki/The_Milkmaid_(Vermeer)"
+    }
+   ]
+  }
+ ]
+}

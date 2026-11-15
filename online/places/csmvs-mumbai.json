@@ -1,0 +1,30 @@
+{
+ "id": "csmvs-mumbai",
+ "n": "Chhatrapati Shivaji Maharaj Vastu Sangrahalaya",
+ "short": "CSMVS Museum",
+ "kind": "museum",
+ "where": "Mumbai",
+ "lat": 18.9269,
+ "lon": 72.8326,
+ "r": 150,
+ "rank": 32,
+ "blurb": "Mumbai's great museum, built as the Prince of Wales Museum in the Indo-Saracenic style.",
+ "facts": [
+  {
+   "h": "Named twice",
+   "when": "1905 and 1998",
+   "lab": "verified",
+   "t": "The foundation stone was laid in 1905 by the Prince of Wales, the future George V, and the museum was named after him. In 1998 it was renamed after the Maratha king Shivaji.",
+   "src": [
+    {
+     "n": "Wikipedia: Chhatrapati Shivaji Maharaj Vastu Sangrahalaya",
+     "u": "https://en.wikipedia.org/wiki/Chhatrapati_Shivaji_Maharaj_Vastu_Sangrahalaya"
+    },
+    {
+     "n": "CSMVS",
+     "u": "https://csmvs.in/"
+    }
+   ]
+  }
+ ]
+}

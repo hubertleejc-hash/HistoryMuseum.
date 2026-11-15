@@ -1,0 +1,47 @@
+{
+ "id": "national-palace-museum",
+ "n": "National Palace Museum",
+ "kind": "museum",
+ "where": "Taipei",
+ "lat": 25.1024,
+ "lon": 121.5485,
+ "r": 300,
+ "rank": 13,
+ "blurb": "About 700,000 treasures of the Chinese emperors, carried across the sea in 1948 and 1949.",
+ "facts": [
+  {
+   "h": "The collection that crossed the strait",
+   "when": "1948 to 1965",
+   "lab": "verified",
+   "people": [
+    "qianlong"
+   ],
+   "t": "During the Chinese Civil War the best of the Forbidden City's collection was shipped to Taiwan. The museum in Taipei opened in 1965. Much of it had been collected by the Qianlong Emperor.",
+   "src": [
+    {
+     "n": "Wikipedia: National Palace Museum",
+     "u": "https://en.wikipedia.org/wiki/National_Palace_Museum"
+    },
+    {
+     "n": "National Palace Museum",
+     "u": "https://www.npm.gov.tw/"
+    }
+   ]
+  },
+  {
+   "h": "The cabbage everyone queues for",
+   "lab": "verified",
+   "t": "The Jadeite Cabbage, carved from one piece of jade half green and half white, with two insects on its leaves, is the museum's most popular object. It came from the Forbidden City's Palace of Eternal Harmony.",
+   "src": [
+    {
+     "n": "Wikipedia: Jadeite Cabbage",
+     "u": "https://en.wikipedia.org/wiki/Jadeite_Cabbage"
+    },
+    {
+     "n": "Wikipedia: National Palace Museum",
+     "u": "https://en.wikipedia.org/wiki/National_Palace_Museum"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "id": "prague",
+ "n": "Prague",
+ "kind": "city",
+ "where": "Czechia",
+ "lat": 50.0755,
+ "lon": 14.4378,
+ "r": 8000,
+ "blurb": "The city of a hundred spires, where emperors kept astronomers and Kafka wrote at night.",
+ "facts": [
+  {
+   "h": "Kepler and Tycho",
+   "when": "1599 to 1612",
+   "lab": "verified",
+   "people": [
+    "kepler",
+    "tycho-brahe"
+   ],
+   "t": "Emperor Rudolf II brought the astronomer Tycho Brahe to Prague in 1599; Kepler joined him in 1600. After Tycho died in 1601, Kepler used his observations to find the laws of planetary motion.",
+   "src": [
+    {
+     "n": "Wikipedia: Johannes Kepler",
+     "u": "https://en.wikipedia.org/wiki/Johannes_Kepler"
+    },
+    {
+     "n": "Wikipedia: Tycho Brahe",
+     "u": "https://en.wikipedia.org/wiki/Tycho_Brahe"
+    }
+   ]
+  },
+  {
+   "h": "Kafka's city",
+   "when": "1883 to 1924",
+   "lab": "verified",
+   "people": [
+    "kafka"
+   ],
+   "t": "Franz Kafka was born by the Old Town Square in 1883 and worked by day for an insurance institute. He asked his friend Max Brod to burn his manuscripts; Brod published them instead.",
+   "src": [
+    {
+     "n": "Wikipedia: Franz Kafka",
+     "u": "https://en.wikipedia.org/wiki/Franz_Kafka"
+    },
+    {
+     "n": "Wikipedia: Max Brod",
+     "u": "https://en.wikipedia.org/wiki/Max_Brod"
+    }
+   ]
+  }
+ ]
+}

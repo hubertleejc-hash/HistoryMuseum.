@@ -1,0 +1,48 @@
+{
+ "id": "grand-egyptian-museum",
+ "n": "Grand Egyptian Museum",
+ "kind": "museum",
+ "where": "Giza",
+ "lat": 29.9947,
+ "lon": 31.1191,
+ "r": 400,
+ "rank": 15,
+ "blurb": "The largest museum in the world devoted to one civilization, two kilometres from the pyramids.",
+ "facts": [
+  {
+   "h": "Tutankhamun, all together",
+   "when": "1922 and 2025",
+   "lab": "verified",
+   "t": "For the first time since Howard Carter opened the tomb in 1922, the whole burial treasure of Tutankhamun, about 5,000 objects, is shown in one place. The museum opened fully in November 2025.",
+   "src": [
+    {
+     "n": "Wikipedia: Grand Egyptian Museum",
+     "u": "https://en.wikipedia.org/wiki/Grand_Egyptian_Museum"
+    },
+    {
+     "n": "Wikipedia: Tutankhamun",
+     "u": "https://en.wikipedia.org/wiki/Tutankhamun"
+    }
+   ]
+  },
+  {
+   "h": "A king in the entrance",
+   "lab": "verified",
+   "go": [
+    "#place-giza",
+    "The pyramids"
+   ],
+   "t": "A colossal granite statue of Ramesses II, about 3,200 years old and 11 metres tall, greets visitors in the atrium. It stood in a Cairo square from 1955 until 2006, when it was moved to protect it from traffic fumes.",
+   "src": [
+    {
+     "n": "Wikipedia: Grand Egyptian Museum",
+     "u": "https://en.wikipedia.org/wiki/Grand_Egyptian_Museum"
+    },
+    {
+     "n": "Wikipedia: Ramesses II",
+     "u": "https://en.wikipedia.org/wiki/Ramesses_II"
+    }
+   ]
+  }
+ ]
+}

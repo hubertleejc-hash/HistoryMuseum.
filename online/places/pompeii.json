@@ -1,0 +1,48 @@
+{
+ "id": "pompeii",
+ "n": "Pompeii",
+ "kind": "site",
+ "where": "Italy",
+ "lat": 40.7489,
+ "lon": 14.4848,
+ "r": 1200,
+ "blurb": "A Roman town frozen on one day in AD 79.",
+ "facts": [
+  {
+   "h": "Buried in a day",
+   "when": "AD 79",
+   "lab": "verified",
+   "go": [
+    "#e-vesuvius",
+    "Vesuvius"
+   ],
+   "t": "When Vesuvius erupted in AD 79, ash and hot gas buried Pompeii and Herculaneum. Pliny the Younger watched from across the bay and wrote two letters about it; his uncle Pliny the Elder died trying to rescue people.",
+   "src": [
+    {
+     "n": "Wikipedia: Eruption of Mount Vesuvius in 79 AD",
+     "u": "https://en.wikipedia.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD"
+    },
+    {
+     "n": "Wikipedia: Pompeii",
+     "u": "https://en.wikipedia.org/wiki/Pompeii"
+    }
+   ]
+  },
+  {
+   "h": "Bodies made of plaster",
+   "when": "1863",
+   "lab": "verified",
+   "t": "From 1863 the archaeologist Giuseppe Fiorelli poured plaster into the hollows left by bodies in the ash, giving the shapes of people at the moment they died.",
+   "src": [
+    {
+     "n": "Wikipedia: Giuseppe Fiorelli",
+     "u": "https://en.wikipedia.org/wiki/Giuseppe_Fiorelli"
+    },
+    {
+     "n": "Pompeii Archaeological Park",
+     "u": "https://pompeiisites.org/en/"
+    }
+   ]
+  }
+ ]
+}

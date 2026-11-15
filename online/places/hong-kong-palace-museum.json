@@ -1,0 +1,33 @@
+{
+ "id": "hong-kong-palace-museum",
+ "n": "Hong Kong Palace Museum",
+ "kind": "museum",
+ "where": "Hong Kong",
+ "lat": 22.3015,
+ "lon": 114.1597,
+ "r": 150,
+ "rank": 27,
+ "blurb": "Treasures lent from Beijing's Palace Museum, in a building opened in 2022 on the West Kowloon waterfront.",
+ "facts": [
+  {
+   "h": "The Forbidden City by the harbour",
+   "when": "2022",
+   "lab": "verified",
+   "go": [
+    "#place-palace-museum",
+    "The Palace Museum, Beijing"
+   ],
+   "t": "It opened in July 2022 with more than 900 objects lent from the Palace Museum in Beijing, many shown outside the capital for the first time.",
+   "src": [
+    {
+     "n": "Wikipedia: Hong Kong Palace Museum",
+     "u": "https://en.wikipedia.org/wiki/Hong_Kong_Palace_Museum"
+    },
+    {
+     "n": "Hong Kong Palace Museum",
+     "u": "https://www.hkpm.org.hk/en"
+    }
+   ]
+  }
+ ]
+}

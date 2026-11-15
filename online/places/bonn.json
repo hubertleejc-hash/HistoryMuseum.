@@ -1,0 +1,51 @@
+{
+ "id": "bonn",
+ "n": "Bonn",
+ "kind": "city",
+ "where": "Germany",
+ "lat": 50.7374,
+ "lon": 7.0982,
+ "r": 6000,
+ "blurb": "A Rhine town where Beethoven was born, and later the capital of West Germany.",
+ "facts": [
+  {
+   "h": "Beethoven's birthplace",
+   "when": "1770",
+   "lab": "verified",
+   "people": [
+    "beethoven"
+   ],
+   "t": "Beethoven was born in the attic of Bonngasse 20 in December 1770. The Beethoven-Haus keeps his last piano and his ear trumpets.",
+   "src": [
+    {
+     "n": "Wikipedia: Beethoven House",
+     "u": "https://en.wikipedia.org/wiki/Beethoven_House"
+    },
+    {
+     "n": "Beethoven-Haus Bonn",
+     "u": "https://www.beethoven.de/en"
+    }
+   ]
+  },
+  {
+   "h": "A capital by chance",
+   "when": "1949 to 1999",
+   "lab": "verified",
+   "go": [
+    "#e-berlin-wall",
+    "The fall of the Berlin Wall"
+   ],
+   "t": "In 1949 Bonn, not Frankfurt, became the seat of West Germany's government, partly because Konrad Adenauer lived nearby. It stayed so until Berlin took over after reunification.",
+   "src": [
+    {
+     "n": "Wikipedia: Bonn",
+     "u": "https://en.wikipedia.org/wiki/Bonn"
+    },
+    {
+     "n": "Wikipedia: Konrad Adenauer",
+     "u": "https://en.wikipedia.org/wiki/Konrad_Adenauer"
+    }
+   ]
+  }
+ ]
+}

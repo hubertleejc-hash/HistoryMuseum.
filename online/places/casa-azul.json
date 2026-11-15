@@ -1,0 +1,54 @@
+{
+ "id": "casa-azul",
+ "n": "Frida Kahlo Museum (La Casa Azul)",
+ "short": "La Casa Azul",
+ "kind": "museum",
+ "where": "Mexico City",
+ "lat": 19.3551,
+ "lon": -99.1625,
+ "r": 100,
+ "rank": 58,
+ "blurb": "The blue house in Coyoacán where Frida Kahlo was born and died.",
+ "facts": [
+  {
+   "h": "Born and died in the same house",
+   "when": "1907 to 1958",
+   "lab": "verified",
+   "people": [
+    "kahlo",
+    "rivera"
+   ],
+   "t": "Frida Kahlo was born here in 1907 and died here in 1954. Diego Rivera gave the house and its contents to the nation, and it opened as a museum in 1958.",
+   "src": [
+    {
+     "n": "Wikipedia: Frida Kahlo Museum",
+     "u": "https://en.wikipedia.org/wiki/Frida_Kahlo_Museum"
+    },
+    {
+     "n": "Museo Frida Kahlo",
+     "u": "https://www.museofridakahlo.org.mx/"
+    }
+   ]
+  },
+  {
+   "h": "Trotsky's refuge",
+   "when": "1937 to 1940",
+   "lab": "verified",
+   "people": [
+    "trotsky",
+    "stalin"
+   ],
+   "t": "Leon Trotsky, exiled from Stalin's Soviet Union, lived in the Blue House from 1937 to 1939. He moved to a house nearby, where a Soviet agent killed him in 1940.",
+   "src": [
+    {
+     "n": "Wikipedia: Leon Trotsky",
+     "u": "https://en.wikipedia.org/wiki/Leon_Trotsky"
+    },
+    {
+     "n": "Wikipedia: Frida Kahlo Museum",
+     "u": "https://en.wikipedia.org/wiki/Frida_Kahlo_Museum"
+    }
+   ]
+  }
+ ]
+}

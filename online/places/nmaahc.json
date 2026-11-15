@@ -1,0 +1,33 @@
+{
+ "id": "nmaahc",
+ "n": "National Museum of African American History and Culture",
+ "kind": "museum",
+ "where": "Washington, D.C.",
+ "lat": 38.8911,
+ "lon": -77.0326,
+ "r": 150,
+ "rank": 56,
+ "blurb": "The Smithsonian's museum of African American life, history and culture, opened in 2016.",
+ "facts": [
+  {
+   "h": "Harriet Tubman's hymnal and shawl",
+   "when": "c. 1897",
+   "lab": "verified",
+   "people": [
+    "tubman",
+    "victoria"
+   ],
+   "t": "The museum keeps Harriet Tubman's hymn book and a silk shawl that Queen Victoria gave her around 1897, after reading about her life.",
+   "src": [
+    {
+     "n": "NMAAHC",
+     "u": "https://nmaahc.si.edu/"
+    },
+    {
+     "n": "Wikipedia: Harriet Tubman",
+     "u": "https://en.wikipedia.org/wiki/Harriet_Tubman"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "id": "cambridge",
+ "n": "Cambridge",
+ "kind": "city",
+ "where": "England",
+ "lat": 52.2053,
+ "lon": 0.1218,
+ "r": 4000,
+ "blurb": "A university town since 1209, where Newton and Darwin studied.",
+ "facts": [
+  {
+   "h": "Newton's Trinity College",
+   "when": "1661 to 1696",
+   "lab": "verified",
+   "people": [
+    "newton"
+   ],
+   "t": "Newton entered Trinity College in 1661 and was a professor here for over 30 years. During the plague of 1665 to 1666 the university closed, and at home he worked out the ideas behind calculus and gravity.",
+   "src": [
+    {
+     "n": "Wikipedia: Isaac Newton",
+     "u": "https://en.wikipedia.org/wiki/Isaac_Newton"
+    },
+    {
+     "n": "Wikipedia: Trinity College, Cambridge",
+     "u": "https://en.wikipedia.org/wiki/Trinity_College,_Cambridge"
+    }
+   ]
+  },
+  {
+   "h": "Darwin, the beetle collector",
+   "when": "1828 to 1831",
+   "lab": "verified",
+   "people": [
+    "darwin",
+    "turing",
+    "maxwell"
+   ],
+   "t": "Darwin studied at Christ's College from 1828 to 1831, meant for the Church, and spent much of his time collecting beetles. A Cambridge professor, John Henslow, got him the place on the Beagle.",
+   "src": [
+    {
+     "n": "Wikipedia: Charles Darwin",
+     "u": "https://en.wikipedia.org/wiki/Charles_Darwin"
+    },
+    {
+     "n": "Wikipedia: John Stevens Henslow",
+     "u": "https://en.wikipedia.org/wiki/John_Stevens_Henslow"
+    }
+   ]
+  }
+ ]
+}

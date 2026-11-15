@@ -1,0 +1,51 @@
+{
+ "id": "penang",
+ "n": "George Town, Penang",
+ "short": "George Town",
+ "kind": "city",
+ "where": "Penang, Malaysia",
+ "lat": 5.4141,
+ "lon": 100.3288,
+ "r": 6000,
+ "blurb": "A free port where Malay, Chinese, Indian and European traders built their temples, shophouses and mosques side by side.",
+ "facts": [
+  {
+   "h": "Named for George III",
+   "when": "1786",
+   "lab": "verified",
+   "people": [
+    "george-iii"
+   ],
+   "go": [
+    "#e-penang-founded",
+    "George Town is founded"
+   ],
+   "t": "Francis Light of the East India Company landed in 1786 under an agreement with the Sultan of Kedah, and named the town after the British king, George III. Fort Cornwallis stands about where he came ashore.",
+   "src": [
+    {
+     "n": "Wikipedia: George Town, Penang",
+     "u": "https://en.wikipedia.org/wiki/George_Town,_Penang"
+    },
+    {
+     "n": "Wikipedia: Fort Cornwallis",
+     "u": "https://en.wikipedia.org/wiki/Fort_Cornwallis"
+    }
+   ]
+  },
+  {
+   "h": "One street, four faiths",
+   "lab": "verified",
+   "t": "On Jalan Masjid Kapitan Keling, often called the Street of Harmony, a church, a Chinese temple, a Hindu temple and a mosque stand within a short walk. In 2008 George Town and Melaka were listed together as a UNESCO World Heritage Site.",
+   "src": [
+    {
+     "n": "UNESCO: Melaka and George Town",
+     "u": "https://whc.unesco.org/en/list/1223/"
+    },
+    {
+     "n": "Wikipedia: George Town, Penang",
+     "u": "https://en.wikipedia.org/wiki/George_Town,_Penang"
+    }
+   ]
+  }
+ ]
+}

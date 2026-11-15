@@ -1,0 +1,45 @@
+{
+ "id": "cusco",
+ "n": "Cusco and Machu Picchu",
+ "short": "Cusco",
+ "kind": "site",
+ "where": "Peru",
+ "lat": -13.532,
+ "lon": -71.9675,
+ "r": 8000,
+ "blurb": "The Inca capital, with its stone walls that fit without mortar.",
+ "facts": [
+  {
+   "h": "Walls stronger than churches",
+   "when": "1650 and 1950",
+   "lab": "verified",
+   "t": "The Spanish built their churches on top of Inca walls. When earthquakes struck in 1650 and 1950, many colonial buildings fell and the Inca stonework underneath stood.",
+   "src": [
+    {
+     "n": "Wikipedia: Cusco",
+     "u": "https://en.wikipedia.org/wiki/Cusco"
+    },
+    {
+     "n": "UNESCO: City of Cuzco",
+     "u": "https://whc.unesco.org/en/list/273/"
+    }
+   ]
+  },
+  {
+   "h": "Machu Picchu",
+   "when": "c. 1450 and 1911",
+   "lab": "verified",
+   "t": "The mountain estate of the Inca emperor Pachacuti, built around 1450, was never found by the Spanish. Hiram Bingham made it famous in 1911, guided by local farmers who lived there.",
+   "src": [
+    {
+     "n": "Wikipedia: Machu Picchu",
+     "u": "https://en.wikipedia.org/wiki/Machu_Picchu"
+    },
+    {
+     "n": "Wikipedia: Hiram Bingham III",
+     "u": "https://en.wikipedia.org/wiki/Hiram_Bingham_III"
+    }
+   ]
+  }
+ ]
+}

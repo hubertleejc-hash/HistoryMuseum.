@@ -1,0 +1,90 @@
+{
+ "id": "vienna",
+ "n": "Vienna",
+ "kind": "city",
+ "where": "Austria",
+ "lat": 48.2082,
+ "lon": 16.3738,
+ "r": 10000,
+ "blurb": "The Habsburg capital and, for two centuries, the city every composer had to conquer.",
+ "facts": [
+  {
+   "h": "Where Figaro was written",
+   "when": "1784 to 1787",
+   "lab": "verified",
+   "people": [
+    "mozart"
+   ],
+   "t": "Behind St Stephen's Cathedral, at Domgasse 5, Mozart rented his grandest flat and wrote The Marriage of Figaro. Haydn visited him here. It is the only one of his Vienna homes still standing, now the Mozarthaus.",
+   "src": [
+    {
+     "n": "Wien Museum: Mozarthaus Vienna",
+     "u": "https://www.mozarthausvienna.at/en"
+    },
+    {
+     "n": "Wikipedia: Mozarthaus Vienna",
+     "u": "https://en.wikipedia.org/wiki/Mozarthaus_Vienna"
+    }
+   ]
+  },
+  {
+   "h": "Beethoven came to study with Haydn",
+   "when": "1792",
+   "lab": "verified",
+   "people": [
+    "beethoven",
+    "haydn"
+   ],
+   "img": "beethoven-stieler",
+   "t": "At 21, Beethoven left Bonn for Vienna to take lessons from Haydn, and never went back. He moved house dozens of times in the city, often after quarrels with landlords. Several of his homes are museums today, among them the Pasqualati House and the house in Heiligenstadt.",
+   "src": [
+    {
+     "n": "Wikipedia: Ludwig van Beethoven",
+     "u": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven"
+    },
+    {
+     "n": "Wien Museum: Beethoven Museum",
+     "u": "https://www.wienmuseum.at/"
+    }
+   ]
+  },
+  {
+   "h": "Freud's couch left with him",
+   "when": "1891 to 1938",
+   "lab": "verified",
+   "people": [
+    "freud"
+   ],
+   "t": "Sigmund Freud saw his patients for 47 years at Berggasse 19. After Nazi Germany annexed Austria in 1938 he fled to London with his family, and took the famous couch with him. The flat in Vienna is now the Sigmund Freud Museum.",
+   "src": [
+    {
+     "n": "Sigmund Freud Museum",
+     "u": "https://www.freud-museum.at/en/"
+    },
+    {
+     "n": "Wikipedia: Sigmund Freud",
+     "u": "https://en.wikipedia.org/wiki/Sigmund_Freud"
+    }
+   ]
+  },
+  {
+   "h": "The Kiss, in gold leaf",
+   "when": "1907 to 1908",
+   "lab": "verified",
+   "people": [
+    "klimt"
+   ],
+   "t": "Gustav Klimt painted The Kiss with real gold leaf, the high point of his golden period. The Austrian state bought it before it was even finished. It hangs in the Upper Belvedere palace.",
+   "src": [
+    {
+     "n": "Belvedere: The Kiss",
+     "u": "https://www.belvedere.at/"
+    },
+    {
+     "n": "Wikipedia: The Kiss (Klimt)",
+     "u": "https://en.wikipedia.org/wiki/The_Kiss_(Klimt)"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "id": "oxford",
+ "n": "Oxford",
+ "kind": "city",
+ "where": "England",
+ "lat": 51.752,
+ "lon": -1.2577,
+ "r": 4000,
+ "blurb": "The oldest university in the English-speaking world.",
+ "facts": [
+  {
+   "h": "Teaching since 1096",
+   "when": "1096",
+   "lab": "verified",
+   "go": [
+    "#e-oxford-teaching",
+    "Teaching begins"
+   ],
+   "t": "There was teaching in Oxford by 1096, and it grew quickly after 1167, when Henry II banned English students from Paris.",
+   "src": [
+    {
+     "n": "Wikipedia: University of Oxford",
+     "u": "https://en.wikipedia.org/wiki/University_of_Oxford"
+    },
+    {
+     "n": "Wikipedia: History of the University of Oxford",
+     "u": "https://en.wikipedia.org/wiki/History_of_the_University_of_Oxford"
+    }
+   ]
+  },
+  {
+   "h": "Hooke and the air pump",
+   "when": "1655 to 1662",
+   "lab": "verified",
+   "people": [
+    "hooke"
+   ],
+   "t": "Robert Hooke worked in Oxford as Robert Boyle's assistant in the late 1650s, building the air pump that showed how gas pressure works.",
+   "src": [
+    {
+     "n": "Wikipedia: Robert Hooke",
+     "u": "https://en.wikipedia.org/wiki/Robert_Hooke"
+    },
+    {
+     "n": "Wikipedia: Boyle's law",
+     "u": "https://en.wikipedia.org/wiki/Boyle's_law"
+    }
+   ]
+  }
+ ]
+}

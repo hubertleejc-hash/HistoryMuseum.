@@ -1,0 +1,50 @@
+{
+ "id": "montgomery",
+ "n": "Montgomery",
+ "kind": "city",
+ "where": "Alabama, USA",
+ "lat": 32.3792,
+ "lon": -86.3077,
+ "r": 6000,
+ "blurb": "A cradle of the civil rights movement.",
+ "facts": [
+  {
+   "h": "The bus boycott",
+   "when": "1955 to 1956",
+   "lab": "verified",
+   "people": [
+    "mlk"
+   ],
+   "t": "After Rosa Parks was arrested on 1 December 1955 for refusing to give up her bus seat, the Black citizens of Montgomery stopped riding the buses for 381 days. The young pastor who led them was Martin Luther King Jr.",
+   "src": [
+    {
+     "n": "Wikipedia: Montgomery bus boycott",
+     "u": "https://en.wikipedia.org/wiki/Montgomery_bus_boycott"
+    },
+    {
+     "n": "Wikipedia: Rosa Parks",
+     "u": "https://en.wikipedia.org/wiki/Rosa_Parks"
+    }
+   ]
+  },
+  {
+   "h": "Dexter Avenue Church",
+   "when": "1954 to 1960",
+   "lab": "verified",
+   "people": [
+    "mlk"
+   ],
+   "t": "King was pastor of the Dexter Avenue Baptist Church, two blocks from the Alabama State Capitol, from 1954 to 1960.",
+   "src": [
+    {
+     "n": "Wikipedia: Dexter Avenue King Memorial Baptist Church",
+     "u": "https://en.wikipedia.org/wiki/Dexter_Avenue_King_Memorial_Baptist_Church"
+    },
+    {
+     "n": "Wikipedia: Martin Luther King Jr.",
+     "u": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "id": "thermopylae",
+ "n": "Thermopylae",
+ "kind": "site",
+ "where": "Greece",
+ "lat": 38.7967,
+ "lon": 22.5367,
+ "r": 3000,
+ "blurb": "A narrow pass between mountains and sea, where 300 Spartans fell.",
+ "facts": [
+  {
+   "h": "The three hundred",
+   "when": "480 BC",
+   "lab": "likely",
+   "t": "In 480 BC King Leonidas held the pass against the Persian army of Xerxes for three days. Herodotus says a local man showed the Persians a path behind them. Some Greeks besides the 300 Spartans stayed to the end too.",
+   "src": [
+    {
+     "n": "Wikipedia: Battle of Thermopylae",
+     "u": "https://en.wikipedia.org/wiki/Battle_of_Thermopylae"
+    },
+    {
+     "n": "Wikipedia: Herodotus",
+     "u": "https://en.wikipedia.org/wiki/Herodotus"
+    }
+   ]
+  }
+ ]
+}

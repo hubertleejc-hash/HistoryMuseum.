@@ -1,0 +1,55 @@
+{
+ "id": "mexico-city",
+ "n": "Mexico City",
+ "kind": "city",
+ "where": "Mexico",
+ "lat": 19.4326,
+ "lon": -99.1332,
+ "r": 15000,
+ "blurb": "Built on top of Tenochtitlan, the Aztec capital in a lake.",
+ "facts": [
+  {
+   "h": "The Templo Mayor",
+   "when": "1978",
+   "lab": "verified",
+   "go": [
+    "#e-tenochtitlan",
+    "Tenochtitlan"
+   ],
+   "t": "The great double temple of Tenochtitlan was found again in 1978, when electricity workers dug up a carved stone of the moon goddess Coyolxauhqui beside the cathedral.",
+   "src": [
+    {
+     "n": "Wikipedia: Templo Mayor",
+     "u": "https://en.wikipedia.org/wiki/Templo_Mayor"
+    },
+    {
+     "n": "UNESCO: Historic Centre of Mexico City",
+     "u": "https://whc.unesco.org/en/list/412/"
+    }
+   ]
+  },
+  {
+   "h": "Rivera's murals",
+   "when": "1929 to 1935",
+   "lab": "verified",
+   "people": [
+    "rivera"
+   ],
+   "go": [
+    "#place-casa-azul",
+    "Frida Kahlo's Blue House"
+   ],
+   "t": "Diego Rivera painted the history of Mexico across the staircase of the National Palace from 1929 to 1935, from the Aztecs to the revolution.",
+   "src": [
+    {
+     "n": "Wikipedia: Diego Rivera",
+     "u": "https://en.wikipedia.org/wiki/Diego_Rivera"
+    },
+    {
+     "n": "Wikipedia: National Palace (Mexico)",
+     "u": "https://en.wikipedia.org/wiki/National_Palace_(Mexico)"
+    }
+   ]
+  }
+ ]
+}

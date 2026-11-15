@@ -1,0 +1,72 @@
+{
+ "id": "palace-museum",
+ "n": "The Palace Museum (Forbidden City)",
+ "short": "The Palace Museum",
+ "kind": "museum",
+ "where": "Beijing",
+ "lat": 39.9163,
+ "lon": 116.3972,
+ "r": 500,
+ "rank": 5,
+ "blurb": "The palace of 24 emperors of the Ming and Qing, now a museum with more than 1.8 million objects.",
+ "facts": [
+  {
+   "h": "Built in fourteen years",
+   "when": "1406 to 1420",
+   "lab": "verified",
+   "go": [
+    "#e-forbidden-city",
+    "The Forbidden City"
+   ],
+   "t": "The Yongle Emperor moved the capital to Beijing and built the palace from 1406 to 1420. It stayed the home of the emperors for almost 500 years, and ordinary people were forbidden to enter.",
+   "src": [
+    {
+     "n": "Wikipedia: Forbidden City",
+     "u": "https://en.wikipedia.org/wiki/Forbidden_City"
+    },
+    {
+     "n": "The Palace Museum",
+     "u": "https://en.dpm.org.cn/"
+    }
+   ]
+  },
+  {
+   "h": "The last emperor's home until 1924",
+   "when": "1912 to 1925",
+   "lab": "verified",
+   "people": [
+    "puyi"
+   ],
+   "t": "Puyi gave up the throne in 1912 as a six-year-old, but was allowed to keep living in the inner palace. He was expelled in 1924, and the Palace Museum opened in 1925.",
+   "src": [
+    {
+     "n": "Wikipedia: Puyi",
+     "u": "https://en.wikipedia.org/wiki/Puyi"
+    },
+    {
+     "n": "Wikipedia: Palace Museum",
+     "u": "https://en.wikipedia.org/wiki/Palace_Museum"
+    }
+   ]
+  },
+  {
+   "h": "The Kangxi Emperor's long reign",
+   "lab": "verified",
+   "people": [
+    "kangxi",
+    "qianlong"
+   ],
+   "t": "Kangxi ruled from here for 61 years, from 1661 to 1722, the longest reign in Chinese history. His grandson Qianlong added many of the paintings and treasures.",
+   "src": [
+    {
+     "n": "Wikipedia: Kangxi Emperor",
+     "u": "https://en.wikipedia.org/wiki/Kangxi_Emperor"
+    },
+    {
+     "n": "Wikipedia: Qianlong Emperor",
+     "u": "https://en.wikipedia.org/wiki/Qianlong_Emperor"
+    }
+   ]
+  }
+ ]
+}

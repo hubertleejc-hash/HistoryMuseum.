@@ -1,0 +1,334 @@
+{
+ "id": "louvre",
+ "n": "Musée du Louvre",
+ "short": "The Louvre",
+ "kind": "museum",
+ "where": "Paris",
+ "lat": 48.8606,
+ "lon": 2.3376,
+ "r": 350,
+ "rank": 1,
+ "blurb": "The most visited museum in the world, in a royal palace that grew for 800 years along the Seine.",
+ "facts": [
+  {
+   "h": "A fortress, a palace, then a museum",
+   "when": "1190 to 1793",
+   "lab": "verified",
+   "people": [
+    "louis-xiv"
+   ],
+   "t": "The Louvre began around 1200 as a fortress. Kings turned it into a palace, and when Louis XIV moved to Versailles it filled with artists and academies. The Revolution opened it to the public as a museum in 1793.",
+   "src": [
+    {
+     "n": "Wikipedia: Louvre Palace",
+     "u": "https://en.wikipedia.org/wiki/Louvre_Palace"
+    },
+    {
+     "n": "Wikipedia: Louvre",
+     "u": "https://en.wikipedia.org/wiki/Louvre"
+    }
+   ]
+  },
+  {
+   "h": "Napoleon's museum",
+   "when": "1803 to 1815",
+   "lab": "verified",
+   "people": [
+    "napoleon"
+   ],
+   "t": "Napoleon brought paintings and statues to the Louvre from the countries he conquered, and for a few years it was called the Musée Napoléon. After his fall in 1815 about 5,000 works were sent back, though not all; Veronese's Wedding at Cana stayed.",
+   "src": [
+    {
+     "n": "Wikipedia: Louvre",
+     "u": "https://en.wikipedia.org/wiki/Louvre"
+    },
+    {
+     "n": "Wikipedia: Napoleonic looting of art",
+     "u": "https://en.wikipedia.org/wiki/Napoleonic_looting_of_art"
+    }
+   ]
+  },
+  {
+   "h": "The glass pyramid",
+   "when": "1989",
+   "lab": "verified",
+   "t": "The architect I. M. Pei's glass pyramid opened in 1989 as a new main entrance. Many Parisians hated it at first, as they had once hated the Eiffel Tower.",
+   "src": [
+    {
+     "n": "Wikipedia: Louvre Pyramid",
+     "u": "https://en.wikipedia.org/wiki/Louvre_Pyramid"
+    },
+    {
+     "n": "Musée du Louvre",
+     "u": "https://www.louvre.fr/en"
+    }
+   ]
+  }
+ ],
+ "guide": {
+  "n": "The Louvre in one hour",
+  "mins": 60,
+  "room": "Usually room",
+  "floors": {
+   "0": "Level 0",
+   "1": "Level 1"
+  },
+  "intro": "Twelve works in walking order, starting with Mesopotamia and Greece on level 0, then up the Daru staircase to the Winged Victory and the great paintings. The Mona Lisa room gets crowded; go early or late.",
+  "note": "Room numbers are where these works usually hang. We have not been able to confirm them with the Louvre, and rooms close and works move, so treat them as a pointer. The Louvre's app and the guards know where things are today.",
+  "src": [
+   {
+    "n": "Louvre collections database",
+    "u": "https://collections.louvre.fr/en/"
+   },
+   {
+    "n": "Musée du Louvre: plan your visit",
+    "u": "https://www.louvre.fr/en"
+   },
+   {
+    "n": "Wikipedia: Louvre",
+    "u": "https://en.wikipedia.org/wiki/Louvre"
+   }
+  ],
+  "stops": [
+   {
+    "floor": 0,
+    "gal": "229",
+    "t": "Winged bulls of Khorsabad",
+    "by": "Assyrian",
+    "date": "c. 713 to 706 BC",
+    "story": "These human-headed winged bulls guarded a gate of King Sargon II's palace at Khorsabad, in today's Iraq. Each weighs about 30 tonnes. Count the legs: five, so they look right both from the front and from the side.",
+    "look": "the fifth leg",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Lamassu",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Lamassu_du_palais_de_Khorsabad%2C_Mus%C3%A9e_du_Louvre.jpg/960px-Lamassu_du_palais_de_Khorsabad%2C_Mus%C3%A9e_du_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1851,
+     "page": "https://commons.wikimedia.org/wiki/File:Lamassu_du_palais_de_Khorsabad,_Mus%C3%A9e_du_Louvre.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "ROTA Hugo, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 0,
+    "gal": "227",
+    "t": "The Code of Hammurabi",
+    "by": "Babylonian",
+    "date": "c. 1754 BC",
+    "story": "King Hammurabi of Babylon had 282 laws carved on this basalt pillar, under a picture of himself before the sun god. 'An eye for an eye' is here, about 1,000 years before it appears in the Bible. French archaeologists found it in Susa, Iran, in 1901.",
+    "look": "the king and the god at the top",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Code_of_Hammurabi",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/P1050763_Louvre_code_Hammurabi_face_rwk.JPG/960px-P1050763_Louvre_code_Hammurabi_face_rwk.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1481,
+     "page": "https://commons.wikimedia.org/wiki/File:P1050763_Louvre_code_Hammurabi_face_rwk.JPG",
+     "lic": "CC BY 3.0",
+     "cr": "Mbzt, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 0,
+    "gal": "345",
+    "t": "Venus de Milo",
+    "by": "Greek",
+    "date": "c. 150 to 125 BC",
+    "story": "A farmer found her on the Greek island of Milos in 1820, and the French ambassador bought her for the king. Her arms were never found. She is probably Aphrodite, though some think she is the sea goddess Amphitrite.",
+    "look": "the twist of the body, and the line where the two blocks of marble meet",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Venus_de_Milo",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Venus_de_Milo_Louvre_Ma399_n4.jpg/960px-Venus_de_Milo_Louvre_Ma399_n4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1510,
+     "page": "https://commons.wikimedia.org/wiki/File:Venus_de_Milo_Louvre_Ma399_n4.jpg",
+     "lic": "Public domain",
+     "cr": "Unknown artistUnknown artist, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 0,
+    "gal": "403",
+    "t": "Dying Slave",
+    "by": "Michelangelo",
+    "date": "1513 to 1516",
+    "story": "Carved for the tomb of Pope Julius II, which shrank again and again over 40 years. Michelangelo gave this figure and its pair, the Rebellious Slave, to a friend. Nobody agrees whether he is dying, sleeping or waking.",
+    "look": "the unfinished monkey behind his leg",
+    "people": [
+     "michelangelo"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Dying_Slave",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Dying_slave_Louvre_MR_1590%2C_Louvre.jpg/960px-Dying_slave_Louvre_MR_1590%2C_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1246,
+     "page": "https://commons.wikimedia.org/wiki/File:Dying_slave_Louvre_MR_1590,_Louvre.jpg",
+     "lic": "CC0",
+     "cr": "Michelangelo Buenarroti (1475-1564), via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "703",
+    "t": "Winged Victory of Samothrace",
+    "by": "Greek",
+    "date": "c. 190 BC",
+    "story": "Nike, goddess of victory, lands on the prow of a warship, her dress blown against her by the sea wind. She was found in pieces on the island of Samothrace in 1863. Her head and arms are lost; a hand found later is in a case nearby.",
+    "look": "the wind in the dress",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Winged_Victory_of_Samothrace",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Nike_of_Samothrake_Louvre_Ma2369_n4.jpg/960px-Nike_of_Samothrake_Louvre_Ma2369_n4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1364,
+     "page": "https://commons.wikimedia.org/wiki/File:Nike_of_Samothrake_Louvre_Ma2369_n4.jpg",
+     "lic": "Public domain",
+     "cr": "Unknown, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "711",
+    "t": "Mona Lisa",
+    "by": "Leonardo da Vinci",
+    "date": "c. 1503 to 1519",
+    "story": "Leonardo began the portrait of Lisa Gherardini, a Florentine silk merchant's wife, in 1503, and was still working on it when he died in France. It is smaller than people expect, 77 by 53 centimetres. Turn around afterwards: the largest painting in the Louvre is behind you.",
+    "look": "the two different landscapes on either side of her",
+    "people": [
+     "leonardo"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Mona_Lisa",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/960px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1341,
+     "page": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg",
+     "lic": "Public domain",
+     "cr": "Leonardo da Vinci, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "711",
+    "t": "The Wedding at Cana",
+    "by": "Paolo Veronese",
+    "date": "1562 to 1563",
+    "story": "Veronese filled ten metres of canvas with about 130 guests. Tradition says the musicians in front are Veronese himself, Titian and other Venetian painters. Napoleon's soldiers cut it from a Venetian monastery in 1797. It was never sent back.",
+    "look": "the musicians in the middle",
+    "people": [
+     "napoleon"
+    ],
+    "u": "https://en.wikipedia.org/wiki/The_Wedding_at_Cana",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/The_Wedding_at_Cana_by_Paolo_Veronese%2C_Muse%C3%A9_du_Louvre%2C_left_side%2C_taken_on_July_26%2C_2026.jpg/960px-The_Wedding_at_Cana_by_Paolo_Veronese%2C_Muse%C3%A9_du_Louvre%2C_left_side%2C_taken_on_July_26%2C_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 675,
+     "page": "https://commons.wikimedia.org/wiki/File:The_Wedding_at_Cana_by_Paolo_Veronese,_Muse%C3%A9_du_Louvre,_left_side,_taken_on_July_26,_2026.jpg",
+     "lic": "CC0",
+     "cr": "Abzeronow, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "702",
+    "t": "The Coronation of Napoleon",
+    "by": "Jacques-Louis David",
+    "date": "1805 to 1807",
+    "story": "David shows Napoleon crowning Josephine in Notre-Dame in 1804. He changed things to please him: Napoleon's mother, who stayed away, sits in a place of honour.",
+    "look": "Madame Mère in the box, who was not there",
+    "people": [
+     "napoleon"
+    ],
+    "u": "https://en.wikipedia.org/wiki/The_Coronation_of_Napoleon",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg/960px-Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 566,
+     "page": "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_The_Coronation_of_Napoleon_(1805-1807).jpg",
+     "lic": "Public domain",
+     "cr": "Jacques-Louis David / Georges Rouget, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "702",
+    "t": "Grande Odalisque",
+    "by": "Jean-Auguste-Dominique Ingres",
+    "date": "1814",
+    "story": "Critics laughed when it was shown in 1819: her back has two or three extra vertebrae. Ingres made her longer on purpose, for the line.",
+    "look": "how long the back is",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Grande_Odalisque",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/T%C3%AAte_de_la_grande_odalisque_couch%C3%A9e_par_Jean-Auguste-Dominique_Ingres.jpg/960px-T%C3%AAte_de_la_grande_odalisque_couch%C3%A9e_par_Jean-Auguste-Dominique_Ingres.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1002,
+     "page": "https://commons.wikimedia.org/wiki/File:T%C3%AAte_de_la_grande_odalisque_couch%C3%A9e_par_Jean-Auguste-Dominique_Ingres.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "JackyM59, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "700",
+    "t": "Liberty Leading the People",
+    "by": "Eugène Delacroix",
+    "date": "1830",
+    "story": "Delacroix painted the July Revolution of 1830, three days of fighting in Paris, the same year. The boy with two pistols may have helped inspire Victor Hugo's Gavroche in Les Misérables, though nobody can be sure.",
+    "look": "the towers of Notre-Dame in the smoke",
+    "people": [
+     "victor-hugo"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Liberty_Leading_the_People",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg/960px-Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 712,
+     "page": "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg",
+     "lic": "Public domain",
+     "cr": "Eugène Delacroix, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "700",
+    "t": "The Raft of the Medusa",
+    "by": "Théodore Géricault",
+    "date": "1818 to 1819",
+    "story": "In 1816 a French navy ship ran aground off Africa, and 147 people were set adrift on a raft; 15 survived. Géricault interviewed survivors, studied corpses in a hospital and built a model of the raft to paint it.",
+    "look": "the tiny ship on the horizon",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/The_Raft_of_the_Medusa",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg/960px-JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 614,
+     "page": "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg",
+     "lic": "Public domain",
+     "cr": "Théodore Géricault, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "635",
+    "t": "The Seated Scribe",
+    "by": "Egyptian",
+    "date": "c. 2600 to 2350 BC",
+    "story": "A painted limestone scribe with eyes of rock crystal set in copper, so lifelike they seem to follow you. He was found at Saqqara in 1850. Nobody knows his name.",
+    "look": "the eyes, from the side",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Seated_Scribe",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/The_seated_scribe-E_3023-IMG_4267-gradient-contrast.jpg/960px-The_seated_scribe-E_3023-IMG_4267-gradient-contrast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 900,
+     "page": "https://commons.wikimedia.org/wiki/File:The_seated_scribe-E_3023-IMG_4267-gradient-contrast.jpg",
+     "lic": "CC BY-SA 3.0 fr",
+     "cr": "Rama, via Wikimedia Commons"
+    }
+   }
+  ]
+ },
+ "checked": "15 November 2026"
+}

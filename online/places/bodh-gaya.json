@@ -1,0 +1,46 @@
+{
+ "id": "bodh-gaya",
+ "n": "Bodh Gaya",
+ "kind": "site",
+ "where": "Bihar, India",
+ "lat": 24.6951,
+ "lon": 84.9913,
+ "r": 2000,
+ "blurb": "The place of the Buddha's awakening, the holiest site of Buddhism.",
+ "facts": [
+  {
+   "h": "Under the Bodhi tree",
+   "lab": "tradition",
+   "people": [
+    "buddha"
+   ],
+   "t": "By Buddhist tradition, Siddhartha Gautama sat in meditation under a fig tree here and became the Buddha, the awakened one, around 2,500 years ago. The tree there today grew from a cutting of a descendant of the original.",
+   "src": [
+    {
+     "n": "Wikipedia: Mahabodhi Temple",
+     "u": "https://en.wikipedia.org/wiki/Mahabodhi_Temple"
+    },
+    {
+     "n": "UNESCO: Mahabodhi Temple Complex",
+     "u": "https://whc.unesco.org/en/list/1056/"
+    }
+   ]
+  },
+  {
+   "h": "Ashoka's temple",
+   "when": "c. 250 BC",
+   "lab": "verified",
+   "t": "The emperor Ashoka built the first temple here around 250 BC. The present Mahabodhi Temple, mostly from the 5th and 6th centuries, is one of the oldest brick temples in India.",
+   "src": [
+    {
+     "n": "Wikipedia: Mahabodhi Temple",
+     "u": "https://en.wikipedia.org/wiki/Mahabodhi_Temple"
+    },
+    {
+     "n": "Wikipedia: Ashoka",
+     "u": "https://en.wikipedia.org/wiki/Ashoka"
+    }
+   ]
+  }
+ ]
+}

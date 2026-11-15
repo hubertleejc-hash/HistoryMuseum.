@@ -1,0 +1,121 @@
+{
+ "id": "paris",
+ "n": "Paris",
+ "kind": "city",
+ "where": "France",
+ "lat": 48.8566,
+ "lon": 2.3522,
+ "r": 11000,
+
+ "blurb": "For centuries the place where painters, scientists and revolutionaries came to be seen. Many of the museum's people walked these streets.",
+ "facts": [
+  {
+   "h": "Van Gogh found his colours in Montmartre",
+   "when": "1886 to 1888",
+   "lab": "verified",
+   "people": [
+    "van-gogh"
+   ],
+   "img": "vg-self-1887",
+   "go": [
+    "#walk-1889",
+    "Walk into Paris, 1889"
+   ],
+   "t": "Vincent moved in with his brother Theo, an art dealer, first on the Rue Laval and then at 54 Rue Lepic in Montmartre. In two years among the Impressionists his dark Dutch palette turned bright, and he painted more than twenty self-portraits, partly because a model cost money and a mirror did not.",
+   "src": [
+    {
+     "n": "Van Gogh Museum: Vincent in Paris",
+     "u": "https://www.vangoghmuseum.nl/en"
+    },
+    {
+     "n": "Wikipedia: Vincent van Gogh, Paris",
+     "u": "https://en.wikipedia.org/wiki/Vincent_van_Gogh"
+    }
+   ]
+  },
+  {
+   "h": "A tower built to come down",
+   "when": "1889",
+   "lab": "verified",
+   "img": "eiffel-1888",
+   "go": [
+    "#e-eiffel-tower",
+    "The Eiffel Tower opens"
+   ],
+   "t": "Gustave Eiffel's company built the tower as the entrance to the 1889 World's Fair, a hundred years after the Revolution. It had a permit for twenty years only. It stayed partly because it proved useful as a radio mast, and it was the tallest structure on Earth until 1930.",
+   "src": [
+    {
+     "n": "Wikipedia: Eiffel Tower",
+     "u": "https://en.wikipedia.org/wiki/Eiffel_Tower"
+    },
+    {
+     "n": "Official site of the Eiffel Tower",
+     "u": "https://www.toureiffel.paris/en/the-monument/history"
+    }
+   ]
+  },
+  {
+   "h": "Napoleon crowns himself",
+   "when": "2 December 1804",
+   "lab": "verified",
+   "people": [
+    "napoleon"
+   ],
+   "go": [
+    "#e-napoleon-crowned",
+    "The coronation"
+   ],
+   "t": "In Notre-Dame Cathedral, with Pope Pius VII watching, Napoleon took the crown and placed it on his own head, then crowned Josephine. The gesture had been agreed in advance. Jacques-Louis David painted the scene, and the huge canvas now hangs in the Louvre.",
+   "src": [
+    {
+     "n": "Wikipedia: Coronation of Napoleon",
+     "u": "https://en.wikipedia.org/wiki/Coronation_of_Napoleon"
+    },
+    {
+     "n": "Louvre: The Coronation of the Emperor Napoleon I",
+     "u": "https://collections.louvre.fr/en/ark:/53355/cl010066180"
+    }
+   ]
+  },
+  {
+   "h": "Radium, found in a shed",
+   "when": "1898",
+   "lab": "verified",
+   "people": [
+    "marie-curie"
+   ],
+   "img": "curie",
+   "t": "Marie and Pierre Curie worked in a leaky converted shed at the School of Physics and Chemistry, on the Rue Vauquelin. There they found two new elements, polonium and radium. In 1995 Marie became the first woman buried in the Panthéon for her own work.",
+   "src": [
+    {
+     "n": "Wikipedia: Marie Curie",
+     "u": "https://en.wikipedia.org/wiki/Marie_Curie"
+    },
+    {
+     "n": "Musée Curie",
+     "u": "https://musee.curie.fr/"
+    }
+   ]
+  },
+  {
+   "h": "The day the Mona Lisa vanished",
+   "when": "21 August 1911",
+   "lab": "verified",
+   "people": [
+    "leonardo"
+   ],
+   "img": "mona-lisa",
+   "t": "Leonardo carried the painting to France himself, and it has been in French royal hands ever since. In 1911 a workman, Vincenzo Peruggia, hid in the Louvre and walked out with it under his smock. It was found two years later in Florence, and came home far more famous than it left.",
+   "src": [
+    {
+     "n": "Wikipedia: Mona Lisa, theft",
+     "u": "https://en.wikipedia.org/wiki/Mona_Lisa"
+    },
+    {
+     "n": "Louvre: Mona Lisa",
+     "u": "https://www.louvre.fr/en/explore/the-palace/from-the-mona-lisa-to-the-wedding-feast-at-cana"
+    }
+   ]
+  }
+ ]
+}

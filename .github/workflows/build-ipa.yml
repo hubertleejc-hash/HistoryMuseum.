@@ -72,6 +72,9 @@ jobs:
           echo "Platform: $PLATFORM, display name: $NAME"
           [ "$PLATFORM" = "iphoneos" ] || { echo "::error::Expected an iphoneos build, got $PLATFORM"; exit 1; }
           [ "$NAME" = "Contemporaries" ] || echo "::warning::Display name is '$NAME', expected 'Contemporaries'"
+          # "Near me" asks iOS for the location; without this sentence in the app, iOS closes the app on that tap.
+          WHY=$(/usr/libexec/PlistBuddy -c "Print :NSLocationWhenInUseUsageDescription" "$APP/Info.plist" 2>/dev/null || true)
+          [ -n "$WHY" ] || { echo "::error::The location permission sentence (NSLocationWhenInUseUsageDescription) is missing from the app"; exit 1; }
           [ -f "$APP/index.html" ] || { echo "::error::index.html is not in the app"; ls "$APP"; exit 1; }
           INSIDE=$(stat -f%z "$APP/index.html")
           echo "Museum page inside the app: $INSIDE bytes"

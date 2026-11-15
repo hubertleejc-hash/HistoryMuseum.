@@ -1,0 +1,35 @@
+{
+ "id": "cape-canaveral",
+ "n": "Kennedy Space Center",
+ "kind": "site",
+ "where": "Florida, USA",
+ "lat": 28.5729,
+ "lon": -80.649,
+ "r": 8000,
+ "blurb": "The launch site of every crewed American Moon mission.",
+ "facts": [
+  {
+   "h": "Launch Complex 39A",
+   "when": "1969",
+   "lab": "verified",
+   "people": [
+    "armstrong"
+   ],
+   "go": [
+    "#e-moon-landing",
+    "The Moon landing"
+   ],
+   "t": "Apollo 11 lifted off from Pad 39A at 9:32 in the morning on 16 July 1969. Four days later Neil Armstrong stepped onto the Moon.",
+   "src": [
+    {
+     "n": "Wikipedia: Kennedy Space Center Launch Complex 39A",
+     "u": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_39A"
+    },
+    {
+     "n": "Wikipedia: Apollo 11",
+     "u": "https://en.wikipedia.org/wiki/Apollo_11"
+    }
+   ]
+  }
+ ]
+}

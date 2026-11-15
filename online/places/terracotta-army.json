@@ -1,0 +1,56 @@
+{
+ "id": "terracotta-army",
+ "n": "Terracotta Army Museum",
+ "short": "Terracotta Army",
+ "kind": "museum",
+ "where": "Xi'an",
+ "lat": 34.3853,
+ "lon": 109.2785,
+ "r": 800,
+ "rank": 26,
+ "blurb": "The clay army that guards the tomb of China's first emperor.",
+ "facts": [
+  {
+   "h": "Found by farmers digging a well",
+   "when": "1974",
+   "lab": "verified",
+   "people": [
+    "qin-shi-huang"
+   ],
+   "t": "In March 1974 farmers near Xi'an dug into pieces of clay soldiers. Archaeologists now think there are about 8,000 figures, each with its own face. Most are still underground.",
+   "src": [
+    {
+     "n": "Wikipedia: Terracotta Army",
+     "u": "https://en.wikipedia.org/wiki/Terracotta_Army"
+    },
+    {
+     "n": "Wikipedia: Mausoleum of the First Qin Emperor",
+     "u": "https://en.wikipedia.org/wiki/Mausoleum_of_the_First_Qin_Emperor"
+    }
+   ]
+  },
+  {
+   "h": "The tomb nobody has opened",
+   "lab": "likely",
+   "people": [
+    "qin-shi-huang",
+    "sima-qian"
+   ],
+   "go": [
+    "#e-qin-unifies",
+    "Qin unifies China"
+   ],
+   "t": "Qin Shi Huang's own burial mound has never been dug. The historian Sima Qian wrote that it held rivers of mercury; tests of the soil have found unusually high mercury.",
+   "src": [
+    {
+     "n": "Wikipedia: Mausoleum of the First Qin Emperor",
+     "u": "https://en.wikipedia.org/wiki/Mausoleum_of_the_First_Qin_Emperor"
+    },
+    {
+     "n": "Wikipedia: Records of the Grand Historian",
+     "u": "https://en.wikipedia.org/wiki/Records_of_the_Grand_Historian"
+    }
+   ]
+  }
+ ]
+}

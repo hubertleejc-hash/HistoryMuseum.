@@ -1,0 +1,33 @@
+{
+ "id": "islamic-arts-malaysia",
+ "n": "Islamic Arts Museum Malaysia",
+ "kind": "museum",
+ "where": "Kuala Lumpur",
+ "lat": 3.1418,
+ "lon": 101.6898,
+ "r": 150,
+ "rank": 47,
+ "blurb": "The largest museum of Islamic art in Southeast Asia, by the Lake Gardens.",
+ "facts": [
+  {
+   "h": "Domes of turquoise",
+   "when": "1998",
+   "lab": "verified",
+   "go": [
+    "#place-kuala-lumpur",
+    "Kuala Lumpur"
+   ],
+   "t": "It opened in 1998 with about 7,000 objects, from Qur'an manuscripts to models of great mosques. Its five domes are tiled inside in Iranian style.",
+   "src": [
+    {
+     "n": "Wikipedia: Islamic Arts Museum Malaysia",
+     "u": "https://en.wikipedia.org/wiki/Islamic_Arts_Museum_Malaysia"
+    },
+    {
+     "n": "Islamic Arts Museum Malaysia",
+     "u": "https://www.iamm.org.my/"
+    }
+   ]
+  }
+ ]
+}

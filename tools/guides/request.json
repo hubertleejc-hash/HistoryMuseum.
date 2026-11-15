@@ -1,0 +1,358 @@
+{
+ "note": "Works for The Met 1-hour route. Each is found by Met object id, or by a search (q) checked against the artist and a title word. Edit and push to run 'Gather guide'.",
+ "met": [
+  {
+   "key": "dendur",
+   "id": 547802,
+   "title": "Dendur"
+  },
+  {
+   "key": "washington",
+   "id": 11417,
+   "artist": "Leutze",
+   "title": "Washington"
+  },
+  {
+   "key": "madame-x",
+   "id": 12127,
+   "artist": "Sargent",
+   "title": "Madame X"
+  },
+  {
+   "key": "harvesters",
+   "id": 435809,
+   "artist": "Bruegel",
+   "title": "Harvesters"
+  },
+  {
+   "key": "pareja",
+   "id": 437869,
+   "artist": "Vel",
+   "title": "Pareja"
+  },
+  {
+   "key": "socrates",
+   "id": 436105,
+   "artist": "David",
+   "title": "Socrates"
+  },
+  {
+   "key": "aristotle",
+   "id": 437394,
+   "artist": "Rembrandt",
+   "title": "Aristotle"
+  },
+  {
+   "key": "pitcher",
+   "id": 437881,
+   "artist": "Vermeer",
+   "title": "Pitcher"
+  },
+  {
+   "key": "cypresses",
+   "id": 436535,
+   "artist": "Gogh",
+   "title": "Cypresses"
+  },
+  {
+   "key": "straw-hat",
+   "id": 436532,
+   "artist": "Gogh",
+   "title": "Straw Hat"
+  },
+  {
+   "key": "henry-armor",
+   "q": "Armor of Henry VIII",
+   "title": "Henry VIII"
+  },
+  {
+   "key": "toledo",
+   "id": 436575,
+   "artist": "Greco",
+   "title": "Toledo",
+   "q": "View of Toledo"
+  },
+  {
+   "key": "lilies",
+   "id": 437127,
+   "artist": "Monet",
+   "title": "Lilies",
+   "q": "Bridge over a Pond of Water Lilies"
+  },
+  {
+   "key": "card-players",
+   "id": 435868,
+   "artist": "zanne",
+   "title": "Card Players",
+   "q": "Card Players"
+  },
+  {
+   "key": "kouros",
+   "id": 253370,
+   "title": "kouros",
+   "q": "statue of a kouros"
+  },
+  {
+   "key": "perseus",
+   "q": "Perseus with the Head of Medusa",
+   "artist": "Canova",
+   "title": "Perseus"
+  },
+  {
+   "key": "rembrandt-self",
+   "id": 437397,
+   "artist": "Rembrandt",
+   "title": "Self-Portrait",
+   "q": "Rembrandt Self-Portrait"
+  },
+  {
+   "key": "great-wave",
+   "id": 45434,
+   "artist": "Hokusai",
+   "title": "Great Wave",
+   "q": "Great Wave"
+  },
+  {
+   "key": "dance-class",
+   "id": 438817,
+   "artist": "Degas",
+   "title": "Dance Class",
+   "q": "Degas The Dance Class"
+  }
+ ],
+ "louvre": [
+  {
+   "key": "mona-lisa",
+   "q": "Joconde"
+  },
+  {
+   "key": "venus",
+   "q": "Vénus de Milo"
+  },
+  {
+   "key": "victory",
+   "q": "Victoire de Samothrace"
+  },
+  {
+   "key": "cana",
+   "q": "Noces de Cana Véronèse"
+  },
+  {
+   "key": "coronation",
+   "q": "Sacre de l'empereur Napoléon"
+  },
+  {
+   "key": "liberty",
+   "q": "La Liberté guidant le peuple"
+  },
+  {
+   "key": "medusa",
+   "q": "Radeau de la Méduse"
+  },
+  {
+   "key": "scribe",
+   "q": "Scribe accroupi"
+  },
+  {
+   "key": "hammurabi",
+   "q": "Code de Hammurabi"
+  },
+  {
+   "key": "lamassu",
+   "q": "taureau androcéphale Khorsabad"
+  },
+  {
+   "key": "slave",
+   "q": "Esclave mourant Michel-Ange"
+  },
+  {
+   "key": "odalisque",
+   "q": "Grande Odalisque Ingres"
+  },
+  {
+   "key": "lacemaker",
+   "q": "Dentellière Vermeer"
+  },
+  {
+   "key": "sphinx",
+   "q": "Grand Sphinx de Tanis"
+  }
+ ],
+ "commons": [
+  {
+   "key": "lv-mona-lisa",
+   "q": "Mona Lisa Louvre C2RMF retouched",
+   "must": [
+    "mona"
+   ]
+  },
+  {
+   "key": "lv-venus",
+   "q": "Venus de Milo Louvre Ma399",
+   "must": [
+    "milo"
+   ]
+  },
+  {
+   "key": "lv-victory",
+   "q": "Nike of Samothrake Louvre Ma2369",
+   "must": [
+    "samothra"
+   ]
+  },
+  {
+   "key": "lv-cana",
+   "q": "Paolo Veronese Wedding at Cana",
+   "must": [
+    "cana"
+   ]
+  },
+  {
+   "key": "lv-coronation",
+   "q": "Jacques-Louis David Coronation of Napoleon",
+   "must": [
+    "david"
+   ]
+  },
+  {
+   "key": "lv-liberty",
+   "q": "Eugène Delacroix La liberté guidant le peuple",
+   "must": [
+    "libert"
+   ]
+  },
+  {
+   "key": "lv-medusa",
+   "q": "JEAN LOUIS THÉODORE GÉRICAULT La Balsa de la Medusa",
+   "must": [
+    "medusa"
+   ]
+  },
+  {
+   "key": "lv-scribe",
+   "q": "Seated scribe Louvre",
+   "must": [
+    "scribe"
+   ]
+  },
+  {
+   "key": "lv-hammurabi",
+   "q": "Code of Hammurabi Louvre stele",
+   "must": [
+    "hammurabi"
+   ]
+  },
+  {
+   "key": "lv-lamassu",
+   "q": "Lamassu Khorsabad Louvre",
+   "must": [
+    "lamassu"
+   ]
+  },
+  {
+   "key": "lv-slave",
+   "q": "Dying Slave Michelangelo Louvre",
+   "must": [
+    "slave"
+   ]
+  },
+  {
+   "key": "lv-odalisque",
+   "q": "Jean Auguste Dominique Ingres La Grande Odalisque",
+   "must": [
+    "odalisque"
+   ]
+  },
+  {
+   "key": "lv-lacemaker",
+   "q": "Johannes Vermeer The lacemaker",
+   "must": [
+    "lace"
+   ]
+  },
+  {
+   "key": "bm-rosetta",
+   "q": "Rosetta Stone British Museum",
+   "must": [
+    "rosetta"
+   ]
+  },
+  {
+   "key": "bm-memnon",
+   "q": "Younger Memnon British Museum",
+   "must": [
+    "memnon"
+   ]
+  },
+  {
+   "key": "bm-lion",
+   "q": "Ashurbanipal lion hunt British Museum",
+   "must": [
+    "lion"
+   ]
+  },
+  {
+   "key": "bm-parthenon",
+   "q": "Elgin Marbles British Museum Parthenon frieze",
+   "must": [
+    "parthenon"
+   ]
+  },
+  {
+   "key": "bm-hoa",
+   "q": "Hoa Hakananai'a British Museum",
+   "must": [
+    "hoa"
+   ]
+  },
+  {
+   "key": "bm-ur",
+   "q": "Royal Game of Ur British Museum",
+   "must": [
+    "ur"
+   ]
+  },
+  {
+   "key": "bm-sutton",
+   "q": "Sutton Hoo helmet British Museum",
+   "must": [
+    "sutton"
+   ]
+  },
+  {
+   "key": "bm-lewis",
+   "q": "Lewis chessmen British Museum",
+   "must": [
+    "lewis"
+   ]
+  },
+  {
+   "key": "bm-mummy",
+   "q": "mummy British Museum Egyptian room",
+   "must": [
+    "mumm"
+   ]
+  },
+  {
+   "key": "bm-enlightenment",
+   "q": "Enlightenment Gallery British Museum",
+   "must": [
+    "enlightenment"
+   ]
+  },
+  {
+   "key": "bm-portland",
+   "q": "Portland Vase British Museum",
+   "must": [
+    "portland"
+   ]
+  },
+  {
+   "key": "bm-reading",
+   "q": "British Museum Reading Room",
+   "must": [
+    "reading"
+   ]
+  }
+ ]
+}
