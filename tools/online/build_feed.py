@@ -8,6 +8,7 @@ time the app opens online, the new things are there.
 Inputs (all in online/):
   art/catalog.json    works gathered by  tools/art/gather.py --feed  (same screens as the app's Gallery)
   art/m/<id>.jpg      their 160 px tiles; the big picture loads from the museum's own server
+  today.json          exact days for the Today page (tools/today/dates.py)
   stories/<id>.json   a chapter for a person in app/data.js, in the app/chapters.js format,
                       ending with a {"k": "sources", "src": [{"n": ..., "u": ...}]} section (required)
 
@@ -89,11 +90,16 @@ def main():
     art = [[r["id"], r["t"], r["a"], r["y"], REG.index(r["r"]), KIND.index(r["k"]), r["w"], r["h"], 1 if r.get("x") else 0] for r in keep]
     detail = {r["id"]: {k: r[k] for k in ("d", "c", "m", "x", "fy", "cr", "u", "img", "on") if r.get(k)} for r in keep}
 
-    body = {"art": art, "detail": detail, "chapters": chapters}
+    # The Today page's dates (tools/today/dates.py): the app keeps the newest copy, so Today grows without a new install.
+    today = json.loads((ON / "today.json").read_text()) if (ON / "today.json").exists() else {"days": {}, "events": []}
+    assert set(today) == {"days", "events"}, set(today)
+    known = people()
+    for pid in today["days"]: assert pid in known, ("Today: no such person", pid)
+    body = {"art": art, "detail": detail, "chapters": chapters, "today": today}
     rev = hashlib.sha1(json.dumps(body, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:12]
     out = json.dumps({"v": 1, "rev": rev, **body}, ensure_ascii=False, separators=(",", ":"))
     (ON / "feed.json").write_text(out + "\n")
-    print(f"online/feed.json: {len(art)} works, {len(chapters)} stories, {len(out) // 1024} KB, rev {rev}")
+    print(f"online/feed.json: {len(art)} works, {len(chapters)} stories, Today {len(today['days'])} people + {len(today['events'])} events, {len(out) // 1024} KB, rev {rev}")
 
 
 if __name__ == "__main__":
