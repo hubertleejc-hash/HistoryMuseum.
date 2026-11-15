@@ -1,0 +1,66 @@
+{
+ "id": "kyoto",
+ "n": "Kyoto",
+ "kind": "city",
+ "where": "Japan",
+ "lat": 35.0116,
+ "lon": 135.7681,
+ "r": 10000,
+ "blurb": "Japan's imperial capital for over a thousand years, from 794 to 1868.",
+ "facts": [
+  {
+   "h": "The world's first novel was written here",
+   "when": "c. 1000 to 1010",
+   "lab": "verified",
+   "people": [
+    "murasaki"
+   ],
+   "t": "Murasaki Shikibu, a lady-in-waiting at the Heian court, wrote The Tale of Genji around 1000 to 1010. It is often called the first novel.",
+   "src": [
+    {
+     "n": "Wikipedia: The Tale of Genji",
+     "u": "https://en.wikipedia.org/wiki/The_Tale_of_Genji"
+    },
+    {
+     "n": "Wikipedia: Murasaki Shikibu",
+     "u": "https://en.wikipedia.org/wiki/Murasaki_Shikibu"
+    }
+   ]
+  },
+  {
+   "h": "Spared in the war",
+   "when": "1945",
+   "lab": "verified",
+   "t": "The US Secretary of War, Henry Stimson, who had visited Kyoto, had it struck off the list of targets for the atomic bomb in 1945 because of its cultural treasures.",
+   "src": [
+    {
+     "n": "Wikipedia: Kyoto",
+     "u": "https://en.wikipedia.org/wiki/Kyoto"
+    },
+    {
+     "n": "Wikipedia: Henry L. Stimson",
+     "u": "https://en.wikipedia.org/wiki/Henry_L._Stimson"
+    }
+   ]
+  },
+  {
+   "h": "Ieyasu's Nijō Castle",
+   "when": "1603",
+   "lab": "verified",
+   "people": [
+    "tokugawa-ieyasu"
+   ],
+   "t": "Tokugawa Ieyasu built Nijō Castle in 1603 as his Kyoto residence. Its floors were made to chirp like nightingales when anyone walked on them.",
+   "src": [
+    {
+     "n": "Wikipedia: Nijō Castle",
+     "u": "https://en.wikipedia.org/wiki/Nijō_Castle"
+    },
+    {
+     "n": "UNESCO: Historic Monuments of Ancient Kyoto",
+     "u": "https://whc.unesco.org/en/list/688/"
+    }
+   ]
+  }
+ ]
+}

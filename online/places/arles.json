@@ -1,0 +1,95 @@
+{
+ "id": "arles",
+ "n": "Arles",
+ "kind": "city",
+ "where": "Provence, France",
+ "lat": 43.6766,
+ "lon": 4.6278,
+ "r": 5000,
+ "blurb": "A Roman town on the Rhône where Vincent van Gogh hoped to start a colony of painters in the southern light.",
+ "facts": [
+  {
+   "h": "The café is still on the square",
+   "when": "September 1888",
+   "lab": "verified",
+   "people": [
+    "van-gogh"
+   ],
+   "img": "cafe-terrace",
+   "go": [
+    "#p-van-gogh",
+    "Van Gogh's story"
+   ],
+   "t": "Van Gogh set up his easel on the Place du Forum one evening and painted the café terrace under gas light and stars, without any black paint. A café still stands on the spot, painted yellow to look like his picture.",
+   "src": [
+    {
+     "n": "Kröller-Müller Museum: Terrace of a café at night",
+     "u": "https://krollermuller.nl/en"
+    },
+    {
+     "n": "Wikipedia: Café Terrace at Night",
+     "u": "https://en.wikipedia.org/wiki/Caf%C3%A9_Terrace_at_Night"
+    }
+   ]
+  },
+  {
+   "h": "Two painters in the Yellow House",
+   "when": "October to December 1888",
+   "lab": "verified",
+   "people": [
+    "van-gogh",
+    "gauguin"
+   ],
+   "t": "Vincent rented four rooms of the Yellow House on Place Lamartine and waited for Paul Gauguin. They painted side by side for nine weeks and argued more and more. It ended on 23 December, when Vincent cut his ear. The house was destroyed by bombing in 1944.",
+   "src": [
+    {
+     "n": "Van Gogh Museum: Van Gogh and Gauguin",
+     "u": "https://www.vangoghmuseum.nl/en"
+    },
+    {
+     "n": "Wikipedia: The Yellow House",
+     "u": "https://en.wikipedia.org/wiki/The_Yellow_House"
+    }
+   ]
+  },
+  {
+   "h": "Starry Night was painted near here",
+   "when": "June 1889",
+   "lab": "verified",
+   "people": [
+    "van-gogh"
+   ],
+   "img": "starry-night",
+   "t": "After the crisis Vincent asked to go to the asylum at Saint-Rémy-de-Provence, about 25 km away. From his window there, before sunrise, he painted the view that became The Starry Night. The village in it is partly imagined.",
+   "src": [
+    {
+     "n": "MoMA: The Starry Night",
+     "u": "https://www.moma.org/collection/works/79802"
+    },
+    {
+     "n": "Wikipedia: The Starry Night",
+     "u": "https://en.wikipedia.org/wiki/The_Starry_Night"
+    }
+   ]
+  },
+  {
+   "h": "Caesar's town, with its arena",
+   "when": "46 BC to today",
+   "lab": "verified",
+   "people": [
+    "julius-caesar"
+   ],
+   "t": "Arles took Caesar's side in his civil war and was rewarded with a colony of his veteran soldiers. The amphitheatre, built about 140 years later for 20,000 people, is still used for shows today. Van Gogh painted the crowd there in 1888.",
+   "src": [
+    {
+     "n": "UNESCO: Arles, Roman and Romanesque Monuments",
+     "u": "https://whc.unesco.org/en/list/164/"
+    },
+    {
+     "n": "Wikipedia: Arles Amphitheatre",
+     "u": "https://en.wikipedia.org/wiki/Arles_Amphitheatre"
+    }
+   ]
+  }
+ ]
+}

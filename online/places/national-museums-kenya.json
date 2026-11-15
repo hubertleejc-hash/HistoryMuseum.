@@ -1,0 +1,29 @@
+{
+ "id": "national-museums-kenya",
+ "n": "Nairobi National Museum",
+ "kind": "museum",
+ "where": "Nairobi",
+ "lat": -1.2737,
+ "lon": 36.8144,
+ "r": 200,
+ "rank": 41,
+ "blurb": "Kenya's national museum, with some of the oldest human fossils ever found.",
+ "facts": [
+  {
+   "h": "The Turkana Boy",
+   "when": "1984",
+   "lab": "verified",
+   "t": "In 1984 a team led by Kamoya Kimeu and Richard Leakey found most of the skeleton of a boy who died near Lake Turkana about 1.5 million years ago. It is one of the most complete early human skeletons known, and the museum keeps the original.",
+   "src": [
+    {
+     "n": "Wikipedia: Turkana Boy",
+     "u": "https://en.wikipedia.org/wiki/Turkana_Boy"
+    },
+    {
+     "n": "Wikipedia: Nairobi National Museum",
+     "u": "https://en.wikipedia.org/wiki/Nairobi_National_Museum"
+    }
+   ]
+  }
+ ]
+}

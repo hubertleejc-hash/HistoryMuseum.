@@ -1,0 +1,47 @@
+{
+ "id": "timbuktu",
+ "n": "Timbuktu",
+ "kind": "city",
+ "where": "Mali",
+ "lat": 16.7666,
+ "lon": -3.0026,
+ "r": 4000,
+ "blurb": "A city of scholars and manuscripts at the edge of the Sahara.",
+ "facts": [
+  {
+   "h": "Ibn Battuta passed through",
+   "when": "1353",
+   "lab": "verified",
+   "people": [
+    "ibn-battuta"
+   ],
+   "t": "The traveller Ibn Battuta visited Timbuktu in 1353 on his journey through the Mali Empire. Its great mosque of mud, Djinguereber, had been built about 25 years earlier.",
+   "src": [
+    {
+     "n": "Wikipedia: Djinguereber Mosque",
+     "u": "https://en.wikipedia.org/wiki/Djinguereber_Mosque"
+    },
+    {
+     "n": "Wikipedia: Ibn Battuta",
+     "u": "https://en.wikipedia.org/wiki/Ibn_Battuta"
+    }
+   ]
+  },
+  {
+   "h": "Manuscripts saved in rice sacks",
+   "when": "2012",
+   "lab": "verified",
+   "t": "When armed groups held the city in 2012, librarians smuggled hundreds of thousands of old manuscripts to Bamako in footlockers and rice sacks.",
+   "src": [
+    {
+     "n": "Wikipedia: Timbuktu Manuscripts",
+     "u": "https://en.wikipedia.org/wiki/Timbuktu_Manuscripts"
+    },
+    {
+     "n": "UNESCO: Timbuktu",
+     "u": "https://whc.unesco.org/en/list/119/"
+    }
+   ]
+  }
+ ]
+}

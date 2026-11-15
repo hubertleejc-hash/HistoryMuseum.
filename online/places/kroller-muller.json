@@ -1,0 +1,36 @@
+{
+ "id": "kroller-muller",
+ "n": "Kröller-Müller Museum",
+ "kind": "museum",
+ "where": "Otterlo, Netherlands",
+ "lat": 52.0954,
+ "lon": 5.8168,
+ "r": 300,
+ "rank": 55,
+ "blurb": "A museum in a national park, with the second largest Van Gogh collection.",
+ "facts": [
+  {
+   "h": "The woman who bought Van Gogh early",
+   "when": "1908 onwards",
+   "lab": "verified",
+   "people": [
+    "van-gogh"
+   ],
+   "go": [
+    "#place-arles",
+    "Arles"
+   ],
+   "t": "Helene Kröller-Müller bought almost 90 paintings and 180 drawings by Van Gogh from 1908, when few people wanted them. The Café Terrace at Night is hers.",
+   "src": [
+    {
+     "n": "Wikipedia: Kröller-Müller Museum",
+     "u": "https://en.wikipedia.org/wiki/Kröller-Müller_Museum"
+    },
+    {
+     "n": "Wikipedia: Helene Kröller-Müller",
+     "u": "https://en.wikipedia.org/wiki/Helene_Kröller-Müller"
+    }
+   ]
+  }
+ ]
+}

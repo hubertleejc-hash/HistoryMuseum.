@@ -1,0 +1,29 @@
+{
+ "id": "hastings",
+ "n": "Battle of Hastings",
+ "short": "Hastings",
+ "kind": "site",
+ "where": "Battle, East Sussex",
+ "lat": 50.9142,
+ "lon": 0.4875,
+ "r": 2000,
+ "blurb": "The battle of 1066 that made England Norman.",
+ "facts": [
+  {
+   "h": "Battle Abbey",
+   "when": "1066",
+   "lab": "likely",
+   "t": "William the Conqueror defeated King Harold on 14 October 1066 and built Battle Abbey on the field; its high altar was said to mark where Harold fell.",
+   "src": [
+    {
+     "n": "Wikipedia: Battle of Hastings",
+     "u": "https://en.wikipedia.org/wiki/Battle_of_Hastings"
+    },
+    {
+     "n": "Wikipedia: Battle Abbey",
+     "u": "https://en.wikipedia.org/wiki/Battle_Abbey"
+    }
+   ]
+  }
+ ]
+}

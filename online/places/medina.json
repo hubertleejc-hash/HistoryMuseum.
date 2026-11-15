@@ -1,0 +1,49 @@
+{
+ "id": "medina",
+ "n": "Medina",
+ "kind": "city",
+ "where": "Saudi Arabia",
+ "lat": 24.4672,
+ "lon": 39.6111,
+ "r": 6000,
+ "blurb": "The city that welcomed the Prophet Muhammad, peace be upon him, in 622, the second holiest city in Islam.",
+ "facts": [
+  {
+   "h": "The Hijra",
+   "when": "622",
+   "lab": "verified",
+   "people": [
+    "muhammad"
+   ],
+   "t": "In 622 the Prophet Muhammad and his followers left Mecca for Yathrib, which became Medinat al-Nabi, the City of the Prophet. The Islamic calendar counts its years from this journey, the Hijra.",
+   "src": [
+    {
+     "n": "Wikipedia: Hijrah",
+     "u": "https://en.wikipedia.org/wiki/Hijrah"
+    },
+    {
+     "n": "Wikipedia: Medina",
+     "u": "https://en.wikipedia.org/wiki/Medina"
+    }
+   ]
+  },
+  {
+   "h": "The Prophet's Mosque",
+   "lab": "tradition",
+   "people": [
+    "muhammad"
+   ],
+   "t": "The Prophet helped build the first mosque here with his own hands. He is buried within it, under the Green Dome. Today the mosque can hold over a million worshippers.",
+   "src": [
+    {
+     "n": "Wikipedia: Al-Masjid an-Nabawi",
+     "u": "https://en.wikipedia.org/wiki/Al-Masjid_an-Nabawi"
+    },
+    {
+     "n": "Wikipedia: Green Dome",
+     "u": "https://en.wikipedia.org/wiki/Green_Dome"
+    }
+   ]
+  }
+ ]
+}

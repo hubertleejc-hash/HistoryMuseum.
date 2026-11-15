@@ -39,6 +39,8 @@ Each change also runs the app in Apple's simulators and takes screenshots:
 | `app/img/` | 20 public-domain pictures; `manifest.json` has each one's title, artist, date, collection and licence. |
 | `app/art/` | The Gallery's collection: `catalog.json` (every work with its museum, credit and licence), `t/` and `f/` (thumbnail and full picture of works inside the app), `m/` (small tiles of the Online wing, whose large picture loads from the museum). Gathered by `tools/art/gather.py`. |
 | `tools/art/` | The art gatherer. Run **Actions > Gather art > Run workflow** to add more works: it only adds, never removes. `overrides.json` hides a work by id (`deny`). |
+| `online/places/` | "Near me": one file per place (museum, city, battlefield) with its centre point, fact cards tied to the museum's people, and for a museum a one-hour route. Paris, London, Rome and The Met are built into the app; the rest download by name when opened. The phone finds the nearest place itself, so no position ever leaves it. |
+| `tools/guides/` | The Met route: `request.json` lists the works, workflow **Gather guide** fetches their open-access records and pictures (CC0) into `tools/guides/out/` and `app/img/guide/`, and `make_met.py` writes `online/places/met.json` with our own stories. |
 | `app/fonts/` | Fraunces, Inter and IBM Plex Mono (SIL Open Font License), so the app needs no internet. |
 | `app/build.py` | Builds `app/index.html` (web page) and `ios/HistoryMuseum/Web/index.html` (app page, pictures and fonts built in). |
 | `app/geo.js` | World coastlines and a map point for each Hall (Natural Earth, public domain). Remake with `tools/make-geo.mjs`. |

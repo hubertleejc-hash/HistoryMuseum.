@@ -1,0 +1,49 @@
+{
+ "id": "anthropology-mexico",
+ "n": "National Museum of Anthropology",
+ "kind": "museum",
+ "where": "Mexico City",
+ "lat": 19.426,
+ "lon": -99.1863,
+ "r": 300,
+ "rank": 23,
+ "blurb": "The largest museum in Mexico, of the peoples before and after the Spanish conquest.",
+ "facts": [
+  {
+   "h": "The Sun Stone",
+   "when": "1790",
+   "lab": "verified",
+   "go": [
+    "#e-tenochtitlan",
+    "Tenochtitlan"
+   ],
+   "t": "The great Aztec calendar stone, carved in the early 1500s, was found buried in the main square of Mexico City in 1790. It is 3.6 metres across and weighs about 24 tonnes.",
+   "src": [
+    {
+     "n": "Wikipedia: Aztec calendar stone",
+     "u": "https://en.wikipedia.org/wiki/Aztec_calendar_stone"
+    },
+    {
+     "n": "Wikipedia: National Museum of Anthropology (Mexico)",
+     "u": "https://en.wikipedia.org/wiki/National_Museum_of_Anthropology_(Mexico)"
+    }
+   ]
+  },
+  {
+   "h": "Under one umbrella",
+   "when": "1964",
+   "lab": "verified",
+   "t": "Pedro Ramírez Vázquez's building opened in 1964. Its courtyard roof stands on a single bronze-clad column, and water falls from it like rain.",
+   "src": [
+    {
+     "n": "Wikipedia: National Museum of Anthropology (Mexico)",
+     "u": "https://en.wikipedia.org/wiki/National_Museum_of_Anthropology_(Mexico)"
+    },
+    {
+     "n": "Museo Nacional de Antropología",
+     "u": "https://www.mna.inah.gob.mx/"
+    }
+   ]
+  }
+ ]
+}

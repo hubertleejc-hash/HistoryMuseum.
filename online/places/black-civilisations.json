@@ -1,0 +1,29 @@
+{
+ "id": "black-civilisations",
+ "n": "Museum of Black Civilisations",
+ "kind": "museum",
+ "where": "Dakar",
+ "lat": 14.6795,
+ "lon": -17.4448,
+ "r": 150,
+ "rank": 42,
+ "blurb": "A museum of Africa and its peoples around the world, first imagined in 1966 and opened in 2018.",
+ "facts": [
+  {
+   "h": "A dream of 1966",
+   "when": "1966 and 2018",
+   "lab": "verified",
+   "t": "Senegal's first president, the poet Léopold Sédar Senghor, proposed a museum of Black civilisations at the World Festival of Black Arts in Dakar in 1966. It opened 52 years later, in 2018, in a round building inspired by the houses of southern Senegal.",
+   "src": [
+    {
+     "n": "Wikipedia: Museum of Black Civilisations",
+     "u": "https://en.wikipedia.org/wiki/Museum_of_Black_Civilisations"
+    },
+    {
+     "n": "Wikipedia: Léopold Sédar Senghor",
+     "u": "https://en.wikipedia.org/wiki/Léopold_Sédar_Senghor"
+    }
+   ]
+  }
+ ]
+}

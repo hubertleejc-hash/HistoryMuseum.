@@ -1,0 +1,30 @@
+{
+ "id": "museo-del-oro",
+ "n": "Gold Museum",
+ "short": "Museo del Oro",
+ "kind": "museum",
+ "where": "Bogotá",
+ "lat": 4.6019,
+ "lon": -74.0721,
+ "r": 150,
+ "rank": 39,
+ "blurb": "More than 55,000 gold objects from the peoples of ancient Colombia.",
+ "facts": [
+  {
+   "h": "The raft of El Dorado",
+   "when": "c. 600 to 1600",
+   "lab": "myth",
+   "t": "The Muisca Raft, a small gold model of a chief on a raft with his attendants, was found in a cave in 1969. It matches the old story of a chief covered in gold dust offering treasure in Lake Guatavita, the root of the El Dorado legend.",
+   "src": [
+    {
+     "n": "Wikipedia: Muisca raft",
+     "u": "https://en.wikipedia.org/wiki/Muisca_raft"
+    },
+    {
+     "n": "Wikipedia: El Dorado",
+     "u": "https://en.wikipedia.org/wiki/El_Dorado"
+    }
+   ]
+  }
+ ]
+}

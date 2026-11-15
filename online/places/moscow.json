@@ -1,0 +1,55 @@
+{
+ "id": "moscow",
+ "n": "Moscow",
+ "kind": "city",
+ "where": "Russia",
+ "lat": 55.7558,
+ "lon": 37.6173,
+ "r": 20000,
+ "blurb": "Russia's ancient capital, and its capital again since 1918.",
+ "facts": [
+  {
+   "h": "Napoleon's empty city",
+   "when": "1812",
+   "lab": "verified",
+   "people": [
+    "napoleon",
+    "tolstoy"
+   ],
+   "t": "Napoleon entered Moscow in September 1812 to find it almost empty. Fires burned most of the city, and after five weeks he began the retreat that destroyed his army.",
+   "src": [
+    {
+     "n": "Wikipedia: French invasion of Russia",
+     "u": "https://en.wikipedia.org/wiki/French_invasion_of_Russia"
+    },
+    {
+     "n": "Wikipedia: Fire of Moscow (1812)",
+     "u": "https://en.wikipedia.org/wiki/Fire_of_Moscow_(1812)"
+    }
+   ]
+  },
+  {
+   "h": "Gagarin's welcome",
+   "when": "1961",
+   "lab": "verified",
+   "people": [
+    "gagarin"
+   ],
+   "go": [
+    "#e-first-human-space",
+    "The first human in space"
+   ],
+   "t": "After his flight on 12 April 1961, Yuri Gagarin was greeted by a huge crowd in Red Square two days later.",
+   "src": [
+    {
+     "n": "Wikipedia: Yuri Gagarin",
+     "u": "https://en.wikipedia.org/wiki/Yuri_Gagarin"
+    },
+    {
+     "n": "Wikipedia: Vostok 1",
+     "u": "https://en.wikipedia.org/wiki/Vostok_1"
+    }
+   ]
+  }
+ ]
+}

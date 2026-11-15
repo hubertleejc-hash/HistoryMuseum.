@@ -1,0 +1,52 @@
+{
+ "id": "gettysburg",
+ "n": "Gettysburg battlefield",
+ "short": "Gettysburg",
+ "kind": "site",
+ "where": "Pennsylvania, USA",
+ "lat": 39.8121,
+ "lon": -77.2264,
+ "r": 5000,
+ "blurb": "The largest battle of the American Civil War, and the shortest great speech.",
+ "facts": [
+  {
+   "h": "Three days in July",
+   "when": "1863",
+   "lab": "verified",
+   "go": [
+    "#e-us-civil-war",
+    "The Civil War"
+   ],
+   "t": "From 1 to 3 July 1863 about 160,000 soldiers fought here, and around 50,000 were killed, wounded, captured or missing. The Union victory ended Lee's invasion of the North.",
+   "src": [
+    {
+     "n": "Wikipedia: Battle of Gettysburg",
+     "u": "https://en.wikipedia.org/wiki/Battle_of_Gettysburg"
+    },
+    {
+     "n": "Gettysburg National Military Park",
+     "u": "https://www.nps.gov/gett/"
+    }
+   ]
+  },
+  {
+   "h": "272 words",
+   "when": "1863",
+   "lab": "verified",
+   "people": [
+    "lincoln"
+   ],
+   "t": "On 19 November 1863 Lincoln dedicated the soldiers' cemetery with a speech of about 272 words that took two minutes. The main speaker before him talked for two hours.",
+   "src": [
+    {
+     "n": "Wikipedia: Gettysburg Address",
+     "u": "https://en.wikipedia.org/wiki/Gettysburg_Address"
+    },
+    {
+     "n": "Wikipedia: Edward Everett",
+     "u": "https://en.wikipedia.org/wiki/Edward_Everett"
+    }
+   ]
+  }
+ ]
+}

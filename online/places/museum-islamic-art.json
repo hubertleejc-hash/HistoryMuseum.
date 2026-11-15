@@ -1,0 +1,33 @@
+{
+ "id": "museum-islamic-art",
+ "n": "Museum of Islamic Art",
+ "kind": "museum",
+ "where": "Doha",
+ "lat": 25.295,
+ "lon": 51.539,
+ "r": 200,
+ "rank": 33,
+ "blurb": "Fourteen centuries of Islamic art from three continents, on its own island in Doha Bay.",
+ "facts": [
+  {
+   "h": "I. M. Pei's last great museum",
+   "when": "2008",
+   "lab": "verified",
+   "go": [
+    "#place-louvre",
+    "The Louvre"
+   ],
+   "t": "The architect of the Louvre pyramid, then in his late eighties, designed the building after travelling to study Islamic architecture. He said the fountain of the Ibn Tulun mosque in Cairo gave him the idea. It opened in 2008.",
+   "src": [
+    {
+     "n": "Wikipedia: Museum of Islamic Art, Doha",
+     "u": "https://en.wikipedia.org/wiki/Museum_of_Islamic_Art,_Doha"
+    },
+    {
+     "n": "Wikipedia: I. M. Pei",
+     "u": "https://en.wikipedia.org/wiki/I._M._Pei"
+    }
+   ]
+  }
+ ]
+}

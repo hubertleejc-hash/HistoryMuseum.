@@ -1,0 +1,75 @@
+{
+ "id": "tokyo",
+ "n": "Tokyo",
+ "kind": "city",
+ "where": "Japan",
+ "lat": 35.6762,
+ "lon": 139.6503,
+ "r": 25000,
+ "blurb": "Once Edo, a castle town that became one of the largest cities on Earth. Its prints changed how Europe painted.",
+ "facts": [
+  {
+   "h": "Edo becomes the shogun's city",
+   "when": "1603",
+   "lab": "verified",
+   "people": [
+    "tokugawa-ieyasu"
+   ],
+   "go": [
+    "#e-tokugawa-shogunate",
+    "The Tokugawa shogunate"
+   ],
+   "t": "Tokugawa Ieyasu made the small castle town of Edo his capital. His family ruled Japan from here for over 250 years, and Edo grew to about a million people. In 1868 the emperor moved in and the city was renamed Tokyo, Eastern Capital. The Imperial Palace stands on the old castle grounds.",
+   "src": [
+    {
+     "n": "Wikipedia: Edo",
+     "u": "https://en.wikipedia.org/wiki/Edo"
+    },
+    {
+     "n": "Wikipedia: Tokugawa shogunate",
+     "u": "https://en.wikipedia.org/wiki/Tokugawa_shogunate"
+    }
+   ]
+  },
+  {
+   "h": "Hokusai was a child of Edo",
+   "when": "1760 to 1849",
+   "lab": "verified",
+   "people": [
+    "hokusai"
+   ],
+   "img": "great-wave",
+   "t": "Hokusai was born in the Sumida district and moved house more than ninety times, by his own count. He made the Great Wave in his early seventies, for a print series of views of Mount Fuji. The Sumida Hokusai Museum stands near where he was born.",
+   "src": [
+    {
+     "n": "Sumida Hokusai Museum",
+     "u": "https://hokusai-museum.jp/?lang=en"
+    },
+    {
+     "n": "Wikipedia: Hokusai",
+     "u": "https://en.wikipedia.org/wiki/Hokusai"
+    }
+   ]
+  },
+  {
+   "h": "Van Gogh copied Hiroshige's Edo",
+   "when": "1856 to 1858 and 1887",
+   "lab": "verified",
+   "people": [
+    "hiroshige",
+    "van-gogh"
+   ],
+   "t": "Hiroshige's One Hundred Famous Views of Edo showed the city's bridges, gardens and rain. Thirty years later in Paris, Van Gogh copied two of them in oil, a plum garden and a bridge in a sudden shower, and framed them with Japanese letters he did not understand.",
+   "src": [
+    {
+     "n": "Van Gogh Museum: Flowering Plum Orchard (after Hiroshige)",
+     "u": "https://www.vangoghmuseum.nl/en/collection/s0115V1962"
+    },
+    {
+     "n": "Wikipedia: One Hundred Famous Views of Edo",
+     "u": "https://en.wikipedia.org/wiki/One_Hundred_Famous_Views_of_Edo"
+    }
+   ]
+  }
+ ]
+}

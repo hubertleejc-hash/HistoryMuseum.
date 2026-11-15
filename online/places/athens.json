@@ -1,0 +1,72 @@
+{
+ "id": "athens",
+ "n": "Athens",
+ "kind": "city",
+ "where": "Greece",
+ "lat": 37.9715,
+ "lon": 23.7257,
+ "r": 6000,
+ "blurb": "The city of Socrates, Plato and the first democracy.",
+ "facts": [
+  {
+   "h": "Socrates' prison",
+   "when": "399 BC",
+   "lab": "likely",
+   "people": [
+    "socrates",
+    "plato"
+   ],
+   "t": "Socrates was tried by a jury of 501 citizens in 399 BC and sentenced to death. Tourists are shown a cave on Philopappos Hill as his prison, but that is a legend; the real state prison was probably in the Agora.",
+   "src": [
+    {
+     "n": "Wikipedia: Trial of Socrates",
+     "u": "https://en.wikipedia.org/wiki/Trial_of_Socrates"
+    },
+    {
+     "n": "Wikipedia: Ancient Agora of Athens",
+     "u": "https://en.wikipedia.org/wiki/Ancient_Agora_of_Athens"
+    }
+   ]
+  },
+  {
+   "h": "Plato's Academy and Aristotle's Lyceum",
+   "when": "c. 387 and 335 BC",
+   "lab": "verified",
+   "people": [
+    "plato",
+    "aristotle"
+   ],
+   "t": "Plato taught in a grove outside the walls named after the hero Academus, which gave us the word academy. His pupil Aristotle later opened his own school, the Lyceum; its ruins were found in 1996 when digging for a new museum.",
+   "src": [
+    {
+     "n": "Wikipedia: Platonic Academy",
+     "u": "https://en.wikipedia.org/wiki/Platonic_Academy"
+    },
+    {
+     "n": "Wikipedia: Lyceum (classical)",
+     "u": "https://en.wikipedia.org/wiki/Lyceum_(classical)"
+    }
+   ]
+  },
+  {
+   "h": "The first modern Olympics",
+   "when": "1896",
+   "lab": "verified",
+   "go": [
+    "#place-olympia",
+    "Olympia"
+   ],
+   "t": "In 1896 the first modern Olympic Games were held in the Panathenaic Stadium, rebuilt in marble on the ancient site.",
+   "src": [
+    {
+     "n": "Wikipedia: 1896 Summer Olympics",
+     "u": "https://en.wikipedia.org/wiki/1896_Summer_Olympics"
+    },
+    {
+     "n": "Wikipedia: Panathenaic Stadium",
+     "u": "https://en.wikipedia.org/wiki/Panathenaic_Stadium"
+    }
+   ]
+  }
+ ]
+}

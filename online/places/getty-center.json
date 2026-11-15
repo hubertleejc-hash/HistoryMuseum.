@@ -1,0 +1,32 @@
+{
+ "id": "getty-center",
+ "n": "The Getty Center",
+ "kind": "museum",
+ "where": "Los Angeles",
+ "lat": 34.078,
+ "lon": -118.4741,
+ "r": 300,
+ "rank": 57,
+ "blurb": "A hilltop museum of travertine stone above Los Angeles, free to visit.",
+ "facts": [
+  {
+   "h": "Van Gogh's Irises",
+   "when": "1889",
+   "lab": "verified",
+   "people": [
+    "van-gogh"
+   ],
+   "t": "Van Gogh painted Irises in May 1889, his first week at the asylum in Saint-Rémy. In 1987 it sold for a record $53.9 million; the Getty bought it in 1990.",
+   "src": [
+    {
+     "n": "Wikipedia: Irises (painting)",
+     "u": "https://en.wikipedia.org/wiki/Irises_(painting)"
+    },
+    {
+     "n": "The Getty",
+     "u": "https://www.getty.edu/"
+    }
+   ]
+  }
+ ]
+}

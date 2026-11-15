@@ -1,0 +1,34 @@
+{
+ "id": "bethlehem",
+ "n": "Bethlehem",
+ "kind": "city",
+ "where": "West Bank",
+ "lat": 31.7054,
+ "lon": 35.2024,
+ "r": 2500,
+ "blurb": "By Christian tradition, the birthplace of Jesus.",
+ "facts": [
+  {
+   "h": "The Church of the Nativity",
+   "lab": "tradition",
+   "people": [
+    "jesus"
+   ],
+   "go": [
+    "#place-jerusalem",
+    "Jerusalem"
+   ],
+   "t": "Constantine's mother Helena had a church built over a cave venerated as the birthplace of Jesus, finished around 339. Justinian rebuilt it in the 6th century. It is one of the oldest churches still in daily use.",
+   "src": [
+    {
+     "n": "Wikipedia: Church of the Nativity",
+     "u": "https://en.wikipedia.org/wiki/Church_of_the_Nativity"
+    },
+    {
+     "n": "UNESCO: Birthplace of Jesus",
+     "u": "https://whc.unesco.org/en/list/1433/"
+    }
+   ]
+  }
+ ]
+}

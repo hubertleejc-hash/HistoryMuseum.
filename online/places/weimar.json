@@ -1,0 +1,51 @@
+{
+ "id": "weimar",
+ "n": "Weimar",
+ "kind": "city",
+ "where": "Germany",
+ "lat": 50.9795,
+ "lon": 11.3235,
+ "r": 4000,
+ "blurb": "A small duchy that became the capital of German literature.",
+ "facts": [
+  {
+   "h": "Goethe's house on the Frauenplan",
+   "when": "1782 to 1832",
+   "lab": "verified",
+   "people": [
+    "goethe"
+   ],
+   "t": "Goethe lived in Weimar for more than 50 years and finished Faust in his house on the Frauenplan, where he died in 1832.",
+   "src": [
+    {
+     "n": "Wikipedia: Goethe House (Weimar)",
+     "u": "https://en.wikipedia.org/wiki/Goethe_House_(Weimar)"
+    },
+    {
+     "n": "Wikipedia: Johann Wolfgang von Goethe",
+     "u": "https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe"
+    }
+   ]
+  },
+  {
+   "h": "Bach and Liszt worked here too",
+   "when": "1708 and 1848",
+   "lab": "verified",
+   "people": [
+    "bach",
+    "liszt"
+   ],
+   "t": "Bach was court organist in Weimar from 1708 to 1717, and was jailed for a month when he tried to leave. Liszt led the court music from 1848.",
+   "src": [
+    {
+     "n": "Wikipedia: Johann Sebastian Bach",
+     "u": "https://en.wikipedia.org/wiki/Johann_Sebastian_Bach"
+    },
+    {
+     "n": "Wikipedia: Franz Liszt",
+     "u": "https://en.wikipedia.org/wiki/Franz_Liszt"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id": "olympia",
+ "n": "Ancient Olympia",
+ "short": "Olympia",
+ "kind": "site",
+ "where": "Greece",
+ "lat": 37.6383,
+ "lon": 21.63,
+ "r": 1500,
+ "blurb": "The sanctuary of Zeus where the Olympic Games were held for over a thousand years.",
+ "facts": [
+  {
+   "h": "776 BC",
+   "when": "776 BC",
+   "lab": "likely",
+   "go": [
+    "#e-first-olympics",
+    "The first Olympics"
+   ],
+   "t": "The Greeks counted the first Games from 776 BC, when a cook named Koroibos won the only event, a sprint of one stadium, about 192 metres. Later writers kept the list of winners.",
+   "src": [
+    {
+     "n": "Wikipedia: Ancient Olympic Games",
+     "u": "https://en.wikipedia.org/wiki/Ancient_Olympic_Games"
+    },
+    {
+     "n": "UNESCO: Archaeological Site of Olympia",
+     "u": "https://whc.unesco.org/en/list/517/"
+    }
+   ]
+  },
+  {
+   "h": "The flame is lit here",
+   "when": "1936 onwards",
+   "lab": "verified",
+   "t": "Since 1936 the Olympic flame for every Games has been lit here with a curved mirror and the sun, at the Temple of Hera.",
+   "src": [
+    {
+     "n": "Wikipedia: Olympic flame",
+     "u": "https://en.wikipedia.org/wiki/Olympic_flame"
+    },
+    {
+     "n": "Wikipedia: Temple of Hera, Olympia",
+     "u": "https://en.wikipedia.org/wiki/Temple_of_Hera,_Olympia"
+    }
+   ]
+  }
+ ]
+}

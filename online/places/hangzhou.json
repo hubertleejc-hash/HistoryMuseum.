@@ -1,0 +1,49 @@
+{
+ "id": "hangzhou",
+ "n": "Hangzhou",
+ "kind": "city",
+ "where": "China",
+ "lat": 30.2741,
+ "lon": 120.1551,
+ "r": 10000,
+ "blurb": "The city of West Lake, which Marco Polo called the finest in the world.",
+ "facts": [
+  {
+   "h": "Su Shi's causeway",
+   "when": "1089",
+   "lab": "verified",
+   "people": [
+    "su-shi"
+   ],
+   "t": "As governor in 1089, the poet Su Shi had West Lake dredged and used the mud to build a causeway with six bridges across it. It is still called the Su Causeway.",
+   "src": [
+    {
+     "n": "Wikipedia: Su Causeway",
+     "u": "https://en.wikipedia.org/wiki/Su_Causeway"
+    },
+    {
+     "n": "Wikipedia: West Lake",
+     "u": "https://en.wikipedia.org/wiki/West_Lake"
+    }
+   ]
+  },
+  {
+   "h": "Marco Polo's Kinsay",
+   "lab": "likely",
+   "people": [
+    "marco-polo"
+   ],
+   "t": "Marco Polo called Hangzhou Kinsay and wrote that it was the finest and noblest city in the world, with 12,000 bridges, probably an exaggeration.",
+   "src": [
+    {
+     "n": "Wikipedia: Hangzhou",
+     "u": "https://en.wikipedia.org/wiki/Hangzhou"
+    },
+    {
+     "n": "Wikipedia: The Travels of Marco Polo",
+     "u": "https://en.wikipedia.org/wiki/The_Travels_of_Marco_Polo"
+    }
+   ]
+  }
+ ]
+}
