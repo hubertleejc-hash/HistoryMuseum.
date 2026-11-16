@@ -341,7 +341,15 @@
     "look": "the calm half-smile of his reign",
     "people": [],
     "u": "https://en.wikipedia.org/wiki/Amenhotep_III",
-    "tier": 180
+    "tier": 180,
+    "pic": {
+     "u": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Colossal_granite_head_of_Amenhotep_III%2C_British_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "w": 900,
+     "h": 1907,
+     "page": "https://commons.wikimedia.org/wiki/File:Colossal_granite_head_of_Amenhotep_III,_British_Museum.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "Yair Haklai, via Wikimedia Commons"
+    }
    },
    {
     "floor": 0,
@@ -365,7 +373,15 @@
     "look": "the kneeling man in the second row from the top",
     "people": [],
     "u": "https://en.wikipedia.org/wiki/Black_Obelisk_of_Shalmaneser_III",
-    "tier": 120
+    "tier": 120,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/The_Black_Obelisk_of_Shalmaneser_III%2C_9th_century_BC%2C_from_Nimrud%2C_Iraq._The_British_Museum.jpg/960px-The_Black_Obelisk_of_Shalmaneser_III%2C_9th_century_BC%2C_from_Nimrud%2C_Iraq._The_British_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1354,
+     "page": "https://commons.wikimedia.org/wiki/File:The_Black_Obelisk_of_Shalmaneser_III,_9th_century_BC,_from_Nimrud,_Iraq._The_British_Museum.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "Osama Shukir Muhammed Amin FRCP(Glasg), via Wikimedia Commons"
+    }
    },
    {
     "floor": 0,
@@ -397,7 +413,15 @@
     "look": "the nymphs' dresses blown against them by the sea wind",
     "people": [],
     "u": "https://en.wikipedia.org/wiki/Nereid_Monument",
-    "tier": 120
+    "tier": 120,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Nereid_Monument%2C_British_Museum_-_1.jpg/960px-Nereid_Monument%2C_British_Museum_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 631,
+     "page": "https://commons.wikimedia.org/wiki/File:Nereid_Monument,_British_Museum_-_1.jpg",
+     "lic": "CC BY 4.0",
+     "cr": "APK, via Wikimedia Commons"
+    }
    },
    {
     "floor": 0,
@@ -431,7 +455,15 @@
     "look": "the size of the horse's head, from a chariot group on the top",
     "people": [],
     "u": "https://en.wikipedia.org/wiki/Mausoleum_at_Halicarnassus",
-    "tier": 120
+    "tier": 120,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Horse_from_the_Mausoleum_of_Halicarnassus%2C_British_Museum.jpg/960px-Horse_from_the_Mausoleum_of_Halicarnassus%2C_British_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1350,
+     "page": "https://commons.wikimedia.org/wiki/File:Horse_from_the_Mausoleum_of_Halicarnassus,_British_Museum.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "Photograph by Mike Peel (www.mikepeel.net)., via Wikimedia Commons"
+    }
    },
    {
     "floor": 0,
@@ -463,7 +495,15 @@
     "look": "the thousands of tiny turquoise pieces",
     "people": [],
     "u": "https://en.wikipedia.org/wiki/Double-headed_serpent",
-    "tier": 120
+    "tier": 120,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Double_headed_turquoise_serpentAztecbritish_museum.jpg/960px-Double_headed_turquoise_serpentAztecbritish_museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 448,
+     "page": "https://commons.wikimedia.org/wiki/File:Double_headed_turquoise_serpentAztecbritish_museum.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "Geni, via Wikimedia Commons"
+    }
    },
    {
     "floor": 0,
@@ -475,7 +515,15 @@
     "look": "the rope of thorns, and the basket of blood-spotted paper",
     "people": [],
     "u": "https://en.wikipedia.org/wiki/Yaxchilan_Lintel_24",
-    "tier": 180
+    "tier": 180,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Yaxchilan_Lintel_24.jpg/960px-Yaxchilan_Lintel_24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1222,
+     "page": "https://commons.wikimedia.org/wiki/File:Yaxchilan_Lintel_24.jpg",
+     "lic": "CC BY-SA 3.0",
+     "cr": "Unknown, via Wikimedia Commons"
+    }
    },
    {
     "floor": 0,
@@ -487,7 +535,15 @@
     "look": "the green, amber and cream glazes running down the horses",
     "people": [],
     "u": "https://en.wikipedia.org/wiki/Sancai",
-    "tier": 180
+    "tier": 180,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Chinese_Tang_tomb_figures%2C_British_Museum_2.jpg/960px-Chinese_Tang_tomb_figures%2C_British_Museum_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1350,
+     "page": "https://commons.wikimedia.org/wiki/File:Chinese_Tang_tomb_figures,_British_Museum_2.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "Photograph by Mike Peel (www.mikepeel.net)., via Wikimedia Commons"
+    }
    },
    {
     "floor": 0,
@@ -499,7 +555,15 @@
     "look": "an empty throne where the Buddha is, but not shown",
     "people": [],
     "u": "https://en.wikipedia.org/wiki/Amaravati_Stupa",
-    "tier": 270
+    "tier": 270,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Dome_slab_from_Amaravati%2C_British_Museum_02.jpg/960px-Dome_slab_from_Amaravati%2C_British_Museum_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 879,
+     "page": "https://commons.wikimedia.org/wiki/File:Dome_slab_from_Amaravati,_British_Museum_02.jpg",
+     "lic": "CC0",
+     "cr": "14GTR, via Wikimedia Commons"
+    }
    },
    {
     "floor": -1,
@@ -511,7 +575,15 @@
     "look": "the Portuguese traders with their long hair and hats",
     "people": [],
     "u": "https://en.wikipedia.org/wiki/Benin_Bronzes",
-    "tier": 120
+    "tier": 120,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/British_Museum_Room_25_Cast_brass_plaque_from_Benin_City_17022019_5076.jpg/960px-British_Museum_Room_25_Cast_brass_plaque_from_Benin_City_17022019_5076.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1444,
+     "page": "https://commons.wikimedia.org/wiki/File:British_Museum_Room_25_Cast_brass_plaque_from_Benin_City_17022019_5076.jpg",
+     "lic": "CC0",
+     "cr": "Vassil, via Wikimedia Commons"
+    }
    },
    {
     "floor": -1,
@@ -523,7 +595,15 @@
     "look": "the fine lines down the face",
     "people": [],
     "u": "https://en.wikipedia.org/wiki/Ife_Head",
-    "tier": 270
+    "tier": 270,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/British_Museum_Room_25_Head_of_a_king_Ife_17022019_5147.jpg/960px-British_Museum_Room_25_Head_of_a_king_Ife_17022019_5147.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1587,
+     "page": "https://commons.wikimedia.org/wiki/File:British_Museum_Room_25_Head_of_a_king_Ife_17022019_5147.jpg",
+     "lic": "CC0",
+     "cr": "Vassil, via Wikimedia Commons"
+    }
    },
    {
     "floor": 1,
@@ -535,7 +615,15 @@
     "look": "how small it is, about 23 centimetres long",
     "people": [],
     "u": "https://en.wikipedia.org/wiki/Cyrus_Cylinder",
-    "tier": 120
+    "tier": 120,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Cyrus_Cylinder_2.jpg/960px-Cyrus_Cylinder_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 600,
+     "page": "https://commons.wikimedia.org/wiki/File:Cyrus_Cylinder_2.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "Photograph by Mike Peel (www.mikepeel.net)., via Wikimedia Commons"
+    }
    },
    {
     "floor": 1,
@@ -583,7 +671,15 @@
     "look": "the lyre player at the feast, on the peace side",
     "people": [],
     "u": "https://en.wikipedia.org/wiki/Standard_of_Ur",
-    "tier": 120
+    "tier": 120,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Standard_of_Ur_front_view.jpg/960px-Standard_of_Ur_front_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 405,
+     "page": "https://commons.wikimedia.org/wiki/File:Standard_of_Ur_front_view.jpg",
+     "lic": "CC BY-SA 3.0",
+     "cr": "BabelStone, via Wikimedia Commons"
+    }
    },
    {
     "floor": 1,
@@ -595,7 +691,15 @@
     "look": "the gold face and the tiny shell curls",
     "people": [],
     "u": "https://en.wikipedia.org/wiki/Ram_in_a_Thicket",
-    "tier": 180
+    "tier": 180,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Ram_in_a_thicket_-_British_-_backside.jpg/960px-Ram_in_a_thicket_-_British_-_backside.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1991,
+     "page": "https://commons.wikimedia.org/wiki/File:Ram_in_a_thicket_-_British_-_backside.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "Unknown artistUnknown artist, via Wikimedia Commons"
+    }
    },
    {
     "floor": 1,
@@ -607,7 +711,15 @@
     "look": "the blue beard of the bull",
     "people": [],
     "u": "https://en.wikipedia.org/wiki/Lyres_of_Ur",
-    "tier": 270
+    "tier": 270,
+    "pic": {
+     "u": "https://upload.wikimedia.org/wikipedia/commons/f/fd/The_Queen%27s_Lyre%2C_side_view%3B_British_Museum%2C_London.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "w": 900,
+     "h": 1288,
+     "page": "https://commons.wikimedia.org/wiki/File:The_Queen%27s_Lyre,_side_view;_British_Museum,_London.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "artisans of Ur, via Wikimedia Commons"
+    }
    },
    {
     "floor": 1,
@@ -619,7 +731,15 @@
     "look": "the cat in the marsh, catching three birds at once",
     "people": [],
     "u": "https://en.wikipedia.org/wiki/Tomb_of_Nebamun",
-    "tier": 120
+    "tier": 120,
+    "pic": {
+     "u": "https://upload.wikimedia.org/wikipedia/commons/3/37/Nebamun-Detail.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "w": 900,
+     "h": 916,
+     "page": "https://commons.wikimedia.org/wiki/File:Nebamun-Detail.JPG",
+     "lic": "Public domain",
+     "cr": "Old Egyptian Painter, via Wikimedia Commons"
+    }
    },
    {
     "floor": 1,
@@ -693,7 +813,15 @@
      "augustus"
     ],
     "u": "https://en.wikipedia.org/wiki/Meroë_Head",
-    "tier": 270
+    "tier": 270,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/British_Museum_-_Room_3-_The_Mero%C3%AB_Head_of_Augustus_%2816344569880%29.jpg/960px-British_Museum_-_Room_3-_The_Mero%C3%AB_Head_of_Augustus_%2816344569880%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 600,
+     "page": "https://commons.wikimedia.org/wiki/File:British_Museum_-_Room_3-_The_Mero%C3%AB_Head_of_Augustus_(16344569880).jpg",
+     "lic": "CC BY 2.0",
+     "cr": "Paul Hudson from United Kingdom, via Wikimedia Commons"
+    }
    },
    {
     "floor": 1,
@@ -717,7 +845,15 @@
     "look": "the colour: is it lit from the front or from behind?",
     "people": [],
     "u": "https://en.wikipedia.org/wiki/Lycurgus_Cup",
-    "tier": 270
+    "tier": 270,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Front_of_4th_century_CE_Roman_Lycurgus_Cup%2C_British_Museum_%281958%2C1202.1%29.jpg/960px-Front_of_4th_century_CE_Roman_Lycurgus_Cup%2C_British_Museum_%281958%2C1202.1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1207,
+     "page": "https://commons.wikimedia.org/wiki/File:Front_of_4th_century_CE_Roman_Lycurgus_Cup,_British_Museum_(1958,1202.1).jpg",
+     "lic": "CC BY 4.0",
+     "cr": "Chappsnet, via Wikimedia Commons"
+    }
    },
    {
     "floor": 1,
@@ -749,7 +885,15 @@
     "look": "the deep blues and reds of the enamel",
     "people": [],
     "u": "https://en.wikipedia.org/wiki/Royal_Gold_Cup",
-    "tier": 270
+    "tier": 270,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/British_Museum_Royal_Gold_Cup.jpg/960px-British_Museum_Royal_Gold_Cup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1260,
+     "page": "https://commons.wikimedia.org/wiki/File:British_Museum_Royal_Gold_Cup.jpg",
+     "lic": "CC0",
+     "cr": "Unknown, via Wikimedia Commons"
+    }
    },
    {
     "floor": 1,
@@ -760,7 +904,15 @@
     "look": "the emperor on deck, and the tiny sailors in the rigging",
     "people": [],
     "u": "https://en.wikipedia.org/wiki/Hans_Schlottheim",
-    "tier": 120
+    "tier": 120,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Machine_in_the_Form_of_a_Medieval_Galleon%2C_Intended_to_Announce_Banquets_at_Court_%28~1585%29_-_British_Museum.jpg/960px-Machine_in_the_Form_of_a_Medieval_Galleon%2C_Intended_to_Announce_Banquets_at_Court_%28~1585%29_-_British_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1505,
+     "page": "https://commons.wikimedia.org/wiki/File:Machine_in_the_Form_of_a_Medieval_Galleon,_Intended_to_Announce_Banquets_at_Court_(~1585)_-_British_Museum.jpg",
+     "lic": "CC BY 2.0",
+     "cr": "Andres Rueda, via Wikimedia Commons"
+    }
    },
    {
     "floor": 1,
@@ -772,7 +924,15 @@
     "look": "the face of the sea god in the centre",
     "people": [],
     "u": "https://en.wikipedia.org/wiki/Mildenhall_Treasure",
-    "tier": 180
+    "tier": 180,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Mildenhall_treasure%2C_great_dish%2C_British_Museum%2C_detail--_frame_drum.jpg/960px-Mildenhall_treasure%2C_great_dish%2C_British_Museum%2C_detail--_frame_drum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 821,
+     "page": "https://commons.wikimedia.org/wiki/File:Mildenhall_treasure,_great_dish,_British_Museum,_detail--_frame_drum.jpg",
+     "lic": "CC BY-SA 3.0",
+     "cr": "Original art,  4th century A.D. artist,  Rome \n\nPhotography by JMiall, via Wikimedia Commons"
+    }
    },
    {
     "floor": 1,
@@ -808,7 +968,15 @@
     "look": "the swirls and the red glass studs",
     "people": [],
     "u": "https://en.wikipedia.org/wiki/Battersea_Shield",
-    "tier": 270
+    "tier": 270,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/British_Museum_Battersea_Shield.jpg/960px-British_Museum_Battersea_Shield.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1966,
+     "page": "https://commons.wikimedia.org/wiki/File:British_Museum_Battersea_Shield.jpg",
+     "lic": "CC0",
+     "cr": "Unknown, via Wikimedia Commons"
+    }
    },
    {
     "floor": 1,
@@ -820,7 +988,15 @@
     "look": "how it imitates folds of cloth and beads",
     "people": [],
     "u": "https://en.wikipedia.org/wiki/Mold_cape",
-    "tier": 270
+    "tier": 270,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Gold_Mold_Cape_-_British_Museum_-_Joy_of_Museums.jpg/960px-Gold_Mold_Cape_-_British_Museum_-_Joy_of_Museums.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 664,
+     "page": "https://commons.wikimedia.org/wiki/File:Gold_Mold_Cape_-_British_Museum_-_Joy_of_Museums.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "Joyofmuseums, via Wikimedia Commons"
+    }
    },
    {
     "floor": 1,
@@ -832,7 +1008,15 @@
     "look": "the long dedication written on the necks",
     "people": [],
     "u": "https://en.wikipedia.org/wiki/David_Vases",
-    "tier": 180
+    "tier": 180,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/The_David_Vases.jpg/960px-The_David_Vases.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1013,
+     "page": "https://commons.wikimedia.org/wiki/File:The_David_Vases.jpg",
+     "lic": "Public domain",
+     "cr": "Unknown authorUnknown author, via Wikimedia Commons"
+    }
    }
   ],
   "routes": [
