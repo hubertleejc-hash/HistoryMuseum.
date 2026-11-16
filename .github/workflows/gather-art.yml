@@ -24,6 +24,12 @@ on:
       portraits:
         description: "Also look for a public-domain portrait of every person (yes/no)"
         default: "no"
+      met_ids:
+        description: "Hand-picked Met works for the app, by object id (comma separated). id=slug also makes a story picture, e.g. 12127=madame-x"
+        default: ""
+      met_artist:
+        description: "One artist's public-domain Met works for the app (exact name, e.g. John Singer Sargent)"
+        default: ""
 
 permissions:
   contents: write
@@ -43,8 +49,11 @@ jobs:
           python-version: "3.12"
       - run: pip install Pillow==11.3.0
       - name: Gather
-        if: ${{ inputs.offline != '0' || inputs.online != '0' || inputs.met != '0' || inputs.commons != '0' }}
-        run: python3 tools/art/gather.py --offline "${{ inputs.offline }}" --online "${{ inputs.online }}" --met "${{ inputs.met }}" --commons "${{ inputs.commons }}" ${{ inputs.feed == 'yes' && '--feed' || '' }}
+        if: ${{ inputs.offline != '0' || inputs.online != '0' || inputs.met != '0' || inputs.commons != '0' || inputs.met_ids != '' || inputs.met_artist != '' }}
+        env:
+          MET_IDS: ${{ inputs.met_ids }}
+          MET_ARTIST: ${{ inputs.met_artist }}
+        run: python3 tools/art/gather.py --offline "${{ inputs.offline }}" --online "${{ inputs.online }}" --met "${{ inputs.met }}" --commons "${{ inputs.commons }}" --met-ids "$MET_IDS" --met-artist "$MET_ARTIST" ${{ inputs.feed == 'yes' && '--feed' || '' }}
       - name: Portraits
         if: ${{ inputs.portraits == 'yes' }}
         run: python3 tools/art/portraits.py
@@ -57,6 +66,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add app/art online
+          git add app/art app/img online
           git commit -qm "Gather art: more public-domain works from the Cleveland Museum of Art, the Met, the Louvre and the British Museum" || { echo "Nothing new"; exit 0; }
           for i in 1 2 3; do git pull --rebase -q origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}" && break; sleep 5; done
