@@ -5919,7 +5919,7 @@ Object.assign(window.HISTORY.chapters, {
       "War, 1918. Britain made him an official war artist. Near Arras in August 1918 he saw a line of soldiers blinded by mustard gas being led to a dressing station, and painted Gassed, six metres wide, now in the Imperial War Museum."
     ]},
     {k:"works", h:"The work", ps:[
-      "Madame X (Madame Pierre Gautreau), 1883 to 1884, The Metropolitan Museum of Art, New York. In 1916 he sold it to the Met and wrote to its director, 'I suppose it is the best thing I have done.' An unfinished second version is in Tate Britain.",
+      "Madame X (Virginie Amélie Avegno Gautreau), 1883 to 1884, The Metropolitan Museum of Art, New York. In 1916 he sold it to the Met and wrote to its director, 'I suppose it is the best thing I have done.' An unfinished second version is in Tate Britain.",
       "El Jaleo (1882), Isabella Stewart Gardner Museum, Boston: a dancer and her guitarists, painted after his trip to Andalusia.",
       "The Daughters of Edward Darley Boit (1882), Museum of Fine Arts, Boston: four American sisters in a shadowy Paris apartment, beside two huge Japanese vases that now stand next to the painting in the museum.",
       "Carnation, Lily, Lily, Rose (1885 to 1886), Tate Britain: two girls lighting paper lanterns at dusk. He painted it outdoors only during the few minutes of the right light each evening, across two summers.",
@@ -5955,10 +5955,10 @@ Object.assign(window.HISTORY.chapters, {
       {c:"The strap fell off by accident while he painted.", lab:"myth", t:"He painted it fallen on purpose for the Salon. It was a choice, and after the scandal he chose to paint it back up."}
     ]},
     {k:"sources", h:"Sources", src:[
-      {n:"The Metropolitan Museum of Art: Madame X (Madame Pierre Gautreau), 1883–84, open-access record (CC0)", u:"https://www.metmuseum.org/art/collection/search/12127"},
+      {n:"The Metropolitan Museum of Art: Madame X (Virginie Amélie Avegno Gautreau), 1883–84, open-access record (CC0)", u:"https://www.metmuseum.org/art/collection/search/12127"},
       {n:"Henry James, 'John S. Sargent', Harper's New Monthly Magazine, October 1887 (public domain)"},
       {n:"Evan Charteris, John Sargent (1927), with his letters (public domain in the United States)"},
-      {n:"Wikipedia: Madame X (Madame Pierre Gautreau)", u:"https://en.wikipedia.org/wiki/Madame_X_(Madame_Pierre_Gautreau)"},
+      {n:"Wikipedia: Madame X (Virginie Amélie Avegno Gautreau)", u:"https://en.wikipedia.org/wiki/Madame_X_(Madame_Pierre_Gautreau)"},
       {n:"Wikipedia: John Singer Sargent", u:"https://en.wikipedia.org/wiki/John_Singer_Sargent"},
       {n:"Further reading: Deborah Davis, Strapless: John Singer Sargent and the Fall of Madame X (2003)"},
       {n:"Further reading: Richard Ormond and Elaine Kilmurray, John Singer Sargent: Complete Paintings (1998 to 2016)"}

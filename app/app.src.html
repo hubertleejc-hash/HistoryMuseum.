@@ -1903,6 +1903,7 @@ function personArt(p){
     if (!document.getElementById("pArt")) return;
     const nm = p.n.toLowerCase().replace(/\s*\(.*$/, ""), last = nm.split(" ").pop();
     const by = ART.filter(it => it.src !== "feat" && it.a && (it.a.toLowerCase() === nm || (last.length > 4 && it.a.toLowerCase().endsWith(" " + last) && it.a.toLowerCase().split(" ")[0] === nm.split(" ")[0])));
+    by.sort((a, b) => (b.k === "painting") - (a.k === "painting"));  /* paintings first, so Madame X leads Sargent's strip */
     const lo = astro(p.b), hi = astro(end(p)), regs = new Set(p.c.map(c => C_REG[c] || (/(egypt|greece)/.test(c) ? "ancient" : "europe")));
     if (lo < -300) regs.add("ancient");
     const seed = hashStr(p.id);
