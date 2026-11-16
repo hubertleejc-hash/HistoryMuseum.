@@ -790,12 +790,16 @@ html.hinged .big-title, html.hinged .w-regions, html.hinged .w-dial{max-width:ca
 .talk-badge.rec{background:var(--sunk); color:var(--ink-2); border:1px solid var(--rule)}
 /* ---------- Gallery: the collection grid ---------- */
 .gal-head h2{font-size:34px; line-height:1.05}
-.gal-feat{display:flex; gap:12px; overflow-x:auto; scroll-snap-type:x mandatory; padding:2px 2px 10px; margin:0 -2px; scrollbar-width:none; -webkit-overflow-scrolling:touch}
+.gal-feat{display:flex; align-items:flex-start; gap:12px; overflow-x:auto; scroll-snap-type:x mandatory; padding:2px 2px 10px; margin:0 -2px; scrollbar-width:none; -webkit-overflow-scrolling:touch}
 .gal-feat::-webkit-scrollbar{display:none}
 .gf{flex:0 0 auto; width:min(62vw, 240px); scroll-snap-align:start; text-align:left; border:0; padding:0; background:none; color:inherit; cursor:pointer; font:inherit}
 .gf .gt-img{aspect-ratio:4/5; border-radius:12px}
-.gf b{display:block; font:500 16px/1.25 var(--display); margin-top:9px; color:var(--ink)}
-.gf small{display:block; font-size:12.5px; color:var(--ink-3); margin-top:2px}
+.gf b{display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; overflow:hidden; overflow-wrap:anywhere; font:500 16px/1.25 var(--display); margin-top:9px; color:var(--ink)}
+.gf small{display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:12.5px; color:var(--ink-3); margin-top:2px}
+/* cards whose picture keeps its own shape: the card is as wide as the picture at a fixed height, within limits, so a wide photo never spills onto the next card */
+.gf.gfa{--h:200px; width:clamp(128px, calc(var(--ar, 1) * var(--h)), min(78vw, 300px))}
+.gf.gfa .gt-img{height:var(--h); aspect-ratio:auto}
+@media (min-width:700px){.gf.gfa{--h:240px; width:clamp(150px, calc(var(--ar, 1) * var(--h)), 360px)}}
 .gal-ctl{display:flex; flex-direction:column; gap:10px; position:sticky; top:0; z-index:5; padding:10px 0 12px; background:var(--bg); border-bottom:1px solid var(--rule)}
 .gal-ctl .chips{flex-wrap:nowrap; overflow-x:auto; scrollbar-width:none; -webkit-overflow-scrolling:touch; margin:0 -16px; padding:0 16px}
 .gal-ctl .chips::-webkit-scrollbar{display:none}
@@ -1796,7 +1800,7 @@ function viewArt(){
     <p class="muted" style="font-size:12.5px">The collection's pictures and texts come from the open-access programmes of the Cleveland Museum of Art and the Metropolitan Museum of Art (public domain, CC0). Every work names its museum. Nothing here is made by AI.</p>`;
   loadArt(() => {
     const feat = ART.filter(it => it.src === "feat");
-    document.getElementById("galFeat").innerHTML = feat.filter(it => !it.id.startsWith("pt-")).map(it => `<button type="button" class="gf" data-feat="${esc(it.id)}"><span class="gt-img"><img src="${esc(it.img)}" alt="${esc(it.t)}" loading="lazy" decoding="async" onload="this.classList.add('in')"></span><b>${esc(it.t)}</b><small>${esc(it.a)}${it.d ? ", " + esc(it.d) : ""}</small></button>`).join("");
+    document.getElementById("galFeat").innerHTML = feat.filter(it => !it.id.startsWith("pt-")).map(it => `<button type="button" class="gf" data-feat="${esc(it.id)}"><span class="gt-img"><img src="${esc(it.img)}" alt="" loading="lazy" decoding="async" onload="this.classList.add('in')" onerror="this.parentNode.classList.add('broken')"></span><b>${esc(it.t)}</b><small>${esc(it.a)}${it.d ? ", " + esc(it.d) : ""}</small></button>`).join("");
     drawArtGrid();
   });
   const qi = document.getElementById("galQ"); let tq;
@@ -1862,7 +1866,7 @@ function personArt(p){
       .sort((a, b) => (a.wing === b.wing ? 0 : a.wing === "app" ? -1 : 1) || (b.hasText - a.hasText) || ((hashStr(a.id + seed) % 997) - (hashStr(b.id + seed) % 997))).slice(0, 12);
     pArtList = by.slice(0, 12).concat(world);
     if (!pArtList.length) return;
-    const strip = (l, off) => `<div class="gal-feat">${l.map((it, i) => `<button type="button" class="gf" data-part="${i + off}"><span class="gt-img" style="aspect-ratio:${it.w && it.h ? it.w + "/" + it.h : "1"};width:auto;height:200px"><img src="${esc(artPath(it, "t"))}" alt="${esc(it.t)}" loading="lazy" decoding="async" onload="this.classList.add('in')" style="width:auto;height:100%"></span><b>${esc(it.t)}</b><small>${esc(it.a || regName(it.r))}${it.y != null ? " · " + esc(fy(it.y)) : ""}</small></button>`).join("")}</div>`;
+    const strip = (l, off) => `<div class="gal-feat">${l.map((it, i) => `<button type="button" class="gf gfa" data-part="${i + off}" style="--ar:${(it.w && it.h ? Math.min(2, Math.max(.6, it.w / it.h)) : 1).toFixed(3)}"><span class="gt-img"><img src="${esc(artPath(it, "t"))}" alt="" loading="lazy" decoding="async" onload="this.classList.add('in')" onerror="this.parentNode.classList.add('broken')"></span><b>${esc(it.t)}</b><small>${esc(it.a || regName(it.r))}${it.y != null ? " · " + esc(fy(it.y)) : ""}</small></button>`).join("")}</div>`;
     const nb = Math.min(by.length, 12);
     box.innerHTML = (nb ? `<div class="sec-head"><h2>By ${esc(short(p))}</h2><p>${plural(nb, "work")} in the Gallery</p></div>${strip(pArtList.slice(0, nb), 0)}` : "") +
       (world.length ? `<div class="sec-head" style="margin-top:${nb ? 28 : 0}px"><h2>The art of ${esc(short(p))}'s world</h2><p>Made where they lived, in their lifetime</p></div>${strip(world, nb)}` : "");
