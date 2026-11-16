@@ -8,7 +8,7 @@ UA = "contemporaries-link-check/1.0 (history app; source citations)"
 
 
 def links(pl):
-    for x in pl.get("facts", []) + (pl.get("guide") or {}).get("stops", []) + [pl.get("guide") or {}]:
+    for x in pl.get("facts", []) + (pl.get("guide") or {}).get("stops", []) + [x for x in (pl.get("guide") or {}).get("tour", []) if x.get("tier", 60) != 60] + [pl.get("guide") or {}]:
         for s in x.get("src", []) or []:
             if s.get("u"):
                 yield s["u"]

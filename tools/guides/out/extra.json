@@ -445,6 +445,1237 @@
      4996
     ]
    ]
+  },
+  "lv-gudea": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Gudea_of_Lagash_Girsu.jpg/960px-Gudea_of_Lagash_Girsu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1350,
+    "page": "https://commons.wikimedia.org/wiki/File:Gudea_of_Lagash_Girsu.jpg",
+    "lic": "Public domain",
+    "cr": "Jastrow, via Wikimedia Commons",
+    "file": "File:Gudea of Lagash Girsu.jpg"
+   },
+   "tried": [
+    [
+     "File:Gudea of Lagash Girsu.jpg",
+     "Public domain",
+     2600
+    ]
+   ]
+  },
+  "lv-archers": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Archers_frieze_Darius_1st_Palace_Suse_Louvre_AOD_488_a.jpg/960px-Archers_frieze_Darius_1st_Palace_Suse_Louvre_AOD_488_a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1452,
+    "page": "https://commons.wikimedia.org/wiki/File:Archers_frieze_Darius_1st_Palace_Suse_Louvre_AOD_488_a.jpg",
+    "lic": "Public domain",
+    "cr": "Unknown authorUnknown author, via Wikimedia Commons",
+    "file": "File:Archers frieze Darius 1st Palace Suse Louvre AOD 488 a.jpg"
+   },
+   "tried": [
+    [
+     "File:Archers frieze Darius 1st Palace Suse Louvre AOD 488 a.jpg",
+     "Public domain",
+     2540
+    ]
+   ]
+  },
+  "lv-vultures": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Stele_of_the_Vultures_in_the_Louvre_Museum_%28enhanced_composite%29.jpg/960px-Stele_of_the_Vultures_in_the_Louvre_Museum_%28enhanced_composite%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 615,
+    "page": "https://commons.wikimedia.org/wiki/File:Stele_of_the_Vultures_in_the_Louvre_Museum_(enhanced_composite).jpg",
+    "lic": "CC BY-SA 4.0",
+    "cr": "Background: Kikuyu3\nElements: Eric Gaba (User:Sting)\n\nComposite: पाटलिपुत्र (talk) 10:52, 30 April 2020 (UTC), via Wikimedia Commons",
+    "file": "File:Stele of the Vultures in the Louvre Museum (enhanced composite).jpg"
+   },
+   "tried": [
+    [
+     "File:Stele of the Vultures in the Louvre Museum (enhanced composite).jpg",
+     "CC BY-SA 4.0",
+     9344
+    ]
+   ]
+  },
+  "lv-marly": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/La_Seine_et_la_Marne_by_Nicolas_Coustou_beneath_Marly_Horse%2C_Cour_Marly%2C_Louvre_Palace.jpg/960px-La_Seine_et_la_Marne_by_Nicolas_Coustou_beneath_Marly_Horse%2C_Cour_Marly%2C_Louvre_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1405,
+    "page": "https://commons.wikimedia.org/wiki/File:La_Seine_et_la_Marne_by_Nicolas_Coustou_beneath_Marly_Horse,_Cour_Marly,_Louvre_Palace.jpg",
+    "lic": "Public domain",
+    "cr": "Julian Lupyan, via Wikimedia Commons",
+    "file": "File:La Seine et la Marne by Nicolas Coustou beneath Marly Horse, Cour Marly, Louvre Palace.jpg"
+   },
+   "tried": [
+    [
+     "File:La Seine et la Marne by Nicolas Coustou beneath Marly Horse, Cour Marly, Louvre Palace.jpg",
+     "Public domain",
+     4715
+    ]
+   ],
+   "rejected": "shows Nicolas Coustou's river gods, not clearly the horses"
+  },
+  "lv-pot": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Tomb_of_Philippe_Pot%2C_Right_Side_-_Louvre%2C_Room_10.jpg/960px-Tomb_of_Philippe_Pot%2C_Right_Side_-_Louvre%2C_Room_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 586,
+    "page": "https://commons.wikimedia.org/wiki/File:Tomb_of_Philippe_Pot,_Right_Side_-_Louvre,_Room_10.jpg",
+    "lic": "CC BY-SA 3.0",
+    "cr": "Template:Antoine le Moiture, via Wikimedia Commons",
+    "file": "File:Tomb of Philippe Pot, Right Side - Louvre, Room 10.jpg"
+   },
+   "tried": [
+    [
+     "File:Tomb of Philippe Pot, Right Side - Louvre, Room 10.jpg",
+     "CC BY-SA 3.0",
+     7674
+    ]
+   ]
+  },
+  "lv-moat": {
+   "pic": null,
+   "tried": []
+  },
+  "lv-sphinx": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Great_Sphinx_of_Tanis%2C_Paris_alt.jpg/960px-Great_Sphinx_of_Tanis%2C_Paris_alt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 795,
+    "page": "https://commons.wikimedia.org/wiki/File:Great_Sphinx_of_Tanis,_Paris_alt.jpg",
+    "lic": "CC0",
+    "cr": "Wilfredor, via Wikimedia Commons",
+    "file": "File:Great Sphinx of Tanis, Paris alt.jpg"
+   },
+   "tried": [
+    [
+     "File:Great Sphinx of Tanis, Paris alt.jpg",
+     "CC0",
+     5209
+    ]
+   ]
+  },
+  "lv-gladiator": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Borghese_Gladiator%2C_Louvre_Museum%2C_Paris_2_October_2014.jpg/960px-Borghese_Gladiator%2C_Louvre_Museum%2C_Paris_2_October_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1240,
+    "page": "https://commons.wikimedia.org/wiki/File:Borghese_Gladiator,_Louvre_Museum,_Paris_2_October_2014.jpg",
+    "lic": "CC BY 2.0",
+    "cr": "Agasias of Ephesus, via Wikimedia Commons",
+    "file": "File:Borghese Gladiator, Louvre Museum, Paris 2 October 2014.jpg"
+   },
+   "tried": [
+    [
+     "File:Borghese Gladiator, Louvre Museum, Paris 2 October 2014.jpg",
+     "CC BY 2.0",
+     3648
+    ]
+   ]
+  },
+  "lv-hermaphroditus": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Sleeping_Hermaphroditus%2C_Louvre_Museum%2C_Paris_14_July_2013.jpg/960px-Sleeping_Hermaphroditus%2C_Louvre_Museum%2C_Paris_14_July_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 360,
+    "page": "https://commons.wikimedia.org/wiki/File:Sleeping_Hermaphroditus,_Louvre_Museum,_Paris_14_July_2013.jpg",
+    "lic": "CC BY-SA 3.0",
+    "cr": "Gian Lorenzo Bernini, via Wikimedia Commons",
+    "file": "File:Sleeping Hermaphroditus, Louvre Museum, Paris 14 July 2013.jpg"
+   },
+   "tried": [
+    [
+     "File:Sleeping Hermaphroditus, Louvre Museum, Paris 14 July 2013.jpg",
+     "CC BY-SA 3.0",
+     5000
+    ]
+   ]
+  },
+  "lv-psyche": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Psych%C3%A9_ranim%C3%A9e_par_le_baiser_de_l%27Amour%2C_Louvre.jpg/960px-Psych%C3%A9_ranim%C3%A9e_par_le_baiser_de_l%27Amour%2C_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 668,
+    "page": "https://commons.wikimedia.org/wiki/File:Psych%C3%A9_ranim%C3%A9e_par_le_baiser_de_l%27Amour,_Louvre.jpg",
+    "lic": "CC0",
+    "cr": "Antonio Canova, via Wikimedia Commons",
+    "file": "File:Psyché ranimée par le baiser de l'Amour, Louvre.jpg"
+   },
+   "tried": [
+    [
+     "File:Psyché ranimée par le baiser de l'Amour, Louvre.jpg",
+     "CC0",
+     8077
+    ]
+   ]
+  },
+  "lv-cellini": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Replica_of_the_Nymph_of_Fontainebleau%2C_V%26A_London.jpg/960px-Replica_of_the_Nymph_of_Fontainebleau%2C_V%26A_London.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 587,
+    "page": "https://commons.wikimedia.org/wiki/File:Replica_of_the_Nymph_of_Fontainebleau,_V%26A_London.jpg",
+    "lic": "CC0",
+    "cr": "14GTR, via Wikimedia Commons",
+    "file": "File:Replica of the Nymph of Fontainebleau, V&A London.jpg"
+   },
+   "tried": [
+    [
+     "File:Replica of the Nymph of Fontainebleau, V&A London.jpg",
+     "CC0",
+     5184
+    ]
+   ],
+   "rejected": "a replica in London"
+  },
+  "lv-baptistere": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Baptist%C3%A8re_de_Saint_Louis_-_Bandeau_I4.jpg/960px-Baptist%C3%A8re_de_Saint_Louis_-_Bandeau_I4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 573,
+    "page": "https://commons.wikimedia.org/wiki/File:Baptist%C3%A8re_de_Saint_Louis_-_Bandeau_I4.jpg",
+    "lic": "CC BY-SA 4.0",
+    "cr": "Green fr, via Wikimedia Commons",
+    "file": "File:Baptistère de Saint Louis - Bandeau I4.jpg"
+   },
+   "tried": [
+    [
+     "File:Baybars, Medallion IV, Baptistère de Saint-Louis.jpg",
+     "Public domain",
+     2044
+    ],
+    [
+     "File:Baptistère de Saint Louis - Bandeau I4.jpg",
+     "CC BY-SA 4.0",
+     3280
+    ]
+   ]
+  },
+  "lv-pyxis": {
+   "pic": {
+    "u": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Pyxid_Al_Mughira_OA_4068.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 900,
+    "h": 1364,
+    "page": "https://commons.wikimedia.org/wiki/File:Pyxid_Al_Mughira_OA_4068.jpg",
+    "lic": "Public domain",
+    "cr": "Workshop at the court of Medina Azahara, via Wikimedia Commons",
+    "file": "File:Pyxid Al Mughira OA 4068.jpg"
+   },
+   "tried": [
+    [
+     "File:Pyxid Al Mughira OA 4068.jpg",
+     "Public domain",
+     950
+    ]
+   ]
+  },
+  "lv-apollon": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Galerie_d%27Apollon_%28Louvre%29.jpg/960px-Galerie_d%27Apollon_%28Louvre%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 660,
+    "page": "https://commons.wikimedia.org/wiki/File:Galerie_d%27Apollon_(Louvre).jpg",
+    "lic": "CC0",
+    "cr": "Wilfredor, via Wikimedia Commons",
+    "file": "File:Galerie d'Apollon (Louvre).jpg"
+   },
+   "tried": [
+    [
+     "File:Galerie d'Apollon (Louvre).jpg",
+     "CC0",
+     7507
+    ]
+   ]
+  },
+  "lv-regent": {
+   "pic": {
+    "u": "https://upload.wikimedia.org/wikipedia/commons/6/61/Regent_%28diamond%29_black.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 900,
+    "h": 450,
+    "page": "https://commons.wikimedia.org/wiki/File:Regent_(diamond)_black.png",
+    "lic": "Public domain",
+    "cr": "Ahnode, via Wikimedia Commons",
+    "file": "File:Regent (diamond) black.png"
+   },
+   "tried": [
+    [
+     "File:Le Régent - Joseph Cope - Musée du Louvre Objets d'art MV 1017.jpg",
+     "CC0",
+     834
+    ],
+    [
+     "File:Diamant le Régent (Louvre).jpg",
+     "Public domain",
+     2816
+    ],
+    [
+     "File:Le régent au Musée du Louvre.jpg",
+     "CC BY-SA 2.0",
+     6016
+    ],
+    [
+     "File:Regent (diamond) black.png",
+     "Public domain",
+     800
+    ]
+   ]
+  },
+  "lv-cimabue": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Cimabue_032.jpg/960px-Cimabue_032.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1458,
+    "page": "https://commons.wikimedia.org/wiki/File:Cimabue_032.jpg",
+    "lic": "Public domain",
+    "cr": "Cimabue, via Wikimedia Commons",
+    "file": "File:Cimabue 032.jpg"
+   },
+   "tried": [
+    [
+     "File:Cimabue 032.jpg",
+     "Public domain",
+     2420
+    ]
+   ],
+   "rejected": "not sure which Maestà"
+  },
+  "lv-rocks": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Leonardo_da_Vinci_Virgin_of_the_Rocks_%28National_Gallery_London%29.jpg/960px-Leonardo_da_Vinci_Virgin_of_the_Rocks_%28National_Gallery_London%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1387,
+    "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_Virgin_of_the_Rocks_(National_Gallery_London).jpg",
+    "lic": "Public domain",
+    "cr": "Leonardo da Vinci and workshop, via Wikimedia Commons",
+    "file": "File:Leonardo da Vinci Virgin of the Rocks (National Gallery London).jpg"
+   },
+   "tried": [
+    [
+     "File:Leonardo Da Vinci - Vergine delle Rocce (Louvre).jpg",
+     "Public domain",
+     3460
+    ],
+    [
+     "File:Leonardo da Vinci Virgin of the Rocks (National Gallery London).jpg",
+     "Public domain",
+     2692
+    ]
+   ],
+   "rejected": "the London version, not the Louvre's"
+  },
+  "lv-castiglione": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Baldassare_Castiglione%2C_by_Raffaello_Sanzio%2C_from_C2RMF_retouched.jpg/960px-Baldassare_Castiglione%2C_by_Raffaello_Sanzio%2C_from_C2RMF_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1120,
+    "page": "https://commons.wikimedia.org/wiki/File:Baldassare_Castiglione,_by_Raffaello_Sanzio,_from_C2RMF_retouched.jpg",
+    "lic": "Public domain",
+    "cr": "Raphael, via Wikimedia Commons",
+    "file": "File:Baldassare Castiglione, by Raffaello Sanzio, from C2RMF retouched.jpg"
+   },
+   "tried": [
+    [
+     "File:Baldassare Castiglione, by Raffaello Sanzio, from C2RMF retouched.jpg",
+     "Public domain",
+     15566
+    ]
+   ]
+  },
+  "lv-glove": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Titian_-_Man_with_a_Glove_-_WGA22939.jpg/960px-Titian_-_Man_with_a_Glove_-_WGA22939.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1010,
+    "page": "https://commons.wikimedia.org/wiki/File:Titian_-_Man_with_a_Glove_-_WGA22939.jpg",
+    "lic": "Public domain",
+    "cr": "Titian, via Wikimedia Commons",
+    "file": "File:Titian - Man with a Glove - WGA22939.jpg"
+   },
+   "tried": [
+    [
+     "File:Titian - Man with a Glove - WGA22939.jpg",
+     "Public domain",
+     1069
+    ]
+   ]
+  },
+  "lv-horatii": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Jacques-Louis_David_-_Oath_of_the_Horatii_-_Google_Art_Project.jpg/960px-Jacques-Louis_David_-_Oath_of_the_Horatii_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 702,
+    "page": "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_Oath_of_the_Horatii_-_Google_Art_Project.jpg",
+    "lic": "Public domain",
+    "cr": "Anne-Louis Girodet / After Jacques-Louis David, via Wikimedia Commons",
+    "file": "File:Jacques-Louis David - Oath of the Horatii - Google Art Project.jpg"
+   },
+   "tried": [
+    [
+     "File:Jacques-Louis David - Oath of the Horatii - Google Art Project.jpg",
+     "Public domain",
+     6156
+    ]
+   ]
+  },
+  "lv-recamier": {
+   "pic": null,
+   "tried": []
+  },
+  "lv-bather": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Jean-Auguste-Dominique_Ingres_-_La_Baigneuse_Valpin%C3%A7on.jpg/960px-Jean-Auguste-Dominique_Ingres_-_La_Baigneuse_Valpin%C3%A7on.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1343,
+    "page": "https://commons.wikimedia.org/wiki/File:Jean-Auguste-Dominique_Ingres_-_La_Baigneuse_Valpin%C3%A7on.jpg",
+    "lic": "Public domain",
+    "cr": "Jean-Auguste-Dominique Ingres, via Wikimedia Commons",
+    "file": "File:Jean-Auguste-Dominique Ingres - La Baigneuse Valpinçon.jpg"
+   },
+   "tried": [
+    [
+     "File:Jean-Auguste-Dominique Ingres - La Baigneuse Valpinçon.jpg",
+     "Public domain",
+     2890
+    ]
+   ]
+  },
+  "lv-sardanapalus": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Death_of_Sardanapalus_by_Eug%C3%A8ne_Delacroix.jpg/960px-Death_of_Sardanapalus_by_Eug%C3%A8ne_Delacroix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 707,
+    "page": "https://commons.wikimedia.org/wiki/File:Death_of_Sardanapalus_by_Eug%C3%A8ne_Delacroix.jpg",
+    "lic": "Public domain",
+    "cr": "Eugène Delacroix, via Wikimedia Commons",
+    "file": "File:Death of Sardanapalus by Eugène Delacroix.jpg"
+   },
+   "tried": [
+    [
+     "File:Death of Sardanapalus by Eugène Delacroix.jpg",
+     "Public domain",
+     6842
+    ]
+   ]
+  },
+  "lv-poussin": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Nicolas_Poussin_-_Et_in_Arcadia_ego_%28deuxi%C3%A8me_version%29.jpg/960px-Nicolas_Poussin_-_Et_in_Arcadia_ego_%28deuxi%C3%A8me_version%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 642,
+    "page": "https://commons.wikimedia.org/wiki/File:Nicolas_Poussin_-_Et_in_Arcadia_ego_(deuxi%C3%A8me_version).jpg",
+    "lic": "Public domain",
+    "cr": "Nicolas Poussin, via Wikimedia Commons",
+    "file": "File:Nicolas Poussin - Et in Arcadia ego (deuxième version).jpg"
+   },
+   "tried": [
+    [
+     "File:Nicolas Poussin - Et in Arcadia ego (deuxième version).jpg",
+     "Public domain",
+     5966
+    ]
+   ]
+  },
+  "lv-pierrot": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Jean-Antoine_Watteau_-_Pierrot%2C_dit_autrefois_Gilles.jpg/960px-Jean-Antoine_Watteau_-_Pierrot%2C_dit_autrefois_Gilles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1123,
+    "page": "https://commons.wikimedia.org/wiki/File:Jean-Antoine_Watteau_-_Pierrot,_dit_autrefois_Gilles.jpg",
+    "lic": "Public domain",
+    "cr": "Jean-Antoine Watteau, via Wikimedia Commons",
+    "file": "File:Jean-Antoine Watteau - Pierrot, dit autrefois Gilles.jpg"
+   },
+   "tried": [
+    [
+     "File:Jean-Antoine Watteau - Pierrot, dit autrefois Gilles.jpg",
+     "Public domain",
+     2024
+    ]
+   ]
+  },
+  "lv-erasmus": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Hans_Holbein_d._J._-_Erasmus_-_Louvre.jpg/960px-Hans_Holbein_d._J._-_Erasmus_-_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1191,
+    "page": "https://commons.wikimedia.org/wiki/File:Hans_Holbein_d._J._-_Erasmus_-_Louvre.jpg",
+    "lic": "Public domain",
+    "cr": "Hans Holbein the Younger, via Wikimedia Commons",
+    "file": "File:Hans Holbein d. J. - Erasmus - Louvre.jpg"
+   },
+   "tried": [
+    [
+     "File:Hans Holbein d. J. - Erasmus - Louvre.jpg",
+     "Public domain",
+     2024
+    ]
+   ]
+  },
+  "lv-rubens": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Le_D%C3%A9barquement_de_la_reine_%C3%A0_Marseille%2C_le_3_novembre_1600_-_Pierre_Paul_Rubens_-_Mus%C3%A9e_du_Louvre_Peintures_INV_1774_%3B_MR_965.jpg/960px-Le_D%C3%A9barquement_de_la_reine_%C3%A0_Marseille%2C_le_3_novembre_1600_-_Pierre_Paul_Rubens_-_Mus%C3%A9e_du_Louvre_Peintures_INV_1774_%3B_MR_965.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1133,
+    "page": "https://commons.wikimedia.org/wiki/File:Le_D%C3%A9barquement_de_la_reine_%C3%A0_Marseille,_le_3_novembre_1600_-_Pierre_Paul_Rubens_-_Mus%C3%A9e_du_Louvre_Peintures_INV_1774_;_MR_965.jpg",
+    "lic": "Public domain",
+    "cr": "Peter Paul Rubens, via Wikimedia Commons",
+    "file": "File:Le Débarquement de la reine à Marseille, le 3 novembre 1600 - Pierre Paul Rubens - Musée du Louvre Peintures INV 1774 ; MR 965.jpg"
+   },
+   "tried": [
+    [
+     "File:Le Débarquement de la reine à Marseille, le 3 novembre 1600 - Pierre Paul Rubens - Musée du Louvre Peintures INV 1774 ; MR 965.jpg",
+     "Public domain",
+     2489
+    ]
+   ]
+  },
+  "lv-bathsheba": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Amsterdam_-_Rijksmuseum_-_Late_Rembrandt_Exposition_2015_-_Bathsheba_at_Her_Bath_1654.png/960px-Amsterdam_-_Rijksmuseum_-_Late_Rembrandt_Exposition_2015_-_Bathsheba_at_Her_Bath_1654.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 907,
+    "page": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Rijksmuseum_-_Late_Rembrandt_Exposition_2015_-_Bathsheba_at_Her_Bath_1654.png",
+    "lic": "CC BY-SA 4.0",
+    "cr": "Txllxt TxllxT, via Wikimedia Commons",
+    "file": "File:Amsterdam - Rijksmuseum - Late Rembrandt Exposition 2015 - Bathsheba at Her Bath 1654.png"
+   },
+   "tried": [
+    [
+     "File:Amsterdam - Rijksmuseum - Late Rembrandt Exposition 2015 - Bathsheba at Her Bath 1654.png",
+     "CC BY-SA 4.0",
+     3873
+    ]
+   ]
+  },
+  "lv-astronomer": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Johannes_Vermeer_-_The_Astronomer_-_1668.jpg/960px-Johannes_Vermeer_-_The_Astronomer_-_1668.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1022,
+    "page": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_The_Astronomer_-_1668.jpg",
+    "lic": "Public domain",
+    "cr": "Johannes Vermeer, via Wikimedia Commons",
+    "file": "File:Johannes Vermeer - The Astronomer - 1668.jpg"
+   },
+   "tried": [
+    [
+     "File:Johannes Vermeer (1632-1675) - The Girl With The Pearl Earring (1665).jpg",
+     "Public domain",
+     1861
+    ],
+    [
+     "File:Johannes Vermeer - Het melkmeisje - Google Art Project.jpg",
+     "Public domain",
+     4000
+    ],
+    [
+     "File:Jan Vermeer - The Art of Painting - Google Art Project.jpg",
+     "Public domain",
+     6209
+    ],
+    [
+     "File:Vermeer, Johannes - Woman reading a letter - ca. 1662-1663.jpg",
+     "Public domain",
+     4457
+    ],
+    [
+     "File:Johannes Vermeer - Woman Holding a Balance - Google Art Project.jpg",
+     "Public domain",
+     7201
+    ],
+    [
+     "File:Johannes Vermeer, Allegory of the Catholic Faith, The Metropolitan Museum of Art.jpg",
+     "Public domain",
+     5629
+    ],
+    [
+     "File:View of Delft, by Johannes Vermeer.jpg",
+     "Public domain",
+     6000
+    ],
+    [
+     "File:Johannes Vermeer - De Soldaat en het Lachende Meisje - Google Art Project.jpg",
+     "Public domain",
+     4785
+    ]
+   ]
+  },
+  "lv-napoleon3": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Painted_ceiling_of_appartements_de_Napol%C3%A9on_III_in_the_Palais_du_Louvre.jpg/960px-Painted_ceiling_of_appartements_de_Napol%C3%A9on_III_in_the_Palais_du_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1230,
+    "page": "https://commons.wikimedia.org/wiki/File:Painted_ceiling_of_appartements_de_Napol%C3%A9on_III_in_the_Palais_du_Louvre.jpg",
+    "lic": "CC BY-SA 4.0",
+    "cr": "Livioandronico2013, via Wikimedia Commons",
+    "file": "File:Painted ceiling of appartements de Napoléon III in the Palais du Louvre.jpg"
+   },
+   "tried": [
+    [
+     "File:Painted ceiling of appartements de Napoléon III in the Palais du Louvre.jpg",
+     "CC BY-SA 4.0",
+     3740
+    ]
+   ]
+  },
+  "bm-amenhotep": {
+   "pic": {
+    "u": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Colossal_granite_head_of_Amenhotep_III%2C_British_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 900,
+    "h": 1907,
+    "page": "https://commons.wikimedia.org/wiki/File:Colossal_granite_head_of_Amenhotep_III,_British_Museum.jpg",
+    "lic": "CC BY-SA 4.0",
+    "cr": "Yair Haklai, via Wikimedia Commons",
+    "file": "File:Colossal granite head of Amenhotep III, British Museum.jpg"
+   },
+   "tried": [
+    [
+     "File:Colossal granite head of Amenhotep III, British Museum.jpg",
+     "CC BY-SA 4.0",
+     604
+    ]
+   ]
+  },
+  "bm-cat": {
+   "pic": null,
+   "tried": []
+  },
+  "bm-obelisk": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/The_Black_Obelisk_of_Shalmaneser_III%2C_9th_century_BC%2C_from_Nimrud%2C_Iraq._The_British_Museum.jpg/960px-The_Black_Obelisk_of_Shalmaneser_III%2C_9th_century_BC%2C_from_Nimrud%2C_Iraq._The_British_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1354,
+    "page": "https://commons.wikimedia.org/wiki/File:The_Black_Obelisk_of_Shalmaneser_III,_9th_century_BC,_from_Nimrud,_Iraq._The_British_Museum.jpg",
+    "lic": "CC BY-SA 4.0",
+    "cr": "Osama Shukir Muhammed Amin FRCP(Glasg), via Wikimedia Commons",
+    "file": "File:The Black Obelisk of Shalmaneser III, 9th century BC, from Nimrud, Iraq. The British Museum.jpg"
+   },
+   "tried": [
+    [
+     "File:The Black Obelisk of Shalmaneser III, 9th century BC, from Nimrud, Iraq. The British Museum.jpg",
+     "CC BY-SA 4.0",
+     1361
+    ]
+   ]
+  },
+  "bm-bassae": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Bassae_Frieze_on_display_at_the_British_Museum_1.jpg/960px-Bassae_Frieze_on_display_at_the_British_Museum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 599,
+    "page": "https://commons.wikimedia.org/wiki/File:Bassae_Frieze_on_display_at_the_British_Museum_1.jpg",
+    "lic": "CC BY-SA 4.0",
+    "cr": "Photograph by Mike Peel (www.mikepeel.net)., via Wikimedia Commons",
+    "file": "File:Bassae Frieze on display at the British Museum 1.jpg"
+   },
+   "tried": [
+    [
+     "File:Bassae Frieze on display at the British Museum 1.jpg",
+     "CC BY-SA 4.0",
+     3888
+    ]
+   ]
+  },
+  "bm-nereid": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Nereid_Monument%2C_British_Museum_-_1.jpg/960px-Nereid_Monument%2C_British_Museum_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 631,
+    "page": "https://commons.wikimedia.org/wiki/File:Nereid_Monument,_British_Museum_-_1.jpg",
+    "lic": "CC BY 4.0",
+    "cr": "APK, via Wikimedia Commons",
+    "file": "File:Nereid Monument, British Museum - 1.jpg"
+   },
+   "tried": [
+    [
+     "File:Nereid Monument, British Museum - 1.jpg",
+     "CC BY 4.0",
+     3346
+    ]
+   ]
+  },
+  "bm-mausoleum": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Horse_from_the_Mausoleum_of_Halicarnassus%2C_British_Museum.jpg/960px-Horse_from_the_Mausoleum_of_Halicarnassus%2C_British_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1350,
+    "page": "https://commons.wikimedia.org/wiki/File:Horse_from_the_Mausoleum_of_Halicarnassus,_British_Museum.jpg",
+    "lic": "CC BY-SA 4.0",
+    "cr": "Photograph by Mike Peel (www.mikepeel.net)., via Wikimedia Commons",
+    "file": "File:Horse from the Mausoleum of Halicarnassus, British Museum.jpg"
+   },
+   "tried": [
+    [
+     "File:Horse from the Mausoleum of Halicarnassus, British Museum.jpg",
+     "CC BY-SA 4.0",
+     2592
+    ]
+   ]
+  },
+  "bm-benin": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/British_Museum_Room_25_Cast_brass_plaque_from_Benin_City_17022019_5076.jpg/960px-British_Museum_Room_25_Cast_brass_plaque_from_Benin_City_17022019_5076.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1444,
+    "page": "https://commons.wikimedia.org/wiki/File:British_Museum_Room_25_Cast_brass_plaque_from_Benin_City_17022019_5076.jpg",
+    "lic": "CC0",
+    "cr": "Vassil, via Wikimedia Commons",
+    "file": "File:British Museum Room 25 Cast brass plaque from Benin City 17022019 5076.jpg"
+   },
+   "tried": [
+    [
+     "File:At the British Museum 2024 015.jpg",
+     "CC BY-SA 4.0",
+     4485
+    ],
+    [
+     "File:At the British Museum 2024 014.jpg",
+     "CC BY-SA 4.0",
+     4161
+    ],
+    [
+     "File:At the British Museum 2024 020.jpg",
+     "CC BY-SA 4.0",
+     3787
+    ],
+    [
+     "File:At the British Museum 2024 019.jpg",
+     "CC BY-SA 4.0",
+     4039
+    ],
+    [
+     "File:At the British Museum 2024 017.jpg",
+     "CC BY-SA 4.0",
+     4529
+    ],
+    [
+     "File:British Museum Room 25 Cast brass plaque from Benin City 17022019 5076.jpg",
+     "CC0",
+     2778
+    ]
+   ]
+  },
+  "bm-ife": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/British_Museum_Room_25_Head_of_a_king_Ife_17022019_5147.jpg/960px-British_Museum_Room_25_Head_of_a_king_Ife_17022019_5147.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1587,
+    "page": "https://commons.wikimedia.org/wiki/File:British_Museum_Room_25_Head_of_a_king_Ife_17022019_5147.jpg",
+    "lic": "CC0",
+    "cr": "Vassil, via Wikimedia Commons",
+    "file": "File:British Museum Room 25 Head of a king Ife 17022019 5147.jpg"
+   },
+   "tried": [
+    [
+     "File:British Museum Room 25 Head of a king Ife 17022019 5147.jpg",
+     "CC0",
+     2268
+    ]
+   ]
+  },
+  "bm-serpent": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Double_headed_turquoise_serpentAztecbritish_museum.jpg/960px-Double_headed_turquoise_serpentAztecbritish_museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 448,
+    "page": "https://commons.wikimedia.org/wiki/File:Double_headed_turquoise_serpentAztecbritish_museum.jpg",
+    "lic": "CC BY-SA 4.0",
+    "cr": "Geni, via Wikimedia Commons",
+    "file": "File:Double headed turquoise serpentAztecbritish museum.jpg"
+   },
+   "tried": [
+    [
+     "File:Double headed turquoise serpentAztecbritish museum.jpg",
+     "CC BY-SA 4.0",
+     3295
+    ]
+   ]
+  },
+  "bm-yaxchilan": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Yaxchilan_Lintel_24.jpg/960px-Yaxchilan_Lintel_24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1222,
+    "page": "https://commons.wikimedia.org/wiki/File:Yaxchilan_Lintel_24.jpg",
+    "lic": "CC BY-SA 3.0",
+    "cr": "Unknown, via Wikimedia Commons",
+    "file": "File:Yaxchilan Lintel 24.jpg"
+   },
+   "tried": [
+    [
+     "File:Yaxchilan Lintel 24.jpg",
+     "CC BY-SA 3.0",
+     2313
+    ]
+   ]
+  },
+  "bm-amaravati": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Dome_slab_from_Amaravati%2C_British_Museum_02.jpg/960px-Dome_slab_from_Amaravati%2C_British_Museum_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 879,
+    "page": "https://commons.wikimedia.org/wiki/File:Dome_slab_from_Amaravati,_British_Museum_02.jpg",
+    "lic": "CC0",
+    "cr": "14GTR, via Wikimedia Commons",
+    "file": "File:Dome slab from Amaravati, British Museum 02.jpg"
+   },
+   "tried": [
+    [
+     "File:Dome slab from Amaravati, British Museum 02.jpg",
+     "CC0",
+     3538
+    ]
+   ]
+  },
+  "bm-cyrus": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Cyrus_Cylinder_2.jpg/960px-Cyrus_Cylinder_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 600,
+    "page": "https://commons.wikimedia.org/wiki/File:Cyrus_Cylinder_2.jpg",
+    "lic": "CC BY-SA 4.0",
+    "cr": "Photograph by Mike Peel (www.mikepeel.net)., via Wikimedia Commons",
+    "file": "File:Cyrus Cylinder 2.jpg"
+   },
+   "tried": [
+    [
+     "File:Cyrus Cylinder 2.jpg",
+     "CC BY-SA 4.0",
+     3888
+    ]
+   ]
+  },
+  "bm-oxus": {
+   "pic": null,
+   "tried": []
+  },
+  "bm-flood": {
+   "pic": null,
+   "tried": []
+  },
+  "bm-standard": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Standard_of_Ur_front_view.jpg/960px-Standard_of_Ur_front_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 405,
+    "page": "https://commons.wikimedia.org/wiki/File:Standard_of_Ur_front_view.jpg",
+    "lic": "CC BY-SA 3.0",
+    "cr": "BabelStone, via Wikimedia Commons",
+    "file": "File:Standard of Ur front view.jpg"
+   },
+   "tried": [
+    [
+     "File:Standard of Ur - War - equid.jpg",
+     "CC BY-SA 3.0",
+     338
+    ],
+    [
+     "File:British Museum Middle East 14022019 Gold and carnelian beads 2600-2300 BC Royal cemetery of Ur 3725.jpg",
+     "CC0",
+     2551
+    ],
+    [
+     "File:British Museum Room 56 Display Case 5 Artifacts from First Dynasty of Ur.jpg",
+     "CC0",
+     3456
+    ],
+    [
+     "File:Wall plaque showing libation scene from Ur, Iraq, 2500 BCE. British Museum (adjusted for perspective).jpg",
+     "CC BY 4.0",
+     3186
+    ],
+    [
+     "File:British Museum Middle East 14022019 Gold and carnelian beads 2600-2300 BC Royal cemetery of Ur (composite).jpg",
+     "CC0",
+     4568
+    ],
+    [
+     "File:British Museum Middle East 14022019 Gold and carnelian beads 2600-2300 BC Royal cemetery of Ur (necklace).jpg",
+     "CC0",
+     2534
+    ],
+    [
+     "File:Gold hair pin, PG1195, Ur, Early Dynastic III Period, British Museum.jpg",
+     "CC BY-SA 4.0",
+     736
+    ],
+    [
+     "File:British Museum Middle East 14022019 Shell pouring vessel Ur 3721.jpg",
+     "CC0",
+     4151
+    ]
+   ]
+  },
+  "bm-ram": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Ram_in_a_thicket_-_British_-_backside.jpg/960px-Ram_in_a_thicket_-_British_-_backside.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1991,
+    "page": "https://commons.wikimedia.org/wiki/File:Ram_in_a_thicket_-_British_-_backside.jpg",
+    "lic": "CC BY-SA 4.0",
+    "cr": "Unknown artistUnknown artist, via Wikimedia Commons",
+    "file": "File:Ram in a thicket - British - backside.jpg"
+   },
+   "tried": [
+    [
+     "File:Ram in a thicket - British - backside.jpg",
+     "CC BY-SA 4.0",
+     1541
+    ]
+   ]
+  },
+  "bm-lyre": {
+   "pic": {
+    "u": "https://upload.wikimedia.org/wikipedia/commons/f/fd/The_Queen%27s_Lyre%2C_side_view%3B_British_Museum%2C_London.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 900,
+    "h": 1288,
+    "page": "https://commons.wikimedia.org/wiki/File:The_Queen%27s_Lyre,_side_view;_British_Museum,_London.jpg",
+    "lic": "CC BY-SA 4.0",
+    "cr": "artisans of Ur, via Wikimedia Commons",
+    "file": "File:The Queen's Lyre, side view; British Museum, London.jpg"
+   },
+   "tried": [
+    [
+     "File:The Queen's Lyre, side view; British Museum, London.jpg",
+     "CC BY-SA 4.0",
+     699
+    ]
+   ]
+  },
+  "bm-nebamun": {
+   "pic": {
+    "u": "https://upload.wikimedia.org/wikipedia/commons/3/37/Nebamun-Detail.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "w": 900,
+    "h": 916,
+    "page": "https://commons.wikimedia.org/wiki/File:Nebamun-Detail.JPG",
+    "lic": "Public domain",
+    "cr": "Old Egyptian Painter, via Wikimedia Commons",
+    "file": "File:Nebamun-Detail.JPG"
+   },
+   "tried": [
+    [
+     "File:Nebamun-Detail.JPG",
+     "Public domain",
+     768
+    ]
+   ]
+  },
+  "bm-eidmar": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/R%C3%B6m._Republik-_M._Iunius_Brutus_und_L._Plaetorius_Cestianus_-_M%C3%BCnzkabinett%2C_Berlin_-_5475441.jpg/960px-R%C3%B6m._Republik-_M._Iunius_Brutus_und_L._Plaetorius_Cestianus_-_M%C3%BCnzkabinett%2C_Berlin_-_5475441.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 422,
+    "page": "https://commons.wikimedia.org/wiki/File:R%C3%B6m._Republik-_M._Iunius_Brutus_und_L._Plaetorius_Cestianus_-_M%C3%BCnzkabinett,_Berlin_-_5475441.jpg",
+    "lic": "Public domain",
+    "cr": "Reinhard Saczewski, via Wikimedia Commons",
+    "file": "File:Röm. Republik- M. Iunius Brutus und L. Plaetorius Cestianus - Münzkabinett, Berlin - 5475441.jpg"
+   },
+   "tried": [
+    [
+     "File:Brutus Eid Mar.jpg",
+     "Public domain",
+     500
+    ],
+    [
+     "File:Ides of March coin (2).jpg",
+     "CC BY-SA 4.0",
+     2500
+    ],
+    [
+     "File:Ides of march coin.jpg",
+     "CC BY-SA 4.0",
+     2500
+    ],
+    [
+     "File:Eid mar aureus BM.JPG",
+     "CC BY-SA 4.0",
+     1723
+    ],
+    [
+     "File:Eid Mar.jpg",
+     "Public domain",
+     256
+    ],
+    [
+     "File:Röm. Republik- M. Iunius Brutus und L. Plaetorius Cestianus - Münzkabinett, Berlin - 5475441.jpg",
+     "Public domain",
+     992
+    ]
+   ],
+   "rejected": "a coin in Berlin, not the museum's"
+  },
+  "bm-augustus": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/British_Museum_-_Room_3-_The_Mero%C3%AB_Head_of_Augustus_%2816344569880%29.jpg/960px-British_Museum_-_Room_3-_The_Mero%C3%AB_Head_of_Augustus_%2816344569880%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 600,
+    "page": "https://commons.wikimedia.org/wiki/File:British_Museum_-_Room_3-_The_Mero%C3%AB_Head_of_Augustus_(16344569880).jpg",
+    "lic": "CC BY 2.0",
+    "cr": "Paul Hudson from United Kingdom, via Wikimedia Commons",
+    "file": "File:British Museum - Room 3- The Meroë Head of Augustus (16344569880).jpg"
+   },
+   "tried": [
+    [
+     "File:British Museum - Room 3- The Meroë Head of Augustus (16344569880).jpg",
+     "CC BY 2.0",
+     1920
+    ]
+   ]
+  },
+  "bm-lycurgus": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Front_of_4th_century_CE_Roman_Lycurgus_Cup%2C_British_Museum_%281958%2C1202.1%29.jpg/960px-Front_of_4th_century_CE_Roman_Lycurgus_Cup%2C_British_Museum_%281958%2C1202.1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1207,
+    "page": "https://commons.wikimedia.org/wiki/File:Front_of_4th_century_CE_Roman_Lycurgus_Cup,_British_Museum_(1958,1202.1).jpg",
+    "lic": "CC BY 4.0",
+    "cr": "Chappsnet, via Wikimedia Commons",
+    "file": "File:Front of 4th century CE Roman Lycurgus Cup, British Museum (1958,1202.1).jpg"
+   },
+   "tried": [
+    [
+     "File:Front of 4th century CE Roman Lycurgus Cup, British Museum (1958,1202.1).jpg",
+     "CC BY 4.0",
+     2720
+    ]
+   ]
+  },
+  "bm-goldcup": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/British_Museum_Royal_Gold_Cup.jpg/960px-British_Museum_Royal_Gold_Cup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1260,
+    "page": "https://commons.wikimedia.org/wiki/File:British_Museum_Royal_Gold_Cup.jpg",
+    "lic": "CC0",
+    "cr": "Unknown, via Wikimedia Commons",
+    "file": "File:British Museum Royal Gold Cup.jpg"
+   },
+   "tried": [
+    [
+     "File:British Museum Royal Gold Cup.jpg",
+     "CC0",
+     1632
+    ]
+   ]
+  },
+  "bm-galleon": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Machine_in_the_Form_of_a_Medieval_Galleon%2C_Intended_to_Announce_Banquets_at_Court_%28~1585%29_-_British_Museum.jpg/960px-Machine_in_the_Form_of_a_Medieval_Galleon%2C_Intended_to_Announce_Banquets_at_Court_%28~1585%29_-_British_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1505,
+    "page": "https://commons.wikimedia.org/wiki/File:Machine_in_the_Form_of_a_Medieval_Galleon,_Intended_to_Announce_Banquets_at_Court_(~1585)_-_British_Museum.jpg",
+    "lic": "CC BY 2.0",
+    "cr": "Andres Rueda, via Wikimedia Commons",
+    "file": "File:Machine in the Form of a Medieval Galleon, Intended to Announce Banquets at Court (~1585) - British Museum.jpg"
+   },
+   "tried": [
+    [
+     "File:London - British Museum - 2433.jpg",
+     "CC BY-SA 3.0",
+     4368
+    ],
+    [
+     "File:Machine in the Form of a Medieval Galleon, Intended to Announce Banquets at Court (~1585) - British Museum.jpg",
+     "CC BY 2.0",
+     976
+    ]
+   ]
+  },
+  "bm-mildenhall": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Mildenhall_treasure%2C_great_dish%2C_British_Museum%2C_detail--_frame_drum.jpg/960px-Mildenhall_treasure%2C_great_dish%2C_British_Museum%2C_detail--_frame_drum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 821,
+    "page": "https://commons.wikimedia.org/wiki/File:Mildenhall_treasure,_great_dish,_British_Museum,_detail--_frame_drum.jpg",
+    "lic": "CC BY-SA 3.0",
+    "cr": "Original art,  4th century A.D. artist,  Rome \n\nPhotography by JMiall, via Wikimedia Commons",
+    "file": "File:Mildenhall treasure, great dish, British Museum, detail-- frame drum.jpg"
+   },
+   "tried": [
+    [
+     "File:Mildenhall treasure, great dish, British Museum, detail-- frame drum.jpg",
+     "CC BY-SA 3.0",
+     1384
+    ]
+   ]
+  },
+  "bm-hoxne": {
+   "pic": null,
+   "tried": []
+  },
+  "bm-hinton": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Roundel_mosaic_christ_hinton_st_mary_british_museum_edit.JPG/960px-Roundel_mosaic_christ_hinton_st_mary_british_museum_edit.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 729,
+    "page": "https://commons.wikimedia.org/wiki/File:Roundel_mosaic_christ_hinton_st_mary_british_museum_edit.JPG",
+    "lic": "CC BY-SA 3.0",
+    "cr": "JMiall, via Wikimedia Commons",
+    "file": "File:Roundel mosaic christ hinton st mary british museum edit.JPG"
+   },
+   "tried": [
+    [
+     "File:Roundel mosaic christ hinton st mary british museum edit.JPG",
+     "CC BY-SA 3.0",
+     1644
+    ]
+   ]
+  },
+  "bm-torc": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Iron_Age_Torc_%28FindID_751306%29.jpg/960px-Iron_Age_Torc_%28FindID_751306%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 770,
+    "page": "https://commons.wikimedia.org/wiki/File:Iron_Age_Torc_(FindID_751306).jpg",
+    "lic": "CC BY 2.0",
+    "cr": "The British Museum, Alastair Willis, 2015-11-12 16:03:13, via Wikimedia Commons",
+    "file": "File:Iron Age Torc (FindID 751306).jpg"
+   },
+   "tried": [
+    [
+     "File:Snettisham HoardDSCF6581.jpg",
+     "CC BY-SA 3.0",
+     3894
+    ],
+    [
+     "File:Snettisham HoardDSCF6580.jpg",
+     "CC BY-SA 3.0",
+     3807
+    ],
+    [
+     "File:British Museum (48931748337).jpg",
+     "CC BY 2.0",
+     2048
+    ],
+    [
+     "File:Sunday Walk - British Museum (27147730088).jpg",
+     "CC BY 2.0",
+     1920
+    ],
+    [
+     "File:Iron Age Torc (FindID 751306).jpg",
+     "CC BY 2.0",
+     3508
+    ]
+   ],
+   "rejected": "a different torc"
+  },
+  "bm-battersea": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/British_Museum_Battersea_Shield.jpg/960px-British_Museum_Battersea_Shield.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1966,
+    "page": "https://commons.wikimedia.org/wiki/File:British_Museum_Battersea_Shield.jpg",
+    "lic": "CC0",
+    "cr": "Unknown, via Wikimedia Commons",
+    "file": "File:British Museum Battersea Shield.jpg"
+   },
+   "tried": [
+    [
+     "File:British Museum Battersea Shield.jpg",
+     "CC0",
+     1217
+    ]
+   ]
+  },
+  "bm-mold": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Gold_Mold_Cape_-_British_Museum_-_Joy_of_Museums.jpg/960px-Gold_Mold_Cape_-_British_Museum_-_Joy_of_Museums.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 664,
+    "page": "https://commons.wikimedia.org/wiki/File:Gold_Mold_Cape_-_British_Museum_-_Joy_of_Museums.jpg",
+    "lic": "CC BY-SA 4.0",
+    "cr": "Joyofmuseums, via Wikimedia Commons",
+    "file": "File:Gold Mold Cape - British Museum - Joy of Museums.jpg"
+   },
+   "tried": [
+    [
+     "File:Gold Mold Cape - British Museum - Joy of Museums.jpg",
+     "CC BY-SA 4.0",
+     3451
+    ]
+   ]
+  },
+  "bm-david": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/The_David_Vases.jpg/960px-The_David_Vases.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1013,
+    "page": "https://commons.wikimedia.org/wiki/File:The_David_Vases.jpg",
+    "lic": "Public domain",
+    "cr": "Unknown authorUnknown author, via Wikimedia Commons",
+    "file": "File:The David Vases.jpg"
+   },
+   "tried": [
+    [
+     "File:The David Vases.jpg",
+     "Public domain",
+     2080
+    ]
+   ]
+  },
+  "lv-rolin": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/La_Vierge_du_chancelier_Rolin_-_Jan_van_Eyck_-_Mus%C3%A9e_du_Louvre_Peintures_INV_1271_%3B_MR_705.jpg/960px-La_Vierge_du_chancelier_Rolin_-_Jan_van_Eyck_-_Mus%C3%A9e_du_Louvre_Peintures_INV_1271_%3B_MR_705.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 908,
+    "page": "https://commons.wikimedia.org/wiki/File:La_Vierge_du_chancelier_Rolin_-_Jan_van_Eyck_-_Mus%C3%A9e_du_Louvre_Peintures_INV_1271_;_MR_705.jpg",
+    "lic": "Public domain",
+    "cr": "Jan van Eyck, via Wikimedia Commons",
+    "file": "File:La Vierge du chancelier Rolin - Jan van Eyck - Musée du Louvre Peintures INV 1271 ; MR 705.jpg"
+   },
+   "tried": [
+    [
+     "File:La Vierge du chancelier Rolin - Jan van Eyck - Musée du Louvre Peintures INV 1271 ; MR 705.jpg",
+     "Public domain",
+     8122
+    ]
+   ]
+  },
+  "lv-cheat": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Georges_de_La_Tour_-_Cheater_with_the_Ace_of_Diamonds_-_WGA12334.jpg/960px-Georges_de_La_Tour_-_Cheater_with_the_Ace_of_Diamonds_-_WGA12334.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 641,
+    "page": "https://commons.wikimedia.org/wiki/File:Georges_de_La_Tour_-_Cheater_with_the_Ace_of_Diamonds_-_WGA12334.jpg",
+    "lic": "Public domain",
+    "cr": "Unknown, via Wikimedia Commons",
+    "file": "File:Georges de La Tour - Cheater with the Ace of Diamonds - WGA12334.jpg"
+   },
+   "tried": [
+    [
+     "File:Georges de La Tour - Cheater with the Ace of Diamonds - WGA12334.jpg",
+     "Public domain",
+     1403
+    ]
+   ]
+  },
+  "bm-tang": {
+   "pic": {
+    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Chinese_Tang_tomb_figures%2C_British_Museum_2.jpg/960px-Chinese_Tang_tomb_figures%2C_British_Museum_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "w": 900,
+    "h": 1350,
+    "page": "https://commons.wikimedia.org/wiki/File:Chinese_Tang_tomb_figures,_British_Museum_2.jpg",
+    "lic": "CC BY-SA 4.0",
+    "cr": "Photograph by Mike Peel (www.mikepeel.net)., via Wikimedia Commons",
+    "file": "File:Chinese Tang tomb figures, British Museum 2.jpg"
+   },
+   "tried": [
+    [
+     "File:Tomb figures of Liu Tingxun-British Museum.jpg",
+     "CC BY-SA 4.0",
+     1280
+    ],
+    [
+     "File:Chinese Tang tomb figures, British Museum 2.jpg",
+     "CC BY-SA 4.0",
+     2592
+    ]
+   ]
   }
  },
  "louvre": {
