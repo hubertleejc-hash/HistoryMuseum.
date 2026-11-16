@@ -67,6 +67,7 @@
   "mins": 60,
   "room": "Usually room",
   "floors": {
+   "-1": "Lower floor",
    "0": "Ground floor",
    "1": "Upper floor"
   },
@@ -271,6 +272,589 @@
      "lic": "CC BY 4.0",
      "cr": "APK, via Wikimedia Commons"
     }
+   }
+  ],
+  "tour": [
+   {
+    "floor": 0,
+    "gal": "1",
+    "t": "The Enlightenment Gallery",
+    "by": "",
+    "date": "Built 1820s",
+    "story": "This long room was built in the 1820s to hold the library of George III, which his son gave to the nation. Today it shows how 18th-century collectors tried to sort the whole world into cases.",
+    "look": "the cases of shells, coins and fossils, sorted the old way",
+    "people": [
+     "george-iii"
+    ],
+    "u": "https://en.wikipedia.org/wiki/British_Museum",
+    "tier": 60
+   },
+   {
+    "floor": 0,
+    "gal": "4",
+    "t": "The Rosetta Stone",
+    "by": "Egyptian",
+    "date": "196 BC",
+    "story": "The same decree written three ways: in hieroglyphs, in everyday Egyptian script and in Greek. Napoleon's soldiers found it in 1799; the British took it in 1801. Champollion used it to read hieroglyphs in 1822.",
+    "look": "the three kinds of writing, top to bottom",
+    "people": [
+     "napoleon"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Rosetta_Stone",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Rosetta_Stone.JPG/960px-Rosetta_Stone.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1053,
+     "page": "https://commons.wikimedia.org/wiki/File:Rosetta_Stone.JPG",
+     "lic": "CC BY-SA 4.0",
+     "cr": "Hans Hillewaert, via Wikimedia Commons"
+    },
+    "tier": 60
+   },
+   {
+    "floor": 0,
+    "gal": "4",
+    "t": "Colossal bust of Ramesses II",
+    "by": "Egyptian",
+    "date": "c. 1250 BC",
+    "story": "The 'Younger Memnon' came from Ramesses II's temple at Thebes. The hole in his right chest is said to have been drilled by Napoleon's men trying to move him. The poet Shelley wrote Ozymandias as it was on its way to London.",
+    "look": "the hole on his right side",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Younger_Memnon",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/BM%2C_AES_Egyptian_Sulpture_~_Colossal_bust_of_Ramesses_II%2C_the_%27Younger_Memnon%27_%281250_BC%29_%28Room_4%29.jpg/960px-BM%2C_AES_Egyptian_Sulpture_~_Colossal_bust_of_Ramesses_II%2C_the_%27Younger_Memnon%27_%281250_BC%29_%28Room_4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1200,
+     "page": "https://commons.wikimedia.org/wiki/File:BM,_AES_Egyptian_Sulpture_~_Colossal_bust_of_Ramesses_II,_the_%27Younger_Memnon%27_(1250_BC)_(Room_4).jpg",
+     "lic": "CC BY-SA 3.0",
+     "cr": "Unknown, via Wikimedia Commons"
+    },
+    "tier": 60
+   },
+   {
+    "floor": 0,
+    "gal": "4",
+    "t": "Colossal head of Amenhotep III",
+    "by": "Egyptian",
+    "date": "c. 1370 BC",
+    "story": "Amenhotep III ruled Egypt at the height of its wealth, around 1390 to 1352 BC. He was the father of Akhenaten and probably the grandfather of Tutankhamun. This granite head came from his vast funeral temple at Thebes.",
+    "look": "the calm half-smile of his reign",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Amenhotep_III",
+    "tier": 180
+   },
+   {
+    "floor": 0,
+    "gal": "4",
+    "t": "The Gayer-Anderson Cat",
+    "by": "Egyptian",
+    "date": "c. 600 BC",
+    "story": "A bronze cat for the goddess Bastet, with gold rings in its ears and nose. Cats were sacred to her, and many were mummified as offerings. A British army officer, Major Gayer-Anderson, gave it to the museum.",
+    "look": "the gold rings, and the scarab beetle on its head",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Gayer-Anderson_Cat",
+    "tier": 270
+   },
+   {
+    "floor": 0,
+    "gal": "6",
+    "t": "Black Obelisk of Shalmaneser III",
+    "by": "Assyrian",
+    "date": "c. 825 BC",
+    "story": "A black stone pillar listing the victories of the Assyrian king Shalmaneser III. On the second row a man bows to the ground; the text calls him Jehu, king of Israel, or his envoy. It is the earliest surviving picture of an Israelite.",
+    "look": "the kneeling man in the second row from the top",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Black_Obelisk_of_Shalmaneser_III",
+    "tier": 120
+   },
+   {
+    "floor": 0,
+    "gal": "10",
+    "t": "Lion hunt of Ashurbanipal",
+    "by": "Assyrian",
+    "date": "c. 645 to 635 BC",
+    "story": "Carved panels from the palace at Nineveh show King Ashurbanipal killing lions released from cages in an arena. The dying lions are some of the most moving animals in ancient art.",
+    "look": "the wounded lioness dragging her back legs",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Lion_Hunt_of_Ashurbanipal",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Ashurbanipal%27s_lion-hunt_scene%2C_wall_relief%2C_7th_century_BC%2C_from_Nineveh%2C_the_British_Museum.jpg/960px-Ashurbanipal%27s_lion-hunt_scene%2C_wall_relief%2C_7th_century_BC%2C_from_Nineveh%2C_the_British_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 601,
+     "page": "https://commons.wikimedia.org/wiki/File:Ashurbanipal%27s_lion-hunt_scene,_wall_relief,_7th_century_BC,_from_Nineveh,_the_British_Museum.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "Osama Shukir Muhammed Amin FRCP(Glasg), via Wikimedia Commons"
+    },
+    "tier": 60
+   },
+   {
+    "floor": 0,
+    "gal": "17",
+    "t": "Nereid Monument",
+    "by": "Lycian, from Xanthos",
+    "date": "c. 390 to 380 BC",
+    "story": "A tomb shaped like a Greek temple, built for a ruler of Xanthos in Lycia, in today's Turkey. Between the columns stand sea nymphs, nereids, who seem to run over the waves. A British expedition shipped it to London in the 1840s.",
+    "look": "the nymphs' dresses blown against them by the sea wind",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Nereid_Monument",
+    "tier": 120
+   },
+   {
+    "floor": 0,
+    "gal": "18",
+    "t": "Parthenon sculptures",
+    "by": "Greek",
+    "date": "447 to 432 BC",
+    "story": "About half of the surviving sculpture of the Parthenon, removed by Lord Elgin's agents from 1801 and bought by Parliament in 1816. Greece asks for them back, and the Acropolis Museum keeps space for them.",
+    "look": "the horse of the moon goddess, tired at the end of the night",
+    "people": [
+     "socrates"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Elgin_Marbles",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/London_-_Great_Russell_Street_-_British_Museum_-_Greece-_Parthenon_-_Elgin_Marbles_-_Parts_of_the_Frieze.jpg/960px-London_-_Great_Russell_Street_-_British_Museum_-_Greece-_Parthenon_-_Elgin_Marbles_-_Parts_of_the_Frieze.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 600,
+     "page": "https://commons.wikimedia.org/wiki/File:London_-_Great_Russell_Street_-_British_Museum_-_Greece-_Parthenon_-_Elgin_Marbles_-_Parts_of_the_Frieze.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "Txllxt TxllxT, via Wikimedia Commons"
+    },
+    "tier": 60
+   },
+   {
+    "floor": 0,
+    "gal": "21",
+    "t": "The Mausoleum of Halikarnassos",
+    "by": "Greek and Carian",
+    "date": "c. 350 BC",
+    "story": "The tomb of Mausolus, a ruler in today's Turkey, was one of the Seven Wonders of the Ancient World. It gave us the word mausoleum. Earthquakes brought it down; here are a giant horse from its roof and statues that may be Mausolus and his wife Artemisia.",
+    "look": "the size of the horse's head, from a chariot group on the top",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Mausoleum_at_Halicarnassus",
+    "tier": 120
+   },
+   {
+    "floor": 0,
+    "gal": "24",
+    "t": "Hoa Hakananai'a",
+    "by": "Rapa Nui (Easter Island)",
+    "date": "c. 1000 to 1200",
+    "story": "A moai, one of the great stone ancestor figures of Rapa Nui, taken by a British ship's crew in 1868. Islanders have asked for him to come home. Look at his back: later carvings show the island's birdman ceremony.",
+    "look": "the carvings on his back",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Hoa_Hakananai'a",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Hoa_Hakananai%27a_1.jpg/960px-Hoa_Hakananai%27a_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1350,
+     "page": "https://commons.wikimedia.org/wiki/File:Hoa_Hakananai%27a_1.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "Photograph by Mike Peel (www.mikepeel.net)., via Wikimedia Commons"
+    },
+    "tier": 60
+   },
+   {
+    "floor": 0,
+    "gal": "27",
+    "t": "Double-headed serpent",
+    "by": "Mexica (Aztec)",
+    "date": "c. 1400 to 1521",
+    "story": "A serpent of turquoise mosaic on carved cedar wood, with shell teeth and red gums, probably worn on the chest in ceremonies. Turquoise was more precious than gold to the Mexica. Nobody knows how it reached Europe.",
+    "look": "the thousands of tiny turquoise pieces",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Double-headed_serpent",
+    "tier": 120
+   },
+   {
+    "floor": 0,
+    "gal": "27",
+    "t": "Yaxchilan Lintel 24",
+    "by": "Maya",
+    "date": "c. AD 725",
+    "story": "A carved stone from over a temple door in the Maya city of Yaxchilan, in Mexico. Queen K'abal Xook draws a thorned rope through her tongue in a blood offering, while her husband, King Shield Jaguar, holds a torch above her. The explorer Alfred Maudslay had it removed in the 1880s.",
+    "look": "the rope of thorns, and the basket of blood-spotted paper",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Yaxchilan_Lintel_24",
+    "tier": 180
+   },
+   {
+    "floor": 0,
+    "gal": "33",
+    "t": "Tomb figures of Liu Tingxun",
+    "by": "Chinese, Tang dynasty",
+    "date": "c. 728",
+    "story": "A set of glazed pottery figures from the tomb of a Tang general, Liu Tingxun: guardians, officials, camels and horses, made to serve him after death. Tang China was the richest empire in the world, and the Silk Road camels show it.",
+    "look": "the green, amber and cream glazes running down the horses",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Sancai",
+    "tier": 180
+   },
+   {
+    "floor": 0,
+    "gal": "33a",
+    "t": "Amaravati sculptures",
+    "by": "Andhra, South India",
+    "date": "c. 200 BC to AD 250",
+    "story": "Limestone slabs from a great Buddhist stupa at Amaravati in South India. The early carvings show the Buddha only by signs, a throne, footprints, a wheel; later ones show him in human form. A British official took them to Madras in the 1800s.",
+    "look": "an empty throne where the Buddha is, but not shown",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Amaravati_Stupa",
+    "tier": 270
+   },
+   {
+    "floor": -1,
+    "gal": "25",
+    "t": "Benin plaques",
+    "by": "Edo, Kingdom of Benin",
+    "date": "16th to 17th century",
+    "story": "Brass plaques that once covered the pillars of the royal palace in Benin City, in today's Nigeria, showing the Oba, his court and Portuguese traders. British forces took them when they sacked the city in 1897. Nigeria has asked for them back; the museum says the British Museum Act of 1963 stops it giving them away, while museums in Germany and the United States have returned some.",
+    "look": "the Portuguese traders with their long hair and hats",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Benin_Bronzes",
+    "tier": 120
+   },
+   {
+    "floor": -1,
+    "gal": "25",
+    "t": "Ife head",
+    "by": "Yoruba, Ife",
+    "date": "c. 1300s to 1400s",
+    "story": "A life-size head cast in brass at Ife, the sacred city of the Yoruba in today's Nigeria. When European scholars first saw heads like this in 1910 they could not believe they were African. They are among the finest metal sculptures ever made anywhere.",
+    "look": "the fine lines down the face",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Ife_Head",
+    "tier": 270
+   },
+   {
+    "floor": 1,
+    "gal": "52",
+    "t": "The Cyrus Cylinder",
+    "by": "Babylonian, for Cyrus the Great",
+    "date": "after 539 BC",
+    "story": "A clay barrel written in cuneiform after Cyrus the Great of Persia took Babylon in 539 BC. Cyrus says he returned the statues of gods to their temples and let deported peoples go home. It is often called the first charter of human rights; historians say it is a king's usual praise of himself, but an unusually generous one.",
+    "look": "how small it is, about 23 centimetres long",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Cyrus_Cylinder",
+    "tier": 120
+   },
+   {
+    "floor": 1,
+    "gal": "52",
+    "t": "The Oxus Treasure",
+    "by": "Achaemenid Persian",
+    "date": "5th to 4th century BC",
+    "story": "About 180 gold and silver pieces from the Persian Empire, found near the Oxus river, now on the border of Tajikistan and Afghanistan, around 1877. Traders who bought it were robbed on the road, and a British officer got part of it back.",
+    "look": "the little gold chariot pulled by four horses",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Oxus_Treasure",
+    "tier": 270
+   },
+   {
+    "floor": 1,
+    "gal": "55",
+    "t": "The Flood Tablet",
+    "by": "Assyrian",
+    "date": "7th century BC",
+    "story": "A clay tablet from the library of King Ashurbanipal at Nineveh, with part of the Epic of Gilgamesh. A man is told to build a boat, takes animals on board and sends out birds when the flood ends. When George Smith of the museum read it in 1872, he was so excited he started to undress, the story goes.",
+    "look": "the wedge-shaped writing, smaller than a fingernail",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Gilgamesh_flood_myth",
+    "tier": 270
+   },
+   {
+    "floor": 1,
+    "gal": "56",
+    "t": "The Royal Game of Ur",
+    "by": "Sumerian",
+    "date": "c. 2600 to 2400 BC",
+    "story": "One of the oldest board games known, found in a royal tomb at Ur in Iraq. Its rules were worked out from a cuneiform tablet written 2,000 years later, and people still play it.",
+    "look": "the rosettes, which are the lucky squares",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Royal_Game_of_Ur",
+    "tier": 60
+   },
+   {
+    "floor": 1,
+    "gal": "56",
+    "t": "The Standard of Ur",
+    "by": "Sumerian",
+    "date": "c. 2600 BC",
+    "story": "A wooden box covered in shell, red limestone and blue lapis lazuli, found by Leonard Woolley in the royal tombs at Ur in Iraq. One side shows war, with chariots running over enemies; the other shows peace, with a feast and a musician. Nobody knows what it was for.",
+    "look": "the lyre player at the feast, on the peace side",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Standard_of_Ur",
+    "tier": 120
+   },
+   {
+    "floor": 1,
+    "gal": "56",
+    "t": "Ram in a Thicket",
+    "by": "Sumerian",
+    "date": "c. 2600 BC",
+    "story": "A goat, not really a ram, rearing up against a flowering tree, from the royal tombs at Ur. Its face is gold, its fleece shell, its horns and shoulders lapis lazuli. Woolley named it after the ram in the Bible story of Abraham.",
+    "look": "the gold face and the tiny shell curls",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Ram_in_a_Thicket",
+    "tier": 180
+   },
+   {
+    "floor": 1,
+    "gal": "56",
+    "t": "The Queen's Lyre",
+    "by": "Sumerian",
+    "date": "c. 2600 BC",
+    "story": "A lyre with a gold bull's head and a beard of lapis lazuli, from the grave of Queen Puabi at Ur. It was found crushed and rebuilt. Music in Sumer was played 4,500 years ago on instruments like this.",
+    "look": "the blue beard of the bull",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Lyres_of_Ur",
+    "tier": 270
+   },
+   {
+    "floor": 1,
+    "gal": "61",
+    "t": "Paintings from the tomb-chapel of Nebamun",
+    "by": "Egyptian",
+    "date": "c. 1350 BC",
+    "story": "Wall paintings from the chapel of Nebamun, a scribe who counted grain at Thebes. He hunts birds in the marshes with his wife and daughter, and guests feast with music and dancers. They are among the liveliest paintings from ancient Egypt.",
+    "look": "the cat in the marsh, catching three birds at once",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Tomb_of_Nebamun",
+    "tier": 120
+   },
+   {
+    "floor": 1,
+    "gal": "62",
+    "t": "Egyptian mummies",
+    "by": "Egyptian",
+    "date": "c. 3500 BC to AD 300",
+    "story": "The Egyptian death rooms show mummies, coffins and the tools of embalming. Scans have let the museum see inside without unwrapping anyone.",
+    "look": "the painted faces on the coffin lids",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Mummy",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Mummy_of_an_adolescent_boy%2C_British_Museum.jpg/960px-Mummy_of_an_adolescent_boy%2C_British_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 625,
+     "page": "https://commons.wikimedia.org/wiki/File:Mummy_of_an_adolescent_boy,_British_Museum.jpg",
+     "lic": "CC BY 4.0",
+     "cr": "APK, via Wikimedia Commons"
+    },
+    "tier": 60
+   },
+   {
+    "floor": 1,
+    "gal": "64",
+    "t": "Gebelein Man",
+    "by": "Egyptian, Predynastic",
+    "date": "c. 3500 BC",
+    "story": "This is the body of a real man, buried in the hot sand at Gebelein, in Egypt, around 3500 BC, and preserved naturally, before mummies were made. Scans show he was a young man killed by a stab in the back, and that he had tattoos. Please look with respect; it is fine to skip.",
+    "look": "how he lies curled on his side, as he was buried",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Gebelein_predynastic_mummies",
+    "tier": 180
+   },
+   {
+    "floor": 1,
+    "gal": "68",
+    "t": "EID MAR coin",
+    "by": "Roman",
+    "date": "42 BC",
+    "story": "Brutus, one of the killers of Julius Caesar, had this silver coin struck two years after the murder. Two daggers stand beside a cap of freedom, and below is EID MAR: the Ides of March, 44 BC. Few coins have ever boasted of a murder.",
+    "look": "the two daggers",
+    "people": [
+     "julius-caesar"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Eid_Mar",
+    "tier": 180
+   },
+   {
+    "floor": 1,
+    "gal": "70",
+    "t": "The Portland Vase",
+    "by": "Roman",
+    "date": "c. AD 1 to 25",
+    "story": "A Roman cameo-glass vase from the time of Augustus, white figures cut from a layer over dark blue glass. In 1845 a visitor smashed it into almost 200 pieces; it has been put back together three times.",
+    "look": "the thin white glass of the figures",
+    "people": [
+     "augustus"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Portland_Vase",
+    "tier": 60
+   },
+   {
+    "floor": 1,
+    "gal": "70",
+    "t": "The Meroë Head of Augustus",
+    "by": "Roman",
+    "date": "c. 27 to 25 BC",
+    "story": "A bronze head of the emperor Augustus, cut from a statue in Roman Egypt by an army from the kingdom of Kush around 25 BC. They buried it under the steps of a victory temple at Meroë, in today's Sudan, so that people walked over the emperor every day.",
+    "look": "the eyes of glass and stone, still staring",
+    "people": [
+     "augustus"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Meroë_Head",
+    "tier": 270
+   },
+   {
+    "floor": 1,
+    "gal": "41",
+    "t": "Sutton Hoo helmet",
+    "by": "Anglo-Saxon",
+    "date": "early 600s",
+    "story": "In 1939 an amateur archaeologist, Basil Brown, dug out the imprint of a 27-metre ship buried in Suffolk, probably for the East Anglian king Rædwald. The helmet was found crushed into hundreds of pieces.",
+    "look": "the dragon flying across the face",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Sutton_Hoo_helmet",
+    "tier": 60
+   },
+   {
+    "floor": 1,
+    "gal": "41",
+    "t": "The Lycurgus Cup",
+    "by": "Roman",
+    "date": "4th century AD",
+    "story": "A Roman glass cup that is green in ordinary light and glows red when lit from behind. Scientists found why only in the 1990s: tiny particles of gold and silver in the glass. It shows King Lycurgus caught by vines.",
+    "look": "the colour: is it lit from the front or from behind?",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Lycurgus_Cup",
+    "tier": 270
+   },
+   {
+    "floor": 1,
+    "gal": "40",
+    "t": "Lewis Chessmen",
+    "by": "Norse",
+    "date": "c. 1150 to 1200",
+    "story": "Found on the Isle of Lewis in Scotland in 1831, carved mostly from walrus ivory, probably in Norway. The rook-warriors bite their shields in a battle rage.",
+    "look": "the warriors biting their shields",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Lewis_chessmen",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Lewis_Chessmen%2C_British_Museum.jpg/960px-Lewis_Chessmen%2C_British_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 723,
+     "page": "https://commons.wikimedia.org/wiki/File:Lewis_Chessmen,_British_Museum.jpg",
+     "lic": "CC BY 4.0",
+     "cr": "APK, via Wikimedia Commons"
+    },
+    "tier": 60
+   },
+   {
+    "floor": 1,
+    "gal": "40",
+    "t": "The Royal Gold Cup",
+    "by": "French",
+    "date": "c. 1370 to 1380",
+    "story": "A gold cup with enamel scenes from the life of Saint Agnes, probably made for the Duke of Berry, a brother of the French king. It passed through the hands of English and Spanish kings before the museum bought it in 1892.",
+    "look": "the deep blues and reds of the enamel",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Royal_Gold_Cup",
+    "tier": 270
+   },
+   {
+    "floor": 1,
+    "t": "The mechanical galleon",
+    "by": "Hans Schlottheim",
+    "date": "c. 1585",
+    "story": "A gilded clockwork ship made in Augsburg. It rolled along a banquet table while tiny figures paraded before the Holy Roman Emperor on deck, music played and a cannon fired. It was a clock, a toy and a boast, all at once.",
+    "look": "the emperor on deck, and the tiny sailors in the rigging",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Hans_Schlottheim",
+    "tier": 120
+   },
+   {
+    "floor": 1,
+    "gal": "49",
+    "t": "The Mildenhall Great Dish",
+    "by": "Roman Britain",
+    "date": "4th century AD",
+    "story": "A ploughman found a hoard of Roman silver at Mildenhall in Suffolk in the 1940s. The Great Dish shows a sea god with seaweed in his beard, and a wild party of the wine god Bacchus around him.",
+    "look": "the face of the sea god in the centre",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Mildenhall_Treasure",
+    "tier": 180
+   },
+   {
+    "floor": 1,
+    "gal": "49",
+    "t": "The Hoxne Hoard",
+    "by": "Roman Britain",
+    "date": "early 5th century AD",
+    "story": "In 1992 a man searching for a lost hammer in a field at Hoxne, Suffolk, found nearly 15,000 Roman coins with gold jewellery and silver spoons, buried as Rome left Britain. It is the largest hoard of late Roman gold and silver ever found. He found the hammer too.",
+    "look": "the silver pepper pot shaped like an empress",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Hoxne_Hoard",
+    "tier": 120
+   },
+   {
+    "floor": 1,
+    "gal": "50",
+    "t": "The Snettisham Great Torc",
+    "by": "Iron Age Britain",
+    "date": "c. 75 BC",
+    "story": "A neck ring of over a kilo of gold and silver, twisted from 64 wires. It was found by a ploughman at Snettisham in Norfolk in 1950. Torcs were worn by the powerful in Celtic Europe.",
+    "look": "the eight strands, each twisted from eight wires",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Snettisham_Hoard",
+    "tier": 180
+   },
+   {
+    "floor": 1,
+    "gal": "50",
+    "t": "The Battersea Shield",
+    "by": "Iron Age Britain",
+    "date": "c. 350 to 50 BC",
+    "story": "A bronze shield cover decorated with red glass, dredged from the Thames at Battersea in 1857. It is too thin for battle, so it was probably for show, and was perhaps thrown into the river as an offering.",
+    "look": "the swirls and the red glass studs",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Battersea_Shield",
+    "tier": 270
+   },
+   {
+    "floor": 1,
+    "gal": "51",
+    "t": "The Mold gold cape",
+    "by": "Bronze Age Britain",
+    "date": "c. 1900 to 1600 BC",
+    "story": "A cape beaten from a single lump of gold, found in a burial mound at Mold in Wales in 1833. It would have covered someone's shoulders and pinned their arms, so it was worn for ceremonies, perhaps by a woman.",
+    "look": "how it imitates folds of cloth and beads",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Mold_cape",
+    "tier": 270
+   },
+   {
+    "floor": 1,
+    "gal": "95",
+    "t": "The David Vases",
+    "by": "Chinese, Yuan dynasty",
+    "date": "1351",
+    "story": "Two blue-and-white porcelain vases with an inscription dated 1351, saying they were given to a Daoist temple. They are the best-known early dated blue-and-white, and helped scholars date the rest. Room 95 is up the north stairs.",
+    "look": "the long dedication written on the necks",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/David_Vases",
+    "tier": 180
+   }
+  ],
+  "routes": [
+   {
+    "mins": 60,
+    "n": "The British Museum in one hour",
+    "intro": "Eleven objects in walking order: the ground-floor galleries of Egypt, Assyria and Greece, then the upper floor. Entry is free."
+   },
+   {
+    "mins": 120,
+    "n": "The British Museum in two hours",
+    "intro": "21 objects. Ground floor: Egypt, Assyria, the Parthenon and two wonders of the ancient world, the Aztecs, then down to Africa. Upstairs: Persia, the royal tombs of Ur, Egypt, Rome and medieval Europe. Entry is free."
+   },
+   {
+    "mins": 180,
+    "n": "The British Museum in three hours",
+    "intro": "30 objects: the two-hour walk, plus Maya carvings, Tang China, the coin that boasts of killing Caesar, and Iron Age gold. Entry is free."
+   },
+   {
+    "mins": 270,
+    "n": "The British Museum in a half day",
+    "intro": "41 objects, about four and a half hours with a lunch break: everything above, plus the Flood Tablet, the Oxus Treasure, the Meroë head of Augustus and the Mold gold cape. Entry is free."
    }
   ]
  },

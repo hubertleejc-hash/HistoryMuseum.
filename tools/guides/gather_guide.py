@@ -46,6 +46,8 @@ def find(want):
         o = obj(want["id"])
         if ok(o, want):
             return o, []
+        if o is None:  # the API did not answer; searching would not either
+            return None, []
         print("  id did not match, searching", want["key"], o and o.get("title"))
     q = want.get("q") or want.get("title")
     seen = []
@@ -80,6 +82,11 @@ def main():
         rec = {k: o.get(k) for k in ("objectID", "title", "artistDisplayName", "artistDisplayBio", "objectDate", "medium", "dimensions",
                                       "GalleryNumber", "department", "isHighlight", "isPublicDomain", "creditLine", "accessionNumber",
                                       "objectURL", "primaryImage", "primaryImageSmall", "culture", "period")}
+        if want.get("size") and o.get("isPublicDomain") and o.get("primaryImageSmall"):
+            # only the picture's size, so the app can keep its space while it loads from The Met; nothing is saved
+            b = get(o["primaryImageSmall"], raw=True)
+            if b:
+                rec["w"], rec["h"] = Image.open(io.BytesIO(b)).size
         if want.get("download") and o.get("isPublicDomain") and (o.get("primaryImage") or o.get("primaryImageSmall")):
             b = get(o.get("primaryImage") or o["primaryImageSmall"], raw=True) or get(o.get("primaryImageSmall") or "", raw=True)
             if b:

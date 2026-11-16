@@ -114,8 +114,8 @@ def place(f, ppl, pics):
             tour = g["tour"]
             assert 5 <= len(tour) <= 70, f"{where}: a tour needs 5 to 70 stops"
             assert all(s.get("tier", 60) in (60, 120, 180, 270) for s in tour), f"{where}: tour tiers are 60, 120, 180 or 270 minutes"
-            tf = [s["floor"] for s in tour]
-            assert tf == sorted(tf), f"{where}: tour stops must be in walking order, floor by floor"
+            tf = [s["floor"] for i, s in enumerate(tour) if i == 0 or s["floor"] != tour[i - 1]["floor"]]
+            assert len(tf) == len(set(tf)), f"{where}: tour stops must be in walking order, one floor at a time (each floor once)"
             assert [s["t"] for s in tour if s.get("tier", 60) == 60] == [s["t"] for s in g["stops"]], f"{where}: the tour's one-hour stops must be the guide's stops, in the same order"
             for r in g.get("routes", []):
                 assert r.get("mins") in (60, 120, 180, 270) and r.get("n") and r.get("intro"), f"{where}: a route needs mins, n and intro"
