@@ -1,0 +1,54 @@
+{
+ "id": "ulaanbaatar",
+ "n": "Ulaanbaatar",
+ "kind": "city",
+ "where": "Mongolia",
+ "lat": 47.8864,
+ "lon": 106.9057,
+ "r": 10000,
+ "blurb": "Mongolia's capital, on the steppe of Genghis Khan.",
+ "facts": [
+  {
+   "h": "The great statue",
+   "when": "2008",
+   "lab": "myth",
+   "people": [
+    "genghis-khan"
+   ],
+   "t": "About 54 km east of the city, a 40-metre steel statue of Genghis Khan on horseback, finished in 2008, stands where legend says he found a golden whip.",
+   "src": [
+    {
+     "n": "Wikipedia: Equestrian statue of Genghis Khan",
+     "u": "https://en.wikipedia.org/wiki/Equestrian_statue_of_Genghis_Khan"
+    },
+    {
+     "n": "Wikipedia: Genghis Khan",
+     "u": "https://en.wikipedia.org/wiki/Genghis_Khan"
+    }
+   ]
+  },
+  {
+   "h": "Kharkhorum",
+   "when": "1235",
+   "lab": "verified",
+   "people": [
+    "genghis-khan"
+   ],
+   "go": [
+    "#e-mongol-empire",
+    "The Mongol Empire"
+   ],
+   "t": "The Mongol capital Karakorum, built by Genghis Khan's son Ögedei from 1235, lies about 360 km west, by the monastery of Erdene Zuu.",
+   "src": [
+    {
+     "n": "Wikipedia: Karakorum",
+     "u": "https://en.wikipedia.org/wiki/Karakorum"
+    },
+    {
+     "n": "Wikipedia: Erdene Zuu Monastery",
+     "u": "https://en.wikipedia.org/wiki/Erdene_Zuu_Monastery"
+    }
+   ]
+  }
+ ]
+}

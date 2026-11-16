@@ -1,0 +1,49 @@
+{
+ "id": "hiroshima-peace-museum",
+ "n": "Hiroshima Peace Memorial Museum",
+ "kind": "museum",
+ "where": "Hiroshima",
+ "lat": 34.3915,
+ "lon": 132.4525,
+ "r": 300,
+ "rank": 59,
+ "blurb": "A museum of the first atomic bombing, by the ruined dome that still stands.",
+ "facts": [
+  {
+   "h": "6 August 1945, 8:15 in the morning",
+   "when": "1945",
+   "lab": "verified",
+   "go": [
+    "#e-ww2",
+    "The Second World War"
+   ],
+   "t": "An American bomber dropped an atomic bomb on Hiroshima. Around 140,000 people had died by the end of that year. The museum keeps the belongings of the dead, and asks that it never happen again.",
+   "src": [
+    {
+     "n": "Wikipedia: Atomic bombings of Hiroshima and Nagasaki",
+     "u": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki"
+    },
+    {
+     "n": "Hiroshima Peace Memorial Museum",
+     "u": "https://hpmmuseum.jp/?lang=eng"
+    }
+   ]
+  },
+  {
+   "h": "The dome",
+   "when": "1945",
+   "lab": "verified",
+   "t": "The Industrial Promotion Hall stood almost directly below the explosion, and its dome frame survived. It has been kept exactly as it was, and is a World Heritage Site.",
+   "src": [
+    {
+     "n": "Wikipedia: Hiroshima Peace Memorial",
+     "u": "https://en.wikipedia.org/wiki/Hiroshima_Peace_Memorial"
+    },
+    {
+     "n": "UNESCO: Hiroshima Peace Memorial",
+     "u": "https://whc.unesco.org/en/list/775/"
+    }
+   ]
+  }
+ ]
+}

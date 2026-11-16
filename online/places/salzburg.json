@@ -1,0 +1,54 @@
+{
+ "id": "salzburg",
+ "n": "Salzburg",
+ "kind": "city",
+ "where": "Austria",
+ "lat": 47.8095,
+ "lon": 13.055,
+ "r": 5000,
+ "blurb": "A prince-archbishop's city on the Salzach, where Mozart was born.",
+ "facts": [
+  {
+   "h": "Born at Getreidegasse 9",
+   "when": "1756",
+   "lab": "verified",
+   "people": [
+    "mozart"
+   ],
+   "t": "Wolfgang Amadeus Mozart was born on the third floor of this house on 27 January 1756. His childhood violin is there today.",
+   "src": [
+    {
+     "n": "Wikipedia: Mozart's Birthplace",
+     "u": "https://en.wikipedia.org/wiki/Mozart's_Birthplace"
+    },
+    {
+     "n": "Mozarteum Foundation",
+     "u": "https://mozarteum.at/"
+    }
+   ]
+  },
+  {
+   "h": "He left in a hurry",
+   "when": "1781",
+   "lab": "verified",
+   "people": [
+    "mozart"
+   ],
+   "go": [
+    "#place-vienna",
+    "Vienna"
+   ],
+   "t": "Mozart worked for the Archbishop of Salzburg, who treated him like a servant. In 1781, in Vienna, the archbishop's steward ended their quarrel with a kick, and Mozart stayed in Vienna as a free musician.",
+   "src": [
+    {
+     "n": "Wikipedia: Wolfgang Amadeus Mozart",
+     "u": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+    },
+    {
+     "n": "Wikipedia: Hieronymus von Colloredo",
+     "u": "https://en.wikipedia.org/wiki/Hieronymus_von_Colloredo"
+    }
+   ]
+  }
+ ]
+}

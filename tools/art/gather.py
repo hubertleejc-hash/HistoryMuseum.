@@ -223,6 +223,99 @@ def from_met(r):
     if figural_islamic(rec) or islamic_risky(rec): return None, "Islamic-world figural work, needs hand approval"
     return rec, None
 
+# ---------- the Louvre and the British Museum, through Wikimedia Commons ----------
+# Their own sites do not license images for reuse in an app, but Wikimedia Commons holds photographs of
+# their public-domain works. Only files Commons marks public domain or CC0 are kept, with a credit line.
+COMMONS_ROOTS = {
+    # Commons search queries: structured data "collection" (P195) first, then the museum's category trees.
+    "louvre": ("The Louvre", ['haswbstatement:P195=Q19675', 'deepcat:"Paintings in the Louvre"', 'deepcat:"Drawings in the Louvre"',
+                              'deepcat:"Collections of the Louvre"']),
+    "bm": ("The British Museum", ['haswbstatement:P195=Q6373', 'deepcat:"Prints in the British Museum"', 'deepcat:"Drawings in the British Museum"',
+                                  'deepcat:"Paintings in the British Museum"', 'deepcat:"Collections of the British Museum"']),
+    "metc": ("The Metropolitan Museum of Art", ['haswbstatement:P195=Q160236', 'deepcat:"Paintings in the Metropolitan Museum of Art"']),
+}
+CAPI = "https://commons.wikimedia.org/w/api.php?"
+
+def capi(params):
+    time.sleep(0.5)  # Wikimedia asks bots to go slowly
+    for i in range(6):
+        d = get(CAPI + urllib.parse.urlencode({**params, "format": "json"}), tries=1)
+        if d is not None: return d
+        time.sleep(15 * (i + 1))
+    return None
+
+def commons_files(query, want, src="", have=()):
+    """Yield (page, query) for image files that a Commons search finds, a page of 50 at a time."""
+    off, n = 0, 0
+    while n < want and off < 9950 and time.time() < DEADLINE - 3600:
+        d = capi({"action": "query", "generator": "search", "gsrsearch": query + " filetype:bitmap", "gsrnamespace": 6,
+                  "gsrlimit": 50, "gsroffset": off, "prop": "imageinfo", "iiprop": "url|size|extmetadata", "iiurlwidth": 960,
+                  "iiextmetadatalanguage": "en"})
+        pages = list(((d or {}).get("query", {}).get("pages") or {}).values())
+        for pg in pages:
+            if pg.get("imageinfo") and f"{src}-{pg['pageid']}" not in have:
+                n += 1; yield pg, query.split(":", 1)[-1].strip('"')
+        if not d or "continue" not in d: break
+        off = d["continue"].get("gsroffset", off + 50)
+
+GENERIC = {"drawing", "print", "painting", "photograph", "object", "sculpture", "untitled", "statue", "figure", "vase", "relief"}
+def commons_title(fname):
+    t = re.sub(r"^File:|\.\w+$", "", fname).replace("_", " ")
+    t = re.sub(r"\s*[-,(]?\s*(British Museum|Louvre|Met(ropolitan Museum)?|MET)\b.*$", "", t, flags=re.I)
+    t = re.sub(r"\s*\b(DP|BM|MET)?[-_ ]?\d{4,}.*$", "", t).strip(" -,")
+    return t or "Untitled"
+
+def tidy_commons(t):
+    t = re.split(r"\s+(?:label|title) QS:", t)[0]
+    t = re.sub(r"^(?:English|German|French|Italian|Spanish|Dutch|Latin):\s*", "", t)
+    t = re.split(r"\s+(?:English|German|French|Italian|Spanish|Dutch):\s", t)[0]
+    t = re.sub(r"\s*\((?:cropped|retouched|restored|detail)\)|,?\s*from C2RMF.*$|,?\s*\bby [A-Z][^,]*$", "", t)
+    return re.sub(r"^(Anonymous|Unknown)\s*-\s*", "", t).strip(" ,.-") or "Untitled"
+
+def wm_thumb(url, w):
+    """A thumbnail at one of Wikimedia's standard widths (250, 330, 500, 960, 1280): those are cached and not rate limited."""
+    m = re.match(r"(https://upload\.wikimedia\.org/wikipedia/commons)/(\w/\w\w)/([^/?]+)", url)
+    return f"{m.group(1)}/thumb/{m.group(2)}/{m.group(3)}/{w}px-{m.group(3)}" if m else url
+
+def commons_year(s):
+    m = re.search(r"\b(1[0-9]{3}|[1-9][0-9]{2})\b", s or "")
+    if m: return int(m.group(1))
+    m = re.search(r"\b(\d{1,2})(?:st|nd|rd|th)[ -]century( BC| BCE)?", s or "", re.I)
+    if m:
+        y = int(m.group(1)) * 100 - 50
+        return -y if m.group(2) else y
+    return None
+
+def from_commons(arg):
+    (pg, cat), src = arg
+    museum = COMMONS_ROOTS[src][0]
+    ii = pg["imageinfo"][0]; md = ii.get("extmetadata", {})
+    v = lambda k, cap=400: clean((md.get(k) or {}).get("value"), cap)
+    lic = (md.get("License", {}).get("value") or "").lower(); lic_name = v("LicenseShortName", 80)
+    if not (lic.startswith("pd") or lic.startswith("cc0") or lic_name.lower().startswith("public domain")): return None, "not public domain"
+    if not ii.get("thumburl") or min(ii.get("width", 0), ii.get("height", 0)) < 500: return None, "small"
+    if not re.search(r"\.(jpe?g|png)$", pg["title"], re.I): return None, "not a picture"
+    cats, title = v("Categories", 3000), v("ObjectName", 200)
+    if len(title) < 4 or title.lower() in GENERIC: title = commons_title(pg["title"])
+    title = tidy_commons(title)
+    date = re.split(r"\s+date QS:", v("DateTimeOriginal", 300))[0][:120]; y = commons_year(date)
+    if y is None: return None, "no date or title"
+    artist = re.sub(r"^(unknown|anonymous)\b.*", "", v("Artist", 120), flags=re.I)
+    if re.fullmatch(r"\S*\d\S*", artist): artist = ""  # a Commons user name (the photographer), not the artist
+    desc = v("ImageDescription", 1400)
+    blob = " ".join([title, cat, cats])
+    why = sensitive([title, desc, cats, cat], bool(ISLAMIC_HINT.search(blob)))
+    if why: return None, why
+    rec = {"id": f"{src}-{pg['pageid']}", "src": src, "t": title, "a": artist, "d": date, "y": y,
+           "r": region_from("", title + " " + cat), "k": kind_from(cat + " " + title), "c": "", "m": "",
+           "x": desc if len(desc) > 60 and desc.lower() != title.lower() else "", "fy": "",
+           "cr": f"{museum}. Photo via Wikimedia Commons ({lic_name or 'public domain'}).",
+           "u": ii.get("descriptionurl", ""), "w": ii.get("width", 0), "h": ii.get("height", 0),
+           "img": wm_thumb(ii["url"], 960), "th": wm_thumb(ii["url"], 330), "hi": 0, "on": "", "dept": museum}
+    if re.search(r"egypt|greek|roman|etrus|assyr|mesopotam", cat, re.I): rec["r"] = "ancient"
+    if figural_islamic(rec) or islamic_risky(rec): return None, "Islamic-world figural work, needs hand approval"
+    return rec, None
+
 # ---------- pictures ----------
 def save_pictures(rec):
     """Download the web image once; write a 1024 px full picture and a 320 px thumbnail."""
@@ -244,10 +337,20 @@ def save_pictures(rec):
     rec["w"], rec["h"] = full.size
     return True
 
+DEADLINE = float("inf")
 def save_micro(rec):
     """Online wing: a small 160 px tile ships in the app; the big picture loads from the museum."""
+    if time.time() > DEADLINE: return False  # out of time: leave it for the next run
     from PIL import Image
-    b = get(rec.get("th") or rec["img"], raw=True)
+    url = rec.get("th") or rec["img"]
+    if "upload.wikimedia.org" in url:  # Wikimedia answers 429 when pictures are fetched too fast
+        b = None
+        for i in range(5):
+            time.sleep(1.0 + 10 * i)
+            b = get(url, raw=True, tries=1)
+            if b: break
+    else:
+        b = get(url, raw=True)
     if not b: return False
     try:
         im = Image.open(io.BytesIO(b)); im.load()
@@ -302,10 +405,14 @@ def main():
     ap.add_argument("--online", type=int, default=6000)
     ap.add_argument("--met", type=int, default=2000)
     ap.add_argument("--met-per-dept", type=int, default=400)
+    ap.add_argument("--minutes", type=int, default=290, help="stop fetching new pictures after this long, so the run can still save what it found")
+    ap.add_argument("--commons", type=int, default=0, help="new Louvre and British Museum works from Wikimedia Commons, per museum")
     ap.add_argument("--recheck-only", action="store_true", help="only re-screen the works already gathered")
     ap.add_argument("--feed", action="store_true", help="add the new Online-wing works to online/art/ (fetched by the app), not app/art/")
     ap.add_argument("--seed", type=int, default=int(time.time()) // 86400)
     a = ap.parse_args()
+    global DEADLINE
+    DEADLINE = time.time() + a.minutes * 60
     random.seed(a.seed)
     global ART
     app_cat = json.loads((ART / "catalog.json").read_text()) if (ART / "catalog.json").exists() else []
@@ -331,7 +438,7 @@ def main():
         for raw in raw_list:
             rec, why = conv(raw)
             if not rec:
-                if why and ("prophet rule" in why or "mentioning" in why or why == "unfit"): rejected.append(f"{why}: {raw.get('id') or raw.get('objectID')} {raw.get('title')}")
+                if why and ("prophet rule" in why or "mentioning" in why or why == "unfit"): rejected.append(f"{why}: {raw.get('id') or raw.get('objectID')} {raw.get('title')}" if isinstance(raw, dict) else f"{why}: {raw[0][0].get('title')}")
                 continue
             if rec["id"] in have or rec["id"] in DENY: continue
             k = norm_key(rec)
@@ -369,10 +476,20 @@ def main():
             raws = [r for r in ex.map(met_obj, ids) if r]
         met = balanced(take(raws, from_met), room, per_artist=25)
         print(f"  {len(met)} new Met works", flush=True)
+    for src in (COMMONS_ROOTS if a.commons > 0 else []):
+        print(COMMONS_ROOTS[src][0] + " (Wikimedia Commons)...", flush=True)
+        got = []
+        for root in COMMONS_ROOTS[src][1]:
+            got += take([(x, src) for x in commons_files(root, a.commons * 2 // len(COMMONS_ROOTS[src][1]), src, have)], from_commons)
+            print(f"  {root}: {len(got)} usable so far", flush=True)
+        got = balanced(got, a.commons, per_artist=25)
+        print(f"  {len(got)} new works", flush=True); met += got
     print(f"Downloading {len(online) + len(met)} small tiles for the Online wing...", flush=True)
     web = []
-    with cf.ThreadPoolExecutor(12) as ex:
-        for rec, good in zip(online + met, ex.map(save_micro, online + met)):
+    wiki = [r for r in online + met if "upload.wikimedia.org" in (r.get("th") or r["img"])]
+    other = [r for r in online + met if r not in wiki]
+    with cf.ThreadPoolExecutor(12) as ex, cf.ThreadPoolExecutor(2) as slow:
+        for rec, good in list(zip(other, ex.map(save_micro, other))) + list(zip(wiki, slow.map(save_micro, wiki))):
             if good:
                 rec["wing"] = "web"; rec.pop("th", None); web.append(rec)
     print(f"  saved {len(web)}", flush=True)

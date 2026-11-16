@@ -1,0 +1,29 @@
+{
+ "id": "national-museum-singapore",
+ "n": "National Museum of Singapore",
+ "kind": "museum",
+ "where": "Singapore",
+ "lat": 1.2966,
+ "lon": 103.8485,
+ "r": 150,
+ "rank": 45,
+ "blurb": "Singapore's oldest museum, founded in 1849.",
+ "facts": [
+  {
+   "h": "Older than the country",
+   "when": "1849 and 1887",
+   "lab": "verified",
+   "t": "It began as a library and museum of the Raffles Institution in 1849, when Singapore was a British trading post, and moved to its domed building on Stamford Road in 1887.",
+   "src": [
+    {
+     "n": "Wikipedia: National Museum of Singapore",
+     "u": "https://en.wikipedia.org/wiki/National_Museum_of_Singapore"
+    },
+    {
+     "n": "National Museum of Singapore",
+     "u": "https://www.nhb.gov.sg/nationalmuseum"
+    }
+   ]
+  }
+ ]
+}

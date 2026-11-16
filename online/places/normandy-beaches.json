@@ -1,0 +1,37 @@
+{
+ "id": "normandy-beaches",
+ "n": "D-Day beaches",
+ "short": "Normandy",
+ "kind": "site",
+ "where": "Normandy, France",
+ "lat": 49.37,
+ "lon": -0.88,
+ "r": 25000,
+ "blurb": "Where the Allied invasion of Western Europe landed on 6 June 1944.",
+ "facts": [
+  {
+   "h": "The largest seaborne invasion",
+   "when": "1944",
+   "lab": "verified",
+   "people": [
+    "churchill",
+    "fdr"
+   ],
+   "go": [
+    "#e-ww2",
+    "The Second World War"
+   ],
+   "t": "On 6 June 1944 about 156,000 Allied soldiers landed on five beaches code-named Utah, Omaha, Gold, Juno and Sword. The American cemetery above Omaha Beach holds 9,388 graves.",
+   "src": [
+    {
+     "n": "Wikipedia: Normandy landings",
+     "u": "https://en.wikipedia.org/wiki/Normandy_landings"
+    },
+    {
+     "n": "ABMC: Normandy American Cemetery",
+     "u": "https://www.abmc.gov/normandy"
+    }
+   ]
+  }
+ ]
+}

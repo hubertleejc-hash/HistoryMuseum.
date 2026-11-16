@@ -1,0 +1,96 @@
+{
+ "id": "florence",
+ "n": "Florence",
+ "kind": "city",
+ "where": "Italy",
+ "lat": 43.7696,
+ "lon": 11.2558,
+ "r": 7000,
+ "blurb": "A city of bankers and wool merchants that paid for the Renaissance. For a few years Leonardo, Michelangelo and Raphael all worked here at once.",
+ "facts": [
+  {
+   "h": "Leonardo against Michelangelo",
+   "when": "1504 to 1506",
+   "lab": "verified",
+   "people": [
+    "leonardo",
+    "michelangelo"
+   ],
+   "go": [
+    "#walk-1505",
+    "Walk into Florence, 1505"
+   ],
+   "t": "The city asked its two greatest artists to paint battle scenes on facing walls of the great council hall in the Palazzo Vecchio. Leonardo tried a new technique that ran; Michelangelo was called to Rome. Neither finished, and the two lost works are known only from drawings and copies.",
+   "src": [
+    {
+     "n": "Wikipedia: The Battle of Anghiari",
+     "u": "https://en.wikipedia.org/wiki/The_Battle_of_Anghiari_(Leonardo)"
+    },
+    {
+     "n": "Wikipedia: Battle of Cascina",
+     "u": "https://en.wikipedia.org/wiki/Battle_of_Cascina_(Michelangelo)"
+    }
+   ]
+  },
+  {
+   "h": "David leaves the square",
+   "when": "1504 and 1873",
+   "lab": "verified",
+   "people": [
+    "michelangelo"
+   ],
+   "t": "Michelangelo carved David from a block of marble other sculptors had given up on. It stood outside the Palazzo Vecchio for 369 years, and was moved indoors to the Accademia in 1873 to protect it from the weather. The David in the square today is a copy.",
+   "src": [
+    {
+     "n": "Galleria dell'Accademia: David",
+     "u": "https://www.galleriaaccademiafirenze.it/en/artworks/david-michelangelo/"
+    },
+    {
+     "n": "Wikipedia: David (Michelangelo)",
+     "u": "https://en.wikipedia.org/wiki/David_(Michelangelo)"
+    }
+   ]
+  },
+  {
+   "h": "Machiavelli wrote The Prince after prison",
+   "when": "1513",
+   "lab": "verified",
+   "people": [
+    "machiavelli"
+   ],
+   "t": "When the Medici family returned to power in 1512, Machiavelli lost his government post and was jailed and tortured on suspicion of plotting. Released, he retired to his farm outside the city and wrote The Prince, partly hoping the Medici would give him a job.",
+   "src": [
+    {
+     "n": "Wikipedia: Niccolò Machiavelli",
+     "u": "https://en.wikipedia.org/wiki/Niccol%C3%B2_Machiavelli"
+    },
+    {
+     "n": "Stanford Encyclopedia of Philosophy: Machiavelli",
+     "u": "https://plato.stanford.edu/entries/machiavelli/"
+    }
+   ]
+  },
+  {
+   "h": "One church, three of our people",
+   "when": "1564 to 1737",
+   "lab": "verified",
+   "people": [
+    "michelangelo",
+    "galileo",
+    "machiavelli",
+    "dante"
+   ],
+   "t": "The church of Santa Croce holds the tombs of Michelangelo, Machiavelli and Galileo, whose body was moved to a grand tomb there in 1737, almost a century after he died under house arrest. Dante has a monument too, but it is empty: he died in exile, and Ravenna has kept him.",
+   "src": [
+    {
+     "n": "Opera di Santa Croce",
+     "u": "https://www.santacroceopera.it/en/"
+    },
+    {
+     "n": "Wikipedia: Santa Croce, Florence",
+     "u": "https://en.wikipedia.org/wiki/Santa_Croce,_Florence"
+    }
+   ]
+  }
+ ]
+}

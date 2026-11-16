@@ -1,0 +1,29 @@
+{
+ "id": "museu-nacional-rio",
+ "n": "National Museum of Brazil",
+ "kind": "museum",
+ "where": "Rio de Janeiro",
+ "lat": -22.9058,
+ "lon": -43.2263,
+ "r": 250,
+ "rank": 38,
+ "blurb": "Brazil's oldest scientific institution, in a former imperial palace, rebuilding after a great fire.",
+ "facts": [
+  {
+   "h": "The fire of 2018",
+   "when": "2018",
+   "lab": "verified",
+   "t": "On 2 September 2018 a fire destroyed most of the museum's roughly 20 million objects, including Luzia, the oldest human skull found in the Americas. Luzia's skull was later found in pieces in the ruins and pieced back together. The 5-tonne Bendegó meteorite survived untouched.",
+   "src": [
+    {
+     "n": "Wikipedia: 2018 National Museum of Brazil fire",
+     "u": "https://en.wikipedia.org/wiki/2018_National_Museum_of_Brazil_fire"
+    },
+    {
+     "n": "Wikipedia: Bendegó meteorite",
+     "u": "https://en.wikipedia.org/wiki/Bendegó_meteorite"
+    }
+   ]
+  }
+ ]
+}

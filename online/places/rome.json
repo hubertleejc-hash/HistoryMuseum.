@@ -1,0 +1,125 @@
+{
+ "id": "rome",
+ "n": "Rome",
+ "kind": "city",
+ "where": "Italy",
+ "lat": 41.9028,
+ "lon": 12.4964,
+ "r": 12000,
+
+ "blurb": "A republic, then an empire, then the seat of the popes. Almost every century of the last 2,500 years left something you can still touch.",
+ "facts": [
+  {
+   "h": "Caesar was not killed in the Forum",
+   "when": "15 March 44 BC",
+   "lab": "verified",
+   "people": [
+    "julius-caesar"
+   ],
+   "img": "death-caesar",
+   "go": [
+    "#walk--44",
+    "Walk into Rome, 44 BC"
+   ],
+   "t": "On the Ides of March the Senate met in a hall attached to the Theatre of Pompey, because their usual house was being rebuilt. There about sixty senators surrounded Caesar. The ruins of that area lie today in the Largo di Torre Argentina, a sunken square now famous for its cats.",
+   "src": [
+    {
+     "n": "Wikipedia: Assassination of Julius Caesar",
+     "u": "https://en.wikipedia.org/wiki/Assassination_of_Julius_Caesar"
+    },
+    {
+     "n": "Wikipedia: Largo di Torre Argentina",
+     "u": "https://en.wikipedia.org/wiki/Largo_di_Torre_Argentina"
+    }
+   ]
+  },
+  {
+   "h": "A city of brick, left in marble",
+   "when": "27 BC to AD 14",
+   "lab": "verified",
+   "people": [
+    "augustus"
+   ],
+   "go": [
+    "#e-caesar-killed",
+    "After Caesar"
+   ],
+   "t": "The historian Suetonius wrote that Augustus boasted he found Rome a city of brick and left it a city of marble. His Altar of Peace, the Ara Pacis, finished in 9 BC, still shows his family walking in procession, carved in the stone.",
+   "src": [
+    {
+     "n": "Suetonius, Life of Augustus 28",
+     "u": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Augustus*.html"
+    },
+    {
+     "n": "Wikipedia: Ara Pacis",
+     "u": "https://en.wikipedia.org/wiki/Ara_Pacis"
+    }
+   ]
+  },
+  {
+   "h": "Michelangelo painted standing up",
+   "when": "1508 to 1512",
+   "lab": "verified",
+   "people": [
+    "michelangelo"
+   ],
+   "go": [
+    "#e-sistine-ceiling",
+    "The Sistine ceiling"
+   ],
+   "t": "Pope Julius II asked a sculptor to paint the ceiling of the Sistine Chapel. Michelangelo built his own scaffold and worked standing, head tilted back, not lying down as the films show. He wrote a comic poem about the paint dripping on his face.",
+   "src": [
+    {
+     "n": "Vatican Museums: Sistine Chapel",
+     "u": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/cappella-sistina.html"
+    },
+    {
+     "n": "Wikipedia: Sistine Chapel ceiling",
+     "u": "https://en.wikipedia.org/wiki/Sistine_Chapel_ceiling"
+    }
+   ]
+  },
+  {
+   "h": "The School of Athens has famous faces",
+   "when": "1509 to 1511",
+   "lab": "likely",
+   "people": [
+    "raphael",
+    "plato",
+    "aristotle",
+    "leonardo"
+   ],
+   "img": "school-athens",
+   "t": "Raphael painted the great philosophers on a wall of the pope's library, the Stanza della Segnatura. Plato points up, Aristotle holds his hand flat over the Earth. Many historians think Plato was given Leonardo's face, and the brooding man in front may be Michelangelo. Raphael put himself in too, looking out at you.",
+   "src": [
+    {
+     "n": "Vatican Museums: Raphael's Rooms",
+     "u": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/stanze-di-raffaello.html"
+    },
+    {
+     "n": "Wikipedia: The School of Athens",
+     "u": "https://en.wikipedia.org/wiki/The_School_of_Athens"
+    }
+   ]
+  },
+  {
+   "h": "Saved by a mistake",
+   "when": "c. AD 175",
+   "lab": "likely",
+   "people": [
+    "marcus-aurelius"
+   ],
+   "t": "Most bronze statues of Roman emperors were melted down. The one of Marcus Aurelius on horseback survived, very likely because people in the Middle Ages took it for Constantine, the first Christian emperor. The original is now indoors in the Capitoline Museums, with a copy on Michelangelo's square outside.",
+   "src": [
+    {
+     "n": "Capitoline Museums: Equestrian statue of Marcus Aurelius",
+     "u": "https://www.museicapitolini.org/en/opera/statua-equestre-di-marco-aurelio"
+    },
+    {
+     "n": "Wikipedia: Equestrian Statue of Marcus Aurelius",
+     "u": "https://en.wikipedia.org/wiki/Equestrian_Statue_of_Marcus_Aurelius"
+    }
+   ]
+  }
+ ]
+}

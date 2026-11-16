@@ -1,0 +1,57 @@
+{
+ "id": "philadelphia",
+ "n": "Philadelphia",
+ "kind": "city",
+ "where": "Pennsylvania, USA",
+ "lat": 39.9489,
+ "lon": -75.15,
+ "r": 8000,
+ "blurb": "Where the United States declared independence and wrote its constitution.",
+ "facts": [
+  {
+   "h": "Independence Hall",
+   "when": "1776 and 1787",
+   "lab": "verified",
+   "people": [
+    "jefferson",
+    "john-adams",
+    "franklin",
+    "washington"
+   ],
+   "go": [
+    "#e-us-independence",
+    "Independence"
+   ],
+   "t": "The Declaration of Independence, drafted by Jefferson, was adopted here on 4 July 1776, and the Constitution signed here in 1787 under Washington's chairmanship.",
+   "src": [
+    {
+     "n": "Wikipedia: Independence Hall",
+     "u": "https://en.wikipedia.org/wiki/Independence_Hall"
+    },
+    {
+     "n": "UNESCO: Independence Hall",
+     "u": "https://whc.unesco.org/en/list/78/"
+    }
+   ]
+  },
+  {
+   "h": "Franklin's city",
+   "when": "1723 to 1790",
+   "lab": "verified",
+   "people": [
+    "franklin"
+   ],
+   "t": "Benjamin Franklin arrived as a runaway printer of 17 in 1723, founded a library, a fire company and a university here, and is buried in Christ Church Burial Ground.",
+   "src": [
+    {
+     "n": "Wikipedia: Benjamin Franklin",
+     "u": "https://en.wikipedia.org/wiki/Benjamin_Franklin"
+    },
+    {
+     "n": "Wikipedia: Christ Church Burial Ground",
+     "u": "https://en.wikipedia.org/wiki/Christ_Church_Burial_Ground"
+    }
+   ]
+  }
+ ]
+}

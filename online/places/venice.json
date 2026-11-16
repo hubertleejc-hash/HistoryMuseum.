@@ -1,0 +1,70 @@
+{
+ "id": "venice",
+ "n": "Venice",
+ "kind": "city",
+ "where": "Italy",
+ "lat": 45.4408,
+ "lon": 12.3155,
+ "r": 4000,
+ "blurb": "A trading republic built on wooden piles in a lagoon, independent for over a thousand years.",
+ "facts": [
+  {
+   "h": "Marco Polo's city",
+   "when": "1271 to 1298",
+   "lab": "verified",
+   "people": [
+    "marco-polo",
+    "kublai-khan"
+   ],
+   "t": "Marco Polo left Venice in 1271 and came home in 1295. Captured in a war with Genoa, he told his story to a fellow prisoner, Rustichello, who wrote it down.",
+   "src": [
+    {
+     "n": "Wikipedia: Marco Polo",
+     "u": "https://en.wikipedia.org/wiki/Marco_Polo"
+    },
+    {
+     "n": "Wikipedia: The Travels of Marco Polo",
+     "u": "https://en.wikipedia.org/wiki/The_Travels_of_Marco_Polo"
+    }
+   ]
+  },
+  {
+   "h": "Vivaldi's orphan orchestra",
+   "when": "1703 to 1740",
+   "lab": "verified",
+   "people": [
+    "vivaldi"
+   ],
+   "t": "Vivaldi taught music for decades at the Ospedale della Pietà, a home for abandoned girls whose orchestra was famous across Europe. Much of The Four Seasons' world was first played by them.",
+   "src": [
+    {
+     "n": "Wikipedia: Ospedale della Pietà",
+     "u": "https://en.wikipedia.org/wiki/Ospedale_della_Pietà"
+    },
+    {
+     "n": "Wikipedia: Antonio Vivaldi",
+     "u": "https://en.wikipedia.org/wiki/Antonio_Vivaldi"
+    }
+   ]
+  },
+  {
+   "h": "Napoleon ended the republic",
+   "when": "1797",
+   "lab": "verified",
+   "people": [
+    "napoleon"
+   ],
+   "t": "In 1797 Napoleon's army ended the Republic of Venice after 1,100 years. His soldiers took the four bronze horses of St Mark's to Paris; they came back in 1815.",
+   "src": [
+    {
+     "n": "Wikipedia: Fall of the Republic of Venice",
+     "u": "https://en.wikipedia.org/wiki/Fall_of_the_Republic_of_Venice"
+    },
+    {
+     "n": "Wikipedia: Horses of Saint Mark",
+     "u": "https://en.wikipedia.org/wiki/Horses_of_Saint_Mark"
+    }
+   ]
+  }
+ ]
+}

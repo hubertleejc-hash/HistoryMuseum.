@@ -1,0 +1,67 @@
+{
+ "id": "waterloo",
+ "n": "Waterloo battlefield",
+ "short": "Waterloo",
+ "kind": "site",
+ "where": "Belgium",
+ "lat": 50.68,
+ "lon": 4.412,
+ "r": 4500,
+ "blurb": "Farmland south of Brussels where, in one day, Napoleon's last army was broken.",
+ "facts": [
+  {
+   "h": "Napoleon's last battle",
+   "when": "18 June 1815",
+   "lab": "verified",
+   "people": [
+    "napoleon"
+   ],
+   "go": [
+    "#e-waterloo",
+    "The Battle of Waterloo"
+   ],
+   "t": "Back from exile on Elba, Napoleon struck at the British-led army of the Duke of Wellington before it could join the Prussians. Rain delayed his attack until midday. By evening Blücher's Prussians had arrived on his flank, and the French army broke. Wellington called it the nearest-run thing you ever saw.",
+   "src": [
+    {
+     "n": "Wikipedia: Battle of Waterloo",
+     "u": "https://en.wikipedia.org/wiki/Battle_of_Waterloo"
+    },
+    {
+     "n": "National Army Museum: Battle of Waterloo",
+     "u": "https://www.nam.ac.uk/explore/battle-waterloo"
+    }
+   ]
+  },
+  {
+   "h": "Named after the general's lodging",
+   "lab": "verified",
+   "t": "The fighting took place a few kilometres south of the village of Waterloo. Wellington had his headquarters in the village, and he named the battle after it in his report. The French often call it Mont-Saint-Jean, after the ridge itself.",
+   "src": [
+    {
+     "n": "Wikipedia: Battle of Waterloo, name",
+     "u": "https://en.wikipedia.org/wiki/Battle_of_Waterloo"
+    },
+    {
+     "n": "Waterloo 1815 Memorial",
+     "u": "https://www.waterloo1815.be/en/"
+    }
+   ]
+  },
+  {
+   "h": "A hill made by hand",
+   "when": "1820 to 1826",
+   "lab": "verified",
+   "t": "The Lion's Mound is not a natural hill. Local women carried earth from the battlefield in baskets to raise it, about 40 metres high, where the Dutch Prince of Orange was wounded. Wellington is said to have complained it spoiled his battlefield. Climb its 226 steps for the view of the whole field.",
+   "src": [
+    {
+     "n": "Wikipedia: Lion's Mound",
+     "u": "https://en.wikipedia.org/wiki/Lion%27s_Mound"
+    },
+    {
+     "n": "Waterloo 1815 Memorial: the Lion's Mound",
+     "u": "https://www.waterloo1815.be/en/"
+    }
+   ]
+  }
+ ]
+}

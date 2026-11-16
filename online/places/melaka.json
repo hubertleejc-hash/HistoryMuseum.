@@ -1,0 +1,51 @@
+{
+ "id": "melaka",
+ "n": "Melaka",
+ "kind": "city",
+ "where": "Malaysia",
+ "lat": 2.1896,
+ "lon": 102.2501,
+ "r": 6000,
+ "blurb": "A port on the strait between India and China, so valuable that three European powers took turns holding it.",
+ "facts": [
+  {
+   "h": "Zheng He's fleet called here",
+   "when": "1405 to 1433",
+   "lab": "verified",
+   "people": [
+    "zheng-he"
+   ],
+   "go": [
+    "#e-zheng-he-voyages",
+    "The treasure voyages"
+   ],
+   "t": "The young sultanate gained Ming China's protection, and the admiral Zheng He's treasure fleets stopped at Melaka again and again, using it as a base for storing goods. Bukit China, the Chinese hill, keeps the memory of those ties.",
+   "src": [
+    {
+     "n": "Wikipedia: Malacca Sultanate",
+     "u": "https://en.wikipedia.org/wiki/Malacca_Sultanate"
+    },
+    {
+     "n": "Wikipedia: Zheng He",
+     "u": "https://en.wikipedia.org/wiki/Zheng_He"
+    }
+   ]
+  },
+  {
+   "h": "A Famosa, the gate that was left",
+   "when": "1511",
+   "lab": "verified",
+   "t": "The Portuguese captured Melaka in 1511 and built a fortress, A Famosa. The Dutch took it in 1641, and the British pulled most of it down in the early 1800s. One small gate, the Porta de Santiago, was saved.",
+   "src": [
+    {
+     "n": "Wikipedia: A Famosa",
+     "u": "https://en.wikipedia.org/wiki/A_Famosa"
+    },
+    {
+     "n": "UNESCO: Melaka and George Town",
+     "u": "https://whc.unesco.org/en/list/1223/"
+    }
+   ]
+  }
+ ]
+}

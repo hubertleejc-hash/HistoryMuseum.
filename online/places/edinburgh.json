@@ -1,0 +1,51 @@
+{
+ "id": "edinburgh",
+ "n": "Edinburgh",
+ "kind": "city",
+ "where": "Scotland",
+ "lat": 55.9533,
+ "lon": -3.1883,
+ "r": 6000,
+ "blurb": "The Athens of the North, capital of the Scottish Enlightenment.",
+ "facts": [
+  {
+   "h": "Hume and Smith",
+   "when": "1700s",
+   "lab": "verified",
+   "people": [
+    "hume",
+    "adam-smith"
+   ],
+   "t": "David Hume lived in Edinburgh, and his friend Adam Smith worked here as a customs officer in his last years and is buried in the Canongate kirkyard. Their statues stand on the Royal Mile.",
+   "src": [
+    {
+     "n": "Wikipedia: Scottish Enlightenment",
+     "u": "https://en.wikipedia.org/wiki/Scottish_Enlightenment"
+    },
+    {
+     "n": "Wikipedia: Adam Smith",
+     "u": "https://en.wikipedia.org/wiki/Adam_Smith"
+    }
+   ]
+  },
+  {
+   "h": "Maxwell's birthplace",
+   "when": "1831",
+   "lab": "verified",
+   "people": [
+    "maxwell"
+   ],
+   "t": "James Clerk Maxwell, who showed light is an electromagnetic wave, was born at 14 India Street in 1831.",
+   "src": [
+    {
+     "n": "Wikipedia: James Clerk Maxwell",
+     "u": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+    },
+    {
+     "n": "James Clerk Maxwell Foundation",
+     "u": "https://www.clerkmaxwellfoundation.org/"
+    }
+   ]
+  }
+ ]
+}

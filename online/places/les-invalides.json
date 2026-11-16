@@ -1,0 +1,55 @@
+{
+ "id": "les-invalides",
+ "n": "Les Invalides",
+ "kind": "museum",
+ "where": "Paris",
+ "lat": 48.855,
+ "lon": 2.3125,
+ "r": 250,
+ "rank": 50,
+ "blurb": "A soldiers' hospital built by Louis XIV, now the Army Museum and Napoleon's tomb.",
+ "facts": [
+  {
+   "h": "Napoleon came back",
+   "when": "1840 and 1861",
+   "lab": "verified",
+   "people": [
+    "napoleon"
+   ],
+   "go": [
+    "#place-waterloo",
+    "Waterloo"
+   ],
+   "t": "Napoleon died on Saint Helena in 1821. In 1840 his body was brought back to Paris, and from 1861 it has lain under the golden dome, in a red stone tomb inside six coffins.",
+   "src": [
+    {
+     "n": "Wikipedia: Les Invalides",
+     "u": "https://en.wikipedia.org/wiki/Les_Invalides"
+    },
+    {
+     "n": "Wikipedia: Retour des cendres",
+     "u": "https://en.wikipedia.org/wiki/Retour_des_cendres"
+    }
+   ]
+  },
+  {
+   "h": "Built for old soldiers",
+   "when": "1670",
+   "lab": "verified",
+   "people": [
+    "louis-xiv"
+   ],
+   "t": "Louis XIV founded it in 1670 as a home for wounded and old soldiers. Some still live there today.",
+   "src": [
+    {
+     "n": "Wikipedia: Les Invalides",
+     "u": "https://en.wikipedia.org/wiki/Les_Invalides"
+    },
+    {
+     "n": "Musée de l'Armée",
+     "u": "https://www.musee-armee.fr/en/"
+    }
+   ]
+  }
+ ]
+}

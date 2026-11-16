@@ -14,7 +14,10 @@ on:
         default: "6000"
       met:
         description: "New Met works for the Online wing"
-        default: "2000"
+        default: "0"
+      commons:
+        description: "New Louvre and British Museum works per museum (public-domain photos on Wikimedia Commons)"
+        default: "0"
       feed:
         description: "Send the new Online-wing works to the online feed (the app fetches them, no new install) instead of the app (yes/no)"
         default: "no"
@@ -40,8 +43,8 @@ jobs:
           python-version: "3.12"
       - run: pip install Pillow==11.3.0
       - name: Gather
-        if: ${{ inputs.offline != '0' || inputs.online != '0' || inputs.met != '0' }}
-        run: python3 tools/art/gather.py --offline "${{ inputs.offline }}" --online "${{ inputs.online }}" --met "${{ inputs.met }}" ${{ inputs.feed == 'yes' && '--feed' || '' }}
+        if: ${{ inputs.offline != '0' || inputs.online != '0' || inputs.met != '0' || inputs.commons != '0' }}
+        run: python3 tools/art/gather.py --offline "${{ inputs.offline }}" --online "${{ inputs.online }}" --met "${{ inputs.met }}" --commons "${{ inputs.commons }}" ${{ inputs.feed == 'yes' && '--feed' || '' }}
       - name: Portraits
         if: ${{ inputs.portraits == 'yes' }}
         run: python3 tools/art/portraits.py
@@ -55,5 +58,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add app/art online
-          git commit -qm "Gather art: more public-domain works from the Cleveland Museum of Art and the Met" || { echo "Nothing new"; exit 0; }
+          git commit -qm "Gather art: more public-domain works from the Cleveland Museum of Art, the Met, the Louvre and the British Museum" || { echo "Nothing new"; exit 0; }
           for i in 1 2 3; do git pull --rebase -q origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}" && break; sleep 5; done

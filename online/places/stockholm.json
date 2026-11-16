@@ -1,0 +1,51 @@
+{
+ "id": "stockholm",
+ "n": "Stockholm",
+ "kind": "city",
+ "where": "Sweden",
+ "lat": 59.3293,
+ "lon": 18.0686,
+ "r": 8000,
+ "blurb": "A city on fourteen islands, where the Nobel Prizes are given each December.",
+ "facts": [
+  {
+   "h": "Descartes died here",
+   "when": "1649 to 1650",
+   "lab": "verified",
+   "people": [
+    "descartes",
+    "christina"
+   ],
+   "t": "Queen Christina invited Descartes to teach her philosophy. He arrived in late 1649, had to give lessons at five in the morning in the Swedish winter, and died of pneumonia in February 1650.",
+   "src": [
+    {
+     "n": "Wikipedia: René Descartes",
+     "u": "https://en.wikipedia.org/wiki/René_Descartes"
+    },
+    {
+     "n": "Wikipedia: Christina, Queen of Sweden",
+     "u": "https://en.wikipedia.org/wiki/Christina,_Queen_of_Sweden"
+    }
+   ]
+  },
+  {
+   "h": "The Nobel ceremony",
+   "when": "1911",
+   "lab": "verified",
+   "people": [
+    "marie-curie"
+   ],
+   "t": "The Nobel Prizes are presented every 10 December, the day Alfred Nobel died. Marie Curie came to receive the Chemistry prize in 1911, her second.",
+   "src": [
+    {
+     "n": "Wikipedia: Nobel Prize",
+     "u": "https://en.wikipedia.org/wiki/Nobel_Prize"
+    },
+    {
+     "n": "Wikipedia: Marie Curie",
+     "u": "https://en.wikipedia.org/wiki/Marie_Curie"
+    }
+   ]
+  }
+ ]
+}

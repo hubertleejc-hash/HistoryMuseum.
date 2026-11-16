@@ -1,0 +1,61 @@
+{
+ "id": "air-and-space",
+ "n": "National Air and Space Museum",
+ "short": "Air and Space Museum",
+ "kind": "museum",
+ "where": "Washington, D.C.",
+ "lat": 38.8882,
+ "lon": -77.0199,
+ "r": 200,
+ "rank": 17,
+ "blurb": "The Smithsonian's museum of flight, free, on the National Mall.",
+ "facts": [
+  {
+   "h": "The first airplane",
+   "when": "1903 and 1948",
+   "lab": "verified",
+   "people": [
+    "wilbur-wright",
+    "orville-wright"
+   ],
+   "go": [
+    "#e-first-flight",
+    "The first flight"
+   ],
+   "t": "The 1903 Wright Flyer, which flew 12 seconds at Kitty Hawk, hangs here. Because of a long quarrel with the Smithsonian it spent 20 years in London's Science Museum, and came to Washington only in 1948.",
+   "src": [
+    {
+     "n": "Wikipedia: Wright Flyer",
+     "u": "https://en.wikipedia.org/wiki/Wright_Flyer"
+    },
+    {
+     "n": "Wikipedia: Wright brothers",
+     "u": "https://en.wikipedia.org/wiki/Wright_brothers"
+    }
+   ]
+  },
+  {
+   "h": "Columbia came home",
+   "when": "1969",
+   "lab": "verified",
+   "people": [
+    "armstrong"
+   ],
+   "go": [
+    "#e-moon-landing",
+    "The Moon landing"
+   ],
+   "t": "The Apollo 11 command module Columbia, which carried Neil Armstrong, Buzz Aldrin and Michael Collins to the Moon and back in July 1969, is on show, scorched by re-entry.",
+   "src": [
+    {
+     "n": "Wikipedia: Apollo 11",
+     "u": "https://en.wikipedia.org/wiki/Apollo_11"
+    },
+    {
+     "n": "Wikipedia: National Air and Space Museum",
+     "u": "https://en.wikipedia.org/wiki/National_Air_and_Space_Museum"
+    }
+   ]
+  }
+ ]
+}

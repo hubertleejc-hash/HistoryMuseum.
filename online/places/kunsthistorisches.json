@@ -1,0 +1,49 @@
+{
+ "id": "kunsthistorisches",
+ "n": "Kunsthistorisches Museum",
+ "kind": "museum",
+ "where": "Vienna",
+ "lat": 48.2038,
+ "lon": 16.3616,
+ "r": 200,
+ "rank": 20,
+ "blurb": "The Habsburg collections, opened by Emperor Franz Joseph in 1891.",
+ "facts": [
+  {
+   "h": "The Bruegel room",
+   "when": "1560s",
+   "lab": "verified",
+   "t": "It holds about a dozen paintings by Pieter Bruegel the Elder, the largest group anywhere, among them Hunters in the Snow and the Tower of Babel.",
+   "src": [
+    {
+     "n": "Wikipedia: Kunsthistorisches Museum",
+     "u": "https://en.wikipedia.org/wiki/Kunsthistorisches_Museum"
+    },
+    {
+     "n": "Wikipedia: The Hunters in the Snow",
+     "u": "https://en.wikipedia.org/wiki/The_Hunters_in_the_Snow"
+    }
+   ]
+  },
+  {
+   "h": "Raphael's Madonna of the Meadow",
+   "when": "c. 1506",
+   "lab": "verified",
+   "people": [
+    "raphael",
+    "leonardo"
+   ],
+   "t": "Raphael painted it in Florence around 1506, when he was studying Leonardo's triangle compositions. The Habsburgs bought it in 1663.",
+   "src": [
+    {
+     "n": "Wikipedia: Madonna of the Meadow",
+     "u": "https://en.wikipedia.org/wiki/Madonna_of_the_Meadow"
+    },
+    {
+     "n": "Wikipedia: Kunsthistorisches Museum",
+     "u": "https://en.wikipedia.org/wiki/Kunsthistorisches_Museum"
+    }
+   ]
+  }
+ ]
+}

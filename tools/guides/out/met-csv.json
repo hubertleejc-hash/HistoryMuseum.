@@ -1,0 +1,266 @@
+{
+ "source": "https://github.com/metmuseum/openaccess (MetObjects.csv, CC0), copy of 16 November 2026",
+ "works": {
+  "tiffany-window": {
+   "objectID": 282,
+   "title": "Autumn Landscape",
+   "artistDisplayName": "Tiffany Studios|Agnes F. Northrop",
+   "objectDate": "1923–24",
+   "GalleryNumber": "700",
+   "isPublicDomain": false,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/282"
+  },
+  "wright": {
+   "objectID": 7873,
+   "title": "Living Room from the Francis W. Little House: Windows and paneling",
+   "artistDisplayName": "Frank Lloyd Wright",
+   "objectDate": "1912–14",
+   "GalleryNumber": "745",
+   "isPublicDomain": false,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/7873"
+  },
+  "church": {
+   "objectID": 10481,
+   "title": "Heart of the Andes",
+   "artistDisplayName": "Frederic Edwin Church",
+   "objectDate": "1859",
+   "GalleryNumber": "760",
+   "isPublicDomain": true,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/10481"
+  },
+  "oxbow": {
+   "objectID": 10497,
+   "title": "View from Mount Holyoke, Northampton, Massachusetts, after a Thunderstorm—The Oxbow",
+   "artistDisplayName": "Thomas Cole",
+   "objectDate": "1836",
+   "GalleryNumber": "759",
+   "isPublicDomain": true,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/10497"
+  },
+  "homer": {
+   "objectID": 11122,
+   "title": "The Gulf Stream",
+   "artistDisplayName": "Winslow Homer",
+   "objectDate": "1899; reworked by 1906",
+   "GalleryNumber": "767",
+   "isPublicDomain": true,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/11122"
+  },
+  "clifford": {
+   "objectID": 23939,
+   "title": "Armor Garniture of George Clifford (1558–1605), Third Earl of Cumberland",
+   "artistDisplayName": "Jacob Halder",
+   "objectDate": "1586",
+   "GalleryNumber": "371",
+   "isPublicDomain": true,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/23939"
+  },
+  "yuan-mural": {
+   "objectID": 42716,
+   "title": "元　廣勝寺　藥師佛法會圖壁畫|Buddha of Medicine Bhaishajyaguru (Yaoshi fo)",
+   "artistDisplayName": "",
+   "objectDate": "ca. 1319",
+   "GalleryNumber": "206",
+   "isPublicDomain": true,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/42716"
+  },
+  "thinker": {
+   "objectID": 191811,
+   "title": "The Thinker",
+   "artistDisplayName": "Auguste Rodin|Alexis Rudier",
+   "objectDate": "modeled ca. 1880, cast ca. 1910",
+   "GalleryNumber": "800",
+   "isPublicDomain": true,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/191811"
+  },
+  "studiolo": {
+   "objectID": 198556,
+   "title": "Studiolo from the Ducal Palace in Gubbio",
+   "artistDisplayName": "Giuliano da Maiano|Francesco di Giorgio Martini|Francesco di Giorgio Martini|Benedetto da Maiano",
+   "objectDate": "ca. 1478–82",
+   "GalleryNumber": "501",
+   "isPublicDomain": true,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/198556"
+  },
+  "perseus": {
+   "objectID": 204758,
+   "title": "Perseus with the Head of Medusa",
+   "artistDisplayName": "Antonio Canova|Count Jan and Countess Valeria Tarnowski",
+   "objectDate": "1804–6",
+   "GalleryNumber": "548",
+   "isPublicDomain": true,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/204758"
+  },
+  "ugolino": {
+   "objectID": 204812,
+   "title": "Ugolino and His Sons",
+   "artistDisplayName": "Jean-Baptiste Carpeaux",
+   "objectDate": "1865–67",
+   "GalleryNumber": "548",
+   "isPublicDomain": true,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/204812"
+  },
+  "boscoreale": {
+   "objectID": 247017,
+   "title": "Cubiculum (bedroom) from the Villa of P. Fannius Synistor at Boscoreale",
+   "artistDisplayName": "",
+   "objectDate": "ca. 50–40 BCE",
+   "GalleryNumber": "165",
+   "isPublicDomain": true,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/247017"
+  },
+  "monteleone": {
+   "objectID": 247020,
+   "title": "Bronze chariot inlaid with ivory",
+   "artistDisplayName": "",
+   "objectDate": "2nd quarter of the 6th century BCE",
+   "GalleryNumber": "170",
+   "isPublicDomain": true,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/247020"
+  },
+  "idia": {
+   "objectID": 318622,
+   "title": "Pendant mask of Ìyọ́bà Idià",
+   "artistDisplayName": "Ìgbèsànmwà (ivory- and wood- carving guild) artists",
+   "objectDate": "16th century",
+   "GalleryNumber": "342",
+   "isPublicDomain": true,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/318622"
+  },
+  "joan": {
+   "objectID": 435621,
+   "title": "Joan of Arc",
+   "artistDisplayName": "Jules Bastien-Lepage",
+   "objectDate": "1879",
+   "GalleryNumber": "827",
+   "isPublicDomain": true,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/435621"
+  },
+  "caravaggio": {
+   "objectID": 435844,
+   "title": "The Musicians",
+   "artistDisplayName": "Caravaggio (Michelangelo Merisi)",
+   "objectDate": "1597",
+   "GalleryNumber": "620",
+   "isPublicDomain": true,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/435844"
+  },
+  "goya": {
+   "objectID": 436545,
+   "title": "Manuel Osorio Manrique de Zuñiga (1784–1792)",
+   "artistDisplayName": "Goya (Francisco de Goya y Lucientes)",
+   "objectDate": "1787–88",
+   "GalleryNumber": "641",
+   "isPublicDomain": true,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/436545"
+  },
+  "la-tour": {
+   "objectID": 436838,
+   "title": "The Fortune-Teller",
+   "artistDisplayName": "Georges de La Tour",
+   "objectDate": "probably 1630s",
+   "GalleryNumber": "622",
+   "isPublicDomain": true,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/436838"
+  },
+  "manet": {
+   "objectID": 436964,
+   "title": "Young Lady in 1866",
+   "artistDisplayName": "Edouard Manet",
+   "objectDate": "1866",
+   "GalleryNumber": "810",
+   "isPublicDomain": true,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/436964"
+  },
+  "lilies": {
+   "objectID": 437127,
+   "title": "Bridge over a Pond of Water Lilies",
+   "artistDisplayName": "Claude Monet",
+   "objectDate": "1899",
+   "GalleryNumber": "819",
+   "isPublicDomain": false,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/437127"
+  },
+  "sainte-adresse": {
+   "objectID": 437133,
+   "title": "Garden at Sainte-Adresse",
+   "artistDisplayName": "Claude Monet",
+   "objectDate": "1867",
+   "GalleryNumber": "818",
+   "isPublicDomain": false,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/437133"
+  },
+  "raphael": {
+   "objectID": 437372,
+   "title": "Madonna and Child Enthroned with Saints",
+   "artistDisplayName": "Raphael (Raffaello Sanzio or Santi)",
+   "objectDate": "ca. 1504",
+   "GalleryNumber": "609",
+   "isPublicDomain": true,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/437372"
+  },
+  "nur-al-din": {
+   "objectID": 452102,
+   "title": "Damascus Room",
+   "artistDisplayName": "",
+   "objectDate": "dated 1119 AH/1707 CE",
+   "GalleryNumber": "461",
+   "isPublicDomain": true,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/452102"
+  },
+  "picasso": {
+   "objectID": 488221,
+   "title": "Gertrude Stein",
+   "artistDisplayName": "Pablo Picasso",
+   "objectDate": "1905–6",
+   "GalleryNumber": "965",
+   "isPublicDomain": false,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/488221"
+  },
+  "pollock": {
+   "objectID": 488978,
+   "title": "Autumn Rhythm: Number 30, 1950",
+   "artistDisplayName": "Jackson Pollock",
+   "objectDate": "1950",
+   "GalleryNumber": "899",
+   "isPublicDomain": false,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/488978"
+  },
+  "cristofori": {
+   "objectID": 501788,
+   "title": "Grand Piano",
+   "artistDisplayName": "Bartolomeo Cristofori",
+   "objectDate": "1720",
+   "GalleryNumber": "684",
+   "isPublicDomain": true,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/501788"
+  },
+  "perneb": {
+   "objectID": 543937,
+   "title": "Mastaba Tomb of Perneb",
+   "artistDisplayName": "",
+   "objectDate": "ca. 2381–2323 BCE",
+   "GalleryNumber": "100",
+   "isPublicDomain": true,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/543937"
+  },
+  "hippo": {
+   "objectID": 544227,
+   "title": "Hippopotamus (\"William\")",
+   "artistDisplayName": "",
+   "objectDate": "ca. 1961–1878 B.C.",
+   "GalleryNumber": "111",
+   "isPublicDomain": true,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/544227"
+  },
+  "hatshepsut": {
+   "objectID": 548519,
+   "title": "Large Seated Statue of Hatshepsut",
+   "artistDisplayName": "",
+   "objectDate": "ca. 1473–1458 BCE",
+   "GalleryNumber": "115",
+   "isPublicDomain": true,
+   "objectURL": "https://www.metmuseum.org/art/collection/search/548519"
+  }
+ }
+}

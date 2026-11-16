@@ -1,0 +1,33 @@
+{
+ "id": "asian-civilisations",
+ "n": "Asian Civilisations Museum",
+ "kind": "museum",
+ "where": "Singapore",
+ "lat": 1.2875,
+ "lon": 103.8514,
+ "r": 150,
+ "rank": 46,
+ "blurb": "Pan-Asian art and trade on the Singapore River.",
+ "facts": [
+  {
+   "h": "A Tang ship's cargo",
+   "when": "c. 830",
+   "lab": "verified",
+   "go": [
+    "#e-tang-founded",
+    "The Tang dynasty"
+   ],
+   "t": "The Tang Shipwreck, an Arab-style ship that sank off Belitung around 830, carried about 60,000 Chinese bowls and gold and silver from Tang China towards the Middle East. Most of the cargo is here.",
+   "src": [
+    {
+     "n": "Wikipedia: Belitung shipwreck",
+     "u": "https://en.wikipedia.org/wiki/Belitung_shipwreck"
+    },
+    {
+     "n": "Asian Civilisations Museum",
+     "u": "https://www.nhb.gov.sg/acm"
+    }
+   ]
+  }
+ ]
+}

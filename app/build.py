@@ -40,7 +40,21 @@ for sid, m in scene_cred.items():
         walk_pics[sid]["js"] = "img/scenes/" + sid + ".js"
 walks_js = (d/"walks.js").read_text() if (d/"walks.js").exists() else "window.HISTORY.walks = {};"
 walks_js += "\nwindow.HISTORY.walkPics = " + json.dumps(walk_pics, ensure_ascii=False) + ";"
+# Pictures for the museum guides (tools/guides/gather_guide.py): img/guide/<slug>.jpg, credits in img/guide/credits.json
+guide_dir = d/"img"/"guide"
+for slug, m in (json.loads((guide_dir/"credits.json").read_text()) if (guide_dir/"credits.json").exists() else {}).items():
+    if (guide_dir/(slug + ".jpg")).exists():
+        images[slug] = {"src": "img/guide/" + slug + ".jpg", **m}
 images_js = "window.HISTORY.images = " + json.dumps(images, ensure_ascii=False, indent=0) + ";"
+# "Near me" (online/places/*.json, checked by tools/online/build_feed.py): the list of every place ships in the app,
+# with the pages of the starter set ("starter": true), so those work with no signal. Other pages download by name.
+places = {"list": [], "files": {}}
+for f in sorted((d.parent/"online"/"places").glob("*.json")) if (d.parent/"online"/"places").exists() else []:
+    pl = json.loads(f.read_text()); pl["rev"] = __import__("hashlib").sha1(f.read_bytes()).hexdigest()[:10]
+    places["list"].append({k: pl[k] for k in ("id", "n", "short", "kind", "where", "lat", "lon", "r", "rank", "rev") if k in pl} | ({"guide": 1} if pl.get("guide") else {}))
+    if pl.get("starter"): places["files"][pl["id"]] = pl
+images_js += "\nwindow.HISTORY.places = " + json.dumps(places, ensure_ascii=False, separators=(",", ":")) + ";"
+print("places:", len(places["list"]), "in the list,", len(places["files"]), "pages built in")
 
 # ---------- the Gallery's collection (gathered by tools/art/gather.py) ----------
 # The page loads art/index.js when the Gallery first opens (a small record per work for the grid,
@@ -71,7 +85,7 @@ if catalog:
 print("gallery:", len(catalog), "works,", sum(1 for r in catalog if r["wing"] == "app"), "in the app")
 images_js += "\nwindow.HISTORY.artShards = " + str(SHARDS) + "; window.HISTORY.artCount = " + str(len(catalog)) + ";"
 
-for tag, f in (("/*__DATA__*/", "data.js"), ("/*__CONTENT__*/", "content.js"), ("/*__DEEP__*/", "deep.js"), ("/*__ERAS__*/", "eras.js"), ("/*__WALKS__*/", "WALKS"),
+for tag, f in (("/*__DATA__*/", "data.js"), ("/*__TODAY__*/", "today.js"), ("/*__CONTENT__*/", "content.js"), ("/*__DEEP__*/", "deep.js"), ("/*__ERAS__*/", "eras.js"), ("/*__WALKS__*/", "WALKS"),
                ("/*__CHAPTERS__*/", "chapters.js"), ("/*__IMAGES__*/", None), ("/*__GEO__*/", "geo.js")):
     assert tag in src, tag
     src = src.replace(tag, images_js if f is None else walks_js if f == "WALKS" else (d/f).read_text())
@@ -112,7 +126,9 @@ if app_dir.parent.exists():
     if (app_dir/"img").exists(): shutil.rmtree(app_dir/"img")
     (app_dir/"img").mkdir()
     for slug in images:
-        if images[slug]["src"].startswith(IMG_BASE): shutil.copy2(d/"img"/(slug + ".jpg"), app_dir/"img"/(slug + ".jpg"))
+        if images[slug]["src"].startswith(IMG_BASE):
+            (app_dir/images[slug]["src"]).parent.mkdir(exist_ok=True)
+            shutil.copy2(d/images[slug]["src"], app_dir/images[slug]["src"])
     if walk_pics:
         (app_dir/"img"/"scenes").mkdir()
         for sid, m in walk_pics.items():

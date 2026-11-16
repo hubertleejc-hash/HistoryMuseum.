@@ -1,0 +1,44 @@
+{
+ "id": "national-museum-china",
+ "n": "National Museum of China",
+ "kind": "museum",
+ "where": "Beijing",
+ "lat": 39.9035,
+ "lon": 116.401,
+ "r": 350,
+ "rank": 7,
+ "blurb": "One of the largest museums in the world by floor space, on the east side of Tiananmen Square.",
+ "facts": [
+  {
+   "h": "Two museums made one",
+   "when": "1959 to 2011",
+   "lab": "verified",
+   "t": "It was formed in 2003 from the Museum of Chinese History and the Museum of the Chinese Revolution, which had shared the building since 1959. After rebuilding it reopened in 2011 with about 200,000 square metres of space.",
+   "src": [
+    {
+     "n": "Wikipedia: National Museum of China",
+     "u": "https://en.wikipedia.org/wiki/National_Museum_of_China"
+    },
+    {
+     "n": "National Museum of China",
+     "u": "https://en.chnmuseum.cn/"
+    }
+   ]
+  },
+  {
+   "h": "The biggest bronze of ancient China",
+   "lab": "verified",
+   "t": "The Houmuwu ding, a ritual cauldron cast about 3,200 years ago in the Shang dynasty, weighs over 800 kilograms. It is the heaviest bronze vessel known from ancient China.",
+   "src": [
+    {
+     "n": "Wikipedia: Houmuwu ding",
+     "u": "https://en.wikipedia.org/wiki/Houmuwu_ding"
+    },
+    {
+     "n": "Wikipedia: National Museum of China",
+     "u": "https://en.wikipedia.org/wiki/National_Museum_of_China"
+    }
+   ]
+  }
+ ]
+}

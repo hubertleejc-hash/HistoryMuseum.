@@ -1,0 +1,37 @@
+{
+ "id": "kitty-hawk",
+ "n": "Wright Brothers National Memorial",
+ "short": "Kitty Hawk",
+ "kind": "site",
+ "where": "Kitty Hawk, North Carolina",
+ "lat": 36.014,
+ "lon": -75.668,
+ "r": 1500,
+ "blurb": "The windy dunes where the first powered airplane flew.",
+ "facts": [
+  {
+   "h": "Twelve seconds",
+   "when": "1903",
+   "lab": "verified",
+   "people": [
+    "orville-wright",
+    "wilbur-wright"
+   ],
+   "go": [
+    "#place-air-and-space",
+    "The Flyer today"
+   ],
+   "t": "On 17 December 1903 Orville Wright flew 37 metres in 12 seconds into a strong wind. Wilbur flew the fourth flight that day, 260 metres in 59 seconds. Five local men watched.",
+   "src": [
+    {
+     "n": "Wikipedia: Wright Flyer",
+     "u": "https://en.wikipedia.org/wiki/Wright_Flyer"
+    },
+    {
+     "n": "National Park Service: Wright Brothers",
+     "u": "https://www.nps.gov/wrbr/"
+    }
+   ]
+  }
+ ]
+}

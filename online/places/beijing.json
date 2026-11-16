@@ -1,0 +1,71 @@
+{
+ "id": "beijing",
+ "n": "Beijing",
+ "kind": "city",
+ "where": "China",
+ "lat": 39.9042,
+ "lon": 116.4074,
+ "r": 20000,
+ "blurb": "Capital of the Yuan, Ming and Qing, and of China today.",
+ "facts": [
+  {
+   "h": "Kublai Khan's capital",
+   "when": "1267",
+   "lab": "verified",
+   "people": [
+    "kublai-khan",
+    "marco-polo"
+   ],
+   "t": "Kublai Khan built a new capital, Dadu, here from 1267. Marco Polo described its walls and its paper money. Ming Beijing was built on top of it.",
+   "src": [
+    {
+     "n": "Wikipedia: Khanbaliq",
+     "u": "https://en.wikipedia.org/wiki/Khanbaliq"
+    },
+    {
+     "n": "Wikipedia: Kublai Khan",
+     "u": "https://en.wikipedia.org/wiki/Kublai_Khan"
+    }
+   ]
+  },
+  {
+   "h": "The Temple of Heaven",
+   "when": "1420",
+   "lab": "verified",
+   "t": "The emperors came here each winter solstice to pray for good harvests. The round Hall of Prayer stands on a square yard, for a round heaven over a square earth.",
+   "src": [
+    {
+     "n": "Wikipedia: Temple of Heaven",
+     "u": "https://en.wikipedia.org/wiki/Temple_of_Heaven"
+    },
+    {
+     "n": "UNESCO: Temple of Heaven",
+     "u": "https://whc.unesco.org/en/list/881/"
+    }
+   ]
+  },
+  {
+   "h": "The Great Wall at Badaling",
+   "when": "1505",
+   "lab": "verified",
+   "people": [
+    "qin-shi-huang"
+   ],
+   "go": [
+    "#place-palace-museum",
+    "The Forbidden City"
+   ],
+   "t": "The most visited stretch of the Great Wall, about 70 km north-west of the city, was built by the Ming in 1505. Earlier walls on other lines go back to Qin Shi Huang and before.",
+   "src": [
+    {
+     "n": "Wikipedia: Badaling",
+     "u": "https://en.wikipedia.org/wiki/Badaling"
+    },
+    {
+     "n": "Wikipedia: Great Wall of China",
+     "u": "https://en.wikipedia.org/wiki/Great_Wall_of_China"
+    }
+   ]
+  }
+ ]
+}

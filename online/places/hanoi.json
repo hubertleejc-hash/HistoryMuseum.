@@ -1,0 +1,31 @@
+{
+ "id": "hanoi",
+ "n": "Hanoi",
+ "kind": "city",
+ "where": "Vietnam",
+ "lat": 21.0278,
+ "lon": 105.8342,
+ "r": 10000,
+ "blurb": "A thousand-year-old capital of lakes and temples.",
+ "facts": [
+  {
+   "h": "The Temple of Literature",
+   "when": "1070",
+   "lab": "verified",
+   "people": [
+    "confucius"
+   ],
+   "t": "Founded in 1070 to honour Confucius, it became Vietnam's first university in 1076. Stone turtles carry the names of the scholars who passed the royal exams.",
+   "src": [
+    {
+     "n": "Wikipedia: Temple of Literature, Hanoi",
+     "u": "https://en.wikipedia.org/wiki/Temple_of_Literature,_Hanoi"
+    },
+    {
+     "n": "Wikipedia: Confucius",
+     "u": "https://en.wikipedia.org/wiki/Confucius"
+    }
+   ]
+  }
+ ]
+}

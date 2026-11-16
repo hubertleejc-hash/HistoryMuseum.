@@ -1,0 +1,45 @@
+{
+ "id": "national-museum-india",
+ "n": "National Museum",
+ "kind": "museum",
+ "where": "New Delhi",
+ "lat": 28.6119,
+ "lon": 77.2193,
+ "r": 200,
+ "rank": 30,
+ "blurb": "India's largest museum, with about 200,000 objects over 5,000 years.",
+ "facts": [
+  {
+   "h": "From an exhibition in London",
+   "when": "1949 to 1960",
+   "lab": "verified",
+   "t": "Indian treasures sent to the Royal Academy in London in 1947 and 1948 were shown in Delhi's Rashtrapati Bhavan when they came back. That show became the National Museum, which opened in its own building in 1960.",
+   "src": [
+    {
+     "n": "Wikipedia: National Museum, New Delhi",
+     "u": "https://en.wikipedia.org/wiki/National_Museum,_New_Delhi"
+    },
+    {
+     "n": "National Museum, New Delhi",
+     "u": "https://nationalmuseumindia.gov.in/en"
+    }
+   ]
+  },
+  {
+   "h": "The dancing girl of Mohenjo-daro",
+   "when": "c. 2300 BC",
+   "lab": "verified",
+   "t": "A bronze girl, 10.5 centimetres tall, cast about 4,500 years ago in the Indus Valley, is one of the oldest bronze statues known.",
+   "src": [
+    {
+     "n": "Wikipedia: Dancing Girl (prehistoric sculpture)",
+     "u": "https://en.wikipedia.org/wiki/Dancing_Girl_(prehistoric_sculpture)"
+    },
+    {
+     "n": "Wikipedia: Mohenjo-daro",
+     "u": "https://en.wikipedia.org/wiki/Mohenjo-daro"
+    }
+   ]
+  }
+ ]
+}

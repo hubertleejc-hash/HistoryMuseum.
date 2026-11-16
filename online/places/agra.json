@@ -1,0 +1,74 @@
+{
+ "id": "agra",
+ "n": "Agra and the Taj Mahal",
+ "short": "Agra",
+ "kind": "site",
+ "where": "Agra, India",
+ "lat": 27.1751,
+ "lon": 78.0421,
+ "r": 2500,
+ "blurb": "The Mughal capital, with the most famous tomb in the world.",
+ "facts": [
+  {
+   "h": "A tomb for Mumtaz Mahal",
+   "when": "1632 to 1653",
+   "lab": "verified",
+   "people": [
+    "shah-jahan"
+   ],
+   "go": [
+    "#e-taj-mahal",
+    "The Taj Mahal"
+   ],
+   "t": "Shah Jahan began the Taj Mahal in 1632 for his wife Mumtaz Mahal, who died giving birth to their fourteenth child. About 20,000 workers built it over about twenty years.",
+   "src": [
+    {
+     "n": "Wikipedia: Taj Mahal",
+     "u": "https://en.wikipedia.org/wiki/Taj_Mahal"
+    },
+    {
+     "n": "UNESCO: Taj Mahal",
+     "u": "https://whc.unesco.org/en/list/252/"
+    }
+   ]
+  },
+  {
+   "h": "A view from prison",
+   "when": "1658 to 1666",
+   "lab": "verified",
+   "people": [
+    "shah-jahan"
+   ],
+   "t": "Shah Jahan's son Aurangzeb took the throne in 1658 and kept his father under guard in Agra Fort, where he could see the Taj across the river. He was buried beside his wife.",
+   "src": [
+    {
+     "n": "Wikipedia: Shah Jahan",
+     "u": "https://en.wikipedia.org/wiki/Shah_Jahan"
+    },
+    {
+     "n": "Wikipedia: Agra Fort",
+     "u": "https://en.wikipedia.org/wiki/Agra_Fort"
+    }
+   ]
+  },
+  {
+   "h": "Akbar's capital nearby",
+   "when": "1571 to 1585",
+   "lab": "verified",
+   "people": [
+    "akbar"
+   ],
+   "t": "Akbar built a new capital, Fatehpur Sikri, 37 km away, from 1571, and left it about 15 years later.",
+   "src": [
+    {
+     "n": "Wikipedia: Fatehpur Sikri",
+     "u": "https://en.wikipedia.org/wiki/Fatehpur_Sikri"
+    },
+    {
+     "n": "Wikipedia: Akbar",
+     "u": "https://en.wikipedia.org/wiki/Akbar"
+    }
+   ]
+  }
+ ]
+}
