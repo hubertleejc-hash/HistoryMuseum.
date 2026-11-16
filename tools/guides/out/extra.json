@@ -822,22 +822,8 @@
    ]
   },
   "lv-recamier": {
-   "pic": {
-    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/%28Venice%29_Portrait_of_Madame_R%C3%A9camier_after_Fran%C3%A7ois_G%C3%A9rard_-_Museo_Correr.jpg/960px-%28Venice%29_Portrait_of_Madame_R%C3%A9camier_after_Fran%C3%A7ois_G%C3%A9rard_-_Museo_Correr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 900,
-    "h": 1141,
-    "page": "https://commons.wikimedia.org/wiki/File:(Venice)_Portrait_of_Madame_R%C3%A9camier_after_Fran%C3%A7ois_G%C3%A9rard_-_Museo_Correr.jpg",
-    "lic": "Public domain",
-    "cr": "Didier Descouens, via Wikimedia Commons",
-    "file": "File:(Venice) Portrait of Madame Récamier after François Gérard - Museo Correr.jpg"
-   },
-   "tried": [
-    [
-     "File:(Venice) Portrait of Madame Récamier after François Gérard - Museo Correr.jpg",
-     "Public domain",
-     6806
-    ]
-   ]
+   "pic": null,
+   "tried": []
   },
   "lv-bather": {
    "pic": {
@@ -1055,22 +1041,8 @@
    ]
   },
   "bm-cat": {
-   "pic": {
-    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Gayer-Anderson_Cat%2C_British_Museum.jpg/960px-Gayer-Anderson_Cat%2C_British_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 900,
-    "h": 1396,
-    "page": "https://commons.wikimedia.org/wiki/File:Gayer-Anderson_Cat,_British_Museum.jpg",
-    "lic": "CC BY-SA 2.0",
-    "cr": "Peter D. Tillman from USA, via Wikimedia Commons",
-    "file": "File:Gayer-Anderson Cat, British Museum.jpg"
-   },
-   "tried": [
-    [
-     "File:Gayer-Anderson Cat, British Museum.jpg",
-     "CC BY-SA 2.0",
-     2282
-    ]
-   ]
+   "pic": null,
+   "tried": []
   },
   "bm-obelisk": {
    "pic": {
@@ -1278,40 +1250,12 @@
    ]
   },
   "bm-oxus": {
-   "pic": {
-    "u": "https://upload.wikimedia.org/wikipedia/commons/9/92/Model_of_a_chariot_from_the_Oxus_Treasure_by_Nickmard_Khoey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "w": 900,
-    "h": 822,
-    "page": "https://commons.wikimedia.org/wiki/File:Model_of_a_chariot_from_the_Oxus_Treasure_by_Nickmard_Khoey.jpg",
-    "lic": "CC BY-SA 2.0",
-    "cr": "Nickmard_Khoey, via Wikimedia Commons",
-    "file": "File:Model of a chariot from the Oxus Treasure by Nickmard Khoey.jpg"
-   },
-   "tried": [
-    [
-     "File:Model of a chariot from the Oxus Treasure by Nickmard Khoey.jpg",
-     "CC BY-SA 2.0",
-     800
-    ]
-   ]
+   "pic": null,
+   "tried": []
   },
   "bm-flood": {
-   "pic": {
-    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/British_Museum_Flood_Tablet_1.jpg/960px-British_Museum_Flood_Tablet_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 900,
-    "h": 970,
-    "page": "https://commons.wikimedia.org/wiki/File:British_Museum_Flood_Tablet_1.jpg",
-    "lic": "CC BY-SA 4.0",
-    "cr": "Photograph by Mike Peel (www.mikepeel.net)., via Wikimedia Commons",
-    "file": "File:British Museum Flood Tablet 1.jpg"
-   },
-   "tried": [
-    [
-     "File:British Museum Flood Tablet 1.jpg",
-     "CC BY-SA 4.0",
-     2493
-    ]
-   ]
+   "pic": null,
+   "tried": []
   },
   "bm-standard": {
    "pic": {
@@ -1560,37 +1504,8 @@
    ]
   },
   "bm-hoxne": {
-   "pic": {
-    "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/British_Museum_Hoxne_Hoard_Tigress.jpg/960px-British_Museum_Hoxne_Hoard_Tigress.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "w": 900,
-    "h": 1070,
-    "page": "https://commons.wikimedia.org/wiki/File:British_Museum_Hoxne_Hoard_Tigress.jpg",
-    "lic": "CC0",
-    "cr": "Unknown, via Wikimedia Commons",
-    "file": "File:British Museum Hoxne Hoard Tigress.jpg"
-   },
-   "tried": [
-    [
-     "File:At the British Museum 2024 207.jpg",
-     "CC BY-SA 4.0",
-     3892
-    ],
-    [
-     "File:At the British Museum 2024 214.jpg",
-     "CC BY-SA 4.0",
-     4640
-    ],
-    [
-     "File:British Museum Hoxne Hoard Tigress.png",
-     "CC0",
-     220
-    ],
-    [
-     "File:British Museum Hoxne Hoard Tigress.jpg",
-     "CC0",
-     1016
-    ]
-   ]
+   "pic": null,
+   "tried": []
   },
   "bm-hinton": {
    "pic": {
