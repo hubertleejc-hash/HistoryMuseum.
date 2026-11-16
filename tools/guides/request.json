@@ -1,5 +1,5 @@
 {
- "note": "Works for The Met 1-hour route. Each is found by Met object id, or by a search (q) checked against the artist and a title word. Edit and push to run 'Gather guide'.",
+ "note": "Works for The Met routes (1 hour to a half day). Each is found by Met object id, or by a search (q) checked against the artist and a title word. Edit and push to run 'Gather guide'.",
  "met": [
   {
    "key": "dendur",
@@ -118,6 +118,169 @@
    "artist": "Degas",
    "title": "Dance Class",
    "q": "Degas The Dance Class"
+  },
+  {
+   "key": "monteleone",
+   "q": "Monteleone chariot",
+   "title": "Chariot"
+  },
+  {
+   "key": "boscoreale",
+   "q": "Cubiculum Boscoreale Fannius Synistor",
+   "title": "Boscoreale"
+  },
+  {
+   "key": "perneb",
+   "q": "Tomb of Perneb",
+   "title": "Perneb"
+  },
+  {
+   "key": "hatshepsut",
+   "q": "Seated Statue of Hatshepsut",
+   "title": "Hatshepsut"
+  },
+  {
+   "key": "hippo",
+   "q": "Hippopotamus faience William",
+   "title": "Hippopotamus"
+  },
+  {
+   "key": "oxbow",
+   "q": "Oxbow Thomas Cole",
+   "title": "Oxbow",
+   "artist": "Cole"
+  },
+  {
+   "key": "wright",
+   "q": "Frank Lloyd Wright Little House living room",
+   "title": "Little",
+   "artist": "Wright"
+  },
+  {
+   "key": "church",
+   "q": "Heart of the Andes",
+   "title": "Andes",
+   "artist": "Church"
+  },
+  {
+   "key": "homer",
+   "q": "The Gulf Stream Winslow Homer",
+   "title": "Gulf Stream",
+   "artist": "Homer"
+  },
+  {
+   "key": "gauguin",
+   "q": "Two Tahitian Women",
+   "title": "Tahitian",
+   "artist": "Gauguin"
+  },
+  {
+   "key": "joan",
+   "q": "Joan of Arc Bastien-Lepage",
+   "title": "Joan",
+   "artist": "Bastien"
+  },
+  {
+   "key": "manet",
+   "q": "Young Lady in 1866",
+   "title": "Young Lady",
+   "artist": "Manet"
+  },
+  {
+   "key": "thinker",
+   "q": "The Thinker Rodin",
+   "title": "Thinker",
+   "artist": "Rodin"
+  },
+  {
+   "key": "caravaggio",
+   "q": "The Musicians Caravaggio",
+   "title": "Musicians",
+   "artist": "Caravaggio"
+  },
+  {
+   "key": "raphael",
+   "q": "Madonna and Child Enthroned with Saints Raphael",
+   "title": "Madonna",
+   "artist": "Raphael"
+  },
+  {
+   "key": "la-tour",
+   "q": "The Fortune-Teller La Tour",
+   "title": "Fortune",
+   "artist": "La Tour"
+  },
+  {
+   "key": "goya",
+   "q": "Manuel Osorio Manrique de Zuniga",
+   "title": "Osorio",
+   "artist": "Goya"
+  },
+  {
+   "key": "cristofori",
+   "q": "Cristofori piano",
+   "title": "Piano",
+   "artist": "Cristofori"
+  },
+  {
+   "key": "nimrud",
+   "q": "Human-headed winged lion Nimrud",
+   "title": "lion"
+  },
+  {
+   "key": "nur-al-din",
+   "q": "Damascus Room Nur al-Din",
+   "title": "Room"
+  },
+  {
+   "key": "astor",
+   "q": "Astor Court",
+   "title": "Astor"
+  },
+  {
+   "key": "yuan-mural",
+   "q": "Paradise of Bhaishajyaguru",
+   "title": "Bhaishajyaguru"
+  },
+  {
+   "key": "pollock",
+   "q": "Autumn Rhythm Pollock",
+   "title": "Autumn",
+   "artist": "Pollock"
+  },
+  {
+   "key": "picasso",
+   "q": "Gertrude Stein Picasso",
+   "title": "Gertrude",
+   "artist": "Picasso"
+  },
+  {
+   "key": "ugolino",
+   "q": "Ugolino and His Sons",
+   "title": "Ugolino",
+   "artist": "Carpeaux"
+  },
+  {
+   "key": "clifford",
+   "q": "Armor of George Clifford",
+   "title": "Clifford"
+  },
+  {
+   "key": "studiolo",
+   "q": "Studiolo from the Ducal Palace in Gubbio",
+   "title": "Studiolo"
+  },
+  {
+   "key": "tiffany-window",
+   "q": "Autumn Landscape Tiffany window",
+   "title": "Autumn",
+   "artist": "Tiffany"
+  },
+  {
+   "key": "sainte-adresse",
+   "q": "Garden at Sainte-Adresse",
+   "title": "Sainte-Adresse",
+   "artist": "Monet"
   }
  ],
  "louvre": [
@@ -352,6 +515,433 @@
    "q": "British Museum Reading Room",
    "must": [
     "reading"
+   ]
+  },
+  {
+   "key": "lv-gudea",
+   "q": "Gudea Louvre statue",
+   "must": [
+    "gudea"
+   ]
+  },
+  {
+   "key": "lv-archers",
+   "q": "Frieze of archers Susa Louvre",
+   "must": [
+    "archer"
+   ]
+  },
+  {
+   "key": "lv-vultures",
+   "q": "Stele of the Vultures Louvre",
+   "must": [
+    "vulture"
+   ]
+  },
+  {
+   "key": "lv-marly",
+   "q": "Marly Horses Coustou Louvre",
+   "must": [
+    "marly"
+   ]
+  },
+  {
+   "key": "lv-pot",
+   "q": "Tomb of Philippe Pot Louvre",
+   "must": [
+    "pot"
+   ]
+  },
+  {
+   "key": "lv-moat",
+   "q": "Louvre medieval moat donjon Philippe Auguste",
+   "must": [
+    "louvre"
+   ]
+  },
+  {
+   "key": "lv-sphinx",
+   "q": "Great Sphinx of Tanis Louvre",
+   "must": [
+    "sphinx"
+   ]
+  },
+  {
+   "key": "lv-gladiator",
+   "q": "Borghese Gladiator Louvre",
+   "must": [
+    "gladiat"
+   ]
+  },
+  {
+   "key": "lv-hermaphroditus",
+   "q": "Sleeping Hermaphroditus Louvre",
+   "must": [
+    "hermaphrod"
+   ]
+  },
+  {
+   "key": "lv-psyche",
+   "q": "Psyche Revived by Cupid's Kiss Canova Louvre",
+   "must": [
+    "psych"
+   ]
+  },
+  {
+   "key": "lv-cellini",
+   "q": "Nymph of Fontainebleau Cellini Louvre",
+   "must": [
+    "fontainebleau"
+   ]
+  },
+  {
+   "key": "lv-baptistere",
+   "q": "Baptistère de Saint Louis Louvre",
+   "must": [
+    "saint louis"
+   ]
+  },
+  {
+   "key": "lv-pyxis",
+   "q": "Pyxis of al-Mughira Louvre",
+   "must": [
+    "mughira"
+   ]
+  },
+  {
+   "key": "lv-apollon",
+   "q": "Galerie d'Apollon Louvre",
+   "must": [
+    "apollon"
+   ]
+  },
+  {
+   "key": "lv-regent",
+   "q": "Regent Diamond Louvre",
+   "must": [
+    "regent"
+   ]
+  },
+  {
+   "key": "lv-cimabue",
+   "q": "Cimabue Maesta Louvre",
+   "must": [
+    "cimabue"
+   ]
+  },
+  {
+   "key": "lv-rocks",
+   "q": "Leonardo da Vinci Virgin of the Rocks Louvre",
+   "must": [
+    "rocks"
+   ]
+  },
+  {
+   "key": "lv-castiglione",
+   "q": "Raphael Portrait of Baldassare Castiglione",
+   "must": [
+    "castiglione"
+   ]
+  },
+  {
+   "key": "lv-glove",
+   "q": "Titian Man with a Glove Louvre",
+   "must": [
+    "glove"
+   ]
+  },
+  {
+   "key": "lv-horatii",
+   "q": "Jacques-Louis David Oath of the Horatii",
+   "must": [
+    "horati"
+   ]
+  },
+  {
+   "key": "lv-recamier",
+   "q": "Jacques-Louis David Madame Récamier",
+   "must": [
+    "camier"
+   ]
+  },
+  {
+   "key": "lv-bather",
+   "q": "Ingres Valpinçon Bather",
+   "must": [
+    "baigneuse"
+   ]
+  },
+  {
+   "key": "lv-sardanapalus",
+   "q": "Delacroix Death of Sardanapalus",
+   "must": [
+    "sardanapal"
+   ]
+  },
+  {
+   "key": "lv-poussin",
+   "q": "Poussin Et in Arcadia ego Louvre",
+   "must": [
+    "arcadia"
+   ]
+  },
+  {
+   "key": "lv-pierrot",
+   "q": "Watteau Pierrot Gilles Louvre",
+   "must": [
+    "watteau"
+   ]
+  },
+  {
+   "key": "lv-erasmus",
+   "q": "Holbein Erasmus Louvre",
+   "must": [
+    "erasmus"
+   ]
+  },
+  {
+   "key": "lv-rubens",
+   "q": "Rubens Marie de Medici cycle Louvre",
+   "must": [
+    "rubens"
+   ]
+  },
+  {
+   "key": "lv-bathsheba",
+   "q": "Rembrandt Bathsheba at Her Bath",
+   "must": [
+    "bathsheba"
+   ]
+  },
+  {
+   "key": "lv-astronomer",
+   "q": "Johannes Vermeer The Astronomer",
+   "must": [
+    "astronom"
+   ]
+  },
+  {
+   "key": "lv-napoleon3",
+   "q": "Appartements Napoléon III Louvre",
+   "must": [
+    "napol"
+   ]
+  },
+  {
+   "key": "bm-amenhotep",
+   "q": "Colossal head Amenhotep III British Museum",
+   "must": [
+    "amenhotep"
+   ]
+  },
+  {
+   "key": "bm-cat",
+   "q": "Gayer-Anderson cat British Museum",
+   "must": [
+    "gayer"
+   ]
+  },
+  {
+   "key": "bm-obelisk",
+   "q": "Black Obelisk of Shalmaneser III British Museum",
+   "must": [
+    "obelisk"
+   ]
+  },
+  {
+   "key": "bm-bassae",
+   "q": "Bassae frieze British Museum",
+   "must": [
+    "bassae"
+   ]
+  },
+  {
+   "key": "bm-nereid",
+   "q": "Nereid Monument British Museum",
+   "must": [
+    "nereid"
+   ]
+  },
+  {
+   "key": "bm-mausoleum",
+   "q": "Mausoleum of Halicarnassus British Museum",
+   "must": [
+    "mausol"
+   ]
+  },
+  {
+   "key": "bm-benin",
+   "q": "Benin plaque British Museum",
+   "must": [
+    "benin"
+   ]
+  },
+  {
+   "key": "bm-ife",
+   "q": "Ife head British Museum",
+   "must": [
+    "ife"
+   ]
+  },
+  {
+   "key": "bm-serpent",
+   "q": "Double-headed serpent British Museum",
+   "must": [
+    "serpent"
+   ]
+  },
+  {
+   "key": "bm-yaxchilan",
+   "q": "Yaxchilan Lintel 24 British Museum",
+   "must": [
+    "lintel"
+   ]
+  },
+  {
+   "key": "bm-amaravati",
+   "q": "Amaravati British Museum",
+   "must": [
+    "amaravati"
+   ]
+  },
+  {
+   "key": "bm-cyrus",
+   "q": "Cyrus Cylinder British Museum",
+   "must": [
+    "cyrus"
+   ]
+  },
+  {
+   "key": "bm-oxus",
+   "q": "Oxus Treasure chariot British Museum",
+   "must": [
+    "oxus"
+   ]
+  },
+  {
+   "key": "bm-flood",
+   "q": "Flood tablet Gilgamesh British Museum",
+   "must": [
+    "flood"
+   ]
+  },
+  {
+   "key": "bm-standard",
+   "q": "Standard of Ur British Museum",
+   "must": [
+    "standard"
+   ]
+  },
+  {
+   "key": "bm-ram",
+   "q": "Ram in a Thicket British Museum",
+   "must": [
+    "ram"
+   ]
+  },
+  {
+   "key": "bm-lyre",
+   "q": "Lyre of Ur British Museum",
+   "must": [
+    "lyre"
+   ]
+  },
+  {
+   "key": "bm-nebamun",
+   "q": "Nebamun hunting in the marshes British Museum",
+   "must": [
+    "nebamun"
+   ]
+  },
+  {
+   "key": "bm-ginger",
+   "q": "Gebelein predynastic mummy British Museum",
+   "must": [
+    "gebelein"
+   ]
+  },
+  {
+   "key": "bm-eidmar",
+   "q": "Eid Mar denarius Brutus",
+   "must": [
+    "brutus"
+   ]
+  },
+  {
+   "key": "bm-augustus",
+   "q": "Meroe Head of Augustus British Museum",
+   "must": [
+    "augustus"
+   ]
+  },
+  {
+   "key": "bm-lycurgus",
+   "q": "Lycurgus Cup British Museum",
+   "must": [
+    "lycurgus"
+   ]
+  },
+  {
+   "key": "bm-goldcup",
+   "q": "Royal Gold Cup British Museum",
+   "must": [
+    "gold cup"
+   ]
+  },
+  {
+   "key": "bm-galleon",
+   "q": "Mechanical galleon nef British Museum",
+   "must": [
+    "galleon"
+   ]
+  },
+  {
+   "key": "bm-mildenhall",
+   "q": "Mildenhall Great Dish British Museum",
+   "must": [
+    "mildenhall"
+   ]
+  },
+  {
+   "key": "bm-hoxne",
+   "q": "Hoxne Hoard British Museum",
+   "must": [
+    "hoxne"
+   ]
+  },
+  {
+   "key": "bm-hinton",
+   "q": "Hinton St Mary mosaic British Museum",
+   "must": [
+    "hinton"
+   ]
+  },
+  {
+   "key": "bm-torc",
+   "q": "Snettisham Great Torc British Museum",
+   "must": [
+    "torc"
+   ]
+  },
+  {
+   "key": "bm-battersea",
+   "q": "Battersea Shield British Museum",
+   "must": [
+    "battersea"
+   ]
+  },
+  {
+   "key": "bm-mold",
+   "q": "Mold gold cape British Museum",
+   "must": [
+    "mold"
+   ]
+  },
+  {
+   "key": "bm-david",
+   "q": "David Vases British Museum",
+   "must": [
+    "david"
    ]
   }
  ]

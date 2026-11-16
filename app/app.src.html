@@ -659,6 +659,12 @@ button:active, .chip:active, .btn:active, .tabbar a:active, .seg a:active, .lib-
 .stop-end{font-style:italic; color:var(--ink-3)}
 .stop{scroll-margin-top:calc(14px + env(safe-area-inset-top, 0px))}
 .guide-floor{margin-top:8px}
+.route-pick{display:flex; flex-direction:column; gap:8px}
+.route-pick .seg{align-self:flex-start}
+.route-pick .seg button{padding:8px 14px; border:0; border-radius:8px; background:none; color:var(--ink-2); font:500 14px/1.1 var(--ui); white-space:nowrap; cursor:pointer}
+.route-pick .seg button.on{background:var(--surface); color:var(--ink); box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.route-pick small{color:var(--ink-3); font-size:13px}
+.stop-must{font:600 10px/1 var(--ui); letter-spacing:.08em; text-transform:uppercase; padding:4px 6px; border-radius:5px; border:1px solid var(--accent); color:var(--accent)}
 .w-scrim{position:fixed; inset:0; z-index:44; background:rgba(0,0,0,.38); border:0; padding:0; cursor:pointer}
 .w-scrim[hidden]{display:none}
 .w-hall{position:fixed; left:0; right:0; bottom:0; z-index:45; max-height:78vh; overflow-y:auto; overscroll-behavior:contain;
@@ -3116,7 +3122,7 @@ function viewNear(keep){
   else if (nearState === "denied") box = `<p>Location is off for this app, and that is fine: pick a place below.</p><p class="w-note">To turn it on later: Settings › Contemporaries › Location › While Using the App.</p>`;
   else if (nearState === "error") box = `<p>We could not find where you are just now. Pick a place below, or try again.</p><button type="button" class="btn" data-locate>Try again</button>`;
   else if (nearState === "ok") box = at
-    ? `<span class="eyebrow" style="color:var(--accent)">You seem to be at</span><h2 class="near-at">${esc(at.p.n)}</h2><div class="row-btns">${at.p.guide ? `<a class="btn" href="#guide-${at.p.id}">Start the one-hour guide</a>` : ""}<a class="btn${at.p.guide ? " ghost" : ""}" href="#place-${at.p.id}">What happened here</a></div>`
+    ? `<span class="eyebrow" style="color:var(--accent)">You seem to be at</span><h2 class="near-at">${esc(at.p.n)}</h2><div class="row-btns">${at.p.guide ? `<a class="btn" href="#guide-${at.p.id}">Start the guide</a>` : ""}<a class="btn${at.p.guide ? " ghost" : ""}" href="#place-${at.p.id}">What happened here</a></div>`
     : `<p>We have no guide or place story close to you yet.${nearest ? ` The nearest place is <b>${esc(nearest.p.n)}</b>, ${kmText(nearest.k)} away.` : ""} New places arrive online, without a new install.</p><button type="button" class="btn ghost" data-locate>Check again</button>`;
   else box = `<p>Find the museum guide, or the history of the town you are standing in.</p><button type="button" class="btn" data-locate>${PIN_SVG}<span>Use my location</span></button>${PRIV}`;
   const closeOthers = close.filter(x => !at || x.p.id !== at.p.id);
@@ -3150,11 +3156,11 @@ function plNeed(id, draw){
 }
 function viewPlace(id){
   const f = plNeed(id, () => viewPlace(id)); if (!f) return;
-  const g = f.guide, gimgs = g ? g.stops.map(s => IMG[s.img] ? IMG[s.img].src : s.pic && plPicOk(s.pic.u) && s.pic.u).filter(Boolean).slice(0, 4) : [];
+  const g = f.guide, gr = g ? gRoutes(g) : [], gall = g ? gr[gr.length - 1].stops : [], gimgs = g ? g.stops.map(s => IMG[s.img] ? IMG[s.img].src : s.pic && plPicOk(s.pic.u) && s.pic.u).filter(Boolean).slice(0, 4) : [];
   view.innerHTML = `<section class="near pl-page">
     <a class="near-back" href="#near">‹ Near me</a>
     <div><span class="eyebrow" style="color:var(--accent)">${esc((PL_KIND.find(k => k[0] === f.kind) || ["", "Place"])[1].replace(/s$/, "").replace("Cities and town", "City"))} · ${esc(f.where || "")}</span><h1 class="pl-h">${esc(f.n)}</h1><p class="pl-blurb">${esc(f.blurb || "")}</p></div>
-    ${g ? `<a class="guide-card" href="#guide-${f.id}"><span class="eyebrow" style="color:var(--accent)">${g.mins || 60}-minute guide</span><h2>${esc(g.n)}</h2><p>${plural(g.stops.length, "stop")} · ${esc([...new Set(g.stops.map(s => (g.floors || {})[s.floor] || "Floor " + s.floor))].join(", "))} · in walking order</p>${gimgs.length ? `<span class="guide-thumbs">${gimgs.map(u => `<img src="${esc(u)}" alt="" loading="lazy" decoding="async">`).join("")}</span>` : ""}<span class="btn">Start the guide</span></a>` : ""}
+    ${g ? `<a class="guide-card" href="#guide-${f.id}"><span class="eyebrow" style="color:var(--accent)">${gr.length > 1 ? "Guides from 1 hour to a half day" : esc(minsText(gr[0].mins)) + " guide"}</span><h2>${esc(gr.length > 1 ? "Walk " + (f.short || f.n) + " your way" : g.n)}</h2><p>${gr.length > 1 ? esc(gr.map(x => minsText(x.mins) + " " + x.stops.length).join(" · ")) + " stops" : plural(g.stops.length, "stop")} · ${esc([...new Set(gall.map(s => (g.floors || {})[s.floor] || "Floor " + s.floor))].join(", "))} · in walking order</p>${gimgs.length ? `<span class="guide-thumbs">${gimgs.map(u => `<img src="${esc(u)}" alt="" loading="lazy" decoding="async">`).join("")}</span>` : ""}<span class="btn">Start the guide</span></a>` : ""}
     <div class="sec-head"><h2>${f.kind === "museum" ? "About this museum" : "What happened here"}</h2></div>
     <div class="pf-list">${(f.facts || []).map(x => `<article class="panel pf">
       <div class="pf-top">${labHTML(x.lab)}${x.when ? `<span class="pf-when">${esc(x.when)}</span>` : ""}</div>
@@ -3167,27 +3173,47 @@ function viewPlace(id){
     <p class="w-note">Written for this museum from the sources under each card, in our own words.${f.checked ? " Checked " + esc(f.checked) + "." : ""}</p>
   </section>`;
 }
-function viewGuide(id){
+/* A guide comes in nested lengths: 1 hour, 2 hours, 3 hours, a half day. g.tour lists every stop in walking order with its
+   "tier" (the shortest route it belongs to, in minutes); a longer route keeps every stop of the shorter ones.
+   Older pages have only g.stops, the one-hour route. The visitor's last choice is kept on the phone per museum. */
+const ROUTE_N = {60:"1 hour", 120:"2 hours", 180:"3 hours", 270:"Half day"};
+const ROUTE_END = {60:"That is the hour.", 120:"That is two hours.", 180:"That is three hours.", 270:"That is the half day. Well walked."};
+function gRoutes(g){
+  if (!Array.isArray(g.tour) || !g.tour.length) return [{mins:g.mins || 60, n:g.n, intro:g.intro, stops:g.stops}];
+  const tiers = [...new Set(g.tour.map(s => s.tier || 60))].sort((a, b) => a - b), meta = g.routes || [];
+  return tiers.map(t => ({...(meta.find(r => r.mins === t) || {}), mins:t, stops:g.tour.filter(s => (s.tier || 60) <= t)}))
+    .map(r => ({...r, n:r.n || g.n, intro:r.intro || g.intro}));
+}
+function gRoute(id, g){
+  const rs = gRoutes(g), want = parseInt(store.get("ctm-route-" + id), 10) || 120;
+  return rs.find(r => r.mins === want) || rs.filter(r => r.mins <= want).pop() || rs[0];
+}
+const minsText = m => ROUTE_N[m] || (m % 60 ? m + " minutes" : plural(m / 60, "hour"));
+function viewGuide(id, keep){
   const f = plNeed(id, () => viewGuide(id)); if (!f) return;
   const g = f.guide; if (!g) return viewPlace(id);
-  const floors = [...new Set(g.stops.map(s => s.floor))];
+  const y = keep ? scrollY : 0, rs = gRoutes(g), r = gRoute(id, g), stops = r.stops, many = rs.length > 1;
+  const floors = [...new Set(stops.map(s => s.floor))];
   let n = 0;
   view.innerHTML = `<section class="near guide">
     <a class="near-back" href="#place-${f.id}">‹ ${esc(f.short || f.n)}</a>
-    <div><span class="eyebrow" style="color:var(--accent)">${esc(f.short || f.n)} · ${g.mins || 60} minutes</span><h1 class="pl-h">${esc(g.n)}</h1><p class="pl-blurb">${esc(g.intro || "")}</p>
-      <p class="w-note">${esc(g.note || "")}</p></div>
-    ${floors.map(fl => `<div class="sec-head guide-floor"><h2>${esc((g.floors || {})[fl] || "Floor " + fl)}</h2><p>${plural(g.stops.filter(s => s.floor === fl).length, "stop")}</p></div>
-      <ol class="stops">${g.stops.filter(s => s.floor === fl).map(s => { n++; return `<li class="panel stop" id="stop-${n}">
-        <div class="stop-top"><span class="stop-n">${n}</span><span class="stop-gal">${s.gal ? esc(g.room || "Gallery") + " " + esc(s.gal) : "On view"} · ${esc((g.floors || {})[s.floor] || "Floor " + s.floor)}</span></div>
+    <div><span class="eyebrow" style="color:var(--accent)">${esc(f.short || f.n)} · ${esc(minsText(r.mins))}</span><h1 class="pl-h">${esc(r.n)}</h1><p class="pl-blurb">${esc(r.intro || "")}</p></div>
+    ${many ? `<div class="route-pick"><div class="seg" role="radiogroup" aria-label="How long do you have?">${rs.map(x => `<button type="button" role="radio" aria-checked="${x === r}" class="${x === r ? "on" : ""}" data-route="${x.mins}">${esc(minsText(x.mins))}</button>`).join("")}</div>
+      <small>${plural(stops.length, "stop")}${r.mins > 60 ? " · the one-hour stops are marked, if you need to cut it short" : ""}. Longer routes keep every stop of the shorter ones.</small></div>` : ""}
+    <p class="w-note">${esc(g.note || "")}</p>
+    ${floors.map(fl => `<div class="sec-head guide-floor"><h2>${esc((g.floors || {})[fl] || "Floor " + fl)}</h2><p>${plural(stops.filter(s => s.floor === fl).length, "stop")}</p></div>
+      <ol class="stops">${stops.filter(s => s.floor === fl).map(s => { n++; return `<li class="panel stop" id="stop-${n}">
+        <div class="stop-top"><span class="stop-n">${n}</span><span class="stop-gal">${s.gal ? esc(g.room || "Gallery") + " " + esc(s.gal) : "On view"} · ${esc((g.floors || {})[s.floor] || "Floor " + s.floor)}</span>${r.mins > 60 && (s.tier || 60) === 60 ? `<span class="stop-must">1 hour</span>` : ""}</div>
         ${s.img && IMG[s.img] ? imgFig(s.img, "stop-fig", n <= 2) : plPic(s, "stop-fig")}
         <h3>${esc(s.t)}</h3><p class="stop-by">${esc([s.by, s.date].filter(Boolean).join(" · "))}</p>
         <p>${esc(s.story)}</p>
         ${s.look ? `<p class="stop-look"><b>Look for</b> ${esc(s.look)}</p>` : ""}
         ${s.people && s.people.length ? `<div class="pf-go">${plPeople(s.people)}</div>` : ""}
-        <div class="stop-foot">${s.u ? `<a class="muted" href="${esc(s.u)}" target="_blank" rel="noopener">${/metmuseum\.org/.test(s.u) ? "The Met's record" : /wikipedia\.org/.test(s.u) ? "More on Wikipedia" : "The museum's record"}</a>` : "<span></span>"}${n < g.stops.length ? `<button type="button" class="btn ghost" data-next="${n + 1}">Next stop ›</button>` : `<span class="stop-end">That is the hour.</span>`}</div>
+        <div class="stop-foot">${s.u ? `<a class="muted" href="${esc(s.u)}" target="_blank" rel="noopener">${/metmuseum\.org/.test(s.u) ? "The Met's record" : /wikipedia\.org/.test(s.u) ? "More on Wikipedia" : "The museum's record"}</a>` : "<span></span>"}${n < stops.length ? `<button type="button" class="btn ghost" data-next="${n + 1}">Next stop ›</button>` : `<span class="stop-end">${esc(ROUTE_END[r.mins] || "That is the route.")}</span>`}</div>
       </li>`; }).join("")}</ol>`).join("")}
     ${plSources(g.src, "Sources for this guide")}
   </section>`;
+  if (keep) scrollTo(0, y);
 }
 view.addEventListener("input", ev => {
   if (ev.target.id !== "nearFind") return;
@@ -3196,8 +3222,12 @@ view.addEventListener("input", ev => {
   document.querySelectorAll(".near-sec").forEach(sec => { sec.hidden = !sec.querySelector(".near-row:not([hidden])"); });
 });
 view.addEventListener("click", ev => {
-  const b = ev.target.closest("[data-locate],[data-next]"); if (!b) return;
+  const b = ev.target.closest("[data-locate],[data-next],[data-route]"); if (!b) return;
   if (b.hasAttribute("data-locate")) { nearLocate(false); return; }
+  if (b.hasAttribute("data-route")) {
+    const id = decodeURIComponent(location.hash.slice(1)).replace(/^guide-/, "");
+    store.set("ctm-route-" + id, b.dataset.route); haptic("select"); viewGuide(id, true); return;
+  }
   const t = document.getElementById("stop-" + b.dataset.next);
   if (t) { haptic("select"); t.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"start"}); }
 });

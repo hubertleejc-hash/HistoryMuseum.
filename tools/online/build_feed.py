@@ -109,8 +109,20 @@ def place(f, ppl, pics):
         cited(g.get("src"), where + " guide")
         floors = [s["floor"] for s in g["stops"]]
         assert floors == sorted(floors), f"{where}: guide stops must be in walking order, floor by floor"
-        cards += g["stops"]
-        for s in g["stops"]:
+        if g.get("tour"):
+            # longer routes: every stop in walking order, each with the shortest route (minutes) it belongs to
+            tour = g["tour"]
+            assert 5 <= len(tour) <= 70, f"{where}: a tour needs 5 to 70 stops"
+            assert all(s.get("tier", 60) in (60, 120, 180, 270) for s in tour), f"{where}: tour tiers are 60, 120, 180 or 270 minutes"
+            tf = [s["floor"] for s in tour]
+            assert tf == sorted(tf), f"{where}: tour stops must be in walking order, floor by floor"
+            assert [s["t"] for s in tour if s.get("tier", 60) == 60] == [s["t"] for s in g["stops"]], f"{where}: the tour's one-hour stops must be the guide's stops, in the same order"
+            for r in g.get("routes", []):
+                assert r.get("mins") in (60, 120, 180, 270) and r.get("n") and r.get("intro"), f"{where}: a route needs mins, n and intro"
+            assert len({s["t"] for s in tour}) == len(tour), f"{where}: a stop appears twice in the tour"
+        gstops = g["stops"] + [s for s in g.get("tour", []) if s.get("tier", 60) != 60]
+        cards += gstops
+        for s in gstops:
             assert s.get("t") and s.get("story") and len(s["story"]) <= 500, f"{where}: stop {s.get('t')} needs t and a story under 500 characters"
     for x in cards:
         for pid in x.get("people", []):
