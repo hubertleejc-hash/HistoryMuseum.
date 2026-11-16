@@ -775,6 +775,34 @@ html.hinged .big-title, html.hinged .w-regions, html.hinged .w-dial{max-width:ca
 .ta-label{display:flex; flex-direction:column; gap:4px; padding:12px 0 0; font-size:13px; color:var(--ink-2)}
 .ta-label b{font:600 16px/1.3 var(--display); color:var(--ink)}
 .ta-label .when{color:var(--accent); font-weight:600}
+/* walks through real pictures */
+.wk3{touch-action:pan-y; user-select:none; -webkit-user-select:none}
+.wk3-layers, .wk3-gl{position:absolute; inset:0; width:100%; height:100%}
+.wk3-pic{position:absolute; inset:0; overflow:hidden; transition:opacity .85s ease, transform .9s cubic-bezier(.2,.7,.2,1); will-change:opacity, transform}
+.wk3-pic img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover}
+.wk3-pic img.drift{animation:wkDrift 24s ease-in-out infinite alternate; will-change:transform}
+@keyframes wkDrift{from{transform:scale(1)} to{transform:scale(1.04)}}
+.wk3-pic.in{opacity:0; transform:scale(.9)} .wk3-pic.out{opacity:0; transform:scale(1.22)}
+.wk3-pic.inb{opacity:0; transform:scale(1.18)} .wk3-pic.back{opacity:0; transform:scale(.9)}
+.wk3-spots{position:absolute; inset:0; pointer-events:none; z-index:1}
+.wk3-dot{position:absolute; width:44px; height:44px; margin:-22px 0 0 -22px; border:0; background:none; padding:0; cursor:pointer; pointer-events:auto}
+.wk3-dot span{position:absolute; left:13px; top:13px; width:18px; height:18px; border-radius:50%; background:rgba(242,201,105,.95); box-shadow:0 0 0 3px rgba(20,19,18,.45), 0 2px 8px rgba(0,0,0,.5)}
+.wk3-dot span::after{content:""; position:absolute; inset:-7px; border-radius:50%; border:2px solid rgba(242,201,105,.8); animation:wkPulse 2.4s ease-out infinite}
+.wk3-dot.on span{background:#FBF6EA}
+@keyframes wkPulse{from{transform:scale(.6); opacity:1} to{transform:scale(1.5); opacity:0}}
+.wk3 .ta-cap{top:14px; bottom:auto; pointer-events:none}
+.wk3 .ta-shade{inset:0 0 auto 0; height:42%; background:linear-gradient(rgba(10,9,8,.78), transparent)}
+.wk3-nav::before{content:""; position:absolute; inset:-30px -16px -14px; background:linear-gradient(transparent, rgba(10,9,8,.45)); z-index:-1; pointer-events:none}
+.wk3-nav{position:absolute; left:16px; right:16px; bottom:14px; z-index:2; display:flex; align-items:center; gap:12px}
+.wk3-nav button{border:1px solid rgba(231,199,121,.7); background:rgba(20,19,18,.55); color:#FBF6EA; border-radius:999px; min-height:38px; font:600 14px var(--ui); cursor:pointer}
+.wk3-back{width:38px; font-size:20px!important} .wk3-on{padding:0 16px; margin-left:auto; background:rgba(212,175,90,.9)!important; color:#141312!important; border-color:transparent!important}
+.wk3-dots{display:flex; gap:7px} .wk3-dots i{width:7px; height:7px; border-radius:50%; background:rgba(251,246,234,.4); cursor:pointer} .wk3-dots i.on{background:#F2C969}
+.wk3-card{margin:12px 0 0; padding:12px 14px; border:1px solid var(--rule); border-radius:12px; background:var(--surface); min-height:52px}
+.wk3-card h3{font:600 20px/1.2 var(--display); margin:2px 0 4px} .wk3-card p{margin:4px 0; font-size:14.5px} .wk3-card .how{color:var(--ink-2); font-size:13.5px}
+.wk3-hint{color:var(--ink-2)}
+.wk3-look{margin-top:22px} .wk3-grid{display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); gap:10px}
+.wk3-grid div{border:1px solid var(--rule); border-radius:12px; padding:10px 12px; background:var(--surface)} .wk3-grid b{font:600 16px var(--display)} .wk3-grid p{margin:4px 0 0; font-size:14px; color:var(--ink-2)}
+@media (prefers-reduced-motion: reduce){.wk3-pic img.drift, .wk3-dot span::after{animation:none}}
 .ta-map{position:relative; margin:-18px -16px 0; padding:26px 20px 22px; background:var(--sunk); display:flex; flex-direction:column; gap:10px; align-items:flex-start}
 @media (min-width:900px){.ta-map{margin:0; border-radius:18px}}
 .ta-map h2{font:600 clamp(30px,6vw,46px)/1.05 var(--display)}
@@ -926,6 +954,7 @@ html.hinged .big-title, html.hinged .w-regions, html.hinged .w-dial{max-width:ca
 <script>/*__CONTENT__*/</script>
 <script>/*__DEEP__*/</script>
 <script>/*__ERAS__*/</script>
+<script>/*__WALKS__*/</script>
 <script>/*__CHAPTERS__*/</script>
 <script>/*__IMAGES__*/</script>
 <script>/*__GEO__*/</script>
@@ -2837,6 +2866,13 @@ const SCENES = [
   {id:"edo-1831", y:1831, tol:20, c:"japan", place:"Off the coast of Kanagawa, Japan", img:"great-wave", ox:"40%", oy:"50%"},
   {id:"kaifeng-1120", y:1120, tol:40, c:"china", place:"Kaifeng, capital of the Song dynasty", img:"qingming", ox:"50%", oy:"50%"}
 ].filter(sc => IMG[sc.img]);
+/* Walks through real pictures (app/walks.js): several real period pictures of one place, with tappable
+   "elements of the year". Photographs can get a gentle 3D tilt from a software depth estimate. */
+const WALKS = H.walks || {}, WPIC = H.walkPics || {};
+Object.entries(WALKS).forEach(([id, w]) => { w.stops = w.stops.filter(st => WPIC[st.pic]); if (!w.stops.length) return;
+  const i = SCENES.findIndex(sc => sc.id === id), sc = {id, y:w.y, tol:w.tol, c:w.c, place:w.place, walk:w};
+  if (i >= 0) SCENES[i] = sc; else SCENES.push(sc); });
+SCENES.sort((a, b) => astro(b.y) - astro(a.y));
 let taShown = null, taAnim = 0;
 const sceneFor = y => SCENES.filter(sc => Math.abs(astro(sc.y) - astro(y)) <= sc.tol).sort((a, b) => Math.abs(a.y - y) - Math.abs(b.y - y) || b.tol - a.tol)[0] || null;
 const nearestScene = y => SCENES.slice().sort((a, b) => Math.abs(astro(a.y) - astro(y)) - Math.abs(astro(b.y) - astro(y)))[0] || null;
@@ -2846,6 +2882,140 @@ function whoCards(list, y){
   return `<div class="who">${list.map(p => { const ph = portraitOf(p);
     return `<a href="#p-${p.id}" class="${p.id === wkFocus ? "focus" : ""}" style="${fc(p.f)}"><span class="ph">${ph ? `<img src="${esc(ph)}" alt="" loading="lazy">` : esc(initials(p.n))}</span><span style="min-width:0"><b>${esc(p.n)}</b><small>age ${p.a ? "c. " : ""}${ageAt(p, y)} · ${esc(F[p.f] ? F[p.f].label : "")}</small></span></a>`; }).join("")}</div>`;
 }
+const TA_VEIL = `<div class="ta-veil" id="taVeil" aria-hidden="true"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="52" fill="none" stroke="#D4AF5A" stroke-width="1.4"/><path d="M60 8v8M60 104v8M8 60h8M104 60h8" stroke="#D4AF5A" stroke-width="2" stroke-linecap="round"/><g class="hand"><path d="M60 60V22" stroke="#F2C969" stroke-width="2.4" stroke-linecap="round"/></g><circle cx="60" cy="60" r="3.5" fill="#F2C969"/></svg><div class="num" id="taNum"></div><div class="sub">Travelling in time</div></div>`;
+const WK3 = {w:null, i:0, still:false, flat:false, gl:null, tex:{}, pan:[0, 0], raf:0, t0:0, data:{}, wait:{}};
+window.WALK_PIC = (id, im, dp) => { WK3.data[id] = {im, dp}; (WK3.wait[id] || []).forEach(f => f()); delete WK3.wait[id]; };
+function walkStage(sc, y){
+  const w = sc.walk, n = w.stops.length;
+  return `<div class="ta wk3" id="wk3"><div class="wk3-layers" id="wk3L"></div><canvas class="wk3-gl" id="wk3G" hidden></canvas>
+      <div class="ta-shade"></div><div class="wk3-spots" id="wk3S"></div>
+      <div class="ta-cap"><span class="eyebrow" id="wk3E">You have arrived</span><h2>${esc(sc.place.split(",")[0])}, ${fy(y)}</h2><p id="wk3N"></p></div>
+      ${n > 1 ? `<div class="wk3-nav"><button type="button" class="wk3-back" data-w3="-1" aria-label="Walk back">‹</button><span class="wk3-dots" id="wk3D">${w.stops.map((_, k) => `<i data-w3to="${k}"></i>`).join("")}</span><button type="button" class="wk3-on" data-w3="1">Walk on <span aria-hidden="true">›</span></button></div>` : ""}
+      ${TA_VEIL}
+    </div>
+    <div class="wk3-card" id="wk3C" aria-live="polite"></div>
+    <div class="ta-label" id="wk3Lab"></div>
+    <section class="wk3-look"><div class="sec-head"><h2>What ${fy(w.y)} looked like</h2><p>Worked out from the real pictures on this walk</p></div>
+      <div class="wk3-grid">${w.look.map(([k, v]) => `<div><b>${esc(k)}</b><p>${esc(v)}</p></div>`).join("")}</div></section>`;
+}
+function walkInit(sc, still){
+  if (WK3.gl) { const x = WK3.gl.getExtension("WEBGL_lose_context"); if (x) x.loseContext(); }
+  Object.assign(WK3, {w:sc.walk, i:0, still, gl:null, tex:{}, pan:[0, 0]});
+  const box = document.getElementById("wk3"), lab = document.getElementById("wk3Lab");
+  box.addEventListener("click", ev => {
+    const b = ev.target.closest("[data-w3]"), to = ev.target.closest("[data-w3to]"), s = ev.target.closest("[data-w3s]");
+    const n = WK3.w.stops.length;
+    if (b) { const d = parseInt(b.dataset.w3, 10); walkShow((WK3.i + d + n) % n, d); haptic("light"); }
+    else if (to) { const k = parseInt(to.dataset.w3to, 10); if (k !== WK3.i) walkShow(k, k > WK3.i ? 1 : -1); }
+    else if (s) walkSpot(parseInt(s.dataset.w3s, 10));
+  });
+  lab.addEventListener("click", ev => { if (!ev.target.closest("[data-w3flat]")) return; WK3.flat = !WK3.flat; walkLabel(); walkGL(WK3.i); });
+  /* drag across the picture to look around (photos with a depth estimate) */
+  let p0 = null;
+  box.addEventListener("pointerdown", ev => { if (ev.target.closest("button") || !WK3.ready) return; p0 = [ev.clientX, ev.clientY, WK3.pan[0], WK3.pan[1]]; WK3.t0 = 0; });
+  box.addEventListener("pointermove", ev => { if (!p0) return; const W = box.clientWidth;
+    WK3.pan = [Math.max(-.03, Math.min(.03, p0[2] - (ev.clientX - p0[0]) / W * .06)), Math.max(-.015, Math.min(.015, p0[3] - (ev.clientY - p0[1]) / W * .04))]; walkDraw(); });
+  const up = () => { if (!p0) return; p0 = null; const a = WK3.pan.slice(), t0 = performance.now();
+    const back = now => { const t = Math.min(1, (now - t0) / 700), e = 1 - Math.pow(1 - t, 3); WK3.pan = [a[0] * (1 - e), a[1] * (1 - e)]; walkDraw(); if (t < 1 && !p0) WK3.raf = requestAnimationFrame(back); };
+    cancelAnimationFrame(WK3.raf); WK3.raf = requestAnimationFrame(back); };
+  box.addEventListener("pointerup", up); box.addEventListener("pointercancel", up);
+  walkShow(0, 0);
+}
+function walkShow(i, dir){
+  const w = WK3.w, st = w.stops[i], pic = WPIC[st.pic], L = document.getElementById("wk3L"); if (!L) return;
+  WK3.i = i; WK3.ready = false; cancelAnimationFrame(WK3.raf);
+  const cv = document.getElementById("wk3G"); cv.hidden = true;
+  document.getElementById("wk3S").innerHTML = "";
+  const old = L.lastElementChild, lay = document.createElement("div"), im = new Image();
+  lay.className = "wk3-pic"; im.alt = pic.title; im.decoding = "async";
+  im.className = pic.js || WK3.still ? "" : "drift";
+  im.style.objectPosition = `${(st.fx ?? .5) * 100}% ${(st.fy ?? .5) * 100}%`;
+  im.src = pic.src; lay.appendChild(im);
+  const n = w.stops.length;
+  document.getElementById("wk3E").textContent = n > 1 ? `You have arrived · ${i + 1} of ${n}` : "You have arrived";
+  document.getElementById("wk3N").textContent = st.name;
+  document.querySelectorAll("#wk3D i").forEach((d, k) => d.classList.toggle("on", k === i));
+  walkLabel();
+  document.getElementById("wk3C").innerHTML = `<p class="wk3-hint">Tap a gold dot to see what was there in ${fy(w.y)} and how we know.${pic.js ? " Drag across the picture to look around." : ""}</p>`;
+  const go = () => { if (WK3.i !== i) return;
+    L.appendChild(lay);
+    if (old && !WK3.still && dir) { lay.classList.add(dir < 0 ? "inb" : "in"); old.classList.add(dir < 0 ? "back" : "out");
+      requestAnimationFrame(() => requestAnimationFrame(() => lay.classList.remove("in", "inb"))); setTimeout(() => old.remove(), 950); }
+    else if (old) old.remove();
+    walkSpots(); setTimeout(() => walkGL(i), old && dir ? 900 : 0); };
+  im.decode ? im.decode().then(go, go) : (im.onload = go);
+}
+function walkLabel(){
+  const st = WK3.w.stops[WK3.i], pic = WPIC[st.pic], lab = document.getElementById("wk3Lab"); if (!lab) return;
+  lab.innerHTML = `<b>${esc(st.title || pic.title)}</b><span>${esc(pic.by)}. ${esc(pic.lic)}${pic.page ? ` · <a href="${esc(pic.page)}" target="_blank" rel="noopener">source</a>` : ""}. A real ${esc(st.kind || "picture")}, not made by AI.</span>
+    <span><span class="when">${esc(st.made)}</span>, shown for <span id="taFor">${fy(wkYear)}</span>.${st.note ? " " + esc(st.note) : ""}</span>
+    ${pic.js ? `<span>The 3D effect is added by a computer: it estimates how far away each part of the photograph is and moves the near parts a little more as you drag. <button type="button" class="lnk" data-w3flat>${WK3.flat ? "Turn the 3D effect back on" : "See the photograph as it is"}</button></span>` : ""}`;
+}
+/* where a point of the picture lands on screen (object-fit: cover, with the 3D view zoomed a little) */
+function walkFit(){
+  const L = document.getElementById("wk3L"), st = WK3.w.stops[WK3.i], pic = WPIC[st.pic], W = L.clientWidth, Hh = L.clientHeight;
+  const z = WK3.ready ? 1.06 : 1, s = Math.max(W / pic.w, Hh / pic.h) * z, dw = pic.w * s, dh = pic.h * s;
+  return {W, H:Hh, dw, dh, ox:(W - dw) * (st.fx ?? .5), oy:(Hh - dh) * (st.fy ?? .5)};
+}
+function walkSpots(){
+  const S = document.getElementById("wk3S"); if (!S) return;
+  const f = walkFit(), st = WK3.w.stops[WK3.i];
+  S.innerHTML = (st.spots || []).map((sp, k) => { const x = f.ox + sp.x * f.dw, y = f.oy + sp.y * f.dh;
+    return x < 14 || x > f.W - 14 || y < 14 || y > f.H - 10 || (y < 112 && x < f.W * .85) || (y > f.H - 58 && (x < 150 || x > f.W - 150)) ? "" : `<button type="button" class="wk3-dot" data-w3s="${k}" style="left:${x.toFixed(0)}px;top:${y.toFixed(0)}px" aria-label="${esc(sp.t)}"><span></span></button>`; }).join("");
+}
+function walkSpot(k){
+  const sp = WK3.w.stops[WK3.i].spots[k], c = document.getElementById("wk3C"); if (!sp || !c) return;
+  document.querySelectorAll(".wk3-dot").forEach(d => d.classList.toggle("on", +d.dataset.w3s === k));
+  c.innerHTML = `<span class="eyebrow">In ${fy(WK3.w.y)}</span><h3>${esc(sp.t)}</h3><p>${esc(sp.d)}</p>${sp.how ? `<p class="how"><b>How we know:</b> ${esc(sp.how)}</p>` : ""}`;
+  haptic("light");
+}
+/* the 3D tilt: one WebGL canvas, drawn only while something moves */
+function walkGL(i){
+  const st = WK3.w.stops[i], pic = WPIC[st.pic], cv = document.getElementById("wk3G");
+  if (!cv || !pic.js || WK3.flat || WK3.still) { if (cv) cv.hidden = true; WK3.ready = false; walkSpots(); return; }
+  const id = st.pic;
+  if (!WK3.data[id]) {
+    if (!WK3.wait[id]) { WK3.wait[id] = []; const s = document.createElement("script"); s.src = pic.js; document.head.appendChild(s); }
+    WK3.wait[id].push(() => walkGL(i)); return;
+  }
+  if (!WK3.gl) {
+    const gl = cv.getContext("webgl", {alpha:false, antialias:false, depth:false, stencil:false}); if (!gl) return;
+    const sh = (t, src) => { const o = gl.createShader(t); gl.shaderSource(o, src); gl.compileShader(o); return o; };
+    const pr = gl.createProgram();
+    gl.attachShader(pr, sh(gl.VERTEX_SHADER, "attribute vec2 p;varying vec2 v;void main(){v=vec2(p.x*.5+.5,.5-p.y*.5);gl_Position=vec4(p,0.,1.);}"));
+    gl.attachShader(pr, sh(gl.FRAGMENT_SHADER, "precision mediump float;varying vec2 v;uniform sampler2D im,dp;uniform vec2 sc,of,pan;void main(){vec2 u=(v-of)/sc;float d=texture2D(dp,u).r;u-=pan*(d-.4);gl_FragColor=texture2D(im,clamp(u,.001,.999));}"));
+    gl.linkProgram(pr); gl.useProgram(pr);
+    const b = gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER, b); gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 1, -1, -1, 1, 1, 1]), gl.STATIC_DRAW);
+    const loc = gl.getAttribLocation(pr, "p"); gl.enableVertexAttribArray(loc); gl.vertexAttribPointer(loc, 2, gl.FLOAT, false, 0, 0);
+    gl.uniform1i(gl.getUniformLocation(pr, "im"), 0); gl.uniform1i(gl.getUniformLocation(pr, "dp"), 1);
+    WK3.u = {sc:gl.getUniformLocation(pr, "sc"), of:gl.getUniformLocation(pr, "of"), pan:gl.getUniformLocation(pr, "pan")};
+    cv.addEventListener("webglcontextlost", ev => { ev.preventDefault(); WK3.gl = null; WK3.ready = false; cv.hidden = true; walkSpots(); });
+    WK3.gl = gl;
+  }
+  const gl = WK3.gl, d = WK3.data[id];
+  const tex = (unit, src) => new Promise(res => { const im = new Image(); im.onload = () => {
+    gl.activeTexture(gl.TEXTURE0 + unit); const t = gl.createTexture(); gl.bindTexture(gl.TEXTURE_2D, t);
+    [gl.TEXTURE_WRAP_S, gl.TEXTURE_WRAP_T].forEach(k => gl.texParameteri(gl.TEXTURE_2D, k, gl.CLAMP_TO_EDGE));
+    [gl.TEXTURE_MIN_FILTER, gl.TEXTURE_MAG_FILTER].forEach(k => gl.texParameteri(gl.TEXTURE_2D, k, gl.LINEAR));
+    gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGB, gl.RGB, gl.UNSIGNED_BYTE, im); if (WK3.tex[unit]) gl.deleteTexture(WK3.tex[unit]); WK3.tex[unit] = t; res(); };
+    im.onerror = res; im.src = src; });
+  Promise.all([tex(0, d.im), tex(1, d.dp)]).then(() => {
+    if (WK3.i !== i || !WK3.gl) return;
+    WK3.ready = true; walkDraw(); cv.hidden = false; walkSpots();
+    /* a slow look from side to side on arrival, then still */
+    const t0 = performance.now(), sway = now => { const t = (now - t0) / 1000; if (t > 6 || !WK3.ready) { WK3.pan = [0, 0]; walkDraw(); return; }
+      const e = Math.sin(Math.PI * t / 6); WK3.pan = [.02 * Math.sin(t * 1.1) * e, .006 * Math.sin(t * .8) * e]; walkDraw(); WK3.raf = requestAnimationFrame(sway); };
+    cancelAnimationFrame(WK3.raf); WK3.raf = requestAnimationFrame(sway);
+  });
+}
+function walkDraw(){
+  const gl = WK3.gl, cv = document.getElementById("wk3G"); if (!gl || !cv || !WK3.ready) return;
+  const f = walkFit(), r = Math.min(2, window.devicePixelRatio || 1), cw = Math.round(f.W * r), ch = Math.round(f.H * r);
+  if (cv.width !== cw || cv.height !== ch) { cv.width = cw; cv.height = ch; gl.viewport(0, 0, cw, ch); }
+  gl.uniform2f(WK3.u.sc, f.dw / f.W, f.dh / f.H); gl.uniform2f(WK3.u.of, f.ox / f.W, f.oy / f.H); gl.uniform2f(WK3.u.pan, WK3.pan[0], WK3.pan[1]);
+  gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+}
+addEventListener("resize", () => { if (document.getElementById("wk3")) { walkSpots(); walkDraw(); } });
 function viewWalk(y, focus){
   if (y != null && Number.isFinite(y)) wkYear = clampY(y);
   wkFocus = focus || null; taShown = null;
@@ -2866,7 +3036,8 @@ function drawWalk(){
   const sc = sceneFor(y), key = sc ? sc.id : "map", still = matchMedia("(prefers-reduced-motion: reduce)").matches;
   const alive = aliveAt(y), here = sc ? alive.filter(p => (p.c || []).includes(sc.c)) : [];
   if (!taShown || taShown.key !== key) {
-    if (sc) {
+    if (sc && sc.walk) host.innerHTML = walkStage(sc, y);
+    else if (sc) {
       const m = IMG[sc.img], h = hashStr(sc.id), photo = IMG_KIND(sc.img) === "Real photograph";
       const made = photo ? `Photographed ${m.date}` : `${/print|woodblock/i.test(m.title + " " + (IMG_NOTE[sc.img] || [""])[1]) ? "Printed" : "Painted"} ${m.date}`;
       host.innerHTML = `<div class="ta">
@@ -2900,6 +3071,7 @@ function drawWalk(){
     const mh = host.querySelector(".ta-map h2"); if (mh) mh.textContent = `The world in ${fy(y)}`;
     const tf = document.getElementById("taFor"); if (tf) tf.textContent = fy(y);
   }
+  if (sc && sc.walk && (!taShown || taShown.key !== key)) walkInit(sc, still);
   taShown = {key, y};
   const rest = alive.filter(p => !here.includes(p)).sort((a, b) => astro(a.b) - astro(b.b));
   document.getElementById("taWho").innerHTML = alive.length ? `

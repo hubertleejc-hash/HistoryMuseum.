@@ -24,6 +24,22 @@ for pid, m in portraits.items():
     if (d/"art"/"p"/(pid + ".jpg")).exists():
         images["pt-" + pid] = {"src": "art/p/" + pid + ".jpg", "title": m["title"], "by": m["artist"], "date": m["date"], "coll": "Wikimedia Commons",
                                "lic": m["licence"], "page": m["page"], "w": m["w"], "h": m["h"], **({"note": m["note"]} if m.get("note") else {})}
+# Walks through real pictures (app/walks.js): pictures gathered by tools/scenes/scenes.py into img/scenes/.
+# A photograph with a depth estimate (<id>_d.jpg) also gets img/scenes/<id>.js holding both as data URLs,
+# because WebGL may not read file pictures inside the iPhone app.
+import base64 as _b64
+scene_dir = d/"img"/"scenes"
+scene_cred = json.loads((scene_dir/"credits.json").read_text()) if (scene_dir/"credits.json").exists() else {}
+walk_pics = {}
+for sid, m in scene_cred.items():
+    if not (scene_dir/(sid + ".jpg")).exists(): continue
+    walk_pics[sid] = {"src": "img/scenes/" + sid + ".jpg", "title": m["title"], "by": m["by"], "date": m["date"], "lic": m["lic"], "page": m["page"], "w": m["w"], "h": m["h"]}
+    if (scene_dir/(sid + "_d.jpg")).exists():
+        u = lambda f: "data:image/jpeg;base64," + _b64.b64encode(f.read_bytes()).decode()
+        (scene_dir/(sid + ".js")).write_text(f"window.WALK_PIC({json.dumps(sid)},{json.dumps(u(scene_dir/(sid + '.jpg')))},{json.dumps(u(scene_dir/(sid + '_d.jpg')))});\n")
+        walk_pics[sid]["js"] = "img/scenes/" + sid + ".js"
+walks_js = (d/"walks.js").read_text() if (d/"walks.js").exists() else "window.HISTORY.walks = {};"
+walks_js += "\nwindow.HISTORY.walkPics = " + json.dumps(walk_pics, ensure_ascii=False) + ";"
 # Pictures for the museum guides (tools/guides/gather_guide.py): img/guide/<slug>.jpg, credits in img/guide/credits.json
 guide_dir = d/"img"/"guide"
 for slug, m in (json.loads((guide_dir/"credits.json").read_text()) if (guide_dir/"credits.json").exists() else {}).items():
@@ -69,10 +85,10 @@ if catalog:
 print("gallery:", len(catalog), "works,", sum(1 for r in catalog if r["wing"] == "app"), "in the app")
 images_js += "\nwindow.HISTORY.artShards = " + str(SHARDS) + "; window.HISTORY.artCount = " + str(len(catalog)) + ";"
 
-for tag, f in (("/*__DATA__*/", "data.js"), ("/*__TODAY__*/", "today.js"), ("/*__CONTENT__*/", "content.js"), ("/*__DEEP__*/", "deep.js"), ("/*__ERAS__*/", "eras.js"),
+for tag, f in (("/*__DATA__*/", "data.js"), ("/*__TODAY__*/", "today.js"), ("/*__CONTENT__*/", "content.js"), ("/*__DEEP__*/", "deep.js"), ("/*__ERAS__*/", "eras.js"), ("/*__WALKS__*/", "WALKS"),
                ("/*__CHAPTERS__*/", "chapters.js"), ("/*__IMAGES__*/", None), ("/*__GEO__*/", "geo.js")):
     assert tag in src, tag
-    src = src.replace(tag, images_js if f is None else (d/f).read_text())
+    src = src.replace(tag, images_js if f is None else walks_js if f == "WALKS" else (d/f).read_text())
 (d/"index.html").write_text(src)
 print("built", len(src), "bytes,", len(images), "images")
 
@@ -113,6 +129,10 @@ if app_dir.parent.exists():
         if images[slug]["src"].startswith(IMG_BASE):
             (app_dir/images[slug]["src"]).parent.mkdir(exist_ok=True)
             shutil.copy2(d/images[slug]["src"], app_dir/images[slug]["src"])
+    if walk_pics:
+        (app_dir/"img"/"scenes").mkdir()
+        for sid, m in walk_pics.items():
+            for f in [sid + ".jpg"] + ([sid + ".js"] if m.get("js") else []): shutil.copy2(scene_dir/f, app_dir/"img"/"scenes"/f)
     if (app_dir/"art").exists(): shutil.rmtree(app_dir/"art")
     if catalog or portraits:
         (app_dir/"art").mkdir()
