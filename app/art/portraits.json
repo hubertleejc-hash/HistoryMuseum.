@@ -526,6 +526,16 @@
   "w": 630,
   "h": 800
  },
+ "gautreau": {
+  "title": "Photograph of Virginie Amélie Avegno Gautreau",
+  "artist": "Unknown photographer",
+  "date": "c. 1878",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Virginie-avegno-1878-pd-photo.jpg",
+  "file": "Virginie-avegno-1878-pd-photo.jpg",
+  "w": 465,
+  "h": 650
+ },
  "genghis-khan": {
   "title": "Portrait of Genghis Khan",
   "artist": "Unknown author Unknown author",
@@ -1341,6 +1351,16 @@
   "page": "https://commons.wikimedia.org/wiki/File:Antonio_Salieri_painted_by_Joseph_Willibrord_M%C3%A4hler.jpg",
   "file": "Antonio Salieri painted by Joseph Willibrord Mähler.jpg",
   "w": 618,
+  "h": 800
+ },
+ "sargent": {
+  "title": "John Singer Sargent 1903",
+  "artist": "James E. Purdy",
+  "date": "1903",
+  "licence": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:John_Singer_Sargent_1903.jpg",
+  "file": "John Singer Sargent 1903.jpg",
+  "w": 600,
   "h": 800
  },
  "schiele": {

@@ -22,6 +22,8 @@ Usage: python3 tools/art/gather.py [--offline N] [--online N]
   --offline N  add up to N new works to the In-the-app wing (default 300)
   --online N   add up to N new Cleveland works to the Online wing (default 6000)
   --met N      add up to N new Met works to the Online wing (default 2000)
+  --met-ids "12127=madame-x"   hand-picked Met works (in the app); "=slug" also makes a story picture
+  --met-artist "John Singer Sargent"   that artist's public-domain Met works (in the app), up to --met-artist-n
   --feed       send the new Online-wing works to online/art/ instead (the online feed the app fetches
                without a new install; see tools/online/build_feed.py). Nothing is added to app/art.
 """
@@ -208,6 +210,43 @@ def met_ids(per_dept):
 
 def met_obj(i):
     return get(f"https://collectionapi.metmuseum.org/public/collection/v1/objects/{i}")
+
+def met_artist_ids(name, cap=600):
+    """Met object ids for one artist (public domain, with a picture). The search matches loosely,
+    so the caller keeps only records whose artistDisplayName is exactly the name."""
+    ids, off = [], 0
+    while len(ids) < cap:
+        d = get("https://collectionapi.metmuseum.org/public/collection/v1.1/search?" + urllib.parse.urlencode(
+            {"q": name, "artistOrCulture": "true", "hasImages": "true", "isPublicDomain": "true", "offset": off, "limit": 100}))
+        if not d or not d.get("objectIDs"): break
+        ids += d["objectIDs"]; off += 100
+        if off >= (d.get("total") or 0): break
+    print(f"  Met search for {name}: {len(ids)} ids", flush=True)
+    return ids[:cap]
+
+def save_story_picture(rec, slug, url=None):
+    """A hand-picked work also becomes a story picture (app/img/<slug>.jpg + img/manifest.json),
+    so a person's chapter can open with it and the Gallery's featured strip shows it."""
+    from PIL import Image
+    im = None
+    for u in [x for x in (url, rec["img"]) if x]:
+        b = get(u, raw=True)
+        try:
+            im = Image.open(io.BytesIO(b)); im.load(); break
+        except Exception:
+            im = None
+    if im is None: return False
+    if im.mode != "RGB": im = im.convert("RGB")
+    im.thumbnail((1200, 1200), Image.LANCZOS)
+    img_dir = ROOT / "app" / "img"
+    im.save(img_dir / (slug + ".jpg"), "JPEG", quality=82, optimize=True)
+    man_path = img_dir / "manifest.json"
+    man = [m for m in json.loads(man_path.read_text()) if m["slug"] != slug]
+    man.append({"slug": slug, "title": rec["t"], "artist": rec["a"] or "Unknown artist", "date": rec["d"] or str(rec["y"]),
+                "collection": rec["cr"], "licence": "Public domain (CC0, The Met Open Access)", "page": rec["u"],
+                "w": im.size[0], "h": im.size[1], "note": "Whole painting, from The Met's open-access picture."})
+    man_path.write_text(json.dumps(man, ensure_ascii=False, indent=1) + "\n")
+    return True
 
 def from_met(r):
     if not r or not r.get("isPublicDomain") or not r.get("primaryImageSmall"): return None, "not public domain or no image"
@@ -423,6 +462,9 @@ def main():
     ap.add_argument("--commons", type=int, default=0, help="new Louvre and British Museum works from Wikimedia Commons, per museum")
     ap.add_argument("--recheck-only", action="store_true", help="only re-screen the works already gathered")
     ap.add_argument("--feed", action="store_true", help="add the new Online-wing works to online/art/ (fetched by the app), not app/art/")
+    ap.add_argument("--met-ids", default="", help="hand-picked Met object ids for the In-the-app wing, comma separated; id=slug also makes it a story picture (app/img/slug.jpg)")
+    ap.add_argument("--met-artist", default="", help="one artist's public-domain Met works for the In-the-app wing (exact artist name)")
+    ap.add_argument("--met-artist-n", type=int, default=24, help="how many of that artist's works to add")
     ap.add_argument("--seed", type=int, default=int(time.time()) // 86400)
     a = ap.parse_args()
     global DEADLINE
@@ -460,9 +502,11 @@ def main():
             keys.add(k); out.append(rec)
         return out
 
-    print("Cleveland Museum of Art...", flush=True)
-    cma = take(cma_records(), from_cma)
-    print(f"  {len(cma)} new usable Cleveland works", flush=True)
+    cma = []
+    if a.offline > 0 or a.online > 0:
+        print("Cleveland Museum of Art...", flush=True)
+        cma = take(cma_records(), from_cma)
+        print(f"  {len(cma)} new usable Cleveland works", flush=True)
 
     # In the app: the best-described works, balanced; then download their pictures.
     with_text = [r for r in cma if r["x"]]
@@ -474,6 +518,33 @@ def main():
             if good:
                 rec["wing"] = "app"; ok.append(rec)
     print(f"  saved {len(ok)}", flush=True)
+
+    # Hand picks: named Met works and one artist's works, with full pictures inside the app.
+    if (a.met_ids or a.met_artist) and not a.feed:
+        slugs, pick_ids = {}, []
+        for tok in a.met_ids.split(","):
+            i, _, slug = tok.strip().partition("=")
+            if i.strip().isdigit():
+                pick_ids.append(int(i)); slugs[int(i)] = slug.strip()
+        art_ids = [i for i in (met_artist_ids(a.met_artist) if a.met_artist else []) if i not in pick_ids]
+        with cf.ThreadPoolExecutor(8) as ex:
+            raws = [r for r in ex.map(met_obj, pick_ids + art_ids) if r]
+        for r in raws:  # a story picture can be made for a work the Gallery already has
+            if r["objectID"] in pick_ids and slugs.get(r["objectID"]):
+                rec, why = from_met(r)
+                if rec and save_story_picture(rec, slugs[r["objectID"]], r.get("primaryImage")): print("  story picture", slugs[r["objectID"]], flush=True)
+                elif why: print("  no story picture for", r["objectID"], why, flush=True)
+        raws = [r for r in raws if r["objectID"] in pick_ids or (r.get("artistDisplayName") or "").strip() == a.met_artist.strip()]
+        recs = take(raws, from_met)
+        kind_rank = {"painting": 0, "drawing": 1}
+        recs.sort(key=lambda r: (0 if int(r["id"][4:]) in pick_ids else 1, kind_rank.get(r["k"], 2), -r["hi"], r["y"]))
+        recs = [r for r in recs if int(r["id"][4:]) in pick_ids] + [r for r in recs if int(r["id"][4:]) not in pick_ids][:a.met_artist_n]
+        print(f"Downloading {len(recs)} hand-picked Met works for the In-the-app wing...", flush=True)
+        with cf.ThreadPoolExecutor(8) as ex:
+            for rec, good in zip(recs, ex.map(save_pictures, recs)):
+                if good:
+                    rec["wing"] = "app"; rec.pop("th", None); ok.append(rec)
+                    print("  +", rec["id"], rec["t"][:70], flush=True)
     chosen = {r["id"] for r in ok}
 
     # Online wing: the rest of Cleveland's described works first, then the Met.

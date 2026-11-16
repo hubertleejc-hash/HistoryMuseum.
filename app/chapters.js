@@ -5890,5 +5890,79 @@ Object.assign(window.HISTORY.chapters, {
       {n:"Further reading: Ebba Koch, The Complete Taj Mahal (2006)"}
     ]}
   ]
+},
+
+"sargent": {
+  hero: "madame-x",
+  kw: ["Madame X@turns","Madam X@turns","Madame Gautreau@turns","Gautreau@turns","Virginie","Virginie Gautreau","Virginie Amélie Avegno Gautreau","Amélie Gautreau","Pierre Gautreau","strap","Salon of 1884","scandal","Carolus-Duran","El Jaleo","Boit","Carnation, Lily, Lily, Rose","Broadway","Tite Street","Henry James","Isabella Stewart Gardner","watercolours","Gassed","Boston Public Library","murals","Monet","Rodin","fled Paris@myths","ruined her@myths","lavender@myths"],
+  lede: "An American born in Florence who first saw America at 20, painted the most talked-about portrait of 1884, Madame X, saw it mocked at the Paris Salon, and rebuilt his career in London as the greatest society portraitist of his age, until he gave up portraits for watercolours, murals and war.",
+  sections: [
+    {k:"short", h:"In short", ps:[
+      "John Singer Sargent was born in Florence on 12 January 1856 to American parents who had left Philadelphia to travel around Europe. He grew up in hotels and rented flats in Italy, France, Switzerland and Germany, and first set foot in the United States at the age of 20.",
+      "He trained in Paris with the fashionable portrait painter Carolus-Duran and was a star of the Paris Salon by 26. In 1884 his portrait of Virginie Gautreau, now called Madame X, caused a scandal. Two years later he moved to London.",
+      "He became the most sought-after portrait painter in Britain and America, then largely stopped painting portraits around 1907. He died in his sleep in London on 14 April 1925, aged 69. He made about 900 oil paintings and more than 2,000 watercolours."
+    ]},
+    {k:"early", h:"Early life", ps:[
+      "His father, FitzWilliam Sargent, was a surgeon who gave up his practice; his mother, Mary Newbold Singer, had a small inheritance and loved travelling. The family moved with the seasons, from Nice to the Alps to Rome.",
+      "John had almost no regular schooling. He learned languages on the move, played the piano well all his life, and filled sketchbooks from a young age. His mother encouraged his drawing.",
+      "In 1874, aged 18, he began studying in Paris with Carolus-Duran, who taught his pupils to paint directly with the brush, without careful drawing first, in the manner of the Spanish painter Velázquez. He also passed the entrance exam of the École des Beaux-Arts."
+    ]},
+    {k:"turns", h:"Turning points", ps:[
+      "The Salon, 1877 to 1882. He showed at the Paris Salon every year. His portrait of his teacher Carolus-Duran won an honourable mention in 1879. After a journey to Spain and Morocco he painted El Jaleo, a flamenco dancer lit by footlights, a sensation at the 1882 Salon.",
+      {t:"Madame X, 1883 to 1884. Virginie Amélie Avegno Gautreau, born in New Orleans and married to a rich Paris banker, was famous for her looks. Sargent wanted to paint her. He wrote to a friend that he had 'a great desire to paint her portrait' and thought she was waiting for someone to propose 'this homage to her beauty'.", lab:"verified", why:"His letter to Ben del Castillo, 1882 or 1883, quoted in the biographies by Evan Charteris (1927) and Richard Ormond."},
+      "She was a difficult sitter, restless and bored. He made many drawings and oil sketches in Paris and at her country house in Brittany before settling on the pose: her body turned to face us, her head turned sharply away in profile, in a black satin dress with two jewelled straps.",
+      {t:"The Salon of 1884. It was hung as 'Portrait of Madame ***', but all of Paris knew who she was. In the version shown, the strap on her right shoulder had slipped down her arm. Visitors laughed, critics mocked her pale, powdered skin and the dress, and her mother asked Sargent to take the picture away. He refused, because the rules did not allow it.", lab:"verified", why:"Described in letters by Sargent's friend Ralph Curtis, who was at the opening, and in the newspaper reviews of May 1884."},
+      "Afterwards he repainted the strap upright on her shoulder. He kept the picture in his studio for over 30 years.",
+      "London, 1886. Portrait orders in Paris fell away, and his friend the novelist Henry James urged him to come to England. He settled in Tite Street, Chelsea, in 1886, and spent two summers in the Cotswold village of Broadway painting Carnation, Lily, Lily, Rose, which the Tate bought in 1887.",
+      "America, 1887 onward. A trip to Boston and New York brought crowds of sitters. From 1890 he worked for nearly 30 years on murals for the Boston Public Library, and later for the Museum of Fine Arts, Boston.",
+      {t:"'No more portraits', 1907. Tired of flattering sitters, he wrote that he would paint no more portraits, and turned to quick charcoal portrait drawings he called 'mugs', and to watercolours of Venice, the Alps and the Middle East.", lab:"verified", why:"From his letters of 1907, quoted by Charteris. He still painted a few portraits after that, mostly for friends or causes."},
+      "War, 1918. Britain made him an official war artist. Near Arras in August 1918 he saw a line of soldiers blinded by mustard gas being led to a dressing station, and painted Gassed, six metres wide, now in the Imperial War Museum."
+    ]},
+    {k:"works", h:"The work", ps:[
+      "Madame X (Virginie Amélie Avegno Gautreau), 1883 to 1884, The Metropolitan Museum of Art, New York. In 1916 he sold it to the Met and wrote to its director, 'I suppose it is the best thing I have done.' An unfinished second version is in Tate Britain.",
+      "El Jaleo (1882), Isabella Stewart Gardner Museum, Boston: a dancer and her guitarists, painted after his trip to Andalusia.",
+      "The Daughters of Edward Darley Boit (1882), Museum of Fine Arts, Boston: four American sisters in a shadowy Paris apartment, beside two huge Japanese vases that now stand next to the painting in the museum.",
+      "Carnation, Lily, Lily, Rose (1885 to 1886), Tate Britain: two girls lighting paper lanterns at dusk. He painted it outdoors only during the few minutes of the right light each evening, across two summers.",
+      "Portraits of the famous: Robert Louis Stevenson (1885 and 1887), Isabella Stewart Gardner (1888), President Theodore Roosevelt (1903, the White House) and Henry James (1913, National Portrait Gallery, London).",
+      "Watercolours: thousands of quick, bright studies of Venice canals, Alpine streams and friends at rest, many of them now at the Met and the Brooklyn Museum.",
+      "Gassed (1919), Imperial War Museum, London, one of the best-known paintings of the First World War."
+    ]},
+    {k:"people", h:"His people", ps:[
+      "Virginie Amélie Avegno Gautreau (1859 to 1915), the sitter for Madame X. Born in New Orleans, she was brought to Paris as a child after her father died in the American Civil War. Later portraits of her were painted by Gustave Courtois and Antonio de La Gándara.",
+      "Carolus-Duran (1837 to 1917), his teacher in Paris.",
+      "Henry James (1843 to 1916), the American novelist in London, his friend and champion, who wrote an essay praising him in 1887.",
+      "Claude Monet (1840 to 1926), whom he visited at Giverny. Sargent painted him at work outdoors and bought several of his paintings.",
+      "Isabella Stewart Gardner (1840 to 1924), the Boston collector, his friend and patron. El Jaleo hangs in the museum she built.",
+      "His sisters Emily, also a gifted watercolourist, and Violet, who travelled and painted with him. He never married."
+    ]},
+    {k:"world", h:"The world around him", ps:[
+      "He worked in the Belle Époque, when Paris was the capital of art and the yearly Salon could make or break a painter.",
+      "Rich Americans were marrying into European society and buying old masters. Sargent painted both sides of the Atlantic.",
+      "Photography was everywhere, yet a painted portrait was still the sign of status. Modern art, from Cézanne to Picasso, was turning away from the kind of painting he did best.",
+      "He lived to see the First World War, which he painted, and the age of the motor car and the aeroplane."
+    ]},
+    {k:"legacy", h:"Legacy", ps:[
+      "For decades after his death critics dismissed him as a society flatterer. Since the 1980s big exhibitions have restored him as one of the finest painters of his time.",
+      "Madame X is one of the best-known paintings at the Met, and the story of the fallen strap is now part of the painting's fame.",
+      "His watercolours, quick and loose, are admired by painters today as much as his portraits."
+    ]},
+    {k:"myths", h:"Myths and facts", myths:[
+      {c:"Madame X was the sitter's name, or a title he gave from the start.", lab:"myth", t:"At the 1884 Salon it was called 'Portrait de Mme ***'. The name Madame X came later. When he sold it to the Met in 1916 he asked that it not be called by her name, 'on account of the row I had with the lady years ago'."},
+      {c:"He fled Paris in disgrace the day after the Salon.", lab:"myth", t:"He stayed in Paris for two more years and kept painting there. Commissions slowed after 1884, and Henry James encouraged him to move. He settled in London in 1886."},
+      {c:"The portrait ruined her life.", lab:"disputed", t:"She was mocked, and her family was upset. But she stayed in Paris society and sat for other painters, including Gustave Courtois in 1891. Some writers say she later shut herself away from society; the evidence for that is thin."},
+      {c:"She powdered her skin with lavender powder.", lab:"likely", t:"Writers at the time described her bluish-white, powdered skin and reddened ears. The exact powder is uncertain; the lavender tone in the painting is Sargent's."},
+      {c:"Sargent was British.", lab:"myth", t:"He lived in England from 1886 but stayed an American citizen all his life, and refused a British knighthood in 1907 because accepting it would mean giving up his citizenship."},
+      {c:"The strap fell off by accident while he painted.", lab:"myth", t:"He painted it fallen on purpose for the Salon. It was a choice, and after the scandal he chose to paint it back up."}
+    ]},
+    {k:"sources", h:"Sources", src:[
+      {n:"The Metropolitan Museum of Art: Madame X (Virginie Amélie Avegno Gautreau), 1883–84, open-access record (CC0)", u:"https://www.metmuseum.org/art/collection/search/12127"},
+      {n:"Henry James, 'John S. Sargent', Harper's New Monthly Magazine, October 1887 (public domain)"},
+      {n:"Evan Charteris, John Sargent (1927), with his letters (public domain in the United States)"},
+      {n:"Wikipedia: Madame X (Virginie Amélie Avegno Gautreau)", u:"https://en.wikipedia.org/wiki/Madame_X_(Madame_Pierre_Gautreau)"},
+      {n:"Wikipedia: John Singer Sargent", u:"https://en.wikipedia.org/wiki/John_Singer_Sargent"},
+      {n:"Further reading: Deborah Davis, Strapless: John Singer Sargent and the Fall of Madame X (2003)"},
+      {n:"Further reading: Richard Ormond and Elaine Kilmurray, John Singer Sargent: Complete Paintings (1998 to 2016)"}
+    ]}
+  ]
 }
 });

@@ -1047,7 +1047,8 @@ const IMG_NOTE = {
   "wu-zetian": ["myth", "Imagined about 1,000 years after her lifetime."],
   "tribute-giraffe": ["likely", "A later copy, after the 1414 painting by Shen Du."],
   "shakespeare": ["likely", "Probably Shakespeare, painted in his lifetime. The 1623 engraving is the surer likeness."],
-  "great-wave": ["verified", "A woodblock print: this is one of many impressions. The wave is a big storm wave, not a tsunami."]
+  "great-wave": ["verified", "A woodblock print: this is one of many impressions. The wave is a big storm wave, not a tsunami."],
+  "madame-x": ["verified", "Painted from life in Paris in 1883 and 1884. After the 1884 Salon Sargent repainted the fallen strap on her right shoulder."]
 };
 Object.keys(IMG).forEach(k => { if (IMG[k].note && !IMG_NOTE[k]) IMG_NOTE[k] = IMG[k].note; });
 const IMG_KIND = s => /photograph|photo/i.test((IMG[s] || {}).by || "") || ["curie","tubman","eiffel-1888"].includes(s) ? "Real photograph" : "Real picture";
@@ -1552,7 +1553,7 @@ function viewPerson(id){
   const before = H.events.filter(e => astro(e.y) < astro(p.b)).sort((a, b) => astro(b.y) - astro(a.y)).slice(0, 2);
   const circle = new Set(cs.map(c => c.id));
   const pic = !p.noimg, pt = pic && IMG["pt-" + p.id] ? "pt-" + p.id : null;
-  const top = pic ? ((CH[p.id] && CH[p.id].hero) || pt) : null;
+  const top = pic ? ((CH[p.id] && IMG[CH[p.id].hero] && CH[p.id].hero) || pt) : null;
   const ch = CH[p.id], inCh = !ch && Object.keys(CH).find(k => (CH[k].kw || []).some(w => w.toLowerCase() === p.n.toLowerCase()));
   view.innerHTML = `
   ${top ? `<div class="ch-top">${imgFig(top, top === pt ? "ch-hero ch-pt" : "ch-hero", true)}` : ""}
@@ -1799,12 +1800,20 @@ function loadDetail(it, cb){
 }
 /* a day's order: the same all day, different tomorrow, so the Gallery feels fresh */
 const daySeed = () => hashStr(today());
+/* search words: the whole query anywhere, or every word starting a word ("madam x" finds Madame X, "gautr" finds Gautreau, accents ignored) */
+const plainText = t => String(t).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+function wordsMatch(text, q){
+  const t = plainText(text), qq = plainText(q).trim();
+  if (!qq || t.includes(qq)) return true;
+  const hay = " " + t.replace(/[^a-z0-9]+/g, " ");
+  return qq.split(/[^a-z0-9]+/).filter(Boolean).every(w => hay.includes(" " + w));
+}
 function artFilter(){
   const q = artF.q.trim().toLowerCase(), era = ART_ERA.find(e => e[0] === artF.e);
   const seed = daySeed();
   const off = navigator.onLine === false;
   const l = ART.filter(it => it.src !== "feat" && !(off && it.net) && (!artF.k || it.k === artF.k) && (!artF.r || it.r === artF.r) && (!era || (it.y != null && it.y >= era[2] && it.y <= era[3])) &&
-    (!q || (it.t + " " + it.a + " " + (ART_REG.find(r => r[0] === it.r) || ["",""])[1]).toLowerCase().includes(q)));
+    (!q || wordsMatch(it.t + " " + it.a + " " + (ART_REG.find(r => r[0] === it.r) || ["",""])[1], q)));
   const key = it => (it.wing === "app" ? 0 : 2) + (it.hasText ? 0 : 1) + (hashStr(it.id + seed) % 1000) / 1000;
   l.sort((a, b) => key(a) - key(b));
   return l;
@@ -1894,6 +1903,10 @@ function personArt(p){
     if (!document.getElementById("pArt")) return;
     const nm = p.n.toLowerCase().replace(/\s*\(.*$/, ""), last = nm.split(" ").pop();
     const by = ART.filter(it => it.src !== "feat" && it.a && (it.a.toLowerCase() === nm || (last.length > 4 && it.a.toLowerCase().endsWith(" " + last) && it.a.toLowerCase().split(" ")[0] === nm.split(" ")[0])));
+    /* their famous works (the ones the museum writes about) first, then paintings: Madame X leads Sargent's strip */
+    const known = (H.works || []).filter(w => w.by === p.id).map(w => w.n.toLowerCase().replace(/\s*\(.*$/, ""));
+    const rank = it => { const t = it.t.toLowerCase(); return known.some(k => t === k || t.startsWith(k + " (")) ? 0 : it.k === "painting" ? 1 : 2; };
+    by.sort((a, b) => rank(a) - rank(b));
     const lo = astro(p.b), hi = astro(end(p)), regs = new Set(p.c.map(c => C_REG[c] || (/(egypt|greece)/.test(c) ? "ancient" : "europe")));
     if (lo < -300) regs.add("ancient");
     const seed = hashStr(p.id);
@@ -3952,7 +3965,7 @@ function snip(body, s){
 function showRes(){
   const raw = q.value.trim(), s = norm(raw).replace(/^the\s+/, "") || norm(raw);
   if (!s) { res.hidden = true; return; }
-  const base = IDX.filter(x => norm(x.k).includes(s)).sort((a, b) => (norm(b.k).startsWith(s) || norm(b.k).includes(" " + s)) - (norm(a.k).startsWith(s) || norm(a.k).includes(" " + s)));
+  const base = IDX.filter(x => wordsMatch(x.k, s)).sort((a, b) => (norm(b.k).startsWith(s) || norm(b.k).includes(" " + s)) - (norm(a.k).startsWith(s) || norm(a.k).includes(" " + s)));
   const seen = new Set(), chap = [];
   const add = (x, sn) => { if (seen.has(x.h)) return; seen.add(x.h); chap.push(Object.assign({}, x, {sn})); };
   CHX.filter(x => x.kw && (x.k === s || x.k.startsWith(s))).forEach(x => add(x, ""));
