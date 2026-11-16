@@ -1,0 +1,31 @@
+{
+ "id": "sabarmati",
+ "n": "Sabarmati Ashram",
+ "kind": "site",
+ "where": "Ahmedabad, India",
+ "lat": 23.0607,
+ "lon": 72.5807,
+ "r": 500,
+ "blurb": "Gandhi's home from 1917 to 1930, where the Salt March began.",
+ "facts": [
+  {
+   "h": "The Salt March",
+   "when": "1930",
+   "lab": "verified",
+   "people": [
+    "gandhi"
+   ],
+   "t": "On 12 March 1930 Gandhi set out from here with 78 followers to walk 387 km to the sea at Dandi and make salt, breaking the British salt law. He vowed not to return until India was free, and never lived here again.",
+   "src": [
+    {
+     "n": "Wikipedia: Salt March",
+     "u": "https://en.wikipedia.org/wiki/Salt_March"
+    },
+    {
+     "n": "Wikipedia: Sabarmati Ashram",
+     "u": "https://en.wikipedia.org/wiki/Sabarmati_Ashram"
+    }
+   ]
+  }
+ ]
+}

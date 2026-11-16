@@ -1,0 +1,31 @@
+{
+ "id": "qufu",
+ "n": "Qufu",
+ "kind": "city",
+ "where": "Shandong, China",
+ "lat": 35.5967,
+ "lon": 116.9912,
+ "r": 4000,
+ "blurb": "Confucius's hometown, with his temple, family mansion and cemetery.",
+ "facts": [
+  {
+   "h": "The Confucius family",
+   "when": "from 478 BC",
+   "lab": "likely",
+   "people": [
+    "confucius"
+   ],
+   "t": "The temple began in 478 BC, a year after Confucius died, in his own house. His descendants lived in the mansion next door for over 2,000 years, one of the longest family lines on Earth.",
+   "src": [
+    {
+     "n": "Wikipedia: Temple of Confucius, Qufu",
+     "u": "https://en.wikipedia.org/wiki/Temple_of_Confucius,_Qufu"
+    },
+    {
+     "n": "UNESCO: Temple and Cemetery of Confucius",
+     "u": "https://whc.unesco.org/en/list/704/"
+    }
+   ]
+  }
+ ]
+}

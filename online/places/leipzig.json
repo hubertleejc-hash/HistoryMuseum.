@@ -1,0 +1,53 @@
+{
+ "id": "leipzig",
+ "n": "Leipzig",
+ "kind": "city",
+ "where": "Germany",
+ "lat": 51.3397,
+ "lon": 12.3731,
+ "r": 6000,
+ "blurb": "A city of trade fairs and music, where Bach worked for 27 years.",
+ "facts": [
+  {
+   "h": "Bach at St Thomas",
+   "when": "1723 to 1750",
+   "lab": "verified",
+   "people": [
+    "bach"
+   ],
+   "t": "Bach was cantor of St Thomas Church from 1723 until he died in 1750, writing a new cantata almost every week for years. His grave has been in the church since 1950.",
+   "src": [
+    {
+     "n": "Wikipedia: St. Thomas Church, Leipzig",
+     "u": "https://en.wikipedia.org/wiki/St._Thomas_Church,_Leipzig"
+    },
+    {
+     "n": "Bach-Archiv Leipzig",
+     "u": "https://www.bach-leipzig.de/"
+    }
+   ]
+  },
+  {
+   "h": "Mendelssohn revived him",
+   "when": "1829",
+   "lab": "verified",
+   "people": [
+    "mendelssohn",
+    "bach",
+    "clara-schumann",
+    "robert-schumann"
+   ],
+   "t": "Felix Mendelssohn, who led the Gewandhaus orchestra here, conducted the St Matthew Passion in Berlin in 1829, the first time since Bach's death, and started the Bach revival.",
+   "src": [
+    {
+     "n": "Wikipedia: Felix Mendelssohn",
+     "u": "https://en.wikipedia.org/wiki/Felix_Mendelssohn"
+    },
+    {
+     "n": "Wikipedia: St Matthew Passion",
+     "u": "https://en.wikipedia.org/wiki/St_Matthew_Passion"
+    }
+   ]
+  }
+ ]
+}

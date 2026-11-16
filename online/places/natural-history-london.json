@@ -1,0 +1,51 @@
+{
+ "id": "natural-history-london",
+ "n": "Natural History Museum",
+ "kind": "museum",
+ "where": "London",
+ "lat": 51.4967,
+ "lon": -0.1764,
+ "r": 200,
+ "rank": 52,
+ "blurb": "A cathedral of nature, with about 80 million specimens.",
+ "facts": [
+  {
+   "h": "Darwin on the stairs",
+   "lab": "verified",
+   "people": [
+    "darwin"
+   ],
+   "go": [
+    "#e-origin-of-species",
+    "On the Origin of Species"
+   ],
+   "t": "A marble statue of Charles Darwin sits at the top of the main staircase. The museum keeps specimens he collected on the voyage of the Beagle, among them his finches.",
+   "src": [
+    {
+     "n": "Wikipedia: Natural History Museum, London",
+     "u": "https://en.wikipedia.org/wiki/Natural_History_Museum,_London"
+    },
+    {
+     "n": "Wikipedia: Darwin's finches",
+     "u": "https://en.wikipedia.org/wiki/Darwin's_finches"
+    }
+   ]
+  },
+  {
+   "h": "Hope the whale",
+   "when": "1891 and 2017",
+   "lab": "verified",
+   "t": "The skeleton of a blue whale named Hope dives from the ceiling of Hintze Hall. She stranded in Ireland in 1891 and replaced the famous diplodocus cast in 2017.",
+   "src": [
+    {
+     "n": "Wikipedia: Natural History Museum, London",
+     "u": "https://en.wikipedia.org/wiki/Natural_History_Museum,_London"
+    },
+    {
+     "n": "Natural History Museum",
+     "u": "https://www.nhm.ac.uk/"
+    }
+   ]
+  }
+ ]
+}

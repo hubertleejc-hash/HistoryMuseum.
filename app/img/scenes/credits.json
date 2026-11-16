@@ -1,0 +1,110 @@
+{
+ "paris-1889-1": {
+  "file": "Léon & Lévy, Boulevard et porte Saint-Denis, c. 1889 02.jpg",
+  "title": "Boulevard et porte Saint-Denis. Paris Xe. Circa 1889.",
+  "by": "Léon & Lévy",
+  "date": "circa 1889 date QS:P571,+1889-00-00T00:00:00Z/9,P1480,Q5727902",
+  "credit": "Vergue: Home · Info · Image",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:L%C3%A9on_%26_L%C3%A9vy,_Boulevard_et_porte_Saint-Denis,_c._1889_02.jpg",
+  "w": 1600,
+  "h": 1263,
+  "depth": true
+ },
+ "paris-1889-2": {
+  "file": "Béraud - Le théâtre du Vaudeville, 1889.jpg",
+  "title": "French: Le Boulevard des Capucines et le théâtre du Vaudeville Boulevard des Capucines and théâtre du Vaudeville title QS:P1476,fr:\"Le Boulevard des Capucines e",
+  "by": "Jean Béraud",
+  "date": "1889 date QS:P571,+1889-00-00T00:00:00Z/9",
+  "credit": "parismuseescollections.paris.fr",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:B%C3%A9raud_-_Le_th%C3%A9%C3%A2tre_du_Vaudeville,_1889.jpg",
+  "w": 1451,
+  "h": 998,
+  "depth": true,
+  "crop": [
+   0.035,
+   0.05,
+   0.965,
+   0.955
+  ]
+ },
+ "paris-1889-3": {
+  "file": "Central Dome and the Fountain Coutan seen through the base of the Eiffel Tower, with crowd on the Champ de Mars, Paris Exposition, 1889 LCCN92519768.jpg",
+  "title": "Central Dome and the Fountain Coutan seen through the base of the Eiffel Tower, with crowd on the Champ de Mars, Paris Exposition, 1889 LCCN92519768",
+  "by": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+  "date": "1889",
+  "credit": "Library of Congress Catalog: https://lccn.loc.gov/92519768 Image download: https://cdn.loc.gov/service/pnp/cph/3c00000/3c06000/3c06500/3c06599v.jpg Original url",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Central_Dome_and_the_Fountain_Coutan_seen_through_the_base_of_the_Eiffel_Tower,_with_crowd_on_the_Champ_de_Mars,_Paris_Exposition,_1889_LCCN92519768.jpg",
+  "w": 1376,
+  "h": 1141,
+  "depth": true,
+  "crop": [
+   0.06,
+   0.045,
+   0.92,
+   0.94
+  ]
+ },
+ "paris-1889-4": {
+  "file": "Alexandre-Georges Roux - Fête de nuit à l'Exposition universelle de 1889, sous la tour Eiffel - P1994 - Musée Carnavalet.jpg",
+  "title": "French: Fête de nuit à l'Exposition universelle de 1889, sous la tour Eiffel title QS:P1476,fr:\"Fête de nuit à l'Exposition universelle de 1889, sous la tour Ei",
+  "by": "George Roux",
+  "date": "1889",
+  "credit": "Paris Musées",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Alexandre-Georges_Roux_-_F%C3%AAte_de_nuit_%C3%A0_l%27Exposition_universelle_de_1889,_sous_la_tour_Eiffel_-_P1994_-_Mus%C3%A9e_Carnavalet.jpg",
+  "w": 1568,
+  "h": 1071,
+  "depth": true,
+  "crop": [
+   0.01,
+   0.01,
+   0.99,
+   0.99
+  ]
+ },
+ "florence-1505-1": {
+  "file": "Francesco Rosselli (attribution). Pianta della Catena, 1470.jpg",
+  "title": "Chain Map label QS:Lde,\"Kettenplan\" label QS:Len,\"Chain Map\" label QS:Lit,\"pianta della catena\" label QS:Lfr,\"pianta della catena\"",
+  "by": "Unknown",
+  "date": "1887",
+  "credit": "Gemäldegalerie, Berlin",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Francesco_Rosselli_(attribution)._Pianta_della_Catena,_1470.jpg",
+  "w": 1600,
+  "h": 692,
+  "depth": false
+ },
+ "florence-1505-2": {
+  "file": "Filippo Dolciati (1443 - 1519) Execution of Girolamo Savonarola. 1498, Florence, Museo di San Marco.jpg",
+  "title": "Filippo Dolciati (1443 - 1519) Execution of Girolamo Savonarola. 1498, Florence, Museo di San Marco",
+  "by": "Unknown",
+  "date": "",
+  "credit": "Museo di San Marco, Florence",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Filippo_Dolciati_(1443_-_1519)_Execution_of_Girolamo_Savonarola._1498,_Florence,_Museo_di_San_Marco.jpg",
+  "w": 872,
+  "h": 976,
+  "depth": false,
+  "crop": [
+   0.44,
+   0.02,
+   0.985,
+   0.98
+  ]
+ },
+ "florence-1505-3": {
+  "file": "Domenico Ghirlandaio, Cappella Sassetti, Resurrezione del fanciullo, dettaglio 2, 1485 circa.jpg",
+  "title": "Resurrection of the boy label QS:Len,\"Resurrection of the boy\" label QS:Lit,\"Resurrezione del fanciullo\" label QS:Lde,\"Wiedererweckung des Jungen\"",
+  "by": "Domenico Ghirlandaio",
+  "date": "between 1482 and 1485 date QS:P,+1482-00-00T00:00:00Z/8,P1319,+1482-00-00T00:00:",
+  "credit": "",
+  "lic": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Domenico_Ghirlandaio,_Cappella_Sassetti,_Resurrezione_del_fanciullo,_dettaglio_2,_1485_circa.jpg",
+  "w": 1600,
+  "h": 1294,
+  "depth": false
+ }
+}

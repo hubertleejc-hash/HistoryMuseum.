@@ -5,10 +5,10 @@ name: Online feed
 # checks the rules; on main it also commits feed.json if it is out of date.
 on:
   pull_request:
-    paths: ["online/**", "tools/online/**", "tools/art/**", "app/data.js", "app/chapters.js"]
+    paths: ["online/**", "tools/online/**", "tools/art/**", "app/data.js", "app/chapters.js", "app/img/guide/**"]
   push:
     branches: [main]
-    paths: ["online/stories/**", "online/art/catalog.json", "tools/online/**", "tools/art/overrides.json"]
+    paths: ["online/stories/**", "online/places/**", "online/art/catalog.json", "online/today.json", "tools/online/**", "tools/art/overrides.json"]
   workflow_dispatch:
 
 permissions:
@@ -17,7 +17,7 @@ permissions:
 jobs:
   feed:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -25,6 +25,9 @@ jobs:
           python-version: "3.12"
       - name: Build and check the feed
         run: python3 tools/online/build_feed.py
+      - name: Check that every place source opens
+        if: ${{ github.event_name == 'pull_request' }}
+        run: python3 tools/online/check_links.py
       - name: Commit the feed
         if: ${{ github.event_name != 'pull_request' }}
         run: |

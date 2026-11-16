@@ -1,0 +1,32 @@
+{
+ "id": "national-gallery-art",
+ "n": "National Gallery of Art",
+ "kind": "museum",
+ "where": "Washington, D.C.",
+ "lat": 38.8913,
+ "lon": -77.0198,
+ "r": 200,
+ "rank": 19,
+ "blurb": "A gift to the nation from the banker Andrew Mellon, free since 1941.",
+ "facts": [
+  {
+   "h": "The only Leonardo in the Americas",
+   "when": "c. 1474 to 1478",
+   "lab": "verified",
+   "people": [
+    "leonardo"
+   ],
+   "t": "Ginevra de' Benci, painted in Florence around 1474 to 1478, was bought in 1967 from the Prince of Liechtenstein. It is the only painting by Leonardo in the Americas.",
+   "src": [
+    {
+     "n": "Wikipedia: Ginevra de' Benci",
+     "u": "https://en.wikipedia.org/wiki/Ginevra_de'_Benci"
+    },
+    {
+     "n": "National Gallery of Art",
+     "u": "https://www.nga.gov/"
+    }
+   ]
+  }
+ ]
+}

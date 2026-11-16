@@ -1,0 +1,37 @@
+name: Today dates
+
+# Looks up exact days on Wikidata (CC0) for the "Today in history" page (people's births and deaths,
+# and the events in tools/today/events.json), and commits app/today.js and online/today.json to the branch it runs on. Manual only;
+# also runs when tools/today changes. Run it with people=yes after new people are added to app/data.js.
+on:
+  workflow_dispatch:
+    inputs:
+      people:
+        description: "Look up every person's days again, not only the events (slow, about 35 minutes) (yes/no)"
+        default: "no"
+  push:
+    paths: ["tools/today/**"]
+
+permissions:
+  contents: write
+
+jobs:
+  dates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 tools/today/dates.py ${{ inputs.people == 'yes' && '--people' || '' }}
+      - name: Rebuild the online feed (main only; the app fetches Today's dates from it)
+        if: ${{ github.ref_name == 'main' }}
+        run: python3 tools/online/build_feed.py
+      - name: Commit the dates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/today.js online/today.json online/feed.json
+          git commit -qm "Today dates: exact birth and death days from Wikidata" || { echo "Nothing new"; exit 0; }
+          for i in 1 2 3; do git pull --rebase -q origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}" && break; sleep 5; done

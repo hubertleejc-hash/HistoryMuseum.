@@ -1,0 +1,72 @@
+{
+ "id": "berlin",
+ "n": "Berlin",
+ "kind": "city",
+ "where": "Germany",
+ "lat": 52.52,
+ "lon": 13.405,
+ "r": 15000,
+ "blurb": "Prussian capital, divided city, and capital of Germany again since 1990.",
+ "facts": [
+  {
+   "h": "The Wall falls",
+   "when": "1989",
+   "lab": "verified",
+   "go": [
+    "#e-berlin-wall",
+    "The fall of the Berlin Wall"
+   ],
+   "t": "On the night of 9 November 1989 a confused announcement led crowds to the border crossings, and the guards opened them. The Wall had divided the city for 28 years.",
+   "src": [
+    {
+     "n": "Wikipedia: Fall of the Berlin Wall",
+     "u": "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall"
+    },
+    {
+     "n": "Wikipedia: Berlin Wall",
+     "u": "https://en.wikipedia.org/wiki/Berlin_Wall"
+    }
+   ]
+  },
+  {
+   "h": "Einstein's Berlin",
+   "when": "1914 to 1933",
+   "lab": "verified",
+   "people": [
+    "einstein",
+    "planck"
+   ],
+   "t": "Einstein worked in Berlin from 1914 and published general relativity here in 1915. When the Nazis took power in 1933 he was abroad, and he never came back.",
+   "src": [
+    {
+     "n": "Wikipedia: Albert Einstein",
+     "u": "https://en.wikipedia.org/wiki/Albert_Einstein"
+    },
+    {
+     "n": "Wikipedia: General relativity",
+     "u": "https://en.wikipedia.org/wiki/General_relativity"
+    }
+   ]
+  },
+  {
+   "h": "Frederick's Sanssouci",
+   "when": "1750 to 1753",
+   "lab": "verified",
+   "people": [
+    "frederick-the-great",
+    "voltaire"
+   ],
+   "t": "Frederick the Great's summer palace Sanssouci, French for without a care, is in nearby Potsdam. Voltaire stayed with him there from 1750 to 1753, and they quarrelled.",
+   "src": [
+    {
+     "n": "Wikipedia: Sanssouci",
+     "u": "https://en.wikipedia.org/wiki/Sanssouci"
+    },
+    {
+     "n": "Wikipedia: Voltaire",
+     "u": "https://en.wikipedia.org/wiki/Voltaire"
+    }
+   ]
+  }
+ ]
+}

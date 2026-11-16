@@ -1,0 +1,30 @@
+{
+ "id": "te-papa",
+ "n": "Te Papa Tongarewa",
+ "short": "Te Papa",
+ "kind": "museum",
+ "where": "Wellington",
+ "lat": -41.2905,
+ "lon": 174.782,
+ "r": 150,
+ "rank": 43,
+ "blurb": "New Zealand's national museum, telling the story of the land and its Māori and later settlers together.",
+ "facts": [
+  {
+   "h": "A treasure box",
+   "when": "1998",
+   "lab": "verified",
+   "t": "Te Papa Tongarewa means container of treasures in Māori. It opened in 1998 on the Wellington waterfront, built on rubber and lead bearings so it can ride out an earthquake.",
+   "src": [
+    {
+     "n": "Wikipedia: Museum of New Zealand Te Papa Tongarewa",
+     "u": "https://en.wikipedia.org/wiki/Museum_of_New_Zealand_Te_Papa_Tongarewa"
+    },
+    {
+     "n": "Te Papa",
+     "u": "https://www.tepapa.govt.nz/"
+    }
+   ]
+  }
+ ]
+}

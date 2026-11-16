@@ -1,0 +1,51 @@
+{
+ "id": "topkapi",
+ "n": "Topkapı Palace Museum",
+ "kind": "museum",
+ "where": "Istanbul",
+ "lat": 41.0115,
+ "lon": 28.9834,
+ "r": 300,
+ "rank": 28,
+ "blurb": "The palace of the Ottoman sultans for almost 400 years, on the point between two seas.",
+ "facts": [
+  {
+   "h": "Built after the conquest",
+   "when": "1459 to 1924",
+   "lab": "verified",
+   "go": [
+    "#e-constantinople-falls",
+    "The fall of Constantinople"
+   ],
+   "t": "Sultan Mehmed II began the palace in 1459, six years after he took Constantinople. It was the centre of the Ottoman Empire until the 1850s, and became a museum in 1924, soon after the republic was founded.",
+   "src": [
+    {
+     "n": "Wikipedia: Topkapı Palace",
+     "u": "https://en.wikipedia.org/wiki/Topkapı_Palace"
+    },
+    {
+     "n": "Topkapı Palace Museum",
+     "u": "https://muze.gov.tr/muze-detay?SectionId=TSM01&DistId=MRK"
+    }
+   ]
+  },
+  {
+   "h": "The Holy Relics",
+   "lab": "tradition",
+   "people": [
+    "muhammad"
+   ],
+   "t": "The Privy Chamber keeps objects that, by Muslim tradition, belonged to the Prophet Muhammad, peace be upon him, including a mantle and hairs of his beard. Qur'an is recited beside them through the day.",
+   "src": [
+    {
+     "n": "Wikipedia: Topkapı Palace",
+     "u": "https://en.wikipedia.org/wiki/Topkapı_Palace"
+    },
+    {
+     "n": "Wikipedia: Sacred Relics (Topkapı Palace)",
+     "u": "https://en.wikipedia.org/wiki/Sacred_Relics_(Topkapı_Palace)"
+    }
+   ]
+  }
+ ]
+}

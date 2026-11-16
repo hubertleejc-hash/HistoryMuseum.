@@ -50,6 +50,8 @@ targets:
         INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
         INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
         CODE_SIGN_STYLE: Automatic
+        # "Near me" asks once, only when the visitor taps "Use my location". The position never leaves the phone.
+        INFOPLIST_KEY_NSLocationWhenInUseUsageDescription: "To show the museum guide and history facts for the place you are in. Your location never leaves your phone."
         # Apple Intelligence (iOS 26+) for Talk. Weakly linked, so the app still opens on older iPhones.
         OTHER_LDFLAGS: "$(inherited) -weak_framework FoundationModels"
         # The iPhone Duo fold APIs (reserved regions) exist only in the iOS 27 SDK.

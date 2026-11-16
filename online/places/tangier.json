@@ -1,0 +1,31 @@
+{
+ "id": "tangier",
+ "n": "Tangier",
+ "kind": "city",
+ "where": "Morocco",
+ "lat": 35.7595,
+ "lon": -5.834,
+ "r": 6000,
+ "blurb": "A port at the gate of the Mediterranean, birthplace of Ibn Battuta.",
+ "facts": [
+  {
+   "h": "The greatest traveller",
+   "when": "1325 to 1354",
+   "lab": "verified",
+   "people": [
+    "ibn-battuta"
+   ],
+   "t": "Ibn Battuta was born here in 1304 and left at 21 for the pilgrimage to Mecca. He came home 24 years later, having travelled about 117,000 km, from China to Mali.",
+   "src": [
+    {
+     "n": "Wikipedia: Ibn Battuta",
+     "u": "https://en.wikipedia.org/wiki/Ibn_Battuta"
+    },
+    {
+     "n": "Wikipedia: The Rihla",
+     "u": "https://en.wikipedia.org/wiki/The_Rihla"
+    }
+   ]
+  }
+ ]
+}

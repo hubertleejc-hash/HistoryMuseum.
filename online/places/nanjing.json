@@ -1,0 +1,58 @@
+{
+ "id": "nanjing",
+ "n": "Nanjing",
+ "kind": "city",
+ "where": "China",
+ "lat": 32.0603,
+ "lon": 118.7969,
+ "r": 12000,
+ "blurb": "The southern capital, where the first Ming emperor and the founder of the Republic both lie.",
+ "facts": [
+  {
+   "h": "Sun Yat-sen's mausoleum",
+   "when": "1925 to 1929",
+   "lab": "verified",
+   "people": [
+    "sun-yat-sen"
+   ],
+   "go": [
+    "#e-xinhai-revolution",
+    "The Xinhai Revolution"
+   ],
+   "t": "Sun Yat-sen, first president of the Republic of China, died in Beijing in 1925. He had asked to be buried on Purple Mountain, and in 1929 his body was brought to a mausoleum at the top of 392 steps.",
+   "src": [
+    {
+     "n": "Wikipedia: Sun Yat-sen Mausoleum",
+     "u": "https://en.wikipedia.org/wiki/Sun_Yat-sen_Mausoleum"
+    },
+    {
+     "n": "Wikipedia: Sun Yat-sen",
+     "u": "https://en.wikipedia.org/wiki/Sun_Yat-sen"
+    }
+   ]
+  },
+  {
+   "h": "The end of the Opium War",
+   "when": "1842",
+   "lab": "verified",
+   "people": [
+    "victoria"
+   ],
+   "go": [
+    "#e-opium-war",
+    "The Opium War"
+   ],
+   "t": "The Treaty of Nanking was signed on a British warship here in 1842. It handed Hong Kong to Britain and opened five ports.",
+   "src": [
+    {
+     "n": "Wikipedia: Treaty of Nanking",
+     "u": "https://en.wikipedia.org/wiki/Treaty_of_Nanking"
+    },
+    {
+     "n": "Wikipedia: First Opium War",
+     "u": "https://en.wikipedia.org/wiki/First_Opium_War"
+    }
+   ]
+  }
+ ]
+}

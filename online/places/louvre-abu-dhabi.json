@@ -1,0 +1,48 @@
+{
+ "id": "louvre-abu-dhabi",
+ "n": "Louvre Abu Dhabi",
+ "kind": "museum",
+ "where": "Abu Dhabi",
+ "lat": 24.5337,
+ "lon": 54.3983,
+ "r": 200,
+ "rank": 34,
+ "blurb": "A museum under a vast lace dome, telling the history of art as one story of all humanity.",
+ "facts": [
+  {
+   "h": "A rain of light",
+   "when": "2017",
+   "lab": "verified",
+   "t": "Jean Nouvel's dome, 180 metres wide, is made of almost 8,000 metal stars in layers, so sunlight falls through in moving spots. The museum opened in 2017 under a 30-year agreement with France.",
+   "src": [
+    {
+     "n": "Wikipedia: Louvre Abu Dhabi",
+     "u": "https://en.wikipedia.org/wiki/Louvre_Abu_Dhabi"
+    },
+    {
+     "n": "Louvre Abu Dhabi",
+     "u": "https://www.louvreabudhabi.ae/en"
+    }
+   ]
+  },
+  {
+   "h": "The missing Leonardo",
+   "when": "2017",
+   "lab": "disputed",
+   "people": [
+    "leonardo"
+   ],
+   "t": "The Salvator Mundi, attributed to Leonardo, sold in 2017 for $450 million, the highest price ever paid for a painting. It was announced for this museum, but it has not been shown in public since. Experts still argue whether Leonardo painted it.",
+   "src": [
+    {
+     "n": "Wikipedia: Salvator Mundi (Leonardo)",
+     "u": "https://en.wikipedia.org/wiki/Salvator_Mundi_(Leonardo)"
+    },
+    {
+     "n": "Wikipedia: Louvre Abu Dhabi",
+     "u": "https://en.wikipedia.org/wiki/Louvre_Abu_Dhabi"
+    }
+   ]
+  }
+ ]
+}

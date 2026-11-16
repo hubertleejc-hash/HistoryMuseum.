@@ -1,0 +1,34 @@
+name: Gather guide
+
+# Fetches The Met's open-access records (CC0) and pictures for the museum route listed in
+# tools/guides/request.json, and commits them to the branch (tools/guides/out, app/img/guide).
+# Runs when request.json changes on a branch, or by hand.
+on:
+  push:
+    branches-ignore: [main]
+    paths: ["tools/guides/request.json", "tools/guides/gather_guide.py"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  gather:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install Pillow==11.3.0
+      - run: python3 tools/guides/gather_guide.py
+      - run: python3 tools/guides/gather_guide.py --extra
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tools/guides/out app/img/guide
+          git diff --cached --quiet && { echo "Nothing new"; exit 0; }
+          git commit -qm "Gather guide: Met records and pictures for the route"
+          for i in 1 2 3; do git pull --rebase -q origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}" && break; sleep 5; done

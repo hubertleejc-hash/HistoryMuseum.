@@ -1,0 +1,49 @@
+{
+ "id": "prado",
+ "n": "Museo del Prado",
+ "short": "The Prado",
+ "kind": "museum",
+ "where": "Madrid",
+ "lat": 40.4138,
+ "lon": -3.6921,
+ "r": 250,
+ "rank": 9,
+ "blurb": "The Spanish royal collection, with the world's best Velázquez, Goya and Titian.",
+ "facts": [
+  {
+   "h": "Opened in 1819",
+   "when": "1819",
+   "lab": "verified",
+   "t": "King Ferdinand VII opened the royal picture collection to the public in a building first designed for a natural history museum. 311 Spanish paintings were shown on the first day.",
+   "src": [
+    {
+     "n": "Wikipedia: Museo del Prado",
+     "u": "https://en.wikipedia.org/wiki/Museo_del_Prado"
+    },
+    {
+     "n": "Museo del Prado",
+     "u": "https://www.museodelprado.es/en"
+    }
+   ]
+  },
+  {
+   "h": "Las Meninas",
+   "when": "1656",
+   "lab": "verified",
+   "people": [
+    "picasso"
+   ],
+   "t": "Velázquez painted the little Infanta Margarita and her maids in 1656, with himself at a huge easel and the king and queen reflected in a mirror. Picasso painted 58 versions of it in 1957.",
+   "src": [
+    {
+     "n": "Wikipedia: Las Meninas",
+     "u": "https://en.wikipedia.org/wiki/Las_Meninas"
+    },
+    {
+     "n": "Wikipedia: Las Meninas (Picasso)",
+     "u": "https://en.wikipedia.org/wiki/Las_Meninas_(Picasso)"
+    }
+   ]
+  }
+ ]
+}

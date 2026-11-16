@@ -1,0 +1,57 @@
+{
+ "id": "vatican-museums",
+ "n": "Vatican Museums",
+ "kind": "museum",
+ "where": "Vatican City",
+ "lat": 41.9065,
+ "lon": 12.4536,
+ "r": 350,
+ "rank": 4,
+ "blurb": "The popes' collections, gathered over five centuries, with the Sistine Chapel at the end of a seven-kilometre walk of galleries.",
+ "facts": [
+  {
+   "h": "It began with one statue",
+   "when": "1506",
+   "lab": "verified",
+   "people": [
+    "michelangelo"
+   ],
+   "t": "In 1506 Pope Julius II put the newly dug-up Laocoön group on show in a courtyard of the Vatican, a month after it was found in a Roman vineyard. Michelangelo was among the first to see it. That display is counted as the start of the museums.",
+   "src": [
+    {
+     "n": "Wikipedia: Vatican Museums",
+     "u": "https://en.wikipedia.org/wiki/Vatican_Museums"
+    },
+    {
+     "n": "Wikipedia: Laocoön and His Sons",
+     "u": "https://en.wikipedia.org/wiki/Laocoön_and_His_Sons"
+    }
+   ]
+  },
+  {
+   "h": "Raphael's rooms",
+   "when": "1508 to 1524",
+   "lab": "verified",
+   "people": [
+    "raphael",
+    "plato",
+    "aristotle"
+   ],
+   "go": [
+    "#place-rome",
+    "Rome"
+   ],
+   "t": "Raphael painted four rooms of the pope's apartments from 1508, including the School of Athens. He died in 1520 at 37, and his pupils finished the last room.",
+   "src": [
+    {
+     "n": "Wikipedia: Raphael Rooms",
+     "u": "https://en.wikipedia.org/wiki/Raphael_Rooms"
+    },
+    {
+     "n": "Wikipedia: The School of Athens",
+     "u": "https://en.wikipedia.org/wiki/The_School_of_Athens"
+    }
+   ]
+  }
+ ]
+}

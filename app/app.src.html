@@ -607,6 +607,64 @@ button:active, .chip:active, .btn:active, .tabbar a:active, .seg a:active, .lib-
 .w-scale{display:flex; justify-content:space-between; margin-top:-8px; font:500 11px/1 var(--ui); color:var(--ink-3); font-variant-numeric:tabular-nums}
 .w-stops{display:flex; gap:8px; overflow-x:auto; scrollbar-width:none; padding-top:6px}
 .w-note{margin:2px 0 0; font-size:11.5px; line-height:1.45; color:var(--ink-3)}
+/* Near me: museum guides and facts about places */
+.near-chip{text-decoration:none; color:var(--accent)}
+.near-chip svg{width:15px; height:15px}
+.near-chip.on{background:var(--accent); color:var(--accent-ink); border-color:var(--accent)}
+.near-row:active, .guide-card:active{transform:scale(.99)}
+.near-ico{flex:none; width:36px; height:36px; border-radius:50%; display:grid; place-items:center; background:var(--accent-soft); color:var(--accent)}
+.near-ico.sm{width:30px; height:30px}
+.near-ico.sm svg{width:16px; height:16px}
+.near-txt{display:flex; flex-direction:column; gap:2px; min-width:0; flex:1}
+.near-txt b{font-weight:600; font-size:15px}
+.near-txt small{font-size:12.5px; color:var(--ink-3); overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.near-chev{color:var(--ink-3); font-size:22px; line-height:1}
+.near{display:flex; flex-direction:column; gap:22px}
+.near-loc{gap:10px}
+.near-loc .btn{display:inline-flex; align-items:center; gap:8px; min-height:40px; padding:8px 16px}
+.near-loc .btn svg{width:18px; height:18px}
+.near-at{font-size:26px}
+.near-busy{color:var(--ink-2)}
+.near-list{display:flex; flex-direction:column; border:1px solid var(--rule); border-radius:14px; background:var(--surface); overflow:hidden; margin-top:10px}
+.near-row{display:flex; align-items:center; gap:12px; padding:11px 14px; color:var(--ink); text-decoration:none; min-height:56px}
+.near-row + .near-row{border-top:1px solid var(--rule)}
+.near-tag{flex:none; font:600 10.5px/1 var(--ui); letter-spacing:.06em; text-transform:uppercase; padding:5px 7px; border-radius:6px; background:var(--accent); color:var(--accent-ink)}
+.near-tag.soft{background:transparent; color:var(--ink-3); border:1px solid var(--rule)}
+.near-find{width:100%; font:inherit; font-size:16px; padding:11px 14px; border-radius:12px; border:1px solid var(--rule); background:var(--surface); color:var(--ink)}
+.near-row[hidden], .near-sec[hidden]{display:none}
+.near-back{font-size:14px; color:var(--accent); text-decoration:none; align-self:flex-start; padding:6px 0}
+.pl-h{margin:6px 0 8px}
+.pl-blurb{color:var(--ink-2); margin:0; max-width:62ch}
+.guide-card{display:flex; flex-direction:column; gap:8px; padding:18px; border-radius:16px; text-decoration:none; color:var(--ink); background:linear-gradient(160deg, var(--accent-soft), transparent 70%), var(--surface); border:1px solid var(--rule)}
+.guide-card h2{font-size:24px; margin:0}
+.guide-card p{margin:0; color:var(--ink-2); font-size:14px}
+.guide-card .btn{margin-top:6px}
+.guide-thumbs{display:flex; gap:6px; margin-top:4px}
+.guide-thumbs img{width:25%; max-width:96px; aspect-ratio:1; object-fit:cover; border-radius:8px; background:var(--sunk)}
+.pf-list, .stops{display:grid; gap:14px; grid-template-columns:repeat(auto-fill, minmax(min(100%, 340px), 1fr)); margin:10px 0 0; padding:0; list-style:none}
+.pf-top, .stop-top{display:flex; align-items:center; gap:10px; flex-wrap:wrap}
+.pf-when{font:500 12px/1 var(--mono, var(--ui)); color:var(--ink-3)}
+.pf h3, .stop h3{font-size:19px; margin:0}
+.pf-go{display:flex; flex-wrap:wrap; gap:6px}
+.pf-go .chip{text-decoration:none; color:var(--ink-2)}
+.pf-go .dot{width:8px; height:8px; border-radius:50%; background:var(--fc, var(--accent))}
+.pf-src{margin:6px 0 0; padding-left:18px; font-size:13px; color:var(--ink-2)}
+.pf-fig, .stop-fig{margin:0}
+.stop-n{width:28px; height:28px; border-radius:50%; display:grid; place-items:center; background:var(--accent); color:var(--accent-ink); font:600 13px/1 var(--ui)}
+.stop-gal{font:600 11px/1 var(--ui); letter-spacing:.1em; text-transform:uppercase; color:var(--accent)}
+.stop-by{margin:-6px 0 0; color:var(--ink-3); font-size:13.5px}
+.stop-look{font-size:14px; color:var(--ink-2)}
+.stop-look b{font-weight:600; color:var(--ink)}
+.stop-foot{display:flex; align-items:center; justify-content:space-between; gap:10px; margin-top:auto; font-size:13px}
+.stop-end{font-style:italic; color:var(--ink-3)}
+.stop{scroll-margin-top:calc(14px + env(safe-area-inset-top, 0px))}
+.guide-floor{margin-top:8px}
+.route-pick{display:flex; flex-direction:column; gap:8px}
+.route-pick .seg{align-self:flex-start}
+.route-pick .seg button{padding:8px 14px; border:0; border-radius:8px; background:none; color:var(--ink-2); font:500 14px/1.1 var(--ui); white-space:nowrap; cursor:pointer}
+.route-pick .seg button.on{background:var(--surface); color:var(--ink); box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.route-pick small{color:var(--ink-3); font-size:13px}
+.stop-must{font:600 10px/1 var(--ui); letter-spacing:.08em; text-transform:uppercase; padding:4px 6px; border-radius:5px; border:1px solid var(--accent); color:var(--accent)}
 .w-scrim{position:fixed; inset:0; z-index:44; background:rgba(0,0,0,.38); border:0; padding:0; cursor:pointer}
 .w-scrim[hidden]{display:none}
 .w-hall{position:fixed; left:0; right:0; bottom:0; z-index:45; max-height:78vh; overflow-y:auto; overscroll-behavior:contain;
@@ -717,6 +775,34 @@ html.hinged .big-title, html.hinged .w-regions, html.hinged .w-dial{max-width:ca
 .ta-label{display:flex; flex-direction:column; gap:4px; padding:12px 0 0; font-size:13px; color:var(--ink-2)}
 .ta-label b{font:600 16px/1.3 var(--display); color:var(--ink)}
 .ta-label .when{color:var(--accent); font-weight:600}
+/* walks through real pictures */
+.wk3{touch-action:pan-y; user-select:none; -webkit-user-select:none}
+.wk3-layers, .wk3-gl{position:absolute; inset:0; width:100%; height:100%}
+.wk3-pic{position:absolute; inset:0; overflow:hidden; transition:opacity .85s ease, transform .9s cubic-bezier(.2,.7,.2,1); will-change:opacity, transform}
+.wk3-pic img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover}
+.wk3-pic img.drift{animation:wkDrift 24s ease-in-out infinite alternate; will-change:transform}
+@keyframes wkDrift{from{transform:scale(1)} to{transform:scale(1.04)}}
+.wk3-pic.in{opacity:0; transform:scale(.9)} .wk3-pic.out{opacity:0; transform:scale(1.22)}
+.wk3-pic.inb{opacity:0; transform:scale(1.18)} .wk3-pic.back{opacity:0; transform:scale(.9)}
+.wk3-spots{position:absolute; inset:0; pointer-events:none; z-index:1}
+.wk3-dot{position:absolute; width:44px; height:44px; margin:-22px 0 0 -22px; border:0; background:none; padding:0; cursor:pointer; pointer-events:auto}
+.wk3-dot span{position:absolute; left:13px; top:13px; width:18px; height:18px; border-radius:50%; background:rgba(242,201,105,.95); box-shadow:0 0 0 3px rgba(20,19,18,.45), 0 2px 8px rgba(0,0,0,.5)}
+.wk3-dot span::after{content:""; position:absolute; inset:-7px; border-radius:50%; border:2px solid rgba(242,201,105,.8); animation:wkPulse 2.4s ease-out infinite}
+.wk3-dot.on span{background:#FBF6EA}
+@keyframes wkPulse{from{transform:scale(.6); opacity:1} to{transform:scale(1.5); opacity:0}}
+.wk3 .ta-cap{top:14px; bottom:auto; pointer-events:none}
+.wk3 .ta-shade{inset:0 0 auto 0; height:42%; background:linear-gradient(rgba(10,9,8,.78), transparent)}
+.wk3-nav::before{content:""; position:absolute; inset:-30px -16px -14px; background:linear-gradient(transparent, rgba(10,9,8,.45)); z-index:-1; pointer-events:none}
+.wk3-nav{position:absolute; left:16px; right:16px; bottom:14px; z-index:2; display:flex; align-items:center; gap:12px}
+.wk3-nav button{border:1px solid rgba(231,199,121,.7); background:rgba(20,19,18,.55); color:#FBF6EA; border-radius:999px; min-height:38px; font:600 14px var(--ui); cursor:pointer}
+.wk3-back{width:38px; font-size:20px!important} .wk3-on{padding:0 16px; margin-left:auto; background:rgba(212,175,90,.9)!important; color:#141312!important; border-color:transparent!important}
+.wk3-dots{display:flex; gap:7px} .wk3-dots i{width:7px; height:7px; border-radius:50%; background:rgba(251,246,234,.4); cursor:pointer} .wk3-dots i.on{background:#F2C969}
+.wk3-card{margin:12px 0 0; padding:12px 14px; border:1px solid var(--rule); border-radius:12px; background:var(--surface); min-height:52px}
+.wk3-card h3{font:600 20px/1.2 var(--display); margin:2px 0 4px} .wk3-card p{margin:4px 0; font-size:14.5px} .wk3-card .how{color:var(--ink-2); font-size:13.5px}
+.wk3-hint{color:var(--ink-2)}
+.wk3-look{margin-top:22px} .wk3-grid{display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); gap:10px}
+.wk3-grid div{border:1px solid var(--rule); border-radius:12px; padding:10px 12px; background:var(--surface)} .wk3-grid b{font:600 16px var(--display)} .wk3-grid p{margin:4px 0 0; font-size:14px; color:var(--ink-2)}
+@media (prefers-reduced-motion: reduce){.wk3-pic img.drift, .wk3-dot span::after{animation:none}}
 .ta-map{position:relative; margin:-18px -16px 0; padding:26px 20px 22px; background:var(--sunk); display:flex; flex-direction:column; gap:10px; align-items:flex-start}
 @media (min-width:900px){.ta-map{margin:0; border-radius:18px}}
 .ta-map h2{font:600 clamp(30px,6vw,46px)/1.05 var(--display)}
@@ -738,12 +824,16 @@ html.hinged .big-title, html.hinged .w-regions, html.hinged .w-dial{max-width:ca
 .talk-badge.rec{background:var(--sunk); color:var(--ink-2); border:1px solid var(--rule)}
 /* ---------- Gallery: the collection grid ---------- */
 .gal-head h2{font-size:34px; line-height:1.05}
-.gal-feat{display:flex; gap:12px; overflow-x:auto; scroll-snap-type:x mandatory; padding:2px 2px 10px; margin:0 -2px; scrollbar-width:none; -webkit-overflow-scrolling:touch}
+.gal-feat{display:flex; align-items:flex-start; gap:12px; overflow-x:auto; scroll-snap-type:x mandatory; padding:2px 2px 10px; margin:0 -2px; scrollbar-width:none; -webkit-overflow-scrolling:touch}
 .gal-feat::-webkit-scrollbar{display:none}
 .gf{flex:0 0 auto; width:min(62vw, 240px); scroll-snap-align:start; text-align:left; border:0; padding:0; background:none; color:inherit; cursor:pointer; font:inherit}
 .gf .gt-img{aspect-ratio:4/5; border-radius:12px}
-.gf b{display:block; font:500 16px/1.25 var(--display); margin-top:9px; color:var(--ink)}
-.gf small{display:block; font-size:12.5px; color:var(--ink-3); margin-top:2px}
+.gf b{display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; overflow:hidden; overflow-wrap:anywhere; font:500 16px/1.25 var(--display); margin-top:9px; color:var(--ink)}
+.gf small{display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:12.5px; color:var(--ink-3); margin-top:2px}
+/* cards whose picture keeps its own shape: the card is as wide as the picture at a fixed height, within limits, so a wide photo never spills onto the next card */
+.gf.gfa{--h:200px; width:clamp(128px, calc(var(--ar, 1) * var(--h)), min(78vw, 300px))}
+.gf.gfa .gt-img{height:var(--h); aspect-ratio:auto}
+@media (min-width:700px){.gf.gfa{--h:240px; width:clamp(150px, calc(var(--ar, 1) * var(--h)), 360px)}}
 .gal-ctl{display:flex; flex-direction:column; gap:10px; position:sticky; top:0; z-index:5; padding:10px 0 12px; background:var(--bg); border-bottom:1px solid var(--rule)}
 .gal-ctl .chips{flex-wrap:nowrap; overflow-x:auto; scrollbar-width:none; -webkit-overflow-scrolling:touch; margin:0 -16px; padding:0 16px}
 .gal-ctl .chips::-webkit-scrollbar{display:none}
@@ -802,6 +892,38 @@ html.hinged .big-title, html.hinged .w-regions, html.hinged .w-dial{max-width:ca
 .av-cred{font-size:12.5px; color:#958A76; margin-top:16px; border-top:1px solid rgba(237,227,207,.1); padding-top:12px}
 .av-note{font-size:12.5px; color:#B9AE98; text-align:center; position:absolute; left:0; right:0; top:calc(env(safe-area-inset-top, 0px) + 64px); pointer-events:none}
 .av .lab{color:inherit}
+/* ---------- Today in history ---------- */
+.td{display:flex; flex-direction:column; gap:22px; animation:tdIn .5s ease both}
+@keyframes tdIn{from{opacity:0; transform:translateY(8px)}to{opacity:1; transform:none}}
+@media (prefers-reduced-motion: reduce){.td{animation:none}}
+.td-top{display:flex; align-items:flex-start; justify-content:space-between; gap:12px}
+.td-top h1{font-size:40px; line-height:1.05; margin:6px 0 0}
+.td-top .wd{color:var(--ink-3); font-size:14px; margin-top:4px}
+.td-skip{background:none; border:0; color:var(--ink-3); font:500 15px var(--ui); padding:10px 4px; cursor:pointer}
+.td-hero{display:grid; grid-template-columns:minmax(0,1fr); border-radius:22px; overflow:hidden; background:var(--surface); border:1px solid var(--rule); box-shadow:var(--shadow); color:var(--ink)}
+.td-hero:hover{text-decoration:none}
+.td-hero .ph{aspect-ratio:4/3; background:color-mix(in srgb, var(--fc) 22%, var(--sunk)); display:flex; align-items:center; justify-content:center; font:600 54px var(--display); color:var(--ink-2); overflow:hidden}
+.td-hero .ph img{width:100%; height:100%; object-fit:cover; object-position:center 22%}
+.td-hero .tx{padding:16px 18px 18px; display:flex; flex-direction:column; gap:6px}
+.td-n{font:600 30px/1.05 var(--display); color:var(--gold)}
+.td-n small{font:500 13px var(--ui); color:var(--ink-3); margin-left:6px; letter-spacing:0}
+.td-hero h2{font-size:24px; margin:0}
+.td-hero p{margin:0; color:var(--ink-2)}
+.td-tag{align-self:flex-start; font:600 11px/1 var(--ui); letter-spacing:.08em; text-transform:uppercase; color:var(--ink-3); border:1px solid var(--rule); border-radius:999px; padding:5px 8px}
+.td-list{display:flex; flex-direction:column; border-top:1px solid var(--rule)}
+.td-row{display:flex; align-items:center; gap:14px; padding:12px 2px; border-bottom:1px solid var(--rule); color:var(--ink)}
+.td-row:hover{text-decoration:none; background:var(--accent-soft)}
+.td-row .td-av{width:48px; height:48px; flex:none; border-radius:50%; overflow:hidden; background:color-mix(in srgb, var(--fc) 24%, var(--sunk)); display:flex; align-items:center; justify-content:center; font:600 15px var(--display); color:var(--ink)}
+.td-row .td-av img{width:100%; height:100%; object-fit:cover; object-position:center 20%}
+.td-row b{display:block; font:600 16px/1.25 var(--display)}
+.td-row span.s{display:block; color:var(--ink-3); font-size:13.5px; margin-top:2px}
+.td-row .yr{margin-left:auto; text-align:right; font:600 17px/1 var(--display); color:var(--gold); white-space:nowrap}
+.td-row .yr small{display:block; font:500 11px var(--ui); color:var(--ink-3); margin-top:3px}
+.td-hero.td-evh .tx{padding:22px 20px}
+.td-av.td-evi{background:var(--accent-soft); color:var(--gold)}
+.td-go{display:block; width:100%; border:0; border-radius:16px; padding:15px; background:var(--accent); color:var(--accent-ink); font:600 16px var(--ui); cursor:pointer}
+.td-note{font-size:12.5px; color:var(--ink-3); margin:0}
+@media (min-width:760px){.td-hero{grid-template-columns:minmax(0,5fr) minmax(0,6fr)} .td-hero .ph{aspect-ratio:auto; min-height:260px; max-height:380px} .td-hero .tx{justify-content:center; padding:24px}}
 </style>
 <script>/* light or dark follows the phone's own setting */
 (function(){var m=window.matchMedia&&matchMedia("(prefers-color-scheme: dark)");document.documentElement.setAttribute("data-theme",m&&!m.matches?"light":"dark")})();</script>
@@ -828,9 +950,11 @@ html.hinged .big-title, html.hinged .w-regions, html.hinged .w-dial{max-width:ca
 </div>
 
 <script>/*__DATA__*/</script>
+<script>/*__TODAY__*/</script>
 <script>/*__CONTENT__*/</script>
 <script>/*__DEEP__*/</script>
 <script>/*__ERAS__*/</script>
+<script>/*__WALKS__*/</script>
 <script>/*__CHAPTERS__*/</script>
 <script>/*__IMAGES__*/</script>
 <script>/*__GEO__*/</script>
@@ -910,6 +1034,7 @@ function fetchFeed(){
     FEED = f;
     feedChapters(f).forEach(indexChapter);
     if (ART) { const have = new Set(ART.map(it => it.id)); ART.push(...feedArt(f, have)); }
+    if (f.today && location.hash === "#today" && scrollY < 40) viewToday();
   }).catch(() => { feedTried = false; });
 }
 /* Honesty notes for images: shown right under the picture, never in a tooltip. */
@@ -1710,7 +1835,7 @@ function viewArt(){
     <p class="muted" style="font-size:12.5px">The collection's pictures and texts come from the open-access programmes of the Cleveland Museum of Art and the Metropolitan Museum of Art (public domain, CC0). Every work names its museum. Nothing here is made by AI.</p>`;
   loadArt(() => {
     const feat = ART.filter(it => it.src === "feat");
-    document.getElementById("galFeat").innerHTML = feat.filter(it => !it.id.startsWith("pt-")).map(it => `<button type="button" class="gf" data-feat="${esc(it.id)}"><span class="gt-img"><img src="${esc(it.img)}" alt="${esc(it.t)}" loading="lazy" decoding="async" onload="this.classList.add('in')"></span><b>${esc(it.t)}</b><small>${esc(it.a)}${it.d ? ", " + esc(it.d) : ""}</small></button>`).join("");
+    document.getElementById("galFeat").innerHTML = feat.filter(it => !it.id.startsWith("pt-")).map(it => `<button type="button" class="gf" data-feat="${esc(it.id)}"><span class="gt-img"><img src="${esc(it.img)}" alt="" loading="lazy" decoding="async" onload="this.classList.add('in')" onerror="this.parentNode.classList.add('broken')"></span><b>${esc(it.t)}</b><small>${esc(it.a)}${it.d ? ", " + esc(it.d) : ""}</small></button>`).join("");
     drawArtGrid();
   });
   const qi = document.getElementById("galQ"); let tq;
@@ -1776,7 +1901,7 @@ function personArt(p){
       .sort((a, b) => (a.wing === b.wing ? 0 : a.wing === "app" ? -1 : 1) || (b.hasText - a.hasText) || ((hashStr(a.id + seed) % 997) - (hashStr(b.id + seed) % 997))).slice(0, 12);
     pArtList = by.slice(0, 12).concat(world);
     if (!pArtList.length) return;
-    const strip = (l, off) => `<div class="gal-feat">${l.map((it, i) => `<button type="button" class="gf" data-part="${i + off}"><span class="gt-img" style="aspect-ratio:${it.w && it.h ? it.w + "/" + it.h : "1"};width:auto;height:200px"><img src="${esc(artPath(it, "t"))}" alt="${esc(it.t)}" loading="lazy" decoding="async" onload="this.classList.add('in')" style="width:auto;height:100%"></span><b>${esc(it.t)}</b><small>${esc(it.a || regName(it.r))}${it.y != null ? " · " + esc(fy(it.y)) : ""}</small></button>`).join("")}</div>`;
+    const strip = (l, off) => `<div class="gal-feat">${l.map((it, i) => `<button type="button" class="gf gfa" data-part="${i + off}" style="--ar:${(it.w && it.h ? Math.min(2, Math.max(.6, it.w / it.h)) : 1).toFixed(3)}"><span class="gt-img"><img src="${esc(artPath(it, "t"))}" alt="" loading="lazy" decoding="async" onload="this.classList.add('in')" onerror="this.parentNode.classList.add('broken')"></span><b>${esc(it.t)}</b><small>${esc(it.a || regName(it.r))}${it.y != null ? " · " + esc(fy(it.y)) : ""}</small></button>`).join("")}</div>`;
     const nb = Math.min(by.length, 12);
     box.innerHTML = (nb ? `<div class="sec-head"><h2>By ${esc(short(p))}</h2><p>${plural(nb, "work")} in the Gallery</p></div>${strip(pArtList.slice(0, nb), 0)}` : "") +
       (world.length ? `<div class="sec-head" style="margin-top:${nb ? 28 : 0}px"><h2>The art of ${esc(short(p))}'s world</h2><p>Made where they lived, in their lifetime</p></div>${strip(world, nb)}` : "");
@@ -2741,6 +2866,13 @@ const SCENES = [
   {id:"edo-1831", y:1831, tol:20, c:"japan", place:"Off the coast of Kanagawa, Japan", img:"great-wave", ox:"40%", oy:"50%"},
   {id:"kaifeng-1120", y:1120, tol:40, c:"china", place:"Kaifeng, capital of the Song dynasty", img:"qingming", ox:"50%", oy:"50%"}
 ].filter(sc => IMG[sc.img]);
+/* Walks through real pictures (app/walks.js): several real period pictures of one place, with tappable
+   "elements of the year". Photographs can get a gentle 3D tilt from a software depth estimate. */
+const WALKS = H.walks || {}, WPIC = H.walkPics || {};
+Object.entries(WALKS).forEach(([id, w]) => { w.stops = w.stops.filter(st => WPIC[st.pic]); if (!w.stops.length) return;
+  const i = SCENES.findIndex(sc => sc.id === id), sc = {id, y:w.y, tol:w.tol, c:w.c, place:w.place, walk:w};
+  if (i >= 0) SCENES[i] = sc; else SCENES.push(sc); });
+SCENES.sort((a, b) => astro(b.y) - astro(a.y));
 let taShown = null, taAnim = 0;
 const sceneFor = y => SCENES.filter(sc => Math.abs(astro(sc.y) - astro(y)) <= sc.tol).sort((a, b) => Math.abs(a.y - y) - Math.abs(b.y - y) || b.tol - a.tol)[0] || null;
 const nearestScene = y => SCENES.slice().sort((a, b) => Math.abs(astro(a.y) - astro(y)) - Math.abs(astro(b.y) - astro(y)))[0] || null;
@@ -2750,6 +2882,140 @@ function whoCards(list, y){
   return `<div class="who">${list.map(p => { const ph = portraitOf(p);
     return `<a href="#p-${p.id}" class="${p.id === wkFocus ? "focus" : ""}" style="${fc(p.f)}"><span class="ph">${ph ? `<img src="${esc(ph)}" alt="" loading="lazy">` : esc(initials(p.n))}</span><span style="min-width:0"><b>${esc(p.n)}</b><small>age ${p.a ? "c. " : ""}${ageAt(p, y)} · ${esc(F[p.f] ? F[p.f].label : "")}</small></span></a>`; }).join("")}</div>`;
 }
+const TA_VEIL = `<div class="ta-veil" id="taVeil" aria-hidden="true"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="52" fill="none" stroke="#D4AF5A" stroke-width="1.4"/><path d="M60 8v8M60 104v8M8 60h8M104 60h8" stroke="#D4AF5A" stroke-width="2" stroke-linecap="round"/><g class="hand"><path d="M60 60V22" stroke="#F2C969" stroke-width="2.4" stroke-linecap="round"/></g><circle cx="60" cy="60" r="3.5" fill="#F2C969"/></svg><div class="num" id="taNum"></div><div class="sub">Travelling in time</div></div>`;
+const WK3 = {w:null, i:0, still:false, flat:false, gl:null, tex:{}, pan:[0, 0], raf:0, t0:0, data:{}, wait:{}};
+window.WALK_PIC = (id, im, dp) => { WK3.data[id] = {im, dp}; (WK3.wait[id] || []).forEach(f => f()); delete WK3.wait[id]; };
+function walkStage(sc, y){
+  const w = sc.walk, n = w.stops.length;
+  return `<div class="ta wk3" id="wk3"><div class="wk3-layers" id="wk3L"></div><canvas class="wk3-gl" id="wk3G" hidden></canvas>
+      <div class="ta-shade"></div><div class="wk3-spots" id="wk3S"></div>
+      <div class="ta-cap"><span class="eyebrow" id="wk3E">You have arrived</span><h2>${esc(sc.place.split(",")[0])}, ${fy(y)}</h2><p id="wk3N"></p></div>
+      ${n > 1 ? `<div class="wk3-nav"><button type="button" class="wk3-back" data-w3="-1" aria-label="Walk back">‹</button><span class="wk3-dots" id="wk3D">${w.stops.map((_, k) => `<i data-w3to="${k}"></i>`).join("")}</span><button type="button" class="wk3-on" data-w3="1">Walk on <span aria-hidden="true">›</span></button></div>` : ""}
+      ${TA_VEIL}
+    </div>
+    <div class="wk3-card" id="wk3C" aria-live="polite"></div>
+    <div class="ta-label" id="wk3Lab"></div>
+    <section class="wk3-look"><div class="sec-head"><h2>What ${fy(w.y)} looked like</h2><p>Worked out from the real pictures on this walk</p></div>
+      <div class="wk3-grid">${w.look.map(([k, v]) => `<div><b>${esc(k)}</b><p>${esc(v)}</p></div>`).join("")}</div></section>`;
+}
+function walkInit(sc, still){
+  if (WK3.gl) { const x = WK3.gl.getExtension("WEBGL_lose_context"); if (x) x.loseContext(); }
+  Object.assign(WK3, {w:sc.walk, i:0, still, gl:null, tex:{}, pan:[0, 0]});
+  const box = document.getElementById("wk3"), lab = document.getElementById("wk3Lab");
+  box.addEventListener("click", ev => {
+    const b = ev.target.closest("[data-w3]"), to = ev.target.closest("[data-w3to]"), s = ev.target.closest("[data-w3s]");
+    const n = WK3.w.stops.length;
+    if (b) { const d = parseInt(b.dataset.w3, 10); walkShow((WK3.i + d + n) % n, d); haptic("light"); }
+    else if (to) { const k = parseInt(to.dataset.w3to, 10); if (k !== WK3.i) walkShow(k, k > WK3.i ? 1 : -1); }
+    else if (s) walkSpot(parseInt(s.dataset.w3s, 10));
+  });
+  lab.addEventListener("click", ev => { if (!ev.target.closest("[data-w3flat]")) return; WK3.flat = !WK3.flat; walkLabel(); walkGL(WK3.i); });
+  /* drag across the picture to look around (photos with a depth estimate) */
+  let p0 = null;
+  box.addEventListener("pointerdown", ev => { if (ev.target.closest("button") || !WK3.ready) return; p0 = [ev.clientX, ev.clientY, WK3.pan[0], WK3.pan[1]]; WK3.t0 = 0; });
+  box.addEventListener("pointermove", ev => { if (!p0) return; const W = box.clientWidth;
+    WK3.pan = [Math.max(-.03, Math.min(.03, p0[2] - (ev.clientX - p0[0]) / W * .06)), Math.max(-.015, Math.min(.015, p0[3] - (ev.clientY - p0[1]) / W * .04))]; walkDraw(); });
+  const up = () => { if (!p0) return; p0 = null; const a = WK3.pan.slice(), t0 = performance.now();
+    const back = now => { const t = Math.min(1, (now - t0) / 700), e = 1 - Math.pow(1 - t, 3); WK3.pan = [a[0] * (1 - e), a[1] * (1 - e)]; walkDraw(); if (t < 1 && !p0) WK3.raf = requestAnimationFrame(back); };
+    cancelAnimationFrame(WK3.raf); WK3.raf = requestAnimationFrame(back); };
+  box.addEventListener("pointerup", up); box.addEventListener("pointercancel", up);
+  walkShow(0, 0);
+}
+function walkShow(i, dir){
+  const w = WK3.w, st = w.stops[i], pic = WPIC[st.pic], L = document.getElementById("wk3L"); if (!L) return;
+  WK3.i = i; WK3.ready = false; cancelAnimationFrame(WK3.raf);
+  const cv = document.getElementById("wk3G"); cv.hidden = true;
+  document.getElementById("wk3S").innerHTML = "";
+  const old = L.lastElementChild, lay = document.createElement("div"), im = new Image();
+  lay.className = "wk3-pic"; im.alt = pic.title; im.decoding = "async";
+  im.className = pic.js || WK3.still ? "" : "drift";
+  im.style.objectPosition = `${(st.fx ?? .5) * 100}% ${(st.fy ?? .5) * 100}%`;
+  im.src = pic.src; lay.appendChild(im);
+  const n = w.stops.length;
+  document.getElementById("wk3E").textContent = n > 1 ? `You have arrived · ${i + 1} of ${n}` : "You have arrived";
+  document.getElementById("wk3N").textContent = st.name;
+  document.querySelectorAll("#wk3D i").forEach((d, k) => d.classList.toggle("on", k === i));
+  walkLabel();
+  document.getElementById("wk3C").innerHTML = `<p class="wk3-hint">Tap a gold dot to see what was there in ${fy(w.y)} and how we know.${pic.js ? " Drag across the picture to look around." : ""}</p>`;
+  const go = () => { if (WK3.i !== i) return;
+    L.appendChild(lay);
+    if (old && !WK3.still && dir) { lay.classList.add(dir < 0 ? "inb" : "in"); old.classList.add(dir < 0 ? "back" : "out");
+      requestAnimationFrame(() => requestAnimationFrame(() => lay.classList.remove("in", "inb"))); setTimeout(() => old.remove(), 950); }
+    else if (old) old.remove();
+    walkSpots(); setTimeout(() => walkGL(i), old && dir ? 900 : 0); };
+  im.decode ? im.decode().then(go, go) : (im.onload = go);
+}
+function walkLabel(){
+  const st = WK3.w.stops[WK3.i], pic = WPIC[st.pic], lab = document.getElementById("wk3Lab"); if (!lab) return;
+  lab.innerHTML = `<b>${esc(st.title || pic.title)}</b><span>${esc(pic.by)}. ${esc(pic.lic)}${pic.page ? ` · <a href="${esc(pic.page)}" target="_blank" rel="noopener">source</a>` : ""}. A real ${esc(st.kind || "picture")}, not made by AI.</span>
+    <span><span class="when">${esc(st.made)}</span>, shown for <span id="taFor">${fy(wkYear)}</span>.${st.note ? " " + esc(st.note) : ""}</span>
+    ${pic.js ? `<span>The 3D effect is added by a computer: it estimates how far away each part of the photograph is and moves the near parts a little more as you drag. <button type="button" class="lnk" data-w3flat>${WK3.flat ? "Turn the 3D effect back on" : "See the photograph as it is"}</button></span>` : ""}`;
+}
+/* where a point of the picture lands on screen (object-fit: cover, with the 3D view zoomed a little) */
+function walkFit(){
+  const L = document.getElementById("wk3L"), st = WK3.w.stops[WK3.i], pic = WPIC[st.pic], W = L.clientWidth, Hh = L.clientHeight;
+  const z = WK3.ready ? 1.06 : 1, s = Math.max(W / pic.w, Hh / pic.h) * z, dw = pic.w * s, dh = pic.h * s;
+  return {W, H:Hh, dw, dh, ox:(W - dw) * (st.fx ?? .5), oy:(Hh - dh) * (st.fy ?? .5)};
+}
+function walkSpots(){
+  const S = document.getElementById("wk3S"); if (!S) return;
+  const f = walkFit(), st = WK3.w.stops[WK3.i];
+  S.innerHTML = (st.spots || []).map((sp, k) => { const x = f.ox + sp.x * f.dw, y = f.oy + sp.y * f.dh;
+    return x < 14 || x > f.W - 14 || y < 14 || y > f.H - 10 || (y < 112 && x < f.W * .85) || (y > f.H - 58 && (x < 150 || x > f.W - 150)) ? "" : `<button type="button" class="wk3-dot" data-w3s="${k}" style="left:${x.toFixed(0)}px;top:${y.toFixed(0)}px" aria-label="${esc(sp.t)}"><span></span></button>`; }).join("");
+}
+function walkSpot(k){
+  const sp = WK3.w.stops[WK3.i].spots[k], c = document.getElementById("wk3C"); if (!sp || !c) return;
+  document.querySelectorAll(".wk3-dot").forEach(d => d.classList.toggle("on", +d.dataset.w3s === k));
+  c.innerHTML = `<span class="eyebrow">In ${fy(WK3.w.y)}</span><h3>${esc(sp.t)}</h3><p>${esc(sp.d)}</p>${sp.how ? `<p class="how"><b>How we know:</b> ${esc(sp.how)}</p>` : ""}`;
+  haptic("light");
+}
+/* the 3D tilt: one WebGL canvas, drawn only while something moves */
+function walkGL(i){
+  const st = WK3.w.stops[i], pic = WPIC[st.pic], cv = document.getElementById("wk3G");
+  if (!cv || !pic.js || WK3.flat || WK3.still) { if (cv) cv.hidden = true; WK3.ready = false; walkSpots(); return; }
+  const id = st.pic;
+  if (!WK3.data[id]) {
+    if (!WK3.wait[id]) { WK3.wait[id] = []; const s = document.createElement("script"); s.src = pic.js; document.head.appendChild(s); }
+    WK3.wait[id].push(() => walkGL(i)); return;
+  }
+  if (!WK3.gl) {
+    const gl = cv.getContext("webgl", {alpha:false, antialias:false, depth:false, stencil:false}); if (!gl) return;
+    const sh = (t, src) => { const o = gl.createShader(t); gl.shaderSource(o, src); gl.compileShader(o); return o; };
+    const pr = gl.createProgram();
+    gl.attachShader(pr, sh(gl.VERTEX_SHADER, "attribute vec2 p;varying vec2 v;void main(){v=vec2(p.x*.5+.5,.5-p.y*.5);gl_Position=vec4(p,0.,1.);}"));
+    gl.attachShader(pr, sh(gl.FRAGMENT_SHADER, "precision mediump float;varying vec2 v;uniform sampler2D im,dp;uniform vec2 sc,of,pan;void main(){vec2 u=(v-of)/sc;float d=texture2D(dp,u).r;u-=pan*(d-.4);gl_FragColor=texture2D(im,clamp(u,.001,.999));}"));
+    gl.linkProgram(pr); gl.useProgram(pr);
+    const b = gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER, b); gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 1, -1, -1, 1, 1, 1]), gl.STATIC_DRAW);
+    const loc = gl.getAttribLocation(pr, "p"); gl.enableVertexAttribArray(loc); gl.vertexAttribPointer(loc, 2, gl.FLOAT, false, 0, 0);
+    gl.uniform1i(gl.getUniformLocation(pr, "im"), 0); gl.uniform1i(gl.getUniformLocation(pr, "dp"), 1);
+    WK3.u = {sc:gl.getUniformLocation(pr, "sc"), of:gl.getUniformLocation(pr, "of"), pan:gl.getUniformLocation(pr, "pan")};
+    cv.addEventListener("webglcontextlost", ev => { ev.preventDefault(); WK3.gl = null; WK3.ready = false; cv.hidden = true; walkSpots(); });
+    WK3.gl = gl;
+  }
+  const gl = WK3.gl, d = WK3.data[id];
+  const tex = (unit, src) => new Promise(res => { const im = new Image(); im.onload = () => {
+    gl.activeTexture(gl.TEXTURE0 + unit); const t = gl.createTexture(); gl.bindTexture(gl.TEXTURE_2D, t);
+    [gl.TEXTURE_WRAP_S, gl.TEXTURE_WRAP_T].forEach(k => gl.texParameteri(gl.TEXTURE_2D, k, gl.CLAMP_TO_EDGE));
+    [gl.TEXTURE_MIN_FILTER, gl.TEXTURE_MAG_FILTER].forEach(k => gl.texParameteri(gl.TEXTURE_2D, k, gl.LINEAR));
+    gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGB, gl.RGB, gl.UNSIGNED_BYTE, im); if (WK3.tex[unit]) gl.deleteTexture(WK3.tex[unit]); WK3.tex[unit] = t; res(); };
+    im.onerror = res; im.src = src; });
+  Promise.all([tex(0, d.im), tex(1, d.dp)]).then(() => {
+    if (WK3.i !== i || !WK3.gl) return;
+    WK3.ready = true; walkDraw(); cv.hidden = false; walkSpots();
+    /* a slow look from side to side on arrival, then still */
+    const t0 = performance.now(), sway = now => { const t = (now - t0) / 1000; if (t > 6 || !WK3.ready) { WK3.pan = [0, 0]; walkDraw(); return; }
+      const e = Math.sin(Math.PI * t / 6); WK3.pan = [.02 * Math.sin(t * 1.1) * e, .006 * Math.sin(t * .8) * e]; walkDraw(); WK3.raf = requestAnimationFrame(sway); };
+    cancelAnimationFrame(WK3.raf); WK3.raf = requestAnimationFrame(sway);
+  });
+}
+function walkDraw(){
+  const gl = WK3.gl, cv = document.getElementById("wk3G"); if (!gl || !cv || !WK3.ready) return;
+  const f = walkFit(), r = Math.min(2, window.devicePixelRatio || 1), cw = Math.round(f.W * r), ch = Math.round(f.H * r);
+  if (cv.width !== cw || cv.height !== ch) { cv.width = cw; cv.height = ch; gl.viewport(0, 0, cw, ch); }
+  gl.uniform2f(WK3.u.sc, f.dw / f.W, f.dh / f.H); gl.uniform2f(WK3.u.of, f.ox / f.W, f.oy / f.H); gl.uniform2f(WK3.u.pan, WK3.pan[0], WK3.pan[1]);
+  gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+}
+addEventListener("resize", () => { if (document.getElementById("wk3")) { walkSpots(); walkDraw(); } });
 function viewWalk(y, focus){
   if (y != null && Number.isFinite(y)) wkYear = clampY(y);
   wkFocus = focus || null; taShown = null;
@@ -2770,7 +3036,8 @@ function drawWalk(){
   const sc = sceneFor(y), key = sc ? sc.id : "map", still = matchMedia("(prefers-reduced-motion: reduce)").matches;
   const alive = aliveAt(y), here = sc ? alive.filter(p => (p.c || []).includes(sc.c)) : [];
   if (!taShown || taShown.key !== key) {
-    if (sc) {
+    if (sc && sc.walk) host.innerHTML = walkStage(sc, y);
+    else if (sc) {
       const m = IMG[sc.img], h = hashStr(sc.id), photo = IMG_KIND(sc.img) === "Real photograph";
       const made = photo ? `Photographed ${m.date}` : `${/print|woodblock/i.test(m.title + " " + (IMG_NOTE[sc.img] || [""])[1]) ? "Printed" : "Painted"} ${m.date}`;
       host.innerHTML = `<div class="ta">
@@ -2804,6 +3071,7 @@ function drawWalk(){
     const mh = host.querySelector(".ta-map h2"); if (mh) mh.textContent = `The world in ${fy(y)}`;
     const tf = document.getElementById("taFor"); if (tf) tf.textContent = fy(y);
   }
+  if (sc && sc.walk && (!taShown || taShown.key !== key)) walkInit(sc, still);
   taShown = {key, y};
   const rest = alive.filter(p => !here.includes(p)).sort((a, b) => astro(a.b) - astro(b.b));
   document.getElementById("taWho").innerHTML = alive.length ? `
@@ -2928,6 +3196,213 @@ function walkYearFor(p){
 }
 
 
+/* ---------- Near me: museum guides and facts about places ----------
+   A small list of places (museums, cities, battlefields) ships inside the app, with a starter set of their
+   pages (H.places, from online/places/). New places come with the online feed (FEED.places), and a place's
+   page is downloaded by its name only (online/places/<id>.json), then kept on the phone for offline use.
+   "Use my location" asks the phone once, only when tapped. This page compares the position with the
+   list right here and forgets it: nothing is saved, sent or tracked, and no coordinates ever leave the phone. */
+const PL_BASE = FEED_BASE + "places/";
+const PL0 = H.places || {list:[], files:{}};
+const PL_KIND = [["museum", "Museums"], ["city", "Cities and towns"], ["site", "Battlefields and landmarks"]];
+function plList(){
+  const m = new Map(PL0.list.map(p => [p.id, p]));
+  ((FEED && FEED.places) || []).forEach(p => { if (p && /^[a-z0-9-]+$/.test(p.id || "") && typeof p.lat === "number" && typeof p.lon === "number") m.set(p.id, p); });
+  return [...m.values()].sort((a, b) => a.n.localeCompare(b.n));
+}
+const plStub = id => plList().find(p => p.id === id);
+const plMem = new Map();   // this session's downloads, in case the phone's store is full or blocked
+const plSaved = id => { if (plMem.has(id)) return plMem.get(id); try { const f = JSON.parse(store.get("ctm-place-" + id) || "null"); return f && f.id === id ? f : null; } catch(e){ return null; } };
+/* The best copy on the phone: a saved download that is current, else the one built into the app, else an older download. */
+function plFile(id){
+  const s = plStub(id), saved = plSaved(id), built = PL0.files[id];
+  if (saved && s && saved.rev === s.rev) return saved;
+  return built || saved || null;
+}
+const plFresh = id => { const s = plStub(id), f = plFile(id); return !!f && (!s || f.rev === s.rev); };
+const plLoading = new Set(), plFailed = new Set();
+function plFetch(id, done){
+  if (plLoading.has(id) || plFailed.has(id) || navigator.onLine === false || !plStub(id)) return false;
+  plLoading.add(id);
+  fetch(PL_BASE + id + ".json", {cache:"no-cache"}).then(r => r.ok ? r.json() : null).then(f => {
+    plLoading.delete(id);
+    if (!f || f.id !== id || !Array.isArray(f.facts)) return done(false);
+    f.rev = (plStub(id) || {}).rev; plMem.set(id, f); store.set("ctm-place-" + id, JSON.stringify(f)); done(true);
+  }).catch(() => { plLoading.delete(id); done(false); });
+  return true;
+}
+/* distance in km between two points on the Earth */
+function kmBetween(a, b, c, d){
+  const r = Math.PI / 180, x = Math.sin((c - a) * r / 2), y = Math.sin((d - b) * r / 2);
+  return 12742 * Math.asin(Math.sqrt(x * x + Math.cos(a * r) * Math.cos(c * r) * y * y));
+}
+const kmText = k => k < 1 ? Math.max(50, Math.round(k * 20) * 50) + " m" : k < 20 ? k.toFixed(1).replace(/\.0$/, "") + " km" : Math.round(k).toLocaleString("en") + " km";
+/* where the phone is, kept in memory only while the app is open */
+let nearFix = null, nearState = "idle", nearAuto = false, nearTimer = 0, nearQuiet = false;
+function nearNow(){
+  if (!nearFix) return {at:null, close:[]};
+  const all = plList().map(p => ({p, k:kmBetween(nearFix.lat, nearFix.lon, p.lat, p.lon)})).sort((a, b) => a.k - b.k);
+  const slack = Math.min(nearFix.acc || 0, 1500) / 1000;
+  const inside = all.filter(x => x.k <= (x.p.r || 1000) / 1000 + slack);
+  /* the smallest place you are inside wins: The Met before New York */
+  const at = inside.sort((a, b) => (a.p.r || 1000) - (b.p.r || 1000))[0] || null;
+  return {at, close:all.filter(x => x.k < 400).slice(0, 6), nearest:all[0]};
+}
+window.__where = {onEvent(e){
+  if (!e || !e.t) return;
+  if (e.t === "status") { if (e.s === "granted" && !nearFix) nearLocate(true); return; }
+  clearTimeout(nearTimer);
+  if (e.t === "fix" && typeof e.lat === "number") { nearFix = {lat:e.lat, lon:e.lon, acc:e.acc || 0}; nearState = "ok"; }
+  else if (nearQuiet) { nearQuiet = false; return; }       // a silent look that failed changes nothing on screen
+  else nearState = e.t === "denied" ? "denied" : "error";
+  nearQuiet = false;
+  nearRedraw();
+}};
+function nearLocate(quiet){
+  nearQuiet = !!quiet;
+  if (!quiet) { nearState = "asking"; nearRedraw(); }
+  clearTimeout(nearTimer);
+  nearTimer = setTimeout(() => window.__where.onEvent({t:"error"}), 25000);
+  try { if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.where) { window.webkit.messageHandlers.where.postMessage({op:"locate"}); return; } } catch(e){}
+  if (!navigator.geolocation) return window.__where.onEvent({t:"error"});
+  navigator.geolocation.getCurrentPosition(p => window.__where.onEvent({t:"fix", lat:p.coords.latitude, lon:p.coords.longitude, acc:p.coords.accuracy}),
+    er => window.__where.onEvent({t:er && er.code === 1 ? "denied" : "error"}), {enableHighAccuracy:false, maximumAge:300000, timeout:20000});
+}
+/* On the World page: if the visitor already allowed location, look once (no prompt) so the card can say where they are. */
+function nearAutoCheck(){
+  if (nearAuto) return; nearAuto = true;
+  try { if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.where) { window.webkit.messageHandlers.where.postMessage({op:"status"}); return; } } catch(e){}
+  if (navigator.permissions && navigator.geolocation) navigator.permissions.query({name:"geolocation"}).then(s => { if (s.state === "granted") nearLocate(true); }).catch(() => {});
+}
+const PIN_SVG = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg>`;
+function nearCardHTML(){
+  const {at} = nearNow(), p = at && at.p;
+  const href = p ? (p.guide ? "#guide-" + p.id : "#place-" + p.id) : "#near";
+  return `<a class="chip near-chip${p ? " on" : ""}" id="nearCard" href="${href}">${PIN_SVG}${p ? esc(p.short || p.n) + (p.guide ? " guide" : "") : "Near me"}</a>`;
+}
+function nearRedraw(){
+  const h = decodeURIComponent(location.hash.slice(1));
+  if (h === "near") viewNear(true);
+  const c = document.getElementById("nearCard"); if (c) c.outerHTML = nearCardHTML();
+}
+const plRow = (p, k) => `<a class="near-row" data-find="${esc((p.n + " " + (p.short || "") + " " + (p.where || "")).toLowerCase())}" href="#${p.guide ? "guide" : "place"}-${p.id}"><span class="near-ico sm">${PIN_SVG}</span><span class="near-txt"><b>${esc(p.n)}</b><small>${esc(p.where || "")}${k != null ? " · " + kmText(k) : ""}</small></span>${p.guide ? `<span class="near-tag">Guide</span>` : ""}${plSaved(p.id) ? `<span class="near-tag soft">Saved</span>` : ""}<span class="near-chev" aria-hidden="true">›</span></a>`;
+function viewNear(keep){
+  const y = keep ? scrollY : 0, {at, close, nearest} = nearNow(), all = plList();
+  const PRIV = `<p class="w-note">Your position stays on this phone. The app compares it with its own list of places, then forgets it, and downloads only that place's public page, the same one everyone gets. Nothing is collected.</p>`;
+  let box;
+  if (nearState === "asking") box = `<p class="near-busy">Finding where you are…</p>`;
+  else if (nearState === "denied") box = `<p>Location is off for this app, and that is fine: pick a place below.</p><p class="w-note">To turn it on later: Settings › Contemporaries › Location › While Using the App.</p>`;
+  else if (nearState === "error") box = `<p>We could not find where you are just now. Pick a place below, or try again.</p><button type="button" class="btn" data-locate>Try again</button>`;
+  else if (nearState === "ok") box = at
+    ? `<span class="eyebrow" style="color:var(--accent)">You seem to be at</span><h2 class="near-at">${esc(at.p.n)}</h2><div class="row-btns">${at.p.guide ? `<a class="btn" href="#guide-${at.p.id}">Start the guide</a>` : ""}<a class="btn${at.p.guide ? " ghost" : ""}" href="#place-${at.p.id}">What happened here</a></div>`
+    : `<p>We have no guide or place story close to you yet.${nearest ? ` The nearest place is <b>${esc(nearest.p.n)}</b>, ${kmText(nearest.k)} away.` : ""} New places arrive online, without a new install.</p><button type="button" class="btn ghost" data-locate>Check again</button>`;
+  else box = `<p>Find the museum guide, or the history of the town you are standing in.</p><button type="button" class="btn" data-locate>${PIN_SVG}<span>Use my location</span></button>${PRIV}`;
+  const closeOthers = close.filter(x => !at || x.p.id !== at.p.id);
+  const nearList = nearState === "ok" && closeOthers.length ? `<section><div class="sec-head"><h2>Also close to you</h2></div><div class="near-list">${closeOthers.map(x => plRow(x.p, x.k)).join("")}</div></section>` : "";
+  view.innerHTML = `<section class="near">
+    <div class="big-title"><div><span class="eyebrow" style="color:var(--accent)">Places and guides</span><h1>Near me</h1></div></div>
+    <div class="panel near-loc" aria-live="polite">${box}</div>
+    ${nearList}
+    <input type="search" class="near-find" id="nearFind" placeholder="Find a museum or a place" aria-label="Find a museum or a place" autocomplete="off">
+    ${PL_KIND.map(([k, n]) => { const ps = all.filter(p => (p.kind || "city") === k).sort((a, b) => (a.rank || 999) - (b.rank || 999) || a.n.localeCompare(b.n)); return ps.length ? `<section class="near-sec"><div class="sec-head"><h2>${n}</h2><p>${plural(ps.length, "place")}</p></div><div class="near-list">${ps.map(p => plRow(p, nearFix ? kmBetween(nearFix.lat, nearFix.lon, p.lat, p.lon) : null)).join("")}</div></section>` : ""; }).join("")}
+    <p class="w-note">Every fact is written for this museum from public sources, which are listed with it. Museum rooms change: if a work is not where we say, a guard will know.</p>
+  </section>`;
+  if (keep) scrollTo(0, y);
+}
+const plPeople = ids => (ids || []).map(id => P.get(id)).filter(Boolean).map(p => `<a class="chip pf-p" href="#p-${p.id}"><span class="dot" style="${fc(p.f)}"></span>${esc(p.n)}</a>`).join("");
+/* a picture that loads from Wikimedia Commons or a museum's server (places that come online), with its credit */
+const plPicOk = u => /^https:\/\/((upload|thumb)\.wikimedia\.org|images\.metmuseum\.org)\//.test(u || "");
+const plPic = (x, cls) => x.pic && plPicOk(x.pic.u) ? `<figure class="fig ${cls}"><div class="fig-frame" style="aspect-ratio:${x.pic.w || 4}/${x.pic.h || 3}"><img src="${esc(x.pic.u)}" alt="${esc(x.t || x.h || "")}" loading="lazy" decoding="async"></div><figcaption class="credit"><span>${esc(x.pic.cr || "")}${x.pic.lic ? " · " + esc(x.pic.lic) : ""}${x.pic.page ? ` · <a href="${esc(x.pic.page)}" target="_blank" rel="noopener">source</a>` : ""}. Not made by AI.</span></figcaption></figure>` : "";
+const plSources = (src, title) => src && src.length ? `<details class="why"><summary>${esc(title || "How we know")}</summary><ul class="pf-src">${src.map(s => `<li>${s.u ? `<a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.n)}</a>` : esc(s.n)}</li>`).join("")}</ul></details>` : "";
+/* a place's page is shown from the phone's copy; if there is none, it is fetched once, then the page draws */
+function plNeed(id, draw){
+  const f = plFile(id);
+  const here = () => decodeURIComponent(location.hash.slice(1)).endsWith("-" + id);
+  const asked = !plFresh(id) && plFetch(id, ok => { if (!f && here()) { if (!ok) plFailed.add(id); draw(); } });
+  if (f) return f;
+  const s = plStub(id), msg = !s ? "This place is not in the museum yet." : asked ? "Opening…"
+    : "This place needs the internet once. After that it stays on your phone, also offline.";
+  plFailed.delete(id);
+  view.innerHTML = `<section class="near"><a class="near-back" href="#near">‹ Near me</a><div class="panel near-loc"><h2>${esc(s ? s.n : "Place not found")}</h2><p>${msg}</p></div></section>`;
+  return null;
+}
+function viewPlace(id){
+  const f = plNeed(id, () => viewPlace(id)); if (!f) return;
+  const g = f.guide, gr = g ? gRoutes(g) : [], gall = g ? gr[gr.length - 1].stops : [], gimgs = g ? g.stops.map(s => IMG[s.img] ? IMG[s.img].src : s.pic && plPicOk(s.pic.u) && s.pic.u).filter(Boolean).slice(0, 4) : [];
+  view.innerHTML = `<section class="near pl-page">
+    <a class="near-back" href="#near">‹ Near me</a>
+    <div><span class="eyebrow" style="color:var(--accent)">${esc((PL_KIND.find(k => k[0] === f.kind) || ["", "Place"])[1].replace(/s$/, "").replace("Cities and town", "City"))} · ${esc(f.where || "")}</span><h1 class="pl-h">${esc(f.n)}</h1><p class="pl-blurb">${esc(f.blurb || "")}</p></div>
+    ${g ? `<a class="guide-card" href="#guide-${f.id}"><span class="eyebrow" style="color:var(--accent)">${gr.length > 1 ? "Guides from 1 hour to a half day" : esc(minsText(gr[0].mins)) + " guide"}</span><h2>${esc(gr.length > 1 ? "How long do you have?" : g.n)}</h2><p>${gr.length > 1 ? esc(gr.map(x => minsText(x.mins) + ": " + x.stops.length).join(" · ")) + " stops" : plural(g.stops.length, "stop")} · ${esc([...new Set(gall.map(s => (g.floors || {})[s.floor] || "Floor " + s.floor))].join(", "))} · in walking order</p>${gimgs.length ? `<span class="guide-thumbs">${gimgs.map(u => `<img src="${esc(u)}" alt="" loading="lazy" decoding="async">`).join("")}</span>` : ""}<span class="btn">Start the guide</span></a>` : ""}
+    <div class="sec-head"><h2>${f.kind === "museum" ? "About this museum" : "What happened here"}</h2></div>
+    <div class="pf-list">${(f.facts || []).map(x => `<article class="panel pf">
+      <div class="pf-top">${labHTML(x.lab)}${x.when ? `<span class="pf-when">${esc(x.when)}</span>` : ""}</div>
+      <h3>${esc(x.h)}</h3>
+      ${x.img && IMG[x.img] ? imgFig(x.img, "pf-fig") : plPic(x, "pf-fig")}
+      <p>${esc(x.t)}</p>
+      ${x.people && x.people.length || x.go ? `<div class="pf-go">${plPeople(x.people)}${x.go ? `<a class="chip" href="${esc(x.go[0])}">${esc(x.go[1])} ›</a>` : ""}</div>` : ""}
+      ${plSources(x.src)}
+    </article>`).join("")}</div>
+    <p class="w-note">Written for this museum from the sources under each card, in our own words.${f.checked ? " Checked " + esc(f.checked) + "." : ""}</p>
+  </section>`;
+}
+/* A guide comes in nested lengths: 1 hour, 2 hours, 3 hours, a half day. g.tour lists every stop in walking order with its
+   "tier" (the shortest route it belongs to, in minutes); a longer route keeps every stop of the shorter ones.
+   Older pages have only g.stops, the one-hour route. The visitor's last choice is kept on the phone per museum. */
+const ROUTE_N = {60:"1 hour", 120:"2 hours", 180:"3 hours", 270:"Half day"};
+const ROUTE_END = {60:"That is the hour.", 120:"That is two hours.", 180:"That is three hours.", 270:"That is the half day. Well walked."};
+function gRoutes(g){
+  if (!Array.isArray(g.tour) || !g.tour.length) return [{mins:g.mins || 60, n:g.n, intro:g.intro, stops:g.stops}];
+  const tiers = [...new Set(g.tour.map(s => s.tier || 60))].sort((a, b) => a - b), meta = g.routes || [];
+  return tiers.map(t => ({...(meta.find(r => r.mins === t) || {}), mins:t, stops:g.tour.filter(s => (s.tier || 60) <= t)}))
+    .map(r => ({...r, n:r.n || g.n, intro:r.intro || g.intro}));
+}
+function gRoute(id, g){
+  const rs = gRoutes(g), want = parseInt(store.get("ctm-route-" + id), 10) || 120;
+  return rs.find(r => r.mins === want) || rs.filter(r => r.mins <= want).pop() || rs[0];
+}
+const minsText = m => ROUTE_N[m] || (m % 60 ? m + " minutes" : plural(m / 60, "hour"));
+function viewGuide(id, keep){
+  const f = plNeed(id, () => viewGuide(id)); if (!f) return;
+  const g = f.guide; if (!g) return viewPlace(id);
+  const y = keep ? scrollY : 0, rs = gRoutes(g), r = gRoute(id, g), stops = r.stops, many = rs.length > 1;
+  const floors = [...new Set(stops.map(s => s.floor))];
+  let n = 0;
+  view.innerHTML = `<section class="near guide">
+    <a class="near-back" href="#place-${f.id}">‹ ${esc(f.short || f.n)}</a>
+    <div><span class="eyebrow" style="color:var(--accent)">${esc(f.short || f.n)} · ${esc(minsText(r.mins))}</span><h1 class="pl-h">${esc(r.n)}</h1><p class="pl-blurb">${esc(r.intro || "")}</p></div>
+    ${many ? `<div class="route-pick"><div class="seg" role="radiogroup" aria-label="How long do you have?">${rs.map(x => `<button type="button" role="radio" aria-checked="${x.mins === r.mins}" class="${x.mins === r.mins ? "on" : ""}" data-route="${x.mins}">${esc(minsText(x.mins))}</button>`).join("")}</div>
+      <small>${plural(stops.length, "stop")}${r.mins > 60 ? " · the one-hour stops are marked, if you need to cut it short" : ""}. Longer routes keep every stop of the shorter ones.</small></div>` : ""}
+    <p class="w-note">${esc(g.note || "")}</p>
+    ${floors.map(fl => `<div class="sec-head guide-floor"><h2>${esc((g.floors || {})[fl] || "Floor " + fl)}</h2><p>${plural(stops.filter(s => s.floor === fl).length, "stop")}</p></div>
+      <ol class="stops">${stops.filter(s => s.floor === fl).map(s => { n++; return `<li class="panel stop" id="stop-${n}">
+        <div class="stop-top"><span class="stop-n">${n}</span><span class="stop-gal">${s.gal ? esc(g.room || "Gallery") + " " + esc(s.gal) : "On view"} · ${esc((g.floors || {})[s.floor] || "Floor " + s.floor)}</span>${r.mins > 60 && (s.tier || 60) === 60 ? `<span class="stop-must">1 hour</span>` : ""}</div>
+        ${s.img && IMG[s.img] ? imgFig(s.img, "stop-fig", n <= 2) : plPic(s, "stop-fig")}
+        <h3>${esc(s.t)}</h3><p class="stop-by">${esc([s.by, s.date].filter(Boolean).join(" · "))}</p>
+        <p>${esc(s.story)}</p>
+        ${s.look ? `<p class="stop-look"><b>Look for</b> ${esc(s.look)}</p>` : ""}
+        ${s.people && s.people.length ? `<div class="pf-go">${plPeople(s.people)}</div>` : ""}
+        <div class="stop-foot">${s.u ? `<a class="muted" href="${esc(s.u)}" target="_blank" rel="noopener">${/metmuseum\.org/.test(s.u) ? "The Met's record" : /wikipedia\.org/.test(s.u) ? "More on Wikipedia" : "The museum's record"}</a>` : "<span></span>"}${n < stops.length ? `<button type="button" class="btn ghost" data-next="${n + 1}">Next stop ›</button>` : `<span class="stop-end">${esc(ROUTE_END[r.mins] || "That is the route.")}</span>`}</div>
+      </li>`; }).join("")}</ol>`).join("")}
+    ${plSources(g.src, "Sources for this guide")}
+  </section>`;
+  if (keep) scrollTo(0, y);
+}
+view.addEventListener("input", ev => {
+  if (ev.target.id !== "nearFind") return;
+  const q = ev.target.value.trim().toLowerCase();
+  document.querySelectorAll(".near-list .near-row[data-find]").forEach(r => { r.hidden = !!q && !r.dataset.find.includes(q); });
+  document.querySelectorAll(".near-sec").forEach(sec => { sec.hidden = !sec.querySelector(".near-row:not([hidden])"); });
+});
+view.addEventListener("click", ev => {
+  const b = ev.target.closest("[data-locate],[data-next],[data-route]"); if (!b) return;
+  if (b.hasAttribute("data-locate")) { nearLocate(false); return; }
+  if (b.hasAttribute("data-route")) {
+    const id = decodeURIComponent(location.hash.slice(1)).replace(/^guide-/, "");
+    store.set("ctm-route-" + id, b.dataset.route); haptic("select"); viewGuide(id, true); return;
+  }
+  const t = document.getElementById("stop-" + b.dataset.next);
+  if (t) { haptic("select"); t.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"start"}); }
+});
 /* ---------- World: the map home ---------- */
 /* The phone buzzes softly (iPhone only) through the app's "haptic" bridge. Ignored on the web. */
 const haptic = k => { try { window.webkit.messageHandlers.haptic.postMessage(k); } catch(e){} };
@@ -2953,6 +3428,7 @@ function viewWorld(){
   view.innerHTML = `
   <section class="world">
     <div class="big-title"><div><span class="eyebrow" style="color:var(--accent)">Contemporaries</span><h1>World</h1></div>
+      <a class="icon-btn" href="#today" aria-label="Today in history" style="margin-left:auto;margin-right:8px;text-decoration:none"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="4" y="5.5" width="16" height="14.5" rx="2.5"/><path d="M4 10h16M8.5 3.5v4M15.5 3.5v4"/></svg></a>
       <button class="icon-btn" data-search aria-label="Search the museum"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg></button></div>
     <div class="w-regions" role="group" aria-label="Zoom to">${W_REG_N.map(([k, n]) => `<button class="chip" data-wreg="${k}" aria-pressed="${k === wRegion}">${n}</button>`).join("")}</div>
     <div class="w-stage" id="wStage">
@@ -2971,12 +3447,13 @@ function viewWorld(){
       <div class="top"><div class="w-year" id="wYear" aria-live="polite"></div><div class="w-sum" id="wSum"></div></div>
       <input id="wDial" type="range" min="0" max="1000" step="1" value="${wToDial(wYear)}" aria-label="Year dial">
       <div class="w-scale" aria-hidden="true"><span>600 BC</span><span>AD 1</span><span>1000</span><span>1700</span><span>Today</span></div>
-      <div class="w-stops">${stops.map(([y, n, r]) => `<button class="chip" data-wq="${y}" data-wr="${r}">${esc(n)}</button>`).join("")}</div>
+      <div class="w-stops">${nearCardHTML()}${stops.map(([y, n, r]) => `<button class="chip" data-wq="${y}" data-wr="${r}">${esc(n)}</button>`).join("")}</div>
       <p class="w-note">Lights show people in this museum who are linked to each place and alive in that year, not everyone who lived there. Coastlines are today's.</p>
     </div>
   </section>`;
   drawWorld();
   if (wHallId) openHall(wHallId, true); else closeHall();
+  nearAutoCheck();
 }
 /* The iPhone Duo app tells the page where its fold is (--hinge-* variables), then calls this. */
 window.onHinge = () => {
@@ -3179,10 +3656,99 @@ function closeSearch(){ const sh = document.getElementById("searchSheet"); if (s
 document.getElementById("ssClose").addEventListener("click", closeSearch);
 document.addEventListener("keydown", e => { if (e.key === "Escape") { closeSearch(); if (wHallId) closeHall(); } });
 
+/* ---------- Today in history ----------
+   The first page after the launch, once a day: people of the museum born or who died on today's date,
+   and events that happened on it, round anniversaries first, then nearby days this week, then round
+   anniversaries this year (years only). The date is the phone's own clock. The exact days come from
+   Wikidata (tools/today/dates.py): a copy is built into the app (works offline), and a newer copy
+   arrives with the online feed, so Today grows without a new install. */
+const TODAY = () => (FEED && FEED.today && FEED.today.days) ? FEED.today : (H.today || {days: {}, events: []});
+const MON = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const ROUND = [2000, 1500, 1000, 750, 500, 400, 300, 250, 200, 150, 100, 75, 50, 25];
+const yearsSince = (y, now) => astro(now) - astro(y);
+const roundOf = n => ROUND.find(r => n === r) || 0;
+const isLeap = y => (y % 4 === 0 && y % 100 !== 0) || y % 400 === 0;
+/* every exact day in the museum: {key, p | ev, k: "b" | "d" | "e", m, d, j, y} */
+function dayItems(){
+  const T = TODAY(), out = [];
+  for (const id in T.days || {}) {
+    const p = P.get(id); if (!p || p.a) continue;            // approximate people never get an exact day
+    for (const k of ["b", "d"]) { const v = T.days[id][k]; if (!v || (k === "d" && p.alive)) continue;
+      out.push({key: id, p, k, m: v[0], d: v[1], j: v[2] === "j", y: k === "b" ? p.b : p.d}); }
+  }
+  for (const x of T.events || []) {
+    const e = x.e && E.get(x.e), ev = e ? {id: e.id, n: e.n, t: e.t, y: e.y, c: e.c} : (x.n && x.y != null ? {n: x.n, t: x.t || "", y: x.y} : null);
+    if (ev && !(e && e.a)) out.push({key: "e:" + (x.e || x.n), ev, k: "e", m: x.m, d: x.d, j: !!x.j, y: ev.y});
+  }
+  return out;
+}
+/* Feb 29 days are kept on Feb 28 in years without a Feb 29 */
+const onDay = (it, m, d, yr) => (it.m === m && it.d === d) || (!isLeap(yr) && it.m === 2 && it.d === 29 && m === 2 && d === 28);
+function todayPicks(date){
+  const yr = date.getFullYear(), m = date.getMonth() + 1, d = date.getDate(), all = dayItems();
+  const score = it => { const n = yearsSince(it.y, yr), r = roundOf(n); return (r ? 10000 + r : 0) + (it.p ? (CH[it.p.id] ? 500 : 0) + (portraitOf(it.p) ? 200 : 0) + (it.k === "d" ? 1 : 0) : 300); };
+  const exact = all.filter(it => onDay(it, m, d, yr)).sort((a, b) => score(b) - score(a));
+  const week = [];
+  for (let off = -3; off <= 3; off++) { if (!off) continue;
+    const x = new Date(yr, m - 1, d + off);
+    all.filter(it => onDay(it, x.getMonth() + 1, x.getDate(), x.getFullYear())).forEach(it => week.push({...it, off, when: x}));
+  }
+  week.sort((a, b) => Math.abs(a.off) - Math.abs(b.off) || score(b) - score(a));
+  const seen = new Set(exact.map(it => it.key)), seenDay = new Set(seen);
+  const thisYear = [];
+  for (const p of H.people) for (const k of ["b", "d"]) {
+    const y = k === "b" ? p.b : p.d; if (y == null || (k === "d" && p.alive)) continue;
+    const n = yearsSince(y, yr), r = roundOf(n); if (r && r >= 50 && !seenDay.has(p.id)) thisYear.push({p, k, y, n});
+  }
+  thisYear.sort((a, b) => b.n - a.n || (CH[b.p.id] ? 1 : 0) - (CH[a.p.id] ? 1 : 0));
+  return {exact, week: week.filter(it => !seen.has(it.key) && (seen.add(it.key), true)).slice(0, 6), thisYear: thisYear.slice(0, 8)};
+}
+const EV_ICON = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><rect x="4" y="5.5" width="16" height="14.5" rx="2.5"/><path d="M4 10h16M8.5 3.5v4M15.5 3.5v4"/></svg>`;
+const avHTML = it => { if (!it.p) return `<span class="td-av td-evi">${EV_ICON}</span>`; const ph = portraitOf(it.p); return `<span class="td-av" style="${fc(it.p.f)}">${ph ? `<img src="${esc(ph)}" alt="" loading="lazy">` : esc(initials(it.p.n))}</span>`; };
+const nYears = n => n.toLocaleString("en-US") + (n === 1 ? " year" : " years");
+const itName = it => it.p ? it.p.n : it.ev.n;
+const itHref = it => it.p ? `#p-${it.p.id}` : it.ev.id ? `#e-${it.ev.id}` : "";
+const itWhat = it => it.k === "b" ? "Born" : it.k === "d" ? "Died" : "Happened";
+function viewToday(){
+  const now = new Date(), yr = now.getFullYear(), {exact, week, thisYear} = todayPicks(now);
+  const lead = exact.find(it => it.p && portraitOf(it.p)) || exact[0], rest = exact.filter(it => it !== lead).slice(0, 6);
+  const tag = it => it.j ? `<span class="td-tag">Julian calendar date</span>` : "";
+  const open = (it, cls, extra) => { const h = itHref(it); return h ? `<a class="${cls}" href="${h}" data-tdgo ${extra}>` : `<div class="${cls}" ${extra}>`; };
+  const close = it => itHref(it) ? "</a>" : "</div>";
+  const heroHTML = it => { const ph = it.p && portraitOf(it.p), n = yearsSince(it.y, yr);
+    return `${open(it, "td-hero" + (it.p ? "" : " td-evh"), it.p ? `style="${fc(it.p.f)}"` : "")}
+      ${it.p ? `<div class="ph">${ph ? `<img src="${esc(ph)}" alt="">` : esc(initials(it.p.n))}</div>` : ""}
+      <div class="tx"><span class="eyebrow">${itWhat(it)} ${it.j ? "on this date" : "today"}, ${fy(it.y)}</span>
+        <h2>${esc(itName(it))}</h2>
+        <div class="td-n">${nYears(n)} ago</div><p>${esc(it.p ? it.p.bio : it.ev.t)}</p>${tag(it)}</div>${close(it)}`; };
+  const row = (it, right, sub) => `${open(it, "td-row", it.p ? `style="${fc(it.p.f)}"` : "")}${avHTML(it)}<span><b>${esc(itName(it))}</b><span class="s">${sub}</span></span><span class="yr">${right}</span>${close(it)}`;
+  const wd = now.toLocaleDateString("en-US", {weekday: "long"});
+  view.innerHTML = `
+  <section class="td" aria-label="Today in history">
+    <div class="td-top"><div><span class="eyebrow" style="color:var(--accent)">Today in history</span><h1>${now.getDate()} ${MON[now.getMonth()]}</h1><div class="wd">${wd}, ${yr}</div></div>
+      <button class="td-skip" data-tdskip>Skip</button></div>
+    ${lead ? heroHTML(lead) : `<p class="lede" style="margin:0;color:var(--ink-2)">Nothing in the museum has a recorded date on this exact day. Here is what is close by, and whose anniversaries fall this year.</p>`}
+    ${rest.length ? `<div><div class="sec-head"><h2>Also on ${now.getDate()} ${MON[now.getMonth()]}</h2></div><div class="td-list">${rest.map(it => row(it, `${nYears(yearsSince(it.y, yr))}<small>ago</small>`, `${itWhat(it)} ${fy(it.y)}${it.j ? " · Julian date" : ""}`)).join("")}</div></div>` : ""}
+    ${week.length ? `<div><div class="sec-head"><h2>This week</h2></div><div class="td-list">${week.map(it => row(it, `${it.when.getDate()} ${MON[it.when.getMonth()].slice(0, 3)}<small>${it.off < 0 ? (it.off === -1 ? "yesterday" : -it.off + " days ago") : (it.off === 1 ? "tomorrow" : "in " + it.off + " days")}</small>`, `${itWhat(it)} ${fy(it.y)}, ${nYears(yearsSince(it.y, yr))} ago${it.j ? " · Julian date" : ""}`)).join("")}</div></div>` : ""}
+    ${thisYear.length ? `<div><div class="sec-head"><h2>Round anniversaries in ${yr}</h2></div><div class="td-list">${thisYear.map(it => row(it, `${it.n.toLocaleString("en-US")}<small>years</small>`, `${it.k === "b" ? "Born" : "Died"} ${fy(it.y, it.p.a)}${it.p.a ? ", the year is approximate" : ""}`)).join("")}</div></div>` : ""}
+    <button class="td-go" data-tdskip>Enter the museum</button>
+    <p class="td-note">The date is your phone's. Exact days come from Wikidata (free, CC0) and are shown only when they agree with the museum's own years; new ones arrive when you are online. Days before the 1580s are usually given in the Julian calendar, so "on this date" is not quite the same day of the year as today. People whose dates are uncertain appear only under the year.</p>
+  </section>`;
+}
+const todaySeen = () => store.set("ctm-today", today());
+view.addEventListener("click", ev => {
+  if (ev.target.closest("[data-tdskip]")) { todaySeen(); haptic("select"); location.replace("#world"); }
+  else if (ev.target.closest("[data-tdgo]")) todaySeen();
+});
+/* First open of the day, with no page asked for (screenshot runs pass -route): start on Today. */
+if (!location.hash && store.get("ctm-today") !== today() && Object.keys(TODAY().days || {}).length) history.replaceState(null, "", "#today");
 /* ---------- router ---------- */
 const PLAY_VIEWS = {degrees:viewDegrees, race:viewRace, cards:viewCards, you:viewYou, whatif:viewWhatIf};
+let lastH = null;
 function route(){
   let h = decodeURIComponent(location.hash.slice(1)) || "world", sec = null;
+  if (lastH === "today" && h !== "today") todaySeen();
+  lastH = h;
   const at = h.indexOf("@"); if (at > -1) { sec = h.slice(at + 1); h = h.slice(0, at); }
   stopMusic(); clearInterval(raceTimer); closeSearch();
   /* inside the Gallery, opening or closing a work does not redraw the page */
@@ -3208,6 +3774,9 @@ function route(){
   else if (h.startsWith("era-")) viewEra(h.slice(4));
   else if (h.startsWith("walk-")) { const m = /^walk-(-?\d+)(?:-(.+))?$/.exec(h); viewWalk(m ? parseInt(m[1], 10) : null, m && m[2]); }
   else if (h === "walk") viewWalk();
+  else if (h === "near") viewNear();
+  else if (h.startsWith("place-")) viewPlace(h.slice(6));
+  else if (h.startsWith("guide-")) viewGuide(h.slice(6));
   else if (h.startsWith("talk-")) viewTalk(h.slice(5));
   else if (h === "talk") viewTalkHome();
   else if (h === "people") viewPeople();
@@ -3219,6 +3788,7 @@ function route(){
   else if (PLAY_VIEWS[h]) PLAY_VIEWS[h]();
   else if (h === "timeline") viewTimeline();
   else if (h === "library") viewLibrary();
+  else if (h === "today") viewToday();
   else viewWorld();
   window.scrollTo(0, 0);
   if (sec) scrollToSec(sec);

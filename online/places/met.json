@@ -1,0 +1,1267 @@
+{
+ "id": "met",
+ "n": "The Metropolitan Museum of Art",
+ "short": "The Met",
+ "kind": "museum",
+ "where": "New York",
+ "lat": 40.7794,
+ "lon": -73.9632,
+ "r": 300,
+ "rank": 3,
+ "checked": "15 November 2026",
+ "blurb": "The largest art museum in the Americas, with about two million works from five thousand years. You cannot see it in a day, so here is one good hour.",
+ "guide": {
+  "n": "The Met in one hour",
+  "mins": 60,
+  "intro": "14 works that people cross the world to see, in walking order: ground floor first, then up the stairs. About three minutes each, with time to walk. Tap Next stop as you go.",
+  "note": "Gallery numbers come from The Met's open data, checked 16 November 2026. Rooms change and works travel: if a work is not where we say, a guard will know where it went.",
+  "src": [
+   {
+    "n": "The Met Collection API, Open Access (CC0)",
+    "u": "https://metmuseum.github.io/"
+   },
+   {
+    "n": "The Met: Heilbrunn Timeline of Art History",
+    "u": "https://www.metmuseum.org/toah/"
+   },
+   {
+    "n": "Wikipedia articles on each work",
+    "u": "https://en.wikipedia.org/wiki/Metropolitan_Museum_of_Art"
+   }
+  ],
+  "stops": [
+   {
+    "floor": 1,
+    "gal": "154",
+    "met": 253370,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/gr/web-large/DP-23263-005.jpg",
+     "w": 604,
+     "h": 900,
+     "page": "https://www.metmuseum.org/art/collection/search/253370",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "Marble statue of a kouros",
+    "by": "Greek, Attic",
+    "date": "ca. 590–580 BCE",
+    "story": "One of the earliest life-size marble statues of a young man carved in Athens, around 590 BC. The stiff stride and fists come from Egyptian statues the Greeks had seen; within a century Greek sculptors would make marble look like it breathes.",
+    "look": "the left foot forward, and the braided hair like a wig",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/253370"
+   },
+   {
+    "floor": 1,
+    "gal": "131",
+    "met": 547802,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/eg/web-large/DP240337.jpg",
+     "w": 674,
+     "h": 900,
+     "page": "https://www.metmuseum.org/art/collection/search/547802",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "The Temple of Dendur",
+    "by": "Egyptian, Roman period",
+    "date": "completed by 10 CE",
+    "story": "A small temple built in Nubia, on the Nile, in the years after Rome took Egypt from Cleopatra, and finished by about AD 10. On its walls the Roman emperor Augustus is carved as a pharaoh, making offerings to Egyptian gods. Egypt gave it to the United States in 1965, thanks for help in saving monuments from the floods of the Aswan High Dam.",
+    "look": "Augustus in a pharaoh's crown, and names scratched into the stone by 19th-century travellers",
+    "people": [
+     "augustus",
+     "cleopatra"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/547802"
+   },
+   {
+    "floor": 2,
+    "gal": "760",
+    "met": 11417,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ad/web-large/DP215410.jpg",
+     "w": 900,
+     "h": 527,
+     "page": "https://www.metmuseum.org/art/collection/search/11417",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "Washington Crossing the Delaware",
+    "by": "Emanuel Leutze",
+    "date": "1851",
+    "story": "Washington's surprise crossing of the icy Delaware River on Christmas night, 1776, before he won at Trenton. Leutze painted it 75 years later in Germany, using German models. Some details are wrong: the Stars and Stripes did not exist until 1777, and nobody would stand up in a rowing boat in ice.",
+    "look": "the flag that had not been invented yet",
+    "people": [
+     "washington"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/11417"
+   },
+   {
+    "floor": 2,
+    "gal": "771",
+    "met": 12127,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-29006-001.jpg",
+     "w": 526,
+     "h": 900,
+     "page": "https://www.metmuseum.org/art/collection/search/12127",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "Madame X",
+    "by": "John Singer Sargent",
+    "date": "1883–84",
+    "story": "Sargent's portrait of a Paris society beauty, Virginie Gautreau, caused a scandal at the 1884 Salon. In the first version one strap had slipped from her shoulder. He painted it back up, but his career in Paris was over and he moved to London. He sold it to the Met in 1916, calling it the best thing he had done.",
+    "look": "the pale skin against the black dress, and the strap, now firmly in place",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/12127"
+   },
+   {
+    "floor": 2,
+    "gal": "826",
+    "met": 435868,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DP231550.jpg",
+     "w": 900,
+     "h": 717,
+     "page": "https://www.metmuseum.org/art/collection/search/435868",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "The Card Players",
+    "by": "Paul Cézanne",
+    "date": "1890–92",
+    "story": "Farm workers from around Cézanne's family estate near Aix-en-Provence sat for him playing cards. He painted the scene five times in the early 1890s. Nobody talks, nobody wins: it is a still life made of people.",
+    "look": "the pipes on the wall, and how nobody looks at anybody",
+    "people": [
+     "cezanne"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/435868"
+   },
+   {
+    "floor": 2,
+    "gal": "825",
+    "met": 436532,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1502_cropped2.jpg",
+     "w": 723,
+     "h": 900,
+     "page": "https://www.metmuseum.org/art/collection/search/436532",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "Self-Portrait with a Straw Hat",
+    "by": "Vincent van Gogh",
+    "date": "1887",
+    "story": "Painted in Paris in 1887, when Van Gogh had just discovered bright colour and short brushstrokes. Canvas cost money, so he painted this on the back of an older picture, The Potato Peeler, from his dark Dutch years. Both sides survive.",
+    "look": "the strokes of the background running in different directions",
+    "people": [
+     "van-gogh"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/436532"
+   },
+   {
+    "floor": 2,
+    "gal": "822",
+    "met": 436535,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-42549-001.jpg",
+     "w": 900,
+     "h": 716,
+     "page": "https://www.metmuseum.org/art/collection/search/436535",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "Wheat Field with Cypresses",
+    "by": "Vincent van Gogh",
+    "date": "1889",
+    "story": "In the summer of 1889, at the asylum in Saint-Rémy, Van Gogh painted this field outdoors, with the wind in it. He wrote that cypresses were as beautiful as Egyptian obelisks. He later made two copies in the studio; this is the one he painted on the spot.",
+    "look": "the thick paint of the clouds, still standing up from the canvas",
+    "people": [
+     "van-gogh"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/436535"
+   },
+   {
+    "floor": 2,
+    "gal": "815",
+    "met": 438817,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20101-001.jpg",
+     "w": 835,
+     "h": 900,
+     "page": "https://www.metmuseum.org/art/collection/search/438817",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "The Dance Class",
+    "by": "Edgar Degas",
+    "date": "1874",
+    "story": "Degas spent years in the rehearsal rooms of the Paris Opera. This class is not a snapshot: he built it in the studio from many drawings. The old ballet master in the middle was a real teacher, Jules Perrot.",
+    "look": "the dancer scratching her back, and the little dog",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/438817"
+   },
+   {
+    "floor": 2,
+    "gal": "614",
+    "met": 437881,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DP353257.jpg",
+     "w": 800,
+     "h": 900,
+     "page": "https://www.metmuseum.org/art/collection/search/437881",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "Young Woman with a Water Pitcher",
+    "by": "Johannes Vermeer",
+    "date": "ca. 1662",
+    "story": "Only about 36 paintings by Vermeer survive, and the Met owns five, more than any other museum. In this one a young woman opens a window with one hand and holds a pitcher with the other. Nothing happens, and the light does everything.",
+    "look": "the blue of the cloth, and the map on the wall",
+    "people": [
+     "vermeer"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/437881"
+   },
+   {
+    "floor": 2,
+    "gal": "616",
+    "met": 437394,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-30758-001.jpg",
+     "w": 853,
+     "h": 900,
+     "page": "https://www.metmuseum.org/art/collection/search/437394",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "Aristotle with a Bust of Homer",
+    "by": "Rembrandt",
+    "date": "1653",
+    "story": "A Sicilian nobleman ordered a philosopher from Rembrandt in 1653. Rembrandt painted Aristotle in the clothes of his own day, resting a hand on a bust of the poet Homer. On his gold chain hangs a medallion of Alexander the Great, the pupil he once taught. Fame, wisdom and money in one picture.",
+    "look": "Alexander's face on the medallion",
+    "people": [
+     "rembrandt",
+     "aristotle",
+     "alexander"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/437394"
+   },
+   {
+    "floor": 2,
+    "gal": "616",
+    "met": 437397,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16323-001.jpg",
+     "w": 742,
+     "h": 900,
+     "page": "https://www.metmuseum.org/art/collection/search/437397",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "Self-Portrait",
+    "by": "Rembrandt",
+    "date": "1660",
+    "story": "Rembrandt painted himself about 40 times, in youth and in success. This one is from 1660, four years after his bankruptcy, when his house and collection had been sold. He did not flatter himself.",
+    "look": "the thick paint on the nose and forehead",
+    "people": [
+     "rembrandt"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/437397"
+   },
+   {
+    "floor": 2,
+    "gal": "625",
+    "met": 437869,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-001.jpg",
+     "w": 777,
+     "h": 900,
+     "page": "https://www.metmuseum.org/art/collection/search/437869",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "Juan de Pareja",
+    "by": "Velázquez",
+    "date": "1650",
+    "story": "Velázquez painted his assistant, Juan de Pareja, an enslaved man of Moorish descent, in Rome in 1650. The portrait was shown at the Pantheon and praised by all of Rome. That same year Velázquez signed papers to free him. Pareja became a painter in his own right.",
+    "look": "the eyes, which meet yours",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/437869"
+   },
+   {
+    "floor": 2,
+    "gal": "634",
+    "met": 436105,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13139-001.jpg",
+     "w": 900,
+     "h": 599,
+     "page": "https://www.metmuseum.org/art/collection/search/436105",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "The Death of Socrates",
+    "by": "Jacques-Louis David",
+    "date": "1787",
+    "story": "Athens sentenced Socrates to death in 399 BC. David shows him reaching for the cup of hemlock while still teaching. Plato sits at the foot of the bed, though Plato wrote that he was ill and not there that day, and David made him an old man.",
+    "look": "Plato, eyes shut, at the end of the bed",
+    "people": [
+     "socrates",
+     "plato"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/436105"
+   },
+   {
+    "floor": 2,
+    "gal": "638",
+    "met": 435809,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DP119115.jpg",
+     "w": 900,
+     "h": 663,
+     "page": "https://www.metmuseum.org/art/collection/search/435809",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "The Harvesters",
+    "by": "Pieter Bruegel the Elder",
+    "date": "1565",
+    "story": "Painted in 1565 for a merchant in Antwerp, as one of six pictures of the times of the year. Five survive. Peasants cut wheat and stop for lunch under a pear tree, while the land runs away to the sea behind them.",
+    "look": "the man asleep under the tree",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/435809"
+   }
+  ],
+  "tour": [
+   {
+    "floor": 1,
+    "gal": "154",
+    "met": 253370,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/gr/web-large/DP-23263-005.jpg",
+     "w": 604,
+     "h": 900,
+     "page": "https://www.metmuseum.org/art/collection/search/253370",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "Marble statue of a kouros",
+    "by": "Greek, Attic",
+    "date": "ca. 590–580 BCE",
+    "story": "One of the earliest life-size marble statues of a young man carved in Athens, around 590 BC. The stiff stride and fists come from Egyptian statues the Greeks had seen; within a century Greek sculptors would make marble look like it breathes.",
+    "look": "the left foot forward, and the braided hair like a wig",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/253370",
+    "tier": 60
+   },
+   {
+    "floor": 1,
+    "gal": "165",
+    "met": 247017,
+    "t": "Bedroom from a villa at Boscoreale",
+    "by": "Roman",
+    "date": "ca. 50–40 BCE",
+    "story": "A bedroom from a country villa at Boscoreale, near Pompeii, painted around 50 to 40 BC and buried by Vesuvius in AD 79. Its walls are painted with columns, gateways and whole townscapes that open the small room up like a stage set. It came to the Met in 1903.",
+    "look": "the painted city views, and the real window that sits among the fake ones",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/247017",
+    "tier": 270,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/gr/web-large/DP143704.jpg",
+     "w": 599,
+     "h": 577,
+     "page": "https://www.metmuseum.org/art/collection/search/247017",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "170",
+    "met": 247020,
+    "t": "The Monteleone chariot",
+    "by": "Etruscan",
+    "date": "2nd quarter of the 6th century BCE",
+    "story": "A ceremonial bronze chariot, made around 530 BC and found in a tomb near Monteleone di Spoleto in Umbria in 1902. Its three bronze panels tell the story of the Greek hero Achilles. The Etruscans who ruled central Italy before Rome loved Greek stories.",
+    "look": "Achilles taking his new armour from his mother Thetis, on the front panel",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/247020",
+    "tier": 180,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/gr/web-large/DP137936.jpg",
+     "w": 600,
+     "h": 473,
+     "page": "https://www.metmuseum.org/art/collection/search/247020",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "342",
+    "met": 318622,
+    "t": "Pendant mask of Ìyọ́bà Idià",
+    "by": "Edo peoples, Court of Benin",
+    "date": "16th century",
+    "story": "An ivory pendant mask of Idia, mother of Oba Esigie, who ruled the kingdom of Benin in today's Nigeria in the early 1500s. She raised an army for her son and was the first to hold the title of Queen Mother. It left Benin when British forces sacked Benin City in 1897.",
+    "look": "the tiny heads of Portuguese traders in her crown",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/318622",
+    "tier": 270,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ao/web-large/DP231460.jpg",
+     "w": 463,
+     "h": 624,
+     "page": "https://www.metmuseum.org/art/collection/search/318622",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "548",
+    "met": 204758,
+    "t": "Perseus with the Head of Medusa",
+    "by": "Antonio Canova",
+    "date": "1804–6",
+    "story": "Canova carved a Perseus holding up Medusa's head on his own, and the Pope bought it in 1802 to stand where the famous Apollo Belvedere had been, before Napoleon took it to Paris. This is Canova's second version, made for a Polish countess.",
+    "look": "Medusa's face: beautiful, not a monster",
+    "people": [
+     "napoleon"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/204758",
+    "tier": 180,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/es/web-large/DP249451.jpg",
+     "w": 470,
+     "h": 624,
+     "page": "https://www.metmuseum.org/art/collection/search/204758",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "548",
+    "met": 204812,
+    "t": "Ugolino and His Sons",
+    "by": "Jean-Baptiste Carpeaux",
+    "date": "1865–67",
+    "story": "In Dante's Inferno, Count Ugolino is locked in a tower in Pisa with his sons and grandsons to starve. Carpeaux made the group in Rome in the 1860s: the father bites his hands in despair while the children beg him to eat them.",
+    "look": "Ugolino's feet, clenched as tight as his hands",
+    "people": [
+     "dante"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/204812",
+    "tier": 180,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/es/web-large/DP247545.jpg",
+     "w": 468,
+     "h": 624,
+     "page": "https://www.metmuseum.org/art/collection/search/204812",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "501",
+    "met": 198556,
+    "t": "Studiolo from Gubbio",
+    "by": "Designed by Francesco di Giorgio Martini",
+    "date": "ca. 1478–82",
+    "story": "A tiny study made for Duke Federico da Montefeltro in his palace at Gubbio, about 1478. The walls are wood inlay that tricks the eye: cupboards with doors half open, books, a lute, armour, all flat. It is the Renaissance idea of a learned man, made into a room.",
+    "look": "the cupboard doors that seem to stand open, and the bench that seems to fold",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/198556",
+    "tier": 120,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/es/web-large/DT2954.jpg",
+     "w": 600,
+     "h": 480,
+     "page": "https://www.metmuseum.org/art/collection/search/198556",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "371",
+    "met": 23939,
+    "t": "Armour of George Clifford",
+    "by": "Made in the royal workshops at Greenwich",
+    "date": "1586",
+    "story": "George Clifford, Earl of Cumberland, was Queen Elizabeth I's champion at her yearly tournaments. This blue and gold armour was made for him at Greenwich, the royal workshop that Henry VIII founded with German armourers. It is one of the most complete Elizabethan armours in the world.",
+    "look": "the Tudor roses and fleurs-de-lis in the gold decoration",
+    "people": [
+     "elizabeth-i"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/23939",
+    "tier": 120,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/aa/web-large/DT259974.jpg",
+     "w": 489,
+     "h": 625,
+     "page": "https://www.metmuseum.org/art/collection/search/23939",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "100",
+    "met": 543937,
+    "t": "Tomb of Perneb",
+    "by": "Egyptian, Old Kingdom",
+    "date": "ca. 2381–2323 BCE",
+    "story": "The chapel of Perneb, an official of Egypt's Old Kingdom around 2350 BC, from his tomb at Saqqara. Relatives brought food and drink here for him. The Met rebuilt it stone by stone in 1916, and you can walk inside.",
+    "look": "the false door: a door carved in stone that only the dead could pass through",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/543937",
+    "tier": 120,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/eg/web-large/DP108489.jpg",
+     "w": 600,
+     "h": 340,
+     "page": "https://www.metmuseum.org/art/collection/search/543937",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "111",
+    "met": 544227,
+    "t": "Hippopotamus (\"William\")",
+    "by": "Egyptian, Middle Kingdom",
+    "date": "ca. 1961–1878 B.C.",
+    "story": "The museum's mascot, a blue faience hippopotamus nicknamed William, made around 1900 BC for a tomb. Hippos were dangerous on the Nile, and three of his legs were broken, probably on purpose, so he could not harm the dead. They have been restored.",
+    "look": "the lotus flowers and marsh plants painted on his body",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/544227",
+    "tier": 120,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/eg/web-large/DP248993.jpg",
+     "w": 468,
+     "h": 625,
+     "page": "https://www.metmuseum.org/art/collection/search/544227",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "115",
+    "met": 548519,
+    "t": "Seated statue of Hatshepsut",
+    "by": "Egyptian, New Kingdom",
+    "date": "ca. 1473–1458 BCE",
+    "story": "Hatshepsut ruled Egypt as pharaoh for about twenty years, around 1479 to 1458 BC. After her death her statues were smashed and thrown into a quarry. The Met's excavators found the pieces near her temple at Deir el-Bahri in the 1920s and put her back together.",
+    "look": "the royal head-cloth of a king, worn by a woman who ruled as one",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/548519",
+    "tier": 120,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/eg/web-large/DP-40132-001.jpg",
+     "w": 363,
+     "h": 625,
+     "page": "https://www.metmuseum.org/art/collection/search/548519",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "131",
+    "met": 547802,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/eg/web-large/DP240337.jpg",
+     "w": 674,
+     "h": 900,
+     "page": "https://www.metmuseum.org/art/collection/search/547802",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "The Temple of Dendur",
+    "by": "Egyptian, Roman period",
+    "date": "completed by 10 CE",
+    "story": "A small temple built in Nubia, on the Nile, in the years after Rome took Egypt from Cleopatra, and finished by about AD 10. On its walls the Roman emperor Augustus is carved as a pharaoh, making offerings to Egyptian gods. Egypt gave it to the United States in 1965, thanks for help in saving monuments from the floods of the Aswan High Dam.",
+    "look": "Augustus in a pharaoh's crown, and names scratched into the stone by 19th-century travellers",
+    "people": [
+     "augustus",
+     "cleopatra"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/547802",
+    "tier": 60
+   },
+   {
+    "floor": 1,
+    "gal": "745",
+    "met": 7873,
+    "t": "Living room from the Little House",
+    "by": "Frank Lloyd Wright",
+    "date": "1912–14",
+    "story": "The living room of a summer house Frank Lloyd Wright built on a lake in Minnesota in 1912 to 1914. When the house was to be demolished in 1972, the Met took this room. Wright wanted buildings that grow out of the land, so the long windows look out at a lake that is no longer there.",
+    "look": "the patterns in the leaded windows, and the low, wide proportions",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/7873",
+    "tier": 180
+   },
+   {
+    "floor": 1,
+    "gal": "700",
+    "met": 282,
+    "t": "Autumn Landscape window",
+    "by": "Louis Comfort Tiffany",
+    "date": "1923–24",
+    "story": "Tiffany made this window of a stream running through autumn trees in 1923, layering coloured glass that he invented to paint with light instead of paint. It stands in the American Wing's glass courtyard, close to the loggia of his own country house, Laurelton Hall.",
+    "look": "glass folded and rippled to look like water and leaves",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/282",
+    "tier": 270
+   },
+   {
+    "floor": 2,
+    "gal": "760",
+    "met": 11417,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ad/web-large/DP215410.jpg",
+     "w": 900,
+     "h": 527,
+     "page": "https://www.metmuseum.org/art/collection/search/11417",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "Washington Crossing the Delaware",
+    "by": "Emanuel Leutze",
+    "date": "1851",
+    "story": "Washington's surprise crossing of the icy Delaware River on Christmas night, 1776, before he won at Trenton. Leutze painted it 75 years later in Germany, using German models. Some details are wrong: the Stars and Stripes did not exist until 1777, and nobody would stand up in a rowing boat in ice.",
+    "look": "the flag that had not been invented yet",
+    "people": [
+     "washington"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/11417",
+    "tier": 60
+   },
+   {
+    "floor": 2,
+    "gal": "760",
+    "met": 10481,
+    "t": "Heart of the Andes",
+    "by": "Frederic Edwin Church",
+    "date": "1859",
+    "story": "Church travelled the Andes after reading the explorer Alexander von Humboldt. In 1859 he showed this huge view alone in a dark room in New York, lit by gas, and thousands paid to see it, some with opera glasses to study the detail.",
+    "look": "the tiny figures praying at a cross, and the flowers you can count petal by petal",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/10481",
+    "tier": 180,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ad/web-large/DT78.jpg",
+     "w": 599,
+     "h": 330,
+     "page": "https://www.metmuseum.org/art/collection/search/10481",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    }
+   },
+   {
+    "floor": 2,
+    "gal": "759",
+    "met": 10497,
+    "t": "The Oxbow",
+    "by": "Thomas Cole",
+    "date": "1836",
+    "story": "Cole painted the Connecticut River from Mount Holyoke after a thunderstorm in 1836: wild forest on the left, farms on the right. It is a picture about what Americans were doing to their land. Cole put himself in it, tiny, at his easel.",
+    "look": "the painter in the bottom centre, looking back at you",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/10497",
+    "tier": 180,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-12550-001.jpg",
+     "w": 599,
+     "h": 409,
+     "page": "https://www.metmuseum.org/art/collection/search/10497",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    }
+   },
+   {
+    "floor": 2,
+    "gal": "767",
+    "met": 11122,
+    "t": "The Gulf Stream",
+    "by": "Winslow Homer",
+    "date": "1899; reworked by 1906",
+    "story": "A Black sailor lies on the deck of a broken boat, with sharks circling and a waterspout coming. Homer painted it in 1899 after winters in the Caribbean. The Met bought it in 1906, while Homer was alive. Nobody knows if he is saved.",
+    "look": "the ship on the horizon, easy to miss",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/11122",
+    "tier": 120,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-20821-001.jpg",
+     "w": 600,
+     "h": 370,
+     "page": "https://www.metmuseum.org/art/collection/search/11122",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    }
+   },
+   {
+    "floor": 2,
+    "gal": "771",
+    "met": 12127,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-29006-001.jpg",
+     "w": 526,
+     "h": 900,
+     "page": "https://www.metmuseum.org/art/collection/search/12127",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "Madame X",
+    "by": "John Singer Sargent",
+    "date": "1883–84",
+    "story": "Sargent's portrait of a Paris society beauty, Virginie Gautreau, caused a scandal at the 1884 Salon. In the first version one strap had slipped from her shoulder. He painted it back up, but his career in Paris was over and he moved to London. He sold it to the Met in 1916, calling it the best thing he had done.",
+    "look": "the pale skin against the black dress, and the strap, now firmly in place",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/12127",
+    "tier": 60
+   },
+   {
+    "floor": 2,
+    "gal": "684",
+    "met": 501788,
+    "t": "The oldest piano",
+    "by": "Bartolomeo Cristofori",
+    "date": "1720",
+    "story": "Cristofori, instrument keeper to the Medici in Florence, invented the piano around 1700: hammers strike the strings, so you can play soft and loud. Only three of his pianos survive, and this one, dated 1720, is the oldest.",
+    "look": "only 54 keys, about four and a half octaves",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/501788",
+    "tier": 120,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/mi/web-large/DP300941.jpg",
+     "w": 600,
+     "h": 450,
+     "page": "https://www.metmuseum.org/art/collection/search/501788",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    }
+   },
+   {
+    "floor": 2,
+    "gal": "206",
+    "met": 42716,
+    "t": "Buddha of Medicine mural",
+    "by": "Chinese, Yuan dynasty",
+    "date": "ca. 1319",
+    "story": "A Buddhist wall painting nearly 15 metres wide, made around 1319 for a temple in Shanxi province. The Buddha of Medicine sits among his attendants. The temple sold the mural in the 1920s; it was cut from the wall in sections and reached New York.",
+    "look": "the lines where the wall was cut into pieces to move it",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/42716",
+    "tier": 180,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/as/web-large/DT227320.jpg",
+     "w": 599,
+     "h": 474,
+     "page": "https://www.metmuseum.org/art/collection/search/42716",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    }
+   },
+   {
+    "floor": 2,
+    "gal": "461",
+    "met": 452102,
+    "t": "Damascus Room",
+    "by": "Damascus",
+    "date": "dated 1119 AH/1707 CE",
+    "story": "A winter reception room from a rich family's house in Damascus, Syria, dated 1707. Guests left their shoes on the lower floor and stepped up to sit. Wooden panels are painted and gilded with flowers, and poems run around the walls.",
+    "look": "the step up from the entrance, and the verses around the top of the walls",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/452102",
+    "tier": 120,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/is/web-large/DP240367.jpg",
+     "w": 468,
+     "h": 625,
+     "page": "https://www.metmuseum.org/art/collection/search/452102",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    }
+   },
+   {
+    "floor": 2,
+    "gal": "827",
+    "met": 435621,
+    "t": "Joan of Arc",
+    "by": "Jules Bastien-Lepage",
+    "date": "1879",
+    "story": "A farm girl in her parents' garden in Lorraine, around 1425, hears voices calling her to save France. Bastien-Lepage, who came from the same region, painted it in 1879. Behind her, almost transparent, hover the saints she said she saw.",
+    "look": "her outstretched hand, reaching for something that is not there",
+    "people": [
+     "joan-of-arc"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/435621",
+    "tier": 120,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14201-049.jpg",
+     "w": 600,
+     "h": 543,
+     "page": "https://www.metmuseum.org/art/collection/search/435621",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    }
+   },
+   {
+    "floor": 2,
+    "gal": "826",
+    "met": 435868,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DP231550.jpg",
+     "w": 900,
+     "h": 717,
+     "page": "https://www.metmuseum.org/art/collection/search/435868",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "The Card Players",
+    "by": "Paul Cézanne",
+    "date": "1890–92",
+    "story": "Farm workers from around Cézanne's family estate near Aix-en-Provence sat for him playing cards. He painted the scene five times in the early 1890s. Nobody talks, nobody wins: it is a still life made of people.",
+    "look": "the pipes on the wall, and how nobody looks at anybody",
+    "people": [
+     "cezanne"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/435868",
+    "tier": 60
+   },
+   {
+    "floor": 2,
+    "gal": "825",
+    "met": 436532,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1502_cropped2.jpg",
+     "w": 723,
+     "h": 900,
+     "page": "https://www.metmuseum.org/art/collection/search/436532",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "Self-Portrait with a Straw Hat",
+    "by": "Vincent van Gogh",
+    "date": "1887",
+    "story": "Painted in Paris in 1887, when Van Gogh had just discovered bright colour and short brushstrokes. Canvas cost money, so he painted this on the back of an older picture, The Potato Peeler, from his dark Dutch years. Both sides survive.",
+    "look": "the strokes of the background running in different directions",
+    "people": [
+     "van-gogh"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/436532",
+    "tier": 60
+   },
+   {
+    "floor": 2,
+    "gal": "822",
+    "met": 436535,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-42549-001.jpg",
+     "w": 900,
+     "h": 716,
+     "page": "https://www.metmuseum.org/art/collection/search/436535",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "Wheat Field with Cypresses",
+    "by": "Vincent van Gogh",
+    "date": "1889",
+    "story": "In the summer of 1889, at the asylum in Saint-Rémy, Van Gogh painted this field outdoors, with the wind in it. He wrote that cypresses were as beautiful as Egyptian obelisks. He later made two copies in the studio; this is the one he painted on the spot.",
+    "look": "the thick paint of the clouds, still standing up from the canvas",
+    "people": [
+     "van-gogh"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/436535",
+    "tier": 60
+   },
+   {
+    "floor": 2,
+    "gal": "819",
+    "met": 437127,
+    "t": "Bridge over a Pond of Water Lilies",
+    "by": "Claude Monet",
+    "date": "1899",
+    "story": "Monet built a water garden at his house in Giverny and put a Japanese-style footbridge over it. He painted this view in 1899, and kept painting the pond for the rest of his life, until the water lilies filled whole walls.",
+    "look": "there is no sky: the pond fills the picture",
+    "people": [
+     "monet"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/437127",
+    "tier": 120
+   },
+   {
+    "floor": 2,
+    "gal": "818",
+    "met": 437133,
+    "t": "Garden at Sainte-Adresse",
+    "by": "Claude Monet",
+    "date": "1867",
+    "story": "Monet painted his family on a terrace by the sea in Normandy in 1867, when he was 26 and broke. The man in the chair is his father. The bright flags and flat colours show he had been looking at Japanese prints.",
+    "look": "the two flags snapping in the wind",
+    "people": [
+     "monet"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/437133",
+    "tier": 270
+   },
+   {
+    "floor": 2,
+    "gal": "815",
+    "met": 438817,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20101-001.jpg",
+     "w": 835,
+     "h": 900,
+     "page": "https://www.metmuseum.org/art/collection/search/438817",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "The Dance Class",
+    "by": "Edgar Degas",
+    "date": "1874",
+    "story": "Degas spent years in the rehearsal rooms of the Paris Opera. This class is not a snapshot: he built it in the studio from many drawings. The old ballet master in the middle was a real teacher, Jules Perrot.",
+    "look": "the dancer scratching her back, and the little dog",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/438817",
+    "tier": 60
+   },
+   {
+    "floor": 2,
+    "gal": "810",
+    "met": 436964,
+    "t": "Young Lady in 1866",
+    "by": "Édouard Manet",
+    "date": "1866",
+    "story": "Victorine Meurent, who also posed for Manet's scandalous Olympia, stands in a pink dressing gown with a parrot. Manet painted it in 1866. The same year Courbet painted his own Woman with a Parrot; both pictures are now at the Met.",
+    "look": "the half-peeled orange on the floor",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/436964",
+    "tier": 270,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DP273977.jpg",
+     "w": 429,
+     "h": 624,
+     "page": "https://www.metmuseum.org/art/collection/search/436964",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    }
+   },
+   {
+    "floor": 2,
+    "gal": "800",
+    "met": 191811,
+    "t": "The Thinker",
+    "by": "Auguste Rodin",
+    "date": "modeled ca. 1880, cast ca. 1910",
+    "story": "Rodin first made him to sit above his huge bronze door, The Gates of Hell, looking down on Dante's Inferno, and at first called him The Poet. Enlarged and on his own, he became one of the most famous sculptures in the world.",
+    "look": "how hard he is thinking, with every muscle",
+    "people": [
+     "rodin",
+     "dante"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/191811",
+    "tier": 270,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/es/web-large/DP-13618-012.jpg",
+     "w": 490,
+     "h": 624,
+     "page": "https://www.metmuseum.org/art/collection/search/191811",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    }
+   },
+   {
+    "floor": 2,
+    "gal": "609",
+    "met": 437372,
+    "t": "Madonna and Child Enthroned with Saints",
+    "by": "Raphael",
+    "date": "ca. 1504",
+    "story": "The young Raphael painted this altarpiece around 1504 for a convent of nuns in Perugia, before he left for Florence and Rome. The nuns asked that the baby Jesus be shown clothed.",
+    "look": "the baby Jesus fully dressed, as the nuns wanted",
+    "people": [
+     "raphael"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/437372",
+    "tier": 270,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-43051-001.jpg",
+     "w": 479,
+     "h": 625,
+     "page": "https://www.metmuseum.org/art/collection/search/437372",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    }
+   },
+   {
+    "floor": 2,
+    "gal": "614",
+    "met": 437881,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DP353257.jpg",
+     "w": 800,
+     "h": 900,
+     "page": "https://www.metmuseum.org/art/collection/search/437881",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "Young Woman with a Water Pitcher",
+    "by": "Johannes Vermeer",
+    "date": "ca. 1662",
+    "story": "Only about 36 paintings by Vermeer survive, and the Met owns five, more than any other museum. In this one a young woman opens a window with one hand and holds a pitcher with the other. Nothing happens, and the light does everything.",
+    "look": "the blue of the cloth, and the map on the wall",
+    "people": [
+     "vermeer"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/437881",
+    "tier": 60
+   },
+   {
+    "floor": 2,
+    "gal": "616",
+    "met": 437394,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-30758-001.jpg",
+     "w": 853,
+     "h": 900,
+     "page": "https://www.metmuseum.org/art/collection/search/437394",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "Aristotle with a Bust of Homer",
+    "by": "Rembrandt",
+    "date": "1653",
+    "story": "A Sicilian nobleman ordered a philosopher from Rembrandt in 1653. Rembrandt painted Aristotle in the clothes of his own day, resting a hand on a bust of the poet Homer. On his gold chain hangs a medallion of Alexander the Great, the pupil he once taught. Fame, wisdom and money in one picture.",
+    "look": "Alexander's face on the medallion",
+    "people": [
+     "rembrandt",
+     "aristotle",
+     "alexander"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/437394",
+    "tier": 60
+   },
+   {
+    "floor": 2,
+    "gal": "616",
+    "met": 437397,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16323-001.jpg",
+     "w": 742,
+     "h": 900,
+     "page": "https://www.metmuseum.org/art/collection/search/437397",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "Self-Portrait",
+    "by": "Rembrandt",
+    "date": "1660",
+    "story": "Rembrandt painted himself about 40 times, in youth and in success. This one is from 1660, four years after his bankruptcy, when his house and collection had been sold. He did not flatter himself.",
+    "look": "the thick paint on the nose and forehead",
+    "people": [
+     "rembrandt"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/437397",
+    "tier": 60
+   },
+   {
+    "floor": 2,
+    "gal": "620",
+    "met": 435844,
+    "t": "The Musicians",
+    "by": "Caravaggio",
+    "date": "1597",
+    "story": "Painted around 1597 for Caravaggio's first patron in Rome, Cardinal del Monte, who loved music. Four boys in loose classical costume tune up. The one behind, looking out at you, is probably Caravaggio himself.",
+    "look": "the boy at the back, and the winged Cupid picking grapes",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/435844",
+    "tier": 180,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-687-001.jpg",
+     "w": 599,
+     "h": 465,
+     "page": "https://www.metmuseum.org/art/collection/search/435844",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    }
+   },
+   {
+    "floor": 2,
+    "gal": "622",
+    "met": 436838,
+    "t": "The Fortune-Teller",
+    "by": "Georges de La Tour",
+    "date": "probably 1630s",
+    "story": "A rich young man has his fortune told, and while the old woman talks, the others rob him. Painted in the 1630s by a French painter almost forgotten until the 20th century.",
+    "look": "one hand lifting his purse, and another cutting the medal from his chain",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/436838",
+    "tier": 270,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-015.jpg",
+     "w": 600,
+     "h": 496,
+     "page": "https://www.metmuseum.org/art/collection/search/436838",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    }
+   },
+   {
+    "floor": 2,
+    "gal": "625",
+    "met": 437869,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-001.jpg",
+     "w": 777,
+     "h": 900,
+     "page": "https://www.metmuseum.org/art/collection/search/437869",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "Juan de Pareja",
+    "by": "Velázquez",
+    "date": "1650",
+    "story": "Velázquez painted his assistant, Juan de Pareja, an enslaved man of Moorish descent, in Rome in 1650. The portrait was shown at the Pantheon and praised by all of Rome. That same year Velázquez signed papers to free him. Pareja became a painter in his own right.",
+    "look": "the eyes, which meet yours",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/437869",
+    "tier": 60
+   },
+   {
+    "floor": 2,
+    "gal": "634",
+    "met": 436105,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13139-001.jpg",
+     "w": 900,
+     "h": 599,
+     "page": "https://www.metmuseum.org/art/collection/search/436105",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "The Death of Socrates",
+    "by": "Jacques-Louis David",
+    "date": "1787",
+    "story": "Athens sentenced Socrates to death in 399 BC. David shows him reaching for the cup of hemlock while still teaching. Plato sits at the foot of the bed, though Plato wrote that he was ill and not there that day, and David made him an old man.",
+    "look": "Plato, eyes shut, at the end of the bed",
+    "people": [
+     "socrates",
+     "plato"
+    ],
+    "u": "https://www.metmuseum.org/art/collection/search/436105",
+    "tier": 60
+   },
+   {
+    "floor": 2,
+    "gal": "638",
+    "met": 435809,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DP119115.jpg",
+     "w": 900,
+     "h": 663,
+     "page": "https://www.metmuseum.org/art/collection/search/435809",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    },
+    "t": "The Harvesters",
+    "by": "Pieter Bruegel the Elder",
+    "date": "1565",
+    "story": "Painted in 1565 for a merchant in Antwerp, as one of six pictures of the times of the year. Five survive. Peasants cut wheat and stop for lunch under a pear tree, while the land runs away to the sea behind them.",
+    "look": "the man asleep under the tree",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/435809",
+    "tier": 60
+   },
+   {
+    "floor": 2,
+    "gal": "641",
+    "met": 436545,
+    "t": "Manuel Osorio Manrique de Zuñiga",
+    "by": "Francisco de Goya",
+    "date": "1787–88",
+    "story": "The son of a count, aged about four, in a red suit with his pet magpie on a string, painted around 1787 to 1788. Three cats stare at the bird from the dark. The magpie holds Goya's own calling card in its beak.",
+    "look": "the cats' eyes in the shadow",
+    "people": [],
+    "u": "https://www.metmuseum.org/art/collection/search/436545",
+    "tier": 180,
+    "pic": {
+     "u": "https://images.metmuseum.org/CRDImages/ep/web-large/DP287624.jpg",
+     "w": 460,
+     "h": 624,
+     "page": "https://www.metmuseum.org/art/collection/search/436545",
+     "cr": "The Metropolitan Museum of Art, Open Access",
+     "lic": "Public domain (CC0)"
+    }
+   }
+  ],
+  "routes": [
+   {
+    "mins": 60,
+    "n": "The Met in one hour",
+    "intro": "14 works that people cross the world to see, in walking order: ground floor first, then up the stairs. About three minutes each, with time to walk. Tap Next stop as you go."
+   },
+   {
+    "mins": 120,
+    "n": "The Met in two hours",
+    "intro": "24 works in walking order. Downstairs: Greek and Roman, Renaissance rooms, armour and Egypt. Upstairs: American painting, the oldest piano in the world, a room from Damascus, then the Impressionists and Old Masters. Take a coffee break in between."
+   },
+   {
+    "mins": 180,
+    "n": "The Met in three hours",
+    "intro": "33 stops: everything in the two-hour walk, plus an Etruscan chariot, Canova, Frank Lloyd Wright, a Chinese Buddhist mural, Caravaggio and Goya. Wear comfortable shoes."
+   },
+   {
+    "mins": 270,
+    "n": "The Met in a half day",
+    "intro": "41 stops, about four and a half hours with a lunch break: the whole of the shorter walks, plus Roman wall paintings, Benin ivory, Tiffany glass, Rodin's Thinker, Raphael and more. Sit down whenever a room asks you to."
+   }
+  ],
+  "floors": {
+   "1": "First floor",
+   "2": "Second floor"
+  }
+ },
+ "facts": [
+  {
+   "h": "Founded before it had any art",
+   "when": "1870",
+   "lab": "verified",
+   "t": "A group of New York businessmen and artists founded the Met in 1870 with no building and no collection. It opened on Fifth Avenue in Central Park in 1880, and the building has grown around that first one ever since. Parts of the old brick front can still be seen inside, in the Lehman wing.",
+   "src": [
+    {
+     "n": "The Met: history of the museum",
+     "u": "https://www.metmuseum.org/about-the-met/history"
+    },
+    {
+     "n": "Wikipedia: Metropolitan Museum of Art",
+     "u": "https://en.wikipedia.org/wiki/Metropolitan_Museum_of_Art"
+    }
+   ]
+  },
+  {
+   "h": "Free pictures for everyone",
+   "when": "2017",
+   "lab": "verified",
+   "t": "In 2017 the Met put more than 375,000 pictures of public-domain works online under a licence that lets anyone use them for anything. The pictures in this guide come from that gift.",
+   "src": [
+    {
+     "n": "The Met: Open Access",
+     "u": "https://www.metmuseum.org/hubs/open-access"
+    },
+    {
+     "n": "The Met Collection API",
+     "u": "https://metmuseum.github.io/"
+    }
+   ]
+  }
+ ]
+}

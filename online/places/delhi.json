@@ -1,0 +1,73 @@
+{
+ "id": "delhi",
+ "n": "Delhi",
+ "kind": "city",
+ "where": "India",
+ "lat": 28.6139,
+ "lon": 77.209,
+ "r": 20000,
+ "blurb": "Capital of sultans, Mughals, the British Raj and independent India.",
+ "facts": [
+  {
+   "h": "A tryst with destiny",
+   "when": "1947",
+   "lab": "verified",
+   "people": [
+    "nehru"
+   ],
+   "go": [
+    "#e-india-independence",
+    "Independence"
+   ],
+   "t": "At midnight between 14 and 15 August 1947 Jawaharlal Nehru spoke to the assembly in Parliament House, and the next day raised India's flag at the Red Fort.",
+   "src": [
+    {
+     "n": "Wikipedia: Tryst with Destiny",
+     "u": "https://en.wikipedia.org/wiki/Tryst_with_Destiny"
+    },
+    {
+     "n": "Wikipedia: Red Fort",
+     "u": "https://en.wikipedia.org/wiki/Red_Fort"
+    }
+   ]
+  },
+  {
+   "h": "Where Gandhi died",
+   "when": "1948",
+   "lab": "verified",
+   "people": [
+    "gandhi"
+   ],
+   "t": "Gandhi was shot on 30 January 1948 in the garden of Birla House, now the Gandhi Smriti museum. His footsteps to the spot are marked in stone.",
+   "src": [
+    {
+     "n": "Wikipedia: Assassination of Mahatma Gandhi",
+     "u": "https://en.wikipedia.org/wiki/Assassination_of_Mahatma_Gandhi"
+    },
+    {
+     "n": "Wikipedia: Gandhi Smriti",
+     "u": "https://en.wikipedia.org/wiki/Gandhi_Smriti"
+    }
+   ]
+  },
+  {
+   "h": "Shah Jahan's new city",
+   "when": "1639 to 1656",
+   "lab": "verified",
+   "people": [
+    "shah-jahan"
+   ],
+   "t": "Shah Jahan moved his capital from Agra and built Shahjahanabad, now Old Delhi, with the Red Fort and the Jama Masjid, from 1639.",
+   "src": [
+    {
+     "n": "Wikipedia: Shahjahanabad",
+     "u": "https://en.wikipedia.org/wiki/Shahjahanabad"
+    },
+    {
+     "n": "Wikipedia: Jama Masjid, Delhi",
+     "u": "https://en.wikipedia.org/wiki/Jama_Masjid,_Delhi"
+    }
+   ]
+  }
+ ]
+}

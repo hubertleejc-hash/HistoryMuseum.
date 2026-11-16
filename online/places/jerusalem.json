@@ -1,0 +1,88 @@
+{
+ "id": "jerusalem",
+ "n": "Jerusalem",
+ "kind": "city",
+ "where": "Old City",
+ "lat": 31.7767,
+ "lon": 35.2345,
+ "r": 3000,
+ "blurb": "A small walled city that is holy to Jews, Christians and Muslims. Here, more than anywhere, we keep history and faith clearly labelled, with respect for both.",
+ "facts": [
+  {
+   "h": "What historians can say about Jesus here",
+   "when": "c. AD 30 to 33",
+   "lab": "likely",
+   "people": [
+    "jesus"
+   ],
+   "go": [
+    "#p-jesus",
+    "Jesus of Nazareth"
+   ],
+   "t": "Most historians, religious or not, agree that Jesus of Nazareth was a Jewish teacher who came to Jerusalem at Passover and was crucified on the order of the Roman governor Pontius Pilate. Besides the Gospels, the Roman historian Tacitus mentions the execution about 80 years later.",
+   "src": [
+    {
+     "n": "Tacitus, Annals 15.44",
+     "u": "https://en.wikisource.org/wiki/The_Annals_(Tacitus)/Book_15#44"
+    },
+    {
+     "n": "Wikipedia: Historical Jesus",
+     "u": "https://en.wikipedia.org/wiki/Historical_Jesus"
+    }
+   ]
+  },
+  {
+   "h": "The Church of the Holy Sepulchre",
+   "lab": "tradition",
+   "people": [
+    "jesus"
+   ],
+   "t": "For Christians since at least the fourth century, this church marks the place where Jesus was crucified and buried, and where they believe he rose from the dead. The emperor Constantine had the first church built here around AD 326. Six Christian churches share it today.",
+   "src": [
+    {
+     "n": "Wikipedia: Church of the Holy Sepulchre",
+     "u": "https://en.wikipedia.org/wiki/Church_of_the_Holy_Sepulchre"
+    },
+    {
+     "n": "UNESCO: Old City of Jerusalem and its Walls",
+     "u": "https://whc.unesco.org/en/list/148/"
+    }
+   ]
+  },
+  {
+   "h": "The Dome of the Rock",
+   "when": "AD 691 to 692",
+   "lab": "verified",
+   "people": [
+    "muhammad"
+   ],
+   "t": "Built under the caliph Abd al-Malik, it is one of the oldest Islamic buildings still standing. In Islamic tradition, Jerusalem is where the Prophet Muhammad, peace be upon him, was carried on the Night Journey, and the nearby Al-Aqsa Mosque is the third holiest site in Islam.",
+   "src": [
+    {
+     "n": "Wikipedia: Dome of the Rock",
+     "u": "https://en.wikipedia.org/wiki/Dome_of_the_Rock"
+    },
+    {
+     "n": "Wikipedia: Isra and Mi'raj",
+     "u": "https://en.wikipedia.org/wiki/Isra%27_and_Mi%27raj"
+    }
+   ]
+  },
+  {
+   "h": "The Western Wall",
+   "when": "from c. 19 BC",
+   "lab": "verified",
+   "t": "The great stones are part of the retaining wall King Herod built when he enlarged the platform of the Second Temple. The Romans destroyed the Temple in AD 70, but the wall remained. It is the holiest place where Jews pray today.",
+   "src": [
+    {
+     "n": "Wikipedia: Western Wall",
+     "u": "https://en.wikipedia.org/wiki/Western_Wall"
+    },
+    {
+     "n": "Wikipedia: Second Temple",
+     "u": "https://en.wikipedia.org/wiki/Second_Temple"
+    }
+   ]
+  }
+ ]
+}

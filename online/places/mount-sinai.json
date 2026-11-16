@@ -1,0 +1,46 @@
+{
+ "id": "mount-sinai",
+ "n": "Mount Sinai",
+ "kind": "site",
+ "where": "Sinai, Egypt",
+ "lat": 28.5392,
+ "lon": 33.975,
+ "r": 3000,
+ "blurb": "The mountain where, by Jewish, Christian and Muslim tradition, Moses received the law.",
+ "facts": [
+  {
+   "h": "Moses and the law",
+   "lab": "tradition",
+   "people": [
+    "moses"
+   ],
+   "t": "Tradition places the giving of the Ten Commandments to Moses on this mountain, Jebel Musa. Historians cannot confirm which mountain the Bible meant; this one has been honoured since at least the 4th century.",
+   "src": [
+    {
+     "n": "Wikipedia: Mount Sinai",
+     "u": "https://en.wikipedia.org/wiki/Mount_Sinai"
+    },
+    {
+     "n": "Wikipedia: Moses",
+     "u": "https://en.wikipedia.org/wiki/Moses"
+    }
+   ]
+  },
+  {
+   "h": "Saint Catherine's Monastery",
+   "when": "548 to 565",
+   "lab": "verified",
+   "t": "Built at the foot of the mountain by Emperor Justinian between 548 and 565, it is one of the oldest working Christian monasteries, and its library one of the oldest still in use.",
+   "src": [
+    {
+     "n": "Wikipedia: Saint Catherine's Monastery",
+     "u": "https://en.wikipedia.org/wiki/Saint_Catherine's_Monastery"
+    },
+    {
+     "n": "UNESCO: Saint Catherine Area",
+     "u": "https://whc.unesco.org/en/list/954/"
+    }
+   ]
+  }
+ ]
+}

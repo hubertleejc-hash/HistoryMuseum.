@@ -1,0 +1,27 @@
+{
+  "_about": "Events for the Today page. s = the Wikidata search text, p = the date property to read (P585 point in time, P580 start, P571 inception, P577 publication, P1619 official opening, P606 first flight, P619 launch). The day always comes from Wikidata, and is kept only when its year matches the event's year. e = an event id in app/data.js; an event that is not in the app yet gives n (name), y (year) and t (one line) instead.",
+  "events": [
+    {"e": "caesar-killed", "s": "assassination of Julius Caesar", "p": "P585"},
+    {"e": "charlemagne-crowned", "s": "coronation of Charlemagne", "p": "P585"},
+    {"e": "magna-carta", "s": "Magna Carta", "p": "P571"},
+    {"e": "constantinople-falls", "s": "Fall of Constantinople", "p": "P585"},
+    {"e": "reformation", "s": "Ninety-five Theses", "p": "P577"},
+    {"e": "great-fire", "s": "Great Fire of London", "p": "P580"},
+    {"e": "us-independence", "s": "United States Declaration of Independence", "p": "P571"},
+    {"e": "french-revolution", "s": "Storming of the Bastille", "p": "P585"},
+    {"e": "napoleon-crowned", "s": "coronation of Napoleon", "p": "P585"},
+    {"e": "waterloo", "s": "Battle of Waterloo", "p": "P585"},
+    {"e": "origin-of-species", "s": "On the Origin of Species", "p": "P577"},
+    {"e": "suez-canal", "s": "Suez Canal", "p": "P1619"},
+    {"e": "eiffel-tower", "s": "Eiffel Tower", "p": "P1619"},
+    {"e": "first-flight", "s": "Wright Flyer", "p": "P606"},
+    {"e": "titanic", "s": "sinking of the Titanic", "p": "P585"},
+    {"e": "great-depression", "s": "Wall Street Crash of 1929", "p": "P580"},
+    {"e": "india-independence", "s": "Dominion of India", "p": "P571"},
+    {"e": "prc-founded", "s": "proclamation of the People's Republic of China", "p": "P585"},
+    {"e": "merdeka", "s": "Malayan Declaration of Independence", "p": "P585"},
+    {"e": "sputnik", "s": "Sputnik 1", "p": "P619"},
+    {"e": "first-human-space", "s": "Vostok 1", "p": "P619"},
+    {"e": "berlin-wall", "s": "Fall of the Berlin Wall", "p": "P585"}
+  ]
+}

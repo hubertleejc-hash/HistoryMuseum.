@@ -1,0 +1,1180 @@
+{
+ "id": "louvre",
+ "n": "Musée du Louvre",
+ "short": "The Louvre",
+ "kind": "museum",
+ "where": "Paris",
+ "lat": 48.8606,
+ "lon": 2.3376,
+ "r": 350,
+ "rank": 1,
+ "blurb": "The most visited museum in the world, in a royal palace that grew for 800 years along the Seine.",
+ "facts": [
+  {
+   "h": "A fortress, a palace, then a museum",
+   "when": "1190 to 1793",
+   "lab": "verified",
+   "people": [
+    "louis-xiv"
+   ],
+   "t": "The Louvre began around 1200 as a fortress. Kings turned it into a palace, and when Louis XIV moved to Versailles it filled with artists and academies. The Revolution opened it to the public as a museum in 1793.",
+   "src": [
+    {
+     "n": "Wikipedia: Louvre Palace",
+     "u": "https://en.wikipedia.org/wiki/Louvre_Palace"
+    },
+    {
+     "n": "Wikipedia: Louvre",
+     "u": "https://en.wikipedia.org/wiki/Louvre"
+    }
+   ]
+  },
+  {
+   "h": "Napoleon's museum",
+   "when": "1803 to 1815",
+   "lab": "verified",
+   "people": [
+    "napoleon"
+   ],
+   "t": "Napoleon brought paintings and statues to the Louvre from the countries he conquered, and for a few years it was called the Musée Napoléon. After his fall in 1815 about 5,000 works were sent back, though not all; Veronese's Wedding at Cana stayed.",
+   "src": [
+    {
+     "n": "Wikipedia: Louvre",
+     "u": "https://en.wikipedia.org/wiki/Louvre"
+    },
+    {
+     "n": "Wikipedia: Napoleonic looting of art",
+     "u": "https://en.wikipedia.org/wiki/Napoleonic_looting_of_art"
+    }
+   ]
+  },
+  {
+   "h": "The glass pyramid",
+   "when": "1989",
+   "lab": "verified",
+   "t": "The architect I. M. Pei's glass pyramid opened in 1989 as a new main entrance. Many Parisians hated it at first, as they had once hated the Eiffel Tower.",
+   "src": [
+    {
+     "n": "Wikipedia: Louvre Pyramid",
+     "u": "https://en.wikipedia.org/wiki/Louvre_Pyramid"
+    },
+    {
+     "n": "Musée du Louvre",
+     "u": "https://www.louvre.fr/en"
+    }
+   ]
+  }
+ ],
+ "guide": {
+  "n": "The Louvre in one hour",
+  "mins": 60,
+  "room": "Usually room",
+  "floors": {
+   "-2": "Level -2",
+   "-1": "Level -1",
+   "0": "Level 0",
+   "1": "Level 1",
+   "2": "Level 2"
+  },
+  "intro": "Twelve works in walking order, starting with Mesopotamia and Greece on level 0, then up the Daru staircase to the Winged Victory and the great paintings. The Mona Lisa room gets crowded; go early or late.",
+  "note": "Room numbers are where these works usually hang. We have not been able to confirm them with the Louvre, and rooms close and works move, so treat them as a pointer. The Louvre's app and the guards know where things are today.",
+  "src": [
+   {
+    "n": "Louvre collections database",
+    "u": "https://collections.louvre.fr/en/"
+   },
+   {
+    "n": "Musée du Louvre: plan your visit",
+    "u": "https://www.louvre.fr/en"
+   },
+   {
+    "n": "Wikipedia: Louvre",
+    "u": "https://en.wikipedia.org/wiki/Louvre"
+   }
+  ],
+  "stops": [
+   {
+    "floor": 0,
+    "gal": "229",
+    "t": "Winged bulls of Khorsabad",
+    "by": "Assyrian",
+    "date": "c. 713 to 706 BC",
+    "story": "These human-headed winged bulls guarded a gate of King Sargon II's palace at Khorsabad, in today's Iraq. Each weighs about 30 tonnes. Count the legs: five, so they look right both from the front and from the side.",
+    "look": "the fifth leg",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Lamassu",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Lamassu_du_palais_de_Khorsabad%2C_Mus%C3%A9e_du_Louvre.jpg/960px-Lamassu_du_palais_de_Khorsabad%2C_Mus%C3%A9e_du_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1851,
+     "page": "https://commons.wikimedia.org/wiki/File:Lamassu_du_palais_de_Khorsabad,_Mus%C3%A9e_du_Louvre.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "ROTA Hugo, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 0,
+    "gal": "227",
+    "t": "The Code of Hammurabi",
+    "by": "Babylonian",
+    "date": "c. 1754 BC",
+    "story": "King Hammurabi of Babylon had 282 laws carved on this basalt pillar, under a picture of himself before the sun god. 'An eye for an eye' is here, about 1,000 years before it appears in the Bible. French archaeologists found it in Susa, Iran, in 1901.",
+    "look": "the king and the god at the top",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Code_of_Hammurabi",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/P1050763_Louvre_code_Hammurabi_face_rwk.JPG/960px-P1050763_Louvre_code_Hammurabi_face_rwk.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1481,
+     "page": "https://commons.wikimedia.org/wiki/File:P1050763_Louvre_code_Hammurabi_face_rwk.JPG",
+     "lic": "CC BY 3.0",
+     "cr": "Mbzt, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 0,
+    "gal": "345",
+    "t": "Venus de Milo",
+    "by": "Greek",
+    "date": "c. 150 to 125 BC",
+    "story": "A farmer found her on the Greek island of Milos in 1820, and the French ambassador bought her for the king. Her arms were never found. She is probably Aphrodite, though some think she is the sea goddess Amphitrite.",
+    "look": "the twist of the body, and the line where the two blocks of marble meet",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Venus_de_Milo",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Venus_de_Milo_Louvre_Ma399_n4.jpg/960px-Venus_de_Milo_Louvre_Ma399_n4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1510,
+     "page": "https://commons.wikimedia.org/wiki/File:Venus_de_Milo_Louvre_Ma399_n4.jpg",
+     "lic": "Public domain",
+     "cr": "Unknown artistUnknown artist, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 0,
+    "gal": "403",
+    "t": "Dying Slave",
+    "by": "Michelangelo",
+    "date": "1513 to 1516",
+    "story": "Carved for the tomb of Pope Julius II, which shrank again and again over 40 years. Michelangelo gave this figure and its pair, the Rebellious Slave, to a friend. Nobody agrees whether he is dying, sleeping or waking.",
+    "look": "the unfinished monkey behind his leg",
+    "people": [
+     "michelangelo"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Dying_Slave",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Dying_slave_Louvre_MR_1590%2C_Louvre.jpg/960px-Dying_slave_Louvre_MR_1590%2C_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1246,
+     "page": "https://commons.wikimedia.org/wiki/File:Dying_slave_Louvre_MR_1590,_Louvre.jpg",
+     "lic": "CC0",
+     "cr": "Michelangelo Buenarroti (1475-1564), via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "703",
+    "t": "Winged Victory of Samothrace",
+    "by": "Greek",
+    "date": "c. 190 BC",
+    "story": "Nike, goddess of victory, lands on the prow of a warship, her dress blown against her by the sea wind. She was found in pieces on the island of Samothrace in 1863. Her head and arms are lost; a hand found later is in a case nearby.",
+    "look": "the wind in the dress",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Winged_Victory_of_Samothrace",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Nike_of_Samothrake_Louvre_Ma2369_n4.jpg/960px-Nike_of_Samothrake_Louvre_Ma2369_n4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1364,
+     "page": "https://commons.wikimedia.org/wiki/File:Nike_of_Samothrake_Louvre_Ma2369_n4.jpg",
+     "lic": "Public domain",
+     "cr": "Unknown, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "711",
+    "t": "Mona Lisa",
+    "by": "Leonardo da Vinci",
+    "date": "c. 1503 to 1519",
+    "story": "Leonardo began the portrait of Lisa Gherardini, a Florentine silk merchant's wife, in 1503, and was still working on it when he died in France. It is smaller than people expect, 77 by 53 centimetres. Turn around afterwards: the largest painting in the Louvre is behind you.",
+    "look": "the two different landscapes on either side of her",
+    "people": [
+     "leonardo"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Mona_Lisa",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/960px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1341,
+     "page": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg",
+     "lic": "Public domain",
+     "cr": "Leonardo da Vinci, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "711",
+    "t": "The Wedding at Cana",
+    "by": "Paolo Veronese",
+    "date": "1562 to 1563",
+    "story": "Veronese filled ten metres of canvas with about 130 guests. Tradition says the musicians in front are Veronese himself, Titian and other Venetian painters. Napoleon's soldiers cut it from a Venetian monastery in 1797. It was never sent back.",
+    "look": "the musicians in the middle",
+    "people": [
+     "napoleon"
+    ],
+    "u": "https://en.wikipedia.org/wiki/The_Wedding_at_Cana",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/The_Wedding_at_Cana_by_Paolo_Veronese%2C_Muse%C3%A9_du_Louvre%2C_left_side%2C_taken_on_July_26%2C_2026.jpg/960px-The_Wedding_at_Cana_by_Paolo_Veronese%2C_Muse%C3%A9_du_Louvre%2C_left_side%2C_taken_on_July_26%2C_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 675,
+     "page": "https://commons.wikimedia.org/wiki/File:The_Wedding_at_Cana_by_Paolo_Veronese,_Muse%C3%A9_du_Louvre,_left_side,_taken_on_July_26,_2026.jpg",
+     "lic": "CC0",
+     "cr": "Abzeronow, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "702",
+    "t": "The Coronation of Napoleon",
+    "by": "Jacques-Louis David",
+    "date": "1805 to 1807",
+    "story": "David shows Napoleon crowning Josephine in Notre-Dame in 1804. He changed things to please him: Napoleon's mother, who stayed away, sits in a place of honour.",
+    "look": "Madame Mère in the box, who was not there",
+    "people": [
+     "napoleon"
+    ],
+    "u": "https://en.wikipedia.org/wiki/The_Coronation_of_Napoleon",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg/960px-Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 566,
+     "page": "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_The_Coronation_of_Napoleon_(1805-1807).jpg",
+     "lic": "Public domain",
+     "cr": "Jacques-Louis David / Georges Rouget, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "702",
+    "t": "Grande Odalisque",
+    "by": "Jean-Auguste-Dominique Ingres",
+    "date": "1814",
+    "story": "Critics laughed when it was shown in 1819: her back has two or three extra vertebrae. Ingres made her longer on purpose, for the line.",
+    "look": "how long the back is",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Grande_Odalisque",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/T%C3%AAte_de_la_grande_odalisque_couch%C3%A9e_par_Jean-Auguste-Dominique_Ingres.jpg/960px-T%C3%AAte_de_la_grande_odalisque_couch%C3%A9e_par_Jean-Auguste-Dominique_Ingres.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1002,
+     "page": "https://commons.wikimedia.org/wiki/File:T%C3%AAte_de_la_grande_odalisque_couch%C3%A9e_par_Jean-Auguste-Dominique_Ingres.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "JackyM59, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "700",
+    "t": "Liberty Leading the People",
+    "by": "Eugène Delacroix",
+    "date": "1830",
+    "story": "Delacroix painted the July Revolution of 1830, three days of fighting in Paris, the same year. The boy with two pistols may have helped inspire Victor Hugo's Gavroche in Les Misérables, though nobody can be sure.",
+    "look": "the towers of Notre-Dame in the smoke",
+    "people": [
+     "victor-hugo"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Liberty_Leading_the_People",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg/960px-Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 712,
+     "page": "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg",
+     "lic": "Public domain",
+     "cr": "Eugène Delacroix, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "700",
+    "t": "The Raft of the Medusa",
+    "by": "Théodore Géricault",
+    "date": "1818 to 1819",
+    "story": "In 1816 a French navy ship ran aground off Africa, and 147 people were set adrift on a raft; 15 survived. Géricault interviewed survivors, studied corpses in a hospital and built a model of the raft to paint it.",
+    "look": "the tiny ship on the horizon",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/The_Raft_of_the_Medusa",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg/960px-JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 614,
+     "page": "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg",
+     "lic": "Public domain",
+     "cr": "Théodore Géricault, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "635",
+    "t": "The Seated Scribe",
+    "by": "Egyptian",
+    "date": "c. 2600 to 2350 BC",
+    "story": "A painted limestone scribe with eyes of rock crystal set in copper, so lifelike they seem to follow you. He was found at Saqqara in 1850. Nobody knows his name.",
+    "look": "the eyes, from the side",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Seated_Scribe",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/The_seated_scribe-E_3023-IMG_4267-gradient-contrast.jpg/960px-The_seated_scribe-E_3023-IMG_4267-gradient-contrast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 900,
+     "page": "https://commons.wikimedia.org/wiki/File:The_seated_scribe-E_3023-IMG_4267-gradient-contrast.jpg",
+     "lic": "CC BY-SA 3.0 fr",
+     "cr": "Rama, via Wikimedia Commons"
+    }
+   }
+  ],
+  "tour": [
+   {
+    "floor": -2,
+    "t": "Baptistère de Saint Louis",
+    "by": "Muhammad ibn al-Zayn",
+    "date": "c. 1320 to 1340",
+    "story": "A brass basin inlaid with silver and gold, made in Mamluk Egypt or Syria, with hunters, horsemen and courtiers all round. The maker signed it six times. French kings later used it to baptise their children, and it took the name of Saint Louis, though it was made long after his time.",
+    "look": "the maker's signature among the figures",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Baptistère_de_Saint_Louis",
+    "tier": 180,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Baptist%C3%A8re_de_Saint_Louis_-_Bandeau_I4.jpg/960px-Baptist%C3%A8re_de_Saint_Louis_-_Bandeau_I4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 573,
+     "page": "https://commons.wikimedia.org/wiki/File:Baptist%C3%A8re_de_Saint_Louis_-_Bandeau_I4.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "Green fr, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": -1,
+    "t": "Pyxis of al-Mughira",
+    "by": "Córdoba, al-Andalus",
+    "date": "968",
+    "story": "A round ivory box carved in 968 in Córdoba, in Muslim Spain, for al-Mughira, a son of the caliph Abd al-Rahman III. Its scenes of princes, musicians and hunters were probably also a political message; he was killed in a power struggle a few years later.",
+    "look": "the inscription around the lid that names him",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Pyxis_of_al-Mughira",
+    "tier": 270,
+    "pic": {
+     "u": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Pyxid_Al_Mughira_OA_4068.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "w": 900,
+     "h": 1364,
+     "page": "https://commons.wikimedia.org/wiki/File:Pyxid_Al_Mughira_OA_4068.jpg",
+     "lic": "Public domain",
+     "cr": "Workshop at the court of Medina Azahara, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": -1,
+    "t": "The medieval Louvre",
+    "by": "Built for King Philip II",
+    "date": "from about 1190",
+    "story": "Under the museum lie the foundations of the first Louvre, a fortress King Philip II began around 1190 to guard Paris while he was away on crusade. You walk along the dry moat, beside the base of the great round tower. Kings turned the fortress into a palace, and the palace became a museum in 1793.",
+    "look": "the stonemasons' marks on the blocks",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Louvre_Palace",
+    "tier": 120
+   },
+   {
+    "floor": -1,
+    "t": "Great Sphinx of Tanis",
+    "by": "Egyptian",
+    "date": "date debated, perhaps c. 2600 BC or c. 1900 BC",
+    "story": "A huge sphinx carved from a single block of pink granite. Nobody agrees when it was made. Later pharaohs, including Amenemhat II, Merneptah and Shoshenq I, carved their own names on it, as if to sign it. It was found at Tanis in the Nile delta.",
+    "look": "the names of later kings carved on its chest and base",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Great_Sphinx_of_Tanis",
+    "tier": 120,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Great_Sphinx_of_Tanis%2C_Paris_alt.jpg/960px-Great_Sphinx_of_Tanis%2C_Paris_alt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 795,
+     "page": "https://commons.wikimedia.org/wiki/File:Great_Sphinx_of_Tanis,_Paris_alt.jpg",
+     "lic": "CC0",
+     "cr": "Wilfredor, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 0,
+    "t": "The Marly Horses",
+    "by": "Guillaume Coustou",
+    "date": "1739 to 1745",
+    "story": "Two wild horses held back by grooms, carved for Louis XV's park at Marly. During the Revolution they were moved to the start of the Champs-Élysées, where they stood for nearly 200 years until copies replaced them in 1984. The glass-roofed Cour Marly gives them the sky again.",
+    "look": "the rearing horse and the groom bracing against it",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Marly_Horses",
+    "tier": 120
+   },
+   {
+    "floor": 0,
+    "t": "Tomb of Philippe Pot",
+    "by": "Burgundian",
+    "date": "c. 1480",
+    "story": "Philippe Pot, a great lord of Burgundy, lies on a slab carried by eight life-size mourners in black hoods, each holding a coat of arms of his family. He died in 1493. It is a funeral procession that never ends.",
+    "look": "the mourners' faces, hidden in their hoods",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Philippe_Pot",
+    "tier": 270,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Tomb_of_Philippe_Pot%2C_Right_Side_-_Louvre%2C_Room_10.jpg/960px-Tomb_of_Philippe_Pot%2C_Right_Side_-_Louvre%2C_Room_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 586,
+     "page": "https://commons.wikimedia.org/wiki/File:Tomb_of_Philippe_Pot,_Right_Side_-_Louvre,_Room_10.jpg",
+     "lic": "CC BY-SA 3.0",
+     "cr": "Template:Antoine le Moiture, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 0,
+    "gal": "229",
+    "t": "Winged bulls of Khorsabad",
+    "by": "Assyrian",
+    "date": "c. 713 to 706 BC",
+    "story": "These human-headed winged bulls guarded a gate of King Sargon II's palace at Khorsabad, in today's Iraq. Each weighs about 30 tonnes. Count the legs: five, so they look right both from the front and from the side.",
+    "look": "the fifth leg",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Lamassu",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Lamassu_du_palais_de_Khorsabad%2C_Mus%C3%A9e_du_Louvre.jpg/960px-Lamassu_du_palais_de_Khorsabad%2C_Mus%C3%A9e_du_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1851,
+     "page": "https://commons.wikimedia.org/wiki/File:Lamassu_du_palais_de_Khorsabad,_Mus%C3%A9e_du_Louvre.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "ROTA Hugo, via Wikimedia Commons"
+    },
+    "tier": 60
+   },
+   {
+    "floor": 0,
+    "gal": "227",
+    "t": "The Code of Hammurabi",
+    "by": "Babylonian",
+    "date": "c. 1754 BC",
+    "story": "King Hammurabi of Babylon had 282 laws carved on this basalt pillar, under a picture of himself before the sun god. 'An eye for an eye' is here, about 1,000 years before it appears in the Bible. French archaeologists found it in Susa, Iran, in 1901.",
+    "look": "the king and the god at the top",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Code_of_Hammurabi",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/P1050763_Louvre_code_Hammurabi_face_rwk.JPG/960px-P1050763_Louvre_code_Hammurabi_face_rwk.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1481,
+     "page": "https://commons.wikimedia.org/wiki/File:P1050763_Louvre_code_Hammurabi_face_rwk.JPG",
+     "lic": "CC BY 3.0",
+     "cr": "Mbzt, via Wikimedia Commons"
+    },
+    "tier": 60
+   },
+   {
+    "floor": 0,
+    "t": "Statues of Gudea",
+    "by": "Sumerian, Lagash",
+    "date": "c. 2120 BC",
+    "story": "Gudea ruled the Sumerian city of Lagash, in today's Iraq, around 2120 BC and rebuilt its temples. He had himself carved in hard black diorite again and again, hands folded in prayer. In one statue he holds the plan of a temple on his lap, with a measuring rule.",
+    "look": "the temple plan on his knees",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Gudea",
+    "tier": 180,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Gudea_of_Lagash_Girsu.jpg/960px-Gudea_of_Lagash_Girsu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1350,
+     "page": "https://commons.wikimedia.org/wiki/File:Gudea_of_Lagash_Girsu.jpg",
+     "lic": "Public domain",
+     "cr": "Jastrow, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 0,
+    "t": "Frieze of Archers",
+    "by": "Persian, Susa",
+    "date": "c. 510 BC",
+    "story": "Glazed brick soldiers from the palace of the Persian king Darius I at Susa, in today's Iran. They march in step with spears, bows and quivers. French archaeologists dug them up in the 1880s.",
+    "look": "the patterns on their robes, made of coloured glaze",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Susa",
+    "tier": 180,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Archers_frieze_Darius_1st_Palace_Suse_Louvre_AOD_488_a.jpg/960px-Archers_frieze_Darius_1st_Palace_Suse_Louvre_AOD_488_a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1452,
+     "page": "https://commons.wikimedia.org/wiki/File:Archers_frieze_Darius_1st_Palace_Suse_Louvre_AOD_488_a.jpg",
+     "lic": "Public domain",
+     "cr": "Unknown authorUnknown author, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 0,
+    "t": "Stele of the Vultures",
+    "by": "Sumerian, Lagash",
+    "date": "c. 2450 BC",
+    "story": "One of the oldest war memorials known. It tells how Eannatum, king of Lagash, beat the neighbouring city of Umma around 2450 BC over a strip of farmland. Only pieces survive.",
+    "look": "the vultures flying off with the heads of the defeated",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Stele_of_the_Vultures",
+    "tier": 270,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Stele_of_the_Vultures_in_the_Louvre_Museum_%28enhanced_composite%29.jpg/960px-Stele_of_the_Vultures_in_the_Louvre_Museum_%28enhanced_composite%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 615,
+     "page": "https://commons.wikimedia.org/wiki/File:Stele_of_the_Vultures_in_the_Louvre_Museum_(enhanced_composite).jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "Background: Kikuyu3\nElements: Eric Gaba (User:Sting)\n\nComposite: पाटलिपुत्र (talk) 10:52, 30 April 2020 (UTC), via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 0,
+    "gal": "345",
+    "t": "Venus de Milo",
+    "by": "Greek",
+    "date": "c. 150 to 125 BC",
+    "story": "A farmer found her on the Greek island of Milos in 1820, and the French ambassador bought her for the king. Her arms were never found. She is probably Aphrodite, though some think she is the sea goddess Amphitrite.",
+    "look": "the twist of the body, and the line where the two blocks of marble meet",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Venus_de_Milo",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Venus_de_Milo_Louvre_Ma399_n4.jpg/960px-Venus_de_Milo_Louvre_Ma399_n4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1510,
+     "page": "https://commons.wikimedia.org/wiki/File:Venus_de_Milo_Louvre_Ma399_n4.jpg",
+     "lic": "Public domain",
+     "cr": "Unknown artistUnknown artist, via Wikimedia Commons"
+    },
+    "tier": 60
+   },
+   {
+    "floor": 0,
+    "t": "Sleeping Hermaphroditus",
+    "by": "Roman copy of a Greek work",
+    "date": "2nd century AD",
+    "story": "Found in Rome in the early 1600s and restored for Cardinal Scipione Borghese; the young Bernini carved the soft marble mattress. Walk all the way round: the figure joins male and female, like Hermaphroditus in the poet Ovid's story.",
+    "look": "the mattress, which looks soft enough to press",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Sleeping_Hermaphroditus",
+    "tier": 270,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Sleeping_Hermaphroditus%2C_Louvre_Museum%2C_Paris_14_July_2013.jpg/960px-Sleeping_Hermaphroditus%2C_Louvre_Museum%2C_Paris_14_July_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 360,
+     "page": "https://commons.wikimedia.org/wiki/File:Sleeping_Hermaphroditus,_Louvre_Museum,_Paris_14_July_2013.jpg",
+     "lic": "CC BY-SA 3.0",
+     "cr": "Gian Lorenzo Bernini, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 0,
+    "t": "Borghese Gladiator",
+    "by": "Agasias of Ephesus",
+    "date": "c. 100 BC",
+    "story": "A fighter lunging, shield arm up, looking at an enemy we cannot see. Found near Rome around 1611, it belonged to the Borghese family until Napoleon's brother-in-law sold their collection to him in 1807. The sculptor signed it on the tree trunk.",
+    "look": "the signature on the tree trunk",
+    "people": [
+     "napoleon"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Borghese_Gladiator",
+    "tier": 180,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Borghese_Gladiator%2C_Louvre_Museum%2C_Paris_2_October_2014.jpg/960px-Borghese_Gladiator%2C_Louvre_Museum%2C_Paris_2_October_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1240,
+     "page": "https://commons.wikimedia.org/wiki/File:Borghese_Gladiator,_Louvre_Museum,_Paris_2_October_2014.jpg",
+     "lic": "CC BY 2.0",
+     "cr": "Agasias of Ephesus, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 0,
+    "gal": "403",
+    "t": "Dying Slave",
+    "by": "Michelangelo",
+    "date": "1513 to 1516",
+    "story": "Carved for the tomb of Pope Julius II, which shrank again and again over 40 years. Michelangelo gave this figure and its pair, the Rebellious Slave, to a friend. Nobody agrees whether he is dying, sleeping or waking.",
+    "look": "the unfinished monkey behind his leg",
+    "people": [
+     "michelangelo"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Dying_Slave",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Dying_slave_Louvre_MR_1590%2C_Louvre.jpg/960px-Dying_slave_Louvre_MR_1590%2C_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1246,
+     "page": "https://commons.wikimedia.org/wiki/File:Dying_slave_Louvre_MR_1590,_Louvre.jpg",
+     "lic": "CC0",
+     "cr": "Michelangelo Buenarroti (1475-1564), via Wikimedia Commons"
+    },
+    "tier": 60
+   },
+   {
+    "floor": 0,
+    "t": "Psyche Revived by Cupid's Kiss",
+    "by": "Antonio Canova",
+    "date": "1787 to 1793",
+    "story": "Cupid has come to wake Psyche from a deathly sleep. A British collector ordered it from Canova in Rome. The two bodies make an X in the air, and the marble is so thin in places that light passes through the wings.",
+    "look": "the space between their faces, just before the kiss",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Psyche_Revived_by_Cupid's_Kiss",
+    "tier": 120,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Psych%C3%A9_ranim%C3%A9e_par_le_baiser_de_l%27Amour%2C_Louvre.jpg/960px-Psych%C3%A9_ranim%C3%A9e_par_le_baiser_de_l%27Amour%2C_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 668,
+     "page": "https://commons.wikimedia.org/wiki/File:Psych%C3%A9_ranim%C3%A9e_par_le_baiser_de_l%27Amour,_Louvre.jpg",
+     "lic": "CC0",
+     "cr": "Antonio Canova, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "703",
+    "t": "Winged Victory of Samothrace",
+    "by": "Greek",
+    "date": "c. 190 BC",
+    "story": "Nike, goddess of victory, lands on the prow of a warship, her dress blown against her by the sea wind. She was found in pieces on the island of Samothrace in 1863. Her head and arms are lost; a hand found later is in a case nearby.",
+    "look": "the wind in the dress",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Winged_Victory_of_Samothrace",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Nike_of_Samothrake_Louvre_Ma2369_n4.jpg/960px-Nike_of_Samothrake_Louvre_Ma2369_n4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1364,
+     "page": "https://commons.wikimedia.org/wiki/File:Nike_of_Samothrake_Louvre_Ma2369_n4.jpg",
+     "lic": "Public domain",
+     "cr": "Unknown, via Wikimedia Commons"
+    },
+    "tier": 60
+   },
+   {
+    "floor": 1,
+    "gal": "708",
+    "t": "Maestà",
+    "by": "Cimabue",
+    "date": "c. 1280",
+    "story": "The Virgin and Child on a great throne, surrounded by six angels, painted for the church of San Francesco in Pisa around 1280. Cimabue began to give holy figures real weight, which his pupil Giotto would take further. Napoleon's agents brought it to Paris in 1813.",
+    "look": "the six angels, and the small round faces in the frame",
+    "people": [
+     "napoleon"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Maestà_(Cimabue)",
+    "tier": 180
+   },
+   {
+    "floor": 1,
+    "gal": "710",
+    "t": "Virgin of the Rocks",
+    "by": "Leonardo da Vinci",
+    "date": "c. 1483 to 1486",
+    "story": "Leonardo was asked in 1483 to paint the Virgin for a chapel in Milan. This is the first version; a later one is in London's National Gallery. Leonardo studied the plants and rocks so closely that botanists can name them.",
+    "look": "the angel's pointing hand, and the real plants in the cave",
+    "people": [
+     "leonardo"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Virgin_of_the_Rocks",
+    "tier": 120
+   },
+   {
+    "floor": 1,
+    "gal": "710",
+    "t": "Portrait of Baldassare Castiglione",
+    "by": "Raphael",
+    "date": "c. 1514 to 1515",
+    "story": "Castiglione wrote The Book of the Courtier, a guide to the perfect gentleman. Raphael, his friend, painted him in soft greys and black. More than a century later Rembrandt saw it at an auction in Amsterdam and sketched it.",
+    "look": "the blue eyes, and how few colours there are",
+    "people": [
+     "raphael",
+     "rembrandt"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Portrait_of_Baldassare_Castiglione",
+    "tier": 180,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Baldassare_Castiglione%2C_by_Raffaello_Sanzio%2C_from_C2RMF_retouched.jpg/960px-Baldassare_Castiglione%2C_by_Raffaello_Sanzio%2C_from_C2RMF_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1120,
+     "page": "https://commons.wikimedia.org/wiki/File:Baldassare_Castiglione,_by_Raffaello_Sanzio,_from_C2RMF_retouched.jpg",
+     "lic": "Public domain",
+     "cr": "Raphael, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "711",
+    "t": "Mona Lisa",
+    "by": "Leonardo da Vinci",
+    "date": "c. 1503 to 1519",
+    "story": "Leonardo began the portrait of Lisa Gherardini, a Florentine silk merchant's wife, in 1503, and was still working on it when he died in France. It is smaller than people expect, 77 by 53 centimetres. Turn around afterwards: the largest painting in the Louvre is behind you.",
+    "look": "the two different landscapes on either side of her",
+    "people": [
+     "leonardo"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Mona_Lisa",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/960px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1341,
+     "page": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg",
+     "lic": "Public domain",
+     "cr": "Leonardo da Vinci, via Wikimedia Commons"
+    },
+    "tier": 60
+   },
+   {
+    "floor": 1,
+    "gal": "711",
+    "t": "The Wedding at Cana",
+    "by": "Paolo Veronese",
+    "date": "1562 to 1563",
+    "story": "Veronese filled ten metres of canvas with about 130 guests. Tradition says the musicians in front are Veronese himself, Titian and other Venetian painters. Napoleon's soldiers cut it from a Venetian monastery in 1797. It was never sent back.",
+    "look": "the musicians in the middle",
+    "people": [
+     "napoleon"
+    ],
+    "u": "https://en.wikipedia.org/wiki/The_Wedding_at_Cana",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/The_Wedding_at_Cana_by_Paolo_Veronese%2C_Muse%C3%A9_du_Louvre%2C_left_side%2C_taken_on_July_26%2C_2026.jpg/960px-The_Wedding_at_Cana_by_Paolo_Veronese%2C_Muse%C3%A9_du_Louvre%2C_left_side%2C_taken_on_July_26%2C_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 675,
+     "page": "https://commons.wikimedia.org/wiki/File:The_Wedding_at_Cana_by_Paolo_Veronese,_Muse%C3%A9_du_Louvre,_left_side,_taken_on_July_26,_2026.jpg",
+     "lic": "CC0",
+     "cr": "Abzeronow, via Wikimedia Commons"
+    },
+    "tier": 60
+   },
+   {
+    "floor": 1,
+    "t": "Man with a Glove",
+    "by": "Titian",
+    "date": "c. 1520 to 1523",
+    "story": "A young Venetian in black, one bare hand, one gloved. Nobody knows who he was. Louis XIV owned the painting; Titian, the great colourist of Venice, made a whole portrait out of black and one white collar.",
+    "look": "the gloved hand, painted in a few strokes",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Man_with_a_Glove",
+    "tier": 180,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Titian_-_Man_with_a_Glove_-_WGA22939.jpg/960px-Titian_-_Man_with_a_Glove_-_WGA22939.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1010,
+     "page": "https://commons.wikimedia.org/wiki/File:Titian_-_Man_with_a_Glove_-_WGA22939.jpg",
+     "lic": "Public domain",
+     "cr": "Titian, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "702",
+    "t": "Oath of the Horatii",
+    "by": "Jacques-Louis David",
+    "date": "1784",
+    "story": "Painted in Rome for King Louis XVI: three Roman brothers swear to fight for their city, while the women, who will lose either way, collapse. Five years later the Revolution began, and people saw it as a call to sacrifice for the nation.",
+    "look": "the three arms raised to the swords",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Oath_of_the_Horatii",
+    "tier": 120,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Jacques-Louis_David_-_Oath_of_the_Horatii_-_Google_Art_Project.jpg/960px-Jacques-Louis_David_-_Oath_of_the_Horatii_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 702,
+     "page": "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_Oath_of_the_Horatii_-_Google_Art_Project.jpg",
+     "lic": "Public domain",
+     "cr": "Anne-Louis Girodet / After Jacques-Louis David, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 1,
+    "gal": "702",
+    "t": "The Coronation of Napoleon",
+    "by": "Jacques-Louis David",
+    "date": "1805 to 1807",
+    "story": "David shows Napoleon crowning Josephine in Notre-Dame in 1804. He changed things to please him: Napoleon's mother, who stayed away, sits in a place of honour.",
+    "look": "Madame Mère in the box, who was not there",
+    "people": [
+     "napoleon"
+    ],
+    "u": "https://en.wikipedia.org/wiki/The_Coronation_of_Napoleon",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg/960px-Jacques-Louis_David_-_The_Coronation_of_Napoleon_%281805-1807%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 566,
+     "page": "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_The_Coronation_of_Napoleon_(1805-1807).jpg",
+     "lic": "Public domain",
+     "cr": "Jacques-Louis David / Georges Rouget, via Wikimedia Commons"
+    },
+    "tier": 60
+   },
+   {
+    "floor": 1,
+    "gal": "702",
+    "t": "Grande Odalisque",
+    "by": "Jean-Auguste-Dominique Ingres",
+    "date": "1814",
+    "story": "Critics laughed when it was shown in 1819: her back has two or three extra vertebrae. Ingres made her longer on purpose, for the line.",
+    "look": "how long the back is",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Grande_Odalisque",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/T%C3%AAte_de_la_grande_odalisque_couch%C3%A9e_par_Jean-Auguste-Dominique_Ingres.jpg/960px-T%C3%AAte_de_la_grande_odalisque_couch%C3%A9e_par_Jean-Auguste-Dominique_Ingres.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1002,
+     "page": "https://commons.wikimedia.org/wiki/File:T%C3%AAte_de_la_grande_odalisque_couch%C3%A9e_par_Jean-Auguste-Dominique_Ingres.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "JackyM59, via Wikimedia Commons"
+    },
+    "tier": 60
+   },
+   {
+    "floor": 1,
+    "gal": "702",
+    "t": "Madame Récamier",
+    "by": "Jacques-Louis David",
+    "date": "1800",
+    "story": "Juliette Récamier ran the most famous salon in Napoleon's Paris. David began her portrait in 1800 but they fell out, and he left it unfinished. A sofa of this kind is still called a récamier.",
+    "look": "the bare, unfinished room around her",
+    "people": [
+     "napoleon"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Portrait_of_Madame_Récamier",
+    "tier": 180
+   },
+   {
+    "floor": 1,
+    "gal": "700",
+    "t": "Liberty Leading the People",
+    "by": "Eugène Delacroix",
+    "date": "1830",
+    "story": "Delacroix painted the July Revolution of 1830, three days of fighting in Paris, the same year. The boy with two pistols may have helped inspire Victor Hugo's Gavroche in Les Misérables, though nobody can be sure.",
+    "look": "the towers of Notre-Dame in the smoke",
+    "people": [
+     "victor-hugo"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Liberty_Leading_the_People",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg/960px-Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 712,
+     "page": "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg",
+     "lic": "Public domain",
+     "cr": "Eugène Delacroix, via Wikimedia Commons"
+    },
+    "tier": 60
+   },
+   {
+    "floor": 1,
+    "gal": "700",
+    "t": "The Raft of the Medusa",
+    "by": "Théodore Géricault",
+    "date": "1818 to 1819",
+    "story": "In 1816 a French navy ship ran aground off Africa, and 147 people were set adrift on a raft; 15 survived. Géricault interviewed survivors, studied corpses in a hospital and built a model of the raft to paint it.",
+    "look": "the tiny ship on the horizon",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/The_Raft_of_the_Medusa",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg/960px-JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 614,
+     "page": "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg",
+     "lic": "Public domain",
+     "cr": "Théodore Géricault, via Wikimedia Commons"
+    },
+    "tier": 60
+   },
+   {
+    "floor": 1,
+    "gal": "700",
+    "t": "The Death of Sardanapalus",
+    "by": "Eugène Delacroix",
+    "date": "1827",
+    "story": "An ancient king, defeated, lies on his bed and watches his servants and horses killed before his palace burns. Delacroix took the idea from a play by Lord Byron but invented the violent scene himself. Critics in 1827 were shocked.",
+    "look": "the king, calm on the red bed, amid the chaos",
+    "people": [
+     "byron"
+    ],
+    "u": "https://en.wikipedia.org/wiki/The_Death_of_Sardanapalus",
+    "tier": 270,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Death_of_Sardanapalus_by_Eug%C3%A8ne_Delacroix.jpg/960px-Death_of_Sardanapalus_by_Eug%C3%A8ne_Delacroix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 707,
+     "page": "https://commons.wikimedia.org/wiki/File:Death_of_Sardanapalus_by_Eug%C3%A8ne_Delacroix.jpg",
+     "lic": "Public domain",
+     "cr": "Eugène Delacroix, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 1,
+    "t": "Nymph of Fontainebleau",
+    "by": "Benvenuto Cellini",
+    "date": "1542 to 1543",
+    "story": "The Florentine goldsmith Cellini cast this bronze nymph for King Francis I's palace at Fontainebleau. It was never put up there; the king's mistress later had it set over the gate of her château at Anet.",
+    "look": "the stag's head that pushes out of the bronze",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Nymph_of_Fontainebleau",
+    "tier": 270
+   },
+   {
+    "floor": 1,
+    "gal": "635",
+    "t": "The Seated Scribe",
+    "by": "Egyptian",
+    "date": "c. 2600 to 2350 BC",
+    "story": "A painted limestone scribe with eyes of rock crystal set in copper, so lifelike they seem to follow you. He was found at Saqqara in 1850. Nobody knows his name.",
+    "look": "the eyes, from the side",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Seated_Scribe",
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/The_seated_scribe-E_3023-IMG_4267-gradient-contrast.jpg/960px-The_seated_scribe-E_3023-IMG_4267-gradient-contrast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 900,
+     "page": "https://commons.wikimedia.org/wiki/File:The_seated_scribe-E_3023-IMG_4267-gradient-contrast.jpg",
+     "lic": "CC BY-SA 3.0 fr",
+     "cr": "Rama, via Wikimedia Commons"
+    },
+    "tier": 60
+   },
+   {
+    "floor": 1,
+    "t": "Napoleon III Apartments",
+    "by": "Hector Lefuel and others",
+    "date": "1857 to 1861",
+    "story": "When Emperor Napoleon III finished the Louvre in the 1850s, his minister of state got these reception rooms. They are all gold, red velvet and crystal chandeliers, the taste of the Second Empire, and the ministry of finance kept them until 1989.",
+    "look": "the giant chandelier in the great salon",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Louvre_Palace",
+    "tier": 120,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Painted_ceiling_of_appartements_de_Napol%C3%A9on_III_in_the_Palais_du_Louvre.jpg/960px-Painted_ceiling_of_appartements_de_Napol%C3%A9on_III_in_the_Palais_du_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1230,
+     "page": "https://commons.wikimedia.org/wiki/File:Painted_ceiling_of_appartements_de_Napol%C3%A9on_III_in_the_Palais_du_Louvre.jpg",
+     "lic": "CC BY-SA 4.0",
+     "cr": "Livioandronico2013, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 2,
+    "gal": "801",
+    "t": "The Marie de' Medici cycle",
+    "by": "Peter Paul Rubens",
+    "date": "1622 to 1625",
+    "story": "Queen Marie de' Medici, widow of Henri IV and mother of Louis XIII, asked Rubens to paint her life for her Luxembourg Palace. He made 24 huge canvases full of gods, sea nymphs and cherubs. Her real life was full of quarrels with her son, and Rubens had to make it look heroic.",
+    "look": "the sea nymphs welcoming her ship to France",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Marie_de'_Medici_cycle",
+    "tier": 120,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Le_D%C3%A9barquement_de_la_reine_%C3%A0_Marseille%2C_le_3_novembre_1600_-_Pierre_Paul_Rubens_-_Mus%C3%A9e_du_Louvre_Peintures_INV_1774_%3B_MR_965.jpg/960px-Le_D%C3%A9barquement_de_la_reine_%C3%A0_Marseille%2C_le_3_novembre_1600_-_Pierre_Paul_Rubens_-_Mus%C3%A9e_du_Louvre_Peintures_INV_1774_%3B_MR_965.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1133,
+     "page": "https://commons.wikimedia.org/wiki/File:Le_D%C3%A9barquement_de_la_reine_%C3%A0_Marseille,_le_3_novembre_1600_-_Pierre_Paul_Rubens_-_Mus%C3%A9e_du_Louvre_Peintures_INV_1774_;_MR_965.jpg",
+     "lic": "Public domain",
+     "cr": "Peter Paul Rubens, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 2,
+    "t": "The Madonna of Chancellor Rolin",
+    "by": "Jan van Eyck",
+    "date": "c. 1435",
+    "story": "Nicolas Rolin, chancellor of the Duke of Burgundy, kneels before the Virgin, as if he had every right to be there. Behind them, through the arches, a whole city and river are painted in tiny, sharp detail.",
+    "look": "the two little figures looking over the wall at the river",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Madonna_of_Chancellor_Rolin",
+    "tier": 120,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/La_Vierge_du_chancelier_Rolin_-_Jan_van_Eyck_-_Mus%C3%A9e_du_Louvre_Peintures_INV_1271_%3B_MR_705.jpg/960px-La_Vierge_du_chancelier_Rolin_-_Jan_van_Eyck_-_Mus%C3%A9e_du_Louvre_Peintures_INV_1271_%3B_MR_705.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 908,
+     "page": "https://commons.wikimedia.org/wiki/File:La_Vierge_du_chancelier_Rolin_-_Jan_van_Eyck_-_Mus%C3%A9e_du_Louvre_Peintures_INV_1271_;_MR_705.jpg",
+     "lic": "Public domain",
+     "cr": "Jan van Eyck, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 2,
+    "t": "The Lacemaker",
+    "by": "Johannes Vermeer",
+    "date": "c. 1669 to 1670",
+    "story": "One of Vermeer's smallest paintings, about 24 by 21 centimetres. A young woman bends over her lace pillow. Vermeer painted the threads in front soft and blurred, as a camera would. Vermeer paintings are often lent, so it may be travelling.",
+    "look": "the red and white threads spilling from the cushion",
+    "people": [
+     "vermeer"
+    ],
+    "u": "https://en.wikipedia.org/wiki/The_Lacemaker_(Vermeer)",
+    "tier": 120,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Johannes_Vermeer_-_The_lacemaker_%28c.1669-1671%29.jpg/960px-Johannes_Vermeer_-_The_lacemaker_%28c.1669-1671%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1032,
+     "page": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_The_lacemaker_(c.1669-1671).jpg",
+     "lic": "Public domain",
+     "cr": "Johannes Vermeer, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 2,
+    "t": "The Astronomer",
+    "by": "Johannes Vermeer",
+    "date": "1668",
+    "story": "A scholar reaches for a celestial globe, with a book of astronomy open in front of him. It is one of the few Vermeers with a man alone, and one of only three he dated. Its pair, The Geographer, is in Frankfurt.",
+    "look": "the date on the cupboard",
+    "people": [
+     "vermeer"
+    ],
+    "u": "https://en.wikipedia.org/wiki/The_Astronomer_(Vermeer)",
+    "tier": 180,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Johannes_Vermeer_-_The_Astronomer_-_1668.jpg/960px-Johannes_Vermeer_-_The_Astronomer_-_1668.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1022,
+     "page": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_The_Astronomer_-_1668.jpg",
+     "lic": "Public domain",
+     "cr": "Johannes Vermeer, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 2,
+    "t": "Bathsheba at Her Bath",
+    "by": "Rembrandt",
+    "date": "1654",
+    "story": "In the Bible King David sees Bathsheba bathing and sends for her. Rembrandt shows the moment after she has read his letter, thinking. The model was probably Hendrickje Stoffels, who lived with Rembrandt.",
+    "look": "the letter in her hand",
+    "people": [
+     "rembrandt"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Bathsheba_at_Her_Bath",
+    "tier": 270,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Amsterdam_-_Rijksmuseum_-_Late_Rembrandt_Exposition_2015_-_Bathsheba_at_Her_Bath_1654.png/960px-Amsterdam_-_Rijksmuseum_-_Late_Rembrandt_Exposition_2015_-_Bathsheba_at_Her_Bath_1654.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 907,
+     "page": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Rijksmuseum_-_Late_Rembrandt_Exposition_2015_-_Bathsheba_at_Her_Bath_1654.png",
+     "lic": "CC BY-SA 4.0",
+     "cr": "Txllxt TxllxT, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 2,
+    "t": "Erasmus Writing",
+    "by": "Hans Holbein the Younger",
+    "date": "1523",
+    "story": "Erasmus of Rotterdam, the most famous scholar in Europe, writing at his desk. Holbein painted him in Basel, and Erasmus sent portraits like this to friends. Three years later Holbein went to England with Erasmus's letter of introduction.",
+    "look": "the pen, and the concentration in the face",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Erasmus",
+    "tier": 270,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Hans_Holbein_d._J._-_Erasmus_-_Louvre.jpg/960px-Hans_Holbein_d._J._-_Erasmus_-_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1191,
+     "page": "https://commons.wikimedia.org/wiki/File:Hans_Holbein_d._J._-_Erasmus_-_Louvre.jpg",
+     "lic": "Public domain",
+     "cr": "Hans Holbein the Younger, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 2,
+    "t": "The Arcadian Shepherds",
+    "by": "Nicolas Poussin",
+    "date": "c. 1637 to 1638",
+    "story": "Shepherds in an ideal countryside find a tomb that reads 'Et in Arcadia ego', usually understood as 'even in paradise, I, death, am here'. Louis XIV bought it.",
+    "look": "the shepherd tracing the letters with his finger",
+    "people": [
+     "louis-xiv"
+    ],
+    "u": "https://en.wikipedia.org/wiki/Et_in_Arcadia_ego",
+    "tier": 270,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Nicolas_Poussin_-_Et_in_Arcadia_ego_%28deuxi%C3%A8me_version%29.jpg/960px-Nicolas_Poussin_-_Et_in_Arcadia_ego_%28deuxi%C3%A8me_version%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 642,
+     "page": "https://commons.wikimedia.org/wiki/File:Nicolas_Poussin_-_Et_in_Arcadia_ego_(deuxi%C3%A8me_version).jpg",
+     "lic": "Public domain",
+     "cr": "Nicolas Poussin, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 2,
+    "t": "The Cheat with the Ace of Diamonds",
+    "by": "Georges de La Tour",
+    "date": "c. 1636 to 1638",
+    "story": "A rich young man plays cards, while the cheat pulls an ace from his belt and the women pass him signals. A cousin of the Met's Fortune Teller, by the same painter.",
+    "look": "the ace hidden behind the cheat's back, and the sideways eyes",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Georges_de_La_Tour",
+    "tier": 270,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Georges_de_La_Tour_-_Cheater_with_the_Ace_of_Diamonds_-_WGA12334.jpg/960px-Georges_de_La_Tour_-_Cheater_with_the_Ace_of_Diamonds_-_WGA12334.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 641,
+     "page": "https://commons.wikimedia.org/wiki/File:Georges_de_La_Tour_-_Cheater_with_the_Ace_of_Diamonds_-_WGA12334.jpg",
+     "lic": "Public domain",
+     "cr": "Unknown, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 2,
+    "t": "Pierrot",
+    "by": "Antoine Watteau",
+    "date": "c. 1718 to 1719",
+    "story": "A nearly life-size clown from the Italian comedy, standing alone, arms hanging, in white satin. Painted a few years before Watteau died at 36. Nobody knows what it was made for; maybe a sign for a café run by a retired actor.",
+    "look": "the donkey peering out behind him",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/Pierrot_(Watteau)",
+    "tier": 180,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Jean-Antoine_Watteau_-_Pierrot%2C_dit_autrefois_Gilles.jpg/960px-Jean-Antoine_Watteau_-_Pierrot%2C_dit_autrefois_Gilles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1123,
+     "page": "https://commons.wikimedia.org/wiki/File:Jean-Antoine_Watteau_-_Pierrot,_dit_autrefois_Gilles.jpg",
+     "lic": "Public domain",
+     "cr": "Jean-Antoine Watteau, via Wikimedia Commons"
+    }
+   },
+   {
+    "floor": 2,
+    "t": "The Valpinçon Bather",
+    "by": "Jean-Auguste-Dominique Ingres",
+    "date": "1808",
+    "story": "Painted in Rome when Ingres was 28: a woman seen from behind, all smooth light. He came back to this figure for fifty years, ending with The Turkish Bath.",
+    "look": "the folds of the sheet, and the turban",
+    "people": [],
+    "u": "https://en.wikipedia.org/wiki/The_Valpinçon_Bather",
+    "tier": 270,
+    "pic": {
+     "u": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Jean-Auguste-Dominique_Ingres_-_La_Baigneuse_Valpin%C3%A7on.jpg/960px-Jean-Auguste-Dominique_Ingres_-_La_Baigneuse_Valpin%C3%A7on.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "w": 900,
+     "h": 1343,
+     "page": "https://commons.wikimedia.org/wiki/File:Jean-Auguste-Dominique_Ingres_-_La_Baigneuse_Valpin%C3%A7on.jpg",
+     "lic": "Public domain",
+     "cr": "Jean-Auguste-Dominique Ingres, via Wikimedia Commons"
+    }
+   }
+  ],
+  "routes": [
+   {
+    "mins": 60,
+    "n": "The Louvre in one hour",
+    "intro": "Twelve works in walking order, starting with Mesopotamia and Greece on level 0, then up the Daru staircase to the Winged Victory and the great paintings. The Mona Lisa room gets crowded; go early or late."
+   },
+   {
+    "mins": 120,
+    "n": "The Louvre in two hours",
+    "intro": "22 works. Start below ground in the moat of the medieval castle and the Egyptian crypt, then the sculpture courts and Mesopotamia, before the Winged Victory, Leonardo, the great French paintings and, at the end, Rubens and Vermeer on the top floor."
+   },
+   {
+    "mins": 180,
+    "n": "The Louvre in three hours",
+    "intro": "32 works: the two-hour walk, plus Islamic art, Persian archers, Cimabue, Raphael, Titian and Watteau. Go early: the Mona Lisa room is calmest at opening time."
+   },
+   {
+    "mins": 270,
+    "n": "The Louvre in a half day",
+    "intro": "43 works, about four and a half hours with a lunch break, from the medieval moat to Rembrandt and Poussin on the top floor. The Louvre is the largest museum in the world; even this is a small part of it."
+   }
+  ]
+ },
+ "checked": "15 November 2026"
+}

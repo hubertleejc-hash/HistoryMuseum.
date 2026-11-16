@@ -1,0 +1,48 @@
+{
+ "id": "art-institute-chicago",
+ "n": "Art Institute of Chicago",
+ "kind": "museum",
+ "where": "Chicago",
+ "lat": 41.8796,
+ "lon": -87.6237,
+ "r": 200,
+ "rank": 18,
+ "blurb": "One of the great encyclopaedic art museums of America, behind two bronze lions on Michigan Avenue.",
+ "facts": [
+  {
+   "h": "Van Gogh's bedroom",
+   "when": "1889",
+   "lab": "verified",
+   "people": [
+    "van-gogh"
+   ],
+   "t": "Van Gogh painted his bedroom in the Yellow House three times. The Art Institute has the second version, painted in September 1889 at Saint-Rémy from the first.",
+   "src": [
+    {
+     "n": "Wikipedia: Bedroom in Arles",
+     "u": "https://en.wikipedia.org/wiki/Bedroom_in_Arles"
+    },
+    {
+     "n": "Art Institute of Chicago",
+     "u": "https://www.artic.edu/"
+    }
+   ]
+  },
+  {
+   "h": "A Sunday afternoon made of dots",
+   "when": "1884 to 1886",
+   "lab": "verified",
+   "t": "Georges Seurat spent two years on A Sunday on La Grande Jatte, finished in 1886, building it from tiny dots of pure colour. It has never been lent since 1958.",
+   "src": [
+    {
+     "n": "Wikipedia: A Sunday Afternoon on the Island of La Grande Jatte",
+     "u": "https://en.wikipedia.org/wiki/A_Sunday_Afternoon_on_the_Island_of_La_Grande_Jatte"
+    },
+    {
+     "n": "Wikipedia: Art Institute of Chicago",
+     "u": "https://en.wikipedia.org/wiki/Art_Institute_of_Chicago"
+    }
+   ]
+  }
+ ]
+}

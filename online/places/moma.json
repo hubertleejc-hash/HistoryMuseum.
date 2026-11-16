@@ -1,0 +1,57 @@
+{
+ "id": "moma",
+ "n": "The Museum of Modern Art",
+ "short": "MoMA",
+ "kind": "museum",
+ "where": "New York",
+ "lat": 40.7614,
+ "lon": -73.9776,
+ "r": 150,
+ "rank": 16,
+ "blurb": "The museum that decided what modern art was, founded in 1929 by three collectors.",
+ "facts": [
+  {
+   "h": "The Starry Night lives here",
+   "when": "1889 and 1941",
+   "lab": "verified",
+   "people": [
+    "van-gogh"
+   ],
+   "go": [
+    "#place-arles",
+    "Arles and Saint-Rémy"
+   ],
+   "t": "MoMA bought Van Gogh's The Starry Night in 1941. He painted it in June 1889 from his window at the asylum in Saint-Rémy, partly from memory.",
+   "src": [
+    {
+     "n": "MoMA: The Starry Night",
+     "u": "https://www.moma.org/collection/works/79802"
+    },
+    {
+     "n": "Wikipedia: The Starry Night",
+     "u": "https://en.wikipedia.org/wiki/The_Starry_Night"
+    }
+   ]
+  },
+  {
+   "h": "Picasso's shock of 1907",
+   "when": "1907",
+   "lab": "verified",
+   "people": [
+    "picasso",
+    "kahlo"
+   ],
+   "t": "Les Demoiselles d'Avignon, which Picasso kept rolled up in his studio for years because even his friends were shocked, was bought by MoMA in 1939. Frida Kahlo's Self-Portrait with Cropped Hair is in the collection too.",
+   "src": [
+    {
+     "n": "Wikipedia: Les Demoiselles d'Avignon",
+     "u": "https://en.wikipedia.org/wiki/Les_Demoiselles_d'Avignon"
+    },
+    {
+     "n": "Wikipedia: Museum of Modern Art",
+     "u": "https://en.wikipedia.org/wiki/Museum_of_Modern_Art"
+    }
+   ]
+  }
+ ]
+}

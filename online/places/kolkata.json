@@ -1,0 +1,31 @@
+{
+ "id": "kolkata",
+ "n": "Kolkata",
+ "kind": "city",
+ "where": "India",
+ "lat": 22.5726,
+ "lon": 88.3639,
+ "r": 12000,
+ "blurb": "Capital of British India until 1911, and the city of the Bengal Renaissance.",
+ "facts": [
+  {
+   "h": "Tagore's family house",
+   "when": "1861 to 1941",
+   "lab": "verified",
+   "people": [
+    "tagore"
+   ],
+   "t": "Rabindranath Tagore was born at Jorasanko Thakur Bari in 1861 and died there in 1941. In 1913 he became the first non-European to win the Nobel Prize in Literature.",
+   "src": [
+    {
+     "n": "Wikipedia: Jorasanko Thakur Bari",
+     "u": "https://en.wikipedia.org/wiki/Jorasanko_Thakur_Bari"
+    },
+    {
+     "n": "Wikipedia: Rabindranath Tagore",
+     "u": "https://en.wikipedia.org/wiki/Rabindranath_Tagore"
+    }
+   ]
+  }
+ ]
+}

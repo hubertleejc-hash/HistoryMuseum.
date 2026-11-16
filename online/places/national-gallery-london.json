@@ -1,0 +1,53 @@
+{
+ "id": "national-gallery-london",
+ "n": "The National Gallery",
+ "kind": "museum",
+ "where": "London",
+ "lat": 51.5089,
+ "lon": -0.1283,
+ "r": 200,
+ "rank": 8,
+ "blurb": "Western European paintings from the 1200s to 1900, free to see on Trafalgar Square.",
+ "facts": [
+  {
+   "h": "Thirty-eight paintings to start",
+   "when": "1824",
+   "lab": "verified",
+   "t": "Parliament bought 38 paintings from the banker John Julius Angerstein in 1824 and showed them in his house on Pall Mall. The building on Trafalgar Square opened in 1838.",
+   "src": [
+    {
+     "n": "Wikipedia: National Gallery",
+     "u": "https://en.wikipedia.org/wiki/National_Gallery"
+    },
+    {
+     "n": "The National Gallery",
+     "u": "https://www.nationalgallery.org.uk/"
+    }
+   ]
+  },
+  {
+   "h": "Van Gogh's Sunflowers",
+   "when": "1888",
+   "lab": "verified",
+   "people": [
+    "van-gogh",
+    "gauguin"
+   ],
+   "go": [
+    "#place-arles",
+    "Arles"
+   ],
+   "t": "Van Gogh painted sunflowers in Arles in August 1888 to decorate the room for Gauguin. The National Gallery's version is one of the four he made that month.",
+   "src": [
+    {
+     "n": "Wikipedia: Sunflowers (Van Gogh series)",
+     "u": "https://en.wikipedia.org/wiki/Sunflowers_(Van_Gogh_series)"
+    },
+    {
+     "n": "Wikipedia: National Gallery",
+     "u": "https://en.wikipedia.org/wiki/National_Gallery"
+    }
+   ]
+  }
+ ]
+}
