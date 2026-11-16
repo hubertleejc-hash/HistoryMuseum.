@@ -32,7 +32,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 ART = ROOT / "app" / "art"
-UA = "Contemporaries-museum-app/1.0 (open-access art gatherer; GitHub Actions)"
+UA = "ContemporariesMuseum/1.0 (https://github.com/hubertleejc-hash/HistoryMuseum.; open-access art gatherer) python-urllib"
 OVERRIDES = json.loads((Path(__file__).parent / "overrides.json").read_text())
 DENY = set(OVERRIDES.get("deny", []))
 ALLOW = set(OVERRIDES.get("allow", []))
@@ -61,10 +61,23 @@ def islamic_risky(rec):
     if rec["id"] in ALLOW or rec["r"] == "islamic" or rec["k"] not in ("painting", "drawing", "print", "book"): return False
     return bool(ISLAMIC_HINT.search(rec.get("c", "") + " " + rec.get("dept", ""))) and bool(RISKY_SUBJECT.search(rec["t"] + " " + rec.get("x", "") + " " + rec.get("fy", "")))
 
+# Wikimedia Commons records carry no museum department or culture, so the Islamic-world screen reads their
+# own words instead: any picture (painting, drawing, print, book page) that names an Islamic-world court,
+# place, book or story is held back unless hand-approved. Strict on purpose (the Prophet rule).
+PERSIANATE = re.compile(r"islam|persia|iran|ottoman|turk|arab|mughal|safavid|timurid|ilkhanid|mamluk|qur|koran|deccan|afghan|uzbek|"
+                        r"bukhara|samarkand|central asia|\bshah\b|shahnam|ferdow|firdaus|khamsa|nizami|\bjami\b|hafiz|sa'?di\b|jahangir|akbar|"
+                        r"shah jahan|aurangzeb|babur|humayun|timur|herat|tabriz|isfahan|qajar|sultan|caliph|mosque|dervish|sufi|nawab|"
+                        r"haft paykar|layla|majnun|iskandar|rustam|bahram|buzurjmihr|anvar|kalila|ragamala|ragini", re.I)
+COMMONS_SRC = ("bm", "louvre", "metc")
+def commons_islamic(rec):
+    if rec.get("src") not in COMMONS_SRC or rec["id"] in ALLOW or rec["k"] not in ("painting", "drawing", "print", "book", "object"): return False
+    return bool(PERSIANATE.search(" ".join([rec["t"], rec.get("a", ""), rec.get("x", ""), rec.get("d", "")])))
+
 def still_ok(rec):
     """Re-screen a stored record with today's rules (rules get stricter over time)."""
     isl = bool(ISLAMIC_HINT.search(rec.get("c", "") + " " + rec.get("dept", "")))
-    return not (sensitive([rec["t"], rec.get("x"), rec.get("fy"), rec.get("c")], isl) or figural_islamic(rec) or islamic_risky(rec))
+    if rec.get("src") in COMMONS_SRC and re.match(r"(MET|DP|BM)\b[\s\d_-]*\w*$", rec["t"]): return False  # a file number, not a title
+    return not (sensitive([rec["t"], rec.get("x"), rec.get("fy"), rec.get("c")], isl) or figural_islamic(rec) or islamic_risky(rec) or commons_islamic(rec))
 
 def figural_islamic(rec):
     """Figural paintings, drawings and book pages from the Islamic world are only shown when hand-approved."""
@@ -352,7 +365,8 @@ def from_commons(arg):
            "u": ii.get("descriptionurl", ""), "w": ii.get("width", 0), "h": ii.get("height", 0),
            "img": wm_thumb(ii["url"], 960), "th": wm_thumb(ii["url"], 330), "hi": 0, "on": "", "dept": museum}
     if re.search(r"egypt|greek|roman|etrus|assyr|mesopotam", cat, re.I): rec["r"] = "ancient"
-    if figural_islamic(rec) or islamic_risky(rec): return None, "Islamic-world figural work, needs hand approval"
+    if PERSIANATE.search(blob) and rec["r"] != "south-asia": rec["r"] = "islamic"
+    if figural_islamic(rec) or islamic_risky(rec) or not still_ok(rec): return None, "Islamic-world figural work, needs hand approval"
     return rec, None
 
 # ---------- pictures ----------
