@@ -20,6 +20,24 @@ images = {m["slug"]: {"src": IMG_BASE + m["slug"] + ".jpg", "title": m["title"].
           for m in manifest if (d/"img"/(m["slug"] + ".jpg")).exists()}
 # Portraits of the museum's people (tools/art/portraits.py), shipped as files in art/p/
 portraits = json.loads((d/"art"/"portraits.json").read_text()) if (d/"art"/"portraits.json").exists() else {}
+# Wikimedia's date and author fields carry machine text ("1748 date QS:P571,+1748-00-00T00:00:00Z/9", a doubled
+# "Unknown artist Unknown artist", footnote marks). The credit line shows only the readable part, or a fix from these maps.
+import re as _re
+PT_BY = {"bohr": "AB Lagrelius & Westphal", "cleopatra": "Unknown sculptor", "renoir": "Unknown photographer",
+         "qin-shi-huang": "Unknown artist", "poe": "Unknown photographer", "engels": "William Hall"}
+PT_DATE = {"cleopatra": "40 to 30 BC", "kepler": "1910", "earhart": "c. 1928", "engels": "May 1877", "poe": "June 1849"}
+def clean_date(t):
+    t = _re.split(r"\s*(?:date QS:|\.mw-parser-output)", t)[0]
+    t = _re.sub(r"(\d) (st|nd|rd|th)\b", r"\1\2", t)
+    return _re.sub(r"\s+", " ", t).strip(" ,;")
+def clean_by(t):
+    t = _re.sub(r"\s*,?\s*\[\d+\]", "", t)
+    t = _re.sub(r"\b(Unknown|Anonymous)( \w+)? Unknown( \w+)?", lambda m: "Unknown" + (m.group(3) or m.group(2) or " artist"), t)
+    t = _re.sub(r"\s+([,;])", r"\1", t)
+    t = _re.sub(r"\s+", " ", t).strip(" ,;")
+    return {"Unknown": "Unknown artist", "anonymous": "Unknown artist", "Unknown author": "Unknown artist"}.get(t, t)
+for pid, m in portraits.items():
+    m["artist"] = PT_BY.get(pid, clean_by(m["artist"])); m["date"] = PT_DATE.get(pid, clean_date(m["date"]))
 for pid, m in portraits.items():
     if (d/"art"/"p"/(pid + ".jpg")).exists():
         images["pt-" + pid] = {"src": "art/p/" + pid + ".jpg", "title": m["title"], "by": m["artist"], "date": m["date"], "coll": "Wikimedia Commons",

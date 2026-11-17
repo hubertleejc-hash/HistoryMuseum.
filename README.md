@@ -1,9 +1,10 @@
 # Contemporaries: a pocket history museum
 
 Who shared the world? A history app for iPhone and iPad (including the folding iPhone Duo).
-Long chapters with real public-domain paintings, a timeline of 169 people, Time Machine, Walk in,
-games, and myths labelled as myths. Everything works offline. Talk, the AI guide and
-"Tell me more" are written by Claude, so they open the online museum instead.
+Long chapters with real public-domain paintings, a timeline of 175 people, a Gallery of public-domain art,
+Time Machine, Walk in, Today in history, Near me museum guides, games, and myths labelled as myths.
+The core museum works offline, and every feature, Talk included, stays inside the app. New stories, art
+and places arrive online from `online/` on main, with no reinstall.
 
 ## Install on your iPhone or iPad (no Xcode needed)
 

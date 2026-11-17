@@ -1387,7 +1387,7 @@ function viewTimeline(){
     <span class="eyebrow">A history book on one timeline</span>
     <h1>Were they alive at the same time?</h1>
     <p class="lede">We learn history in separate chapters, so people feel centuries apart. Pick any two and see how close they really were, and whether they ever met.</p>
-    <p class="walk-cta"><a class="btn" href="#walk-1889">Walk into Paris, 1889</a><span class="muted" style="font-size:14px">Meet everyone alive that year on one street, and talk to any of them.</span></p>
+    <p class="walk-cta"><a class="btn" href="#walk-1889">Walk into Paris, 1889</a><span class="muted" style="font-size:14px">Step into a real picture of that year, and see who was alive.</span></p>
     <div class="cmp">
       <div class="vs">
         <label class="pc" id="pcA" style="${fc((getP(cmpA) || {}).f)}">${pcFace(cmpA)}<select id="cmpA" aria-label="First person">${personOptions(cmpA)}</select></label>
@@ -2310,7 +2310,7 @@ function viewPlay(){
   const done = qs.dDay === d ? qs.dPick : null;
   curQ = makeQ(quizMode);
   view.innerHTML = `<section><div class="sec-head"><h2>Play</h2><p>Quizzes and games. Every answer is explained.</p></div><div class="score" id="score">${scoreHTML()}</div></section>
-  <section class="panel" id="daily"><span class="eyebrow">Question of the day · ${d}</span>${quizHTML(dailyQ, done)}${done != null ? `<p class="muted" style="font-size:13.5px">A new question comes tomorrow.</p>` : ""}</section>
+  <section class="panel" id="daily"><span class="eyebrow">Question of the day · ${new Date().toLocaleDateString("en-GB", {day:"numeric", month:"long"})}</span>${quizHTML(dailyQ, done)}${done != null ? `<p class="muted" style="font-size:13.5px">A new question comes tomorrow.</p>` : ""}</section>
   <section><div class="sec-head"><h2>Quiz</h2></div><div class="modes chips">${QMODES.map(([k, n]) => `<button type="button" class="chip" data-mode="${k}" aria-pressed="${k === quizMode}">${n}</button>`).join("")}</div>
     <div class="panel" id="quiz">${quizHTML(curQ)}</div><button type="button" class="btn" id="nextq">Next question</button></section>
   <section><div class="sec-head"><h2>More games</h2></div><div class="game-grid">
