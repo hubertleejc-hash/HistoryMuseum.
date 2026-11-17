@@ -1,59 +1,96 @@
 {
- "groups": {
-  "london-1851": {
-   "limit": 25,
-   "cats": [
-    "Dickinson's Comprehensive Pictures of the Great Exhibition of 1851"
-   ],
-   "search": [
-    "Great Exhibition 1851 Crystal Palace Hyde Park photograph",
-    "London street 1850s photograph",
-    "Regent Street London 1850",
-    "Crystal Palace 1851 interior lithograph"
-   ]
+ "picks": [
+  {
+   "id": "london-1851-1",
+   "file": "Gezicht op Regent Street, met op de achtergrond Nelson's Column Regent Street, looking towards the Duke of York's Column. (titel op object), RP-F-F04659.jpg",
+   "depth": true,
+   "trim": true
   },
-  "vienna-1791": {
-   "limit": 25,
-   "cats": [
-    "Carl Schütz"
-   ],
-   "search": [
-    "Carl Schütz Wien Kupferstich",
-    "Graben Wien 1780",
-    "Bellotto Wien",
-    "Michaelerplatz Wien 1783",
-    "Stephansplatz Wien 18. Jahrhundert"
-   ]
+  {
+   "id": "london-1851-2",
+   "file": "The London Coffee-stall.jpg"
   },
-  "edo-1831": {
-   "limit": 25,
-   "search": [
-    "Hiroshige Nihonbashi Tokaido",
-    "Hokusai Nihonbashi Fugaku",
-    "Hokusai Surugacho",
-    "Hiroshige Edo street 1830s",
-    "Hokusai Thirty-six Views Edo"
-   ]
+  {
+   "id": "london-1851-3",
+   "file": "Great Exhibition, NW corner of building, HF Talbot, 1851.jpg",
+   "depth": true,
+   "trim": true
   },
-  "newyork-1905": {
-   "limit": 25,
-   "search": [
-    "Broadway New York 1905 Detroit Publishing",
-    "Fifth Avenue New York 1905",
-    "Mulberry Street New York 1900",
-    "Flatiron Building 1905 photograph",
-    "Herald Square New York 1905"
-   ]
+  {
+   "id": "london-1851-4",
+   "file": "Eugène Louis Lami - Opening of the Great Exhibition, 1 May 1851 - Google Art Project.jpg"
   },
-  "kaifeng-1120": {
-   "limit": 30,
-   "cats": [
-    "Along the River During the Qingming Festival"
-   ],
-   "search": [
-    "Qingming Shanghe Tu detail",
-    "Along the River During the Qingming Festival detail Zhang Zeduan"
-   ]
+  {
+   "id": "vienna-1791-1",
+   "file": "Bernardo Bellotto, il Canaletto - View of Vienna from the Belvedere (cropped).jpg"
+  },
+  {
+   "id": "vienna-1791-2",
+   "file": "Carl Schütz - Der Kohlmarkt in Wien - 1786.jpeg"
+  },
+  {
+   "id": "vienna-1791-3",
+   "file": "Carl Schütz Wien Michaelerplatz.jpg"
+  },
+  {
+   "id": "vienna-1791-4",
+   "file": "Hoher Markt, Vienna (1793).jpg"
+  },
+  {
+   "id": "edo-1831-1",
+   "file": "冨嶽三十六景 江戸日本橋-Nihonbashi in Edo (Edo Nihonbashi), from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei) MET DP141003.jpg"
+  },
+  {
+   "id": "edo-1831-2",
+   "file": "冨嶽三十六景 江都駿河町三井見世略図-Mitsui Shop at Surugachō in Edo (Edo Surugachō Mitsui mise ryaku zu), from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei) MET DP141004.jpg"
+  },
+  {
+   "id": "edo-1831-3",
+   "file": "東海道五十三次之内 日本橋 朝之景-Stations One- Morning View of Nihonbashi MET DP122174.jpg"
+  },
+  {
+   "id": "edo-1831-4",
+   "file": "東都名所 日本橋の白雨-Sunshower at Nihonbashi MET DP123275.jpg"
+  },
+  {
+   "id": "newyork-1905-1",
+   "file": "Broadway, Manhattan, view north from 39th Street - jpg version.jpg",
+   "depth": true,
+   "trim": true
+  },
+  {
+   "id": "newyork-1905-2",
+   "file": "Flatiron Building, New York City, NY 4a12277a original.jpg",
+   "depth": true,
+   "trim": true
+  },
+  {
+   "id": "newyork-1905-3",
+   "file": "New York City- Herald Square - facing Macy's, with elevated railroad in right foregrd. LCCN2003678141.jpg",
+   "depth": true,
+   "trim": true
+  },
+  {
+   "id": "newyork-1905-4",
+   "file": "Mulberry Street, New York City (LOC det.4a08193).jpg",
+   "depth": true,
+   "trim": true
+  },
+  {
+   "id": "kaifeng-1120-1",
+   "file": "Qingming shanghe tu towboat.jpg"
+  },
+  {
+   "id": "kaifeng-1120-2",
+   "file": "Qingming shanghe tu bridge.jpg"
+  },
+  {
+   "id": "kaifeng-1120-3",
+   "file": "Bianjing city gate.JPG"
+  },
+  {
+   "id": "kaifeng-1120-4",
+   "file": "Qingming shanghe tu 11.jpg"
   }
- }
+ ]
 }
