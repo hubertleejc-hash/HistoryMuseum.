@@ -1,0 +1,67 @@
+{
+  "hero": "",
+  "portrait": "pt-freud",
+  "kw": ["Vienna", "Freiberg", "Berggasse 19", "London", "Maresfield Gardens", "psychoanalysis", "unconscious", "Interpretation of Dreams", "Oedipus complex", "Charcot", "Breuer", "Jung", "Anna Freud", "Marie Bonaparte", "Civilization and Its Discontents", "couch", "cigar@myths", "cocaine@myths", "talk therapy@legacy"],
+  "lede": "A Viennese nerve doctor who sat behind a couch, listened to patients say whatever came into their heads, and came away convinced that most of the mind is hidden even from its owner.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Sigismund Schlomo Freud was born on 6 May 1856 in Freiberg, a small town in Moravia, now Příbor in the Czech Republic. His family was Jewish and moved to Vienna when he was a small child. He lived there for almost eighty years.",
+      "Trained as a doctor and brain scientist, he developed psychoanalysis: a way of treating mental distress by talking, and a theory that our thoughts and actions are shaped by unconscious wishes, fears and memories, many from childhood.",
+      "His ideas about dreams, slips of the tongue, repression and sexuality changed medicine, literature, art and everyday speech. They have also been attacked from the start as unscientific. He fled the Nazis in 1938 and died in London on 23 September 1939, aged 83."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father, Jacob, was a wool merchant with two grown sons from an earlier marriage. His mother, Amalia, was twenty years younger and adored her 'golden Sigi', the first of her eight children.",
+      "The family was poor in Vienna, but Sigmund was top of his class at school. He read Shakespeare and Goethe, and later said Goethe's essay on nature made him choose science.",
+      "He entered the University of Vienna in 1873 and qualified as a doctor in 1881. He studied eels at a research station in Trieste, then spent years on the nervous systems of fish in Ernst Brücke's laboratory. As a Jew, he could expect a slow path to a professorship, and he needed money to marry, so he moved to clinical work."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      {"t": "Cocaine, 1884. He wrote a paper praising cocaine as a tonic and a treatment for depression and morphine addiction. He took it himself for years and gave it to his friend Ernst von Fleischl-Marxow, who became badly addicted.", "lab": "verified", "why": "His paper Über Coca (1884) and his letters to his fiancée survive."},
+      "Paris, 1885 to 1886. He studied with the neurologist Jean-Martin Charcot at the Salpêtrière hospital and watched him use hypnosis on patients with 'hysteria', symptoms such as paralysis with no physical cause. He came home convinced that ideas could make the body ill.",
+      "1886. He opened a private practice in Vienna and married Martha Bernays. They had six children. From 1891 the family lived at Berggasse 19, where he also saw patients.",
+      "Studies on Hysteria, 1895. With the older doctor Josef Breuer he described the 'talking cure', named by Breuer's patient Bertha Pappenheim, known as 'Anna O.', who felt better when she talked through painful memories.",
+      "The Interpretation of Dreams, 1899. Published in November 1899 but dated 1900, it argued that dreams are disguised wishes. It sold only a few hundred copies in its first years. He considered it his most important book.",
+      "The Wednesday group, 1902. A small circle of doctors and writers began meeting at his flat on Wednesday evenings. It became the Vienna Psychoanalytic Society in 1908.",
+      "America, 1909. He lectured at Clark University in Massachusetts, his only visit to the United States, with Carl Jung beside him.",
+      "Cancer, 1923. He was diagnosed with cancer of the jaw, probably linked to his heavy cigar smoking, and had more than thirty operations over the next sixteen years.",
+      "Flight, 1938. In March Nazi Germany annexed Austria. The Gestapo questioned his daughter Anna. With help from Marie Bonaparte, the Welsh analyst Ernest Jones and the American ambassador, the family left in June for London. Four of his sisters, who stayed behind, were later murdered in the Holocaust.",
+      "London, 1939. Very ill, he asked his doctor Max Schur to end his suffering. Schur gave him doses of morphine, and he died on 23 September, three weeks after the Second World War began."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "The Interpretation of Dreams (1900) and The Psychopathology of Everyday Life (1901), about forgetting, mistakes and the 'Freudian slip'.",
+      "Three Essays on the Theory of Sexuality (1905), which argued that children have sexual feelings and that adult character grows out of childhood stages. It shocked readers more than anything else he wrote.",
+      "The Ego and the Id (1923), which split the mind into the id (drives), the ego (the self that deals with reality) and the superego (conscience).",
+      "Civilization and Its Discontents (1930), a short, dark book arguing that society demands we hold back our drives, and that this makes people unhappy. He wrote it after the First World War, which had made him add a 'death drive' to his theory.",
+      "His method: the patient lay on a couch and said everything that came to mind, called free association, while he sat out of sight and listened for patterns."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Martha Bernays Freud (1861 to 1951), his wife, who ran the household around his work. Her sister Minna lived with them for decades.",
+      "Josef Breuer (1842 to 1925), his early mentor and co-author, who drew back from Freud's stress on sex.",
+      "Carl Gustav Jung (1875 to 1961), the Swiss psychiatrist Freud saw as his heir. They broke bitterly in 1913 over religion, sexuality and the nature of the unconscious.",
+      "Anna Freud (1895 to 1982), his youngest child, who became a leading child analyst, nursed him through his cancer and carried on his work in London.",
+      "Marie Bonaparte (1882 to 1962), a French princess and analyst, who paid the Nazis' exit tax for the family and smuggled out his papers."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Vienna around 1900 was the capital of a vast empire and a city of coffee houses, opera and new ideas. Gustav Klimt, Gustav Mahler and Arthur Schnitzler were his neighbours in time and place.",
+      "It was also a city of open antisemitism. Its mayor from 1897, Karl Lueger, won votes by attacking Jews. Freud felt he would always be an outsider in the medical establishment.",
+      "In 1933 the Nazis burned his books in Berlin. He is said to have remarked that in the Middle Ages they would have burned him too."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "Almost every modern 'talking therapy' owes something to him, even those that reject his theories. The idea that a patient might feel better by being listened to was his great practical gift.",
+      "Words like ego, repression, denial, projection and Freudian slip are now everyday language. His ideas shaped surrealist painting, modern novels, film and advertising.",
+      {"t": "As science, his work is widely criticised. The philosopher Karl Popper argued his theories could explain any result and so could never be tested. Historians have shown that some famous cases did not end as well as he reported.", "lab": "verified", "why": "These criticisms are well documented, though how much of psychoanalysis survives them is still debated."},
+      "His houses are museums: Berggasse 19 in Vienna, and 20 Maresfield Gardens in London, where his couch still stands."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Freud said everything is about sex.", "lab": "myth", "t": "He put sexuality at the centre of his theory, but he used 'libido' broadly for life energy and pleasure, and later added aggression and the death drive. Many critics, then and now, still find his stress on sex too strong."},
+      {"c": "Freud said 'Sometimes a cigar is just a cigar'.", "lab": "myth", "t": "The line is not found in any of his writings or letters. It first appears in print decades after his death."},
+      {"c": "Freud used cocaine.", "lab": "verified", "t": "In the 1880s and 1890s he took it often and recommended it. He did not see its dangers in time, and it did serious harm to his friend Fleischl-Marxow."},
+      {"c": "Freud invented the couch to look clever.", "lab": "myth", "t": "The couch came from his early use of hypnosis. He said he also simply did not want to be stared at for eight hours a day."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Sigmund Freud, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Sigmund-Freud"},
+      {"n": "Freud Museum London", "u": "https://www.freud.org.uk/"},
+      {"n": "Sigmund Freud, The Interpretation of Dreams (1900), public domain in English translation"},
+      {"n": "Further reading: Peter Gay, Freud: A Life for Our Time (1988)"}
+    ]}
+  ]
+}

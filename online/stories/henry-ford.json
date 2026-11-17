@@ -1,0 +1,66 @@
+{
+  "hero": "",
+  "portrait": "pt-henry-ford",
+  "kw": ["Dearborn", "Detroit", "Highland Park", "River Rouge", "Model T", "Model A", "Quadricycle", "assembly line", "five-dollar day", "Edison", "Clara Bryant", "Edsel Ford", "Dearborn Independent", "The International Jew", "Fordlândia", "Greenfield Village", "invented the car@myths", "any color@myths", "mass production@legacy"],
+  "lede": "A Michigan farm boy who hated farm work, built a car cheap enough for the men who made it, and became both a folk hero of modern industry and America's most notorious antisemitic publisher.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Henry Ford was born on 30 July 1863 on his family's farm in Springwells Township, now part of Dearborn, Michigan. He founded the Ford Motor Company in 1903.",
+      "His Model T, launched in 1908, was simple, tough and steadily cheaper. To build it faster he and his engineers created the moving assembly line in 1913, and in 1914 he doubled many workers' pay to five dollars a day. Mass production and mass buying of cars changed how people lived around the world.",
+      "He was also stubborn, suspicious and prejudiced. In the early 1920s his newspaper spread antisemitic lies across America. He died at his Dearborn estate, Fair Lane, on 7 April 1947, aged 83."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father had come from Ireland. Henry loved taking watches apart and fixing neighbours' clocks, and disliked the endless labour of the farm.",
+      "His mother, Mary, died in 1876, when he was thirteen. The same year he saw a steam engine moving along a road under its own power. He later said it set the course of his life.",
+      "At sixteen he walked to Detroit to work as an apprentice machinist. He went home to run a sawmill on family land, and in 1888 married Clara Bryant, a farmer's daughter. Their only child, Edsel, was born in 1893."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "Edison Illuminating, 1891 to 1899. He became an engineer at Detroit's electric company, and chief engineer by 1893. In his spare time he built a light car on bicycle wheels, the Quadricycle, and drove it in June 1896.",
+      "Meeting Edison, 1896. At a company dinner he met Thomas Edison and described his gas engine. Edison told him to keep going. Ford never forgot it.",
+      "Two failures, 1899 to 1902. His first company, the Detroit Automobile Company, collapsed. His second left him behind and became Cadillac. He won attention by building racing cars.",
+      "16 June 1903. The Ford Motor Company was founded with about twelve investors. Its Model A sold well enough to keep it going.",
+      "1 October 1908. The Model T went on sale at 850 dollars. Its high body cleared rutted country roads and farmers could repair it themselves. By 1925 a new one cost under 300 dollars.",
+      "Highland Park, 1913. Borrowing ideas from meatpacking plants and flour mills, Ford's engineers made the cars move past workers on a moving line. The time to build a chassis fell from about twelve hours to about an hour and a half.",
+      "January 1914. The five-dollar day, for an eight-hour shift, roughly doubled pay. Thousands queued at the gates. To qualify, workers had to pass checks by the company's 'Sociological Department' on their homes and habits.",
+      "1918 to 1927. He bought a weekly newspaper, The Dearborn Independent, and from 1920 it ran a long series of antisemitic articles. In 1927, facing a libel suit, he issued a public apology. That year he ended the Model T after more than 15 million had been made.",
+      "The Rouge, 1920s. At River Rouge, near Dearborn, he built the largest factory complex in the world, where iron ore and coal came in at one end and finished cars left the other."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "The Model T, the 'Tin Lizzie', with a four-cylinder engine and a pedal-operated gearbox. At its height around half the cars in the world were Fords.",
+      "The moving assembly line. It broke jobs into tiny, repeated tasks. It made cars cheap, but the work was so dull and fast that in 1913 the company had to hire several times its whole workforce just to keep the lines running.",
+      "The River Rouge plant, which had its own docks, steel mill, glass works and power plant and employed around 100,000 people at its peak.",
+      "Fordlândia (from 1928), a company town in the Brazilian rainforest meant to grow rubber. It failed, crippled by plant disease and by Ford's rules forced on local workers.",
+      "The Henry Ford Museum and Greenfield Village in Dearborn, dedicated in 1929, where he collected old buildings and machines, including Edison's Menlo Park laboratory."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Clara Bryant Ford (1866 to 1950), his wife, whom he called 'the Believer'. She backed him through his early failures.",
+      "Edsel Ford (1893 to 1943), his son and company president from 1919. Henry overruled and belittled him. Edsel died of stomach cancer at 49.",
+      "Thomas Edison (1847 to 1931), his hero and later friend. They went on long camping trips together with the tyre maker Harvey Firestone.",
+      "Harry Bennett (1892 to 1979), head of the company's 'Service Department', an internal security force that spied on and beat workers who tried to form unions.",
+      "Charles Sorensen (1881 to 1968), the production chief behind much of the assembly line."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Detroit grew from a mid-sized city into the world's car capital. Workers came from the American South, including many Black families in the Great Migration, and from Europe and the Middle East.",
+      "Ford hated bankers, Wall Street and unions. In 1932, during the Depression, police and company guards fired on a Ford Hunger March of unemployed workers; five died. In 1937 Bennett's men beat union organisers at the 'Battle of the Overpass'. Ford signed with the United Auto Workers only in 1941.",
+      "In the Second World War his Willow Run plant built B-24 bomber planes for the United States."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "'Fordism', mass production paired with wages high enough for workers to buy what they make, shaped the twentieth century economy. It also spread suburbs, highways and dependence on oil.",
+      "The Ford Foundation, set up in 1936 by Henry and Edsel, became one of the world's largest charities.",
+      {"t": "The Dearborn Independent's series was reprinted as The International Jew, about half a million copies, and translated abroad. It promoted the forged Protocols of the Elders of Zion. Hitler praised Ford in Mein Kampf, and in 1938 Ford accepted the Grand Cross of the German Eagle, the highest Nazi honour for foreigners.", "lab": "verified", "why": "The articles, the book and the medal are all documented."}
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Henry Ford invented the car.", "lab": "myth", "t": "Karl Benz built a petrol car in Germany in 1885 to 1886, and many others followed. Ford's achievement was making cars cheap and plentiful."},
+      {"c": "Ford invented the assembly line.", "lab": "myth", "t": "Moving lines already existed in meatpacking, and Ransom Olds used a fixed line for cars. Ford's team made the first moving line for something as complex as a car, at huge scale."},
+      {"c": "The five-dollar day was pure kindness.", "lab": "myth", "t": "It was a business decision to stop workers quitting, which was costing the company dearly. Turnover dropped sharply, and it came with intrusive checks on workers' private lives."},
+      {"c": "'Any color so long as it is black.'", "lab": "verified", "t": "Ford wrote the line in his 1922 memoir My Life and Work. From about 1914 to 1925 the T came only in black, which dried fastest. Earlier and later Ts came in other colours."},
+      {"c": "Ford's antisemitism was a passing mistake.", "lab": "myth", "t": "He apologised in 1927 under legal pressure, but the paper had run its attacks for about seven years, and he kept his Nazi medal. Historians see his views as long-held."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Henry Ford, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Henry-Ford"},
+      {"n": "The Henry Ford museum, Dearborn", "u": "https://www.thehenryford.org/"},
+      {"n": "Henry Ford with Samuel Crowther, My Life and Work (1922), public domain"},
+      {"n": "Further reading: Steven Watts, The People's Tycoon (2005)"}
+    ]}
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "hero": "",
+  "portrait": "pt-bell",
+  "kw": ["Edinburgh", "Brantford", "Boston", "Baddeck", "Beinn Bhreagh", "telephone", "photophone", "Visible Speech", "hydrofoil", "HD-4", "Mabel Hubbard", "Thomas Watson", "Helen Keller", "Edison", "Elisha Gray", "Meucci@myths", "oralism@myths", "eugenics@myths", "National Geographic"],
+  "lede": "A teacher of the deaf, raised in a family obsessed with how the mouth makes sound, who tried to send several telegraph messages down one wire and ended up sending a human voice.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Alexander Graham Bell was born in Edinburgh on 3 March 1847. His father and grandfather both taught elocution, the art of clear speech, and his mother was nearly deaf. Sound, speech and hearing ran through his whole life.",
+      "He moved to Canada with his parents in 1870 and to Boston the next year, where he taught deaf pupils to speak. Working at night on the telegraph, he received a United States patent for the telephone on 7 March 1876. Three days later he spoke the first sentence down a wire to his assistant.",
+      "The telephone made him famous before he was thirty, and soon rich. He spent the rest of his life on other inventions, on science and on deaf education, much of it at his summer estate in Nova Scotia. He died there on 2 August 1922, aged 75."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "He was the middle of three sons. He added 'Graham' to his name himself at about eleven, after a family friend. He was a restless pupil who left school at fifteen with no great marks, but he loved music and played the piano by ear.",
+      "His father, Alexander Melville Bell, invented Visible Speech, a set of written symbols that showed where to put the lips, tongue and throat for every sound. The sons demonstrated it in public. Young Alexander and his brother Melville also built a talking head with a moving mouth that could cry 'Mama'.",
+      "Both his brothers died of tuberculosis, Edward in 1867 and Melville in 1870. Fearing for their last son, his parents moved the family to Brantford, Ontario, in 1870."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "Boston, 1871 to 1873. He taught Visible Speech at a school for deaf children in Boston, then in 1872 opened his own school of vocal physiology. In 1873 he became a professor at Boston University. Among his private pupils was Mabel Hubbard, deaf since scarlet fever at five.",
+      "The harmonic telegraph, 1874 to 1875. Telegraph companies wanted to send several messages down one wire at once. Bell tried to do it with tuned reeds, backed by Mabel's father, Gardiner Greene Hubbard. In June 1875 a stuck reed carried a twang of sound down the line, and he saw that a wire might carry speech itself.",
+      {"t": "14 February 1876. His lawyer filed his patent application in Washington. The same day the inventor Elisha Gray filed a caveat, a notice of an invention still being worked on, for a similar idea. Who arrived first, and whether Bell saw Gray's papers, was fought over in court for years.", "lab": "disputed", "why": "Both filings are recorded; the order of arrival and later accusations against the patent examiner are still argued."},
+      "10 March 1876. Using a liquid transmitter in his Boston rooms, he called through to Thomas Watson in the next room: 'Mr. Watson, come here, I want to see you.' Watson heard it. That June he showed the telephone at the Centennial Exhibition in Philadelphia, where the Emperor of Brazil, Pedro II, picked it up in amazement.",
+      "1877. The Bell Telephone Company was founded, and on 11 July he married Mabel Hubbard. They had two daughters, Elsie and Marian, and two sons who died as babies.",
+      "1880. France awarded him the Volta Prize of 50,000 francs. He used it to set up the Volta Laboratory in Washington with his cousin Chichester Bell and Charles Sumner Tainter, who improved Edison's phonograph into a wax-cylinder machine.",
+      "1888. He was one of the founders of the National Geographic Society, and later its president.",
+      "1915. On 25 January he opened the first transcontinental telephone line, speaking from New York to Watson in San Francisco."
+    ]},
+    {"k": "works", "h": "The inventions", "ps": [
+      "The telephone. His key idea was a current that rose and fell exactly as the air pressure of the voice did, rather than switching on and off like the telegraph.",
+      "The photophone, 1880. With Tainter he sent speech on a beam of sunlight, reflected from a vibrating mirror and picked up by a selenium cell. It worked over a few hundred metres. He thought it his greatest invention, and it was an ancestor of fibre-optic communication.",
+      "Flight. From his estate, Beinn Bhreagh near Baddeck, Nova Scotia, he flew huge kites made of tetrahedral cells. In 1907 he founded the Aerial Experiment Association with young engineers including Glenn Curtiss. Its Silver Dart made the first powered flight in Canada in 1909.",
+      "The hydrofoil. With Casey Baldwin he built boats that lifted out of the water on underwater wings. In 1919 their HD-4 set a world water speed record of about 114 kilometres per hour on the lake at Baddeck.",
+      "He also worked on a metal detector, which he used in 1881 to search for the bullet in the wounded President Garfield, and on breeding sheep and much else."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Mabel Hubbard Bell (1857 to 1923), his wife, a sharp lip-reader who ran their household, managed money and backed his later experiments.",
+      "Thomas Watson (1854 to 1934), the young machinist who built his early instruments and heard the first call.",
+      "Thomas Edison (1847 to 1931), born the same year, a rival in the telephone and the phonograph. Edison's carbon transmitter made the telephone loud and clear enough for business.",
+      "Helen Keller (1880 to 1968). Bell met her in 1886 when she was six and advised her father to write to the Perkins Institution in Boston, which sent Anne Sullivan to teach her. She dedicated her autobiography, The Story of My Life, to him.",
+      "Alexander Melville Bell (1819 to 1905), his father, whose Visible Speech shaped his whole career."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "He lived in the age of the telegraph, when news already flew between cities by wire. Many inventors in Europe and America were trying to send sound electrically, so the telephone was a race, and patent offices were its finish line.",
+      "The Bell company fought around 600 lawsuits over the patents. In 1888 the United States Supreme Court upheld them. By then the company was turning into the giant that became AT&T.",
+      "In deaf education a fierce debate was going on. 'Oralists' wanted deaf children taught to speak and lip-read; others defended sign language and schools run in it. Bell was the most famous oralist in America."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "The telephone changed business, family life and city building within his lifetime. When he died there were millions of telephones in the United States alone.",
+      {"t": "During his funeral at Beinn Bhreagh, telephone service across North America was halted for a minute in his honour.", "lab": "likely", "why": "Widely reported at the time and repeated by biographers; how completely it was observed is not clear."},
+      "The decibel, a unit of loudness, takes its name from the bel, named after him. Scotland, Canada and the United States all claim him: he was born in one, invented in another and became a citizen of the third in 1882.",
+      "His legacy among deaf people is mixed. He funded deaf education generously, but his campaign for speech over sign language is remembered with anger by many in the Deaf community."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Bell alone invented the telephone.", "lab": "disputed", "t": "He received the patent and made the first clear demonstration, but Elisha Gray filed papers the same day and the Italian-born Antonio Meucci had built voice devices in New York years earlier. In 2002 the US House of Representatives passed a resolution honouring Meucci's work. Many people were close; Bell got there legally first."},
+      {"c": "Bell was a friend of the deaf community.", "lab": "disputed", "t": "He taught and helped many deaf people, but he campaigned for oral teaching and against sign language and residential deaf schools. Many Deaf people see that as harm done to their language and culture."},
+      {"c": "Bell had no part in eugenics.", "lab": "myth", "t": "In 1883 he wrote a paper warning that deaf people marrying each other could create 'a deaf variety of the human race'. From 1912 to 1918 he chaired the board of scientific advisers of the Eugenics Record Office. He did not call for marriage bans by law, but his ideas fed the eugenics movement."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Alexander Graham Bell, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Alexander-Graham-Bell"},
+      {"n": "Alexander Graham Bell Family Papers, Library of Congress", "u": "https://www.loc.gov/collections/alexander-graham-bell-papers/"},
+      {"n": "Helen Keller, The Story of My Life (1903), public domain"},
+      {"n": "Further reading: Charlotte Gray, Reluctant Genius (2006)"}
+    ]}
+  ]
+}

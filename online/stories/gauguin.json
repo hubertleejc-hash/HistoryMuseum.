@@ -1,0 +1,65 @@
+{
+  "hero": "",
+  "portrait": "pt-gauguin",
+  "kw": ["Paris", "Lima", "Pont-Aven", "Brittany", "Martinique", "Arles", "Yellow House", "Tahiti", "Marquesas", "Hiva Oa", "Vision After the Sermon", "Where Do We Come From", "Noa Noa", "Van Gogh", "Pissarro", "Mette Gad", "Synthetism", "ear@myths", "paradise@myths", "primitivism@legacy"],
+  "lede": "A Paris stockbroker who painted on Sundays, threw over his job and his family for art, and sailed to the South Seas looking for a paradise that French colonial rule had already changed.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Eugène Henri Paul Gauguin was born in Paris on 7 June 1848. He spent his early childhood in Peru, worked as a sailor and then as a stockbroker, and only turned to painting full time at 35.",
+      "He painted flat areas of strong, unreal colour with dark outlines, more to show feeling and ideas than what the eye sees. With younger painters in Brittany he started a style called Synthetism, and he was close to the Symbolist poets.",
+      "From 1891 he lived mostly in French Polynesia, in Tahiti and then the Marquesas Islands, where he painted his most famous pictures. He died on the island of Hiva Oa on 8 May 1903, aged 54, sick, in debt and in trouble with the colonial authorities."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father, a liberal journalist, left France after Louis-Napoléon's rise and died on the voyage to Peru in 1849. His mother, Aline, took the children on to Lima, where her relatives were rich and powerful. Paul lived there until he was about seven, and remembered it all his life as a lost, sunny paradise.",
+      "His grandmother was Flora Tristan, a famous socialist and feminist writer of Peruvian descent. Gauguin liked to say he had 'savage' blood, and played up the story.",
+      "Back in France he was a poor pupil. At seventeen he joined the merchant navy, then served in the French navy during the Franco-Prussian War. His mother died in 1867 while he was at sea.",
+      "In 1872 his guardian, the businessman and art collector Gustave Arosa, found him a job at a Paris stockbroker. He did well, married a Danish woman, Mette-Sophie Gad, in 1873, and had five children. He began painting as a hobby and bought pictures by the Impressionists."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1879 to 1886. Camille Pissarro took him under his wing, and he showed in five of the eight Impressionist exhibitions.",
+      "1883. After the stock market crash of 1882 he left his job to paint full time. The money ran out fast. He moved the family to Copenhagen, to Mette's relatives, then in 1885 went back to Paris with one son, leaving Mette and the other children behind. They never lived together again.",
+      "Pont-Aven, 1886 and 1888. In this Breton village, cheap and full of painters, he became the leader of a group. With Émile Bernard he worked out flat colours and bold outlines. In 1887 he went to Panama and Martinique, where he caught dysentery and malaria.",
+      "Arles, October to December 1888. Paid by Theo van Gogh, he joined Vincent in the Yellow House. For nine weeks they painted side by side and argued. On 23 December, after a quarrel, Vincent cut off his own ear. Gauguin left for Paris and the two never met again, though they wrote to each other.",
+      "1889. During the Paris World's Fair he and his friends showed their work at the Café Volpini. In the fair's colonial villages he saw Javanese dancers and buildings from French colonies.",
+      "Tahiti, 1891 to 1893. Funded by an auction of his paintings, he sailed in April 1891. In Papeete and then the countryside he painted Tahitian women and landscapes. He returned to Paris with dozens of canvases, but the 1893 show sold poorly.",
+      "1895. He left Europe for good. Back in Tahiti he was often ill and poor. In 1897 he learned that his daughter Aline had died at nineteen.",
+      "The Marquesas, 1901 to 1903. He moved to Atuona on Hiva Oa and built a house he called the House of Pleasure. He quarrelled with the bishop and the police, took up the cause of islanders against officials, and in 1903 was sentenced to prison for libelling a gendarme. He died before he served it."
+    ]},
+    {"k": "works", "h": "The paintings", "ps": [
+      "Vision After the Sermon (1888), now in the National Galleries of Scotland. Breton women in white caps see Jacob wrestling the angel on a field painted pure red. It is often called the first great Symbolist painting.",
+      "The Yellow Christ (1889), a crucifix in a Breton landscape of yellow and orange trees.",
+      {"t": "Spirit of the Dead Watching (1892). A young Tahitian girl lies face down on a bed, afraid, with a dark figure behind her. The model was Teha'amana, whom Gauguin took as his 'wife' when she was about thirteen.", "lab": "likely", "why": "Her age comes from Gauguin's own book Noa Noa, which mixes fact and invention."},
+      {"t": "Where Do We Come From? What Are We? Where Are We Going? (1897 to 1898), a huge frieze read from right to left, from a baby to an old woman, now in the Museum of Fine Arts, Boston. He wrote that he tried to kill himself with arsenic after finishing it.", "lab": "likely", "why": "The suicide attempt is known only from his own letters."},
+      "He also made woodcuts, carved wood, painted ceramics and wrote Noa Noa, a romanticised account of his first Tahitian stay."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Mette-Sophie Gad (1850 to 1920), his wife, who raised their five children in Copenhagen by teaching French and translating. He wrote to her for years, often bitterly, asking for money and for his paintings.",
+      "Camille Pissarro (1830 to 1903), his first teacher, who later fell out with him.",
+      "Vincent van Gogh (1853 to 1890), who dreamed of a southern studio of artists with Gauguin as its head. Their nine weeks in Arles ended in Vincent's breakdown.",
+      "Émile Bernard (1868 to 1941), the younger painter who shared the invention of Pont-Aven's flat style, and later accused Gauguin of taking the credit.",
+      "Teha'amana and Pahura, the Tahitian girls, aged about thirteen and fourteen, with whom he lived on his two Tahitian stays. Pahura had two children with him."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "France made Tahiti a colony in 1880. By the time Gauguin arrived, Papeete had French officials, shops, churches and a garrison. Missionaries had worked there for nearly a century, and imported diseases had killed a large part of the population.",
+      "Paris was crazy for 'the exotic', from Japanese prints to colonial exhibitions. Gauguin sold himself as a European escaping civilisation, and that story was part of what collectors bought.",
+      "He depended on that colonial world: French ships carried his canvases, colonial money paid his doctors, and French law let a white man live with a girl of thirteen."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "After his death, a retrospective at the Salon d'Automne in Paris in 1906 deeply affected young painters. Matisse and the Fauves took his free colour, and Picasso his interest in carved, non-European forms.",
+      "He is a founder of Symbolism in painting and of 'primitivism', the borrowing of art from cultures Europeans then called primitive. Today that word, and the attitudes behind it, are widely questioned.",
+      "Museums now present him with his life in full. Exhibitions, such as the National Gallery in London's show of 2019 to 2020, speak openly about his relationships with young girls and his colonial privilege next to his gifts as a painter."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Gauguin was a free spirit who found paradise.", "lab": "myth", "t": "He left a wife and five children with little support, lived on colonial structures, and found an island already reshaped by France. Much of his 'paradise' he invented in paint and in Noa Noa."},
+      {"c": "Gauguin cut off Van Gogh's ear.", "lab": "disputed", "t": "In 2009 two German historians, Hans Kaufmann and Rita Wildegans, suggested Gauguin, a fencer, cut it with a sword. Most experts, including the Van Gogh Museum, still conclude Vincent did it himself with a razor, as the police and doctors recorded."},
+      {"c": "Tahiti was untouched when he got there.", "lab": "myth", "t": "It had been a French colony for over a decade and had decades of missionaries and trade before that. Gauguin himself complained that Papeete was too European."},
+      {"c": "His Tahitian partners were young women.", "lab": "myth", "t": "By his own account, Teha'amana was about thirteen and Pahura about fourteen. Accepted then under colonial custom, these relationships are seen today as exploitation of children."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Paul Gauguin, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Paul-Gauguin"},
+      {"n": "Musée d'Orsay, Paris", "u": "https://www.musee-orsay.fr/en"},
+      {"n": "Paul Gauguin, Noa Noa (written 1893 to 1894), public domain"},
+      {"n": "Further reading: Belinda Thomson, Gauguin (1987)"}
+    ]}
+  ]
+}
