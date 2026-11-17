@@ -37,6 +37,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          for f in tools/scenes/out app/img/scenes; do [ -e "$f" ] && git add -A "$f"; done
+          for f in tools/scenes/out app/img/scenes online/walks; do [ -e "$f" ] && git add -A "$f"; done
           git commit -qm "Gather street scenes: $(grep -o '"mode": *"[a-z]*"' tools/scenes/request.json)" || { echo "Nothing new"; exit 0; }
           for i in 1 2 3; do git pull --rebase -q origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}" && break; sleep 5; done

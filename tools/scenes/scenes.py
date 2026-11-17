@@ -18,7 +18,8 @@ from portraits import get, plain  # Commons helpers with polite rate limiting
 ROOT = Path(__file__).resolve().parents[2]
 REQ = json.loads((Path(__file__).parent / "request.json").read_text())
 OUT = Path(__file__).parent / "out"
-IMG = ROOT / "app" / "img" / "scenes"
+IMG = ROOT / "app" / "img" / "scenes"      # walks that ship inside the app
+ONLINE = ROOT / "online" / "walks" / "img"  # walks that arrive with the online feed (pick with "online": true)
 API = "https://commons.wikimedia.org/w/api.php?"
 
 def is_free(md):
@@ -79,7 +80,12 @@ def trim(im):
     return im.crop((l + pad, t + pad, r - pad, b - pad)) if (l, t, r, b) != (0, 0, w, h) else im
 
 def fetch(picks):
+    fetch_to(IMG, [p for p in picks if not p.get("online")])
+    fetch_to(ONLINE, [p for p in picks if p.get("online")])
+
+def fetch_to(IMG, picks):
     from PIL import Image
+    if not picks: return
     IMG.mkdir(parents=True, exist_ok=True)
     cred_f = IMG / "credits.json"
     cred = json.loads(cred_f.read_text()) if cred_f.exists() else {}

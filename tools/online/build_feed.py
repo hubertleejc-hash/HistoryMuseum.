@@ -143,6 +143,40 @@ def place(f, ppl, pics):
     return stub
 
 
+def walks():
+    """online/walks/<id>.json: a walk through real pictures (same shape as app/walks.js), with its pictures in
+    online/walks/img/<pic>.jpg (and <pic>_d.jpg, a depth estimate for the 3D tilt), credits in img/credits.json."""
+    d = ON / "walks"
+    if not d.exists(): return {}
+    cred = json.loads((d / "img" / "credits.json").read_text()) if (d / "img" / "credits.json").exists() else {}
+    bundled = set(re.findall(r'^"([a-z0-9-]+)":\s*\{', (ROOT / "app" / "walks.js").read_text(), re.M))
+    out = {}
+    for f in sorted(d.glob("*.json")):
+        where = f"online/walks/{f.name}"
+        w = json.loads(f.read_text())
+        assert w.get("id") == f.stem and re.fullmatch(r"[a-z0-9-]+", f.stem), f"{where}: id must match the file name"
+        assert f.stem not in bundled, f"{where}: this walk already ships inside the app"
+        assert isinstance(w.get("y"), int) and w.get("c") and w.get("place") and 1 <= w.get("tol", 0) <= 60, f"{where}: needs y, tol, c, place"
+        assert w.get("look") and all(len(x) == 2 for x in w["look"]), f"{where}: needs look [[heading, text], ...]"
+        assert 1 <= len(w.get("stops", [])) <= 8, f"{where}: 1 to 8 stops"
+        pics = {}
+        for st in w["stops"]:
+            pid = st.get("pic", "")
+            m = cred.get(pid)
+            assert m and (d / "img" / (pid + ".jpg")).exists(), f"{where}: picture {pid} is missing or has no credit"
+            lic = (m.get("lic") or "").lower()
+            assert lic.startswith("public domain") or lic.startswith("pd") or lic.startswith("cc0"), f"{where}: {pid} is not public domain ({m.get('lic')})"
+            assert st.get("name") and st.get("made") and st.get("kind"), f"{where}: {pid} needs name, made and kind"
+            for sp in st.get("spots", []):
+                assert 0 <= sp["x"] <= 1 and 0 <= sp["y"] <= 1 and sp.get("t") and sp.get("d"), f"{where}: {pid} spot {sp.get('t')} is out of the picture or empty"
+                assert not re.search(r"muhammad|prophet", (sp["t"] + sp["d"]).lower()), f"{where}: the Prophet Muhammad is never shown"
+            pics[pid] = {k: m[k] for k in ("title", "by", "date", "lic", "page", "w", "h")}
+            if (d / "img" / (pid + "_d.jpg")).exists(): pics[pid]["depth"] = 1
+        w["pics"] = pics
+        out[f.stem] = w
+    return out
+
+
 def main():
     ppl, have, pics = people(), bundled_chapters(), pictures()
     assert len(ppl) > 100 and len(have) > 50, ("could not read the app's people or chapters", len(ppl), len(have))
@@ -166,11 +200,11 @@ def main():
     assert set(today) == {"days", "events"}, set(today)
     for pid in today["days"]: assert pid in ppl, ("Today: no such person", pid)
     places = [place(f, ppl, pics) for f in sorted((ON / "places").glob("*.json"))] if (ON / "places").exists() else []
-    body = {"art": art, "detail": detail, "chapters": chapters, "today": today, "places": places}
+    body = {"art": art, "detail": detail, "chapters": chapters, "today": today, "places": places, "walks": walks()}
     rev = hashlib.sha1(json.dumps(body, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:12]
     out = json.dumps({"v": 1, "rev": rev, **body}, ensure_ascii=False, separators=(",", ":"))
     (ON / "feed.json").write_text(out + "\n")
-    print(f"online/feed.json: {len(art)} works, {len(chapters)} stories, Today {len(today['days'])} people + {len(today['events'])} events, {len(places)} places, {len(out) // 1024} KB, rev {rev}")
+    print(f"online/feed.json: {len(art)} works, {len(chapters)} stories, Today {len(today['days'])} people + {len(today['events'])} events, {len(places)} places, {len(body['walks'])} walks, {len(out) // 1024} KB, rev {rev}")
 
 
 if __name__ == "__main__":

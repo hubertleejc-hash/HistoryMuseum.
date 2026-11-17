@@ -1,0 +1,164 @@
+{
+ "id": "vienna-1791",
+ "y": 1791,
+ "tol": 8,
+ "c": "austria",
+ "place": "Vienna",
+ "look": [
+  [
+   "Buildings",
+   "A city inside walls, packed with tall stone houses, baroque churches and palaces, with the spire of St Stephen's Cathedral above everything. Outside the walls lay a wide open strip, then the suburbs."
+  ],
+  [
+   "Clothing",
+   "Men in knee breeches, long coats, three-cornered hats and powdered or tied-back hair. Women in long full gowns, with tall hairstyles and hats."
+  ],
+  [
+   "Getting around",
+   "On foot, in sedan chairs carried by two men, in private carriages or in hired cabs called Fiaker."
+  ],
+  [
+   "Light at night",
+   "Oil lamps on posts and house walls. Vienna had public street lamps from the late 1600s."
+  ],
+  [
+   "Music in the air",
+   "Mozart's opera The Magic Flute opened in a theatre just outside the walls in September 1791, and he died in Vienna that December."
+  ]
+ ],
+ "stops": [
+  {
+   "pic": "vienna-1791-1",
+   "name": "Vienna from the Belvedere palace",
+   "kind": "painting",
+   "made": "Painted between 1758 and 1761",
+   "fx": 0.25,
+   "title": "Vienna seen from the Belvedere",
+   "note": "About 30 years before 1791, but the skyline barely changed in that time.",
+   "spots": [
+    {
+     "x": 0.205,
+     "y": 0.12,
+     "t": "St Stephen's Cathedral",
+     "d": "The cathedral's south tower is 136 metres tall. It was finished in 1433 and was the city's landmark for centuries.",
+     "how": "It still stands at the heart of Vienna."
+    },
+    {
+     "x": 0.45,
+     "y": 0.5,
+     "t": "A prince's garden",
+     "d": "The Belvedere gardens were laid out in the 1710s and 1720s for Prince Eugene of Savoy, a famous general.",
+     "how": "The gardens and both palaces can be visited today."
+    },
+    {
+     "x": 0.33,
+     "y": 0.8,
+     "t": "Strolling in the garden",
+     "d": "Elegant visitors walk the paths in long coats, gowns and hats.",
+     "how": "Bellotto painted Vienna for the empress Maria Theresa, with great attention to detail."
+    }
+   ]
+  },
+  {
+   "pic": "vienna-1791-2",
+   "name": "The Kohlmarkt",
+   "kind": "print",
+   "made": "Printed in 1786",
+   "fx": 0.45,
+   "title": "The Kohlmarkt in Vienna",
+   "note": "A hand-coloured engraving made five years before 1791.",
+   "spots": [
+    {
+     "x": 0.5,
+     "y": 0.4,
+     "t": "Charcoal Market",
+     "d": "The street's name means charcoal market. By the 1780s it was one of the smartest shopping streets, close to the emperor's palace.",
+     "how": "The Kohlmarkt is still a luxury shopping street."
+    },
+    {
+     "x": 0.15,
+     "y": 0.85,
+     "t": "Shops at street level",
+     "d": "Shops filled the ground floors, with signs and awnings over the windows. Families lived on the floors above.",
+     "how": "Schütz drew the real buildings, many of which still stand."
+    },
+    {
+     "x": 0.6,
+     "y": 0.62,
+     "t": "Carriages in the street",
+     "d": "Coaches and cabs squeezed through narrow streets among people on foot.",
+     "how": "Vienna's hired cabs, the Fiaker, had run since the late 1600s."
+    },
+    {
+     "x": 0.55,
+     "y": 0.88,
+     "t": "Three-cornered hats",
+     "d": "Men wore three-cornered hats, long coats and knee breeches. Women wore wide gowns.",
+     "how": "Fashion prints of the 1780s show the same style."
+    }
+   ]
+  },
+  {
+   "pic": "vienna-1791-3",
+   "name": "Michaelerplatz, by the palace",
+   "kind": "print",
+   "made": "Printed in the late 1700s",
+   "fx": 0.6,
+   "title": "Michaelerplatz in Vienna",
+   "spots": [
+    {
+     "x": 0.08,
+     "y": 0.3,
+     "t": "St Michael's Church",
+     "d": "The church that gave the square its name, once the parish of the imperial court.",
+     "how": "It still stands on the square."
+    },
+    {
+     "x": 0.75,
+     "y": 0.5,
+     "t": "The palace and the court theatre",
+     "d": "The emperor's palace, the Hofburg, rose here, and beside it stood the court theatre, the Burgtheater. Mozart's The Marriage of Figaro had its first performance there in 1786.",
+     "how": "The old Burgtheater on this square was pulled down in 1888."
+    },
+    {
+     "x": 0.62,
+     "y": 0.63,
+     "t": "A carriage arrives",
+     "d": "Carriages brought nobles to the palace and the theatre.",
+     "how": "Schütz drew the traffic of the square as well as its buildings."
+    }
+   ]
+  },
+  {
+   "pic": "vienna-1791-4",
+   "name": "The Hoher Markt",
+   "kind": "print",
+   "made": "Printed in 1793",
+   "fx": 0.55,
+   "title": "The Hoher Markt in Vienna",
+   "spots": [
+    {
+     "x": 0.57,
+     "y": 0.4,
+     "t": "The Wedding Fountain",
+     "d": "A tall baroque fountain showing the wedding of Mary and Joseph, finished in 1732.",
+     "how": "It still stands in the square."
+    },
+    {
+     "x": 0.36,
+     "y": 0.7,
+     "t": "Vienna's oldest square",
+     "d": "A market since the Middle Ages. Under it lie the ruins of the Roman fort of Vindobona.",
+     "how": "Archaeologists found the Roman buildings beneath the square."
+    },
+    {
+     "x": 0.75,
+     "y": 0.88,
+     "t": "Fashion of the 1790s",
+     "d": "Long coats, hats and full gowns, with children and dogs out in the square.",
+     "how": "Printed only two years after 1791."
+    }
+   ]
+  }
+ ]
+}
