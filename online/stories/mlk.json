@@ -1,0 +1,69 @@
+{
+  "hero": "",
+  "portrait": "pt-mlk",
+  "kw": ["Atlanta", "Ebenezer Baptist Church", "Montgomery", "bus boycott", "Rosa Parks", "Coretta Scott King", "SCLC", "Birmingham", "Letter from Birmingham Jail", "March on Washington", "I Have a Dream", "Nobel Peace Prize", "Selma", "Voting Rights Act", "Civil Rights Act", "Vietnam", "Memphis", "Gandhi", "nonviolence", "FBI@myths", "James Earl Ray@myths"],
+  "lede": "A preacher's son from Atlanta who, at twenty-six, was asked to lead a bus boycott in Montgomery, and over thirteen years turned nonviolent protest into a force that broke legal segregation in the American South, until a rifle shot on a motel balcony in Memphis ended his life at thirty-nine.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Martin Luther King Jr. was born in Atlanta, Georgia, on 15 January 1929. Like his father and grandfather he became a Baptist minister.",
+      "From the Montgomery bus boycott of 1955 to his death in 1968 he was the best-known leader of the American civil rights movement, which used marches, boycotts and sit-ins, without violence, to end racial segregation and win Black Americans the vote.",
+      "His speech at the March on Washington in 1963 is among the most famous in American history. He won the Nobel Peace Prize in 1964. He was assassinated in Memphis, Tennessee, on 4 April 1968."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "He was named Michael at birth. In 1934, after a trip to Germany, his father, pastor of Ebenezer Baptist Church, changed both their names to Martin Luther, after the Protestant reformer.",
+      "He grew up in a middle-class Black neighbourhood in a city where schools, buses, shops and parks were segregated by law. As a boy he was told that a white friend's parents would no longer let them play together.",
+      "He skipped two grades and entered Morehouse College at fifteen. He then studied at Crozer Theological Seminary in Pennsylvania, where he read about Mahatma Gandhi, and earned a doctorate in theology at Boston University in 1955.",
+      "In Boston he met Coretta Scott, a music student from Alabama. They married in 1953 and had four children."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "Montgomery, December 1955 to December 1956. After Rosa Parks was arrested for refusing to give up her bus seat to a white passenger, Black residents stopped riding the city's buses. King, the new pastor of Dexter Avenue Baptist Church, was elected to lead the boycott. His house was bombed. After 381 days, a Supreme Court ruling ended bus segregation in the city.",
+      "1957: he helped found the Southern Christian Leadership Conference to coordinate protests across the South. In 1958 he survived being stabbed at a book signing in New York.",
+      "1959: he and Coretta travelled to India to learn more about Gandhi's methods.",
+      "Birmingham, spring 1963. Campaigns against segregated shops were met with police dogs and fire hoses turned on marchers, many of them children. Arrested in April, he wrote his Letter from Birmingham Jail, answering white clergymen who had told him to be patient.",
+      "28 August 1963: about 250,000 people joined the March on Washington for Jobs and Freedom. Speaking at the Lincoln Memorial, he set out his dream of an America where his children would be judged by their character, not their colour.",
+      "1964: the Civil Rights Act outlawed segregation in public places and discrimination in jobs. In December, aged 35, he received the Nobel Peace Prize.",
+      "Selma, 1965. In March state troopers beat voting-rights marchers on the Edmund Pettus Bridge. King then led a march from Selma to Montgomery, and in August President Lyndon Johnson signed the Voting Rights Act.",
+      "1966 to 1967: he campaigned against slum housing in Chicago and, in April 1967, in a speech at Riverside Church in New York, came out strongly against the Vietnam War.",
+      "Memphis, April 1968. He went to support striking Black sanitation workers. On 3 April he gave a speech saying he had 'been to the mountaintop'. The next evening he was shot on the balcony of the Lorraine Motel and died about an hour later."
+    ]},
+    {"k": "works", "h": "Words and actions", "ps": [
+      "Nonviolence. Drawing on Christian teaching about love for enemies and on Gandhi, he trained protesters not to hit back. The point was to expose the violence of segregation to the nation, on television and in newspapers.",
+      "Letter from Birmingham Jail (1963), written partly in the margins of a newspaper, argued that people have a moral duty to break unjust laws, openly and accepting the penalty. It is still read in schools and universities.",
+      "I Have a Dream (1963). The speech joined the language of the Bible and the Declaration of Independence to demand that the country keep its promises.",
+      "Books, including Stride Toward Freedom (1958) about Montgomery and Why We Can't Wait (1964) about Birmingham.",
+      "Beyond Vietnam (1967) and the Poor People's Campaign, planned in his last months, linked racism with poverty and war."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Coretta Scott King (1927 to 2006), his wife, a singer and activist who carried on his work and led the campaign for a national holiday.",
+      "Martin Luther King Sr. (1899 to 1984), his father, pastor of Ebenezer Baptist Church in Atlanta.",
+      "Rosa Parks (1913 to 2005), whose arrest in 1955 began the Montgomery bus boycott.",
+      "Ralph Abernathy (1926 to 1990), his closest friend and partner in the movement, who took over the SCLC.",
+      "Mahatma Gandhi (1869 to 1948), whose nonviolent campaigns in India he studied. King visited India in 1959.",
+      "Lyndon B. Johnson (1908 to 1973), the president who signed the civil rights and voting laws, and who broke with King over Vietnam.",
+      "Malcolm X (1925 to 1965), the Nation of Islam minister who criticised nonviolence. They met only once, briefly, in 1964."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "In the South, 'Jim Crow' laws kept Black and white people apart in schools, transport, restaurants and churches. Literacy tests, poll taxes and threats kept most Black people from voting. Lynching and bombings punished those who resisted.",
+      "In 1954 the Supreme Court had ruled school segregation unconstitutional in Brown v. Board of Education, but Southern states resisted for years.",
+      {"t": "The FBI, led by J. Edgar Hoover, treated him as a threat. It wiretapped him, recorded his private life, including affairs outside his marriage, and in 1964 sent him an anonymous letter urging him to kill himself.", "lab": "verified", "why": "Documented in FBI files and the 1976 report of the US Senate's Church Committee."},
+      "The Cold War and the Vietnam War shaped how Americans saw his protests: some called him a patriot, others a communist sympathiser."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "Martin Luther King Jr. Day, signed into law in 1983, was first observed as a federal holiday in 1986. A memorial to him opened in Washington, D.C., in 2011.",
+      "His methods inspired movements for rights and freedom around the world, from South Africa to Eastern Europe.",
+      {"t": "In 1991 a Boston University committee found that parts of his doctoral dissertation used other writers' words without proper credit. It decided not to revoke the degree but attached a note to the thesis.", "lab": "verified", "why": "The committee's findings were published by the university in 1991."}
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "He was a gentle figure everyone agreed with.", "lab": "myth", "t": "In his lifetime he was jailed many times and called an extremist. In a 1966 Gallup poll nearly two-thirds of Americans viewed him unfavourably, and his open opposition to the Vietnam War in 1967 cost him more support."},
+      {"c": "The 'dream' passage was in his written speech.", "lab": "myth", "t": "It was not in the prepared text. He had used the image before in other speeches. People near him recall the singer Mahalia Jackson calling out to tell them about the dream, and he set his notes aside."},
+      {"c": "James Earl Ray acted alone.", "lab": "disputed", "t": "Ray pleaded guilty in 1969, then took back his plea. In 1999 a civil jury in Memphis, in a case brought by the King family, found there had been a conspiracy. A US Justice Department review in 2000 found no reliable evidence for that."},
+      {"c": "He studied Gandhi before Montgomery and planned the boycott as a Gandhian campaign.", "lab": "disputed", "t": "He had read about Gandhi as a student, but advisers such as Bayard Rustin taught him much of the practice of nonviolence during the boycott itself."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Martin Luther King, Jr., Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Martin-Luther-King-Jr"},
+      {"n": "Martin Luther King Jr., Biographical, The Nobel Peace Prize 1964", "u": "https://www.nobelprize.org/prizes/peace/1964/king/biographical/"},
+      {"n": "The Martin Luther King, Jr. Research and Education Institute, Stanford University", "u": "https://kinginstitute.stanford.edu/"},
+      {"n": "Further reading: Taylor Branch, Parting the Waters: America in the King Years 1954-63 (1988)"}
+    ]}
+  ]
+}

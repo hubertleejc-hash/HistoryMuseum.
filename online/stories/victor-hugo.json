@@ -1,0 +1,69 @@
+{
+  "hero": "",
+  "portrait": "pt-victor-hugo",
+  "kw": ["Besancon", "Paris", "Romanticism", "Hernani", "Notre-Dame de Paris", "Hunchback of Notre-Dame", "Quasimodo", "Les Miserables", "Jean Valjean", "Leopoldine", "Juliette Drouet", "Napoleon III", "exile", "Guernsey", "Hauteville House", "Pantheon", "death penalty", "Zola", "funeral@myths", "Vidocq@myths"],
+  "lede": "A general's son who was France's most famous poet by thirty, spent nineteen years in exile on a rock in the English Channel defying an emperor, wrote Les Miserables there, and came home a living monument whose coffin was followed by a crowd often counted in millions.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Victor Marie Hugo was born in Besancon, in eastern France, on 26 February 1802, when Napoleon was First Consul. He became the leading figure of French Romanticism: poet, playwright, novelist and, later, politician.",
+      "His novels The Hunchback of Notre-Dame (1831) and Les Miserables (1862) are read and adapted all over the world. In France he is honoured above all as a poet.",
+      "When Louis-Napoleon seized power in 1851, Hugo went into exile, mostly on the island of Guernsey, and refused to return until the Second Empire fell in 1870. He died in Paris on 22 May 1885 and was buried in the Pantheon."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father, Leopold Hugo, rose to be a general in Napoleon's armies. His mother, Sophie Trebuchet, was a royalist. Their marriage was unhappy and the boys moved between Paris, Italy and Spain as the father's posts changed.",
+      "In Paris the family lived for a time in a former convent with a big wild garden, the Feuillantines, which he remembered as paradise. His mother hid her lover there, a general who plotted against Napoleon and was later executed.",
+      {"t": "As a teenager he filled notebooks with verse and wrote that he wanted to be Chateaubriand, the great writer of the day, or nothing.", "lab": "likely", "why": "The line is recorded in family accounts and early biographies, not in a dated notebook that survives."},
+      "His first book of poems, in 1822, earned him a royal pension. The same year he married his childhood friend Adele Foucher. They had five children."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "25 February 1830: the first night of his play Hernani at the Comedie-Francaise turned into a shouting match between young Romantics and defenders of classical theatre. The young poet Theophile Gautier came in a bright red waistcoat. The 'battle of Hernani' marked Romanticism's victory on the French stage.",
+      "1831: Notre-Dame de Paris, known in English as The Hunchback of Notre-Dame, was a great success and stirred interest in saving France's medieval buildings.",
+      "1833: he began a relationship with the actress Juliette Drouet that lasted fifty years, until her death.",
+      "4 September 1843: his beloved eldest daughter, Leopoldine, nineteen and newly married, drowned with her husband when their boat capsized on the Seine at Villequier. Hugo, travelling, learned of it from a newspaper. For years he published almost nothing.",
+      "1848 to 1851: elected to the assembly of the new Second Republic, he moved from conservative to republican, speaking against poverty and the death penalty.",
+      "December 1851: when President Louis-Napoleon Bonaparte seized power in a coup, Hugo tried to organise resistance, then fled to Brussels with a false passport.",
+      "1852 to 1870: he lived in exile in Jersey and then, from 1855, in Guernsey, where in 1856 he bought Hauteville House. He attacked the new emperor, Napoleon III, in prose and verse and refused an amnesty in 1859.",
+      "1862: Les Miserables was published at once in several countries and sold enormously.",
+      "September 1870: after Napoleon III was defeated by Prussia at Sedan, Hugo returned to Paris to cheering crowds and stayed through the siege of the city.",
+      "22 May 1885: he died in Paris aged 83. His body lay in state under the Arc de Triomphe and was carried, at his own wish, in a pauper's hearse to the Pantheon."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "Poetry. Les Contemplations (1856), with its poems of grief for Leopoldine, is often called his finest book. Les Chatiments (1853) is a furious attack on Napoleon III. La Legende des siecles is a vast poem of human history.",
+      "Theatre. The preface to his play Cromwell (1827) became a manifesto for Romantic drama. Hernani and Ruy Blas broke the old rules of classical tragedy.",
+      "Notre-Dame de Paris (1831), a story of the deaf bell-ringer Quasimodo, the dancer Esmeralda and the priest Frollo in 15th-century Paris. The real hero, Hugo said, was the cathedral.",
+      "Les Miserables (1862), following the ex-convict Jean Valjean, the policeman Javert, Fantine and Cosette through decades of French history, up to the barricades of the 1832 uprising in Paris. It is a novel about poverty, justice and mercy.",
+      "Other novels include The Last Day of a Condemned Man (1829), an argument against the death penalty, Toilers of the Sea (1866), set on Guernsey, and Ninety-Three (1874), about the Revolution.",
+      "Drawings. He made about 4,000 drawings, many dark and dreamlike ink washes, sometimes using coffee and soot."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Adele Foucher (1803 to 1868), his wife. In the early 1830s she had an affair with his friend the critic Sainte-Beuve. She shared his exile and wrote an account of his life.",
+      "Juliette Drouet (1806 to 1883), his companion for fifty years. She copied his manuscripts and wrote him many thousands of letters.",
+      "Leopoldine Hugo (1824 to 1843), his eldest daughter, whose death shaped his poetry.",
+      "Adele Hugo (1830 to 1915), his younger daughter, who followed a British officer to Canada and spent most of her later life in an asylum.",
+      "Napoleon III (1808 to 1873), the emperor he mocked as 'Napoleon the Little' and fought from exile.",
+      "Emile Zola (1840 to 1902), who worshipped Hugo's poems as a boy, then attacked Romanticism in the name of realism and naturalism, while admiring the old man."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "He lived under Napoleon, the restored kings, the July Monarchy of Louis-Philippe, the Second Republic, the Second Empire and the Third Republic. France changed regime at least six times in his lifetime.",
+      "Paris was growing fast, full of poor workers and crowded old streets. Revolutions in 1830 and 1848, and the Paris Commune of 1871, were fought on its barricades.",
+      "Romanticism, with its love of passion, the Middle Ages and nature, swept European art in his youth. By his old age, realism and naturalism ruled the novel, but he remained the grand old man of French letters."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "Les Miserables has been made into many films and a stage musical seen by millions. The Hunchback of Notre-Dame has been filmed and animated again and again.",
+      "His houses in Paris, on the Place des Vosges, and in Guernsey are museums, run by the City of Paris.",
+      "He campaigned against the death penalty, for free schooling and for a 'United States of Europe'. France abolished capital punishment in 1981."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "His novel saved Notre-Dame.", "lab": "likely", "t": "Notre-Dame de Paris made the public care about the neglected cathedral. A restoration led by Jean-Baptiste Lassus and Eugene Viollet-le-Duc began in the 1840s. Many forces were at work, but his book is widely credited."},
+      {"c": "Two million people followed his funeral.", "lab": "disputed", "t": "Reports of the time and later historians speak of one to two million people lining the route or filing past. No one could count, but it was one of the largest gatherings Paris had ever seen."},
+      {"c": "Jean Valjean was a real man.", "lab": "myth", "t": "Valjean is fictional. Hugo drew on several sources, including the life of Eugene-Francois Vidocq, a criminal who became a police chief, and a released convict helped by the Bishop of Digne, who inspired Bishop Myriel."},
+      {"c": "He sent his publisher a telegram reading only '?' and got back '!'.", "lab": "disputed", "t": "This famous exchange about the sales of Les Miserables is told in many versions, but there is no firm contemporary record of it."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Victor Hugo, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Victor-Hugo"},
+      {"n": "Victor Hugo, Les Miserables (1862), translated by Isabel F. Hapgood, Project Gutenberg", "u": "https://www.gutenberg.org/ebooks/135"},
+      {"n": "Maisons de Victor Hugo, Paris and Guernsey", "u": "https://www.maisonsvictorhugo.paris.fr/"},
+      {"n": "Further reading: Graham Robb, Victor Hugo (1997)"}
+    ]}
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "hero": "",
+  "portrait": "pt-verdi",
+  "kw": ["Le Roncole", "Busseto", "Barezzi", "La Scala", "Milan", "Nabucco", "Va, pensiero", "Rigoletto", "Il trovatore", "La traviata", "Aida", "Cairo", "Requiem", "Otello", "Falstaff", "Boito", "Giuseppina Strepponi", "Sant'Agata", "Risorgimento", "Casa di Riposo", "Viva VERDI@myths", "Wagner@myths"],
+  "lede": "An innkeeper's son turned away by the Milan Conservatory, who lost his young wife and both children, nearly gave up music, and instead wrote twenty-eight operas whose tunes Italians sang in the streets while their country was being born.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Giuseppe Verdi was born in October 1813 in Le Roncole, a hamlet near Busseto in the former Duchy of Parma, northern Italy. His family kept a village inn and shop.",
+      "His third opera, Nabucco (1842), made him famous. In the early 1850s he wrote Rigoletto, Il trovatore and La traviata, still among the most performed operas in the world. Aida followed in 1871, and in old age Otello and Falstaff.",
+      "He became a symbol of the movement to unite Italy and sat in its first parliament. He died in Milan on 27 January 1901, aged 87, and left much of his fortune to a rest home for old musicians that he had built."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "The region was then under Napoleon's French empire, and his birth was registered in French. As a small boy he learned the organ from the village organist and soon played at church services himself.",
+      "Antonio Barezzi, a merchant in nearby Busseto and a keen music lover, took him into his house, paid for lessons and treated him as a son. Verdi later married Barezzi's daughter, Margherita.",
+      "In 1832 he applied to the Milan Conservatory and was refused. He was over the age limit, came from outside the Austrian-ruled region, and his piano playing was judged weak. He studied privately in Milan instead, with Vincenzo Lavigna, a composer at La Scala.",
+      "Back in Busseto he became town music master. He married Margherita in 1836 and they had a daughter and a son."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1838 to 1840: his first opera, Oberto, was staged at La Scala in Milan in 1839. But both his children died as babies, and in June 1840 Margherita died too. That autumn his comic opera Un giorno di regno failed. He vowed never to compose again.",
+      {"t": "1841 to 1842: the impresario of La Scala pressed a libretto about Nebuchadnezzar on him. Verdi said that it fell open at the chorus of the Hebrew slaves, 'Va, pensiero', and that the words drew him back to work. Nabucco opened in March 1842 and was a triumph.", "lab": "likely", "why": "The story comes from Verdi's own account dictated decades later, in 1879, and may be tidied up."},
+      "1843 to 1850: in what he called his 'galley years' he wrote opera after opera for theatres across Italy, among them Ernani and Macbeth.",
+      "1851 to 1853: Rigoletto (Venice, 1851), Il trovatore (Rome, January 1853) and La traviata (Venice, March 1853). Traviata failed at first and soon became a favourite.",
+      "1859: he married Giuseppina Strepponi, the soprano who had sung in Nabucco and had been his companion for more than ten years. That year Italians wrote 'Viva VERDI' on walls, as a hidden cheer for King Victor Emmanuel.",
+      "1861: at the request of the statesman Cavour, he was elected to the first parliament of the new Kingdom of Italy.",
+      "24 December 1871: Aida, commissioned for the new opera house in Cairo, had its premiere there. Its Italian premiere at La Scala followed in 1872.",
+      "1874: his Requiem, in memory of the novelist Alessandro Manzoni, was first performed in a church in Milan.",
+      "1887 and 1893: after years of near silence, he wrote Otello and then, at almost 80, his comic masterpiece Falstaff, both with the poet Arrigo Boito and both first staged at La Scala.",
+      "January 1901: he died after a stroke in a Milan hotel. A month later his body and Giuseppina's were moved to the Casa di Riposo per Musicisti, and huge crowds lined the streets."
+    ]},
+    {"k": "works", "h": "The music", "ps": [
+      "Melody and drama. His operas are full of tunes that are easy to remember, but every tune serves a character and a situation. He pushed his librettists hard for short, strong scenes.",
+      "Rigoletto, about a hunchbacked court jester whose daughter is seduced by the Duke, contains 'La donna e mobile', which the gondoliers of Venice were singing soon after the premiere.",
+      "La traviata, based on a play by Alexandre Dumas the younger, tells of Violetta, a Paris courtesan who gives up her lover for his family's sake and dies of tuberculosis. It shocked audiences by putting a story of its own time on stage.",
+      "Aida, set in ancient Egypt, is his grandest spectacle, with its Triumphal March, but at its heart is a story of love caught between two warring nations.",
+      "Otello and Falstaff, both based on Shakespeare, are written in a more continuous style. Falstaff ends with a great fugue on the words that all the world's a joke.",
+      "The Requiem, sometimes called, half in jest, his greatest opera, is a mass for the dead with operatic drama and terror in its Dies irae."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Antonio Barezzi (1787 to 1867), his patron, father-in-law and lifelong friend.",
+      "Margherita Barezzi (1814 to 1840), his first wife, who died at 26.",
+      "Giuseppina Strepponi (1815 to 1897), soprano, his partner from the late 1840s and wife from 1859. Clever and witty, she managed much of his life and correspondence.",
+      "Arrigo Boito (1842 to 1918), poet and composer, who wrote the librettos of Otello and Falstaff and revised Simon Boccanegra with him.",
+      "Giulio Ricordi (1840 to 1912), his publisher, who coaxed him back to work in old age.",
+      "Richard Wagner (1813 to 1883), born the same year, the other giant of 19th-century opera. They never met. When Wagner died, Verdi wrote to Ricordi: 'Sad, sad, sad'."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "In his youth Italy was split into states, many ruled or dominated by Austria. The Risorgimento, the movement for unity and independence, grew through revolts in 1848, wars in 1859 and 1866, and the capture of Rome in 1870.",
+      "Opera was Italy's great popular art. Every town had a theatre, and censors watched closely for anything political or immoral. Un ballo in maschera, about the murder of a king, had to be moved from Sweden to colonial Boston.",
+      "He was also a serious farmer at his estate of Sant'Agata near Busseto, and paid for a hospital in the nearby town of Villanova sull'Arda."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "Few composers are performed more often in opera houses today. La traviata alone is staged hundreds of times every year around the world.",
+      "The Casa di Riposo per Musicisti in Milan, which he called his finest work, still houses retired musicians. He left it the royalties from his works.",
+      "In Italy he remains a national figure, and 'Va, pensiero' is sung at public events as a second anthem."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "'Va, pensiero' was the anthem of Italian unification from the night of Nabucco.", "lab": "disputed", "t": "The chorus was popular from the start, but historians find little evidence from the 1840s that audiences treated it as a political rallying song. Much of that story grew later."},
+      {"c": "'Viva VERDI' was a code for the king.", "lab": "verified", "t": "Around 1859, supporters of unity wrote 'Viva VERDI' as an acronym for 'Viva Vittorio Emanuele Re d'Italia', long live Victor Emmanuel, King of Italy."},
+      {"c": "Verdi and Wagner were bitter rivals who fought in person.", "lab": "myth", "t": "Both were born in 1813, but they never met. Their supporters argued fiercely. Verdi studied Wagner's music and was moved by his death."},
+      {"c": "Aida was written for the opening of the Suez Canal.", "lab": "myth", "t": "The canal opened in 1869. Aida was commissioned for the Cairo opera house and premiered there in December 1871. Verdi had turned down an offer to write a hymn for the canal's opening."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Giuseppe Verdi, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Giuseppe-Verdi"},
+      {"n": "Verdi, Giuseppe, scores in the IMSLP Petrucci Music Library (public domain)", "u": "https://imslp.org/wiki/Category:Verdi,_Giuseppe"},
+      {"n": "Arthur Pougin, Verdi: An Anecdotic History of His Life and Works (1887, English edition), public domain"},
+      {"n": "Further reading: Julian Budden, The Operas of Verdi (3 vols, 1973 to 1981)"}
+    ]}
+  ]
+}

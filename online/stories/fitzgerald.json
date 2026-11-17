@@ -1,0 +1,68 @@
+{
+  "hero": "",
+  "portrait": "pt-fitzgerald",
+  "kw": ["Jazz Age", "The Great Gatsby", "Zelda", "Zelda Sayre", "St Paul", "Princeton", "This Side of Paradise", "Tender Is the Night", "Maxwell Perkins", "Scribner's", "Hemingway", "Paris", "Riviera", "Hollywood", "The Last Tycoon", "Prohibition", "Gatsby flopped@myths", "A Moveable Feast@myths"],
+  "lede": "A Midwestern boy who wanted to be rich, famous and loved, got all three at twenty-three, named the 1920s the Jazz Age, wrote the great novel of the American dream, and died at forty-four believing he had been forgotten.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Francis Scott Key Fitzgerald was born on 24 September 1896 in St Paul, Minnesota, and named after a distant relative, the author of the American national anthem.",
+      "His first novel, This Side of Paradise, made him famous overnight in 1920. With his wife Zelda he became the public face of the 1920s, a decade he called the Jazz Age, full of parties, money and restless young people.",
+      "His masterpiece, The Great Gatsby (1925), sold modestly in his lifetime. He spent his last years writing film scripts in Hollywood and died there in December 1940. Only after the Second World War did readers make Gatsby one of the best-known American novels."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His mother's family had money from a wholesale grocery business. His father, Edward, failed in business more than once. Scott grew up comfortable but aware of being poorer than the rich families around him, a feeling that runs through his books.",
+      "He went to a Catholic boarding school in New Jersey and in 1913 entered Princeton University. He wrote for student shows and magazines but neglected his classes.",
+      "In 1917, with the United States entering the First World War, he left Princeton without a degree and joined the army as a second lieutenant. He wrote a first novel in training camp, convinced he would die in France.",
+      "Stationed near Montgomery, Alabama, in 1918, he met Zelda Sayre, the lively eighteen-year-old daughter of a judge. The war ended before he was sent overseas."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1919: working in a New York advertising agency, he could not earn enough, and Zelda broke off their engagement. He went home to St Paul and rewrote his novel.",
+      "1920: This Side of Paradise was published by Scribner's in March and sold out quickly. A week later he married Zelda in New York. Magazines now paid him well for short stories.",
+      "1921 to 1922: their daughter Frances, called Scottie, was born. He published the novel The Beautiful and Damned and the story collection Tales of the Jazz Age.",
+      "1924 to 1925: the family moved to France, to Paris and the Riviera, where living was cheaper. The Great Gatsby appeared in April 1925.",
+      "Paris, spring 1925: he met Ernest Hemingway, then unknown, in a bar in Montparnasse. He had already urged his editor to sign him, and he became one of Hemingway's first champions.",
+      {"t": "April 1930: Zelda had a mental breakdown in Paris. She was treated in clinics in Switzerland and later in the United States and was diagnosed with schizophrenia. She spent much of the rest of her life in hospitals.", "lab": "likely", "why": "The breakdown and hospital stays are documented. Modern doctors debate whether the diagnosis of the time was correct."},
+      "1934: Tender Is the Night, a novel about a gifted psychiatrist and his troubled wife on the Riviera, drew on their life. It sold poorly.",
+      "1936: in Esquire magazine he published three frank essays about his own collapse, later collected as The Crack-Up.",
+      "1937: in debt, he took a contract as a screenwriter with MGM in Hollywood. He earned good money but received only one screen credit, for Three Comrades (1938).",
+      "21 December 1940: he died of a heart attack in Hollywood, aged 44, leaving his novel about a film producer, The Last Tycoon, unfinished."
+    ]},
+    {"k": "works", "h": "The books", "ps": [
+      "This Side of Paradise (1920), a young man's coming of age at Princeton. Readers took it as the voice of a new generation.",
+      "The Great Gatsby (1925), a short novel narrated by Nick Carraway about his neighbour Jay Gatsby, a mysterious millionaire who throws enormous parties on Long Island to win back Daisy, the woman he loved before the war. It is about money, class, longing and the idea that a person can remake himself. Its last pages, about a green light across the water, are among the most quoted in American writing.",
+      "Tender Is the Night (1934), his most personal novel, about love and decline among rich Americans in Europe.",
+      "Stories. He wrote more than 160 short stories, many for the Saturday Evening Post, which paid for his lifestyle. They include Babylon Revisited and The Curious Case of Benjamin Button.",
+      "The Last Tycoon (1941), unfinished, published after his death by his friend the critic Edmund Wilson."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Zelda Sayre Fitzgerald (1900 to 1948), his wife, a writer and painter in her own right. She died in a fire at a hospital in Asheville, North Carolina.",
+      "Frances 'Scottie' Fitzgerald (1921 to 1986), their only child, later a journalist.",
+      "Maxwell Perkins (1884 to 1947), his editor at Scribner's, who believed in him from the first novel and lent him money in hard years.",
+      "Ernest Hemingway (1899 to 1961). They met in Paris in 1925. Fitzgerald pushed Scribner's to publish him and in 1926 advised him to cut the opening of The Sun Also Rises, which he did. As Hemingway grew famous and Fitzgerald struggled, the friendship cooled into rivalry.",
+      "Edmund Wilson (1895 to 1972), critic and Princeton friend, who edited his unfinished work after his death.",
+      "Sheilah Graham (1904 to 1988), a Hollywood gossip columnist and his partner in his last years."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "The 1920s in America were a boom time. Cars, radio, cinema and jazz spread fast, and young women, the flappers, cut their hair short and claimed new freedoms.",
+      "Prohibition banned alcohol from 1920 to 1933, which made drinking glamorous and fed organised crime. Gatsby's own fortune is hinted to come from bootlegging.",
+      "Many American writers and artists lived in Paris, where the dollar went far. The Wall Street Crash of 1929 and the Depression ended the party, and Fitzgerald's kind of glamour fell out of fashion."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "In 1945 about 150,000 copies of The Great Gatsby were given to American soldiers in cheap wartime editions. After the war it was taught in schools and became one of the most read American novels.",
+      "Gatsby has been filmed several times and adapted for stage and opera. Since 2021 it has been in the public domain in the United States.",
+      "His life with Zelda became a legend of its own: the golden couple whose talent and excess ended in illness and early death."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "The Great Gatsby was a flop.", "lab": "disputed", "t": "It sold around 20,000 copies in its first year, fewer than his first two novels, and his last royalty statement listed unsold copies still in the warehouse. Critics such as T. S. Eliot admired it. Its fame came after the Second World War."},
+      {"c": "A Moveable Feast tells the true story of Fitzgerald.", "lab": "disputed", "t": "Hemingway's Paris memoir, written decades later and published in 1964 after his death, paints Fitzgerald as weak and dominated by Zelda. It is vivid but one-sided, and several scenes cannot be checked."},
+      {"c": "Zelda was only his muse.", "lab": "myth", "t": "She published stories, essays and a novel, Save Me the Waltz (1932), and painted seriously. He also used lines from her letters and diaries in his own books."},
+      {"c": "He invented the phrase 'the Jazz Age'.", "lab": "likely", "t": "He did not coin the word jazz, but his 1922 collection Tales of the Jazz Age made the phrase the common name for the decade."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "F. Scott Fitzgerald, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/F-Scott-Fitzgerald"},
+      {"n": "F. Scott Fitzgerald, The Great Gatsby (1925), Project Gutenberg", "u": "https://www.gutenberg.org/ebooks/64317"},
+      {"n": "F. Scott Fitzgerald, This Side of Paradise (1920), Project Gutenberg (public domain)"},
+      {"n": "Further reading: Matthew J. Bruccoli, Some Sort of Epic Grandeur (1981)"}
+    ]}
+  ]
+}
