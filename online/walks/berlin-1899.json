@@ -1,0 +1,173 @@
+{
+ "id": "berlin-1899",
+ "y": 1899,
+ "tol": 8,
+ "c": "germany",
+ "place": "Berlin",
+ "look": [
+  [
+   "Buildings",
+   "Grand new stone blocks four or five floors high, with shops and cafés below, beside older palaces and museums. Berlin had grown fast to about 1.8 million people."
+  ],
+  [
+   "Clothing",
+   "Men in dark suits with bowler hats, top hats or straw boaters, many with big moustaches. Women in long skirts, puffed sleeves and wide hats. Soldiers in spiked helmets."
+  ],
+  [
+   "Getting around",
+   "Electric trams, horse buses and cabs. The first underground and elevated railway line opened in 1902."
+  ],
+  [
+   "Light at night",
+   "Bright electric arc lamps on the big streets and squares, gas lamps on the rest."
+  ],
+  [
+   "News of the time",
+   "Kaiser Wilhelm II ruled the German Empire, and Berlin had been its capital since 1871."
+  ]
+ ],
+ "stops": [
+  {
+   "pic": "berlin-1900-1",
+   "name": "Unter den Linden at Café Bauer",
+   "kind": "photograph",
+   "made": "Photographed between 1890 and 1905",
+   "fx": 0.4,
+   "title": "Unter den Linden, Café Bauer",
+   "note": "A photochrom: a black-and-white photograph turned into colour by hand-made printing plates, so the colours are close but not exact.",
+   "spots": [
+    {
+     "x": 0.22,
+     "y": 0.6,
+     "t": "Café Bauer",
+     "d": "A famous Viennese-style café on the corner of Friedrichstraße, with newspapers from all over the world.",
+     "how": "Its name is written across the front."
+    },
+    {
+     "x": 0.14,
+     "y": 0.83,
+     "t": "An advertising column",
+     "d": "Round columns for posters, invented by the Berlin printer Ernst Litfaß in 1854.",
+     "how": "Germans still call them Litfaß columns."
+    },
+    {
+     "x": 0.34,
+     "y": 0.8,
+     "t": "A horse bus",
+     "d": "A bus pulled by horses, with seats on the roof.",
+     "how": "Electric trams were taking over at this time."
+    },
+    {
+     "x": 0.5,
+     "y": 0.85,
+     "t": "Busy pavements",
+     "d": "Crowds of people in hats on the city's grandest street.",
+     "how": "Unter den Linden ran from the royal palace to the Brandenburg Gate."
+    }
+   ]
+  },
+  {
+   "pic": "berlin-1900-2",
+   "name": "The New Guardhouse",
+   "kind": "photograph",
+   "made": "Photographed between 1890 and 1905",
+   "fx": 0.5,
+   "title": "Berlin, Neue Wache",
+   "note": "A photochrom: a black-and-white photograph turned into colour by hand-made printing plates, so the colours are close but not exact.",
+   "spots": [
+    {
+     "x": 0.48,
+     "y": 0.4,
+     "t": "The New Guardhouse",
+     "d": "Built from 1816 to 1818 by the architect Karl Friedrich Schinkel for the king's guard.",
+     "how": "It still stands on Unter den Linden."
+    },
+    {
+     "x": 0.6,
+     "y": 0.53,
+     "t": "Soldiers marching",
+     "d": "The changing of the guard here drew crowds every day.",
+     "how": "You can see the line of soldiers in front of the guardhouse."
+    },
+    {
+     "x": 0.29,
+     "y": 0.47,
+     "t": "A general on a pillar",
+     "d": "Statues of generals from the wars against Napoleon stood in front.",
+     "how": "They were made by the sculptor Christian Daniel Rauch."
+    },
+    {
+     "x": 0.12,
+     "y": 0.88,
+     "t": "A delivery cart",
+     "d": "A cart with the shop's name painted on the side.",
+     "how": "Shops delivered goods by horse and cart."
+    }
+   ]
+  },
+  {
+   "pic": "berlin-1900-3",
+   "name": "Potsdamer Platz",
+   "kind": "photograph",
+   "made": "Photographed between 1890 and 1905",
+   "fx": 0.5,
+   "title": "Berlin, Potsdamer Platz",
+   "note": "A photochrom: a black-and-white photograph turned into colour by hand-made printing plates, so the colours are close but not exact.",
+   "spots": [
+    {
+     "x": 0.6,
+     "y": 0.67,
+     "t": "Trams and buses",
+     "d": "Potsdamer Platz was one of the busiest crossings in Europe, full of trams, buses and cabs.",
+     "how": "Look at the traffic jam across the square."
+    },
+    {
+     "x": 0.43,
+     "y": 0.75,
+     "t": "Out for a walk",
+     "d": "Her puffed sleeves and long skirt and his hat are the fashion of about 1900.",
+     "how": "Fashion pictures of the time show the same shapes."
+    },
+    {
+     "x": 0.05,
+     "y": 0.78,
+     "t": "A long cape",
+     "d": "Capes and long coats kept out the wind.",
+     "how": "Several people here wear them."
+    }
+   ]
+  },
+  {
+   "pic": "berlin-1900-4",
+   "name": "The Neptune Fountain and the Palace",
+   "kind": "photograph",
+   "made": "Photographed between 1890 and 1905",
+   "fx": 0.55,
+   "title": "Berlin, Neptunbrunnen",
+   "note": "A photochrom: a black-and-white photograph turned into colour by hand-made printing plates, so the colours are close but not exact.",
+   "spots": [
+    {
+     "x": 0.55,
+     "y": 0.73,
+     "t": "The Neptune Fountain",
+     "d": "Unveiled in 1891: the sea god with four women for Germany's great rivers, the Rhine, Elbe, Oder and Vistula.",
+     "how": "The fountain still stands in Berlin, in a different spot."
+    },
+    {
+     "x": 0.5,
+     "y": 0.3,
+     "t": "The Berlin Palace",
+     "d": "Home of the Prussian kings and German emperors. It was damaged in the Second World War and blown up in 1950.",
+     "how": "Its front has been rebuilt and is now the Humboldt Forum."
+    },
+    {
+     "x": 0.68,
+     "y": 0.71,
+     "t": "A coach",
+     "d": "A horse-drawn coach passes the palace.",
+     "how": "There were no cars on this square yet."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,173 @@
+{
+ "id": "stpetersburg-1896",
+ "y": 1896,
+ "tol": 10,
+ "c": "russia",
+ "place": "St Petersburg",
+ "look": [
+  [
+   "Buildings",
+   "Grand stone palaces and long classical fronts painted yellow, green, pink and white, along wide straight avenues and canals. Gold spires and domes rose over the skyline."
+  ],
+  [
+   "Clothing",
+   "Men in long coats with peaked caps or fur hats, and many in uniform. Coachmen wore thick padded coats. Women wore long skirts and fitted jackets."
+  ],
+  [
+   "Getting around",
+   "Horse cabs, sledges in winter, and horse trams with seats on the roof. Electric trams came only in 1907."
+  ],
+  [
+   "Light at night",
+   "Gas and electric lamps on the main streets. In June the sky hardly gets dark at all: the White Nights."
+  ],
+  [
+   "News of the year",
+   "St Petersburg was the capital of the Russian Empire. Nicholas II was crowned tsar in May 1896."
+  ]
+ ],
+ "stops": [
+  {
+   "pic": "stpetersburg-1896-1",
+   "name": "Nevsky Prospekt, the main street",
+   "kind": "photograph",
+   "made": "Photographed between 1890 and 1900",
+   "fx": 0.5,
+   "title": "Nevsky Prospekt and the Admiralty",
+   "note": "A photochrom: a black-and-white photograph turned into colour by hand-made printing plates, so the colours are close but not exact.",
+   "spots": [
+    {
+     "x": 0.59,
+     "y": 0.62,
+     "t": "The Admiralty spire",
+     "d": "A gold spire 72 metres high closes the end of Nevsky Prospekt.",
+     "how": "It still shines at the end of the street today."
+    },
+    {
+     "x": 0.08,
+     "y": 0.62,
+     "t": "Shop signs",
+     "d": "Shop names in Russian and German. Many merchants in the capital came from German families.",
+     "how": "The signs in the photograph are in both alphabets."
+    },
+    {
+     "x": 0.3,
+     "y": 0.83,
+     "t": "Tram rails",
+     "d": "Rails in the road for horse trams.",
+     "how": "Electric trams replaced them in 1907."
+    },
+    {
+     "x": 0.07,
+     "y": 0.78,
+     "t": "A horse at work",
+     "d": "Horses pulled every cart and cab in the city.",
+     "how": "There were no cars here yet."
+    }
+   ]
+  },
+  {
+   "pic": "stpetersburg-1896-2",
+   "name": "Znamenskaya Square, by the station",
+   "kind": "photograph",
+   "made": "Photographed in 1896",
+   "fx": 0.6,
+   "title": "Znamenskaya Square",
+   "note": "A photochrom: a black-and-white photograph turned into colour by hand-made printing plates, so the colours are close but not exact.",
+   "spots": [
+    {
+     "x": 0.75,
+     "y": 0.25,
+     "t": "The Church of the Sign",
+     "d": "The church that gave the square its name. It was pulled down in 1940 to build a metro station.",
+     "how": "Old photographs like this are how we know what it looked like."
+    },
+    {
+     "x": 0.86,
+     "y": 0.6,
+     "t": "Horse trams with roof seats",
+     "d": "Passengers could climb up curved stairs and ride on the roof.",
+     "how": "Horse trams ran here until electric ones came in 1907."
+    },
+    {
+     "x": 0.45,
+     "y": 0.68,
+     "t": "A horse cab",
+     "d": "Cabs waited for travellers from the Moscow railway station on this square.",
+     "how": "The station still stands on the square."
+    },
+    {
+     "x": 0.28,
+     "y": 0.8,
+     "t": "Caps and long coats",
+     "d": "Most men wear peaked caps and long coats, even in summer.",
+     "how": "Count the caps in the crowd."
+    }
+   ]
+  },
+  {
+   "pic": "stpetersburg-1896-3",
+   "name": "Palace Square",
+   "kind": "photograph",
+   "made": "Photographed in 1896",
+   "fx": 0.5,
+   "title": "Palace Square and the Alexander Column",
+   "note": "A photochrom: a black-and-white photograph turned into colour by hand-made printing plates, so the colours are close but not exact.",
+   "spots": [
+    {
+     "x": 0.53,
+     "y": 0.25,
+     "t": "The Alexander Column",
+     "d": "47.5 metres of red granite, set up in 1834 for the victory over Napoleon. It stands by its own weight, with no fixings.",
+     "how": "It is still there, topped by an angel."
+    },
+    {
+     "x": 0.08,
+     "y": 0.67,
+     "t": "A carriage and coachman",
+     "d": "A coachman in a padded coat drives a carriage across the square.",
+     "how": "Photographs of the time show the same thick coats."
+    },
+    {
+     "x": 0.6,
+     "y": 0.65,
+     "t": "A square for parades",
+     "d": "Palace Square is huge and mostly empty, made for military parades in front of the tsar's Winter Palace.",
+     "how": "The Winter Palace stands on the square, out of view here."
+    }
+   ]
+  },
+  {
+   "pic": "stpetersburg-1896-4",
+   "name": "Kazan Cathedral",
+   "kind": "photograph",
+   "made": "Photographed in 1896",
+   "fx": 0.45,
+   "title": "Kazan Cathedral",
+   "note": "A photochrom: a black-and-white photograph turned into colour by hand-made printing plates, so the colours are close but not exact.",
+   "spots": [
+    {
+     "x": 0.4,
+     "y": 0.27,
+     "t": "Kazan Cathedral",
+     "d": "Built from 1801 to 1811, with a curved row of 96 columns inspired by St Peter's in Rome.",
+     "how": "It still stands on Nevsky Prospekt."
+    },
+    {
+     "x": 0.3,
+     "y": 0.6,
+     "t": "Posts and chains",
+     "d": "Low posts and chains kept carriages off the square in front of the cathedral.",
+     "how": "You can see them running along the front."
+    },
+    {
+     "x": 0.5,
+     "y": 0.35,
+     "t": "A tall lamp post",
+     "d": "Nevsky Prospekt got electric street lights in the 1880s.",
+     "how": "The lamp stands on the avenue in front of the cathedral."
+    }
+   ]
+  }
+ ]
+}

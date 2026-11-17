@@ -1,0 +1,165 @@
+{
+ "id": "rome-79",
+ "y": 79,
+ "tol": 60,
+ "c": "italy",
+ "place": "Rome",
+ "look": [
+  [
+   "Buildings",
+   "Marble temples and halls around the Forum, and brick apartment blocks called insulae, up to five or six floors high, with red tile roofs. The Colosseum was nearly finished: it opened in AD 80."
+  ],
+  [
+   "Clothing",
+   "Men wore a knee-length tunic with a belt. Citizens put on the heavy white toga for public business. Women wore a long dress called a stola with a shawl, the palla, over it."
+  ],
+  [
+   "Getting around",
+   "Mostly on foot. A law from Julius Caesar's time kept most carts off the streets by day, so deliveries rumbled through at night. The rich were carried in litters."
+  ],
+  [
+   "Light at night",
+   "No street lamps. People carried oil lamps or torches, and slaves with torches walked ahead of the rich."
+  ],
+  [
+   "News of the year",
+   "In AD 79 the emperor Vespasian died and his son Titus took over. That year Mount Vesuvius buried Pompeii, near Naples, and that is why its paintings survived."
+  ]
+ ],
+ "stops": [
+  {
+   "pic": "rome-79-1",
+   "name": "In a Roman forum (a painting from Pompeii)",
+   "kind": "painting",
+   "made": "Painted on a wall in Pompeii, before AD 79",
+   "fx": 0.5,
+   "title": "Scenes of the forum, from the estate of Julia Felix",
+   "note": "Nobody photographed Rome in the Caesars' time, so this walk uses what Romans painted and what survived. This real Roman wall painting comes from Pompeii, a Roman town near Naples.",
+   "spots": [
+    {
+     "x": 0.7,
+     "y": 0.3,
+     "t": "A covered walkway",
+     "d": "Forums were lined with columns holding up a roof, so people could shop and talk out of the sun and rain.",
+     "how": "Painted columns divide this whole painting, and the real columns still stand in Pompeii's forum."
+    },
+    {
+     "x": 0.32,
+     "y": 0.45,
+     "t": "Tunics and cloaks",
+     "d": "Most people wore a simple tunic to the knee, with a cloak over it when it was cool.",
+     "how": "Roman paintings and statues show the same clothes again and again."
+    },
+    {
+     "x": 0.54,
+     "y": 0.6,
+     "t": "Children in the crowd",
+     "d": "Children came to the forum with their parents. Some boys had lessons there too, with a teacher in the open air.",
+     "how": "Another part of this same painting shows a school lesson in the forum."
+    }
+   ]
+  },
+  {
+   "pic": "rome-79-2",
+   "name": "The Roman Forum, looking to the Capitol",
+   "kind": "photograph",
+   "made": "Photographed about 1860, long after AD 79",
+   "fx": 0.5,
+   "title": "The Forum Romanum against the Capitol",
+   "note": "Taken about 1,800 years later. The ruins show where the Forum of AD 79 stood.",
+   "spots": [
+    {
+     "x": 0.42,
+     "y": 0.47,
+     "t": "Roman walls under a later palace",
+     "d": "The lower stone walls are the Tabularium, Rome's records office, built in 78 BC. In AD 79 it was already 150 years old.",
+     "how": "Medieval and Renaissance Romans built the city hall on top of it, and it is still there."
+    },
+    {
+     "x": 0.5,
+     "y": 0.12,
+     "t": "A much later tower",
+     "d": "The tower and palace on top were built in the Middle Ages and the 1500s, so they were not here in AD 79.",
+     "how": "They are Rome's city hall today."
+    },
+    {
+     "x": 0.77,
+     "y": 0.55,
+     "t": "A newer arch",
+     "d": "This arch was built in AD 203 for the emperor Septimius Severus, more than a hundred years after 79.",
+     "how": "Its inscription names the emperor and his sons."
+    },
+    {
+     "x": 0.4,
+     "y": 0.85,
+     "t": "The Cow Field",
+     "d": "By 1860 the Forum was half buried, and Romans called it the Campo Vaccino, the Cow Field, because cattle grazed there.",
+     "how": "Proper digging of the Forum only got going later in the 1800s."
+    }
+   ]
+  },
+  {
+   "pic": "rome-79-3",
+   "name": "The Temple of Saturn",
+   "kind": "photograph",
+   "made": "Photographed in the 1860s",
+   "fx": 0.4,
+   "title": "Roma. Forum Romanum (Robert Rive)",
+   "spots": [
+    {
+     "x": 0.33,
+     "y": 0.35,
+     "t": "The Temple of Saturn",
+     "d": "Rome kept its state treasury in this temple. A temple stood here in AD 79, though these columns come from a rebuilding in the 300s.",
+     "how": "Its eight columns still stand in the Forum."
+    },
+    {
+     "x": 0.55,
+     "y": 0.2,
+     "t": "The Colosseum, far away",
+     "d": "In AD 79 the Colosseum was a building site. Titus opened it in AD 80 with 100 days of games.",
+     "how": "Roman writers describe the opening games."
+    },
+    {
+     "x": 0.62,
+     "y": 0.88,
+     "t": "Roman paving",
+     "d": "Big stones of the Forum's streets, worn by carts and feet.",
+     "how": "Stones like these still lie in the Forum today."
+    }
+   ]
+  },
+  {
+   "pic": "rome-79-4",
+   "name": "Inside a Roman house, in Pompeii",
+   "kind": "photograph",
+   "made": "Painted before AD 79, photographed in 2019",
+   "fx": 0.5,
+   "title": "Painted walls in the estate of Julia Felix, Pompeii",
+   "note": "The walls were painted by Romans; the photograph is modern.",
+   "spots": [
+    {
+     "x": 0.45,
+     "y": 0.6,
+     "t": "Red walls",
+     "d": "Romans loved strong red, yellow and black walls. Reds came from minerals such as red ochre.",
+     "how": "The paint survived under the volcanic ash of AD 79."
+    },
+    {
+     "x": 0.79,
+     "y": 0.42,
+     "t": "A wall niche",
+     "d": "A niche for a lamp, a statue or the small gods that guarded the household.",
+     "how": "Many houses in Pompeii have niches like this."
+    },
+    {
+     "x": 0.26,
+     "y": 0.5,
+     "t": "Painted frames",
+     "d": "Panels painted to look like framed pictures and columns, to make a small room feel grand.",
+     "how": "Pompeii's houses are full of painted architecture like this."
+    }
+   ]
+  }
+ ]
+}

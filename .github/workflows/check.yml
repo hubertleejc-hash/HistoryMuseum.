@@ -1,0 +1,66 @@
+name: Quick check
+
+# A fast safety check on every pull request, before it is merged: builds the app page, checks that the
+# museum's data hangs together and that every picture file is there, then opens every screen (all people,
+# events, countries, eras, places, Gallery, Walk, Play, Talk...) in headless Chrome at iPhone size, in light
+# and dark. It fails on a JavaScript error, a missing file, an empty screen, a page wider than the phone,
+# a broken picture or a person page that does not show its person. Free, about two minutes.
+# New stories and places in online/ are tested in the app too: the check serves them from the pull request.
+# The full simulator run (Screenshots) stays on main.
+# Pushes made by other workflows (Gather art, Gather guide, Gather street scenes, Online feed) do not start
+# pull_request runs, so after one of them commits to a branch, run this check by hand on that branch
+# (Actions > Quick check > Run workflow) before merging. A pull request is merged only when the newest commit has a green Quick check.
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: quick-check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quick-check:
+    name: Quick check
+    # Pinned, like the browser: the Playwright version in ci/package-lock.json supports Ubuntu 24.04.
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build the app page and this branch's online feed
+        run: |
+          python3 app/build.py
+          python3 tools/online/build_feed.py
+          SIZE=$(stat -c%s ios/HistoryMuseum/Web/index.html)
+          echo "App page: $SIZE bytes"
+          [ "$SIZE" -gt 1000000 ] || { echo "::error::App page is only $SIZE bytes; fonts or stories were not built in"; exit 1; }
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: ci/package-lock.json
+      # The test browser is the headless Chromium that matches the pinned Playwright (ci/package-lock.json),
+      # so a weekly Chrome update on GitHub's runner can never change the result.
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('ci/package-lock.json') }}
+      - name: Install the test browser
+        run: |
+          npm ci --prefix ci --no-audit --no-fund
+          cd ci && npx playwright install --with-deps --only-shell chromium
+      - name: Open every screen in light and dark
+        run: node ci/smoke.mjs
+      - name: Screenshots of the problems
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: quick-check-problems
+          path: ci-output
+          if-no-files-found: ignore
+          retention-days: 7
