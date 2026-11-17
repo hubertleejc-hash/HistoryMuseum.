@@ -1844,8 +1844,9 @@ function viewArt(){
     <section><div class="sec-head"><h2>How Japan got into Van Gogh's paintings</h2></div>${chainHTML(H.chains.find(c => c.id === "japan-paris"), true)}</section>
     <p class="muted" style="font-size:12.5px">The collection's pictures and texts come from the open-access programmes of the Cleveland Museum of Art and the Metropolitan Museum of Art (public domain, CC0). Every work names its museum. Nothing here is made by AI.</p>`;
   loadArt(() => {
+    const gf = document.getElementById("galFeat"); if (!gf) return;   // the visitor left the Gallery before the collection loaded
     const feat = ART.filter(it => it.src === "feat");
-    document.getElementById("galFeat").innerHTML = feat.filter(it => !it.id.startsWith("pt-")).map(it => `<button type="button" class="gf" data-feat="${esc(it.id)}"><span class="gt-img"><img src="${esc(it.img)}" alt="" loading="lazy" decoding="async" onload="this.classList.add('in')" onerror="this.parentNode.classList.add('broken')"></span><b>${esc(it.t)}</b><small>${esc(it.a)}${it.d ? ", " + esc(it.d) : ""}</small></button>`).join("");
+    gf.innerHTML = feat.filter(it => !it.id.startsWith("pt-")).map(it => `<button type="button" class="gf" data-feat="${esc(it.id)}"><span class="gt-img"><img src="${esc(it.img)}" alt="" loading="lazy" decoding="async" onload="this.classList.add('in')" onerror="this.parentNode.classList.add('broken')"></span><b>${esc(it.t)}</b><small>${esc(it.a)}${it.d ? ", " + esc(it.d) : ""}</small></button>`).join("");
     drawArtGrid();
   });
   const qi = document.getElementById("galQ"); let tq;
