@@ -104,7 +104,7 @@ print("gallery:", len(catalog), "works,", sum(1 for r in catalog if r["wing"] ==
 images_js += "\nwindow.HISTORY.artShards = " + str(SHARDS) + "; window.HISTORY.artCount = " + str(len(catalog)) + ";"
 
 for tag, f in (("/*__DATA__*/", "data.js"), ("/*__TODAY__*/", "today.js"), ("/*__CONTENT__*/", "content.js"), ("/*__DEEP__*/", "deep.js"), ("/*__ERAS__*/", "eras.js"), ("/*__WALKS__*/", "WALKS"),
-               ("/*__CHAPTERS__*/", "chapters.js"), ("/*__IMAGES__*/", None), ("/*__GEO__*/", "geo.js")):
+               ("/*__CHAPTERS__*/", "chapters.js"), ("/*__VOICE__*/", "voice.js"), ("/*__IMAGES__*/", None), ("/*__GEO__*/", "geo.js")):
     assert tag in src, tag
     src = src.replace(tag, images_js if f is None else walks_js if f == "WALKS" else (d/f).read_text())
 (d/"index.html").write_text(src)
