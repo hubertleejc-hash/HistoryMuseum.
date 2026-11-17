@@ -1,0 +1,71 @@
+{
+  "hero": "",
+  "portrait": "pt-bohr",
+  "kw": ["Copenhagen", "Denmark", "atom", "Bohr model", "hydrogen", "quantum", "Rutherford", "Manchester", "Institute for Theoretical Physics", "Nobel Prize 1922", "complementarity", "Copenhagen interpretation", "Einstein", "Solvay", "Heisenberg", "Los Alamos", "CERN", "Margrethe", "Harald Bohr", "God does not play dice@myths", "football@myths", "1941 meeting@myths"],
+  "lede": "A soft-spoken Dane who, at 27, put electrons on fixed tracks around the nucleus and so explained the light of hydrogen, then made his Copenhagen institute the place where the strangest ideas of quantum physics were argued into shape.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Niels Henrik David Bohr was born in Copenhagen on 7 October 1885. His father was a professor of physiology; his mother came from a wealthy Jewish banking family.",
+      "In 1913 he proposed a new model of the atom, in which electrons can only occupy certain orbits and give out light when they jump between them. It won him the Nobel Prize in Physics in 1922. His institute in Copenhagen became the world centre of the new quantum physics.",
+      "During the Second World War he escaped occupied Denmark, advised the Allied atomic bomb project, and spent his later years pleading for openness between nations about nuclear weapons. He died in Copenhagen on 18 November 1962."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "He grew up in a house full of talk. Scientists, philosophers and writers came to dinner with his father, and Niels and his younger brother Harald listened. The two brothers stayed very close for life.",
+      "Both played football for the Copenhagen club Akademisk Boldklub, Niels in goal. Harald was good enough to win an Olympic silver medal with Denmark in 1908 and became a well-known mathematician.",
+      "As a student Niels won a gold medal from the Royal Danish Academy in 1907 for experiments on the surface tension of water, made with glass jets in his father's laboratory. He took his doctorate in 1911 on the electron theory of metals."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1911 to 1912: he went to Cambridge to work with J. J. Thomson, who discovered the electron, but they did not get on. In 1912 he moved to Manchester to work with Ernest Rutherford, who had just found that the atom has a tiny, heavy nucleus.",
+      "1912: he married Margrethe Norlund. They had six sons, two of whom died young.",
+      "1913: he published three papers on the structure of atoms. By mixing Rutherford's nucleus with the quantum ideas of Max Planck and Albert Einstein, he explained the exact colours of light that hydrogen gives out, a puzzle for decades.",
+      "1921: his Institute for Theoretical Physics opened in Copenhagen, paid for partly by the Carlsberg Foundation. Young physicists came from all over the world, among them Werner Heisenberg, Wolfgang Pauli and Paul Dirac.",
+      "1922: he was awarded the Nobel Prize in Physics, on the same day that Einstein was awarded the delayed 1921 prize.",
+      "1927: at Como in Italy he set out his idea of complementarity: that light and electrons can behave as waves or as particles, depending on how we measure them, and we need both pictures. That October at the Solvay conference in Brussels he and Einstein began a debate about quantum theory that lasted until Einstein's death.",
+      "1939: he brought news of the discovery of nuclear fission to America, and with John Wheeler worked out that it was the rare uranium-235 that would split most easily.",
+      "September 1941: Heisenberg, now leading German nuclear research, visited occupied Copenhagen and spoke to Bohr alone. What was said has been argued over ever since.",
+      "September 1943: warned that he was about to be arrested, he escaped with Margrethe by fishing boat to Sweden. In Stockholm he urged the Swedish king and government to offer refuge to Denmark's Jews. He was then flown to Britain in the empty bomb bay of a Mosquito aircraft.",
+      "1944: he visited Los Alamos under the name Nicholas Baker. He met Churchill in May and Roosevelt in August, urging them to tell the Soviet Union about the bomb to avoid an arms race. Churchill was suspicious of him and rejected the idea.",
+      "1950: he wrote an Open Letter to the United Nations calling for an 'open world' in which nations shared scientific and military information."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "The Bohr model of the atom (1913). Electrons travel only in certain allowed orbits. When one drops to a lower orbit, the atom gives off a packet of light of an exact energy, which is why each element shines with its own set of colours.",
+      "The correspondence principle. The rule that quantum physics must agree with ordinary physics for large objects, which guided the building of the new theory.",
+      "Complementarity and the Copenhagen interpretation. Together with Heisenberg, he shaped the most widely taught way of understanding what quantum mechanics says about reality.",
+      "The liquid-drop model of the nucleus (1936 to 1939), which treated the nucleus like a drop of fluid and helped explain fission.",
+      "His Nobel lecture of 1922, The Structure of the Atom, is free to read on the Nobel Prize website."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Harald Bohr (1887 to 1951), his brother, mathematician and footballer.",
+      "Margrethe Bohr (1890 to 1984), his wife, who typed and discussed his papers and ran the household at the institute.",
+      "Ernest Rutherford (1871 to 1937), his teacher in Manchester and lifelong friend.",
+      "Albert Einstein (1879 to 1955), his friend and most famous opponent in the debate on quantum mechanics.",
+      "Max Planck (1858 to 1947), whose quantum of energy (1900) was the starting point for Bohr's model.",
+      "Werner Heisenberg (1901 to 1976), his favourite student in the 1920s, later on the other side of the war.",
+      "Lise Meitner (1878 to 1968), who with her nephew Otto Frisch explained fission in 1938 to 1939; Frisch told Bohr first.",
+      "Aage Bohr (1922 to 2009), his son, who won the Nobel Prize in Physics in 1975."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Physics was turned upside down in his lifetime. Around 1900 most scientists thought atoms were like tiny solid balls. By 1930 a new mechanics described them in terms of probabilities.",
+      "After 1933 his institute helped scientists who lost their jobs under the Nazis to find work abroad. Denmark was occupied by Germany from April 1940. In October 1943 Danes secretly ferried most of the country's Jews, about 7,000 people, across the water to Sweden."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "His model of the atom is still the one taught first in schools, and the Copenhagen interpretation is still argued over by physicists and philosophers.",
+      "He helped found CERN, the European physics laboratory near Geneva, in the 1950s, and won the first Atoms for Peace Award in 1957. Element 107, bohrium, is named after him.",
+      "When he received Denmark's highest honour in 1947, he chose a coat of arms with the Chinese yin-yang symbol and the Latin motto 'Contraria sunt complementa': opposites are complementary."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Bohr and Einstein argued about God.", "lab": "myth", "t": "Einstein wrote to Max Born in 1926 that 'He', meaning God, 'does not throw dice'. He used God as a figure of speech. The real argument was whether quantum mechanics was a complete description of nature. Bohr's reply, telling Einstein to stop telling God what to do, is reported by others and may be polished."},
+      {"c": "Bohr played football for Denmark.", "lab": "myth", "t": "It was his brother Harald who played for the national team. Niels kept goal for the Akademisk Boldklub club."},
+      {"c": "We know what Heisenberg told Bohr in 1941.", "lab": "disputed", "t": "Heisenberg later suggested he had come to hint that German scientists might hold back on a bomb. Bohr's draft letters to Heisenberg, never sent and released by his family in 2002, show that Bohr remembered him saying Germany would win the war and that he was working on atomic weapons. Michael Frayn's 1998 play Copenhagen is about this meeting."},
+      {"c": "Bohr built the atomic bomb.", "lab": "myth", "t": "He visited Los Alamos as an adviser and helped with some technical problems, but he did not lead or design the bomb. His main effort was trying to persuade Allied leaders to plan for international control."},
+      {"c": "Electrons really move in neat circles, as in Bohr's model.", "lab": "myth", "t": "The model was a brilliant step but is not the final picture. In modern quantum mechanics electrons have no fixed paths, only clouds of probability."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Niels Bohr, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Niels-Bohr"},
+      {"n": "Niels Bohr, Biographical, Nobel Prize", "u": "https://www.nobelprize.org/prizes/physics/1922/bohr/biographical/"},
+      {"n": "Niels Bohr, Nobel lecture: The Structure of the Atom (1922)", "u": "https://www.nobelprize.org/prizes/physics/1922/bohr/lecture/"},
+      {"n": "Niels Bohr Archive, Copenhagen: Bohr's unsent letters to Heisenberg (released 2002)"},
+      {"n": "Further reading: Abraham Pais, Niels Bohr's Times (1991)"}
+    ]}
+  ]
+}
