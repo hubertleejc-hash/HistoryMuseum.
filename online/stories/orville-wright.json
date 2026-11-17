@@ -1,0 +1,67 @@
+{
+  "hero": "",
+  "portrait": "pt-orville-wright",
+  "kw": ["Kitty Hawk", "Dayton", "first flight", "Wright Flyer", "printing press", "West Side News", "Fort Myer", "Thomas Selfridge", "Glenn Curtiss", "patent war", "Smithsonian", "Science Museum London", "Hawthorn Hill", "Katharine Wright", "NACA", "coin toss@myths", "Curtiss@myths"],
+  "lede": "The younger, quieter brother who lay on the lower wing of a homemade machine on a cold North Carolina beach and flew for twelve seconds, then lived long enough to see jet planes and the atomic bomb.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Orville Wright was born in Dayton, Ohio, on 19 August 1871, four years after his brother Wilbur. He was the fourth surviving child of Bishop Milton Wright and Susan Koerner Wright.",
+      "On 17 December 1903, at Kitty Hawk in North Carolina, he piloted the first controlled, sustained flight of a powered airplane: 12 seconds and about 120 feet. He and Wilbur made three more flights that morning.",
+      "After Wilbur died in 1912 Orville carried on alone for 36 years. He sold the Wright Company, fought a long quarrel with the Smithsonian over who flew first, and died in Dayton on 30 January 1948, aged 76."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "Orville was the mischievous one of the family, full of schemes. As a boy he sold kites and collected scrap. His mother, who was handy with tools, encouraged her sons to make things.",
+      "At about fourteen he took up printing. With a school friend he set up a print shop, and with Wilbur's help he built a larger press from scrap, including, by family tradition, part of a folding buggy top. In 1889 he launched a weekly paper, the West Side News, with Wilbur as editor.",
+      "He left high school without his diploma, as Wilbur had. Among the jobs the brothers printed was a short-lived paper for his school friend Paul Laurence Dunbar, who became a famous poet.",
+      "In 1892 the brothers opened a bicycle shop. In 1896 Orville fell ill with typhoid fever and nearly died. While Wilbur nursed him, news came of the death of the German glider pilot Otto Lilienthal, and the brothers began to read about flight."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1901: Orville did much of the hands-on work on the small wind tunnel in the shop, where the brothers tested about 200 model wing shapes and wrote their own tables of lift.",
+      "14 December 1903: Wilbur won a coin toss for the first try in the powered Flyer and stalled almost at once. The repairs took two days.",
+      "17 December 1903, about 10:35 in the morning: in a cold wind of over 20 miles an hour, Orville flew for 12 seconds. He had set up their camera beforehand and asked John Daniels of the nearby lifesaving station to press the shutter. The result is one of the most famous photographs ever taken.",
+      "That afternoon he sent a telegram to his father: four flights, 'inform press, home Christmas'. The telegraph office garbled it: the longest flight, 59 seconds, arrived as 57, and Orville's name as 'Orevelle'.",
+      "17 September 1908: at Fort Myer, Virginia, while flying for the US Army, a propeller split and the plane dived into the ground. His passenger, Lieutenant Thomas Selfridge, died, the first person killed in a powered airplane crash. Orville broke his left leg and several ribs, and was in pain from the injuries for the rest of his life.",
+      "1909: he went back to Fort Myer, finished the trials, and the Army bought its first airplane. He then flew in Germany, taking the Crown Prince as a passenger.",
+      "October 1911: back at Kitty Hawk he soared in a glider for nearly ten minutes, a record that lasted about ten years.",
+      "1912 to 1915: Wilbur died in May 1912. Orville became head of the Wright Company, won the patent case against Glenn Curtiss in 1914, then sold the company in 1915 and turned to research.",
+      "1928: after years of dispute with the Smithsonian, he sent the 1903 Flyer to the Science Museum in London. It stayed there through the Second World War.",
+      "1942 to 1948: the Smithsonian published a full retraction. Orville died in January 1948, and that December the Flyer was hung in the Smithsonian, 45 years to the day after its first flight."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "The 1903 Wright Flyer, which Orville flew first. Its pilot lay flat on the lower wing, worked the elevator with a lever and steered by sliding his hips in a cradle that warped the wings and turned the rudder.",
+      "The Wright Model A, the two-seat plane of 1908 and 1909 sold to the US Army and built under licence in Europe.",
+      {"t": "An automatic stabiliser, which won the Collier Trophy for 1913, and a split flap later used in dive bombers.", "lab": "likely", "why": "Both are recorded in his patents; how much the split flap was used in later designs is argued over."},
+      "Advice. From 1920 he served on the National Advisory Committee for Aeronautics, the body that grew into NASA, for over 25 years.",
+      "Photographs. The brothers took hundreds of glass-plate photographs of their experiments, now in the Library of Congress. Orville developed many of them himself."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Wilbur Wright (1867 to 1912), his brother and partner. The two brothers shared credit for everything; they argued hard over ideas, sometimes swapping sides mid-argument.",
+      "Katharine Wright (1874 to 1929), their sister, who nursed Orville after the Fort Myer crash and later managed his household. When she married Henry Haskell in 1926, Orville cut her off. He went to her deathbed in 1929.",
+      "Charlie Taylor (1868 to 1956), the mechanic who built the Flyer's engine.",
+      "Glenn Curtiss (1878 to 1930), aviator and engine maker, the rival they sued over their patent.",
+      "Charles Lindbergh (1902 to 1974), the transatlantic flier, who became a friend and urged him to bring the Flyer home."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Patent wars. The brothers held that their control system, however it was built, belonged to them, and sued anyone who used ailerons without a licence. Curtiss and others said ailerons were a different invention. The fight lasted until 1917, when the US government, entering the First World War, pressed the makers into sharing patents.",
+      "Orville lived from the age of horse-drawn carts to the jet engine. In October 1947, a few months before he died, Chuck Yeager flew faster than sound.", {"t": "He had hoped, he said, that the airplane would make war too terrible to fight, and he was saddened by the bombing of cities in the Second World War.", "lab": "likely", "why": "Reported in interviews and letters of his last years; wording differs between accounts."}
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "The Flyer he first flew hangs in the National Air and Space Museum in Washington. The Smithsonian's 1948 agreement with his estate still bars it from labelling any aircraft earlier than the 1903 Flyer as capable of carrying a man under its own power in controlled flight.",
+      "His home in Dayton, Hawthorn Hill, and the Huffman Prairie field are part of a national historical park. In 1969 Neil Armstrong carried a piece of the Flyer's wing fabric and propeller wood to the Moon.",
+      {"t": "Orville said that he and Wilbur could not have done it alone, but that neither would have done it without the other.", "lab": "likely", "why": "A sentiment he expressed many times; the exact words vary between reports."}
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "The first pilot was chosen by a coin toss.", "lab": "verified", "t": "Yes, but on 14 December, not 17 December. Wilbur won, and his attempt failed. On the 17th it was simply Orville's turn."},
+      {"c": "The Wrights invented the airplane alone.", "lab": "myth", "t": "They built on Otto Lilienthal's glider data, Octave Chanute's biplane design and help, and the Smithsonian's papers. What they added, and what no one else had, was a working system of control, plus a reliable way of measuring how wings lift."},
+      {"c": "The Wright patent war held back American aviation.", "lab": "disputed", "t": "Many historians argue the lawsuits slowed American makers while Europe raced ahead; by 1914 the US had fallen well behind. Others point to low American government spending as the bigger reason."},
+      {"c": "The Smithsonian always credited the Wrights.", "lab": "myth", "t": "From 1914 to 1942 it credited Langley's rebuilt Aerodrome. That is why the Flyer spent twenty years in London."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Orville Wright, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Orville-Wright"},
+      {"n": "Wilbur and Orville Wright Papers, Library of Congress", "u": "https://www.loc.gov/collections/wilbur-and-orville-wright-papers/"},
+      {"n": "National Air and Space Museum, Smithsonian", "u": "https://airandspace.si.edu/"},
+      {"n": "Orville Wright, How We Made the First Flight, Flying (December 1913), public domain"},
+      {"n": "Further reading: Fred Howard, Wilbur and Orville (1987)"}
+    ]}
+  ]
+}

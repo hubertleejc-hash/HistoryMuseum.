@@ -1,0 +1,66 @@
+{
+  "hero": "",
+  "portrait": "pt-wilbur-wright",
+  "kw": ["Kitty Hawk", "Dayton", "Millville", "Wright Flyer", "wing warping", "wind tunnel", "glider", "Octave Chanute", "Lilienthal", "Huffman Prairie", "Le Mans", "Hunaudieres", "Statue of Liberty", "Katharine Wright", "Charlie Taylor", "Langley@myths", "first flight@myths", "typhoid@legacy"],
+  "lede": "A bishop's son with no college degree who wrote to the Smithsonian in 1899 calling himself 'an enthusiast, but not a crank', then spent four years working out, on paper and in a homemade wind tunnel, how to steer a machine through the air.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Wilbur Wright was born on 16 April 1867 near Millville, Indiana, the third of the five surviving children of Milton Wright, a bishop of the Church of the United Brethren in Christ, and Susan Koerner Wright.",
+      "With his younger brother Orville he ran a bicycle shop in Dayton, Ohio, and from 1899 studied the problem of flight. On 17 December 1903, at Kitty Hawk in North Carolina, the brothers made the first controlled, sustained flights in a powered airplane. Orville flew first; Wilbur flew the longest, 59 seconds.",
+      "Wilbur was the thinker and writer of the pair, and later its public face. His flights in France in 1908 made the brothers world famous. He died of typhoid fever in Dayton on 30 May 1912, aged 45."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "The family moved often with the father's church work, through Indiana, Iowa and Ohio, before settling in Dayton in 1884. Milton Wright brought home books and toys that made his sons think. One was a small rubber-band helicopter, a French design, which the boys flew until it broke and then copied.",
+      "Wilbur was a strong student and meant to go to Yale. Around 1885, playing a stick game on ice, he was hit in the face and lost several front teeth. He sank into a long gloom and stayed at home for about three years, reading in his father's library and nursing his mother, who was dying of tuberculosis. She died in 1889.",
+      "He never received his high school diploma, because the family moved just before he graduated. Instead he joined Orville's printing business, editing a small local paper, and in 1892 the brothers opened a bicycle shop. By 1896 they were building their own bicycles by hand.",
+      {"t": "In 1896 the German glider pioneer Otto Lilienthal died after a crash. Wilbur later said that news turned his old boyhood interest in flight into serious study.", "lab": "likely", "why": "From Wilbur's own later accounts, including his 1901 Chicago lecture and letters."}
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "30 May 1899: he wrote to the Smithsonian Institution asking for everything it had on flight. He read it all and decided the missing piece was not wings or engines but control: how a pilot balances and steers.",
+      "Summer 1899: twisting an empty cardboard box for a bicycle inner tube in his hands, he saw how the tips of a wing could be twisted in opposite directions, like a bird's. He built a biplane kite about five feet across to test this 'wing warping'. It worked.",
+      "1900 and 1901: on advice from the Weather Bureau, the brothers took gliders to the windy dunes of Kitty Hawk. The 1901 glider lifted far less than the published tables promised. On the train home Wilbur is said to have told Orville that people would not fly for fifty years.",
+      "September 1901: the engineer Octave Chanute invited him to speak to the Western Society of Engineers in Chicago. His talk, Some Aeronautical Experiments, set out their method plainly.",
+      "Late 1901: in a six-foot wooden wind tunnel in the shop, the brothers tested about 200 small wing shapes and built their own tables of lift and drag. Their 1902 glider, with a movable rear rudder, made hundreds of glides and solved the problem of control.",
+      "14 December 1903: a coin toss gave Wilbur the first try in the powered Flyer. He pulled up too steeply, stalled after about three seconds and came down with minor damage.",
+      "17 December 1903: after repairs, they made four flights. Wilbur took the second and the fourth, which covered 852 feet in 59 seconds. A gust later flipped the Flyer on the ground and wrecked it.",
+      "1904 to 1905: at Huffman Prairie, a cow pasture outside Dayton, they learned to turn and circle. On 5 October 1905 Wilbur flew about 24 miles in 39 minutes.",
+      "8 August 1908: at a racecourse near Le Mans in France he flew smooth, banking circles before doubtful French aviators. The papers turned overnight from calling the brothers bluffers to calling them heroes. He flew there until the end of the year, once for over two hours.",
+      "1909 to 1912: he flew around the Statue of Liberty and up the Hudson River in New York, became president of the new Wright Company and spent much of his time on patent lawsuits. Worn out, he caught typhoid in 1912 and died on 30 May."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "Three-axis control. The brothers' real invention was a way to control a plane in roll, pitch and yaw: warping the wings to bank, an elevator to climb or dive, and a rudder linked to the warping so the plane turned cleanly. Modern planes still use the same three controls, with ailerons in place of warping.",
+      "The 1903 Wright Flyer, a biplane of spruce and muslin with a 12-horsepower engine built by their mechanic Charlie Taylor, and two propellers the brothers designed themselves, treating a propeller as a wing that spins.",
+      {"t": "Their wind tunnel data. Their own measurements showed that the widely used Smeaton coefficient, a figure for air pressure dating from the 1700s, was too high. Fixing it made their wing calculations work.", "lab": "verified", "why": "Recorded in their notebooks and letters, now in the Library of Congress."},
+      "The Flying Machine patent, filed in March 1903 and granted on 22 May 1906, which covered their control system rather than the airplane in general."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Orville Wright (1871 to 1948), his brother and partner. Wilbur once wrote that from childhood they had 'lived together, played together, worked together and, in fact, thought together'.",
+      "Katharine Wright (1874 to 1929), their younger sister, a college graduate and teacher, who kept the house, handled letters and joined them in Europe in 1909.",
+      "Milton Wright (1828 to 1917), their father, a bishop and a stern but loving parent.",
+      "Octave Chanute (1832 to 1910), a railway engineer and glider expert who encouraged them by letter and visited Kitty Hawk. They later fell out over credit.",
+      "Charlie Taylor (1868 to 1956), their mechanic, who built the Flyer's engine in about six weeks."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Around 1900 many people tried to fly. The best-funded was Samuel Langley, head of the Smithsonian, who had a grant of 50,000 dollars from the US Army. His man-carrying Aerodrome was launched from a houseboat on the Potomac on 7 October and 8 December 1903 and fell into the river both times. Nine days after the second failure, the Wrights flew, on about 1,000 dollars of their own money.",
+      "It was the age of the bicycle craze, the telephone and the first motor cars. The bicycle trade taught the Wrights about light, strong frames, chains and balance, all of which went into the Flyer."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "He did not live to see the airplane change war, travel and the world, but within a decade of his death military aircraft fought over Europe and, within twenty, passenger airlines flew.",
+      {"t": "On the night he died, his father wrote in his diary: 'A short life, full of consequences.'", "lab": "verified", "why": "Milton Wright's diary survives in the Wright papers."},
+      "The Wright Brothers National Memorial marks Kitty Hawk, and the 1903 Flyer hangs in the National Air and Space Museum in Washington. Many historians see Wilbur's reasoning on control as the core of what made the airplane possible."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Wilbur made the first flight.", "lab": "myth", "t": "Orville made the first flight on 17 December 1903, 12 seconds and 120 feet. Wilbur's attempt three days earlier stalled and is not counted as a flight. Wilbur flew the longest flight of the day."},
+      {"c": "Langley flew first.", "lab": "myth", "t": "Langley's Aerodrome failed twice in 1903. In 1914 it was rebuilt and changed by the aviator Glenn Curtiss and briefly flown, and the Smithsonian then labelled it the first plane capable of flight. The Smithsonian only took that back in 1942."},
+      {"c": "Crowds watched the first flights.", "lab": "myth", "t": "There were five witnesses: three men from the nearby lifesaving station, a lumber buyer and a local boy. One of them, John Daniels, squeezed the shutter for the famous photograph. A garbled newspaper story followed, and most of the press ignored the Wrights for years."},
+      {"c": "Wilbur said he had no time for both a wife and an airplane.", "lab": "disputed", "t": "The line is often quoted, but its source is unclear. What is true is that neither brother ever married."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Wilbur Wright, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Wilbur-Wright"},
+      {"n": "Wilbur and Orville Wright Papers, Library of Congress", "u": "https://www.loc.gov/collections/wilbur-and-orville-wright-papers/"},
+      {"n": "Wright Brothers National Memorial, National Park Service", "u": "https://www.nps.gov/wrbr/"},
+      {"n": "Wilbur Wright, Some Aeronautical Experiments, Journal of the Western Society of Engineers (1901), public domain"},
+      {"n": "Further reading: Tom Crouch, The Bishop's Boys (1989)"}
+    ]}
+  ]
+}

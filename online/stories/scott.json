@@ -1,0 +1,65 @@
+{
+  "hero": "",
+  "portrait": "pt-scott",
+  "kw": ["Antarctica", "South Pole", "Terra Nova", "Discovery", "Ross Ice Shelf", "Beardmore Glacier", "Cape Evans", "Edward Wilson", "Lawrence Oates", "Henry Bowers", "Edgar Evans", "Shackleton", "Kathleen Scott", "Cherry-Garrard", "One Ton Depot", "Amundsen", "Scott Polar Research Institute", "Oates@myths", "incompetence@myths"],
+  "lede": "A Royal Navy officer who hauled a sledge nearly 900 miles to the South Pole, found a Norwegian flag already flying there, and died on the way back in a tent eleven miles from food, still writing.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Robert Falcon Scott was born on 6 June 1868 near Plymouth, in Devon, into a family with naval and army roots. He joined the Royal Navy as a boy.",
+      "He led two British expeditions to Antarctica. The first, in the ship Discovery from 1901 to 1904, explored and mapped the region and made him famous. The second, in the Terra Nova from 1910, aimed both at science and at being first to the South Pole.",
+      "He reached the Pole with four companions on 17 January 1912, about five weeks after the Norwegian Roald Amundsen. All five died on the return journey. Scott's diary, found with his body, turned the defeat into one of the most famous stories of the age."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "He grew up at Outlands, the family house near Devonport, the son of a brewer and magistrate. At thirteen he became a cadet on the training ship Britannia and went to sea at fifteen.",
+      "In 1887, in the West Indies, he won a cutter race that was watched by Clements Markham, an official of the Royal Geographical Society. Markham remembered the young officer.",
+      "In the 1890s his father's money failed and his father died, followed by his brother. Scott became the main support of his mother and sisters. Promotion, and the extra pay it brought, mattered greatly to him."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1899 to 1904: Markham picked Scott to lead the National Antarctic Expedition. In the Discovery he wintered at McMurdo Sound. With Edward Wilson and Ernest Shackleton he sledged south to about 82 degrees 17 minutes, then the furthest south anyone had reached. They came back starving and with scurvy, and Shackleton collapsed.",
+      "1908: he married the sculptor Kathleen Bruce. Their son Peter was born in 1909.",
+      "June 1910: the Terra Nova left Cardiff. In Melbourne in October Scott received a short telegram from Amundsen saying that his ship Fram was heading for the Antarctic. It was the first Scott knew of a race.",
+      "Winter 1911: from the base hut at Cape Evans, Wilson, Henry Bowers and Apsley Cherry-Garrard walked through the polar night to Cape Crozier to collect emperor penguin eggs for science, in temperatures near minus 60 degrees Celsius. Cherry-Garrard later called it the worst journey in the world.",
+      "November 1911: the southern party set out with motor sledges, ponies and dogs. The motors broke down early. The ponies were shot for food as planned, and the dogs turned back below the Beardmore Glacier. From there the men pulled their own sledges.",
+      "17 January 1912: Scott, Wilson, Bowers, Lawrence Oates and Edgar Evans reached the Pole. The day before they had seen a black flag on a sledge runner. Near the Pole they found Amundsen's tent, with a letter for the King of Norway and a note asking Scott to forward it. Scott wrote in his diary: 'Great God! this is an awful place.'",
+      "February to March 1912: Evans died at the foot of the Beardmore Glacier on 17 February. On about 17 March Oates, his feet badly frostbitten, walked out of the tent into a blizzard and did not return.",
+      "Late March 1912: Scott, Wilson and Bowers were stopped by a blizzard eleven miles short of One Ton Depot. Scott's last diary entry is dated 29 March.",
+      {"t": "12 November 1912: a search party found the tent with the three bodies inside. They read the diaries, collapsed the tent over the men and built a snow cairn above it. The world learned the news in February 1913.", "lab": "verified", "why": "Described by members of the search party, including Cherry-Garrard."}
+    ]},
+    {"k": "works", "h": "The journals", "ps": [
+      "Scott's journals were published in 1913 as Scott's Last Expedition. They are vivid, often moving and sometimes self-critical, and they shaped how the British saw the whole expedition for decades. The original notebooks are in the British Library.",
+      "His Message to the Public, written near the end, blamed the weather and bad luck and ended: 'Had we lived, I should have had a tale to tell of the hardihood, endurance, and courage of my companions'.",
+      "The science. The Terra Nova expedition brought home thousands of specimens and years of weather, magnetic and geological records. The polar party kept about 16 kilograms of rocks from the Beardmore Glacier on their sledge to the end. They included fossils of the plant Glossopteris, evidence that Antarctica was once warm and joined to other continents."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Edward Wilson (1872 to 1912), doctor, naturalist and painter, his closest friend on both expeditions. He died beside Scott.",
+      "Henry Bowers (1883 to 1912), a short, tireless Royal Indian Marine officer in charge of stores.",
+      "Lawrence Oates (1880 to 1912), an army cavalry officer who looked after the ponies and doubted Scott's choices in his own letters.",
+      "Edgar Evans (1876 to 1912), a Welsh petty officer, the strongest man in the party, the first to die.",
+      "Ernest Shackleton (1874 to 1922), from the Discovery expedition, later his rival. In 1909 Shackleton came within 97 miles of the Pole.",
+      "Kathleen Scott (1878 to 1947), his wife, a sculptor who later made his memorial statue in London."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Edwardian Britain was at the height of its empire and anxious about its rivals, Germany above all. Polar exploration was a matter of national pride, and newspapers paid for exclusive stories.",
+      "Scott sailed in what is now called the heroic age of Antarctic exploration, from about 1897 to 1922, when expeditions went south without radio or aircraft and with only the clothes and food they could carry."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "For half a century Scott was a national hero, the model of courage and of dying well. Memorials went up across Britain, and a public fund paid for the Scott Polar Research Institute in Cambridge, founded in 1920.",
+      {"t": "In 1979 the writer Roland Huntford published a joint biography of Scott and Amundsen that portrayed Scott as a bungler and Amundsen as a professional. It changed public opinion sharply.", "lab": "disputed", "why": "Later writers, among them the explorer Ranulph Fiennes and the scientist Susan Solomon, have argued that Huntford was too harsh."},
+      "The US base at the South Pole is named Amundsen-Scott South Pole Station, after both men."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Scott died because he was incompetent.", "lab": "disputed", "t": "Both sides have evidence. He relied on ponies and unproven motor sledges more than on dogs, his rations were too small for man-hauling, and he added a fifth man late to a four-man plan. But weather records studied by Susan Solomon show that March 1912 was unusually cold on the Ross Ice Shelf, and orders for dogs to meet the returning party were not carried out as intended."},
+      {"c": "Oates said, 'I am just going outside and may be some time.'", "lab": "likely", "t": "The words come from Scott's diary. Only Scott, Wilson and Bowers were there, and none survived, so the diary is the only record. Many believe Oates chose to die to give the others a chance."},
+      {"c": "The race to the Pole was Scott's idea.", "lab": "myth", "t": "His expedition was planned as a scientific one with the Pole as its headline goal. Amundsen changed plans in secret and Scott learned of it only from the telegram in Melbourne. Scott decided not to race but to stick to his plan."},
+      {"c": "The men died within reach of rescue.", "lab": "verified", "t": "One Ton Depot, full of food and fuel, was about eleven miles away. In early March Cherry-Garrard had waited there with dogs for several days before turning back, not knowing how near they were."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Robert Falcon Scott, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Robert-Falcon-Scott"},
+      {"n": "Scott Polar Research Institute, University of Cambridge", "u": "https://www.spri.cam.ac.uk/"},
+      {"n": "Scott's Last Expedition, arranged by Leonard Huxley (1913), public domain"},
+      {"n": "Apsley Cherry-Garrard, The Worst Journey in the World (1922)"},
+      {"n": "Further reading: Susan Solomon, The Coldest March (2001)"},
+      {"n": "Further reading: Ranulph Fiennes, Race to the Pole (2004)"}
+    ]}
+  ]
+}

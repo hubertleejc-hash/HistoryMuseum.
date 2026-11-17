@@ -1,0 +1,65 @@
+{
+  "hero": "",
+  "portrait": "pt-amundsen",
+  "kw": ["Norway", "Borge", "South Pole", "Fram", "Framheim", "Bay of Whales", "Gjoa", "Northwest Passage", "Belgica", "Netsilik", "Inuit", "dogs", "skis", "Axel Heiberg Glacier", "Polheim", "Fridtjof Nansen", "Norge", "airship", "Umberto Nobile", "Scott", "Madeira@myths", "luck@myths"],
+  "lede": "A Norwegian who learned from the Inuit how to dress, drive dogs and travel in the cold, told his own crew they were going south, not north, only once they were at sea, and reached the South Pole first, with all his men alive.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Roald Engelbregt Gravning Amundsen was born on 16 July 1872 at Borge, near Sarpsborg in south-east Norway, into a family of shipowners and sea captains.",
+      "He was the first to sail through the Northwest Passage, from 1903 to 1906, and the leader of the first expedition to reach the South Pole, on 14 December 1911, five weeks before Robert Falcon Scott. In 1926 he flew over the North Pole in an airship.",
+      "In June 1928 he took off in a seaplane to help search for the crew of a crashed Italian airship. The plane disappeared over the Barents Sea. He was 55."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father died when he was fourteen. His mother wanted him to be a doctor, and he studied medicine in Christiania, today's Oslo, without enthusiasm. When she died in 1893, he left the university.",
+      "As a boy he had read about the British explorer John Franklin, lost in the Arctic, and he toughened himself for polar work by skiing and sleeping with his windows open in winter.",
+      "In 1896 he and his brother tried to cross the Hardangervidda mountain plateau on skis in winter and nearly died in a storm. He learned that bad planning, not bad weather, is what kills.",
+      "From 1897 to 1899 he was first mate on the Belgian ship Belgica, the first expedition to spend a winter in the Antarctic. Trapped in the ice, the crew suffered from scurvy. Amundsen and the American doctor Frederick Cook kept men alive with fresh seal and penguin meat."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1903 to 1906: in the Gjoa, a small herring boat with six crew, he sailed through the Northwest Passage north of Canada. He spent two winters at a harbour on King William Island now called Gjoa Haven, where the Netsilik Inuit taught him to wear loose fur clothing, build snow houses and drive dogs. He reached Nome, Alaska, in 1906.",
+      "1909: he borrowed Fridtjof Nansen's ship Fram to drift across the Arctic Ocean to the North Pole. That year first Frederick Cook and then Robert Peary claimed to have reached the North Pole. Amundsen quietly decided to go south instead.",
+      "September 1910: at Madeira, on the way, he told his crew the new plan. All agreed. He sent Scott a short telegram, which reached him in Melbourne in October, saying the Fram was proceeding to the Antarctic.",
+      "January 1911: he built his base, Framheim, on the Ross Ice Shelf at the Bay of Whales, about 60 miles closer to the Pole than Scott's base. That autumn his men laid depots of food far to the south, marked with lines of flags.",
+      "September 1911: he started too early, and in temperatures below minus 50 degrees the party had to turn back. In the rush home the men were split up. Hjalmar Johansen, a veteran of Nansen's expeditions, criticised him openly, and Amundsen dropped him from the Pole party.",
+      "19 October 1911: five men left with four sledges and 52 dogs: Amundsen, Olav Bjaaland, Helmer Hanssen, Sverre Hassel and Oscar Wisting. They found a new route up the steep Axel Heiberg Glacier. At the top, as planned, they killed 24 dogs and fed them to the men and the other dogs. They named the place the Butcher's Shop.",
+      "14 December 1911: they reached the Pole. They named the spot Polheim and left a small tent with a letter for King Haakon VII and a note asking Scott to deliver it in case they did not get home. All five returned to Framheim on 25 January 1912.",
+      "1918 to 1925: in the ship Maud he sailed the Northeast Passage north of Russia.",
+      "May 1926: with the American Lincoln Ellsworth and the Italian engineer Umberto Nobile he flew the airship Norge from Svalbard over the North Pole to Alaska. It may have been the first undisputed journey to the North Pole.",
+      "18 June 1928: Nobile's new airship Italia had crashed on the ice. Amundsen, who had quarrelled bitterly with Nobile, left Tromso in a French Latham flying boat to join the search. It was never seen again."
+    ]},
+    {"k": "works", "h": "The method and the books", "ps": [
+      "His great work was his method. He used Greenland dogs, which can run on hard snow and could be eaten as the loads grew lighter. His men were expert skiers. Food depots were marked with flags at right angles to the route, so a party off course would still find them. He cut weight and planned for every failure he could imagine.",
+      {"t": "In his book The South Pole (1912) he wrote: 'Victory awaits him who has everything in order, luck, people call it.'", "lab": "verified", "why": "From the 1912 English translation of his own account."},
+      "His other books include The North West Passage (1908) and My Life as an Explorer (1927), a bitter memoir in which he attacked old colleagues, Nobile above all."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Fridtjof Nansen (1861 to 1930), the Arctic explorer and scientist who lent him the Fram and was his mentor.",
+      "Oscar Wisting (1871 to 1936), one of the four who went to the Pole with him, and his companion on the Maud and the Norge.",
+      "Olav Bjaaland (1873 to 1961), a champion skier from Telemark, who took photographs at the Pole.",
+      "Hjalmar Johansen (1867 to 1913), the polar veteran he dropped from the Pole party. Johansen took his own life in 1913.",
+      "Umberto Nobile (1885 to 1978), the Italian airship designer who built the Norge, later his enemy.",
+      "Robert Falcon Scott (1868 to 1912), his British rival, who reached the Pole on 17 January 1912 and died on the way back."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Norway had only become fully independent from Sweden in 1905. Its new king, Haakon VII, and its people saw polar exploration as a way for a small nation to show what it could do.",
+      "Amundsen's life spans the heroic age of polar travel, by ship, ski and dog, and the start of flight over the ice. He was one of the first to see that aircraft would make the old way of exploring obsolete."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "He is remembered for the most efficient polar journey of his era: there and back across the ice in about 99 days, with all men alive.", {"t": "When news of Scott's death came in 1913, Amundsen is reported to have said he would gladly give up any honour or money if it could have saved Scott.", "lab": "likely", "why": "Reported in newspapers of February 1913; wording varies."},
+      "The Fram is preserved in the Fram Museum in Oslo. The Amundsen Sea, the Amundsen Glacier and the Amundsen-Scott South Pole Station are named after him."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Amundsen won by luck.", "lab": "myth", "t": "He won by preparation: dogs, skis, fur clothing learned from the Inuit, well-marked depots, a base closer to the Pole and a shorter route. He did have good weather on the way back, but his margins were large."},
+      {"c": "He deceived Scott.", "lab": "disputed", "t": "He kept the change of plan secret from almost everyone, including his backers and Nansen, fearing he would be stopped. But he did warn Scott by telegram from Madeira, long before either reached the ice."},
+      {"c": "His body was found.", "lab": "myth", "t": "A float and a fuel tank from the Latham washed up off Norway months later. The aircraft and its six crew have never been found, despite searches as recent as 2009."},
+      {"c": "He was the first person to reach both Poles.", "lab": "likely", "t": "If Cook's and Peary's North Pole claims are set aside, as many historians do, Amundsen and his Norge companions were the first to reach the North Pole, which would make him the first to reach both."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Roald Amundsen, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Roald-Amundsen"},
+      {"n": "The Fram Museum, Oslo", "u": "https://frammuseum.no/"},
+      {"n": "Roald Amundsen, The South Pole, translated by A. G. Chater (1912), public domain"},
+      {"n": "Robert Falcon Scott, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Robert-Falcon-Scott"},
+      {"n": "Further reading: Tor Bomann-Larsen, Roald Amundsen (2006)"}
+    ]}
+  ]
+}
