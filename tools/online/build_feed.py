@@ -11,6 +11,9 @@ Inputs (all in online/):
   today.json          exact days for the Today page (tools/today/dates.py)
   stories/<id>.json   a chapter for a person in app/data.js, in the app/chapters.js format,
                       ending with a {"k": "sources", "src": [{"n": ..., "u": ...}]} section (required)
+  voice/<id>.json     Talk lines in a person's own voice, in the app/voice.js format: {"hi", "how", "bye",
+                      "lines": [[topic, keywords, what they say, record pointers], ...]}. Each line must point at
+                      the record behind it (chapter paragraphs like "turns.3", "work:<id>", "conn:<id>", "myth:<id>").
   places/<id>.json    a place for "Near me" (a museum, city or battlefield): its centre point and radius,
                       short fact cards tied to the museum's people, and for a museum an optional guide route.
                       The feed carries only the list (id, name, point, rev); the phone downloads a place's
@@ -177,6 +180,39 @@ def walks():
     return out
 
 
+def inline_ok(r):
+    try: x = json.loads(r)
+    except ValueError: return False
+    return isinstance(x, list) and len(x) == 2 and x[0] in ("verified", "likely", "disputed", "myth") and isinstance(x[1], str) and x[1]
+
+
+VOICE_TOPICS = {"who", "early", "death", "family", "love", "work", "people", "myth", "world", "legacy", "like", "life"}
+
+
+def voices(ppl):
+    """Talk lines for people without lines in the app. Sacred people never get any: the museum does not speak for them."""
+    d = ON / "voice"
+    if not d.exists(): return {}
+    bundled = set(re.findall(r'^"([a-z0-9-]+)":\s*\{', (ROOT / "app" / "voice.js").read_text(), re.M))
+    out = {}
+    for f in sorted(d.glob("*.json")):
+        where, pid, v = f"online/voice/{f.name}", f.stem, json.loads(f.read_text())
+        assert pid in ppl, f"{where}: no such person in app/data.js"
+        assert not ppl[pid], f"{where}: sacred people are never given a voice"
+        assert pid not in bundled, f"{where}: {pid} already has lines in app/voice.js; edit that instead"
+        assert 3 <= len(v.get("lines", [])) <= 40, f"{where}: 3 to 40 lines"
+        for k in ("hi", "how", "bye"): assert isinstance(v.get(k, ""), str) and "<" not in v.get(k, ""), f"{where}: {k} must be plain text"
+        for ln in v["lines"]:
+            assert isinstance(ln, list) and len(ln) == 4 and all(isinstance(x, str) and x for x in ln), f"{where}: each line is [topic, keywords, words, record]"
+            assert ln[0] in VOICE_TOPICS, f"{where}: unknown topic {ln[0]}"
+            assert len(ln[2]) <= 500 and "<" not in ln[2], f"{where}: words must be plain text, at most 500 characters"
+            for r in re.split(r"\|(?=[a-z]+\.\d|work:|conn:|myth:|\[)", ln[3]):
+                r = r.strip()
+                assert re.fullmatch(r"[a-z]+\.\d+|(work|conn|myth):[a-z0-9-]+", r) or (r.startswith("[") and inline_ok(r)), f"{where}: bad record pointer {r}"
+        out[pid] = {k: v[k] for k in ("hi", "how", "bye", "lines") if v.get(k)}
+    return out
+
+
 def main():
     ppl, have, pics = people(), bundled_chapters(), pictures()
     assert len(ppl) > 100 and len(have) > 50, ("could not read the app's people or chapters", len(ppl), len(have))
@@ -201,6 +237,8 @@ def main():
     for pid in today["days"]: assert pid in ppl, ("Today: no such person", pid)
     places = [place(f, ppl, pics) for f in sorted((ON / "places").glob("*.json"))] if (ON / "places").exists() else []
     body = {"art": art, "detail": detail, "chapters": chapters, "today": today, "places": places, "walks": walks()}
+    voice = voices(ppl)
+    if voice: body["voice"] = voice   # only when there are some, so the feed does not change until the first one lands
     rev = hashlib.sha1(json.dumps(body, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:12]
     out = json.dumps({"v": 1, "rev": rev, **body}, ensure_ascii=False, separators=(",", ":"))
     (ON / "feed.json").write_text(out + "\n")
