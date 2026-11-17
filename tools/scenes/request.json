@@ -1,9 +1,59 @@
 {
- "mode": "fetch",
- "picks": [
-  {
-   "id": "florence-1505-3",
-   "file": "Domenico Ghirlandaio, Cappella Sassetti, Resurrezione del fanciullo, dettaglio 2, 1485 circa.jpg"
+ "groups": {
+  "london-1851": {
+   "limit": 25,
+   "cats": [
+    "Dickinson's Comprehensive Pictures of the Great Exhibition of 1851"
+   ],
+   "search": [
+    "Great Exhibition 1851 Crystal Palace Hyde Park photograph",
+    "London street 1850s photograph",
+    "Regent Street London 1850",
+    "Crystal Palace 1851 interior lithograph"
+   ]
+  },
+  "vienna-1791": {
+   "limit": 25,
+   "cats": [
+    "Carl Schütz"
+   ],
+   "search": [
+    "Carl Schütz Wien Kupferstich",
+    "Graben Wien 1780",
+    "Bellotto Wien",
+    "Michaelerplatz Wien 1783",
+    "Stephansplatz Wien 18. Jahrhundert"
+   ]
+  },
+  "edo-1831": {
+   "limit": 25,
+   "search": [
+    "Hiroshige Nihonbashi Tokaido",
+    "Hokusai Nihonbashi Fugaku",
+    "Hokusai Surugacho",
+    "Hiroshige Edo street 1830s",
+    "Hokusai Thirty-six Views Edo"
+   ]
+  },
+  "newyork-1905": {
+   "limit": 25,
+   "search": [
+    "Broadway New York 1905 Detroit Publishing",
+    "Fifth Avenue New York 1905",
+    "Mulberry Street New York 1900",
+    "Flatiron Building 1905 photograph",
+    "Herald Square New York 1905"
+   ]
+  },
+  "kaifeng-1120": {
+   "limit": 30,
+   "cats": [
+    "Along the River During the Qingming Festival"
+   ],
+   "search": [
+    "Qingming Shanghe Tu detail",
+    "Along the River During the Qingming Festival detail Zhang Zeduan"
+   ]
   }
- ]
+ }
 }
