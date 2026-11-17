@@ -1,0 +1,65 @@
+{
+  "hero": "",
+  "portrait": "pt-klimt",
+  "kw": ["Vienna", "Baumgarten", "Attersee", "Vienna Secession", "The Kiss", "Adele Bloch-Bauer", "Beethoven Frieze", "Faculty Paintings", "Stoclet Frieze", "Kunstschau", "Belvedere", "gold leaf", "Golden Phase", "Emilie Flöge", "Egon Schiele", "Maria Altmann@myths", "children@myths", "Neue Galerie@legacy"],
+  "lede": "A gold engraver's son who painted ceilings for the emperor's theatres, then turned against the old art of Vienna and covered lovers, heiresses and goddesses in real gold.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Gustav Klimt was born on 14 July 1862 in Baumgarten, a village just outside Vienna, the second of seven children of a struggling gold engraver.",
+      "He began as a successful painter of decorations for public buildings. In 1897 he led a group of young artists out of Vienna's official art society to found the Vienna Secession, which stood for new, modern art in every field, from painting to furniture.",
+      "His paintings of women, his landscapes and his 'Golden Phase', when he used real gold and silver leaf, made him the best-known painter of Vienna around 1900. The Kiss is the most famous. He died in Vienna on 6 February 1918, aged 55, after a stroke."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "The family was often poor and moved house many times. Gustav, his brother Ernst and later his brother Georg all inherited their father's skill with fine metal and line.",
+      "At fourteen he won a place at the Vienna School of Arts and Crafts, where he learned classical drawing and the decorative trades.",
+      "With Ernst and their friend Franz Matsch he formed a 'Company of Artists' that painted murals and ceilings for theatres around the empire. In 1886 to 1888 they decorated the staircases of the new Burgtheater in Vienna, and around 1890 the walls of the Kunsthistorisches Museum. The emperor awarded Klimt the Golden Cross of Merit."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1892. His father and his brother Ernst both died. Klimt took on the care of his mother, sisters and Ernst's widow and daughter. His work changed after this, becoming more personal and strange.",
+      "The Secession, 1897. He and other young artists broke away from the conservative Künstlerhaus. Klimt was the first president. In 1898 they opened their own exhibition hall with a dome of gilded laurel leaves and the motto 'To each age its art, to art its freedom'.",
+      {"t": "The University paintings, 1900 to 1905. The University of Vienna commissioned three ceiling paintings: Philosophy, Medicine and Jurisprudence. Klimt showed floating naked bodies and dark, hopeless forces instead of noble progress. Professors protested, Parliament argued, and in 1905 he bought them back and gave up public commissions.", "lab": "verified", "why": "The protest petition and parliamentary debate are documented."},
+      "The Beethoven Frieze, 1902. For a Secession show around a statue of Beethoven he painted a long wall frieze on the search for happiness, ending in a kiss and a choir of angels. It still survives in the Secession building.",
+      "1905. Klimt and his friends left the Secession after a quarrel over selling art.",
+      "The Kiss, 1907 to 1908. At the Kunstschau, an exhibition of his circle in 1908, the Austrian state bought The Kiss for a modern art gallery before it was even finished.",
+      "Attersee, summers from 1900. He spent summers at the Attersee lake with the Flöge family and painted square landscapes of water, orchards and flowers, often through a telescope.",
+      "January 1918. He suffered a stroke at his flat. He died in February, weakened further by pneumonia during the influenza epidemic."
+    ]},
+    {"k": "works", "h": "The paintings", "ps": [
+      "The Kiss (1907 to 1908), Belvedere, Vienna. A couple embrace at the edge of a flowered meadow, wrapped in a single golden cloak. His robe is covered in black and white rectangles, hers in circles and flowers. Gold leaf is laid directly on the canvas.",
+      "Portrait of Adele Bloch-Bauer I (1907), the 'Golden Adele'. The wife of a Viennese sugar magnate sits almost swallowed by patterns of gold, eyes and spirals. Only her face, shoulders and hands are painted as flesh.",
+      "Judith I (1901), the biblical heroine shown as a dreamy, half-dressed woman holding a man's severed head.",
+      "The Stoclet Frieze (around 1905 to 1911), mosaic designs for the dining room of a palace in Brussels, with a Tree of Life spiralling across the walls.",
+      "The Faculty Paintings, now lost. They were taken to Schloss Immendorf, a castle in Lower Austria, during the Second World War and burned when the castle caught fire in May 1945. Only photographs remain.",
+      "He also left thousands of drawings, many of nude women, and about fifty landscapes."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Emilie Flöge (1874 to 1952), fashion designer, who ran a famous Vienna salon with her sisters. She was his closest companion for nearly thirty years. On his deathbed he is said to have asked for her.",
+      "Adele Bloch-Bauer (1881 to 1925), patron and sitter, the only woman he painted in two full portraits.",
+      "Egon Schiele (1890 to 1918), the young painter he met in 1907, encouraged and helped find patrons. Schiele drew him after his death and died of influenza eight months later.",
+      "Josef Hoffmann (1870 to 1956), the architect who designed the Stoclet Palace and co-founded the Wiener Werkstätte design workshops in Klimt's circle.",
+      "Sigmund Freud (1856 to 1939), working a few streets away on the unconscious and sexuality. There is no record that they knew each other, but both were exploring desire and the hidden self in the same city."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Vienna around 1900 was the capital of the Habsburg empire of Franz Joseph, home to Gustav Mahler, Arthur Schnitzler, Otto Wagner and Ludwig Wittgenstein's family. Rich Jewish families, like the Bloch-Bauers and the Wittgensteins, were among the main collectors of new art.",
+      "The Ringstrasse, the grand boulevard of new museums, theatres and parliament, gave him his first work. The Secession rebelled against its heavy historical styles.",
+      "He died in the last year of the First World War, months before the empire fell apart."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "The Kiss is one of the most reproduced paintings in the world, and the Belvedere in Vienna holds the largest collection of his work.",
+      "His blending of fine art and decoration, painting and design, shaped Art Nouveau and later graphic design.",
+      "In 2006 the Golden Adele was sold to Ronald Lauder for a reported 135 million US dollars, then a record for a painting. It hangs in the Neue Galerie in New York."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Klimt fathered many children.", "lab": "likely", "t": "He never married. After his death, fourteen paternity claims were made against his estate. Only a few were accepted, and no exact number is known."},
+      {"c": "Emilie Flöge was his mistress.", "lab": "disputed", "t": "Their bond was deep and lifelong, and they holidayed together each summer. Whether it was ever a sexual relationship is unknown. She is said to have destroyed many of his letters, though hundreds of his postcards to her survive."},
+      {"c": "The Nazis looted the Golden Adele and it stayed stolen.", "lab": "myth", "t": "The Nazis seized the Bloch-Bauer collection in 1938 and it went to the Belvedere. Adele's niece Maria Altmann fought Austria in court, and in 2006 an arbitration panel returned it and four other Klimts to her family."},
+      {"c": "The gold in The Kiss is paint.", "lab": "myth", "t": "It is real gold leaf, applied in thin sheets, with silver and platinum touches. His goldsmith father's craft and the Byzantine mosaics he saw in Ravenna in 1903 inspired it."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Gustav Klimt, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Gustav-Klimt"},
+      {"n": "Belvedere Museum, Vienna", "u": "https://www.belvedere.at/en"},
+      {"n": "Neue Galerie, New York", "u": "https://www.neuegalerie.org/"},
+      {"n": "Further reading: Frank Whitford, Klimt (1990)"}
+    ]}
+  ]
+}

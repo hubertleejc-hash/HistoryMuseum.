@@ -1,0 +1,67 @@
+{
+  "hero": "",
+  "portrait": "pt-babbage",
+  "kw": ["Difference Engine", "Analytical Engine", "Ada Lovelace", "Note G", "punched cards", "Jacquard", "Joseph Clement", "Herschel", "Analytical Society", "Cambridge", "Lucasian Professor", "Economy of Machinery", "Science Museum", "Difference Engine No. 2", "Dorset Street", "cowcatcher", "Passages from the Life of a Philosopher", "first computer@myths", "first program@myths", "brain@legacy"],
+  "lede": "A banker's son who grew furious at the errors in printed number tables, designed machines of brass and steel to compute them, and in the 1830s drew up plans for a general-purpose computer a century before anyone built one.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Charles Babbage was born in London on 26 December 1791. He became a mathematician, an inventor and one of the sharpest and most quarrelsome figures of Victorian science.",
+      "In 1822 he proposed the Difference Engine, a machine to calculate and print mathematical tables without human error. In 1834 he began designing something far bigger: the Analytical Engine, which could be programmed with punched cards to carry out any calculation.",
+      "Neither machine was finished in his lifetime, and he died in London on 18 October 1871, aged 79, feeling that he had failed. His designs are now recognised as the first plans for a computer."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father, Benjamin Babbage, was a wealthy banker from Totnes in Devon. Charles was often ill as a child and was taught partly at home and at small schools, including an academy at Enfield, north of London, where he found mathematics books in the library and taught himself.",
+      "He went to Trinity College, Cambridge, in 1810 and found he knew more modern mathematics than his tutors. In 1812 he founded the Analytical Society with John Herschel and George Peacock to bring in the European style of calculus, and its neater notation, in place of Newton's.",
+      "In 1814 he married Georgiana Whitmore, against his father's wishes. They had eight children, but only four survived childhood. In 1827 Georgiana, his father and two of their children all died, and Babbage, devastated, travelled in Europe for more than a year."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      {"t": "1821. Checking a set of astronomical tables with Herschel and finding error after error, he exclaimed: 'I wish to God these calculations had been executed by steam.'", "lab": "likely", "why": "From his autobiography, written more than forty years later."},
+      "1822 to 1823. He built a small working model and described the Difference Engine in a public letter to Sir Humphry Davy, president of the Royal Society. The government gave him 1,500 pounds to build a full machine.",
+      "1823 to 1833. The engineer Joseph Clement built the parts to extraordinary precision, pushing British machine-tool making forward. In 1832 a demonstration section of about 2,000 parts was assembled. It worked, and it still does.",
+      "1833. Babbage and Clement fell out over money, and Clement, who owned the tools, stopped work. That June, at one of Babbage's parties, the young Ada Byron saw the finished section working.",
+      "1834. Babbage began designing the Analytical Engine, with a 'store' to hold numbers, a 'mill' to work on them, and instructions on punched cards borrowed from the Jacquard loom. It could make choices depending on its results and repeat steps, the basic features of a modern computer.",
+      "1840 to 1843. He explained the engine to scientists in Turin. The engineer Luigi Menabrea wrote up the talk, and Ada Lovelace translated it in 1843 with her long notes.",
+      "1842. The government of Robert Peel ended funding after spending about 17,000 pounds. Babbage had spent a large amount of his own fortune too.",
+      "1847 to 1849. He designed a simpler, better Difference Engine No. 2, but never found the money to build it."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "The Difference Engine. It used the method of finite differences, which turns the calculation of tables into repeated adding. Turning a handle would drive columns of brass wheels and, in later designs, print the results directly to avoid copying errors.",
+      "The Analytical Engine. His thousands of drawings and notes describe a steam-powered machine that would have been about the size of a small locomotive, with memory for a thousand numbers of fifty digits.",
+      "On the Economy of Machinery and Manufactures (1832), a study of factories and the division of labour that influenced economists, including John Stuart Mill and Karl Marx.",
+      "Reflections on the Decline of Science in England (1830), an attack on the Royal Society that helped lead to the founding of the British Association for the Advancement of Science.",
+      "Practical inventions. He claimed the cowcatcher for the front of locomotives, studied the cost of handling letters before the penny post, designed lighthouse signals, and in the 1850s quietly broke the Vigenere cipher, long thought unbreakable.",
+      {"t": "Around 1847 he made an early ophthalmoscope for looking inside the eye, but the doctor he showed it to ignored it.", "lab": "likely", "why": "The account comes from that doctor, Thomas Wharton Jones, writing years later."},
+      "Passages from the Life of a Philosopher (1864), his witty, bitter autobiography."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Ada Lovelace (1815 to 1852), who understood the Analytical Engine better than almost anyone. He called her 'the Enchantress of Number' in a letter of 1843.",
+      "John Herschel (1792 to 1871), astronomer and his lifelong friend from Cambridge days.",
+      "Michael Faraday (1791 to 1867), a friend and regular guest at his gatherings.",
+      "Joseph Clement (1779 to 1844), the master engineer who built the Difference Engine parts.",
+      "Georg and Edvard Scheutz, a Swedish father and son who built a working difference engine in the 1850s from a description of his. Babbage generously helped them win a medal."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Britain was the workshop of the world. Navigators, engineers, bankers and insurers all relied on printed tables of numbers, worked out by hand by human 'computers', and errors could wreck ships and fortunes.",
+      "His Saturday evening parties at 1 Dorset Street in Marylebone drew hundreds of guests: scientists, writers like Charles Dickens, politicians and society hostesses, who came to see his machines and his dancing silver automaton.",
+      "In later life he waged a public war on London's street musicians and organ grinders, whose noise, he said, wasted a quarter of his working time. They took revenge by playing outside his house."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "His designs were mostly forgotten until the age of electronic computers. In the 1930s and 1940s pioneers rediscovered his and Lovelace's work and saw their own ideas there.",
+      "In 1991, for his bicentenary, the Science Museum in London built Difference Engine No. 2 from his drawings, with 4,000 parts. It worked, proving his design was sound. Its printer was finished in 2000.",
+      "Half of his brain is kept at the Science Museum and half at the Hunterian Museum of the Royal College of Surgeons in London."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Babbage built the first computer.", "lab": "myth", "t": "He designed it, in great detail, but never completed an Analytical Engine. Only small trial parts were made."},
+      {"c": "He wasted public money.", "lab": "disputed", "t": "The government spent about 17,000 pounds with no finished machine. But much of the delay came from the dispute with Clement and from Babbage moving on to a better design, and the work advanced British engineering."},
+      {"c": "Ada Lovelace wrote the first program, not Babbage.", "lab": "disputed", "t": "Babbage had sketched programs for the Analytical Engine in his own notes from 1837, never published. Lovelace's Note G of 1843 was the first published program, and the fullest of its time."},
+      {"c": "He was asked if wrong figures put in would give right answers.", "lab": "verified", "t": "He tells it himself: twice, he wrote, people asked, 'if you put into the machine wrong figures, will the right answers come out?' He could not understand the confusion of ideas behind it."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Charles Babbage, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Charles-Babbage"},
+      {"n": "Science Museum Group Collection (Difference Engine and Babbage papers)", "u": "https://collection.sciencemuseumgroup.org.uk/"},
+      {"n": "Computer History Museum, The Babbage Engine", "u": "https://www.computerhistory.org/babbage/"},
+      {"n": "Charles Babbage, Passages from the Life of a Philosopher (1864), public domain"},
+      {"n": "Further reading: Doron Swade, The Difference Engine: Charles Babbage and the Quest to Build the First Computer (2001)"}
+    ]}
+  ]
+}

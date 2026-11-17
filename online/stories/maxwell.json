@@ -1,0 +1,69 @@
+{
+  "hero": "",
+  "portrait": "pt-maxwell",
+  "kw": ["Edinburgh", "Glenlair", "Aberdeen", "King's College London", "Cambridge", "Cavendish Laboratory", "Maxwell's equations", "electromagnetism", "light", "electromagnetic wave", "colour photograph", "tartan ribbon", "Saturn's rings", "kinetic theory", "Maxwell's demon", "Faraday", "Hertz", "Heaviside", "Einstein@legacy", "radio@legacy", "four equations@myths"],
+  "lede": "A Scottish laird's son nicknamed 'Dafty' at school who, with a few pages of mathematics, showed that light is a wave of electricity and magnetism, and so made radio, television and Einstein's relativity possible.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "James Clerk Maxwell was born in Edinburgh on 13 June 1831 and grew up on his family's estate, Glenlair, in the hills of south-west Scotland.",
+      "He took Michael Faraday's ideas about electric and magnetic fields and turned them into equations. From them he worked out that electromagnetic waves should travel at the speed of light, and concluded that light itself is such a wave.",
+      "He also made the first colour photograph, explained the rings of Saturn, helped found the statistical theory of gases, and was the first head of the Cavendish Laboratory in Cambridge. He died of cancer on 5 November 1879, aged 48."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "He was a child who wanted to know how everything worked. His parents said he would ask 'What's the go o' that?' about doors, bells and streams.",
+      "His mother died of abdominal cancer in 1839, when he was eight. A tutor at Glenlair treated him harshly, and he was sent to the Edinburgh Academy, where his country clothes and accent earned him the nickname 'Dafty'.",
+      {"t": "At fourteen he worked out a way to draw oval curves with pins and string. His paper on it was read to the Royal Society of Edinburgh in 1846 by a professor, because he was thought too young to present it himself.", "lab": "verified", "why": "The paper is printed in the Society's Proceedings for 1846."},
+      "He studied at Edinburgh University from 1847, then went to Cambridge in 1850. In 1854 he graduated as Second Wrangler, second in the whole university in mathematics."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1856: he became professor of natural philosophy at Marischal College, Aberdeen, aged 25. In 1858 he married Katherine Mary Dewar, the principal's daughter. They had no children.",
+      "1857: he won Cambridge's Adams Prize with an essay proving that Saturn's rings cannot be solid or liquid, but must be made of countless separate particles. The astronomer James Keeler confirmed it in 1895 by measuring how fast different parts of the rings move.",
+      "1860: Aberdeen's two colleges merged and he lost his post. He moved to King's College London, and met Faraday at the Royal Institution.",
+      "May 1861: at the Royal Institution he showed the first colour photograph, of a tartan ribbon, made from three pictures taken through red, green and blue filters.",
+      "1861 to 1862: in On Physical Lines of Force he calculated the speed of waves in his model of the electromagnetic field and found it almost exactly the measured speed of light.",
+      "1865: A Dynamical Theory of the Electromagnetic Field set out his theory without the mechanical model. That year he resigned and went home to Glenlair to write and farm.",
+      "1871: he was appointed the first Cavendish Professor of Experimental Physics at Cambridge and designed the new laboratory, which opened in 1874.",
+      "1873: he published A Treatise on Electricity and Magnetism. In 1879, already ill, he finished editing the unpublished papers of the eighteenth-century scientist Henry Cavendish. He died in Cambridge that November and was buried at Parton, near Glenlair."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "The electromagnetic field. His equations link electric charges, currents, and electric and magnetic fields, and show how a changing field in one creates the other, so that a wave can travel through empty space.",
+      {"t": "In 1862 he wrote that 'we can scarcely avoid the inference that light consists in the transverse undulations of the same medium which is the cause of electric and magnetic phenomena'.", "lab": "verified", "why": "From On Physical Lines of Force, Philosophical Magazine (1862)."},
+      "Colour vision. He showed that most colours can be matched by mixing three primary lights, building on Thomas Young, and used it for his colour photograph.",
+      "Gases. In 1860 he showed how the speeds of molecules in a gas are spread out, now called the Maxwell-Boltzmann distribution, one of the first uses of statistics in physics. His imaginary 'demon' that sorts fast and slow molecules still puzzles physicists thinking about heat and information.",
+      "Control. His 1868 paper On Governors, about the speed regulators on steam engines, is counted as a founding text of control theory.",
+      "Books: Theory of Heat (1871), the Treatise (1873) and the short Matter and Motion (1877)."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Michael Faraday (1791 to 1867), who imagined lines of force filling space. Maxwell said he was only putting Faraday's ideas into mathematical form.",
+      "Katherine Maxwell (1824 to 1886), his wife, who helped with his experiments on colour and gases, and whom he nursed through illness.",
+      "Peter Guthrie Tait (1831 to 1901), school friend and physicist, with whom he exchanged witty postcards for decades.",
+      "William Thomson, later Lord Kelvin (1824 to 1907), a fellow Scot and the leading British physicist of the day.",
+      "Ludwig Boltzmann (1844 to 1906), the Austrian physicist who extended his work on gases.",
+      "Heinrich Hertz (1857 to 1894), who after Maxwell's death produced and detected electromagnetic waves in his laboratory, in 1887 and 1888."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Victorian Britain was wired by the telegraph, and in 1866 a cable linked Britain and America. Electrical science was suddenly practical and profitable. Maxwell helped set standards for electrical resistance for the British Association.",
+      "Most physicists of his time believed that waves of light needed a medium to travel in, an invisible 'ether' filling space. Maxwell believed in it too. It was only after experiments failed to detect it that Einstein did away with it in 1905.",
+      "He was a devout Christian, wrote comic verse, and ran his estate as a landlord who cared for his tenants."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "Radio, radar, television, mobile phones and wi-fi all use the electromagnetic waves he predicted. Hertz's discovery, and Marconi's radio in the 1890s, came from his theory.",
+      "Einstein built special relativity on Maxwell's equations, which already held true for every observer at steady speed. He kept a picture of Maxwell on his study wall.",
+      {"t": "Einstein is reported to have said that one scientific era ended and another began with Maxwell.", "lab": "likely", "why": "The idea appears in Einstein's 1931 essay for Maxwell's centenary; the exact wording varies by translation."},
+      "The Cavendish Laboratory became one of the greatest research centres in physics, where the electron was discovered and the structure of DNA worked out. A statue of Maxwell stands in George Street, Edinburgh."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "The four short 'Maxwell's equations' are exactly what Maxwell wrote.", "lab": "myth", "t": "His 1865 paper set out twenty equations in twenty quantities. The compact four-equation form in vector notation was worked out in the 1880s, mainly by Oliver Heaviside and also by Heinrich Hertz."},
+      {"c": "Light is an electromagnetic wave: Maxwell proved it.", "lab": "disputed", "t": "He predicted it from theory and the match with the speed of light. The experimental proof came from Hertz in 1887 to 1888, after Maxwell had died."},
+      {"c": "His first colour photograph worked just as planned.", "lab": "myth", "t": "The emulsions of 1861 were almost blind to red. In 1961 researchers at Kodak found that his 'red' picture had largely recorded ultraviolet light instead. It worked partly by luck."},
+      {"c": "He was unrecognised in his lifetime.", "lab": "myth", "t": "Physicists knew him as one of the best of his time: he won the Royal Society's Rumford Medal and was given the new Cavendish chair. But few understood his field theory until after his death."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "James Clerk Maxwell, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/James-Clerk-Maxwell"},
+      {"n": "James Clerk Maxwell, MacTutor History of Mathematics, University of St Andrews", "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Maxwell/"},
+      {"n": "The Royal Society of Edinburgh", "u": "https://rse.org.uk/"},
+      {"n": "James Clerk Maxwell, A Dynamical Theory of the Electromagnetic Field, Philosophical Transactions of the Royal Society (1865), public domain"},
+      {"n": "Further reading: Basil Mahon, The Man Who Changed Everything (2003)"}
+    ]}
+  ]
+}

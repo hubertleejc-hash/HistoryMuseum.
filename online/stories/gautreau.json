@@ -1,0 +1,61 @@
+{
+  "hero": "madame-x",
+  "portrait": "pt-gautreau",
+  "kw": ["New Orleans", "Louisiana", "Paris", "Paramé", "Brittany", "Madame X", "Sargent", "Salon of 1884", "strap", "Pierre Gautreau", "Metropolitan Museum", "Madame Gautreau Drinking a Toast", "Gustave Courtois", "La Gandara", "professional beauty", "courtesan@myths", "powder@myths"],
+  "lede": "A girl from New Orleans who made herself the most talked-about beauty in Paris, then watched a young American painter turn her into a scandal with one slipped strap.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Virginie Amélie Avegno was born in New Orleans on 29 January 1859, into a wealthy Creole family of French descent. After the American Civil War her mother took her to Paris, where she grew up.",
+      "She married a rich French banker, Pierre Gautreau, and became one of the 'professional beauties' of Paris society: women famous simply for being looked at, admired at balls, the opera and the theatre.",
+      "In 1884 the American painter John Singer Sargent showed her portrait at the Paris Salon. Its daring pose and fallen shoulder strap caused a scandal. Today the painting, Madame X, is one of the most famous portraits in New York's Metropolitan Museum. She died in Paris on 25 July 1915, aged 56."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "Her father, Anatole Avegno, was a lawyer and a major in the Confederate army. He was wounded at the Battle of Shiloh in April 1862 and died of his wounds.",
+      "Her mother, Marie Virginie de Ternant, came from a plantation family. After the war, with New Orleans occupied and the old society shaken, she took Virginie to Paris, probably in the late 1860s. French was the family's language, and Paris promised a better marriage for a pretty daughter.",
+      "Virginie was educated in a convent school and was launched into society in her teens. She had pale skin, reddish hair, a long nose and a strong profile, and people noticed her everywhere she went."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      {"t": "Marriage, 1878. She married Pierre Gautreau, a banker and shipowner about twice her age. They had one child, a daughter, Louise.", "lab": "verified", "why": "The marriage is recorded on 1 August 1878; their daughter Louise was born in 1879."},
+      "Fame, early 1880s. Newspapers reported what she wore and where she went. Painters asked to paint her. She refused many, but in 1882 or 1883 she agreed to sit for the 27-year-old Sargent, who hoped the portrait would make his name.",
+      "Paramé, summer 1883. She posed at the Gautreaus' country house on the Breton coast. Sargent made many sketches and studies, and found her restless and hard to paint. He tried and rejected several poses before choosing a standing figure in black, turned away, her right hand on a table.",
+      "The Salon, May 1884. The picture was shown as 'Portrait de Mme ***', but everyone knew who she was. Her bare shoulders, powdered skin and the jewelled strap sliding off her right shoulder were seen as indecent. Visitors laughed and critics mocked. Her mother begged Sargent to withdraw it. He refused.",
+      "After the Salon. Sargent painted the strap back up onto her shoulder, and never sold or showed the portrait in Paris again. It hung in his studio for more than thirty years.",
+      "Later life. She went on in society, and sat for other painters, including Gustave Courtois in 1891 and Antonio de La Gandara in 1898. In her last years she lived more quietly. She died in Paris in July 1915, during the First World War.",
+      "1916. A year after her death, Sargent sold Madame X to the Metropolitan Museum of Art. He wrote that he supposed it was 'the best thing I have done'."
+    ]},
+    {"k": "works", "h": "The portraits", "ps": [
+      "Madame X (1883 to 1884), Metropolitan Museum of Art, New York. A life-size figure in a black satin dress with a deep neckline, her face in sharp profile, her skin almost lavender white against a brown background. The pose is both proud and stiff.",
+      "The strap. In the Salon version the right strap had slipped off her shoulder. It is the detail that shocked Paris. Photographs of the painting in 1884 show it hanging down; the version in New York has it in place.",
+      "Madame Gautreau Drinking a Toast (around 1883), a small, quick oil sketch by Sargent now in the Isabella Stewart Gardner Museum in Boston, more relaxed and playful than the big portrait.",
+      "An unfinished second version of Madame X, in which her right arm and strap are barely sketched, is in the Tate in London.",
+      {"t": "Gustave Courtois's portrait of 1891 shows her with a strap again slipping from one shoulder, as if answering the old scandal.", "lab": "likely", "why": "The painting survives; reading it as a reply to 1884 is an interpretation."}
+    ]},
+    {"k": "people", "h": "Her people", "ps": [
+      "John Singer Sargent (1856 to 1925), the American painter born in Florence and trained in Paris. He chose her, chased her and painted her, and was hurt as much as she was by the response.",
+      "Pierre Gautreau, her husband, a wealthy banker and shipping man, much older than she was.",
+      "Marie Virginie de Ternant Avegno, her mother, who brought her to Paris, steered her marriage and tried to stop the Salon showing.",
+            "Samuel-Jean Pozzi, the society doctor, whom Sargent painted in a red dressing gown in 1881. He moved in the same circles as the Gautreaus, and gossip linked his name with hers."
+    ]},
+    {"k": "world", "h": "The world around her", "ps": [
+      "The Paris Salon was the biggest art show in the world. Thousands of paintings hung frame to frame, and a single picture could make or break a career overnight. Portraits of society women were a main way painters earned money.",
+      "Paris society in the Belle Époque watched itself constantly. Newspapers had gossip columns, and photographs of famous beauties sold in shops. A woman's reputation was her family's capital.",
+      "Americans were arriving in Paris in growing numbers, many of them rich and eager to be accepted. Some Parisians looked down on them as newcomers, and both Sargent and Virginie were, in a sense, outsiders trying to rise."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "Madame X is now one of the best-known paintings in America, reproduced on posters, book covers and fashion pages. The name has turned a real woman into a mystery figure.",
+      "For a long time Virginie was remembered only as the subject of a scandal. Recent books and exhibitions have tried to see her as a person who shaped her own image, working with her looks the way others worked with money or titles.",
+      "The painting is also a case study in how art and gossip mix. One strap, moved a few centimetres, changed how a whole city talked about a woman."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "She was a courtesan.", "lab": "myth", "t": "Rumours spread after the Salon, and her pose was read as an invitation. But she was a married woman and a mother from a wealthy family. There is gossip about lovers, including Dr Pozzi, but no proof."},
+      {"c": "The painting ruined Sargent's career.", "lab": "myth", "t": "His Paris portrait business suffered and he moved to London in 1886. There he soon became the most sought-after portrait painter in Britain and America."},
+      {"c": "She painted her skin with lavender powder.", "lab": "likely", "t": "Writers at the time said she used a pale, bluish powder, and some claimed she reddened her ears with henna. The painting's almost lilac skin may record this."},
+      {"c": "Sargent called the painting Madame X from the start.", "lab": "myth", "t": "At the Salon it was 'Portrait de Mme ***'. The title Madame X became fixed when it went to the Met, to shield her name."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Madame X (Madame Pierre Gautreau), The Metropolitan Museum of Art", "u": "https://www.metmuseum.org/art/collection/search/12127"},
+      {"n": "John Singer Sargent, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/John-Singer-Sargent"},
+      {"n": "Further reading: Deborah Davis, Strapless: John Singer Sargent and the Fall of Madame X (2003)"}
+    ]}
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "hero": "",
+  "portrait": "pt-halley",
+  "kw": ["Halley's Comet", "comet", "St Helena", "Newton", "Principia", "Hooke", "Flamsteed", "Royal Society", "Greenwich", "Astronomer Royal", "Paramore", "magnetic variation", "trade winds", "mortality table", "Breslau", "transit of Venus", "diving bell", "History of Fishes@myths", "discovered the comet@myths", "1758@legacy"],
+  "lede": "A London soap-maker's son who sailed to the far South Atlantic to map the stars, talked Isaac Newton into writing the Principia and paid for it himself, and then promised the world that a comet would come back long after he was dead.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Edmond Halley was born near London in 1656 and became one of the busiest minds of the scientific revolution. He was an astronomer, a mathematician, a sea captain, a mapmaker and a tireless organiser of other people's work.",
+      "He is best known for one bold forecast. In 1705 he argued that the comets seen in 1531, 1607 and 1682 were the same object travelling round the sun, and that it would return late in 1758.",
+      "He died at Greenwich in 1742, aged 85, as Astronomer Royal. The comet came back on time, sixteen years later, and has carried his name ever since."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father was a wealthy soap maker and salter in the City of London, rich enough to buy his son the best instruments. Edmond went to St Paul's School, where he was already observing the sky, and in 1673 to The Queen's College, Oxford.",
+      "As a student he wrote to John Flamsteed, the first Astronomer Royal, pointing out errors in the standard tables of the planets. Flamsteed was impressed, at first.",
+      "Northern astronomers had mapped the northern sky, but the stars around the south pole were barely charted. Halley decided to go and see them for himself, and left Oxford without taking a degree."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "St Helena, 1676 to 1678. With the backing of King Charles II and the East India Company he sailed to the island of St Helena in the South Atlantic. Despite cloudy weather he measured the positions of 341 southern stars and watched a transit of Mercury across the sun. His Catalogue of the Southern Stars made his name, and at 22 he was elected a Fellow of the Royal Society.",
+      "London, January 1684. Halley, Robert Hooke and Christopher Wren talked in a coffee house about whether an inverse-square force from the sun would explain the planets' paths. Hooke claimed he could prove it but never showed his proof. Wren offered a book as a prize.",
+      {"t": "Cambridge, August 1684. Halley visited Isaac Newton and asked what curve a planet would follow under such a force. Newton answered at once: an ellipse. He had worked it out years before, but could not find his papers, and promised to send them.", "lab": "likely", "why": "The scene is known from a later account by Newton's friend Abraham de Moivre, who heard it from Newton himself."},
+      "1686 to 1687. Newton's short paper grew into the Principia. The Royal Society agreed to publish it but had no money, so Halley paid for the printing himself, corrected the proofs, calmed Newton during a priority quarrel with Hooke, and wrote a Latin poem in Newton's praise for the front of the book.",
+      "Captain Halley, 1698 to 1700. Given command of a small navy ship, the Paramore, he made two voyages across the Atlantic, as far south as the icebergs, measuring how far a compass needle pointed away from true north. His first officer resented a civilian captain and Halley brought charges against him before a naval court.",
+      "1704 to 1705. He became Savilian Professor of Geometry at Oxford and published his study of the orbits of 24 comets, with the prediction that made him famous.",
+      "Greenwich, 1720. When Flamsteed died, Halley, now 63, was made Astronomer Royal. He began an 18-year series of observations of the moon as a way of finding longitude at sea."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "The southern star catalogue of 1678, the first telescopic survey of the southern sky.",
+      "A map of the trade winds and monsoons (1686), often called the first weather map.",
+      "A table of deaths at each age in the city of Breslau (1693). From it he worked out the chances of surviving from one age to the next and the fair price of a life annuity, an early step towards life insurance.",
+      "A diving bell, which he improved in about 1690 and tested himself, staying under the Thames for more than an hour with fresh air sent down in barrels.",
+      "Charts of the Atlantic (1701) with curving lines joining places of equal magnetic variation, a new way of mapping that sailors used for decades.",
+      "In 1716 he proposed timing the transits of Venus due in 1761 and 1769 from distant places on earth to measure the distance to the sun. Expeditions around the world did exactly that, including James Cook's voyage to Tahiti.",
+      "In 1718 he showed that the bright stars Sirius, Arcturus and Aldebaran had shifted since ancient Greek times: the 'fixed' stars move."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Isaac Newton (1643 to 1727), whom he coaxed, edited and defended. They stayed allies for life.",
+      "Robert Hooke (1635 to 1703), the Royal Society's brilliant, prickly curator, who believed Newton had taken his idea about gravity.",
+      "John Flamsteed (1646 to 1719), the first Astronomer Royal. Their friendship turned to enmity. In 1712 Halley and Newton published Flamsteed's star observations without his consent; Flamsteed later burned most of the copies he could get.",
+      "Christopher Wren (1632 to 1723), astronomer and architect, a fellow member of the coffee-house debates.",
+      "Mary Tooke, whom he married in 1682. They had three children and were married for more than fifty years."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Halley grew up in the London of the plague and the Great Fire. The Royal Society, founded in 1660, met in rooms and taverns, and much science was argued over coffee.",
+      "Britain's trade and navy were growing fast. Questions about winds, tides, magnetism and longitude were practical ones: they decided whether ships came home.",
+      "Comets were still widely feared as omens. Newton's gravity and Halley's sums turned one of them into a predictable visitor obeying the same law as a falling apple."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "On Christmas night 1758 a German farmer and amateur astronomer, Johann Palitzsch, spotted the returning comet. It passed closest to the sun in March 1759, within the window the French mathematician Alexis Clairaut had calculated by allowing for the pull of Jupiter and Saturn. It was the first time a comet's return had been predicted.",
+      "The comet has returned roughly every 76 years since: in 1835, 1910 and 1986. It is due back in 2061.",
+      "His work on life tables, wind maps and magnetic charts still sits at the start of the histories of actuarial science, meteorology and geophysics. Craters on the moon and Mars, and a British research station in Antarctica, are named after him."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Halley discovered Halley's Comet.", "lab": "myth", "t": "People had watched the comet for more than two thousand years. What Halley did was show that several famous sightings were one object on a fixed orbit, and predict its return."},
+      {"c": "He lived to see his comet come back.", "lab": "myth", "t": "He died in January 1742. The comet returned at the end of 1758, sixteen years later."},
+      {"c": "Without Halley there might have been no Principia.", "lab": "verified", "t": "Newton's own letters show Halley prompted the work, pressed him to finish it, edited it and paid for printing."},
+      {"c": "The Royal Society paid him in unsold fish books.", "lab": "verified", "t": "The Society had spent its money on an expensive History of Fishes, and records show it offered him copies in place of part of his salary as clerk."},
+      {"c": "He believed the earth was hollow.", "lab": "verified", "t": "In 1692 he suggested the earth had inner shells, each with its own magnetic poles, to explain why compass readings drift. It was a serious attempt at a real puzzle, and wrong."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Edmond Halley, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Edmond-Halley"},
+      {"n": "Royal Museums Greenwich (Royal Observatory)", "u": "https://www.rmg.co.uk/"},
+      {"n": "The Royal Society", "u": "https://royalsociety.org/"},
+      {"n": "Edmond Halley, A Synopsis of the Astronomy of Comets (1705), public domain"},
+      {"n": "Further reading: Colin Ronan, Edmond Halley: Genius in Eclipse (1969)"}
+    ]}
+  ]
+}

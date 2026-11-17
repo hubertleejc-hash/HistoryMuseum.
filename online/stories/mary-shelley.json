@@ -1,0 +1,67 @@
+{
+  "hero": "",
+  "portrait": "pt-mary-shelley",
+  "kw": ["Frankenstein", "The Modern Prometheus", "Villa Diodati", "Lake Geneva", "Byron", "Percy Bysshe Shelley", "Polidori", "Mary Wollstonecraft", "William Godwin", "Claire Clairmont", "The Last Man", "Mathilda", "Valperga", "galvanism", "science fiction", "monster's name@myths", "one night@myths"],
+  "lede": "The daughter of two famous radicals who ran away at sixteen with a married poet, and at eighteen, on a stormy summer night by Lake Geneva, imagined a student bringing a dead body to life.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Mary Wollstonecraft Godwin was born in London on 30 August 1797. Her mother was the feminist writer Mary Wollstonecraft, her father the political philosopher William Godwin.",
+      "At sixteen she eloped with the poet Percy Bysshe Shelley. In the summer of 1816, during a ghost-story contest with Lord Byron at Lake Geneva, she began Frankenstein; or, The Modern Prometheus. It was published, without her name, on 1 January 1818.",
+      "She lost three of her four children and, in 1822, her husband. She lived by her pen for almost thirty more years, writing novels, stories, travel books and biographies, and died in London on 1 February 1851, aged 53."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "Her mother died of an infection eleven days after giving birth to her. Mary grew up with her mother's books and portrait, and as a girl she would read beside her mother's grave in St Pancras churchyard.",
+      "In 1801 Godwin married a neighbour, Mary Jane Clairmont, who brought two children of her own. One of them, Jane, later called herself Claire. Mary and her stepmother did not get on.",
+      "She had little formal schooling, but Godwin's house was full of books and visitors: writers, scientists and politicians. As a child she hid behind a sofa to hear Samuel Taylor Coleridge recite The Rime of the Ancient Mariner.",
+      "From 1812 she spent long stays near Dundee in Scotland with a family friend. She later wrote that it was there, in the open air, that her imagination grew."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "July 1814: Percy Shelley, a young admirer of her father, was married to Harriet Westbrook. He and Mary fell in love, and on 28 July they left for France, taking Claire with them. Godwin refused to see them.",
+      "1815: her first baby, a girl born early, died within days. Mary wrote in her journal that she dreamed the baby came back to life when they rubbed it by the fire.",
+      "Summer 1816: with Percy, their baby son William and Claire, she stayed near Byron's rented Villa Diodati on Lake Geneva. Cold, rainy weather kept them indoors. Byron proposed that each of them write a ghost story. Byron's doctor, John Polidori, wrote The Vampyre, and Mary began Frankenstein.",
+      "December 1816: Harriet Shelley drowned herself in London. Mary and Percy married on 30 December.",
+      "1818 to 1819: Frankenstein appeared in three volumes. The Shelleys moved to Italy, where their daughter Clara died in Venice in 1818 and William in Rome in 1819. Only Percy Florence, born in November 1819, grew up.",
+      "8 July 1822: Percy Shelley drowned when his boat went down in a storm off the Italian coast. Mary was 24.",
+      "1823: she returned to England with her son. A stage version of Frankenstein was already playing in London, and she went to see it."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "Frankenstein (1818), the story of Victor Frankenstein, a student who builds a man from dead parts and gives him life, then abandons him in horror. The creature, rejected by everyone, learns to speak and read and turns to revenge. It is a story of ambition, responsibility and loneliness.",
+      {"t": "In the revised edition of 1831 she wrote a new introduction about how the idea came. Unable to sleep after a night of talk about galvanism and the principle of life, she saw 'the pale student of unhallowed arts kneeling beside the thing he had put together'.", "lab": "likely", "why": "Her own account, written fifteen years later; her 1816 journal is lost for those days, so it cannot be checked."},
+      "Mathilda (written 1819), a short novel about a father's forbidden love for his daughter. Godwin did not return the manuscript, and it was not published until 1959.",
+      "Valperga (1823), a historical novel set in medieval Italy, and The Last Man (1826), which imagines the human race destroyed by a plague in the late twenty-first century, leaving one survivor in an empty Rome.",
+      "Later novels, Lodore (1835) and Falkner (1837), stories, travel writing such as Rambles in Germany and Italy (1844), and her edition of Percy Shelley's poems (1839), whose notes did much to shape his reputation."
+    ]},
+    {"k": "people", "h": "Her people", "ps": [
+      "Mary Wollstonecraft (1759 to 1797), her mother, author of A Vindication of the Rights of Woman.",
+      "William Godwin (1756 to 1836), her father, philosopher and novelist, to whom Frankenstein is dedicated.",
+      "Percy Bysshe Shelley (1792 to 1822), poet and her husband, who encouraged her writing and wrote the preface to the first edition.",
+      "Lord Byron (1788 to 1824), poet and neighbour at Lake Geneva, who set the ghost-story challenge.",
+      "Claire Clairmont (1798 to 1879), her stepsister, who had a daughter, Allegra, by Byron. The child died in Italy aged five.",
+      "Percy Florence Shelley (1819 to 1889), her only surviving child, who inherited the family title and cared for her in her last years."
+    ]},
+    {"k": "world", "h": "The world around her", "ps": [
+      "This was the age of Romanticism, when poets prized feeling, wild nature and rebellion. It was also an age of electrical experiments. In 1803 the Italian Giovanni Aldini passed current through the body of a hanged man in London and made its face twitch and an eye open.",
+      "In April 1815 the volcano Tambora erupted in Indonesia. Its ash cooled the world, and 1816 became 'the year without a summer', which explains the storms and the evenings indoors at Lake Geneva.",
+      "A woman who lived with a married man was an outcast. For years respectable society shut its doors on Mary, and as a widow she had to support herself and her son by writing."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "Frankenstein is often called the first science-fiction novel: its horror comes not from ghosts but from what science might make possible. The Last Man is one of the first novels about the end of the human race.",
+      "From the stage plays of the 1820s to the 1931 film with Boris Karloff, the creature became one of the best-known figures in modern culture. Its name is still used for any creation that turns on its maker.",
+      {"t": "After her death a small bundle wrapped in a page of Percy Shelley's poem Adonais was found in her desk. It is said to have held what remained of his heart, saved from his cremation on the beach in 1822.", "lab": "likely", "why": "The story comes from family accounts after her death; the remains were later buried with her son."}
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Frankenstein is the name of the monster.", "lab": "myth", "t": "Victor Frankenstein is the scientist. The creature has no name. Victor calls it 'the daemon', 'the wretch' and worse, and the creature calls himself the Adam of his maker's labours."},
+      {"c": "She wrote the whole book in one night.", "lab": "myth", "t": "The idea came in a waking dream one night in June 1816. She first meant a short tale, then worked on it for about a year, finishing in 1817."},
+      {"c": "Her name was on the first edition.", "lab": "myth", "t": "The 1818 edition was anonymous. Many reviewers guessed it was by Percy Shelley. Her name first appeared on the second edition of 1823."},
+      {"c": "Percy Shelley really wrote Frankenstein.", "lab": "myth", "t": "The surviving manuscript is in her hand, with his corrections. Scholars who have studied it estimate that he contributed a few thousand words to a book of about 72,000, mostly small changes of wording."},
+      {"c": "The monster in the book is a grunting brute.", "lab": "myth", "t": "That is the 1931 film. In the novel the creature reads Milton and Plutarch and speaks eloquently about his suffering."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Mary Wollstonecraft Shelley, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Mary-Wollstonecraft-Shelley"},
+      {"n": "Mary Shelley, Frankenstein; or, The Modern Prometheus, Project Gutenberg (public domain)", "u": "https://www.gutenberg.org/ebooks/84"},
+      {"n": "Mary Wollstonecraft Shelley, author page, Wikisource (public domain texts)", "u": "https://en.wikisource.org/wiki/Author:Mary_Wollstonecraft_Shelley"},
+      {"n": "Further reading: Charlotte Gordon, Romantic Outlaws (2015)"},
+      {"n": "Further reading: Miranda Seymour, Mary Shelley (2000)"}
+    ]}
+  ]
+}

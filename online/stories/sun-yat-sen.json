@@ -1,0 +1,65 @@
+{
+  "hero": "",
+  "portrait": "pt-sun-yat-sen",
+  "kw": ["Cuiheng", "Guangdong", "Honolulu", "Hong Kong", "London", "Tokyo", "Penang", "Nanjing", "Guangzhou", "Wuchang", "Tongmenghui", "Kuomintang", "Three Principles of the People", "Qing dynasty", "Yuan Shikai", "Soong Ching-ling", "Chiang Kai-shek", "James Cantlie", "father of the nation@myths", "Christian@myths"],
+  "lede": "A village boy from southern China, schooled in Hawaii and trained as a doctor in Hong Kong, who spent sixteen years in exile raising money for revolutions that mostly failed, until one succeeded without him.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Sun Yat-sen was born on 12 November 1866 in the village of Cuiheng, in Guangdong province in southern China. He is also known as Sun Wen and, in Chinese, as Sun Zhongshan.",
+      "He trained as a doctor, then gave his life to overthrowing the Qing dynasty, which had ruled China since 1644. From exile in Japan, Europe, America and Southeast Asia he organised revolutionary groups and uprisings, and raised money among overseas Chinese communities.",
+      "When revolution broke out in October 1911 he was in the United States. He came home to be named provisional president of the new Republic of China on 1 January 1912, but gave the post up weeks later. He founded the Nationalist Party, the Kuomintang, and died in Beijing on 12 March 1925, aged 58."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His parents were poor farmers. His elder brother, Sun Mei, emigrated to Hawaii and became a successful farmer and merchant there.",
+      "In 1879, aged about twelve, Sun joined his brother in Honolulu. He studied at the Iolani School, run by Anglican missionaries, where he learned English, Western history and Christianity, and then briefly at Oahu College.",
+      "His interest in Christianity alarmed his brother, who sent him home. In his village he and a friend broke the arm off a statue of a local god, and he had to leave. He was baptised a Christian in Hong Kong in the early 1880s.",
+      "He studied medicine, graduating in 1892 from the Hong Kong College of Medicine for Chinese. One of his teachers was the Scottish surgeon James Cantlie. He practised briefly in Macau and Guangzhou."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1894. He sent a petition for reform to a senior Qing official, Li Hongzhang, and got no answer. That November in Honolulu he founded the Revive China Society, one of the first Chinese revolutionary groups.",
+      "1895. A planned uprising in Guangzhou was discovered before it began. His friend Lu Haodong was executed. Sun fled with a price on his head and did not live in China again for sixteen years.",
+      {"t": "London, October 1896. He was lured or seized into the Chinese Legation and held for twelve days, apparently to be shipped back to China for execution. He got a note out to James Cantlie, who alerted the press and the British government, and he was freed. His book Kidnapped in London (1897) made him famous.", "lab": "likely", "why": "The detention is well documented; whether he walked in on his own or was tricked inside is disputed."},
+      "1905. In Tokyo he united several groups into the Tongmenghui, the Revolutionary Alliance, with the aim of ending Manchu rule, founding a republic and sharing land fairly.",
+      "Penang, 1910. At a meeting in Penang, in British Malaya, he and his allies planned a new uprising in Guangzhou and raised money from local Chinese merchants. It broke out in April 1911 and was crushed; 72 of the revolutionaries buried at Huanghuagang became national martyrs.",
+      "10 October 1911. Army units in Wuchang rose in revolt and province after province declared independence from the Qing. Sun read the news in a newspaper in Denver, Colorado. He went first to London and Paris to seek support, and reached Shanghai in late December.",
+      "1 January 1912. In Nanjing he was sworn in as provisional president of the Republic of China. To win over the Qing's strongest general, Yuan Shikai, and end the fighting, he agreed to step aside. The last emperor, the boy Puyi, abdicated in February, and Yuan took office.",
+      "1913 to 1917. Yuan crushed parliament after the Kuomintang's leader Song Jiaoren was murdered. Sun led a failed 'Second Revolution' and fled to Japan, where in 1915 he married Soong Ching-ling. From 1917 he set up rival governments in Guangzhou.",
+      "1923 to 1924. Rejected by the Western powers, he allied with Soviet Russia and the young Chinese Communist Party. Soviet advisers helped reorganise the Kuomintang, and in 1924 he opened the Whampoa Military Academy, with Chiang Kai-shek in charge.",
+      "1925. He went north to Beijing to talk about uniting China. He was found to have liver cancer and died there in March."
+    ]},
+    {"k": "works", "h": "The ideas", "ps": [
+      "The Three Principles of the People, set out in lectures in 1924: nationalism (freedom from foreign domination and from Manchu rule), democracy (a government chosen by the people) and the people's livelihood (economic fairness, including land reform).",
+      "A plan for national reconstruction, with thousands of kilometres of railways, ports and a dam in the Yangtze gorges, a dream later realised as the Three Gorges Dam.",
+      "His idea that China needed a period of 'political tutelage', guidance by one party, before full democracy. Later the Kuomintang used it to justify one-party rule."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Soong Ching-ling (1893 to 1981), his second wife, much younger than him, who became an important political figure in her own right in the People's Republic.",
+      "Lu Muzhen (1867 to 1952), his first wife, married in an arranged match in 1885, mother of three of his children. They divorced in 1915.",
+      "James Cantlie (1851 to 1926), his teacher in Hong Kong and rescuer in London.",
+      "Yuan Shikai (1859 to 1916), the general who replaced him as president and then tried to make himself emperor.",
+      "Chiang Kai-shek (1887 to 1975), his military protégé, who took over the Kuomintang after his death. Chiang married Soong Ching-ling's sister Soong Mei-ling."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "In his youth the Qing empire was losing wars and land to Britain, France, Japan and Russia. Defeat by Japan in 1895 and the crushing of the Boxer Rising in 1900 made many young Chinese think the dynasty could not be saved.",
+      "Millions of Chinese lived abroad, in Hawaii, the Americas and above all Southeast Asia. Their money and newspapers kept his movement alive.",
+      "After 1912 China fell into the hands of rival warlords. When he died the country was still divided."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "He is honoured on both sides of the Taiwan Strait. The Republic of China, now in Taiwan, calls him 'Father of the Nation'. The People's Republic calls him the 'forerunner of the revolution'.",
+      "His tomb, the Sun Yat-sen Mausoleum on Purple Mountain in Nanjing, was finished in 1929. The city of Zhongshan in Guangdong and countless streets and parks are named after him.",
+      "Overseas, the Sun Yat Sen Museum in Penang and memorial halls in Singapore, Hawaii and elsewhere remember the communities that paid for his revolution."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Sun Yat-sen led the 1911 revolution.", "lab": "myth", "t": "His movement inspired it and his allies took part, but the Wuchang rising was started by soldiers and local revolutionaries. He was in Denver, Colorado, at the time and learned of it from a newspaper."},
+      {"c": "He is the 'father of the nation' to everyone in China.", "lab": "disputed", "t": "The title is official in Taiwan. In the People's Republic he is honoured as a forerunner, while Mao Zedong is seen as the founder of the new China."},
+      {"c": "Sun Yat-sen was a Christian.", "lab": "verified", "t": "He was baptised in Hong Kong as a young man and had a Christian funeral service in Beijing. His faith was private, and he rarely spoke of it in politics."},
+      {"c": "He was the first president of China.", "lab": "disputed", "t": "He was the first provisional president of the Republic, for about three months in 1912. Yuan Shikai was the first formal president."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Sun Yat-sen, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Sun-Yat-sen"},
+      {"n": "Library of Congress", "u": "https://www.loc.gov/"},
+      {"n": "Sun Yat-sen, Kidnapped in London (1897), public domain"},
+      {"n": "Further reading: Marie-Claire Bergère, Sun Yat-sen (1998)"}
+    ]}
+  ]
+}

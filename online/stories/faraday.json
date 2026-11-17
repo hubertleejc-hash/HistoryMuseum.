@@ -1,0 +1,65 @@
+{
+  "hero": "",
+  "portrait": "pt-faraday",
+  "kw": ["Royal Institution", "Humphry Davy", "bookbinder", "electromagnetic induction", "electric motor", "dynamo", "transformer", "electrolysis", "benzene", "Faraday cage", "Faraday effect", "lines of force", "field", "Maxwell", "Christmas Lectures", "Chemical History of a Candle", "Sandemanian", "Babbage", "tax it@myths", "knighthood@myths"],
+  "lede": "A blacksmith's son with barely any schooling who started out binding other people's books, talked his way into Humphry Davy's laboratory, and discovered how to turn magnetism into electricity, the principle behind every power station on earth.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Michael Faraday was born on 22 September 1791 in Newington Butts, then a village just south of London. His family was poor and he had only basic schooling in reading, writing and arithmetic.",
+      "He became the greatest experimental scientist of the nineteenth century. He made the first electric motor effect in 1821, discovered electromagnetic induction in 1831, worked out the laws of electrolysis and showed that magnetism can affect light.",
+      "He spent his whole working life at the Royal Institution in London, where he also became a brilliant public lecturer. He died on 25 August 1867, aged 75, at a house at Hampton Court given to him by Queen Victoria."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father, James, was a blacksmith from the north of England who moved to London for work and was often ill. In hard years the family lived on charity; Michael once had a single loaf to last him a week.",
+      "At 13 he became an errand boy for a bookbinder, George Riebau, and at 14 his apprentice. He read the books he bound, including an encyclopaedia article on electricity and Jane Marcet's Conversations on Chemistry, and did small experiments in the back of the shop.",
+      "In 1812 a customer gave him tickets to hear the famous chemist Humphry Davy lecture at the Royal Institution. Faraday wrote up the lectures in neat notes, bound them, and sent them to Davy asking for a job."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1813. Davy hired him as a laboratory assistant. Months later Faraday went with Davy and his wife on an 18-month tour of Europe, as assistant and part-time valet. Lady Davy treated him as a servant, but he met scientists like Ampere and Volta.",
+      "1821. He made a wire carrying a current spin round a magnet: electricity turned into continuous motion, the principle of the electric motor. The same year he married Sarah Barnard. They had no children and were devoted for 46 years.",
+      "1824 to 1825. He was elected to the Royal Society, despite Davy's opposition, and discovered benzene. He became director of the laboratory at the Royal Institution.",
+      "29 August 1831. Using an iron ring wrapped with two coils of wire, he saw that switching a current on and off in one coil made a brief current flow in the other. Weeks later he made a current by moving a magnet in and out of a coil, and built a spinning copper disc that produced a steady current, the first dynamo. This is electromagnetic induction.",
+      "1833 to 1834. He showed that electricity from batteries, friction, magnets and electric fish was all the same thing, and found the laws of electrolysis. With the scholar William Whewell he coined words still used today: electrode, anode, cathode and ion.",
+      "1839 to 1844. Overwork and possibly chemical poisoning brought on memory loss and headaches, and he did little research for several years.",
+      "1845. He found that a magnet can twist the direction of polarised light passing through glass, the Faraday effect, a first clue that light is electromagnetic. He also discovered diamagnetism, a weak repulsion by magnets shown by many materials."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "Induction. His discovery is the basis of the generator, which makes almost all our electricity, and of the transformer.",
+      "Lines of force. Without the mathematics to describe them, he pictured invisible lines spreading out from magnets and currents, and saw them as real. This idea of a field became one of the foundations of modern physics.",
+      "The Faraday cage. In 1836 he sat inside a metal-lined room while it was charged with sparks, and showed that the charge stays on the outside. Microwave ovens use the same principle, and so does the metal skin that protects aircraft passengers from lightning.",
+      "Experimental Researches in Electricity, his numbered research papers collected in three volumes between 1839 and 1855.",
+      "The Chemical History of a Candle, six Christmas lectures for young people from 1860, published in 1861, which explain combustion, air and water from a single burning candle. It has never gone out of print.",
+      "Public service. For 30 years he advised Trinity House on lighthouses, and in 1855 he wrote to The Times about the filthy state of the Thames."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Humphry Davy (1778 to 1829), his patron and teacher, who later grew jealous of him. Davy is supposed to have said that his greatest discovery was Michael Faraday.",
+      "Sarah Faraday (1800 to 1879), his wife, a fellow member of the small Sandemanian church.",
+      "Charles Babbage (1791 to 1871), a friend and fellow member of London's scientific society, born the same year.",
+      "James Clerk Maxwell (1831 to 1879), the young Scottish physicist who turned Faraday's lines of force into equations. Faraday wrote to him in 1857 asking for his results in plain words as well as mathematics.",
+      "John Tyndall (1820 to 1893), his colleague and successor at the Royal Institution and his first biographer."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "When he was born, electricity was a curiosity of sparks and jars. When he died, telegraph cables crossed the Atlantic, and the first practical dynamos were about to change industry.",
+      "Science in Britain was mostly the hobby of gentlemen with money. A poor man without a university education rising to its top was almost unheard of.",
+      "His faith shaped his life. The Sandemanians were a tiny Christian group who read the Bible literally and avoided worldly ambition. Faraday was an elder of the church and saw his science as reading the book of God's nature."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "The farad, the unit of electrical capacitance, is named after him, and Einstein kept a picture of him on his study wall.",
+      "The Royal Institution Christmas Lectures for young people, which he began in 1825 and gave nineteen times, still run every year and are shown on television.",
+      "He was buried in Highgate Cemetery in a plain grave. A memorial stone was later placed in Westminster Abbey near Isaac Newton's tomb."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Asked what use electricity was, he told a minister: 'One day, sir, you may tax it.'", "lab": "myth", "t": "The story, sometimes told about Gladstone, does not appear in any source from his lifetime. It surfaced decades after his death."},
+      {"c": "He turned down a knighthood and the presidency of the Royal Society.", "lab": "likely", "t": "He twice declined the presidency of the Royal Society, and is reported to have declined a knighthood, wishing to remain 'plain Michael Faraday'. His faith taught him to avoid worldly honours."},
+      {"c": "He knew almost no mathematics.", "lab": "verified", "t": "He had no training beyond simple arithmetic and algebra, and his great papers contain no equations. Maxwell later said Faraday's way of thinking was mathematical, only without symbols."},
+      {"c": "He refused to make poison gas for the Crimean War.", "lab": "disputed", "t": "It is often reported that he refused a government request to develop poison gas weapons, on moral grounds. Contemporary evidence is thin."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Michael Faraday, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Michael-Faraday"},
+      {"n": "The Royal Institution (Faraday Museum and Christmas Lectures)", "u": "https://www.rigb.org/"},
+      {"n": "Michael Faraday, The Chemical History of a Candle (1861), public domain"},
+      {"n": "John Tyndall, Faraday as a Discoverer (1868), public domain"},
+      {"n": "Further reading: James Hamilton, Faraday: The Life (2002)"}
+    ]}
+  ]
+}

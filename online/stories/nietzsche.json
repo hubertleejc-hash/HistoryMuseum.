@@ -1,0 +1,70 @@
+{
+  "hero": "",
+  "portrait": "pt-nietzsche",
+  "kw": ["Rocken", "Naumburg", "Schulpforta", "Basel", "Tribschen", "Bayreuth", "Sils Maria", "Turin", "Weimar", "Wagner", "Lou Salome", "Elisabeth Forster-Nietzsche", "The Birth of Tragedy", "Thus Spoke Zarathustra", "Beyond Good and Evil", "On the Genealogy of Morality", "God is dead", "Ubermensch", "eternal recurrence", "Nazis@myths", "Will to Power@myths", "horse@myths"],
+  "lede": "A pastor's son who became a professor at 24, gave it up to wander Swiss and Italian boarding houses writing books almost nobody bought, announced that 'God is dead', and spent his last eleven years unable to understand that he had become famous.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Friedrich Wilhelm Nietzsche was born on 15 October 1844 in Rocken, a village in Prussian Saxony, the son of a Lutheran pastor.",
+      "He trained as a scholar of ancient Greek and Latin, but became a philosopher who asked where our moral values come from, and what people would live by once belief in God had faded. He wrote in short, sharp, poetic passages rather than long systems.",
+      "In January 1889 he collapsed in Turin and never recovered his mind. Cared for by his mother and then his sister, he died in Weimar on 25 August 1900, aged 55, just as his books were becoming famous."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father died in 1849, when Friedrich was four, and his little brother a few months later. He grew up in Naumburg in a household of women: his mother, his sister Elisabeth, his grandmother and two aunts.",
+      "From 1858 to 1864 he boarded at Schulpforta, one of Germany's strictest and best schools, where he read Greek and Latin and composed music.",
+      "He studied theology and classics at Bonn, then classics at Leipzig under the scholar Friedrich Ritschl. There he discovered the gloomy philosophy of Arthur Schopenhauer, and in 1868 he met Richard Wagner.",
+      {"t": "In 1869, aged 24, he was made professor of classical philology at the University of Basel in Switzerland, on Ritschl's recommendation, before he had even finished his doctorate. Leipzig granted it to him without an exam.", "lab": "verified", "why": "Ritschl's letter of recommendation and the Basel appointment records survive."}
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1869 to 1872: he was a frequent guest of Wagner and Cosima von Bulow, later Cosima Wagner, at their villa at Tribschen on Lake Lucerne. For a time Wagner was like a father to him.",
+      "1870: he volunteered as a medical orderly in the Franco-Prussian War. Within weeks he caught dysentery and diphtheria, and his health was never good again.",
+      "1872: The Birth of Tragedy argued that Greek tragedy came from two forces, the calm 'Apollonian' and the wild 'Dionysian', and that Wagner's music could revive that spirit. Fellow scholars dismissed it.",
+      "1876 to 1878: the first Bayreuth Festival disgusted him with its crowds and German nationalism. In 1878 Human, All Too Human, with its cool, sceptical tone, ended the friendship. He and Wagner never met again.",
+      "1879: blinding headaches, eye trouble and vomiting forced him to resign. With a small pension he lived as a wanderer: summers at Sils Maria in the Swiss Alps, winters in Genoa, Nice and Turin.",
+      "1882: in Rome he met the brilliant young Russian Lou Salome and twice proposed marriage. She refused. The quarrel that followed, partly stirred by his sister, left him lonely and bitter.",
+      "1883 to 1885: Thus Spoke Zarathustra, in four parts. He paid for the last part to be printed himself, in a few dozen copies for friends.",
+      "1888: in one astonishing year he wrote The Case of Wagner, Twilight of the Idols, The Antichrist and Ecce Homo.",
+      {"t": "3 January 1889: he collapsed in a street in Turin. For a few days he sent strange notes signed 'Dionysus' and 'The Crucified'. A friend brought him back to Basel, and he spent the rest of his life an invalid.", "lab": "verified", "why": "The notes survive and are printed in his collected letters; the date of collapse is usually given as 3 January."}
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "The Gay Science (1882), where a madman runs into a marketplace crying that 'God is dead' and 'we have killed him'. Nietzsche meant that modern Europe no longer truly believed, and had not yet faced what that meant.",
+      "Thus Spoke Zarathustra (1883 to 1885), a book of prophecy and parable that introduces the 'Ubermensch', the overman, a human being who creates his own values, and the idea of 'eternal recurrence': could you bear to live your life again exactly, forever?",
+      "Beyond Good and Evil (1886) and On the Genealogy of Morality (1887), which argue that Christian morality began as a 'slave revolt' of the weak against the strong, and that moral values have a history.",
+      "Twilight of the Idols (1888), which contains the line 'What does not kill me makes me stronger'.",
+      "Ecce Homo (written 1888, published 1908), his strange, proud autobiography, with chapters titled 'Why I Am So Wise' and 'Why I Write Such Good Books'."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Richard Wagner (1813 to 1883), the composer, his hero and then the target of his sharpest attacks.",
+      "Cosima Wagner (1837 to 1930), whom he admired deeply. In his madness he wrote to her as 'Ariadne'.",
+      "Elisabeth Forster-Nietzsche (1846 to 1935), his sister, who after his collapse took control of his writings.",
+      "Lou Salome (1861 to 1937), writer and later psychoanalyst, and Paul Ree (1849 to 1901), the philosopher who was their friend.",
+      "Franz Overbeck (1837 to 1905), a Basel theologian and his most loyal friend, who fetched him from Turin.",
+      "Heinrich Koselitz, called Peter Gast (1854 to 1918), a composer who copied out his manuscripts."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Germany was united as an empire under Prussia in 1871, after the war Nietzsche had served in. He disliked the new Reich's nationalism and called himself a 'good European'.",
+      "Darwin's theory of evolution, railways and science were changing how Europeans saw themselves. Many still went to church, but educated faith was weakening.",
+      {"t": "Political antisemitism was spreading in Germany in the 1880s. In 1885 his sister married Bernhard Forster, a leading antisemitic agitator, and went with him to found a 'pure German' colony, Nueva Germania, in Paraguay. Nietzsche despised Forster's politics and told his sister so in angry letters.", "lab": "verified", "why": "His letters to Elisabeth, including a draft of December 1887, survive."}
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "After 1890 his fame grew fast. Writers and thinkers across Europe read him, and later the existentialists, such as Jean-Paul Sartre and Albert Camus, built on his questions about meaning without God.",
+      "His sister ran the Nietzsche Archive in Weimar. She welcomed the Nazis, and Hitler visited the archive and attended her funeral in 1935. The Nazis quoted Nietzsche selectively as a prophet of their cause.",
+      "After 1945 scholars worked to separate his own writings from his sister's editions. The Italian editors Giorgio Colli and Mazzino Montinari published a complete critical edition from 1967.",
+      "He is now read across philosophy, psychology and literature, and phrases such as 'God is dead' and 'what does not kill me makes me stronger' have entered everyday language."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Nietzsche was a Nazi philosopher.", "lab": "myth", "t": "He died in 1900, before Nazism existed. He mocked German nationalism and wrote with contempt about antisemites, and broke with his own publisher partly over antisemitic publications. His sister and Nazi writers twisted and cut his words to suit their cause. Some of his talk of strength, breeding and 'master morality' made that misuse easier."},
+      {"c": "The Will to Power is his final masterpiece.", "lab": "myth", "t": "He never finished such a book and dropped the plan. After his collapse his sister and Peter Gast put one together from his notebooks, choosing, ordering and sometimes changing notes, and published it in 1901 and an enlarged version in 1906."},
+      {"c": "'God is dead' was a cheerful cry of victory.", "lab": "myth", "t": "In the Gay Science passage it is a madman's warning. Nietzsche saw the loss of faith as a crisis that could leave Europe with nothing to live by, a danger he called nihilism."},
+      {"c": "He went mad after hugging a beaten horse in Turin.", "lab": "disputed", "t": "The story that he threw his arms around a horse being whipped, then collapsed, first appeared years later and cannot be confirmed. His collapse in Turin in January 1889 is certain."},
+      {"c": "Syphilis destroyed his mind.", "lab": "disputed", "t": "This was the diagnosis of the doctors who treated him, but there was no reliable test then. Modern doctors have also proposed a slow brain tumour, a hereditary stroke disorder and other causes. No one can be sure."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Friedrich Nietzsche, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Friedrich-Nietzsche"},
+      {"n": "Friedrich Nietzsche, Thus Spake Zarathustra, translated by Thomas Common, Project Gutenberg (public domain)", "u": "https://www.gutenberg.org/ebooks/1998"},
+      {"n": "Friedrich Nietzsche, Beyond Good and Evil, translated by Helen Zimmern, Project Gutenberg (public domain)", "u": "https://www.gutenberg.org/ebooks/4363"},
+      {"n": "Friedrich Nietzsche, Stanford Encyclopedia of Philosophy", "u": "https://plato.stanford.edu/entries/nietzsche/"},
+      {"n": "Further reading: Julian Young, Friedrich Nietzsche: A Philosophical Biography (2010)"}
+    ]}
+  ]
+}

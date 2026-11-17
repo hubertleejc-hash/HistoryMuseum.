@@ -1,0 +1,63 @@
+{
+  "hero": "",
+  "portrait": "",
+  "kw": ["Kiel", "Munich", "Berlin", "Göttingen", "quantum", "Planck constant", "black-body radiation", "quanta", "Einstein", "Bohr", "Kirchhoff", "Helmholtz", "Nobel Prize", "Kaiser Wilhelm Society", "Max Planck Society", "Erwin Planck", "act of despair@myths", "funeral@myths", "Hitler@myths", "kilogram@legacy"],
+  "lede": "A careful, old-fashioned professor who tried to tidy up one stubborn problem about glowing hot objects, and by accident cracked open the strange world of quantum physics.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Max Karl Ernst Ludwig Planck was born in Kiel, in northern Germany, on 23 April 1858, into a family of lawyers, scholars and pastors. He spent most of his working life as a professor in Berlin.",
+      "In December 1900 he showed that the light given off by hot objects could be explained only if energy came in tiny separate packets, which he called quanta. The number that sets their size is now called the Planck constant. It became the seed of quantum theory, which explains atoms, chemistry and modern electronics.",
+      "He won the Nobel Prize in Physics for 1918 and became the leading figure of German science. He lived through two world wars and the Nazi era, lost four of his five children, and died in Göttingen on 4 October 1947, aged 89."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "When he was nine his father, a law professor, took a post in Munich, and Max grew up there. He was a fine pianist and thought seriously about a career in music.",
+      "A teacher warned him that physics was nearly finished and only small gaps remained. Planck said he did not want to discover new things, only to understand what was already known.",
+      "He studied in Munich and Berlin, where he heard the great physicists Hermann von Helmholtz and Gustav Kirchhoff. He found their lectures dull, and taught himself thermodynamics, the science of heat and energy, from books. His doctorate in 1879 was on the second law of thermodynamics."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "Kiel and Berlin, 1885 to 1889. After years as an unpaid lecturer he became a professor in Kiel, then in 1889 succeeded Kirchhoff in Berlin. He stayed there until he retired in 1926.",
+      "14 December 1900. Experiments on 'black-body radiation', the glow of a perfect absorber when heated, did not fit existing theory. Planck found a formula that matched the data, then hunted for a reason. He found one only by assuming that energy is given out in steps of a fixed size. He presented it to the German Physical Society in Berlin that day.",
+      "1905. As an editor of the leading journal Annalen der Physik he published the papers of an unknown patent clerk, Albert Einstein, including special relativity, which Planck was one of the first to support. In 1914 he helped bring Einstein to Berlin.",
+      {"t": "1914. At the start of the First World War he signed the 'Manifesto of the Ninety-Three', in which German scholars defended their army. He soon regretted it and tried to make amends with scientists abroad.", "lab": "verified", "why": "The manifesto and his later letters are well documented."},
+      "1916 to 1919. His eldest son Karl was killed at Verdun in 1916. His twin daughters Grete and Emma both died in childbirth, in 1917 and 1919.",
+      "1918. He was awarded the Nobel Prize 'for his discovery of energy quanta'.",
+      "1930 to 1937. He was president of the Kaiser Wilhelm Society, which ran Germany's major research institutes, and tried to steer it through the first years of Nazi rule.",
+      "1944 to 1945. His house in Berlin was destroyed by bombing, with his papers and library. His son Erwin was arrested after the failed July 1944 plot to kill Hitler and executed on 23 January 1945."
+    ]},
+    {"k": "works", "h": "The science", "ps": [
+      "Planck's law (1900) gives how much light of each colour a hot body gives off at any temperature. It fits the experiments perfectly and is still used today, from steelworks to astronomy.",
+      "The Planck constant, written h, is tiny: about 6.626 times ten to the power of minus 34 joule-seconds. The energy of one packet of light is h times its frequency. Einstein in 1905 and Niels Bohr in 1913 took this idea much further than Planck himself would.",
+      "Planck units. He also worked out natural units of length, time and mass built only from basic constants. The Planck length is far smaller than any particle, the scale at which physicists think space itself may break down.",
+      "He wrote on thermodynamics, relativity and the philosophy of science, and gave widely read talks on science and religion."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Marie Merck, his first wife, who died in 1909, and Marga von Hoesslin, his second, whom he married in 1911. They had a son, Hermann.",
+      "Erwin Planck (1893 to 1945), his son, a former government official who opposed the Nazis. His father's pleas for mercy failed.",
+      "Albert Einstein (1879 to 1955), his younger colleague and friend in Berlin. They played chamber music together, Planck at the piano and Einstein on the violin.",
+      "Niels Bohr (1885 to 1962), the Danish physicist who put quanta inside the atom in 1913 and turned Planck's idea into a full theory.",
+      "Lise Meitner (1878 to 1968), the Austrian physicist who came to Berlin to hear his lectures and became his assistant, one of the first women in such a post in Prussia."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "He grew up as Germany united under Prussia in 1871 and became a scientific and industrial power. German universities led the world in physics and chemistry.",
+      "After 1933 the Nazis drove Jewish scientists out of their jobs, and many great physicists left Germany. Some Nazi scientists attacked relativity and quantum theory as 'Jewish physics'.",
+      "Planck stayed. He believed he could protect German science from inside, and he chose to work quietly rather than protest in public."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "Quantum theory underlies lasers, transistors, computer chips, MRI scanners and solar panels. Planck started it, though he spent years hoping it could be explained away.",
+      "In 1948 the Kaiser Wilhelm Society was renamed the Max Planck Society. It now runs more than eighty institutes, and its scientists have won many Nobel Prizes.",
+      "In 2019 the kilogram itself was redefined using the Planck constant, so his number now underpins the world's system of measurement. The European Space Agency's Planck satellite mapped the oldest light in the universe."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Planck knew he was starting a revolution.", "lab": "myth", "t": "In a 1931 letter he called the quantum step 'an act of desperation'. For years he thought it a mathematical trick and tried to fit it back into classical physics."},
+      {"c": "Planck was a hero of the resistance.", "lab": "disputed", "t": "He went to see Hitler in May 1933 to argue for Jewish scientists such as Fritz Haber, and in 1935 held a memorial for Haber against official wishes. But he stayed in his posts, gave the Nazi salute at public events and avoided open protest. Historians describe a decent man who made painful compromises."},
+      {"c": "Planck said 'Science advances one funeral at a time'.", "lab": "myth", "t": "That is a modern paraphrase. In his Scientific Autobiography he wrote that a new truth wins not by convincing opponents but because they eventually die and a new generation grows up with it."},
+      {"c": "Planck met Hitler and recorded what was said.", "lab": "likely", "t": "The meeting took place. What we know of it comes from Planck's own account, published in 1947, in which Hitler flew into a rage."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Max Planck, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Max-Planck"},
+      {"n": "Max Planck, Biographical, NobelPrize.org", "u": "https://www.nobelprize.org/prizes/physics/1918/planck/biographical/"},
+      {"n": "Max Planck Society", "u": "https://www.mpg.de/en"},
+      {"n": "Further reading: John L. Heilbron, The Dilemmas of an Upright Man (1986)"}
+    ]}
+  ]
+}

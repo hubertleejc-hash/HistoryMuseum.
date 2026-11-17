@@ -1,0 +1,73 @@
+{
+  "hero": "",
+  "portrait": "pt-renoir",
+  "kw": ["Limoges", "porcelain", "Gleyre", "Monet", "La Grenouillere", "Bal du moulin de la Galette", "La Loge", "Luncheon of the Boating Party", "Madame Charpentier", "The Large Bathers", "Aline Charigot", "Cagnes-sur-Mer", "Les Collettes", "arthritis", "Jean Renoir", "Richard Guino@myths", "sculpture@myths", "Wagner@turns", "Impressionism"],
+  "lede": "A tailor's son who started out painting flowers on porcelain plates, filled his canvases with dancers, boaters and children in dappled sunlight, and went on painting for thirty years with hands so twisted by arthritis that the brush had to be placed in them.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Pierre-Auguste Renoir was born in Limoges in central France on 25 February 1841. His family moved to Paris when he was three, and he grew up near the Louvre.",
+      "He was one of the founders of Impressionism, painting outdoors beside his friend Claude Monet. His best-known pictures show Parisians enjoying themselves: dancing, boating, eating and talking in the sun.",
+      "From his forties he turned to a firmer, more classical style, and later to large, warm nudes. Crippled by arthritis, he lived his last years in the south of France and died there on 3 December 1919, aged 78."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father was a tailor and his mother a seamstress, and money was always short. At thirteen he was apprenticed to a porcelain factory, painting flowers and portraits on cups and plates. When machines took over that work, he painted fans and window blinds.",
+      "He spent free hours copying in the Louvre. In 1861 or 1862 he joined the studio of the Swiss painter Charles Gleyre, where he met Claude Monet, Alfred Sisley and Frederic Bazille. He also studied at the Ecole des Beaux-Arts.",
+      "In the forest of Fontainebleau the young friends painted outdoors.",
+      {"t": "Renoir later said that Gleyre warned him not to paint only for his own amusement, and that he answered that if it did not amuse him he would not do it.", "lab": "likely", "why": "Known only from Renoir's own later telling, passed on by his son Jean and others."},
+      "In 1869 he and Monet painted side by side at La Grenouillere, a riverside bathing place on the Seine. Their quick, broken brushstrokes of light on water are often seen as the birth of Impressionism."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1870: in the Franco-Prussian War he served in a cavalry regiment far from the fighting and fell ill with dysentery. His friend Bazille was killed in action.",
+      "1874: he showed La Loge, a couple in a theatre box, at the first Impressionist exhibition in Paris.",
+      "1876: he painted the Bal du moulin de la Galette, a Sunday dance in an open-air garden in Montmartre, carrying the huge canvas there each day.",
+      "1879: his portrait of Madame Charpentier and her children was a success at the official Salon. Wealthy patrons began to commission him.",
+      "1881: he painted the Luncheon of the Boating Party. Among the friends at the table is Aline Charigot, a young seamstress from the countryside who became his partner.",
+      "1881 to 1882: he travelled to Algeria and Italy, studying Raphael and the wall paintings of Pompeii.",
+      {"t": "In Palermo, on 15 January 1882, he painted a quick portrait of Richard Wagner, who had just finished Parsifal, in a sitting of about half an hour.", "lab": "verified", "why": "Renoir described the sitting in a letter written at the time; the portrait is in the Musee d'Orsay."},
+      "1884 to 1887: he worked on The Large Bathers, smooth and sharply outlined, influenced by Ingres. Friends and critics were puzzled.",
+      "1890: he married Aline. Their sons were Pierre, born in 1885, Jean in 1894 and Claude, called Coco, in 1901. In 1892 the French state bought his Young Girls at the Piano.",
+      "1897 to 1919: after a fall from a bicycle broke his arm, his rheumatoid arthritis grew much worse. From 1907 he lived at Les Collettes, a farm among olive trees at Cagnes-sur-Mer. His wife died in 1915, after visiting their son Jean, wounded in the war."
+    ]},
+    {"k": "works", "h": "The paintings", "ps": [
+      "La Grenouillere (1869), with Monet: water, boats and bathers in flickering strokes.",
+      "Bal du moulin de la Galette (1876), now in the Musee d'Orsay, a crowd of dancers in light filtering through trees.",
+      "Luncheon of the Boating Party (1880 to 1881), now in the Phillips Collection in Washington, friends on a restaurant terrace by the Seine.",
+      "The Umbrellas (about 1881 to 1886), in the National Gallery, London: begun in his soft Impressionist manner and finished in his harder style. You can see both in one picture.",
+      "The Large Bathers (1884 to 1887), in the Philadelphia Museum of Art, and the late Bathers (1918 to 1919), in the Musee d'Orsay.",
+      "Thousands of portraits, many of women and children, and of his own family: Gabrielle Renard, the cousin of Aline who came to look after Jean, appears in many of his late paintings."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Claude Monet (1840 to 1926), his closest painting companion in the early years, when both were often too poor to buy paint.",
+      "Alfred Sisley (1839 to 1899) and Frederic Bazille (1841 to 1870), friends from Gleyre's studio.",
+      "Berthe Morisot (1841 to 1895), a fellow Impressionist and friend. After her death he helped look after her daughter, Julie Manet.",
+      "Paul Cezanne (1839 to 1906), whom he visited and painted with in Provence in the 1880s.",
+      "Aline Charigot (1859 to 1915), his wife, model and the manager of their home.",
+      "Jean Renoir (1894 to 1979), his son, who became one of the great film directors and wrote a memoir, Renoir, My Father (1962)."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Paris was being rebuilt with wide boulevards, cafes and parks, and new trains took city workers out to the river on Sundays. That new world of leisure is what Renoir painted.",
+      "Tubes of ready-made oil paint, sold from the 1840s, let painters work outdoors easily.",
+      {"t": "During the Dreyfus affair Renoir sided with the anti-Dreyfusards and made antisemitic remarks about Jewish friends and fellow painters, including Pissarro.", "lab": "verified", "why": "Recorded at the time in the diary of Julie Manet, who admired him."}
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "Shortly before he died he was carried through the Louvre in a wheelchair to see his portrait of Madame Georges Charpentier hanging there. A living painter had rarely been given that honour.",
+      "Young painters, Matisse among them, visited him at Cagnes. Picasso collected his late work.",
+      "His pictures are among the most loved and most reproduced in the world. Some critics have found the late nudes too sweet, and the argument over his later style continues."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Renoir made his late sculptures himself.", "lab": "myth", "t": "From 1913 the dealer Ambroise Vollard paired him with a young Catalan sculptor, Richard Guino, who modelled the clay while Renoir, unable to use his hands, directed him with a pointer. In the 1970s French courts recognised Guino as co-author of these works."},
+      {"c": "His brushes were strapped to his hands.", "lab": "disputed", "t": "Visitors and his son described the brush being slipped between his stiff fingers, with a cloth protecting his skin. A short film from 1915 shows him painting this way. Stories of brushes tied or strapped on are later exaggerations."},
+      {"c": "He was an Impressionist all his life.", "lab": "myth", "t": "By the early 1880s, he later told Vollard, he felt he had 'gone to the end of Impressionism'. He turned to drawing and outline, and later to a warm, rounded late style of his own."},
+      {"c": "A buyer planned to burn his Moulin de la Galette.", "lab": "disputed", "t": "A smaller version sold in 1990 for 78 million dollars to a Japanese businessman, Ryoei Saito, who said he wanted it cremated with him. He later said he had not meant it. The painting survived and was sold on after his death."},
+      {"c": "He was always cheerful.", "lab": "myth", "t": "He said a picture should be pleasant and pretty, but in life he was nervous, restless and often in great pain, and could be sharp and prejudiced."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Pierre-Auguste Renoir, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Pierre-Auguste-Renoir"},
+      {"n": "Musee d'Orsay, Paris", "u": "https://www.musee-orsay.fr/en"},
+      {"n": "The Phillips Collection, Washington", "u": "https://www.phillipscollection.org/"},
+      {"n": "Julie Manet, Journal (1893 to 1899), published 1979"},
+      {"n": "Further reading: Jean Renoir, Renoir, My Father (1962)"},
+      {"n": "Further reading: Anne Distel, Renoir (2009)"}
+    ]}
+  ]
+}

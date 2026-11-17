@@ -1,0 +1,65 @@
+{
+  "hero": "",
+  "portrait": "pt-kant",
+  "kw": ["Konigsberg", "Kaliningrad", "Prussia", "Enlightenment", "Critique of Pure Reason", "categorical imperative", "Groundwork", "Critique of Judgment", "Perpetual Peace", "What is Enlightenment", "Sapere aude", "nebular hypothesis", "Hume", "Rousseau", "Herder", "starry heavens", "watches@myths", "racism@myths"],
+  "lede": "A saddler's son from a Baltic port who almost never left his home town, lived by a famously regular routine, and from his study set out to prove what human reason can and cannot know, and why we owe each other respect.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Immanuel Kant was born in Konigsberg in East Prussia on 22 April 1724. The city is now Kaliningrad, in Russia. He spent almost his whole life there, as a student, a tutor and then a professor.",
+      "At 57, after more than ten years of near silence, he published the Critique of Pure Reason (1781). It argued that our minds do not simply receive the world but shape how we experience it, through space, time and concepts such as cause and effect.",
+      "He went on to write about ethics, beauty, religion, history and peace between nations. He died in Konigsberg on 12 February 1804, aged 79, and is widely seen as the most important philosopher of the modern age."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father was a harness maker and his mother a devout Pietist, part of a Lutheran movement that stressed inner faith and moral seriousness. He remembered her fondly and credited her with his first sense of right and wrong.",
+      "From the age of eight he attended a strict Pietist school, the Collegium Fridericianum, where the day began with prayers and Latin. He later remembered its religious drills with distaste.",
+      "He entered the University of Konigsberg at sixteen and was drawn to physics and philosophy, especially Newton. After his father died in 1746 he left without a post and spent several years as a private tutor to families in the countryside."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1755. He published Universal Natural History and Theory of the Heavens, arguing that the solar system formed from a spinning cloud of matter. A similar idea by Laplace later became known as the nebular hypothesis. The publisher went bankrupt and few copies circulated.",
+      "1755 to 1770. As an unsalaried lecturer paid by students' fees, he taught logic, metaphysics, mathematics, physics and physical geography, sometimes more than twenty hours a week. He was a lively, popular lecturer and well liked in Konigsberg society.",
+      "1770. He was finally made Professor of Logic and Metaphysics. Then came a 'silent decade' in which he published little and worked on a new philosophy.",
+      "1781. The Critique of Pure Reason appeared. It was long and hard, and early readers misunderstood it, so in 1783 he published a shorter explanation, the Prolegomena.",
+      "1784 to 1790. In a burst of work he wrote the essay What is Enlightenment? (1784), the Groundwork of the Metaphysics of Morals (1785), the Critique of Practical Reason (1788) and the Critique of Judgment (1790), on beauty, the sublime and purpose in nature.",
+      "1794. After he published a book on religion, King Frederick William II rebuked him through his minister. Kant promised, as the king's loyal subject, to write no more on religion. When the king died in 1797 he considered himself free of the promise.",
+      "1795. In Perpetual Peace he proposed a federation of free states, governed by law, to end war between nations."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "The Critique of Pure Reason (1781, revised 1787). Kant asked how knowledge is possible at all. His answer: we can know the world as it appears to us, structured by our own minds, but not things as they are in themselves. Questions about God, the soul and freedom lie beyond proof either way.",
+      "The categorical imperative, from the Groundwork (1785). Morality, he argued, comes from reason, not from feelings or consequences. Its supreme rule: 'Act only on that maxim whereby thou canst at the same time will that it should become a universal law.' Another version says we must treat people always as ends, never merely as means.",
+      "What is Enlightenment? (1784) defined enlightenment as leaving behind self-imposed immaturity, and gave it a motto from the Roman poet Horace: 'Sapere aude', dare to know.",
+      "The Critique of Judgment (1790), on taste and the beauty of art and nature, became a founding text of modern aesthetics.",
+      "Perpetual Peace (1795), a short, almost practical plan for a world of republics bound by international law."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "David Hume (1711 to 1776), the Scottish sceptic. Kant wrote that remembering Hume 'interrupted my dogmatic slumber' and set him on the path to the Critique.",
+      {"t": "Jean-Jacques Rousseau (1712 to 1778), who taught him, he said, to honour ordinary people. A portrait of Rousseau was said to be the only picture in his house.", "lab": "likely", "why": "The tribute is in Kant's own notes. The portrait is reported by early biographers who knew him."},
+      "Johann Gottfried Herder (1744 to 1803), his brilliant student in the 1760s, who later attacked his philosophy.",
+      "Joseph Green, an English merchant in Konigsberg and his closest friend, with whom he talked almost every day until Green's death in 1786.",
+      "Johann Georg Hamann (1730 to 1788), a fellow townsman and friendly critic, and Moses Mendelssohn, the Berlin philosopher he wrote to and admired.",
+      "Martin Lampe, his servant for about forty years, dismissed in 1802."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Kant lived in the Prussia of Frederick the Great (1712 to 1786), a king who allowed unusual freedom of thought. Kant called his era 'the age of Frederick'.",
+      "Konigsberg was a busy port with English, Dutch and Polish merchants passing through, so the wider world came to him. During the Seven Years' War Russian troops occupied the city from 1758 to 1762, and Kant lectured to Russian officers.",
+      "He welcomed the American Revolution and, despite its violence, defended the hopes behind the French Revolution, which made him suspect to some in Berlin."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "Almost every philosophy after him, from Hegel to the present, starts by agreeing or disagreeing with Kant. His idea of human dignity runs through modern human-rights thinking.",
+      "Perpetual Peace is often cited as an ancestor of the League of Nations, the United Nations and the European Union.",
+      "His tomb stands beside Konigsberg Cathedral, one of the few buildings of the old city that survived the Second World War. A plaque quotes the end of the Critique of Practical Reason: two things fill the mind with ever new wonder, 'the starry heavens above me and the moral law within me'."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "His neighbours set their watches by his afternoon walk.", "lab": "myth", "t": "He did keep a strict routine, but the watch story is a later embellishment, spread above all by the poet Heinrich Heine in 1834. A related tale says he missed his walk only once, while reading Rousseau's Emile."},
+      {"c": "He never left Konigsberg.", "lab": "disputed", "t": "As a tutor he lived in country towns some distance away, but he never travelled far and never left East Prussia. He was no hermit: he dined out, played cards in his youth and later hosted lunch guests most days."},
+      {"c": "His lectures contain racist claims.", "lab": "verified", "t": "His anthropology and geography lectures and essays ranked human races, with white Europeans at the top. Scholars debate how far this shaped his ethics; some argue that in the 1790s, in Perpetual Peace, he turned against colonial conquest."},
+      {"c": "His last words were 'It is good'.", "lab": "likely", "t": "His friend and helper Wasianski reported that, given a little wine and water, he said 'Es ist gut'. It is a single witness, but a close one."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Immanuel Kant, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Immanuel-Kant"},
+      {"n": "Immanuel Kant, Critique of Pure Reason, trans. J. M. D. Meiklejohn, Project Gutenberg (public domain)", "u": "https://www.gutenberg.org/ebooks/4280"},
+      {"n": "Immanuel Kant, Stanford Encyclopedia of Philosophy", "u": "https://plato.stanford.edu/entries/kant/"},
+      {"n": "Immanuel Kant, Fundamental Principles of the Metaphysic of Morals, trans. T. K. Abbott (1895), public domain"},
+      {"n": "Further reading: Manfred Kuehn, Kant: A Biography (2001)"}
+    ]}
+  ]
+}
