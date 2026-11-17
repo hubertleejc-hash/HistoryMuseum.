@@ -1,0 +1,195 @@
+{
+ "id": "delhi-1858",
+ "y": 1858,
+ "tol": 15,
+ "c": "india",
+ "place": "Delhi",
+ "look": [
+  [
+   "Buildings",
+   "A walled city built by the Mughal emperor Shah Jahan in the 1640s: the red sandstone fort, the great Jama Masjid, and lanes of brick houses with carved balconies and flat roofs."
+  ],
+  [
+   "Clothing",
+   "Men in long cotton tunics, loose trousers or wrapped cloth, and turbans. Women in long skirts or saris, with a veil over the head."
+  ],
+  [
+   "Getting around",
+   "On foot, by horse, camel, bullock cart and elephant. The railway reached Delhi in 1864."
+  ],
+  [
+   "Light at night",
+   "Oil lamps and torches. At festivals clay lamps lined roofs and walls."
+  ],
+  [
+   "News of the year",
+   "In 1857 Indian soldiers rose against the British East India Company and held Delhi for four months. The British retook the city, exiled the last Mughal emperor, Bahadur Shah Zafar, and in 1858 Britain's government took over India directly."
+  ]
+ ],
+ "stops": [
+  {
+   "pic": "delhi-1858-1",
+   "name": "Chandni Chowk from above",
+   "kind": "painting",
+   "made": "Painted in 1846",
+   "fx": 0.5,
+   "title": "Chandni Chowk, from the Delhi Panorama by Mazhar Ali Khan",
+   "note": "The nearest picture: painted 12 years before 1858 by a Delhi artist, as part of a long panorama of the city.",
+   "spots": [
+    {
+     "x": 0.52,
+     "y": 0.5,
+     "t": "A canal down the middle",
+     "d": "A canal ran down the centre of the street, bringing water from the Yamuna river.",
+     "how": "It was covered over later in the 1800s."
+    },
+    {
+     "x": 0.66,
+     "y": 0.75,
+     "t": "An elephant",
+     "d": "Elephants carried nobles and officials through the city.",
+     "how": "The painter shows them among the crowds."
+    },
+    {
+     "x": 0.28,
+     "y": 0.78,
+     "t": "A camel rider",
+     "d": "Camels carried people and goods from the desert roads.",
+     "how": "Travellers' accounts of Delhi describe them too."
+    },
+    {
+     "x": 0.28,
+     "y": 0.92,
+     "t": "A carriage",
+     "d": "A small horse carriage in the street.",
+     "how": "Wheeled traffic shared the street with animals and walkers."
+    }
+   ]
+  },
+  {
+   "pic": "delhi-1858-2",
+   "name": "A house on Chandni Chowk",
+   "kind": "photograph",
+   "made": "Photographed in 1858",
+   "fx": 0.5,
+   "title": "View in the Chandni Chowk (Felice Beato)",
+   "note": "Felice Beato photographed Delhi just after the fighting of 1857.",
+   "spots": [
+    {
+     "x": 0.4,
+     "y": 0.5,
+     "t": "Carved balconies",
+     "d": "Rich merchants' houses had carved wooden and stone balconies over the street.",
+     "how": "You can see the fine carving over the doorway too."
+    },
+    {
+     "x": 0.88,
+     "y": 0.65,
+     "t": "A cloth awning",
+     "d": "Awnings shaded shopfronts from the fierce sun.",
+     "how": "Delhi summers often pass 40 °C."
+    },
+    {
+     "x": 0.6,
+     "y": 0.86,
+     "t": "Sitting out front",
+     "d": "Shopkeepers and their friends sat outside to talk and trade.",
+     "how": "The men sit beside the shop doors."
+    }
+   ]
+  },
+  {
+   "pic": "delhi-1858-3",
+   "name": "The Jama Masjid",
+   "kind": "photograph",
+   "made": "Photographed in 1858 or 1859",
+   "fx": 0.5,
+   "title": "Jumma Musjid (Felice Beato)",
+   "spots": [
+    {
+     "x": 0.47,
+     "y": 0.6,
+     "t": "The great mosque",
+     "d": "Built by Shah Jahan from 1650 to 1656, it was then the largest mosque in India.",
+     "how": "It still holds tens of thousands of people at prayer."
+    },
+    {
+     "x": 0.07,
+     "y": 0.45,
+     "t": "A striped minaret",
+     "d": "Tall towers of red sandstone striped with white marble.",
+     "how": "The call to prayer was given from up high."
+    },
+    {
+     "x": 0.68,
+     "y": 0.52,
+     "t": "Striped domes",
+     "d": "Three white marble domes with black stripes.",
+     "how": "They are still the same today."
+    }
+   ]
+  },
+  {
+   "pic": "delhi-1858-4",
+   "name": "The Red Fort",
+   "kind": "photograph",
+   "made": "Photographed in the 1860s",
+   "fx": 0.5,
+   "title": "Red Fort, Delhi",
+   "spots": [
+    {
+     "x": 0.25,
+     "y": 0.35,
+     "t": "Red sandstone walls",
+     "d": "The fort's walls run about 2.5 kilometres around the Mughal palace.",
+     "how": "Shah Jahan built it from 1639 to 1648."
+    },
+    {
+     "x": 0.63,
+     "y": 0.2,
+     "t": "Little domed pavilions",
+     "d": "Small domed pavilions called chhatris sit on top of the walls.",
+     "how": "They are a mark of Mughal buildings."
+    },
+    {
+     "x": 0.56,
+     "y": 0.7,
+     "t": "Horse carriages",
+     "d": "Carriages wait outside the gate.",
+     "how": "After 1857 British troops were based inside the fort."
+    }
+   ]
+  },
+  {
+   "pic": "delhi-1858-5",
+   "name": "Chandni Chowk a few years later",
+   "kind": "photograph",
+   "made": "Photographed between about 1863 and 1867",
+   "fx": 0.4,
+   "title": "Chandni Chowk, Delhi",
+   "spots": [
+    {
+     "x": 0.15,
+     "y": 0.55,
+     "t": "Shops with awnings",
+     "d": "Shops opened straight onto the street under cloth awnings.",
+     "how": "Chandni Chowk is still one of Delhi's busiest markets."
+    },
+    {
+     "x": 0.38,
+     "y": 0.6,
+     "t": "White cotton",
+     "d": "Men in white cotton clothes, the coolest cloth in the heat.",
+     "how": "Most people in the photograph wear white."
+    },
+    {
+     "x": 0.55,
+     "y": 0.45,
+     "t": "Shade trees",
+     "d": "Big trees shaded the middle of the wide street.",
+     "how": "They grew where the canal had run."
+    }
+   ]
+  }
+ ]
+}

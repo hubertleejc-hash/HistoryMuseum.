@@ -1,0 +1,172 @@
+{
+ "id": "istanbul-1550",
+ "y": 1550,
+ "tol": 25,
+ "c": "turkey",
+ "place": "Istanbul",
+ "look": [
+  [
+   "Buildings",
+   "A skyline of domes and thin minarets, with the 1,000-year-old Hagia Sophia above all. Most houses were wooden, two or three floors, with tiled roofs and upper floors jutting over the street. The architect Sinan was building the Süleymaniye Mosque from 1550 to 1557."
+  ],
+  [
+   "Clothing",
+   "Men wore long robes called kaftans and white turbans, whose shape showed a man's job and rank. Janissary soldiers wore a tall white felt cap that hung down behind. Women went out in long cloaks with their faces covered."
+  ],
+  [
+   "Getting around",
+   "On foot through steep lanes, on horseback, and by boat. Thousands of rowing boats called caiques ferried people across the Golden Horn and the Bosphorus."
+  ],
+  [
+   "Light at night",
+   "No street lamps. Watchmen walked the dark streets, and fire was the great fear in a city of wooden houses."
+  ],
+  [
+   "News of the time",
+   "Sultan Süleyman, called the Magnificent in Europe and the Lawgiver at home, ruled from 1520 to 1566. Istanbul was one of the largest cities in the world."
+  ]
+ ],
+ "stops": [
+  {
+   "pic": "istanbul-1550-1",
+   "name": "The old city from above",
+   "kind": "painting",
+   "made": "Painted about 1537",
+   "fx": 0.5,
+   "title": "Istanbul in the Beyan-ı Menazil, by Matrakçı Nasuh",
+   "note": "Matrakçı Nasuh painted this for a book about one of Sultan Süleyman's campaigns. It is a map and a picture at once.",
+   "spots": [
+    {
+     "x": 0.42,
+     "y": 0.13,
+     "t": "The Sultan's palace",
+     "d": "The walled palace grounds at the tip of the city, with gardens running down to the sea.",
+     "how": "Topkapı Palace still stands on the point of the old city."
+    },
+    {
+     "x": 0.17,
+     "y": 0.55,
+     "t": "The Golden Horn",
+     "d": "A long harbour full of ships. Across the water, on the left edge, lies Galata.",
+     "how": "The ships are drawn sailing up and down the harbour."
+    },
+    {
+     "x": 0.29,
+     "y": 0.62,
+     "t": "Sea walls",
+     "d": "Walls ran right round the city along the water. Byzantine emperors built them long before the Ottomans came.",
+     "how": "Parts of the sea walls still stand."
+    },
+    {
+     "x": 0.6,
+     "y": 0.7,
+     "t": "House after house",
+     "d": "Red-roofed houses and gardens packed between the mosques.",
+     "how": "The painter drew every roof to show a full, busy city."
+    }
+   ]
+  },
+  {
+   "pic": "istanbul-1550-2",
+   "name": "Galata, across the Golden Horn",
+   "kind": "painting",
+   "made": "Painted about 1537",
+   "fx": 0.5,
+   "title": "Galata in the Beyan-ı Menazil, by Matrakçı Nasuh",
+   "spots": [
+    {
+     "x": 0.47,
+     "y": 0.27,
+     "t": "The Galata Tower",
+     "d": "A stone tower built by Genoese merchants in 1348.",
+     "how": "It is still the landmark of this side of the city."
+    },
+    {
+     "x": 0.37,
+     "y": 0.5,
+     "t": "Galata's own walls",
+     "d": "Galata had its own walls, in a triangle running down to the water.",
+     "how": "The painter drew them as a white band around the houses."
+    },
+    {
+     "x": 0.5,
+     "y": 0.88,
+     "t": "Ships and galleys",
+     "d": "Sailing ships and long galleys with oars. Galata was the port where foreign merchants lived and traded.",
+     "how": "Venetian and Genoese merchants kept houses here."
+    }
+   ]
+  },
+  {
+   "pic": "istanbul-1550-3",
+   "name": "Hagia Sophia and the Hippodrome",
+   "kind": "drawing",
+   "made": "Drawn about 1574",
+   "fx": 0.45,
+   "title": "Hagia Sophia, the Obelisk and the Serpent Column (Freshfield Album)",
+   "note": "Drawn by a European visitor 24 years after 1550. These monuments had stood for centuries, so 1550 looked the same.",
+   "spots": [
+    {
+     "x": 0.22,
+     "y": 0.52,
+     "t": "Hagia Sophia",
+     "d": "Built as a church in 537 and made a mosque in 1453, when minarets were added.",
+     "how": "It still stands, and its great dome is still there."
+    },
+    {
+     "x": 0.49,
+     "y": 0.5,
+     "t": "An Egyptian obelisk",
+     "d": "About 3,500 years old. Emperor Theodosius brought it from Egypt and set it up here in 390.",
+     "how": "It still stands in the square."
+    },
+    {
+     "x": 0.66,
+     "y": 0.6,
+     "t": "The Serpent Column",
+     "d": "Bronze snakes twisted together, made in Greece in 479 BC after a victory over the Persians. In the 1500s the three snake heads were still on top.",
+     "how": "The heads broke off around 1700; one is in Istanbul's museum."
+    },
+    {
+     "x": 0.87,
+     "y": 0.45,
+     "t": "The Walled Obelisk",
+     "d": "A stone obelisk built by the Byzantines, once covered in bronze plates.",
+     "how": "It stands at the end of the old race track."
+    }
+   ]
+  },
+  {
+   "pic": "istanbul-1550-4",
+   "name": "A procession through the Horse Square",
+   "kind": "print",
+   "made": "Printed in 1553, from drawings made in 1533",
+   "fx": 0.5,
+   "title": "Procession of Sultan Süleyman through the At Meydanı",
+   "note": "Pieter Coecke van Aelst, a Flemish artist, visited Istanbul in 1533 and drew what he saw.",
+   "spots": [
+    {
+     "x": 0.24,
+     "y": 0.35,
+     "t": "Big turbans",
+     "d": "A turban's size and shape showed rank. The grandest belonged to the Sultan and his top officials.",
+     "how": "Ottoman and European pictures of the time show the same turbans."
+    },
+    {
+     "x": 0.6,
+     "y": 0.6,
+     "t": "Horses for a parade",
+     "d": "Riders on fine horses with decorated saddles led the Sultan's procession.",
+     "how": "The Horse Square was the old chariot track, the Hippodrome."
+    },
+    {
+     "x": 0.24,
+     "y": 0.1,
+     "t": "Domes on the skyline",
+     "d": "Domes and minarets rise above the city behind the procession.",
+     "how": "The artist drew the skyline he saw from the square."
+    }
+   ]
+  }
+ ]
+}

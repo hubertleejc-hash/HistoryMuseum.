@@ -1,96 +1,185 @@
 {
  "picks": [
   {
-   "id": "london-1851-1",
-   "file": "Gezicht op Regent Street, met op de achtergrond Nelson's Column Regent Street, looking towards the Duke of York's Column. (titel op object), RP-F-F04659.jpg",
+   "id": "rome-79-1",
+   "file": "Fresco from the House of Julia Felix, Pompeii depicting scenes from the Forum market.JPG",
+   "online": true
+  },
+  {
+   "id": "rome-79-2",
+   "file": "Rome- The Forum Romanum against the Capitol (SM stf37).png",
+   "online": true,
    "depth": true,
    "trim": true
   },
   {
-   "id": "london-1851-2",
-   "file": "The London Coffee-stall.jpg"
-  },
-  {
-   "id": "london-1851-3",
-   "file": "Great Exhibition, NW corner of building, HF Talbot, 1851.jpg",
+   "id": "rome-79-3",
+   "file": "N.° A. 1062. Roma. Forum Romanum - btv1b53285479d.jpg",
+   "online": true,
    "depth": true,
    "trim": true
   },
   {
-   "id": "london-1851-4",
-   "file": "Eugène Louis Lami - Opening of the Great Exhibition, 1 May 1851 - Google Art Project.jpg"
+   "id": "rome-79-4",
+   "file": "Fresco in the Villa di Giulia Felice (Pompeii) (48443306976).jpg",
+   "online": true,
+   "depth": true
   },
   {
-   "id": "vienna-1791-1",
-   "file": "Bernardo Bellotto, il Canaletto - View of Vienna from the Belvedere (cropped).jpg"
+   "id": "istanbul-1550-1",
+   "file": "İstanbul in the Menazilname by Matrakçı Nasuh (detail of the peninsula).jpg",
+   "online": true
   },
   {
-   "id": "vienna-1791-2",
-   "file": "Carl Schütz - Der Kohlmarkt in Wien - 1786.jpeg"
+   "id": "istanbul-1550-2",
+   "file": "Matrakçı Nasuh - İstanbul (cropped-Galata).jpg",
+   "online": true
   },
   {
-   "id": "vienna-1791-3",
-   "file": "Carl Schütz Wien Michaelerplatz.jpg"
+   "id": "istanbul-1550-3",
+   "file": "Freshfield Album fol 20 - General view of St Sofia, adjacent buildings, Obelisk of Theodosius, Serpent Column, Walled Obelisk.jpg",
+   "online": true,
+   "trim": true
   },
   {
-   "id": "vienna-1791-4",
-   "file": "Hoher Markt, Vienna (1793).jpg"
+   "id": "istanbul-1550-4",
+   "file": "Optocht van Süleyman I Zeden en Gewoonten der Turken (serietitel), RP-P-OB-2304K.jpg",
+   "online": true,
+   "trim": true
   },
   {
-   "id": "edo-1831-1",
-   "file": "冨嶽三十六景 江戸日本橋-Nihonbashi in Edo (Edo Nihonbashi), from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei) MET DP141003.jpg"
+   "id": "stpetersburg-1896-1",
+   "file": "SPB Nevsky Prospekt and Admiralty 1890-1900.jpg",
+   "online": true,
+   "depth": true
   },
   {
-   "id": "edo-1831-2",
-   "file": "冨嶽三十六景 江都駿河町三井見世略図-Mitsui Shop at Surugachō in Edo (Edo Surugachō Mitsui mise ryaku zu), from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei) MET DP141004.jpg"
+   "id": "stpetersburg-1896-2",
+   "file": "Znamenka.jpg",
+   "online": true,
+   "depth": true
   },
   {
-   "id": "edo-1831-3",
-   "file": "東海道五十三次之内 日本橋 朝之景-Stations One- Morning View of Nihonbashi MET DP122174.jpg"
+   "id": "stpetersburg-1896-3",
+   "file": "SPB Palace square and Alexander's column 1890-1900.jpg",
+   "online": true,
+   "depth": true
   },
   {
-   "id": "edo-1831-4",
-   "file": "東都名所 日本橋の白雨-Sunshower at Nihonbashi MET DP123275.jpg"
+   "id": "stpetersburg-1896-4",
+   "file": "Kazanskiy.jpg",
+   "online": true,
+   "depth": true
   },
   {
-   "id": "newyork-1905-1",
-   "file": "Broadway, Manhattan, view north from 39th Street - jpg version.jpg",
+   "id": "berlin-1900-1",
+   "file": "Berlin Unter den Linden Cafe Bauer um 1900.jpg",
+   "online": true,
    "depth": true,
    "trim": true
   },
   {
-   "id": "newyork-1905-2",
-   "file": "Flatiron Building, New York City, NY 4a12277a original.jpg",
+   "id": "berlin-1900-2",
+   "file": "Berlin Neue Wache um 1900.jpg",
+   "online": true,
    "depth": true,
    "trim": true
   },
   {
-   "id": "newyork-1905-3",
-   "file": "New York City- Herald Square - facing Macy's, with elevated railroad in right foregrd. LCCN2003678141.jpg",
+   "id": "berlin-1900-3",
+   "file": "Berlin - Potsdamer Platz - um 1900.jpg",
+   "online": true,
    "depth": true,
    "trim": true
   },
   {
-   "id": "newyork-1905-4",
-   "file": "Mulberry Street, New York City (LOC det.4a08193).jpg",
+   "id": "berlin-1900-4",
+   "file": "Berlin - Neptunbrunnen - um 1900.jpg",
+   "online": true,
    "depth": true,
    "trim": true
   },
   {
-   "id": "kaifeng-1120-1",
-   "file": "Qingming shanghe tu towboat.jpg"
+   "id": "delhi-1858-1",
+   "file": "Chandni Chowk, detail from 'The Delhi Panorama', by Mazhar Ali Khan, 1846.jpg",
+   "online": true
   },
   {
-   "id": "kaifeng-1120-2",
-   "file": "Qingming shanghe tu bridge.jpg"
+   "id": "delhi-1858-2",
+   "file": "Felice Beato (British, born Italy - View in the Chanduce Chowke - Google Art Project.jpg",
+   "online": true,
+   "depth": true,
+   "trim": true
   },
   {
-   "id": "kaifeng-1120-3",
-   "file": "Bianjing city gate.JPG"
+   "id": "delhi-1858-3",
+   "file": "Felice Beato (British, born Italy - Jumma Musjid - Google Art Project.jpg",
+   "online": true,
+   "depth": true,
+   "trim": true
   },
   {
-   "id": "kaifeng-1120-4",
-   "file": "Qingming shanghe tu 11.jpg"
+   "id": "delhi-1858-4",
+   "file": "-Red Fort, Delhi, India- MET DP72080.jpg",
+   "online": true,
+   "depth": true,
+   "trim": true
+  },
+  {
+   "id": "delhi-1858-5",
+   "file": "Chandni Chowk, Delhi, 1863-67.jpg",
+   "online": true,
+   "depth": true,
+   "trim": true
+  },
+  {
+   "id": "cairo-1890-1",
+   "file": "Kairo, Rue au Quartier Arabe LCCN2017657700.jpg",
+   "online": true,
+   "depth": true,
+   "trim": true
+  },
+  {
+   "id": "cairo-1890-2",
+   "file": "Kairo, fontaine au Quartier Arabe LCCN2017657701.jpg",
+   "online": true,
+   "depth": true,
+   "trim": true
+  },
+  {
+   "id": "cairo-1890-3",
+   "file": "Kairo, coiffeurs Arabes dans la rue LCCN2017657444.jpg",
+   "online": true,
+   "depth": true,
+   "trim": true
+  },
+  {
+   "id": "cairo-1890-4",
+   "file": "Kairo, marchands ambulants LCCN2017657437.jpg",
+   "online": true,
+   "depth": true,
+   "trim": true
+  },
+  {
+   "id": "beijing-1900-1",
+   "file": "Peking Street LCCN2014688992.jpg",
+   "online": true,
+   "depth": true,
+   "trim": true
+  },
+  {
+   "id": "beijing-1900-2",
+   "file": "Street in Peking LCCN2014688957.jpg",
+   "online": true,
+   "depth": true,
+   "trim": true
+  },
+  {
+   "id": "beijing-1900-3",
+   "file": "P'ai-lou across a main street LCCN2006691461.jpg",
+   "online": true,
+   "depth": true,
+   "trim": true
   }
  ]
 }

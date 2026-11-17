@@ -1,0 +1,145 @@
+{
+ "id": "beijing-1900",
+ "y": 1900,
+ "tol": 8,
+ "c": "china",
+ "place": "Beijing",
+ "look": [
+  [
+   "Buildings",
+   "A city of walls: the Inner and Outer Cities were closed in by massive walls with towering gates, and the Forbidden City sat walled at the centre. Shops had carved, gilded wooden fronts, and homes were single-storey courtyard houses on lanes called hutongs."
+  ],
+  [
+   "Clothing",
+   "Men in long gowns, with the queue, a long braid down the back, required under the Qing emperors. Manchu women wore tall headdresses; Han women wore long jackets over trousers."
+  ],
+  [
+   "Getting around",
+   "Mule carts with blue cloth covers, sedan chairs, camels bringing coal from the hills, and rickshaws, which were quite new."
+  ],
+  [
+   "Light at night",
+   "Paper lanterns and oil lamps. The streets were dark at night."
+  ],
+  [
+   "News of the year",
+   "In summer 1900 the Boxer rising besieged the foreign legations in Beijing, and an army from eight foreign nations captured the city in August."
+  ]
+ ],
+ "stops": [
+  {
+   "pic": "beijing-1900-1",
+   "name": "A shopping street",
+   "kind": "photograph",
+   "made": "Photographed about 1900",
+   "fx": 0.4,
+   "title": "Peking Street",
+   "spots": [
+    {
+     "x": 0.13,
+     "y": 0.3,
+     "t": "A carved shopfront",
+     "d": "Shops competed with tall carved and gilded wooden fronts.",
+     "how": "Shops like this lined the main streets outside Qianmen gate."
+    },
+    {
+     "x": 0.5,
+     "y": 0.75,
+     "t": "A covered mule cart",
+     "d": "A cart with a rounded cloth cover, the Beijing taxi of the day.",
+     "how": "Visitors at the time describe bumpy rides in them."
+    },
+    {
+     "x": 0.68,
+     "y": 0.15,
+     "t": "Hanging signs",
+     "d": "Long signboards with big characters name each shop.",
+     "how": "Old Beijing shops are still known for their signboards."
+    },
+    {
+     "x": 0.87,
+     "y": 0.6,
+     "t": "A cloth banner",
+     "d": "Banners across the street advertised shops too.",
+     "how": "You can read the characters on it."
+    }
+   ]
+  },
+  {
+   "pic": "beijing-1900-2",
+   "name": "A side street",
+   "kind": "photograph",
+   "made": "Photographed about 1900",
+   "fx": 0.5,
+   "title": "Street in Peking",
+   "spots": [
+    {
+     "x": 0.84,
+     "y": 0.3,
+     "t": "A painted signboard",
+     "d": "A big signboard hangs over a shop door.",
+     "how": "Signs like this showed what was sold inside."
+    },
+    {
+     "x": 0.12,
+     "y": 0.5,
+     "t": "Wooden lattice windows",
+     "d": "Windows of wooden lattice, covered with paper instead of glass.",
+     "how": "Glass was still rare in ordinary houses."
+    },
+    {
+     "x": 0.55,
+     "y": 0.85,
+     "t": "A dirt road",
+     "d": "Streets were packed earth: dust when dry, deep mud after rain.",
+     "how": "Travellers complained about Beijing's dust."
+    },
+    {
+     "x": 0.88,
+     "y": 0.85,
+     "t": "A cart animal",
+     "d": "A mule or horse in harness waits in the street.",
+     "how": "Animals pulled almost everything."
+    }
+   ]
+  },
+  {
+   "pic": "beijing-1900-3",
+   "name": "An archway over the street",
+   "kind": "photograph",
+   "made": "Photographed about 1900",
+   "fx": 0.45,
+   "title": "P'ai-lou across a main street",
+   "spots": [
+    {
+     "x": 0.5,
+     "y": 0.3,
+     "t": "A pailou",
+     "d": "A decorated wooden archway across the street. Beijing had several on its main avenues.",
+     "how": "The caption printed under the photograph names it."
+    },
+    {
+     "x": 0.68,
+     "y": 0.83,
+     "t": "A cart",
+     "d": "A covered cart passing under the arch.",
+     "how": "There were no cars in Beijing yet."
+    },
+    {
+     "x": 0.14,
+     "y": 0.85,
+     "t": "Long gowns",
+     "d": "Men walking in long gowns, the everyday dress.",
+     "how": "Most people in the picture wear them."
+    },
+    {
+     "x": 0.45,
+     "y": 0.6,
+     "t": "Shop fronts behind",
+     "d": "Tall shopfronts with carved tops line the street behind the arch.",
+     "how": "They look like the shop in the earlier picture."
+    }
+   ]
+  }
+ ]
+}
