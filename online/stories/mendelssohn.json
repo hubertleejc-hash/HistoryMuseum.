@@ -1,0 +1,72 @@
+{
+  "hero": "",
+  "portrait": "pt-mendelssohn",
+  "kw": ["Hamburg", "Berlin", "Leipzig", "Gewandhaus", "Moses Mendelssohn", "Fanny Hensel", "Zelter", "Goethe", "Octet", "A Midsummer Night's Dream", "Hebrides", "Fingal's Cave", "Italian Symphony", "Scottish Symphony", "Violin Concerto", "Elijah", "Songs without Words", "St Matthew Passion", "Bach revival", "Queen Victoria", "Wedding March@myths", "Wagner@legacy", "statue@legacy"],
+  "lede": "A banker's son who wrote a masterpiece at sixteen, brought Bach's forgotten Passion back to the concert hall at twenty, and in under forty years built much of the musical life that Europe still lives in.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Jakob Ludwig Felix Mendelssohn was born in Hamburg on 3 February 1809 into a rich and cultured Jewish family. His grandfather was the philosopher Moses Mendelssohn.",
+      "He was one of the greatest child prodigies in history, as gifted as Mozart. He became a famous composer, pianist and conductor, ran the Gewandhaus Orchestra in Leipzig and founded Germany's first conservatory there.",
+      "His music includes the overture and Wedding March for A Midsummer Night's Dream, the Hebrides overture, the Italian and Scottish symphonies, the Violin Concerto and the oratorio Elijah. He died in Leipzig on 4 November 1847, aged 38."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "In 1811, with Hamburg under French occupation, the family moved to Berlin. His father Abraham was a banker; his mother Lea gave the children their first piano lessons.",
+      "Abraham had the children baptised as Protestant Christians in 1816, and took the extra surname Bartholdy. In Prussia, Jews faced many barriers, and baptism opened doors. Felix kept the name Mendelssohn all his life.",
+      "From about 1819 he studied with Carl Friedrich Zelter, head of the Berlin Singakademie. By fourteen he had written twelve string symphonies, played on Sunday mornings by hired musicians in the family home.",
+      {"t": "In 1821 Zelter took him, aged twelve, to Weimar to play for the poet Goethe, then 72. Goethe was charmed and asked him to come back again and again.", "lab": "verified", "why": "Felix's own letters home describe the visit, and Goethe mentioned it too."},
+      "At sixteen, in 1825, he wrote the Octet for strings. A year later came the overture to A Midsummer Night's Dream, with its fairy-light opening chords."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "11 March 1829: at twenty he conducted Bach's St Matthew Passion at the Berlin Singakademie, the first performance since Bach's death in 1750. It was so successful it was repeated twice, and it sparked a Bach revival across Germany.",
+      "1829: on his first visit to Britain he toured Scotland. He saw the ruined chapel at Holyrood in Edinburgh and the sea cave on Staffa, ideas that grew into the Scottish Symphony and the Hebrides overture.",
+      "1830 to 1831: a long tour of Italy, which gave him the Italian Symphony, first heard in London in 1833.",
+      "1835: he became conductor of the Gewandhaus Orchestra in Leipzig. He made it one of Europe's finest, and played music of the past next to new works.",
+      "1837: he married Cecile Jeanrenaud, the daughter of a French Protestant pastor. They had five children.",
+      "1842: he played at Buckingham Palace for Queen Victoria and Prince Albert, the first of several visits.",
+      "1843: he opened the Leipzig Conservatory, the first in Germany, with Robert Schumann among its teachers.",
+      "26 August 1846: Elijah had its premiere in Birmingham, sung in English. The audience demanded eight numbers again.",
+      "1847: his sister Fanny died suddenly on 14 May. He was devastated, wrote his String Quartet in F minor in grief, and died after a series of strokes on 4 November."
+    ]},
+    {"k": "works", "h": "The music", "ps": [
+      "Octet in E flat (1825), still one of the most loved works of chamber music.",
+      "A Midsummer Night's Dream: the overture (1826) and, seventeen years later, incidental music for a production of the play in Potsdam in 1843, including the Scherzo, the Nocturne and the Wedding March.",
+      "The Hebrides, also called Fingal's Cave (1830, revised 1832), a concert overture that paints the sea.",
+      "Symphony No. 4, the Italian (1833), and Symphony No. 3, the Scottish (finished 1842).",
+      "Violin Concerto in E minor (1844), written for his friend the violinist Ferdinand David, who first played it in Leipzig in 1845.",
+      "Songs without Words, eight books of short piano pieces that filled the parlours of Europe.",
+      "Oratorios: St Paul (1836) and Elijah (1846)."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Fanny Mendelssohn Hensel (1805 to 1847), his elder sister, a pianist and composer as gifted as he was. Their father told her music could only be an 'ornament' for her, never a career. Felix was her closest musical partner.",
+      "Moses Mendelssohn (1729 to 1786), his grandfather, the philosopher of the Jewish Enlightenment.",
+      "Carl Friedrich Zelter (1758 to 1832), his teacher, who owned Bach scores and loved them.",
+      "Johann Wolfgang von Goethe (1749 to 1832), the poet who welcomed him as a boy.",
+      "Robert Schumann (1810 to 1856) and Clara Schumann (1819 to 1896), friends in Leipzig. In 1839 Mendelssohn conducted the first performance of Schubert's Great C major Symphony, which Robert had found in Vienna.",
+      "Queen Victoria (1819 to 1901) and Prince Albert, who admired him and sang and played with him.",
+      "Richard Wagner (1813 to 1883), who learned from his music and later attacked his memory."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "He grew up in the Biedermeier years after Napoleon, when the German middle classes turned to home, family, music and choirs. Berlin was full of salons, and his parents' house was one of the best.",
+      "Concert halls and amateur choral societies were spreading fast. In Britain, huge music festivals with hundreds of singers made him a national favourite, second only to Handel.",
+      "Jews in the German states were gaining rights slowly and unevenly, and prejudice stayed strong. The family's conversion did not protect them from it."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "He helped create the idea of a classical repertoire: great music of the past performed alongside the new, by a professional orchestra led by a conductor with a baton.",
+      "In 1850 Wagner published an essay, Jewishness in Music, under a false name, attacking Mendelssohn and other Jewish composers as unable to create true art. In 1869 he republished it under his own name. It fed a long antisemitic campaign against Mendelssohn's reputation.",
+      "The Nazis banned his music. In November 1936 his statue outside the Leipzig Gewandhaus was taken down and destroyed. A new statue was unveiled in Leipzig in 2008.",
+      "Today he is one of the most performed of all composers, and Fanny's music is being published, played and recorded more than ever."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "He wrote the Wedding March for his own wedding.", "lab": "myth", "t": "He wrote it in 1843 for a stage production of Shakespeare's A Midsummer Night's Dream, years after he married. It became a wedding favourite after it was played at the wedding of Queen Victoria's daughter Victoria in 1858."},
+      {"c": "Bach had been completely forgotten until Mendelssohn.", "lab": "myth", "t": "Musicians such as Mozart and Beethoven studied Bach, and his keyboard music was known to experts. What Mendelssohn did was bring the big choral works to the public, starting the modern Bach revival."},
+      {"c": "Some of his songs were really written by Fanny.", "lab": "verified", "t": "Six songs published under his name in his Op. 8 and Op. 9 were by Fanny. In 1842 Queen Victoria sang him one of them, Italien, as her favourite, and he confessed his sister had written it."},
+      {"c": "He had an easy life with no troubles.", "lab": "myth", "t": "He was rich and successful, but he drove himself to exhaustion, faced antisemitism, and died young after losing the sister he was closest to."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Felix Mendelssohn, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Felix-Mendelssohn"},
+      {"n": "Scores by Felix Mendelssohn, IMSLP Petrucci Music Library (public domain)", "u": "https://imslp.org/wiki/Category:Mendelssohn,_Felix"},
+      {"n": "Felix Mendelssohn, Letters from Italy and Switzerland (1862 English edition), public domain"},
+      {"n": "Further reading: R. Larry Todd, Mendelssohn: A Life in Music (2003)"}
+    ]}
+  ]
+}

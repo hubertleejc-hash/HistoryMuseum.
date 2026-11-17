@@ -1,4 +1,4 @@
-"""Checks that every source link, picture and record link in online/places/*.json opens (runs on GitHub Actions for pull requests).
+"""Checks that every source link, picture and record link in online/places/*.json, and every story source link in online/stories/*.json, opens (runs on GitHub Actions for pull requests).
 A citation that does not exist is worse than none. Usage: python3 tools/online/check_links.py [files...]"""
 import json, sys, time, urllib.error, urllib.parse, urllib.request
 from pathlib import Path
@@ -8,6 +8,10 @@ UA = "contemporaries-link-check/1.0 (history app; source citations)"
 
 
 def links(pl):
+    for sec in pl.get("sections", []):  # an online story: its sources section
+        for s in sec.get("src", []) or []:
+            if s.get("u"):
+                yield s["u"]
     for x in pl.get("facts", []) + (pl.get("guide") or {}).get("stops", []) + [x for x in (pl.get("guide") or {}).get("tour", []) if x.get("tier", 60) != 60] + [pl.get("guide") or {}]:
         for s in x.get("src", []) or []:
             if s.get("u"):
@@ -67,7 +71,7 @@ def wiki_missing(titles):
 
 
 def main(files):
-    files = [Path(f) for f in files] or sorted((ROOT / "online" / "places").glob("*.json"))
+    files = [Path(f) for f in files] or sorted((ROOT / "online" / "places").glob("*.json")) + sorted((ROOT / "online" / "stories").glob("*.json"))
     from concurrent.futures import ThreadPoolExecutor
     per = {f: list(links(json.loads(f.read_text()))) for f in files if f.suffix == ".json" and f.exists()}
     urls = sorted({u for us in per.values() for u in us})

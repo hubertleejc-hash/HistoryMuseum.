@@ -1,0 +1,68 @@
+{
+  "hero": "",
+  "portrait": "pt-byron",
+  "kw": ["Childe Harold", "Don Juan", "Manfred", "She Walks in Beauty", "Newstead Abbey", "Harrow", "Cambridge", "Villa Diodati", "Lake Geneva", "Shelley", "Mary Shelley", "Ada Lovelace", "Augusta Leigh", "Caroline Lamb", "Teresa Guiccioli", "Venice", "Greece", "Missolonghi", "Byronic hero@legacy", "mad bad@myths"],
+  "lede": "The most famous poet in Europe, who woke up a celebrity at twenty-four, fled England in scandal at twenty-eight, and died at thirty-six in a Greek marsh town, spending his own fortune on a war for someone else's freedom.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "George Gordon Byron was born in London on 22 January 1788. At ten he inherited a title and a ruined abbey and became Lord Byron.",
+      "In 1812 the first two cantos of Childe Harold's Pilgrimage made him the most talked-about man in London. His long poems sold in numbers no poet had seen, and his brooding, defiant heroes became a type: the Byronic hero.",
+      "After a short, disastrous marriage he left England in 1816 and never came back. He lived in Switzerland and Italy, wrote his comic masterpiece Don Juan, and in 1823 went to help the Greeks in their war of independence. He died of fever at Missolonghi on 19 April 1824."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father, the spendthrift Captain John 'Mad Jack' Byron, ran through his wife's fortune and died in France in 1791. His mother, Catherine Gordon, a Scottish heiress, brought him up in modest lodgings in Aberdeen.",
+      "He was born with a deformed foot and limped all his life. He was painfully sensitive about it, and later made himself a strong swimmer, boxer and rider.",
+      "In 1798 his great-uncle, the 'Wicked Lord', died and the boy became the sixth Baron Byron, owner of Newstead Abbey in Nottinghamshire, a crumbling former priory.",
+      "He went to Harrow School and then Trinity College, Cambridge, where the rules banned dogs, so he kept a tame bear instead. His first book of poems, Hours of Idleness (1807), was mocked by a reviewer; he struck back with the satire English Bards and Scotch Reviewers (1809)."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1809 to 1811: a long journey through Portugal, Spain, Albania, Greece and Turkey. On 3 May 1810 he swam the Hellespont, the strait between Europe and Asia, as the Greek hero Leander had in legend.",
+      "February 1812: in his first speech in the House of Lords he defended the Nottinghamshire stocking weavers who were smashing machines, the Luddites.",
+      {"t": "March 1812: Childe Harold's Pilgrimage, cantos I and II, came out. He later said, 'I awoke one morning and found myself famous.'", "lab": "likely", "why": "The words are reported by his friend Thomas Moore in his 1830 biography, not written by Byron himself."},
+      "1812 to 1814: a whirl of fame, debts and affairs, including a public, stormy one with Lady Caroline Lamb. His verse tales of the East, like The Giaour and The Corsair, sold in huge numbers.",
+      "January 1815: he married Annabella Milbanke, a clever, serious heiress. Their daughter Ada was born in December. In January 1816 Annabella left him, amid rumours of cruelty and of his relationship with his half-sister Augusta. On 25 April 1816 he sailed from England for good.",
+      "Summer 1816: at the Villa Diodati on Lake Geneva he spent rainy weeks with Percy Shelley, Mary Godwin (soon Mary Shelley), her stepsister Claire Clairmont and his doctor John Polidori. He proposed that each write a ghost story. Mary began Frankenstein; Polidori wrote The Vampyre.",
+      "1816 to 1823: Venice, Ravenna, Pisa and Genoa. From 1819 he lived with Countess Teresa Guiccioli and became involved with the Carbonari, Italian revolutionaries against Austrian rule. In 1822 Shelley drowned off the Italian coast.",
+      "1823 to 1824: elected to a committee in London supporting Greek independence, he sailed for Greece in July 1823. At Missolonghi he paid soldiers and ships from his own money. He fell ill with fever in April 1824; doctors bled him repeatedly, and he died on 19 April."
+    ]},
+    {"k": "works", "h": "The poems", "ps": [
+      "Childe Harold's Pilgrimage (1812 to 1818), a travelling poem in four cantos about a weary young man wandering through a Europe scarred by Napoleon's wars.",
+      "She Walks in Beauty (1814), one of the best-loved short lyrics in English, published in Hebrew Melodies (1815).",
+      "Manfred (1817), a verse drama about a guilt-haunted noble alone in the Alps, who defies spirits and refuses to repent.",
+      "Don Juan (1819 to 1824), his unfinished comic epic of sixteen cantos. Here the legendary seducer is a young man things happen to, and the poem jokes, digresses and mocks the hypocrisy of English society. Many readers found it shocking; many now think it his best work."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Augusta Leigh (1783 to 1851), his half-sister, to whom he was deeply attached.",
+      "Annabella Milbanke (1792 to 1860), his wife for barely a year.",
+      "Ada Lovelace (1815 to 1852), his only legitimate child, whom he never saw after she was a baby. She became the mathematician who wrote about Babbage's Analytical Engine, and was buried beside him at her own request.",
+      "Allegra (1817 to 1822), his daughter with Claire Clairmont, who died of fever in an Italian convent aged five.",
+      "Percy Bysshe Shelley (1792 to 1822) and Mary Shelley (1797 to 1851), friends from the summer of 1816.",
+      "John Cam Hobhouse (1786 to 1869), his travelling companion and most loyal friend.",
+      "Teresa Guiccioli (about 1800 to 1873), his companion in Italy from 1819."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "He grew up while Napoleon remade Europe, and Childe Harold visits the field of Waterloo a year after the battle. After 1815 kings were restored and many young people felt their hopes had been betrayed. Byron gave voice to that mood.",
+      "Britain was rich and powerful but also strict about public morals, and the London press fed on scandal. Byron was one of the first modern celebrities, whose private life sold as well as his books.",
+      "The Greek War of Independence against the Ottoman Empire began in 1821. Volunteers from across Europe, called philhellenes, joined it, inspired by ancient Greece. Greece became independent in 1830."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "The Byronic hero, proud, moody, gifted and secretly guilty, passed into novels, opera and film, from Emily Bronte's Heathcliff to many a modern antihero.",
+      "In Greece he is a national hero. Streets and a suburb of Athens are named after him.",
+      "Westminster Abbey refused to bury him, and he lies in the family vault at Hucknall, near Newstead. A memorial to him was finally placed in Poets' Corner in 1969.",
+      {"t": "His memoirs were burned in his publisher John Murray's fireplace in May 1824, a month after his death, by friends and family afraid of what they said.", "lab": "verified", "why": "The burning was witnessed and described by several of those present, including Hobhouse."}
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Byron called himself 'mad, bad and dangerous to know'.", "lab": "myth", "t": "Lady Caroline Lamb wrote these words about him in her journal after meeting him in 1812."},
+      {"c": "He died fighting for Greece.", "lab": "myth", "t": "He never saw battle. He died of a fever, made worse by the bleeding his doctors insisted on, while preparing an attack."},
+      {"c": "He had an affair with his half-sister Augusta.", "lab": "disputed", "t": "It was rumoured in his lifetime and many biographers think it likely. His letters hint at it, but there is no proof, and the paternity of her daughter Medora remains unknown."},
+      {"c": "He kept a bear at Cambridge.", "lab": "verified", "t": "College rules banned dogs, so he kept a bear and joked that it should sit for a fellowship."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Lord Byron, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Lord-Byron"},
+      {"n": "Lord Byron, Don Juan, Project Gutenberg (public domain)", "u": "https://www.gutenberg.org/ebooks/21700"},
+      {"n": "Works of George Gordon Byron, Wikisource (public domain)", "u": "https://en.wikisource.org/wiki/Author:George_Gordon_Byron"},
+      {"n": "Thomas Moore, Letters and Journals of Lord Byron, with Notices of His Life (1830), public domain"},
+      {"n": "Further reading: Fiona MacCarthy, Byron: Life and Legend (2002)"}
+    ]}
+  ]
+}

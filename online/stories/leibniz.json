@@ -1,0 +1,68 @@
+{
+  "hero": "",
+  "portrait": "pt-leibniz",
+  "kw": ["Leipzig", "Paris", "Hanover", "Berlin", "calculus", "integral sign", "binary", "I Ching", "stepped reckoner", "Leibniz wheel", "Theodicy", "Monadology", "monads", "Newton", "Huygens", "Spinoza", "Sophia of Hanover", "Royal Society 1712@myths", "best of all possible worlds@myths", "Candide@myths"],
+  "lede": "A Leipzig professor's son who taught himself Latin from his father's books, invented calculus in Paris with the signs we still write today, designed a calculating machine, dreamed of a language for all thought, and was buried with hardly anyone at the graveside.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Gottfried Wilhelm Leibniz was born in Leipzig, in Saxony, on 1 July 1646. His father was a professor of moral philosophy at the university.",
+      "He trained in law and spent most of his life as a counsellor, librarian and historian to the dukes of Brunswick-Lüneburg in Hanover. In his spare hours he did work that changed mathematics and philosophy: he invented calculus independently of Isaac Newton, and the notation he chose is the one used today.",
+      "He wrote on logic, physics, geology, law, religion, China and the history of languages, and corresponded with more than a thousand people. He died in Hanover on 14 November 1716, aged 70."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father died when he was six. As a boy he was allowed into his father's library and taught himself Latin, reading the classics and the Church Fathers.",
+      "He entered the University of Leipzig at about fourteen and studied philosophy and law. In 1666 he published his Dissertation on the Art of Combinations, the seed of a lifelong dream: an alphabet of human thought, in which arguments could be settled by calculating.",
+      {"t": "Leipzig refused him a doctorate in law, officially because he was too young. He took it instead at the University of Altdorf near Nuremberg in 1667, and turned down a professorship there.", "lab": "likely", "why": "The age reason is the official one; his early biographers suggest faculty politics also played a part."}
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "Mainz, 1667 to 1672. He entered the service of the Elector of Mainz through the statesman Johann Christian von Boineburg, working on law reform and diplomacy.",
+      "Paris, 1672 to 1676. He was sent to Paris with a plan to persuade Louis XIV to invade Egypt instead of German lands. The plan went nowhere, but Paris made him a mathematician. The Dutch scientist Christiaan Huygens guided his reading.",
+      "London, 1673. He visited the Royal Society, showed a wooden model of his calculating machine, and was elected a Fellow.",
+      "Calculus, 1675. In notes from late October and November 1675 he wrote, for the first time, the long S for an integral and d for a difference. He worked out the rules for both and saw that they undo each other.",
+      "Hanover, 1676. He took a post as librarian and counsellor to Duke Johann Friedrich of Brunswick-Lüneburg. On the way he visited the philosopher Baruch Spinoza in The Hague.",
+      "Publication, 1684. His paper on the new method, Nova Methodus, appeared in the Leipzig journal Acta Eruditorum. Newton had found his own method of fluxions in the 1660s but had not published it.",
+      "The Harz mines, 1680 to 1686. He spent years trying to use windmills to pump water out of the silver mines in the Harz mountains. The project failed.",
+      "Italy and the family history, 1687 to 1690. Ordered to write a history of the House of Brunswick, he travelled through Germany, Austria and Italy searching archives. The history was never finished.",
+      "Berlin, 1700. With the help of Sophia Charlotte, Electress of Brandenburg, he founded the Berlin Society of Sciences and became its first president.",
+      "The quarrel, 1711 to 1716. Newton's supporters accused him of taking calculus from Newton. A Royal Society committee reported against him in 1712; its report was written by Newton himself, who was the Society's president.",
+      "Left behind, 1714. When his employer, Georg Ludwig, became King George I of Great Britain, Leibniz was told to stay in Hanover and finish the history. He died there two years later."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "Calculus: the notation dx, dy/dx and the integral sign, and the names 'differential' and 'function' in their modern senses.",
+      {"t": "Binary arithmetic: he worked out counting with only 0 and 1, and in 1703 published a paper on it, noting that it matched the hexagrams of the Chinese I Ching shown to him by the Jesuit Joachim Bouvet.", "lab": "verified", "why": "His Explication de l'arithmétique binaire appeared in the Paris Academy's memoirs for 1703."},
+      "The stepped reckoner, a calculating machine that could add, subtract, multiply and divide. Its stepped drum, the Leibniz wheel, was used in calculators for more than two hundred years.",
+      "Theodicy (1710), his only full book published in his lifetime, arguing that a good God allows evil because this world, taken as a whole, is the best one possible.",
+      "Monadology (1714), a short text describing reality as made of simple, soul-like units called monads, each reflecting the whole universe from its own point of view.",
+      "His letters with Samuel Clarke (1715 to 1716), a debate with Newton's ideas about space, time and God, and huge piles of unpublished papers still being edited today."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Christiaan Huygens (1629 to 1695), his teacher in Paris, who set him mathematical problems and encouraged him.",
+      "Isaac Newton (1643 to 1727). They exchanged two polite letters in 1676; later the priority fight made them bitter enemies.",
+      "Baruch Spinoza (1632 to 1677), the Dutch philosopher he visited in 1676 and argued against all his life.",
+      "Sophia, Electress of Hanover (1630 to 1714), and her daughter Sophia Charlotte, Queen in Prussia (1668 to 1705), clever women who loved to discuss philosophy with him.",
+      "Antoine Arnauld, the French theologian, and many Jesuits in China, with whom he wrote long letters."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "He was born two years before the Peace of Westphalia ended the Thirty Years' War, which had left Germany devastated and split into hundreds of states. He spent much effort on plans to reunite Protestant and Catholic churches.",
+      "Science was organised in new learned societies and journals: the Royal Society in London, the Academy of Sciences in Paris, the Acta Eruditorum in Leipzig. Priority, who published first, began to matter greatly.",
+      "Small German courts like Hanover needed lawyers and scholars, and that was how a philosopher earned a living."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "Mathematicians across Europe, led by the Bernoulli brothers, adopted his notation, and it spread worldwide. British mathematicians who stayed with Newton's notation fell behind for a century.",
+      "His dream of reasoning by calculation, and his binary numbers, are often seen as early steps toward computer science and modern logic.",
+      "The University of Hanover and the Leibniz Association, one of Germany's main groups of research institutes, are named after him."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Leibniz stole calculus from Newton.", "lab": "myth", "t": "The Royal Society's 1712 report said so, but it was written by Newton and was not fair. Historians now agree that Newton found his method first, Leibniz found his independently, and Leibniz published first."},
+      {"c": "He thought everything in the world is good.", "lab": "myth", "t": "His claim was that this is the best of all possible worlds, not that it has no evil. Voltaire's Candide (1759) mocked a cartoon of the idea through the character Dr Pangloss."},
+      {"c": "He died forgotten.", "lab": "disputed", "t": "His funeral was small, and the Hanover court and the scientific societies took little notice. But his ideas were already widely known, and his notation was in use across Europe."},
+      {"c": "He invented binary numbers.", "lab": "disputed", "t": "Others had written about base-two counting before him, including Thomas Harriot in unpublished notes. Leibniz developed and published it fully and saw its link to logic."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Gottfried Wilhelm Leibniz, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Gottfried-Wilhelm-Leibniz"},
+      {"n": "Gottfried Wilhelm Leibniz, Stanford Encyclopedia of Philosophy", "u": "https://plato.stanford.edu/entries/leibniz/"},
+      {"n": "Gottfried Wilhelm von Leibniz, MacTutor History of Mathematics, University of St Andrews", "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Leibniz/"},
+      {"n": "Further reading: Maria Rosa Antognazza, Leibniz: An Intellectual Biography (2009)"}
+    ]}
+  ]
+}

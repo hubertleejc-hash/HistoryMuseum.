@@ -1,0 +1,69 @@
+{
+  "hero": "",
+  "portrait": "pt-wagner",
+  "kw": ["Leipzig", "Dresden", "Zurich", "Munich", "Bayreuth", "Festspielhaus", "Venice", "Ring cycle", "Ring of the Nibelung", "Tristan und Isolde", "Meistersinger", "Parsifal", "Lohengrin", "Flying Dutchman", "Ludwig II", "Cosima", "Liszt", "Nietzsche", "leitmotif", "Gesamtkunstwerk", "antisemitism", "Hitler@myths"],
+  "lede": "A debt-ridden revolutionary on the run who wrote a four-evening opera nobody could stage, found a young king to pay for it, built his own theatre to play it in, changed music forever, and left behind writings full of hatred that later shadowed everything he made.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Richard Wagner was born in Leipzig on 22 May 1813. He wrote both the words and the music of his operas, which he came to call music dramas.",
+      "His works, above all the four-part Ring of the Nibelung and Tristan und Isolde, stretched harmony to breaking point and changed opera and orchestral music. With money from King Ludwig II of Bavaria he built a festival theatre at Bayreuth, which opened in 1876 and is still led by his descendants.",
+      "He was also a prolific, aggressive writer. His essay attacking Jews in music, first published in 1850, and his later writings make him one of the most troubling figures in the history of art. He died in Venice on 13 February 1883."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father, a police clerk, died months after his birth. His mother soon married the actor and painter Ludwig Geyer, and the family moved to Dresden, where the boy grew up around the theatre.",
+      "He was a passionate reader of Shakespeare and the Greeks and, at fifteen, wrote a huge tragedy in which nearly every character dies. Hearing Beethoven made him decide to set such dramas to music.",
+      "He had few formal lessons, though he studied for a time with the Leipzig cantor Theodor Weinlig. In the 1830s he worked as a chorus master and conductor in small German theatres and in Riga, and married the actress Minna Planer in 1836.",
+      {"t": "In 1839, deep in debt, he and Minna fled Riga secretly and sailed for London in a storm, then went on to Paris. The voyage gave him the sound of The Flying Dutchman.", "lab": "likely", "why": "The link between the storm and the opera comes from his own autobiography, My Life, dictated decades later."}
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1839 to 1842: in Paris he lived in poverty, writing articles and arranging other men's music.",
+      "1842 to 1849: Rienzi was a hit in Dresden in 1842, followed by The Flying Dutchman (1843) and Tannhauser (1845). From 1843 he was court conductor to the King of Saxony. He finished Lohengrin in 1848.",
+      "May 1849: he joined the Dresden uprising, alongside the Russian anarchist Bakunin. When it was crushed a warrant was issued for his arrest. He escaped with help from Franz Liszt and lived in exile, mostly in Zurich, for over a decade. Liszt staged Lohengrin in Weimar in 1850.",
+      "1850: under a false name he published Das Judenthum in der Musik (Jewishness in Music) in a music magazine, attacking Jewish composers including Felix Mendelssohn, then dead three years, and, without naming him, Giacomo Meyerbeer, who had helped him. In 1869 he reissued it under his own name, expanded.",
+      "1853 to 1857: he began the music of the Ring, then broke off in the middle of Siegfried to write Tristan und Isolde.",
+      "1864: hunted by creditors, he was rescued by the eighteen-year-old King Ludwig II of Bavaria, who paid his debts and brought him to Munich. Tristan was first performed there in 1865, conducted by Hans von Bulow, whose wife Cosima, Liszt's daughter, had already begun a relationship with Wagner. Scandal forced him to leave Munich that year.",
+      "1866 to 1872: he lived at Tribschen near Lucerne with Cosima. The Mastersingers of Nuremberg opened in Munich in 1868. Minna had died in 1866, and he married Cosima in 1870. For her birthday that Christmas he had the Siegfried Idyll played on the stairs.",
+      "August 1876: the first Bayreuth Festival opened with the first complete Ring cycle, attended by the German emperor, Bruckner, Tchaikovsky and Nietzsche.",
+      "July 1882: Parsifal, his last work, opened at Bayreuth. He died of a heart attack in the Palazzo Vendramin in Venice on 13 February 1883 and was buried in the garden of his house, Wahnfried, in Bayreuth."
+    ]},
+    {"k": "works", "h": "The music dramas", "ps": [
+      "The early operas: The Flying Dutchman, Tannhauser and Lohengrin, whose Bridal Chorus is still played at weddings.",
+      "The Ring of the Nibelung, four operas lasting about fifteen hours: Das Rheingold, Die Walkure (with the Ride of the Valkyries), Siegfried and Gotterdammerung. Gods, dwarfs, giants and heroes fight over a ring of world power that only one who renounces love can forge.",
+      "Tristan und Isolde, about a love that can only be fulfilled in death. Its opening chord, which refuses to resolve, is one of the most discussed sounds in music.",
+      "The Mastersingers of Nuremberg, a comedy about a song contest, and Parsifal, a sacred festival drama about the knights of the Grail.",
+      "In essays such as The Artwork of the Future (1849) and Opera and Drama (1851) he called for a 'total work of art' joining music, poetry, staging and design."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Minna Planer (1809 to 1866), his first wife, who shared his years of poverty.",
+      "Franz Liszt (1811 to 1886), his great champion, and later his father-in-law.",
+      "Cosima Wagner (1837 to 1930), Liszt's daughter, his second wife, who ran the Bayreuth Festival for over twenty years after his death.",
+      "Ludwig II of Bavaria (1845 to 1886), the king who paid for much of his later life and work.",
+      "Friedrich Nietzsche (1844 to 1900), a close friend from 1868 who broke with him around 1876 and later attacked him in print.",
+      "Felix Mendelssohn (1809 to 1847), whom he attacked in his 1850 essay.",
+      "Hans von Bulow (1830 to 1894), the conductor who premiered Tristan and The Mastersingers, and whose wife left him for Wagner."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "He grew up in a divided Germany of dozens of states. The revolutions of 1848 and 1849 demanded unity and freedom and failed. Germany was united under Prussia in 1871, when Wagner was in his late fifties, and he hoped his art would be a national one.",
+      "Jews in the German states won full civil rights only gradually, ending in 1871. Many Germans resented their success, and in the 1870s and 1880s a new, political antisemitism grew. Wagner's writings were part of that current and helped spread it."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "His harmony led on to Mahler, Richard Strauss, Debussy and Schoenberg, and his use of recurring musical themes for characters and ideas, later called leitmotifs, became a basic tool of film music.",
+      "Bayreuth changed how theatre is watched: a darkened auditorium, a hidden orchestra pit and an audience expected to sit in silence.",
+      "After his death his family and circle made Bayreuth a centre of German nationalism and racism. His English-born daughter-in-law Winifred, who ran the festival from 1930, was a friend and admirer of Hitler, who attended often. When it reopened in 1951 his grandsons Wieland and Wolfgang took over, and since 2008 his great-granddaughters have run it.",
+      "In Israel his music is still, by informal agreement, almost never performed in public."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Wagner was antisemitic.", "lab": "verified", "t": "Yes, openly and lastingly, in published essays and in private. Cosima's diaries record many hostile remarks. At the same time he worked with Jewish musicians, among them Hermann Levi, who conducted Parsifal."},
+      {"c": "He was Hitler's composer.", "lab": "disputed", "t": "He died six years before Hitler was born. Hitler revered him and the Nazis used his music. His writings fed the ideas they drew on, but historians disagree on how much his operas themselves carry those ideas."},
+      {"c": "He invented the word leitmotif.", "lab": "myth", "t": "He rarely used it. Writers on his music, especially Hans von Wolzogen, made it popular."},
+      {"c": "The wedding march 'Here Comes the Bride' is by Wagner.", "lab": "verified", "t": "It is the Bridal Chorus from Lohengrin (1850). The other famous wedding march is by Mendelssohn."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Richard Wagner, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Richard-Wagner"},
+      {"n": "Wagner, Richard: scores at IMSLP (public domain)", "u": "https://imslp.org/wiki/Category:Wagner,_Richard"},
+      {"n": "Richard Wagner, My Life (English trans. 1911), public domain"},
+      {"n": "Further reading: Barry Millington, Wagner (rev. 1992)"},
+      {"n": "Further reading: Saul Friedlander and Jorn Rusen, eds., Richard Wagner im Dritten Reich (2000)"}
+    ]}
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "hero": "",
+  "portrait": "pt-schubert",
+  "kw": ["Vienna", "Himmelpfortgrund", "Salieri", "Beethoven", "Lieder", "art song", "Gretchen am Spinnrade", "Erlkonig", "Erlking", "Die schone Mullerin", "Winterreise", "Trout Quintet", "Unfinished Symphony", "Great C major", "Schubertiad", "Vogl", "Schober", "Ave Maria", "Schumann@legacy", "syphilis@myths"],
+  "lede": "A short, shy, short-sighted schoolmaster's son who wrote music as other people breathe: more than 600 songs, nine symphonies and a pile of masterpieces nobody heard in his lifetime, all before he died at thirty-one.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Franz Peter Schubert was born on 31 January 1797 in Himmelpfortgrund, a suburb of Vienna. He lived almost his whole life in and around the city.",
+      "He wrote more than 600 songs for voice and piano, and made the German song, the Lied, into great art. He also wrote symphonies, chamber music, piano sonatas, masses and operas.",
+      "He earned little, lived with friends, and was famous mainly within a circle of admirers in Vienna. He died on 19 November 1828, aged 31, a year and a half after Beethoven. Much of his greatest music was performed only decades later."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father, Franz Theodor, ran a parish school. The family was large and poor; many of the children died young. Franz learned violin from his father and piano from his brother Ignaz.",
+      "In 1808 his clear voice won him a place as a choirboy in the imperial court chapel. With it came a scholarship to the Stadtkonvikt, the city's boarding school, where he played in the student orchestra and began to compose.",
+      "The court composer Antonio Salieri noticed him and taught him composition for several years, from about 1812.",
+      "His voice broke in 1812. He trained as a teacher and from 1814 taught the youngest pupils in his father's school, which he hated, while composing at a furious rate in every spare moment."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "19 October 1814: aged seventeen, he wrote Gretchen am Spinnrade, a setting of Goethe's Faust. The piano spins like Gretchen's wheel, stops when she remembers a kiss, and starts again. Many date the art song from this day.",
+      "1815: in a single year he wrote about 140 songs, including Erlkonig, Goethe's ballad of a father riding through the night with a dying child.",
+      "1816 to 1818: he left teaching. His friend Franz von Schober took him in, and Schober brought him the great baritone Johann Michael Vogl, who began singing his songs in Viennese drawing rooms. In 1818 he spent a summer as music teacher to the Esterhazy family in Hungary.",
+      "1819: on a summer trip to Upper Austria with Vogl he wrote the Trout Quintet for a music-loving patron in Steyr.",
+      "1821: Erlkonig was published as his Opus 1, paid for by friends. That decade, evening gatherings in friends' homes, where he played and they sang, read poetry and danced, came to be called Schubertiads.",
+      "Autumn 1822: he wrote two movements of a Symphony in B minor and stopped. Around the same time he became seriously ill, almost certainly with syphilis. He had bouts of illness for the rest of his life.",
+      "1827: he wrote Winterreise, a cycle of 24 bleak songs about a rejected lover walking through snow. That March he was a torchbearer at Beethoven's funeral.",
+      "1828: on 26 March he gave the only public concert of his own works, which made a good profit. That year he wrote the String Quintet in C and his last three piano sonatas. He fell ill in early November and died on 19 November at his brother Ferdinand's flat."
+    ]},
+    {"k": "works", "h": "The music", "ps": [
+      "Songs: Gretchen am Spinnrade, Erlkonig, Heidenroslein, An die Musik, Die Forelle (The Trout), and Ellens dritter Gesang, sung today as his Ave Maria.",
+      "Song cycles: Die schone Mullerin (1823), about a young miller who falls in love and drowns in the brook, Winterreise (1827), and the late songs gathered after his death as Schwanengesang (Swan Song).",
+      "Chamber music: the Trout Quintet, the Death and the Maiden string quartet (1824), and the String Quintet in C (1828), with its slow movement that many musicians would choose to hear last.",
+      "Symphonies: the Unfinished (1822) and the Great C major, a long, striding work of his last years. Piano music: the Wanderer Fantasy, the Impromptus, the Moments musicaux and the final sonatas."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Antonio Salieri (1750 to 1825), his composition teacher.",
+      "Ludwig van Beethoven (1770 to 1827), his idol in the same city. They may have met only briefly, if at all.",
+      "Johann Michael Vogl (1768 to 1840), the opera singer who made his songs known.",
+      "Franz von Schober (1796 to 1882), the charming, restless friend who gave him lodgings and wrote the words of An die Musik.",
+      "Moritz von Schwind (1804 to 1871), the painter who drew the Schubertiads, and Joseph von Spaun (1788 to 1865), a school friend and lifelong supporter.",
+      "Ferdinand Schubert (1794 to 1859), his loyal elder brother, who kept his manuscripts.",
+      "Robert Schumann (1810 to 1856), who found the Great C major symphony among those manuscripts after Schubert's death."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "He grew up as Napoleon's armies occupied Vienna twice, in 1805 and 1809. After 1815 the Austrian chancellor Metternich ran a police state: censors read everything and spies watched cafes and meetings. In 1820 Schubert was briefly arrested with a student friend.",
+      "People retreated into private life: music at home, small gatherings, comfortable furniture. This was the Biedermeier style, and the Schubertiad was its perfect form.",
+      "Piano making boomed and middle-class homes bought instruments. Publishers wanted songs and dances that amateurs could play, which is how much of his music was sold."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "Schumann, Brahms, Mahler, Wolf and Richard Strauss built on his songs. Recitals of Winterreise and Die schone Mullerin are a central part of every great singer's life.",
+      "In the winter of 1838 to 1839 Robert Schumann visited Ferdinand Schubert in Vienna and found the score of the Great C major symphony. Mendelssohn conducted its first performance in Leipzig in March 1839. The Unfinished had to wait until 1865.",
+      "He was buried near Beethoven at Wahring cemetery, as he had wished. In 1888 both were moved to Vienna's Central Cemetery. The poet Grillparzer's epitaph said music had buried here a rich treasure but even fairer hopes."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "The Unfinished Symphony is unfinished because he died.", "lab": "myth", "t": "He wrote it in 1822 and lived six more years. He sketched a third movement and set it aside. Nobody knows why he never went back to it."},
+      {"c": "He died of syphilis.", "lab": "disputed", "t": "He almost certainly caught syphilis around 1822. His death was put down to typhoid fever, then common in Vienna, and some suspect the late effects of his illness or of mercury treatment. The exact cause is not known."},
+      {"c": "He was unknown in his lifetime.", "lab": "myth", "t": "He was not famous across Europe, but in Vienna he had devoted friends, admiring singers, publishers who printed around a hundred of his works, and a sold-out concert in 1828."},
+      {"c": "He wrote music at astonishing speed.", "lab": "verified", "t": "His dated manuscripts show several songs in a single day, and some 140 in 1815 alone."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Franz Schubert, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Franz-Schubert"},
+      {"n": "Schubert, Franz: scores at IMSLP (public domain)", "u": "https://imslp.org/wiki/Category:Schubert,_Franz"},
+      {"n": "Otto Erich Deutsch, Schubert: A Documentary Biography (1946)"},
+      {"n": "Further reading: Brian Newbould, Schubert: The Music and the Man (1997)"}
+    ]}
+  ]
+}

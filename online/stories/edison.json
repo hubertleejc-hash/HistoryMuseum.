@@ -1,0 +1,70 @@
+{
+  "hero": "",
+  "portrait": "pt-edison",
+  "kw": ["Milan Ohio", "Port Huron", "telegraph", "Menlo Park", "phonograph", "light bulb", "Pearl Street", "West Orange", "kinetoscope", "Black Maria", "General Electric", "Tesla", "Henry Ford", "War of the Currents", "Joseph Swan", "patents", "invented the bulb@myths", "Topsy@myths"],
+  "lede": "A half-deaf boy who sold newspapers on trains grew into the man who recorded the human voice, lit Manhattan with electricity, and turned invention itself into a factory with workbenches, chemists and a deadline.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Thomas Alva Edison was born in Milan, Ohio, on 11 February 1847, the youngest of seven children. When he was seven the family moved to Port Huron, Michigan.",
+      "He began as a telegraph operator and became the most famous inventor of his age. His laboratory at Menlo Park, New Jersey, produced the phonograph in 1877 and a practical incandescent lamp in 1879, and he built the first commercial electric power stations.",
+      "He held 1,093 United States patents, more than anyone in his lifetime. He died at his home in West Orange, New Jersey, on 18 October 1931, aged 84."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "He went to school for only a few months. His mother, Nancy, a former teacher, taught him at home, and he read widely and did chemistry experiments in the cellar.",
+      {"t": "He lost much of his hearing as a boy, probably after scarlet fever and ear infections. He later said deafness helped him concentrate.", "lab": "likely", "why": "The cause is uncertain. Edison himself told several stories, including one about being lifted by his ears onto a train."},
+      "At twelve he sold newspapers and sweets on the Grand Trunk Railway between Port Huron and Detroit. He printed his own small paper on the train and kept a chemistry set in the baggage car.",
+      "Around 1862 he pulled a station agent's small son out of the path of a rolling freight car. The grateful father taught him telegraphy. For the next five years he drifted from city to city as a telegraph operator, taking machines apart in his spare time."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "First patent, 1869. An electric vote recorder for legislatures. Nobody wanted it, and he decided to invent only things people would buy.",
+      "Newark, 1870 to 1876. Improved stock tickers and telegraph systems earned him money and workshops. His quadruplex telegraph (1874) sent four messages on one wire.",
+      "Menlo Park, 1876. He built a laboratory in a New Jersey village with machinists, glassblowers and a chemist, and promised 'a minor invention every ten days'. It was the first place built to produce inventions to order.",
+      "The phonograph, 1877. A needle cut sound waves into tinfoil on a turning cylinder and played them back. He recited 'Mary had a little lamb'. Newspapers called him the Wizard of Menlo Park.",
+      "The lamp, 1879. After testing thousands of materials, his team got a carbon filament in a vacuum to glow for many hours. On New Year's Eve 1879 he lit Menlo Park for the public.",
+      "Pearl Street, 1882. On 4 September his Pearl Street station in lower Manhattan began supplying direct current to customers. It was a whole system: generators, cables, meters, fuses and lamps.",
+      "West Orange, 1887. A far larger laboratory, with a library, workshops and a stock of every material he could think of. He married his second wife, Mina Miller, in 1886, after his first wife, Mary, died in 1884.",
+      "Moving pictures, 1888 to 1894. With his assistant William Kennedy Laurie Dickson he developed the kinetoscope, a peephole viewer for film. The Black Maria, a studio on a turntable, was built at West Orange in 1893.",
+      "Losing control, 1892. His electric companies were merged into General Electric, and his name was dropped. He sank much of his fortune into an iron-ore mining project in the 1890s, which failed."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "The phonograph (1877) and later wax-cylinder and disc records.",
+      "The carbon-filament incandescent lamp (1879) and the system to power it: dynamos, wiring, meters and central stations.",
+      "Improvements to the telephone, especially a carbon transmitter that made voices clearer (1877 to 1878).",
+      "The kinetoscope and early film production, which helped start the American film industry.",
+      "The nickel-iron storage battery, after years of work in the 1900s, and in his last years a search for a rubber plant that could grow in the United States.",
+      "His greatest invention may have been the industrial research laboratory: a team working on many problems at once, keeping notebooks, and turning ideas into products."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Mary Stilwell (1855 to 1884), his first wife, married in 1871, and Mina Miller (1865 to 1947), his second. He had six children.",
+      "Nikola Tesla (1856 to 1943), who worked for his company in Paris from 1882 and in New York in 1884 before they parted over pay. They became rivals in the battle between direct and alternating current.",
+      "Henry Ford (1863 to 1947), who once worked as an engineer at an Edison electric company in Detroit. They became close friends, went on camping trips together with Harvey Firestone, and were winter neighbours in Fort Myers, Florida.",
+      "Alexander Graham Bell (1847 to 1922), born the same year, his rival in the telephone and the phonograph.",
+      "His teams: Charles Batchelor, John Kruesi, Francis Upton and many others, whose work went out under Edison's name."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "The telegraph was his first world: it was the internet of the time, and banks, railways and newspapers were desperate for faster and cheaper messages.",
+      "He worked in the age of big business, when bankers such as J. P. Morgan funded new industries and patents were fought over in court.",
+      "In the War of the Currents in the late 1880s, Edison's camp warned that the alternating current of Westinghouse and Tesla was deadly. His associates supported experiments killing animals with AC, and the first electric chair, used in 1890, ran on it. AC still won, because it could travel long distances cheaply."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "Electric light, recorded sound and cinema all grew out of work in his laboratories, though each also had other inventors.",
+      "Large companies copied his model of the research lab, and General Electric, Bell Labs and others built their own.",
+      {"t": "He is often quoted as saying genius is 'one per cent inspiration and ninety-nine per cent perspiration'.", "lab": "likely", "why": "The saying was reported in newspapers in his lifetime in several versions; no single original wording is certain."},
+      "His laboratory and home in West Orange are now the Thomas Edison National Historical Park, and Henry Ford moved the Menlo Park buildings to his museum in Dearborn, Michigan."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Edison invented the light bulb.", "lab": "myth", "t": "Electric light was shown decades earlier by Humphry Davy, and Joseph Swan in England made working carbon lamps at the same time. Edison's achievement was a long-lasting, practical lamp and the whole power system to run it."},
+      {"c": "Edison electrocuted Topsy the elephant.", "lab": "myth", "t": "Topsy was killed at Coney Island in 1903, and a film of it was made by the Edison company. There is no evidence Edison himself took part, and by then the War of the Currents was long over."},
+      {"c": "His camp used animal killings to scare people off AC.", "lab": "verified", "t": "In 1888 and 1889 the engineer Harold Brown, with help from Edison's laboratory, publicly killed dogs and other animals with AC to show its danger."},
+      {"c": "Edison cheated Tesla out of $50,000.", "lab": "disputed", "t": "The story comes from Tesla, told decades later. No record survives from Edison's side. They clearly disagreed over pay and over the future of electricity."},
+      {"c": "He failed 10,000 times before making the bulb.", "lab": "disputed", "t": "His team did test thousands of materials, but the round number and the famous replies about it are later retellings."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Thomas Edison, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Thomas-Edison"},
+      {"n": "The Thomas A. Edison Papers, Rutgers University", "u": "https://edison.rutgers.edu/"},
+      {"n": "Thomas Edison National Historical Park, National Park Service", "u": "https://www.nps.gov/edis/"},
+      {"n": "Further reading: Paul Israel, Edison: A Life of Invention (1998)"},
+      {"n": "Further reading: Edmund Morris, Edison (2019)"}
+    ]}
+  ]
+}

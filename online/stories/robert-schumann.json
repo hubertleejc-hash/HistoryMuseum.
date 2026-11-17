@@ -1,0 +1,66 @@
+{
+  "hero": "",
+  "portrait": "pt-robert-schumann",
+  "kw": ["Zwickau", "Leipzig", "Dusseldorf", "Endenich", "Neue Zeitschrift fur Musik", "Florestan", "Eusebius", "Davidsbund", "Carnaval", "Kinderszenen", "Traumerei", "Dichterliebe", "Spring Symphony", "Piano Concerto", "Clara Schumann", "Friedrich Wieck", "Brahms", "Mendelssohn", "Chopin@works", "hand injury@myths"],
+  "lede": "A bookseller's son who wanted to be a great pianist, wrecked his hand, became a great composer instead, and in his magazine taught a whole generation how to listen, before his mind gave way and he walked into the Rhine.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Robert Schumann was born on 8 June 1810 in Zwickau, in the Kingdom of Saxony. He became one of the central composers of German Romanticism.",
+      "For ten years he also edited the music magazine he founded, the Neue Zeitschrift fur Musik, where he championed Chopin, Berlioz and, at the end, the young Brahms.",
+      "In 1840, after a long legal fight with her father, he married the pianist Clara Wieck. He suffered from severe depression and other illness for much of his life. In 1854 he entered an asylum near Bonn, where he died on 29 July 1856, aged 46."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father, August, was a bookseller, publisher and writer, and the boy grew up among books. He read Jean Paul and E. T. A. Hoffmann, wrote poems and novels, and improvised at the piano.",
+      "When he was sixteen his only sister, Emilie, died, apparently by suicide, and a few months later his father died. The double loss stayed with him.",
+      "To please his mother he went to study law at Leipzig in 1828 and then at Heidelberg, but spent his time at the piano. In 1830 he heard the violinist Paganini and decided on music. He returned to Leipzig to study with the famous teacher Friedrich Wieck, and lodged in Wieck's house.",
+      {"t": "By 1832 a finger of his right hand had become weak and numb, ending his hopes as a performer.", "lab": "likely", "why": "The injury is certain; its cause is not. See Myths and facts."}
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1831: his first published article, on Chopin's variations on a theme by Mozart, had a character exclaim 'Hats off, gentlemen, a genius!' His first piano cycle, Papillons, appeared the next year.",
+      "April 1834: with friends he founded the Neue Zeitschrift fur Musik in Leipzig. He edited it until 1844, signing many reviews with the names of imaginary members of a 'League of David' who fought musical philistines.",
+      "1835 to 1840: he and Clara Wieck, nine years younger, fell in love. Her father forbade it and fought them in court. In August 1840 the court allowed the marriage, and they married on 12 September 1840, the day before her 21st birthday.",
+      "1840: in his 'year of song' he wrote about 140 songs, including the cycles Dichterliebe, Frauenliebe und -leben and Myrthen, a wedding gift for Clara.",
+      "1841 to 1843: he turned to orchestra and chamber music. Mendelssohn conducted his First Symphony, the Spring, in 1841; the Piano Quintet followed in 1842. In 1843 he taught at Mendelssohn's new Leipzig Conservatory.",
+      "1844 to 1850: after a breakdown he moved with his family to Dresden. There he finished the Piano Concerto in A minor (1845).",
+      "1850: he became music director in Dusseldorf and wrote the Rhenish Symphony. He was a poor conductor and relations with the orchestra soured.",
+      "1853: the twenty-year-old Johannes Brahms knocked at the door on 30 September. Within weeks Schumann wrote an article, New Paths, hailing him as the one who would come.",
+      "February 1854: he heard voices and constant music. On 27 February he left the house and threw himself into the Rhine. Fishermen pulled him out. At his own request he was taken to a private asylum at Endenich, near Bonn. He never came home. Clara saw him only in his last days, and he died there on 29 July 1856."
+    ]},
+    {"k": "works", "h": "The music", "ps": [
+      "Piano: Papillons, Carnaval (1835), a masked ball of short portraits including Chopin, Paganini and Clara, Kinderszenen (1838) with its famous Traumerei, Kreisleriana and the Fantasie in C.",
+      "Songs: Dichterliebe, sixteen settings of Heine on love and loss, Frauenliebe und -leben, and the collections Myrthen and the Liederkreis cycles.",
+      "Orchestra: four symphonies, from the Spring to the Rhenish, and the Piano Concerto, first played by Clara in 1845 and one of the most loved of all concertos. Also a Cello Concerto and a late Violin Concerto, hidden for decades and first played only in 1937.",
+      "Writing: hundreds of reviews and essays, collected in 1854 as Collected Writings on Music and Musicians. He believed a critic should explain what is new in a work, not just judge it."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Clara Schumann (1819 to 1896), his wife, the pianist who first played much of his music and carried it across Europe. They had eight children.",
+      "Friedrich Wieck (1785 to 1873), his teacher and Clara's father, later his bitter enemy in court.",
+      "Felix Mendelssohn (1809 to 1847), Leipzig's leading musician, a friend who conducted his symphonies.",
+      "Frederic Chopin (1810 to 1849), born the same year, whose genius he was among the first to announce.",
+      "Johannes Brahms (1833 to 1897), the young composer he hailed in 1853, who stood by Clara and the children after his collapse.",
+      "Joseph Joachim (1831 to 1907), the violinist, a friend of his last Dusseldorf years."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Leipzig was a city of publishers, printers and fairs, with a famous concert hall, the Gewandhaus. It was the perfect place for a music magazine.",
+      "Romantic writers prized feeling, dreams and the inner life, and many of his pieces take their ideas from books. Concert life was opening to the paying middle classes, and the piano was in every respectable home.",
+      "Little was understood about mental illness. Patients were sent away to asylums for quiet and isolation, often with no visits from family, as in his case."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "His piano music and songs are at the heart of the Romantic repertoire, and his music shaped Brahms, Grieg, Faure and Elgar.",
+      "His magazine still exists, and his style of criticism, warm, imaginative and focused on the new, influenced music writing for generations.",
+      "Clara spent forty years after his death playing and editing his works, which did much to make him the classic he is now."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "He destroyed his hand with a finger-stretching machine.", "lab": "disputed", "t": "He did use a device to strengthen a weak finger, and later accounts blamed it. Doctors and historians have also suggested nerve damage, an illness, or mercury treatment. The cause remains uncertain."},
+      {"c": "Syphilis killed him.", "lab": "disputed", "t": "His doctor's notes from Endenich, made public only in the 1990s, are consistent with late-stage syphilis, and many scholars now accept that. Others point to a long history of mood disorder. No one can be sure."},
+      {"c": "Florestan and Eusebius were real people.", "lab": "myth", "t": "They were his own imagined alter egos: Florestan fiery and bold, Eusebius gentle and dreamy. He signed reviews and pieces with their names."},
+      {"c": "He heard angels dictating music before his collapse.", "lab": "verified", "t": "Clara's diary records that in February 1854 he said angels and spirits were singing to him. He wrote down a theme he believed came from them, and composed variations on it, his last piano work."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Robert Schumann, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Robert-Schumann"},
+      {"n": "Schumann, Robert: scores at IMSLP (public domain)", "u": "https://imslp.org/wiki/Category:Schumann,_Robert"},
+      {"n": "Robert Schumann, Music and Musicians: Essays and Criticisms, trans. Fanny Raymond Ritter (1877), public domain"},
+      {"n": "Further reading: John Daverio, Robert Schumann: Herald of a New Poetic Age (1997)"}
+    ]}
+  ]
+}

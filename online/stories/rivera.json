@@ -1,0 +1,70 @@
+{
+  "hero": "",
+  "portrait": "pt-rivera",
+  "kw": ["Guanajuato", "Mexico City", "Paris", "Cubism", "fresco", "muralism", "Ministry of Public Education", "National Palace", "Chapingo", "Detroit Industry", "Detroit Institute of Arts", "Rockefeller Center", "Man at the Crossroads", "Lenin", "Frida Kahlo", "Trotsky", "Casa Azul", "Mexican Revolution", "Communist Party", "cannibal@myths"],
+  "lede": "A big, charming, unreliable storyteller who painted the history of Mexico across whole buildings, filled a Detroit museum with car factories, and saw his New York mural chipped off the wall because he would not paint out Lenin's face.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Diego María Rivera was born in Guanajuato, Mexico, on 8 December 1886. He had a twin brother, Carlos, who died as a baby.",
+      "After fourteen years in Europe he came home in 1921 and became the leading painter of Mexican muralism: huge frescoes on public walls, telling the story of Mexico's people, workers and revolution for those who could not read.",
+      "He worked in Mexico and the United States, married the painter Frida Kahlo twice, and was a Communist who was thrown out of the party and later let back in. He died in Mexico City on 24 November 1957, aged 70."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His parents were teachers. The family moved to Mexico City in 1892, and at about ten he began classes at the San Carlos Academy of fine arts.",
+      "In 1907 a grant from the governor of Veracruz sent him to Spain. From 1909 he lived mostly in Paris, among artists such as Pablo Picasso and Amedeo Modigliani.",
+      "From about 1913 to 1917 he painted in the Cubist style. His Zapatista Landscape (1915), with a rifle, a sombrero and a serape broken into flat shapes, was his tribute to the revolution going on at home.",
+      "In Paris he lived with the Russian artist Angelina Beloff for about ten years. Their son died in 1918. He also had a daughter, Marika, with another painter, Marevna."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "Italy, 1920. He travelled for months studying the Renaissance frescoes of Giotto and others, and decided that painting belonged on walls, for everyone.",
+      "Home, 1921. The new Minister of Education, José Vasconcelos, invited artists to paint public buildings to teach the nation its history. Rivera's first mural, Creation, was painted in 1922 in an amphitheatre in Mexico City.",
+      "The Ministry of Public Education, 1923 to 1928. On three storeys around two courtyards he painted more than a hundred panels of farmers, miners, festivals and revolutionary heroes.",
+      "Chapingo, 1926 to 1927. In the chapel of the national agricultural school he painted the earth and its fertility, using his pregnant wife, Lupe Marín, as a model.",
+      "Frida Kahlo, 1929. On 21 August he married Kahlo, a young painter more than twenty years younger. The same year the Mexican Communist Party expelled him, and he began the great murals of Mexican history on the staircase of the National Palace.",
+      "The United States, 1930 to 1933. He painted in San Francisco, had a solo show at the new Museum of Modern Art in New York in 1931, and in 1932 and 1933 covered the walls of a courtyard at the Detroit Institute of Arts with Detroit Industry, paid for by Edsel Ford.",
+      "Rockefeller Center, 1933 to 1934. Commissioned to paint Man at the Crossroads in the lobby of the RCA Building, he added a portrait of Lenin. Nelson Rockefeller asked him to replace it; he refused. He was paid and dismissed, and in February 1934 the mural was destroyed. He repainted it in Mexico City's Palace of Fine Arts.",
+      "Trotsky, 1937 to 1939. Rivera helped persuade the Mexican government to give the exiled Leon Trotsky asylum. Trotsky lived in Kahlo's Blue House in Coyoacán until he and Rivera fell out in 1939.",
+      "Divorce and remarriage, 1939 to 1940. He and Kahlo divorced in 1939 and remarried in San Francisco in December 1940.",
+      "Last years, 1947 to 1957. He painted Dream of a Sunday Afternoon in the Alameda Park (1947). Kahlo died in 1954; that year he was readmitted to the Communist Party. In 1955 he married his dealer, Emma Hurtado. He died of heart failure in his studio in San Ángel."
+    ]},
+    {"k": "works", "h": "The murals", "ps": [
+      "The Ministry of Public Education murals (1923 to 1928), his longest cycle.",
+      "The History of Mexico at the National Palace (1929 to 1935, with later panels into the 1950s): Aztec life, the Spanish conquest, independence, revolution and a hoped-for socialist future.",
+      "Detroit Industry (1932 to 1933), 27 panels around a courtyard, showing workers on the Ford River Rouge car plant lines, along with medicine, chemistry and aviation. It was attacked at the time as communist and as blasphemous, but Edsel Ford defended it. It is now a US National Historic Landmark.",
+      "Man at the Crossroads (1933), destroyed, and its new version Man, Controller of the Universe (1934) in Mexico City.",
+      "Dream of a Sunday Afternoon in the Alameda Park (1947), a crowd of Mexican history strolling in one park, with Kahlo and himself as a boy.",
+      "Easel paintings too: flower sellers carrying huge bunches of calla lilies, and many portraits."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Frida Kahlo (1907 to 1954), his third wife, married in 1929 and again in 1940. They lived in linked houses joined by a bridge in San Ángel. Each had affairs; his included one in the mid-1930s with her younger sister Cristina, which hurt her deeply.",
+      "Leon Trotsky (1879 to 1940), the exiled Russian revolutionary whom he helped bring to Mexico. Trotsky was murdered there in 1940, after their friendship had ended.",
+      "Guadalupe (Lupe) Marín, his second wife from 1922 to about 1927, with whom he had two daughters.",
+      "Angelina Beloff (1879 to 1969), his partner in Paris.",
+      "David Alfaro Siqueiros and José Clemente Orozco, the other two of 'the big three' Mexican muralists, his allies and rivals.",
+      "Edsel Ford (1893 to 1943), who paid for Detroit Industry and stood by it."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "The Mexican Revolution, from 1910 to about 1920, overthrew the long rule of Porfirio Díaz and killed hundreds of thousands. The governments that followed wanted art to build a shared Mexican identity, proud of its native past.",
+      "The Great Depression made American cities and capitalists curious about, and afraid of, Communism, which is why his Detroit and New York murals caused such storms.",
+      "Communists in his time split bitterly between followers of Stalin and of Trotsky, and Rivera moved from one side to the other."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "Mexican muralism inspired public art across the Americas, including the New Deal murals in American post offices and, later, Chicano murals in the United States.",
+      "He built the Anahuacalli, a stone museum in Mexico City for his huge collection of ancient Mexican objects. It opened in 1964.",
+      "For decades he was more famous than Kahlo. Since the 1980s her fame has overtaken his, and the two are now often seen together."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Rivera ate human flesh as a student.", "lab": "myth", "t": "He told this and many other tall tales about himself, including fighting in the revolution. There is no evidence for them; he loved to shock people."},
+      {"c": "The Rockefeller mural was destroyed because of Lenin.", "lab": "verified", "t": "Yes. He refused to remove Lenin's portrait, was paid off, and the mural was destroyed in February 1934."},
+      {"c": "He was a loyal Stalinist all his life.", "lab": "myth", "t": "He was expelled from the Communist Party in 1929, supported Trotsky in the 1930s, then spent years asking to be readmitted. He painted Stalin admiringly in 1952 and was let back in in 1954."},
+      {"c": "Rivera made Kahlo famous and she only copied him.", "lab": "myth", "t": "He championed her work, but her small, personal paintings are very different from his murals, and she had her own shows in New York and Paris in 1938 and 1939."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Diego Rivera, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Diego-Rivera"},
+      {"n": "Detroit Institute of Arts, Detroit Industry murals", "u": "https://dia.org/"},
+      {"n": "Frida Kahlo, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Frida-Kahlo"},
+      {"n": "Further reading: Patrick Marnham, Dreaming with His Eyes Open: A Life of Diego Rivera (1998)"},
+      {"n": "Further reading: Diego Rivera with Gladys March, My Art, My Life (1960)"}
+    ]}
+  ]
+}
