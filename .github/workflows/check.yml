@@ -1,0 +1,57 @@
+name: Quick check
+
+# A fast safety check on every pull request, before it is merged: builds the app page, checks that the
+# museum's data hangs together and that every picture file is there, then opens every screen (all people,
+# events, countries, eras, places, Gallery, Walk, Play, Talk...) in headless Chrome at iPhone size, in light
+# and dark. It fails on a JavaScript error, a missing file, an empty screen, a page wider than the phone,
+# a broken picture or a person page that does not show its person. Free, about two minutes.
+# New stories and places in online/ are tested in the app too: the check serves them from the pull request.
+# The full simulator run (Screenshots) stays on main.
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: quick-check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quick-check:
+    name: Quick check
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build the app page
+        run: |
+          python3 app/build.py
+          SIZE=$(stat -c%s ios/HistoryMuseum/Web/index.html)
+          echo "App page: $SIZE bytes"
+          [ "$SIZE" -gt 1000000 ] || { echo "::error::App page is only $SIZE bytes; fonts or stories were not built in"; exit 1; }
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: ci/package-lock.json
+      - name: Install the test browser driver
+        run: |
+          npm ci --prefix ci --no-audit --no-fund
+          # Use the Chrome that GitHub's runner already has; download Chromium only if it is missing.
+          if [ -x /usr/bin/google-chrome ]; then echo "CHROMIUM_PATH=/usr/bin/google-chrome" >> "$GITHUB_ENV"; /usr/bin/google-chrome --version
+          else (cd ci && npx playwright install --with-deps chromium); fi
+      - name: Open every screen in light and dark
+        run: node ci/smoke.mjs
+      - name: Screenshots of the problems
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: quick-check-problems
+          path: ci-output
+          if-no-files-found: ignore
+          retention-days: 7

@@ -48,6 +48,7 @@ Each change also runs the app in Apple's simulators and takes screenshots:
 | `ios/HistoryMuseum/` | The iPhone/iPad app: SwiftUI with a web view that shows the museum page. |
 | `project.yml` | XcodeGen spec for the Xcode project. |
 | `.github/workflows/build-ipa.yml` | Builds the unsigned `Contemporaries.ipa` and attaches it to the latest release. |
+| `.github/workflows/check.yml` + `ci/smoke.mjs` | **Quick check** on every pull request (about two minutes, free): builds the page, checks the data and picture files, and opens every screen in headless Chrome at iPhone size in light and dark. A pull request is merged only when it passes. Run it yourself: `python3 app/build.py && npm ci --prefix ci && node ci/smoke.mjs`. |
 | `.github/workflows/screenshots.yml` + `ci/` | Simulator screenshots on iPhone Duo, iPhone and iPad. |
 
 Build locally (on a Mac with Xcode): `python3 app/build.py && brew install xcodegen && xcodegen generate`.
