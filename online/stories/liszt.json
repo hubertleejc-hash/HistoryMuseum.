@@ -1,0 +1,71 @@
+{
+  "hero": "",
+  "portrait": "pt-liszt",
+  "kw": ["Raiding", "Doborjan", "Hungary", "Vienna", "Czerny", "Salieri", "Paris", "Paganini", "Lisztomania", "Heine", "recital", "Marie d'Agoult", "Cosima", "Carolyne zu Sayn-Wittgenstein", "Weimar", "Rome", "Abbe Liszt", "Budapest", "symphonic poem", "Hungarian Rhapsodies", "B minor Sonata", "Transcendental Etudes", "Faust Symphony", "Bayreuth", "Wagner", "Beethoven's kiss@myths"],
+  "lede": "The first pop star of the concert hall, whose fans fought over his cigar ends and broken piano strings, gave up paid concerts at 35, taught hundreds for nothing, wore a priest's collar in old age and wrote music that pointed far into the next century.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Franz Liszt was born on 22 October 1811 in Raiding, in the Kingdom of Hungary, a village now in Austria. He grew up speaking German and never became fluent in Hungarian, but always called himself Hungarian.",
+      "He was the greatest piano virtuoso of the nineteenth century. In the 1840s he toured Europe from Lisbon to Moscow, and invented the modern piano recital: one performer, playing alone, from memory, with the piano turned side-on to the audience.",
+      "As a composer he created the symphonic poem, wrote the Hungarian Rhapsodies and the B minor Sonata, and in his last years wrote strange, bare pieces that look ahead to the twentieth century. He died at Bayreuth on 31 July 1886, aged 74."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father, Adam Liszt, was an official on the estates of the Esterhazy princes, the family Haydn had served, and a keen amateur musician. He taught his son and saw quickly what he had.",
+      "In 1821 the family moved to Vienna. Franz studied piano with Carl Czerny, a pupil of Beethoven, and composition with Antonio Salieri, both of whom taught him for free.",
+      "In 1823 the family moved to Paris. The Conservatoire would not admit him because he was a foreigner, but he became a child celebrity in the salons, toured England, and at thirteen had a one-act opera, Don Sanche, staged at the Paris Opera.",
+      "His father died in 1827. At fifteen Liszt supported his mother by teaching, went through a religious crisis, fell unhappily in love with a pupil, and almost stopped performing."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "Paris, 1830 to 1832. He met Berlioz and heard his Symphonie fantastique, became friends with Chopin, and in April 1832 heard the violinist Niccolo Paganini. He decided to become the Paganini of the piano, and practised for hours a day to invent new ways of playing.",
+      "Geneva and Italy, 1835 to 1839. He ran off with the Countess Marie d'Agoult, a married writer. They had three children: Blandine, Cosima and Daniel. The travels inspired his piano cycle Years of Pilgrimage.",
+      "Pest, 1838. When the Danube flooded Pest, he raced to Vienna to give concerts for the victims, and was hailed as a national hero in Hungary.",
+      "The touring years, 1839 to 1847. He gave perhaps a thousand concerts across Europe. In 1840 in London the word 'recital' was used for his solo concerts. He gave much of the money away, including a large part of the cost of the Beethoven monument in Bonn.",
+      "1847: in Kyiv he met Princess Carolyne zu Sayn-Wittgenstein, a rich Polish-born noblewoman. That September he gave his last paid concert, at Elisavetgrad, aged 35.",
+      "Weimar, 1848 to 1861. As court music director he conducted and promoted new music, including the first performance of Wagner's Lohengrin in 1850, while Wagner was in exile. He wrote most of his orchestral works there.",
+      "Rome, 1861. He and Carolyne hoped to marry on his fiftieth birthday, but the wedding was stopped at the last moment. He stayed in Rome, and in 1865 took minor orders in the Catholic Church. From then on people called him Abbe Liszt.",
+      "1869 to 1886. He divided his year between Rome, Weimar and Budapest, where he became president of the new Academy of Music in 1875.",
+      "1886: on a visit to his daughter Cosima at the Bayreuth festival he caught pneumonia and died on 31 July. He was buried in Bayreuth."
+    ]},
+    {"k": "works", "h": "The music", "ps": [
+      "Transcendental Etudes (final version 1852), twelve studies that pushed piano technique to its limits.",
+      "Piano Sonata in B minor (1853), one huge movement lasting about half an hour, dedicated to Robert Schumann.",
+      "The symphonic poems, a name he coined: thirteen orchestral works that tell a story or paint a scene, such as Les Preludes and Mazeppa.",
+      "A Faust Symphony (1857), with movements portraying Faust, Gretchen and Mephistopheles, and a Dante Symphony.",
+      "Nineteen Hungarian Rhapsodies, built on the music of Hungarian Roma bands, and two piano concertos.",
+      "Hundreds of transcriptions, which carried operas and all nine Beethoven symphonies into homes long before recordings.",
+      "Late works such as Nuages gris (1881) and the Bagatelle without tonality (1885), sparse and searching pieces that were hardly played in his lifetime."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Carl Czerny (1791 to 1857), his piano teacher in Vienna.",
+      "Antonio Salieri (1750 to 1825), who taught him composition as a boy.",
+      "Frederic Chopin (1810 to 1849), his friend and rival in 1830s Paris, who dedicated his Etudes Op. 10 to him.",
+      "Hector Berlioz (1803 to 1869), the French composer whose bold orchestral music he championed.",
+      "Marie d'Agoult (1805 to 1876), his partner from 1835 to 1844, who wrote under the name Daniel Stern.",
+      "Princess Carolyne zu Sayn-Wittgenstein (1819 to 1887), his companion from 1847 for the rest of his life.",
+      "Cosima (1837 to 1930), his daughter, who left her first husband, the conductor Hans von Bulow, for Richard Wagner (1813 to 1883). Liszt was Wagner's greatest champion, and became his father-in-law in 1870.",
+      "Clara Schumann (1819 to 1896), who admired his playing when young but came to dislike his music and showmanship."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "The piano was changing fast in his youth, with iron frames, stronger strings and faster actions. He broke many instruments, and piano makers such as Erard competed to build ones that could survive him.",
+      "Railways let a star travel further and faster than ever. Newspapers, posters and printed portraits made him famous everywhere before he arrived.",
+      "Music in his day was split by a war of taste: Liszt and Wagner's 'New German School', who wanted music to tell stories and break rules, against Brahms and Clara Schumann, who defended pure, abstract forms."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "He shaped the modern concert: the solo recital, playing from memory, the piano side-on to the audience, the cult of the star performer.",
+      "He taught hundreds of pianists in masterclasses and never took a fee. Through his pupils, his style passed down to many pianists of the twentieth century.",
+      "His harmonies influenced Wagner, Debussy, Bartok and others. The Liszt Academy in Budapest and Budapest's airport are named after him."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Beethoven kissed the boy Liszt on the forehead after a concert in 1823.", "lab": "disputed", "t": "Liszt told the story in later life, and it has been retold for two centuries. There is no independent evidence that Beethoven came to his concert, and Liszt's own versions differ. He may have met Beethoven privately."},
+      {"c": "'Lisztomania' is a modern word.", "lab": "myth", "t": "The poet Heinrich Heine coined it in 1844, writing about the hysteria at Liszt's concerts. In Berlin fans had kept his gloves, cigar ends and coffee dregs as relics."},
+      {"c": "He gave up music for the church.", "lab": "myth", "t": "He took minor orders but never became a priest, and he kept composing, teaching and travelling until his death. He wrote the oratorio Christus in these years, as well as his most experimental piano music."},
+      {"c": "He invented the solo recital.", "lab": "likely", "t": "He was the first star to make it a habit, and the word was used for his London concerts in 1840. Others had played solo programmes before, but he made the form famous."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Franz Liszt, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Franz-Liszt"},
+      {"n": "Scores by Franz Liszt, IMSLP Petrucci Music Library (public domain)", "u": "https://imslp.org/wiki/Category:Liszt,_Franz"},
+      {"n": "Heinrich Heine, Lutezia, reports from Paris (1840s), public domain"},
+      {"n": "Further reading: Alan Walker, Franz Liszt (3 volumes, 1983 to 1996)"}
+    ]}
+  ]
+}

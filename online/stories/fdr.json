@@ -1,0 +1,75 @@
+{
+  "hero": "",
+  "portrait": "",
+  "kw": ["Hyde Park", "Harvard", "Eleanor Roosevelt", "Theodore Roosevelt", "polio", "Warm Springs", "Great Depression", "New Deal", "Hundred Days", "fireside chats", "Social Security", "Frances Perkins", "Lend-Lease", "Atlantic Charter", "Pearl Harbor", "Executive Order 9066", "Japanese American internment", "St. Louis", "Yalta", "Churchill", "Stalin", "Manhattan Project", "22nd Amendment@legacy", "wheelchair@myths"],
+  "lede": "A rich, charming New Yorker who lost the use of his legs at 39, became president in the darkest year of the Depression, told a frightened nation it had nothing to fear but fear itself, and led it through most of the largest war in history.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Franklin Delano Roosevelt was born on 30 January 1882 at Hyde Park, New York, on his family's estate above the Hudson River. He was the 32nd president of the United States, from 1933 until his death in 1945.",
+      "He is the only president elected four times. His New Deal created jobs programmes, banking rules and Social Security, and made the federal government a far larger part of American life.",
+      "He led the country into the Second World War after Pearl Harbor and worked closely with Churchill and Stalin. He also signed the order that sent Japanese Americans to camps. He died on 12 April 1945, weeks before Germany surrendered."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "He was the only child of James Roosevelt, a wealthy landowner and businessman, and his much younger wife, Sara Delano, who adored and guided him all her life. He was taught at home by tutors and travelled to Europe often as a boy.",
+      "He went to Groton, a private school, and Harvard, where he edited the student newspaper. He studied law at Columbia but left once he passed the bar exam.",
+      "In 1905 he married Eleanor Roosevelt, a distant cousin. Her uncle, President Theodore Roosevelt, gave the bride away. They had six children, five of whom survived infancy.",
+      "He won a seat in the New York State Senate in 1910 as a Democrat and in 1913 became Assistant Secretary of the Navy, a post he held through the First World War. In 1920 he ran for vice president and lost."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      {"t": "August 1921: on holiday at Campobello Island in Canada he fell ill with fever and paralysis. Doctors diagnosed polio. He never walked again without braces and support.", "lab": "likely", "why": "The polio diagnosis was accepted for decades. A 2003 study suggested Guillain-Barre syndrome; the question cannot be settled now."},
+      "1926: he bought a run-down spa at Warm Springs, Georgia, and turned it into a treatment centre for people with polio.",
+      "1928 to 1932: he was elected governor of New York, and began relief programmes for the unemployed after the Wall Street Crash of 1929.",
+      "4 March 1933: he took office with a quarter of American workers jobless and banks failing across the country. 'The only thing we have to fear is fear itself,' he said.",
+      "The Hundred Days, 1933: he closed the banks for a 'holiday', and Congress passed a flood of laws: bank deposit insurance, farm support, the Tennessee Valley Authority, and the Civilian Conservation Corps, which put young men to work in forests and parks.",
+      "12 March 1933: he gave the first of his 'fireside chats' on the radio, explaining the banking crisis in plain words to millions of families.",
+      "1935: Social Security, the Works Progress Administration and the Wagner Act, which protected workers' right to join unions.",
+      "1937: after a landslide re-election he tried to add judges to the Supreme Court, which had struck down New Deal laws. Congress refused.",
+      "May and June 1939: the liner St. Louis, carrying more than 900 refugees, nearly all Jews fleeing Germany, was turned away by Cuba and was not allowed to land in the United States. It returned to Europe, and 254 of its passengers were later killed in the Holocaust.",
+      "1940 to 1941: he won a third term, and with Lend-Lease sent weapons and supplies to Britain, and later the Soviet Union. In August 1941 he and Churchill agreed the Atlantic Charter.",
+      "7 December 1941: Japan attacked Pearl Harbor. He called it 'a date which will live in infamy', and the United States entered the war.",
+      "19 February 1942: he signed Executive Order 9066. About 120,000 people of Japanese descent on the West Coast, roughly two-thirds of them American citizens, were forced into camps.",
+      "1943 to 1945: he met Churchill and Stalin at Tehran and Yalta to plan the war and the peace, including the United Nations.",
+      "12 April 1945: he died of a cerebral haemorrhage at Warm Springs, aged 63. Vice President Harry Truman took his place."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "The New Deal: a wave of programmes that gave jobs to millions, built dams, roads, schools and parks, insured bank deposits, regulated the stock market and supported farmers.",
+      "Social Security (1935): pensions for the old and insurance for the unemployed, still a pillar of American life.",
+      "The fireside chats: about thirty radio talks from 1933 to 1944, which made the president a voice in people's living rooms.",
+      "The wartime alliance: Lend-Lease, the Atlantic Charter and the plan for the United Nations, founded months after his death.",
+      "The Manhattan Project: after a 1939 letter signed by Albert Einstein warned that Germany might build an atomic bomb, he started the research that led to the bomb."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Eleanor Roosevelt (1884 to 1962), his wife, who travelled the country as his eyes and ears, pushed him on civil rights and became a powerful figure in her own right.",
+      "Sara Delano Roosevelt (1854 to 1941), his mother, a strong presence in his life until her death.",
+      "Frances Perkins (1880 to 1965), his Labor Secretary and the first woman in a US cabinet, a driving force behind Social Security.",
+      "Harry Hopkins (1890 to 1946), his closest adviser, who ran relief programmes and later Lend-Lease.",
+      "Winston Churchill (1874 to 1965), Britain's prime minister, his partner in the war. They wrote hundreds of letters and met many times.",
+      "Joseph Stalin (1878 to 1953), the Soviet leader, whom he met at Tehran in 1943 and Yalta in 1945.",
+      "Lucy Mercer Rutherfurd (1891 to 1948), with whom he had an affair from about 1916. Eleanor's discovery of it in 1918 nearly ended the marriage. Lucy was with him at Warm Springs when he died."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "The Great Depression began with the crash of 1929. By 1933 about one worker in four in the United States was out of work, and millions had lost homes, farms and savings.",
+      "Across the world, the Depression helped dictators to power, among them Hitler in Germany in the same year Roosevelt took office.",
+      "America was deeply divided by race. Many New Deal programmes excluded or shortchanged Black Americans, often to win the votes of Southern Democrats in Congress, and he did not back a federal law against lynching."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "He changed what Americans expect from their government, and his coalition of voters shaped American politics for decades.",
+      "In 1951 the 22nd Amendment limited presidents to two terms, a direct response to his four election victories.",
+      "Historians regularly rank him among the three greatest US presidents, with Washington and Lincoln. His record on Japanese American internment and on Jewish refugees is also part of his legacy. In 1988 Congress formally apologised for the internment and paid compensation to survivors.",
+      "His image is on the American dime, chosen in 1946 partly because of the March of Dimes, the charity he founded to fight polio."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "He hid his polio from the public.", "lab": "myth", "t": "Americans knew he had had polio, and he spoke of it. What he hid was how disabled he was. He was rarely photographed in his wheelchair, and the press mostly agreed not to show him being carried or helped."},
+      {"c": "The New Deal ended the Great Depression.", "lab": "disputed", "t": "The economy grew strongly from 1933 to 1937, then fell back in a new recession. Unemployment stayed high until war spending from 1940 put almost everyone to work. Economists still argue how much the New Deal helped."},
+      {"c": "He knew about Pearl Harbor in advance and let it happen.", "lab": "myth", "t": "American codebreakers knew Japan was planning a strike somewhere, but investigations and historians have found no evidence that he knew the target was Pearl Harbor."},
+      {"c": "Internment was a matter of military necessity.", "lab": "myth", "t": "A federal commission in 1983 found that it was caused by 'race prejudice, war hysteria and a failure of political leadership', not by military need. No Japanese American was found guilty of spying for Japan during the war."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Franklin D. Roosevelt, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Franklin-D-Roosevelt"},
+      {"n": "Franklin D. Roosevelt Presidential Library and Museum", "u": "https://www.fdrlibrary.org/"},
+      {"n": "Executive Order 9066 (1942), US National Archives", "u": "https://www.archives.gov/milestone-documents/executive-order-9066"},
+      {"n": "Voyage of the St. Louis, United States Holocaust Memorial Museum", "u": "https://encyclopedia.ushmm.org/content/en/article/voyage-of-the-st-louis"},
+      {"n": "Further reading: Jean Edward Smith, FDR (2007)"}
+    ]}
+  ]
+}

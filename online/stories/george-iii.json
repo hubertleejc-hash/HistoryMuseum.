@@ -1,0 +1,71 @@
+{
+  "hero": "",
+  "portrait": "pt-george-iii",
+  "kw": ["Hanover", "Windsor", "Kew", "Queen Charlotte", "Lord Bute", "Lord North", "Pitt the Younger", "American Revolution", "Declaration of Independence", "Treaty of Paris", "Royal Academy", "King's Library", "Herschel", "Uranus", "Farmer George", "Regency", "Prince Regent", "Napoleon", "madness@myths", "porphyria@myths", "tyrant@myths"],
+  "lede": "The first of his family to be born in England and speak English as his own language, he reigned for nearly sixty years, lost thirteen colonies, collected 65,000 books and spent his last decade blind and lost in his own mind at Windsor.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "George William Frederick was born in London on 4 June 1738, grandson of King George II. He became king of Great Britain and Ireland in 1760, aged 22, and reigned until his death in 1820.",
+      "His reign saw victory over France in the Seven Years' War, the loss of the American colonies, the long wars against revolutionary France and Napoleon, and the union of Britain and Ireland in 1801.",
+      "He was a devoted husband and father of fifteen, a keen farmer and collector, and a stubborn politician. From 1788 he suffered attacks of severe mental illness, and from 1811 his eldest son ruled in his place as Prince Regent."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His great-grandfather George I had come from Hanover in Germany in 1714. George was the first Hanoverian king born in Britain and brought up speaking English as his first language.",
+      "His father, Frederick, Prince of Wales, died in 1751, when George was twelve, and he became heir to the throne. He was a shy, slow-maturing boy, and his tutors worried about his laziness.",
+      {"t": "The Scottish Earl of Bute became his tutor and his closest adviser, almost a father figure. The young prince's letters to Bute show how much he leaned on him.", "lab": "verified", "why": "The letters survive and have been published."}
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1760 and 1761: he became king on 25 October 1760. In September 1761 he married Princess Charlotte of Mecklenburg-Strelitz, whom he met on their wedding day, and two weeks later they were crowned.",
+      "1763: the Treaty of Paris ended the Seven Years' War. Britain gained Canada and much else, but was left with huge debts, and tried to make the American colonies pay a share through new taxes such as the Stamp Act of 1765.",
+      "1768: he founded the Royal Academy of Arts in London and paid its early costs from his own purse.",
+      "1770 to 1782: Lord North served as his prime minister. The king firmly backed the use of force when the colonies rebelled in 1775.",
+      "4 July 1776: the American Declaration of Independence listed its grievances against 'the present King of Great Britain', accusing him of a 'history of repeated injuries and usurpations'.",
+      "1781 to 1783: after the defeat at Yorktown in 1781 he even drafted a message of abdication. The Treaty of Paris of 1783 recognised the United States. In 1785 he received John Adams as the first American minister in London.",
+      "December 1783: he made William Pitt the Younger, aged 24, prime minister. Pitt led the government for most of the next twenty years.",
+      "1788 to 1789: his first major attack of illness. He talked for hours without stopping and was restrained by his doctors. Parliament prepared to make his son regent, but he recovered in early 1789.",
+      "1801: Great Britain and Ireland were joined as the United Kingdom. When Pitt proposed letting Catholics sit in Parliament, the king refused, believing it would break his coronation oath, and Pitt resigned.",
+      "1810 to 1811: after the death of his youngest and favourite daughter, Amelia, he fell ill again and never recovered. The Regency began in February 1811.",
+      "29 January 1820: he died at Windsor Castle, aged 81, blind and largely unaware of the world around him."
+    ]},
+    {"k": "works", "h": "The patron", "ps": [
+      "The King's Library: about 65,000 books he collected over his life. His son George IV gave it to the nation, and it now stands in a six-storey glass tower at the heart of the British Library in London.",
+      "Science: he had his own observatory built at Kew to watch the transit of Venus in 1769, collected scientific instruments, and gave the astronomer William Herschel a royal salary. Herschel named the planet he found in 1781 'Georgium Sidus', George's Star. We call it Uranus.",
+      "Kew Gardens: with the naturalist Joseph Banks he helped turn the royal gardens at Kew into a centre for plants gathered from around the world.",
+      "Farming: he ran model farms at Windsor, wrote on agriculture under a pen name, and was nicknamed 'Farmer George', partly as a joke about his plain tastes.",
+      "Music: he loved Handel and played the flute, harpsichord and organ. The young Mozart played for him in London in 1764."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Queen Charlotte (1744 to 1818), his wife for 57 years. They had nine sons and six daughters.",
+      "John Stuart, Earl of Bute (1713 to 1792), his tutor and briefly his prime minister, 1762 to 1763.",
+      "Lord North (1732 to 1792), prime minister through most of the American war.",
+      "William Pitt the Younger (1759 to 1806), prime minister 1783 to 1801 and 1804 to 1806.",
+      "Benjamin Franklin (1706 to 1790), who lived in London for years as an agent of the colonies and hoped for a settlement before turning to independence.",
+      "George Washington (1732 to 1799), commander of the army that fought his troops.",
+      "George, Prince of Wales (1762 to 1830), his extravagant eldest son, Prince Regent from 1811 and King George IV from 1820. Father and son quarrelled for most of their lives."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Britain was becoming a global empire and the first industrial nation. In his reign came the steam engine of James Watt, the spinning mills and the first canals.",
+      "Power was shared between king and Parliament. The king chose ministers, but they needed a majority in the House of Commons. George used his influence hard, through patronage and favours, and his critics said he wanted to rule too much.",
+      "He reigned through the American Revolution, the French Revolution, the wars with Napoleon, and the abolition of the British slave trade in 1807, passed by Parliament and given royal assent in March of that year."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "His reign of 59 years was the longest of any British king, and was only passed by Queen Victoria and Queen Elizabeth II.",
+      "By the end of his life the monarchy was becoming more of a national symbol and less of a political player, partly because his illness kept him out of politics. In wartime the image of the plain, pious, family-loving king made him popular.",
+      "He survived two attempts on his life, in 1786 and 1800. Both attackers were judged insane and sent to the Bethlem hospital rather than executed.",
+      "Alan Bennett's play The Madness of George III (1991) and its film, and the musical Hamilton, keep him in public memory, often as a figure of fun."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "He went mad because of porphyria.", "lab": "disputed", "t": "In the 1960s two doctors suggested a rare blood disorder, porphyria. Later research has doubted it, and many historians now think his attacks fit a serious mental illness such as bipolar disorder with mania. The cause cannot be proven today."},
+      {"c": "He was a tyrant who ruled without Parliament.", "lab": "myth", "t": "He ruled through ministers and Parliament, and the taxes the colonists hated were passed by Parliament. The Declaration of Independence blamed the king personally because the colonists had come to deny that Parliament had any power over them."},
+      {"c": "He talked to a tree, thinking it was the king of Prussia.", "lab": "myth", "t": "This story was spread in jokes and gossip. There is no reliable evidence for it."},
+      {"c": "He fought to end the slave trade.", "lab": "myth", "t": "The trade was abolished in his reign, in 1807, thanks to campaigners and Parliament. The king was not a leader of the campaign."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "George III, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/George-III"},
+      {"n": "The Declaration of Independence, transcript, US National Archives", "u": "https://www.archives.gov/founding-docs/declaration-transcript"},
+      {"n": "Royal Collection Trust, which holds the Georgian Papers and many of his objects", "u": "https://www.rct.uk/"},
+      {"n": "Further reading: Andrew Roberts, The Last King of America (2021)"},
+      {"n": "Further reading: John Brooke, King George III (1972)"}
+    ]}
+  ]
+}

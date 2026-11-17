@@ -1,0 +1,68 @@
+{
+  "hero": "",
+  "portrait": "pt-clara-schumann",
+  "kw": ["Clara Wieck", "Leipzig", "Gewandhaus", "Friedrich Wieck", "Robert Schumann", "Brahms", "Mendelssohn", "Liszt", "Joachim", "Vienna", "Frankfurt", "Hoch Conservatory", "Piano Concerto", "Piano Trio", "Three Romances", "recital", "from memory", "100 mark note@legacy", "Brahms affair@myths"],
+  "lede": "A child prodigy drilled by her father into one of the greatest pianists of the age, who married the man he forbade her to marry, raised seven children largely on her own earnings, and for sixty years taught Europe what a piano recital could be.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Clara Wieck was born in Leipzig on 13 September 1819. Trained from early childhood by her father, she was performing in public by nine and touring Europe by twelve.",
+      "In 1840 she married the composer Robert Schumann after a court battle with her father. She composed a piano concerto, a trio, songs and piano pieces, and gave the first performances of much of Robert's music.",
+      "After Robert's breakdown in 1854 and death in 1856 she supported their family by touring, kept playing into her seventies, and became one of the most respected teachers in Europe. She died in Frankfurt on 20 May 1896."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "Her father, Friedrich Wieck, was a piano teacher and dealer; her mother, Marianne Tromlitz, was a singer and pianist. They divorced when Clara was four, and she stayed with her father.",
+      {"t": "She was slow to speak and said very little until she was about four or five. Her father then began teaching her piano, together with theory, singing and violin, by a strict daily routine.", "lab": "likely", "why": "Known mainly from her father's diaries and later accounts, which he shaped to promote his methods."},
+      "Wieck planned her career with care. He kept a diary for her, at first written in her name, and controlled her practice, her concerts and her money.",
+      "On 20 October 1828, aged nine, she made her first public appearance at the Leipzig Gewandhaus, and in November 1830 gave her first full concert of her own there."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1831 to 1832: her father took her on tour to Weimar, where she played for Goethe, and on to Paris.",
+      "1835: her Piano Concerto in A minor, begun at thirteen, was first performed at the Gewandhaus with Mendelssohn conducting and Clara at the piano.",
+      "1837 to 1838: in Vienna she was a sensation and was named Royal and Imperial Chamber Virtuoso, a rare honour for a young woman who was also a Protestant and a foreigner.",
+      "1837 to 1840: she and Robert Schumann secretly became engaged. Wieck refused consent and fought them in court. In August 1840 the court ruled for the couple, and they married on 12 September 1840, the day before her 21st birthday.",
+      "1840 to 1854: she had eight children in fourteen years, kept practising in rooms where Robert needed silence to compose, and still toured, including to Russia in 1844.",
+      "February 1854: Robert attempted suicide and entered an asylum. She was pregnant with their eighth child, Felix. Doctors kept her away from Robert for more than two years; she saw him only two days before he died in July 1856.",
+      "1856 to 1888: she toured constantly, visiting Britain many times, to support her family and to make Robert's music known.",
+      "1878: she became principal piano teacher at the new Hoch Conservatory in Frankfurt, and taught there until 1892.",
+      "March 1891: she gave her last public concert in Frankfurt. She died of a stroke in May 1896 and was buried beside Robert in Bonn."
+    ]},
+    {"k": "works", "h": "The music", "ps": [
+      "Piano Concerto in A minor, Op. 7 (1835), a bold young work in which the slow movement is a duet for piano and solo cello.",
+      "Piano Trio in G minor, Op. 17 (1846), often called her finest work.",
+      "Variations on a Theme by Robert Schumann, Op. 20 (1853), a birthday gift to her husband; Brahms wrote variations on the same theme a year later.",
+      "Three Romances for violin and piano, Op. 22 (1853), written for Joseph Joachim, and songs including settings of Heine and Ruckert.",
+      "As an editor she prepared the first complete edition of Robert's works, published in the 1880s and 1890s, and her own teaching editions of his piano music."
+    ]},
+    {"k": "people", "h": "Her people", "ps": [
+      "Friedrich Wieck (1785 to 1873), her father and teacher, who made her career and fought her marriage. They were partly reconciled later.",
+      "Robert Schumann (1810 to 1856), her husband, whose music she championed for forty years after his death.",
+      "Their children: Marie, Elise, Julie, Emil, Ludwig, Ferdinand, Eugenie and Felix. Emil died as a baby; Julie, Felix and Ferdinand died before her, and Ludwig spent his adult life in an asylum. Marie became her assistant and Eugenie a piano teacher.",
+      "Johannes Brahms (1833 to 1897), who arrived in 1853 aged twenty and became her closest friend for the rest of her life.",
+      "Felix Mendelssohn (1809 to 1847), conductor of her concerto and a dear friend.",
+      "Franz Liszt (1811 to 1886), whose playing she admired in youth and whose showiness she later disliked.",
+      "Joseph Joachim (1831 to 1907), the violinist, her concert partner for decades."
+    ]},
+    {"k": "world", "h": "The world around her", "ps": [
+      "Most women musicians of her time were expected to give up the stage on marriage. Few were taken seriously as composers; publishers, critics and audiences assumed great music came from men.",
+      {"t": "She shared some of those doubts. In 1839 she wrote in her diary that a woman must not desire to compose, since none had ever been able to do it.", "lab": "verified", "why": "The diary entry survives and is quoted in the standard biographies."},
+      "Concerts then were usually mixed programmes with singers and an orchestra. Railways made touring faster, and a star pianist could now cross Europe in a season."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "She helped create the modern solo piano recital: serious programmes of Bach, Beethoven, Chopin, Schumann and Brahms, played for the music rather than for show.",
+      "She was among the first pianists to play regularly from memory, now the normal practice.",
+      "Her pupils spread her style across Europe and America. From 1989 to 2002 her portrait was on the German 100 mark banknote, and her music, long neglected, is now recorded and played widely."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "She gave up composing out of duty to her family.", "lab": "disputed", "t": "She wrote almost nothing after Robert's death in 1856. Grief, touring, money worries and her own doubts all played a part. It was partly a choice to put her energy into performing."},
+      {"c": "She and Brahms were lovers.", "lab": "disputed", "t": "Their deep bond is clear from their letters. Late in life they agreed to destroy many of them, so the nature of the relationship cannot be known."},
+      {"c": "She was the first pianist to play concerts from memory.", "lab": "disputed", "t": "Liszt and others also played from memory in the 1830s. She was one of the first to do it regularly, and her example helped make it the rule."},
+      {"c": "She carried the family financially.", "lab": "verified", "t": "After 1854 her concert fees supported seven children and later several grandchildren, as well as Robert's care at Endenich."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Clara Schumann, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Clara-Schumann"},
+      {"n": "Schumann, Clara: scores at IMSLP (public domain)", "u": "https://imslp.org/wiki/Category:Schumann,_Clara"},
+      {"n": "Berthold Litzmann, Clara Schumann: An Artist's Life, based on material found in diaries and letters (English trans. 1913), public domain"},
+      {"n": "Further reading: Nancy B. Reich, Clara Schumann: The Artist and the Woman (1985, rev. 2001)"}
+    ]}
+  ]
+}

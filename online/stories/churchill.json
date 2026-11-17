@@ -1,0 +1,70 @@
+{
+  "hero": "",
+  "portrait": "pt-churchill",
+  "kw": ["Blenheim", "Harrow", "Sandhurst", "Boer War", "Gallipoli", "Dardanelles", "Tonypandy", "Second World War", "Battle of Britain", "Roosevelt", "Stalin", "Yalta", "Bengal famine", "Iron Curtain", "Clementine", "Nobel Prize in Literature", "The Second World War", "we shall fight on the beaches@myths", "quotes@myths"],
+  "lede": "An aristocrat's son who scraped into army college on his third try, escaped from a prison camp in the Boer War, was blamed for Gallipoli, and at 65 became the prime minister who refused to make peace with Hitler.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Winston Leonard Spencer Churchill was born on 30 November 1874 at Blenheim Palace in Oxfordshire. His father, Lord Randolph Churchill, was a Conservative politician; his mother, Jennie Jerome, was American.",
+      "He was a soldier, war reporter, writer and painter, and sat in Parliament for most of sixty years. He was prime minister from 1940 to 1945, leading Britain through the Second World War, and again from 1951 to 1955. In 1953 he won the Nobel Prize in Literature.",
+      "His record outside the war, on the British Empire, India, the Bengal famine and the use of force at home, is still fiercely argued over. He died in London on 24 January 1965, aged 90, and was given a state funeral."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "He saw little of his parents and was close to his nanny, Elizabeth Everest. At Harrow School he did badly in most subjects but loved English and history.",
+      "He passed into the Royal Military College at Sandhurst on his third attempt, in 1893, and joined a cavalry regiment, the 4th Hussars, in 1895. His father had died that January.",
+      "He made his name as a soldier who also wrote for newspapers: in Cuba in 1895, on India's North-West Frontier in 1897, and in Sudan in 1898, where he rode in one of the last British cavalry charges at Omdurman."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "Captured, 1899. Reporting the Boer War in South Africa, he was taken prisoner when an armoured train was ambushed. He escaped from Pretoria in December and made his way to safety, and came home a hero.",
+      "Parliament, 1900 to 1910. He was elected a Conservative MP in 1900, crossed to the Liberals in 1904 over free trade, and helped bring in labour exchanges and other social reforms.",
+      {"t": "Tonypandy, 1910. As Home Secretary he sent London police to the Welsh mining valleys during riots, and allowed troops to be moved in as back-up. Miners long blamed him, though the soldiers did not fire on the crowds.", "lab": "disputed", "why": "Historians agree on the facts but differ on how far Churchill restrained or escalated the force used."},
+      "Gallipoli, 1915. As First Lord of the Admiralty he pushed for a naval attack through the Dardanelles to knock Turkey out of the war. The campaign failed with heavy losses. He was demoted, resigned, and served as an officer on the Western Front from late 1915 to 1916.",
+      "Between the wars. He returned as Minister of Munitions, then Secretary for War and for the Colonies. As Chancellor of the Exchequer he returned Britain to the gold standard in 1925, a move he later regretted. In the 1930s, out of office, he opposed self-government for India and warned again and again about Hitler's rearmament.",
+      "Prime minister, 10 May 1940. On the day Germany invaded France and the Low Countries, he replaced Neville Chamberlain. Within weeks France had fallen. He refused to seek terms with Hitler, and his speeches to Parliament, including 'blood, toil, tears and sweat' and 'their finest hour', became famous.",
+      "Allies, 1941 to 1945. He worked closely with President Franklin Roosevelt and, after Germany invaded the Soviet Union, with Joseph Stalin. The three met at Tehran in 1943 and Yalta in 1945.",
+      {"t": "The Bengal famine, 1943. Between about two and three million people died in Bengal, then part of British India. Japan's capture of Burma, a cyclone, wartime hoarding and failures by the governments in Delhi and Bengal all played a part. Churchill's war cabinet turned down or cut several requests to ship grain there.", "lab": "disputed", "why": "The death toll and the causes are well documented; how much Churchill personally is to blame is still argued by historians."},
+      "Defeat, July 1945. Weeks after victory in Europe, the Labour party under Clement Attlee won a landslide general election.",
+      "The Iron Curtain, 1946. In a speech at Fulton, Missouri, he warned that 'an iron curtain has descended across the Continent', one of the first public statements of the Cold War.",
+      "Second term, 1951 to 1955. He returned as prime minister at 76. His government fought a colonial war against the Mau Mau rising in Kenya. A stroke in 1953 was kept secret. He retired in April 1955."
+    ]},
+    {"k": "works", "h": "The writing", "ps": [
+      "He earned much of his living from writing. Early books include The River War (1899) and his memoir My Early Life (1930).",
+      "The World Crisis, his history of the First World War, and Marlborough, a life of his ancestor the 1st Duke.",
+      "The Second World War, six volumes published from 1948 to 1953, and A History of the English-Speaking Peoples (1956 to 1958).",
+      "The Nobel Prize in Literature, 1953, 'for his mastery of historical and biographical description as well as for brilliant oratory in defending exalted human values'.",
+      "He took up painting in 1915, after Gallipoli, and painted more than five hundred pictures, writing about it in Painting as a Pastime."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Clementine Hozier (1885 to 1977), whom he married in 1908. She was his steadiest adviser. They had five children.",
+      "Franklin D. Roosevelt (1882 to 1945), the American president, his closest wartime partner. They met many times and wrote often.",
+      "Joseph Stalin (1878 to 1953), an uneasy ally. In 1944 Churchill made a private deal with him in Moscow dividing influence in the Balkans.",
+      "Clement Attlee (1883 to 1967), his deputy in the wartime coalition and the man who defeated him in 1945.",
+      "Mohandas Gandhi, whose campaign for Indian self-rule he opposed bitterly."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "He was born when the British Empire was near its height, ruling about a quarter of the world's people. He believed in it all his life and saw much of it break up after 1945.",
+      "Britain fought two world wars in his lifetime. In the summer of 1940, after the fall of France, it stood without a major ally against Germany until the Soviet Union and the United States entered the war in 1941.",
+      "Mass democracy, radio and newsreels made the voices of leaders part of daily life, and his speeches were part of how Britain saw the war."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "In Britain he is often voted the greatest Briton, honoured for refusing to give in in 1940.",
+      "In India, Kenya, Ireland and parts of Britain itself he is remembered more harshly, for his views on race and empire, for Bengal and for force used against strikers and rebels.",
+      "Both sides are true parts of one life. His wartime leadership and his imperial record are usually judged together today, not apart.",
+      "Chartwell, his home in Kent, is now a museum, and the Churchill War Rooms in London show the underground bunker where he ran the war."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Britons heard him say 'we shall fight on the beaches' live on the radio.", "lab": "myth", "t": "He gave the speech in the House of Commons on 4 June 1940. It was not recorded there; a BBC announcer read parts of it on the news that evening. Churchill recorded it himself only in 1949."},
+      {"c": "Churchill alone caused the Bengal famine.", "lab": "disputed", "t": "The famine had many causes, including war, the loss of Burmese rice and local government failures. His cabinet's refusal of grain shipments is well documented. How much it cost in lives is debated."},
+      {"c": "Churchill ordered troops to shoot miners at Tonypandy.", "lab": "myth", "t": "Police clashed with miners, and soldiers were sent to the area, but no one was shot by troops at Tonypandy in 1910. One miner, Samuel Rhys, died of head injuries during the riots."},
+      {"c": "He said 'Success is not final, failure is not fatal'.", "lab": "myth", "t": "Like many famous lines credited to him, it has never been found in his speeches or writings."},
+      {"c": "He was a poor pupil.", "lab": "verified", "t": "He did badly at school and needed three tries to enter Sandhurst, though he graduated eighth in his class."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Winston Churchill, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Winston-Churchill"},
+      {"n": "Winston Churchill, facts, NobelPrize.org", "u": "https://www.nobelprize.org/prizes/literature/1953/churchill/facts/"},
+      {"n": "International Churchill Society", "u": "https://winstonchurchill.org/"},
+      {"n": "Further reading: Andrew Roberts, Churchill: Walking with Destiny (2018)"},
+      {"n": "Further reading: Madhusree Mukerjee, Churchill's Secret War (2010)"}
+    ]}
+  ]
+}

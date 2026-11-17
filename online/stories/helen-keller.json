@@ -1,0 +1,71 @@
+{
+  "hero": "",
+  "portrait": "pt-helen-keller",
+  "kw": ["Tuscumbia", "Alabama", "Ivy Green", "Anne Sullivan", "Perkins", "water pump", "finger spelling", "Braille", "Radcliffe", "The Story of My Life", "Mark Twain", "Alexander Graham Bell", "Socialist Party", "American Foundation for the Blind", "The Miracle Worker", "deafblind", "Frost King@myths"],
+  "lede": "A wild, silent seven-year-old in Alabama felt cold water run over one hand while her teacher spelled w-a-t-e-r into the other, and from that day grew into a college graduate, a writer of books and a fighter for causes many people wished she would leave alone.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Helen Adams Keller was born on 27 June 1880 at Ivy Green, her family's home in Tuscumbia, Alabama. At nineteen months an illness left her deaf and blind.",
+      "In 1887 a young teacher, Anne Sullivan, arrived and taught her to spell words into her hand. She learned to read Braille, to write, and to speak, and in 1904 she graduated from Radcliffe College, the first deafblind person to earn a bachelor's degree.",
+      "She wrote more than a dozen books, travelled to more than thirty-five countries and campaigned for blind people, women's votes, workers and peace. She died at her home in Easton, Connecticut, on 1 June 1968, aged 87."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "Her father, Arthur Keller, had been a captain in the Confederate army and edited a local newspaper. Her mother, Kate, was much younger.",
+      "The illness of 1882 may have been scarlet fever or meningitis; no one knows for certain. Afterwards she made up about sixty home signs, but she was often angry and out of control, and some relatives thought she should be sent to an institution.",
+      "Her mother had read Charles Dickens's American Notes, which described Laura Bridgman, a deafblind girl educated in Boston. The family took Helen to doctors in Baltimore and then to Alexander Graham Bell in Washington. Bell sent them to the Perkins Institution for the Blind in Boston, whose director chose a former pupil, Anne Sullivan."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "Teacher arrives, 3 March 1887. Anne Sullivan, aged twenty, came to Tuscumbia. She began spelling words into Helen's palm with the manual alphabet, and took her away from the family into a small cottage to stop her tantrums being rewarded.",
+      {"t": "The water pump, 5 April 1887. At the pump outside the house, Sullivan held Helen's hand under the water and spelled 'water' into the other. Helen understood that the shapes were names for things, and that night wanted to know dozens more.", "lab": "verified", "why": "Sullivan described it in a letter written that same day; Keller's own memory of it in The Story of My Life came sixteen years later."},
+      "Speech, 1890. At the Horace Mann School in Boston she began learning to speak by feeling a teacher's lips and throat. Her speech stayed hard for strangers to understand.",
+      "The Frost King, 1891 to 1892. A story she wrote as a gift turned out to be very close to The Frost Fairies by Margaret Canby, which had been read to her years before. A panel at Perkins questioned her, and she feared for years afterwards that her thoughts were not her own.",
+      "Radcliffe, 1900 to 1904. With Sullivan spelling the lectures into her hand, she studied at the women's college of Harvard and graduated with honours. Her fees were paid by the oil businessman Henry H. Rogers, after Mark Twain urged him to help.",
+      "The Story of My Life, 1903. Written while she was a student and edited by John Macy, who married Anne Sullivan in 1905.",
+      "Socialism, 1909. She joined the Socialist Party of America, wrote articles on the causes of blindness in poverty and industrial accidents, opposed the First World War, and in 1920 helped found the American Civil Liberties Union.",
+      "The stage, 1920 to 1924. To earn money, she and Sullivan toured in vaudeville, answering questions from audiences.",
+      "The American Foundation for the Blind, from 1924. She worked for the foundation for more than forty years, raising money, speaking to lawmakers, and pressing for talking books and Braille.",
+      "Teacher dies, 1936. Anne Sullivan died that October. Her assistant Polly Thomson took her place at Keller's side.",
+      "Medal of Freedom, 1964. President Lyndon Johnson gave her the Presidential Medal of Freedom."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "The Story of My Life (1903), still in print in many languages.",
+      "Optimism (1903), The World I Live In (1908), about how she knew the world through touch and smell, and The Song of the Stone Wall (1910).",
+      "Out of the Dark (1913), essays on socialism and society.",
+      "Midstream: My Later Life (1929) and Teacher (1955), her book about Anne Sullivan.",
+      "Thousands of letters and speeches, and the film Deliverance (1919), in which she played herself.",
+      "Her travels for the blind took her to Japan, Australia, South Africa, India, Latin America and across Europe."
+    ]},
+    {"k": "people", "h": "Her people", "ps": [
+      "Anne Sullivan Macy (1866 to 1936), Teacher, who was herself nearly blind and grew up in a poorhouse. They were together for almost fifty years.",
+      "Alexander Graham Bell (1847 to 1922), who advised her family and stayed a friend. She dedicated The Story of My Life to him.",
+      "Mark Twain (1835 to 1910), who met her when she was fourteen, admired her and helped find money for her studies.",
+      "John Macy (1877 to 1932), Sullivan's husband, a writer and socialist who helped edit her first book.",
+      "Polly Thomson (1885 to 1960), a Scottish woman who was her companion and interpreter from 1914 to 1960.",
+      "Peter Fagan, a young secretary to whom she was briefly engaged in 1916. Her family broke off the match."
+    ]},
+    {"k": "world", "h": "The world around her", "ps": [
+      "She grew up in the American South after the Civil War, and lived into the age of television and the space race.",
+      "The Progressive Era brought campaigns for women's votes, workers' rights and public health. She joined many of them, which made some admirers uneasy: newspapers that praised her courage attacked her politics.",
+      "Disabled people were often hidden in homes and asylums. Her fame helped change how the public saw blindness and deafness."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "The play The Miracle Worker (1959) and its film (1962) made the pump scene famous around the world.",
+      "Her work helped win government support for blind people, including talking books and the Social Security help for the blind of 1935.",
+      {"t": "In 1915 she publicly supported a Chicago doctor who let a severely disabled newborn die, a view shaped by the eugenics ideas common at the time.", "lab": "verified", "why": "Her letter appeared in The New Republic in December 1915. She did not, as far as is known, repeat it later."},
+      "Helen Keller International, which she co-founded in 1915, still works against blindness and malnutrition."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Everything changed in one instant at the water pump.", "lab": "disputed", "t": "The pump moment is real and Sullivan recorded it that day. But Helen had already learned many finger-spelled words; the pump was when she understood what they were for. Plays and films made it more sudden."},
+      {"c": "She was accused of plagiarism as a child.", "lab": "verified", "t": "In 1892 her story The Frost King was found to be very close to a published story she had heard years before. She was questioned by a panel at Perkins. Most later readers think she remembered it without knowing."},
+      {"c": "She was a sweet, non-political symbol.", "lab": "myth", "t": "She was a member of the Socialist Party, supported women's votes and birth control, and opposed the First World War. This side of her is often left out of school stories."},
+      {"c": "She could not speak.", "lab": "myth", "t": "She began learning to speak at nine and gave lectures for decades, though often with an interpreter repeating her words."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Helen Keller, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Helen-Keller"},
+      {"n": "Helen Keller, The Story of My Life (1903), with Anne Sullivan's letters, Project Gutenberg (public domain)", "u": "https://www.gutenberg.org/ebooks/2397"},
+      {"n": "American Foundation for the Blind, Helen Keller Archive", "u": "https://www.afb.org/"},
+      {"n": "Further reading: Dorothy Herrmann, Helen Keller: A Life (1998)"},
+      {"n": "Further reading: Kim E. Nielsen, The Radical Lives of Helen Keller (2004)"}
+    ]}
+  ]
+}

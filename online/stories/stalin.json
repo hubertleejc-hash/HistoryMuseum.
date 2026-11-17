@@ -1,0 +1,75 @@
+{
+  "hero": "",
+  "portrait": "pt-stalin",
+  "kw": ["Gori", "Georgia", "Jughashvili", "Tiflis", "Bolsheviks", "Lenin", "Trotsky", "General Secretary", "Five-Year Plan", "collectivisation", "kulaks", "famine", "Holodomor", "Kazakhstan", "Great Terror", "NKVD", "Gulag", "Moscow trials", "Nazi-Soviet Pact", "Katyn", "Stalingrad", "Yalta", "Cold War", "Khrushchev", "secret speech@legacy", "statistic@myths", "poisoned@myths"],
+  "lede": "A shoemaker's son from a small Georgian town who trained to be a priest, became Lenin's dull, dependable organiser, and turned that quiet power into one of the most murderous dictatorships in history.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Ioseb Jughashvili was born in Gori, Georgia, then part of the Russian Empire, in December 1878. As a revolutionary he took the name Stalin, from the Russian word for steel.",
+      "From the mid-1920s until his death he ruled the Soviet Union. He forced the country through rapid industrialisation and the collectivisation of farming, and led it to victory over Nazi Germany in the Second World War.",
+      "His rule cost millions of lives, through famine, mass executions, deportations and the prison camps of the Gulag. He died at his house near Moscow on 5 March 1953, aged 74."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father, Besarion, was a shoemaker who drank and beat his family. His mother, Keke, worked as a washerwoman and cleaner and was determined that her son would become a priest.",
+      "As a child he survived smallpox, which scarred his face, and an accident that left his left arm stiff for life. He was a bright pupil and wrote romantic poems in Georgian that were printed in a newspaper.",
+      "In 1894 he entered the Orthodox seminary in Tiflis, today's Tbilisi. There he read forbidden books, discovered Marx, and in 1899 left without finishing.",
+      "As a young Marxist he organised strikes, wrote for underground papers and raised money for the Bolsheviks, including through robberies. He was arrested again and again and exiled to Siberia several times, escaping more than once."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1907: he is widely believed to have helped plan an armed robbery of a bank coach in Tiflis, which by most accounts killed dozens of people and raised money for Lenin's party.",
+      "1913 to 1917: his longest exile, at Turukhansk in the Siberian Arctic. He returned to Petrograd after the February Revolution of 1917, and after the Bolsheviks took power he became People's Commissar for Nationalities.",
+      "1922: he became General Secretary of the Communist Party, a post that let him appoint officials across the country. Lenin, already ill, wrote that Stalin was 'too rude' and should be removed. Lenin died in January 1924 before he could act.",
+      "1924 to 1929: he defeated his rivals one after another: Trotsky, then Zinoviev and Kamenev, then Bukharin. By 1929 he stood alone at the top.",
+      "1928 to 1932: the first Five-Year Plan built steelworks, dams and new industrial cities at enormous speed, often with forced labour.",
+      "1929 to 1933: peasants were driven into collective farms. Better-off farmers, called kulaks, were shot, imprisoned or deported, about 1.8 million in 1930 and 1931 alone. Grain was taken even as people starved.",
+      "1932 to 1933: famine. Most estimates put Soviet deaths at between five and eight million, among them several million in Ukraine and about a million and a half in Kazakhstan.",
+      "November 1932: his wife, Nadezhda Alliluyeva, shot herself after a quarrel at a party.",
+      "1936 to 1938: the Great Terror. Former Bolshevik leaders confessed to absurd crimes at show trials in Moscow. The army leadership was wiped out. Ordinary people were arrested in their hundreds of thousands to meet quotas.",
+      "August 1939: he signed a pact with Hitler. Its secret protocol divided Eastern Europe between them. The Soviet Union invaded eastern Poland, and in 1940 took the Baltic states. In spring 1940 the secret police shot about 22,000 Polish officers and others at Katyn and other sites.",
+      "22 June 1941: Germany invaded. He was caught by surprise despite many warnings. The war cost the Soviet Union about 27 million lives. After victories at Moscow, Stalingrad and Kursk, the Red Army reached Berlin in 1945.",
+      "1943 to 1945: he met Roosevelt and Churchill at Tehran and Yalta, and Truman and Churchill at Potsdam, and kept the Soviet hold on Eastern Europe.",
+      "1945 to 1953: the Cold War. The Soviet Union tested its first atomic bomb in 1949. In his last months he launched a campaign against Jewish doctors, the 'Doctors' Plot'.",
+      "March 1953: on 1 March he was found on the floor of his dacha at Kuntsevo after a stroke. Guards had been afraid to enter his room. He died on 5 March."
+    ]},
+    {"k": "works", "h": "The system he built", "ps": [
+      "The planned economy: factories, farms and labour run by state plans and targets from Moscow, with the Soviet Union turned into a major industrial power.",
+      "The Gulag: a vast network of labour camps. About 18 million people passed through the camps and colonies between 1930 and 1953, and well over a million died there.",
+      {"t": "The Terror: Soviet police records show that about 680,000 people were shot in 1937 and 1938 alone, and over a million and a half arrested.", "lab": "likely", "why": "These are the NKVD's own figures, released after 1991. Historians accept their scale; some argue the real total was higher."},
+      "Deportations of whole peoples: Chechens, Ingush, Crimean Tatars, Volga Germans and others were deported to Central Asia and Siberia during the war, and many died on the way or in exile.",
+      "The cult of personality: his face on every wall, history rewritten, and enemies removed from photographs."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Vladimir Lenin (1870 to 1924), leader of the revolution, who promoted him and then warned against him.",
+      "Leon Trotsky (1879 to 1940), his great rival, expelled, exiled and finally murdered by his agent in Mexico.",
+      "Nadezhda Alliluyeva (1901 to 1932), his second wife. His first wife, Kato Svanidze, died in 1907.",
+      "His children: Yakov (1907 to 1943), who died as a German prisoner of war; Vasily (1921 to 1962); and Svetlana (1926 to 2011), who fled to the West in 1967.",
+      "Vyacheslav Molotov (1890 to 1986) and Lavrenti Beria (1899 to 1953), his foreign minister and his secret police chief.",
+      "Franklin D. Roosevelt (1882 to 1945) and Winston Churchill (1874 to 1965), his wartime allies.",
+      "Nikita Khrushchev (1894 to 1971), who served him and then denounced him."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "The Russian Empire collapsed in war and revolution in 1917. The new Soviet state grew out of civil war, and its leaders saw themselves as surrounded by enemies.",
+      "In the 1930s the Western world was in the Great Depression. Some visitors praised Soviet planning and did not see, or did not report, the famine and the arrests.",
+      "After 1945 the world split between the Soviet bloc and the West, a rivalry that lasted until 1991."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "On 25 February 1956 Khrushchev gave a 'secret speech' to the Party Congress denouncing Stalin's crimes against party members and the cult around him. Millions of prisoners were released in the years after his death.",
+      "In 1961 his body was removed from Lenin's mausoleum, and Stalingrad was renamed Volgograd.",
+      "Since 1991 historians have been able to read many Soviet archives. The human rights group Memorial collected the names and stories of millions of victims until Russian courts ordered it closed in 2021.",
+      "Ukraine and many other countries recognise the famine of 1932 to 1933 in Ukraine, the Holodomor, as a genocide. Historians disagree about whether that legal term fits, but agree that the regime's policies caused the deaths. In Russia today, his reputation is again the subject of fierce argument."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "He said 'One death is a tragedy, a million deaths a statistic.'", "lab": "myth", "t": "There is no reliable record of him saying it. A similar line appears in a German satirical essay of the 1920s, and it was attached to Stalin later."},
+      {"c": "He killed 20 million, or 60 million, people.", "lab": "disputed", "t": "Large round figures are often quoted without sources. Archive-based estimates of deaths from executions, the Gulag, deportations and the famine together run to roughly eight to eleven million or more, depending on what is counted. Either way, the scale was immense."},
+      {"c": "He was poisoned in 1953.", "lab": "disputed", "t": "Some writers suspect Beria or others of poisoning him. There is no proof. The medical records point to a stroke, and his guards' delay in calling doctors may have made it fatal."},
+      {"c": "He was a short man, about five feet tall.", "lab": "myth", "t": "He was about 1.65 metres, roughly five feet five inches, about average or a little short for his day. Photographs were often arranged to make him look taller."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Joseph Stalin, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Joseph-Stalin"},
+      {"n": "The Yalta Conference agreements (1945), Avalon Project, Yale Law School", "u": "https://avalon.law.yale.edu/wwii/yalta.asp"},
+      {"n": "Nikita Khrushchev, On the Cult of Personality and Its Consequences (1956), the secret speech"},
+      {"n": "Further reading: Stephen Kotkin, Stalin (multi-volume biography, from 2014)"},
+      {"n": "Further reading: Oleg Khlevniuk, Stalin: New Biography of a Dictator (2015)"}
+    ]}
+  ]
+}

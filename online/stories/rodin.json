@@ -1,0 +1,69 @@
+{
+  "hero": "",
+  "portrait": "pt-rodin",
+  "kw": ["Paris", "Meudon", "The Thinker", "The Kiss", "The Gates of Hell", "Burghers of Calais", "Balzac", "Age of Bronze", "Dante", "Camille Claudel", "Rose Beuret", "Rilke", "Monet", "Hotel Biron", "Musee Rodin", "Michelangelo", "cast from life@myths"],
+  "lede": "A Paris boy turned away three times by the art school, who spent years as a hired hand carving other men's decorations, then made bronze bodies so alive that critics accused him of casting them from real people.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "François-Auguste-René Rodin was born in Paris on 12 November 1840. His father was a clerk in the police office, and the family had little money.",
+      "He worked for more than twenty years as an assistant in other sculptors' workshops before his own work was noticed. From the late 1870s he made figures that broke with the smooth, posed statues of the official Salon: rough surfaces, twisting bodies, hands and fragments shown as finished art.",
+      "By 1900 he was the most famous sculptor in the world. His best-known works are The Thinker, The Kiss and The Burghers of Calais. He died at Meudon, outside Paris, on 17 November 1917, aged 77."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "He was short-sighted and did badly at school. At fourteen he entered the Petite École, a free school for decorative arts, where he learned drawing from memory, a habit he kept for life.",
+      "He applied to the École des Beaux-Arts, the official school for fine art, and was rejected three times. He never studied there. Instead he earned his living making ornaments, masks and architectural decoration for builders and other sculptors.",
+      "In 1862 his beloved sister Maria died. In grief he entered a religious order as a novice, but its founder, Father Pierre-Julien Eymard, saw that he was an artist and encouraged him to go back to sculpture. Rodin made a bust of him.",
+      "In 1864 he met Rose Beuret, a young seamstress, who became his model and companion. Their son, Auguste Beuret, was born in 1866. Rodin did not recognise him legally."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "Brussels, 1871 to 1877. After the Franco-Prussian War he went to Belgium to work on decoration for public buildings, first for the sculptor Albert-Ernest Carrier-Belleuse, then with a Belgian partner.",
+      "Italy, 1875 to 1876. A short trip to Florence and Rome to see Michelangelo changed his ideas about the body and movement.",
+      {"t": "The Age of Bronze, 1877. He showed a life-size nude of a young Belgian soldier. It looked so real that critics claimed he had cast it from the model's body, a kind of cheating. He sent photographs and casts of the model to prove otherwise.", "lab": "verified", "why": "The accusation and his defence are recorded in the Salon press of 1877 and his letters; the state bought a bronze in 1880."},
+      "The Gates of Hell, 1880. The French state commissioned a bronze doorway for a planned museum of decorative arts. The museum was never built, but Rodin worked on the doors for the rest of his life. They became his sketchbook: about two hundred figures from Dante's Inferno, many later enlarged as separate works.",
+      "Calais, 1884 to 1895. The town of Calais asked for a monument to Eustache de Saint-Pierre, who in 1347 offered his life to the English king to save the town. Rodin made six citizens, barefoot, with ropes around their necks, each alone with his fear. The town disliked how unheroic they looked. The group was unveiled in 1895.",
+      "Monet and Rodin, 1889. The Galerie Georges Petit showed the two artists together, a sign that Rodin now stood with the new art, not the old.",
+      "Balzac, 1891 to 1898. The writers' society commissioned a statue of the novelist Honoré de Balzac. After seven years Rodin showed a huge figure wrapped in a dressing gown, more a force than a man. The society refused it. It was cast in bronze only in 1939.",
+      "The pavilion, 1900. During the Paris World's Fair he paid for his own pavilion near the Place de l'Alma and showed about 150 works. Buyers and commissions came from all over Europe and America.",
+      "The Hôtel Biron, 1908 to 1917. He rented rooms in this Paris mansion and later filled it. In 1916 he gave his works and collections to the French state, on condition that it became a museum. In January 1917 he married Rose Beuret; she died two weeks later, and he died that November."
+    ]},
+    {"k": "works", "h": "The sculptures", "ps": [
+      "The Thinker. It began around 1880 as a small seated figure at the top of The Gates of Hell, meant as Dante looking down on his poem. The large version was cast in 1904 and placed in front of the Panthéon in Paris in 1906. It is now at the Musée Rodin, with many other casts around the world.",
+      "The Kiss. Also first planned for the Gates, it shows Paolo and Francesca, the lovers in Dante who were killed by her husband. Rodin took it out of the doors because it seemed too happy for Hell. The state ordered a large marble version, shown in 1898.",
+      "The Burghers of Calais (1884 to 1895), six figures at ground level, a monument meant to be met eye to eye rather than looked up at.",
+      "The Walking Man, a striding body without head or arms, and many studies of hands. He insisted that a fragment could be a whole work.",
+      "Monument to Balzac (1898), refused in his lifetime and now seen as a starting point for modern sculpture.",
+      "He used many assistants, including carvers who cut his marbles. He also made thousands of drawings and watercolours of moving models, often without looking at the paper."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Rose Beuret (1844 to 1917), his companion for more than fifty years, who kept his clay damp, ran his home and stayed through his affairs. They married at last in 1917.",
+      "Camille Claudel (1864 to 1943), a gifted young sculptor who joined his workshop around 1883. She was his student, collaborator, model and lover. Rodin would not leave Rose, and by 1898 they had parted. Her own work, such as The Waltz and The Age of Maturity, has its own power. In 1913 her family had her committed to an asylum, where she spent her last thirty years.",
+      "Rainer Maria Rilke (1875 to 1926), the Austrian poet, who wrote a book about him in 1903 and worked as his secretary in 1905 and 1906, until Rodin dismissed him over a letter.",
+      "Claude Monet (1840 to 1926), born the same year, who shared the 1889 exhibition and remained a friend.",
+      "John Singer Sargent, who painted his portrait in Paris in 1884. The painting is now in the Musée Rodin."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "He grew up while Baron Haussmann tore down old Paris and built the wide boulevards, and much of his early work was decoration for new buildings.",
+      "The official Salon decided careers. Its juries wanted smooth, noble statues of gods and heroes. Rodin, like the Impressionist painters, was attacked before he was praised.",
+      "The years around 1900, the Belle Époque, brought world's fairs, rich collectors from America and new photography, which helped make his work famous far from Paris."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "The Musée Rodin opened in the Hôtel Biron in 1919. His villa at Meudon, where he and Rose are buried beneath a cast of The Thinker, is also part of the museum.",
+      "Sculptors after him took up the ideas he made acceptable: rough surfaces that show the hand, fragments, and movement over pose.",
+      {"t": "Because his plasters belonged to the state, the museum went on making bronze casts after his death, and French rules later capped the numbered casts of a work at twelve. With the casts made in his lifetime, this is why so many Thinkers exist.", "lab": "likely", "why": "The twelve-cast limit is a French rule from the 1950s and later; the exact history of each cast varies."},
+      "Camille Claudel's reputation has grown greatly since the 1980s, and she now has her own museum in Nogent-sur-Seine."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "The Age of Bronze was cast from a living man.", "lab": "myth", "t": "Critics said so in 1877. Rodin proved them wrong with photographs and the model himself, and the state later bought the work."},
+      {"c": "The Thinker was always called The Thinker.", "lab": "myth", "t": "It began as a figure of the poet Dante above The Gates of Hell. The name came later, reportedly from the foundry workers who saw it alone."},
+      {"c": "Rodin took credit for Camille Claudel's work.", "lab": "disputed", "t": "Influence ran both ways and some hands and feet in his works may be hers, as she worked in his studio. But no proven case shows him signing her sculpture. Her fall had more to do with poverty, illness and her family."},
+      {"c": "The Kiss shows a happy couple.", "lab": "disputed", "t": "It shows Paolo and Francesca, whom Dante places in Hell. Rodin removed it from the Gates because it seemed too joyful, so both readings have support."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Auguste Rodin, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Auguste-Rodin"},
+      {"n": "Musée Rodin, Paris", "u": "https://www.musee-rodin.fr/en"},
+      {"n": "Rainer Maria Rilke, Auguste Rodin (1903), public domain"},
+      {"n": "Further reading: Ruth Butler, Rodin: The Shape of Genius (1993)"},
+      {"n": "Further reading: Ruth Butler, Hidden in the Shadow of the Master (2008)"}
+    ]}
+  ]
+}

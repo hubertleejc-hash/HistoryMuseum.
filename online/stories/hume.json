@@ -1,0 +1,71 @@
+{
+  "hero": "",
+  "portrait": "pt-hume",
+  "kw": ["Edinburgh", "Ninewells", "La Fleche", "Scottish Enlightenment", "empiricism", "scepticism", "Treatise of Human Nature", "Enquiry", "History of England", "Dialogues concerning Natural Religion", "miracles", "induction", "cause and effect", "is and ought", "Adam Smith", "Rousseau", "Kant", "Paris", "atheist@myths", "footnote@myths", "dogmatic slumber@legacy"],
+  "lede": "A cheerful, stout Scotsman who asked why we expect the sun to rise tomorrow, found that reason alone cannot tell us, and woke the philosophers of Europe from their comfortable certainties.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "David Hume was born in Edinburgh on 7 May 1711 and grew up at Ninewells, his family's small estate in the Borders. He became the most important philosopher of the Scottish Enlightenment.",
+      "He argued that all our ideas come from experience, and that much of what we think we know, about cause and effect, the self and God, rests on habit and feeling rather than proof. His History of England made him famous and comfortably rich.",
+      "Friends called him 'le bon David' for his good nature. Churchmen called him 'the great infidel', and two universities refused him a professorship. He died in Edinburgh on 25 August 1776, calm to the end."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father died when he was two, and his mother raised three children alone. David went to the University of Edinburgh at about ten or twelve, as boys often did then, and left without a degree.",
+      "His family wanted him to be a lawyer. He found law 'nauseous' and read philosophy and literature instead. At eighteen he became convinced he had found 'a new scene of thought', and worked so hard that he fell ill for several years.",
+      "In 1734 he tried life as a clerk to a sugar merchant in Bristol, gave it up within months, and went to France, where living was cheap. From 1735 to 1737 he lived at La Fleche in Anjou, near the Jesuit college where Descartes had studied, and wrote most of A Treatise of Human Nature there. He was in his mid-twenties."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      {"t": "1739 to 1740: A Treatise of Human Nature appeared in three books, without his name. He later wrote that it 'fell dead-born from the press'.", "lab": "verified", "why": "His own words, from his short autobiography, My Own Life (1776)."},
+      "1741 to 1742: Essays, Moral and Political sold well and gave him his first success.",
+      "1745: he applied for the chair of moral philosophy at Edinburgh. Opponents attacked him as a sceptic and atheist, and he was turned down. Glasgow refused him in 1751 too.",
+      "1746 to 1748: he worked as secretary to General James St Clair, joining a failed raid on the French coast and then a diplomatic mission to Vienna and Turin.",
+      "1748: Philosophical Essays concerning Human Understanding, later called An Enquiry concerning Human Understanding, recast the Treatise in shorter, clearer form. It included his essay Of Miracles.",
+      "1752: he became Keeper of the Advocates' Library in Edinburgh, with 30,000 books to hand, and began his History.",
+      "1754 to 1762: The History of England came out in six volumes, from Julius Caesar's invasion to 1688. It was attacked at first and then became a bestseller for decades.",
+      "Paris, 1763 to 1765: as secretary to the British ambassador, Lord Hertford, he was the toast of the Paris salons and met Diderot, d'Holbach and d'Alembert.",
+      "1766: he brought Jean-Jacques Rousseau to England as a refugee and found him a home. Within months Rousseau accused him of a plot to dishonour him, and the quarrel became a public scandal.",
+      "1769 to 1776: he settled in Edinburgh's New Town among friends, revised his works, and wrote My Own Life four months before he died."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "A Treatise of Human Nature (1739 to 1740): his great, youthful book on how the mind works. It argues that reason is 'the slave of the passions', meaning that reason can tell us how to get what we want but not what to want.",
+      "An Enquiry concerning Human Understanding (1748): the problem of induction. We have seen the sun rise every day, but nothing in logic guarantees it will rise tomorrow. We expect it out of custom, he said, and custom is 'the great guide of human life'.",
+      "An Enquiry concerning the Principles of Morals (1751), which he thought his best book. Morality, he argued, grows from human feeling and sympathy, not from pure reason or divine command.",
+      "The Treatise also contains the 'is and ought' passage: you cannot get from facts about how things are to rules about how they ought to be without an extra step that needs justifying.",
+      "Of Miracles: a wise person weighs evidence, and no report of a miracle is likely to outweigh the vast experience that nature follows its laws.",
+      "The History of England (1754 to 1762), Political Discourses (1752) and The Natural History of Religion (1757).",
+      "Dialogues concerning Natural Religion: three characters debate whether the order of nature proves a designer. He worked on it for twenty-five years, and his friends advised against publishing it. His nephew brought it out in 1779."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Adam Smith (1723 to 1790), the economist, his closest friend. Smith wrote that he considered Hume 'as approaching as nearly to the idea of a perfectly wise and virtuous man' as human frailty allows.",
+      "Jean-Jacques Rousseau (1712 to 1778), whom he helped and then quarrelled with in 1766.",
+      "Baron d'Holbach (1723 to 1789), host of the freethinking Paris salon he visited.",
+      "James Boswell (1740 to 1795), Samuel Johnson's biographer, who visited him in July 1776 and was amazed that the dying man showed no fear.",
+      "William Strahan (1715 to 1785), his London publisher.",
+      "Immanuel Kant (1724 to 1804), the German philosopher, who never met him but built his own philosophy as an answer to him."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Scotland had joined England in 1707, four years before his birth. In his lifetime Edinburgh and Glasgow became centres of new thinking in philosophy, economics, medicine and geology, a movement now called the Scottish Enlightenment.",
+      "The Church of Scotland was strict, and doubts about religion could cost a man a job. Hume was nearly put on trial by the Church's General Assembly in the 1750s, but friends among the moderate clergy blocked it.",
+      "He lived through the Jacobite rising of 1745, the growth of the British Empire and the start of the American Revolution, which he supported, writing that the colonies should be let go."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      {"t": "Kant wrote in 1783 that reading Hume first interrupted his 'dogmatic slumber' and set him on a new path.", "lab": "verified", "why": "Kant says so in the preface to his Prolegomena (1783)."},
+      "His questions about cause, induction and the self are still argued over in philosophy and in the philosophy of science. Many modern philosophers rank him as the greatest who wrote in English.",
+      "A bronze statue by Alexander Stoddart stands on Edinburgh's Royal Mile. Students rub its big toe for luck.",
+      "In 2020 the University of Edinburgh removed his name from one of its buildings, citing his views on race. The decision was argued over in Britain and beyond."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Hume said that cause and effect do not exist.", "lab": "myth", "t": "He argued that we never observe a necessary connection between a cause and its effect, only one event regularly following another. Our belief in causes comes from habit. He did not doubt that causes are real in everyday life, and said no one could live as a true sceptic."},
+      {"c": "He was an open atheist.", "lab": "disputed", "t": "He attacked the standard arguments for God and for miracles, and was widely called an infidel. But he never declared himself an atheist, and the Dialogues leave their verdict open. Scholars still argue whether he was an atheist, an agnostic or a very thin kind of deist."},
+      {"c": "His racist footnote is a later invention.", "lab": "myth", "t": "It is real. In the 1753 edition of his essay Of National Characters he added a footnote saying he was 'apt to suspect the negroes' to be 'naturally inferior to the whites'. Writers such as James Beattie challenged it in his lifetime. He revised the wording for a later edition but kept the claim."},
+      {"c": "He died terrified, regretting his doubts.", "lab": "myth", "t": "Boswell, Adam Smith and his doctor all reported that he was cheerful and calm. He joked about asking Charon, the ferryman of the dead, for more time to watch the public open its eyes."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "David Hume, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/David-Hume"},
+      {"n": "David Hume, An Enquiry concerning Human Understanding, Project Gutenberg (public domain)", "u": "https://www.gutenberg.org/ebooks/9662"},
+      {"n": "David Hume, author page with My Own Life and other works, Wikisource (public domain)", "u": "https://en.wikisource.org/wiki/Author:David_Hume"},
+      {"n": "Adam Smith, letter to William Strahan on Hume's last days (1776), public domain"},
+      {"n": "Further reading: Roderick Graham, The Great Infidel: A Life of David Hume (2004)"}
+    ]}
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "hero": "",
+  "portrait": "pt-marx",
+  "kw": ["Trier", "Berlin", "Hegel", "Young Hegelians", "Paris", "Brussels", "London", "Soho", "British Museum", "Highgate", "Engels", "Jenny von Westphalen", "Communist Manifesto", "Das Kapital", "Capital", "Eighteenth Brumaire", "First International", "Bakunin", "Darwin@people", "opium of the people@myths"],
+  "lede": "A Rhineland lawyer's son who spent decades in a cramped London flat and the British Museum reading room, often too poor to buy coal, writing a critique of capitalism whose ideas later moved revolutions and governments he never saw.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Karl Marx was born in Trier, in Prussia's Rhineland province, on 5 May 1818. He studied law and philosophy and became a radical journalist.",
+      "With his friend Friedrich Engels he wrote The Communist Manifesto (1848). Expelled from several countries, he settled in London in 1849 and lived there for the rest of his life. In 1867 he published the first volume of Capital, his study of how capitalism works.",
+      "He died in London on 14 March 1883. In the twentieth century political parties and states across the world claimed to follow him, and argument over what he meant has never stopped."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "Both his parents came from Jewish families with long lines of rabbis. His father, Heinrich, a lawyer, became a Lutheran around 1817 so that he could keep practising under Prussian law, and the children were baptised in 1824.",
+      "He studied at Bonn in 1835, where he spent much of his time drinking and once fought a duel, and from 1836 at Berlin. There he joined the Young Hegelians, students of the philosopher Hegel who turned his ideas against religion and the Prussian state.",
+      "In 1841 he received a doctorate from the University of Jena for a thesis on two ancient Greek philosophers, Democritus and Epicurus. His radical views closed the door to a university post.",
+      "In 1842 he became editor of the Rheinische Zeitung in Cologne. The government banned it in 1843. That June he married Jenny von Westphalen, the daughter of a Prussian official and his love since boyhood."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "Paris, 1843 to 1845. He wrote for radical German journals and met socialist workers. In 1844 he began his lifelong partnership with Friedrich Engels. He was expelled from France early in 1845.",
+      "Brussels, 1845 to 1848. With Engels he wrote The German Ideology and joined a small society of German workers, the Communist League, which asked them to write its programme.",
+      "February 1848: The Communist Manifesto was published in London, weeks before revolutions broke out across Europe. Marx went to Cologne to run a newspaper, but the revolutions failed and he was expelled again.",
+      "London, from August 1849. The family lived in two rooms in Dean Street, Soho, in deep poverty. Three of their children died young there. From 1852 to 1862 he wrote for the New York Daily Tribune, his main earned income.",
+      "1864: he helped found the International Working Men's Association, the First International, and wrote its founding address. It split in 1872 after a bitter fight with the anarchist Mikhail Bakunin.",
+      "September 1867: Capital, volume one, was published in Hamburg. In 1873 he sent a copy of the second edition to Charles Darwin, who replied with a polite letter of thanks.",
+      "1881 to 1883: his wife Jenny died in December 1881 and his eldest daughter, also Jenny, in January 1883. He died in his armchair at home two months later and was buried in Highgate Cemetery."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "The Communist Manifesto (1848), with Engels: a short pamphlet arguing that history is a story of class struggle, that capitalism had transformed the world more than any system before it, and that workers would overthrow it. It ends by calling on the workers of all countries to unite.",
+      "The Eighteenth Brumaire of Louis Bonaparte (1852), on how Napoleon's nephew seized power in France. It opens with the line that history repeats itself, 'the first time as tragedy, the second as farce'.",
+      "Capital, volume one (1867): a long analysis of how profit comes from workers' labour, with detailed evidence of factory conditions taken from British government reports. Engels edited volumes two and three from his notes after his death.",
+      "Earlier and shorter writings include the Theses on Feuerbach (1845), which end: 'The philosophers have only interpreted the world in various ways; the point is to change it.'"
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Jenny von Westphalen (1814 to 1881), his wife, who shared exile, poverty and his work, copying out his manuscripts.",
+      "Friedrich Engels (1820 to 1895), his co-author and friend, who worked in his family's Manchester cotton business largely to support the Marx family.",
+      "His daughters Jenny (1844 to 1883), Laura (1845 to 1911) and Eleanor (1855 to 1898), all active socialists.",
+      {"t": "Helene Demuth (1820 to 1890), the family's housekeeper for decades. Her son Frederick, born in 1851, is generally thought to have been Marx's child.", "lab": "likely", "why": "The main evidence is a letter written in 1898 by Louise Freyberger, Engels's housekeeper, reporting what Engels said on his deathbed."},
+      "Mikhail Bakunin (1814 to 1876), the Russian anarchist, his great rival in the International."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Britain was the first industrial nation. Children worked long shifts in mills, and Manchester's slums were notorious. Marx read official factory inspectors' reports in the British Museum reading room and used them as his evidence.",
+      "Across Europe kings and censors held back demands for votes and free speech, and the 1848 revolutions failed almost everywhere. Britain, more tolerant of exiles, became a refuge for radicals.",
+      "Antisemitism was widespread, and Marx was not free of it. His essay On the Jewish Question (1844), although it supported Jews' civil rights, used crude stereotypes linking Judaism with money, and his private letters contain antisemitic insults, including about the socialist Ferdinand Lassalle."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "His ideas shaped economics, history and sociology: the importance of class, the power of economic interests, and the boom-and-bust cycles of capitalism.",
+      "Socialist and labour parties across Europe took him as a founder. In 1917 Lenin's Bolsheviks seized power in Russia in his name, and later regimes in China, Cambodia, North Korea and elsewhere called themselves Marxist. Those regimes killed or starved many millions of people. Historians still argue how far that follows from his ideas and how far from those who used them.",
+      "His grave at Highgate, with a large bust added in 1956, carries the closing line of the Manifesto and the line from the Theses on Feuerbach."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Marx designed the Soviet system.", "lab": "myth", "t": "He wrote very little about how a future communist society would work, and died 34 years before the Russian Revolution. He did speak of a temporary 'dictatorship of the proletariat', a phrase Lenin later built on."},
+      {"c": "He called religion 'the opium of the people' to sneer at believers.", "lab": "disputed", "t": "The line comes from an 1844 essay where he also calls religion 'the sigh of the oppressed creature, the heart of a heartless world'. He was an atheist who saw religion as a comfort in suffering that he wanted to end."},
+      {"c": "He lived off Engels and never worked.", "lab": "myth", "t": "He wrote constantly, and journalism was his income for a decade, but it was not enough. His poverty was real, and Engels gave him money for most of his life."},
+      {"c": "He wanted to dedicate Capital to Darwin.", "lab": "myth", "t": "A letter in which Darwin declined a dedication was long thought to be to Marx. It was written to Edward Aveling, Eleanor Marx's partner, about a different book."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Karl Marx, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Karl-Marx"},
+      {"n": "Marx and Engels, The Communist Manifesto, Project Gutenberg (public domain)", "u": "https://www.gutenberg.org/ebooks/61"},
+      {"n": "Marx and Engels Internet Archive, Marxists Internet Archive", "u": "https://www.marxists.org/archive/marx/"},
+      {"n": "Further reading: Jonathan Sperber, Karl Marx: A Nineteenth-Century Life (2013)"},
+      {"n": "Further reading: Gareth Stedman Jones, Karl Marx: Greatness and Illusion (2016)"}
+    ]}
+  ]
+}

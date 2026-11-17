@@ -1,0 +1,67 @@
+{
+  "hero": "",
+  "portrait": "",
+  "kw": ["Sweden", "Stockholm", "Gustavus Adolphus", "Oxenstierna", "Thirty Years' War", "Peace of Westphalia", "Prague", "Codex Gigas", "Descartes", "abdication", "Catholic", "Rome", "Bernini", "Alexander VII", "Azzolino", "Monaldeschi", "St Peter's", "Garbo@myths", "intersex@myths"],
+  "lede": "Proclaimed king, not queen, at the age of six, she ruled the strongest Protestant power in northern Europe, then gave up the throne at 27, turned Catholic, and rode into Rome through a gate decorated by Bernini.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Christina was born in Stockholm on 8 December 1626 (18 December by today's calendar), the only surviving child of King Gustavus Adolphus of Sweden and Maria Eleonora of Brandenburg.",
+      "When her father was killed in battle in 1632 she became queen, and took power herself in 1644. She helped end the Thirty Years' War, and filled Stockholm with books, art and scholars, among them the philosopher René Descartes.",
+      "In 1654 she gave up the crown, became a Roman Catholic and moved to Rome, where she lived as a patron of music, theatre and learning for more than thirty years. She died there on 19 April 1689, aged 62."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      {"t": "At her birth she was hairy and cried in a loud, deep voice, and the midwives at first announced a boy. Her father was said to have been delighted with a girl anyway.", "lab": "likely", "why": "This comes from her own unfinished autobiography, written decades later."},
+      "Gustavus Adolphus ordered that she be raised like a prince. After he died at the Battle of Lützen in November 1632, a regency led by the chancellor Axel Oxenstierna ruled in her name, and she was proclaimed 'king' by Swedish law.",
+      "Her grieving mother kept her father's heart in a box above the bed for a time. The council took the girl away from her mother's care in 1636.",
+      "She studied for up to ten hours a day: languages, history, theology, politics and philosophy. She learned Latin, French, German and more, and rode and hunted like her father's officers."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "Taking power, 1644. At eighteen she began to rule herself. She often disagreed with Oxenstierna and wanted peace faster than he did.",
+      "Westphalia, 1648. The Peace of Westphalia ended the Thirty Years' War. Sweden gained lands on the German coast and became a great power. In the war's last months Swedish troops seized Prague Castle and shipped home the art collections of Emperor Rudolf II, including the huge medieval manuscript called the Codex Gigas.",
+      "Heir, 1649. Refusing to marry, she persuaded the parliament to accept her cousin Charles Gustav as heir. She was formally crowned in 1650.",
+      "Descartes, 1649 to 1650. She invited the French philosopher to Stockholm. He arrived in October 1649 and gave her lessons early in the morning in the cold winter. He fell ill and died there on 11 February 1650.",
+      "Abdication, 6 June 1654. At Uppsala Castle she took off the crown before parliament and handed power to Charles Gustav. She left Sweden within days, dressed for part of the journey as a man.",
+      "Conversion and Rome, 1655. She announced her Catholic faith publicly at Innsbruck in November 1655 and entered Rome in December. Pope Alexander VII welcomed her, and the Porta del Popolo, the city's northern gate, was redecorated for her arrival under Bernini's direction.",
+      {"t": "Monaldeschi, 1657. At the French palace of Fontainebleau she had her equerry, the Marquis Gian Rinaldo Monaldeschi, killed by her guards for betraying her plans. All Europe was shocked, though she claimed a ruler's right to judge her own household.", "lab": "verified", "why": "The killing on 10 November 1657 is described by eyewitnesses, including the prior who heard Monaldeschi's last confession. Her motive is less clear: her plans to become Queen of Naples seem to have been what he betrayed."},
+      "Thrones she did not get, 1656 to 1668. She tried to become Queen of Naples with French help, and in 1668 put herself forward for the elected throne of Poland. Both plans failed.",
+      "Rome, 1668 to 1689. In the Palazzo Riario she gathered paintings, statues, coins and books, ran an academy for learned discussion and kept musicians and singers. She died there after an illness in April 1689."
+    ]},
+    {"k": "works", "h": "Patron and collector", "ps": [
+      "Her collection in Rome included paintings by Titian, Raphael and Correggio, many from the Prague treasure, and a large library of manuscripts, much of which later went to the Vatican Library.",
+      "She supported the composers Alessandro Scarlatti and Arcangelo Corelli, and helped open Rome's first public opera house, the Tor di Nona, in 1671.",
+      "She founded learned academies in her palace. After her death her friends founded the Arcadian Academy in 1690 in her honour.",
+      "She wrote collections of maxims and an unfinished autobiography, in French, addressed to God."
+    ]},
+    {"k": "people", "h": "Her people", "ps": [
+      "Gustavus Adolphus (1594 to 1632), her father, the warrior king of Sweden.",
+      "Axel Oxenstierna (1583 to 1654), the chancellor who ran Sweden in her childhood and opposed many of her choices.",
+      "René Descartes (1596 to 1650), the philosopher who came to Stockholm to teach her and died there.",
+      "Ebba Sparre (1629 to 1662), a lady-in-waiting she called 'Belle'. Their warm letters survive.",
+      "Cardinal Decio Azzolino (1623 to 1689), her closest friend and adviser in Rome, and her heir. He died less than two months after her.",
+      "Gian Lorenzo Bernini (1598 to 1680), the great Baroque sculptor, a friend in Rome, and Pope Alexander VII (1599 to 1667), who received her."
+    ]},
+    {"k": "world", "h": "The world around her", "ps": [
+      "She was born during the Thirty Years' War, which began in 1618 as a struggle between Catholic and Protestant states in the Holy Roman Empire and killed millions across central Europe.",
+      "Lutheran Sweden had made Catholicism illegal. A Swedish queen becoming Catholic was a political earthquake, and a great prize for the Pope.",
+      "Her age was also the age of the new science and philosophy, of Descartes, Galileo's followers and the first learned societies, and she wanted to be part of it."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "She is one of only a handful of women buried in the grottoes beneath St Peter's Basilica, and has a monument inside the basilica itself.",
+      "Her manuscripts form a named collection, the Reginenses, in the Vatican Library.",
+      "In Sweden her reign is remembered for culture and for the costly gifts of land she made to nobles. Abroad she became a figure of legend, the queen who chose freedom over a crown."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "She was intersex.", "lab": "disputed", "t": "Some writers suggested it because of her looks and dress. Her remains were examined in 1965 and the skeleton was found to be typically female, though bones alone cannot settle every question."},
+      {"c": "She was a lesbian.", "lab": "disputed", "t": "Her letters to Ebba Sparre are very affectionate, and her love for Cardinal Azzolino was also intense. Such language was common between friends in her time, and the sources do not settle it."},
+      {"c": "Descartes died because of her.", "lab": "disputed", "t": "He died of a lung illness, probably pneumonia, in the Stockholm winter. Her early-morning lessons and the cold may have weakened him. A theory that he was poisoned has little support."},
+      {"c": "The 1933 film Queen Christina tells her true story.", "lab": "myth", "t": "Greta Garbo's film invents a love affair with a Spanish envoy as the reason she gave up the throne. Her real reasons were religion and her refusal to marry."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Christina, queen of Sweden, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Christina-queen-of-Sweden"},
+      {"n": "The Swedish Royal Court", "u": "https://www.kungahuset.se/"},
+      {"n": "René Descartes, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Rene-Descartes"},
+      {"n": "Further reading: Veronica Buckley, Christina, Queen of Sweden (2004)"},
+      {"n": "Further reading: Sven Stolpe, Christina of Sweden (1966)"}
+    ]}
+  ]
+}

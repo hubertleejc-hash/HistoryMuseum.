@@ -1,0 +1,68 @@
+{
+  "hero": "",
+  "portrait": "pt-tagore",
+  "kw": ["Calcutta", "Kolkata", "Jorasanko", "Bengal", "Santiniketan", "Visva-Bharati", "Gitanjali", "Gora", "The Home and the World", "Jana Gana Mana", "Amar Shonar Bangla", "Rabindra Sangeet", "Nobel Prize", "Yeats", "Gandhi", "Einstein", "Amritsar", "knighthood", "Sri Lanka anthem@myths"],
+  "lede": "A boy who hated school grew up to write the national anthems of two countries, founded a school under the trees, won Asia's first Nobel Prize for literature, and began painting in his late sixties.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Rabindranath Tagore was born on 7 May 1861 in the family mansion at Jorasanko, in Calcutta, then the capital of British India. He was the youngest son of a large, rich and very cultured Bengali family.",
+      "He wrote in Bengali: poems, songs, plays, novels, short stories and essays, and set more than two thousand of his songs to his own music. In 1913 he became the first non-European to win the Nobel Prize in Literature, for Gitanjali.",
+      "He founded a school and later a university at Santiniketan, travelled the world arguing for links between East and West, and died in Calcutta on 7 August 1941, aged 80."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father, Debendranath Tagore, was a leader of the Brahmo Samaj, a reform movement within Hinduism. His mother died when he was thirteen. The house was full of music, theatre, magazines and debate.",
+      "He disliked every school he was sent to and was mostly taught at home by tutors and by his older brothers. He wrote poems from about the age of eight.",
+      "In 1878 he was sent to England to study law. He attended lectures at University College London but came home in 1880 without a degree.",
+      "In 1883 he married Mrinalini Devi. From 1890 he managed the family estates in rural East Bengal, travelling on a houseboat on the Padma river. The lives of villagers there filled his short stories."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "Santiniketan, 1901. On his father's land in rural Bengal he opened a small school where children were taught outdoors, under the trees, with music, art and nature as part of every day.",
+      "Loss, 1902 to 1907. His wife died in 1902, then a daughter and his youngest son. Many of the poems later collected in Gitanjali came from these years.",
+      "Partition of Bengal, 1905. When the British split Bengal, he wrote songs for the protest movement, including Amar Shonar Bangla. He later drew back from nationalism when it turned violent.",
+      "Gitanjali in English, 1912. On a journey to London he translated a selection of his poems into English prose. The painter William Rothenstein showed them to W. B. Yeats, who wrote an introduction. The book was published that year.",
+      "The Nobel Prize, 1913. The Swedish Academy gave him the prize for 'his profoundly sensitive, fresh and beautiful verse'. He used the money for his school.",
+      "Returning the knighthood, 1919. He had been knighted in 1915. After British troops killed hundreds of unarmed people at Jallianwala Bagh in Amritsar in April 1919, he wrote to the Viceroy giving up the title.",
+      "Visva-Bharati, 1921. He turned the school into a university meant to bring the cultures of the world together, and set up a rural institute nearby at Sriniketan.",
+      "Painting, from about 1928. In his late sixties he began turning the crossings-out on his manuscripts into shapes and faces, and went on to make more than two thousand paintings and drawings. They were shown in Paris in 1930.",
+      "Last years, 1930s to 1941. He travelled to Europe, the Americas and Asia, met Einstein in Berlin in 1930, and in his last essay, Crisis in Civilization (1941), condemned British rule and the war. He died in the family house where he was born."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "Gitanjali (Song Offerings), the Bengali collection of 1910 and the English selection of 1912.",
+      "Gora (1910), a long novel about religion, caste and what it means to be Indian, and The Home and the World (1916), about a marriage torn by nationalist politics.",
+      "Short stories such as The Postmaster and Kabuliwala, about a fruit seller from Afghanistan and a little girl in Calcutta.",
+      "Plays, among them The Post Office (1912), about a sick boy waiting for a letter from the king.",
+      "Rabindra Sangeet, his songs, still sung across Bengal. Jana Gana Mana became the national anthem of India, and Amar Shonar Bangla that of Bangladesh.",
+      "Paintings and drawings made in his last thirteen years, bold and dark, unlike his poems."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Debendranath Tagore (1817 to 1905), his father, a religious thinker who took the boy on a long trip to the Himalayas.",
+      "Mrinalini Devi (1874 to 1902), his wife, and their five children, of whom only two outlived him.",
+      {"t": "Mohandas Gandhi (1869 to 1948). They admired each other and argued openly, about burning foreign cloth, spinning and narrow nationalism. Tagore is said to have been among the first to call him Mahatma, great soul.", "lab": "likely", "why": "The title was used by others too; Tagore's early use of it is widely reported but hard to date."},
+      "W. B. Yeats (1865 to 1939), the Irish poet who introduced Gitanjali to English readers.",
+      "Albert Einstein, whom he met in Berlin in 1930. Their conversation on truth and reality was published.",
+      "Jawaharlal Nehru (1889 to 1964), who sent his daughter Indira to study at Santiniketan."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Calcutta was the centre of the Bengal Renaissance, a century of new writing, religious reform, science and social debate, and his family was at its heart.",
+      "He lived under British rule from start to finish, through the Partition of Bengal, the Amritsar massacre and the rise of Gandhi's movement.",
+      "He was famous in the West after 1913, then less read there after the First World War, while in Asia and Latin America his visits drew huge crowds."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "Visva-Bharati became a central university of India in 1951. Its students included the film-maker Satyajit Ray and the economist Amartya Sen.",
+      "Satyajit Ray filmed several of his stories, including Charulata (1964).",
+      "He is the only person to have written the national anthems of two countries, and in Bengal his songs are part of daily life."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "He was the first non-European to win the Nobel Prize in Literature.", "lab": "verified", "t": "Yes, in 1913. He was also the first Asian to win any Nobel Prize."},
+      {"c": "He wrote the national anthem of Sri Lanka.", "lab": "disputed", "t": "The anthem was written by Ananda Samarakoon, who had studied at Santiniketan. Some say Tagore wrote the tune or words; most scholars see only his influence."},
+      {"c": "Tagore opposed Gandhi.", "lab": "myth", "t": "They disagreed in print about nationalism, spinning and boycotts, but stayed friends. Gandhi visited Santiniketan and helped raise money for it."},
+      {"c": "He was knighted for the Nobel Prize and kept the title.", "lab": "myth", "t": "He was knighted in 1915 and gave the knighthood up in 1919 in protest at the Amritsar massacre."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Rabindranath Tagore, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Rabindranath-Tagore"},
+      {"n": "Rabindranath Tagore, biographical, NobelPrize.org", "u": "https://www.nobelprize.org/prizes/literature/1913/tagore/biographical/"},
+      {"n": "Rabindranath Tagore, Gitanjali (1912), Project Gutenberg (public domain)", "u": "https://www.gutenberg.org/ebooks/7164"},
+      {"n": "Further reading: Krishna Dutta and Andrew Robinson, Rabindranath Tagore: The Myriad-Minded Man (1995)"}
+    ]}
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "hero": "",
+  "portrait": "pt-rousseau",
+  "kw": ["Geneva", "Annecy", "Madame de Warens", "Les Charmettes", "Paris", "Diderot", "Encyclopedie", "Vincennes", "Discourse on the Arts and Sciences", "Discourse on Inequality", "The Social Contract", "general will", "Emile", "Julie", "Confessions", "Reveries", "Le Devin du village", "Therese Levasseur", "Hume", "Voltaire", "Ermenonville", "Pantheon", "noble savage@myths", "children@myths", "Robespierre@myths"],
+  "lede": "A runaway watchmaker's son with no schooling who walked into the salons of Paris, told them that their civilisation had made people worse, and wrote the words 'Man is born free, and everywhere he is in chains.'",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Jean-Jacques Rousseau was born in the independent city republic of Geneva on 28 June 1712. He spent most of his life in France, but always signed himself a citizen of Geneva.",
+      "He argued that human beings are good by nature and are corrupted by society, property and inequality. The Social Contract asked how people could live under laws and still be free, and answered with the idea of 'the general will'.",
+      "He also wrote a bestselling novel, a book on education, the first modern autobiography and an opera that pleased the king. His books were burned, and he spent years on the run. He died at Ermenonville, near Paris, on 2 July 1778, aged 66."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His mother, Suzanne Bernard, died nine days after his birth. His father, Isaac, a watchmaker, read novels and histories with him late into the night, and Jean-Jacques never went to school.",
+      "When he was ten, his father fled Geneva after a quarrel, and the boy was raised by relatives and a country pastor. He was apprenticed to an engraver who beat him.",
+      {"t": "In March 1728, aged fifteen, he came back from a walk to find the city gates shut for the night. Rather than face another beating, he left Geneva for good.", "lab": "likely", "why": "He tells this in the Confessions, written some forty years later. The departure is certain; the details are his own memory."},
+      "In Annecy, in Savoy, he was taken in by Madame de Warens, a Swiss convert to Catholicism, who sent him to Turin, where he became a Catholic. She became his protector, his 'Maman', and later his lover. He lived with her on and off for about ten years, reading everything he could and teaching himself music."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "Paris, 1742: he arrived with a new system of writing music in numbers, which the Academy of Sciences politely rejected. He became friends with Denis Diderot.",
+      "Venice, 1743 to 1744: he worked as secretary to the French ambassador, quarrelled with him and left.",
+      "1745: he met Therese Levasseur, a laundress at his inn. She stayed with him for the rest of his life.",
+      {"t": "1749: walking to the fortress of Vincennes to visit Diderot, who was in prison, he read of an essay prize. He said he had a sudden vision and sat down under a tree in tears.", "lab": "likely", "why": "His own account, in a letter of 1762 and in the Confessions."},
+      "1750: his Discourse on the Arts and Sciences won the Dijon Academy's prize. It argued that the progress of the arts and sciences had not made people better. Overnight he was famous.",
+      "1752: his short opera Le Devin du village was performed for Louis XV at Fontainebleau. He turned down the chance of a royal pension.",
+      "1755: the Discourse on the Origin of Inequality traced how private property and society had made people unequal and unhappy.",
+      "1761: Julie, or the New Heloise, a novel in letters about love and virtue, became one of the bestsellers of the century.",
+      "1762: The Social Contract and Emile appeared. The Paris Parlement condemned Emile and ordered his arrest. Both books were burned in Geneva. He fled to Switzerland, then to Motiers in Neuchatel, under the protection of the king of Prussia.",
+      "1765: after a preacher stirred the villagers of Motiers against him, stones were thrown at his house at night, and he fled again.",
+      "England, 1766 to 1767: David Hume brought him to England and found him a house at Wootton in Staffordshire. Rousseau came to believe Hume was plotting against him, and the quarrel became an international scandal. He left in May 1767.",
+      "1768 to 1778: he married Therese in a simple ceremony, lived in Paris copying music for a living, and wrote his last books. In May 1778 he moved to the estate of the Marquis de Girardin at Ermenonville, where he died in July."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "The Social Contract (1762), which begins 'Man is born free, and everywhere he is in chains.' A legitimate state rests on the general will of its citizens, who make the laws they obey.",
+      "Emile, or On Education (1762): a child should learn from nature and experience, not from books and punishment. It was hugely influential and is still read by teachers.",
+      "Julie, or the New Heloise (1761), which made readers across Europe weep and set a fashion for feeling and wild nature.",
+      "The two Discourses (1750 and 1755), his first attacks on the comforts and inequalities of civilisation.",
+      "The Confessions (written 1765 to 1770, published 1782 and 1789), in which he set out to show himself 'in all the truth of nature', faults and all.",
+      "Reveries of the Solitary Walker, unfinished at his death: ten calm meditations from his walks.",
+      "Music: Le Devin du village (1752) and the music articles in Diderot's Encyclopedie."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Isaac Rousseau (1672 to 1747), his father, a watchmaker.",
+      "Francoise-Louise de Warens (1699 to 1762), his protector and lover in Savoy.",
+      "Therese Levasseur (1721 to 1801), his companion for 33 years and later his wife.",
+      "Denis Diderot (1713 to 1784), his closest friend in Paris until they fell out in 1757.",
+      "Voltaire (1694 to 1778), who mocked his ideas and his life. In 1764 an anonymous pamphlet by Voltaire told the public that Rousseau had abandoned his children.",
+      "David Hume (1711 to 1776), the Scottish philosopher who helped him and then became his enemy.",
+      "The Marquis de Girardin (1735 to 1808), his last host, who buried him on an island in the park at Ermenonville."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "He lived in the age of the Enlightenment, when Paris salons were full of writers who believed reason and science would improve the world. He was part of their circle and then turned against them.",
+      "Geneva was a small Protestant republic governed by a few leading families. Its citizens' rights shaped his ideas about self-government.",
+      "France was ruled by an absolute king and a powerful Church. Books could be banned and burned, and writers could be arrested, so many works were printed in the Netherlands or Switzerland."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "French revolutionaries treated him as a prophet. In 1794 his remains were carried to the Pantheon in Paris, and they lie there near Voltaire's.",
+      "His love of nature, feeling and the inner self helped give birth to Romanticism. The Confessions shaped how people have written about themselves ever since.",
+      "Emile influenced generations of educators, from Pestalozzi to Maria Montessori, and his ideas on inequality influenced later thinkers on the left. Kant kept his portrait on the wall of his study."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Rousseau praised the 'noble savage'.", "lab": "myth", "t": "He never used the phrase. It appears in English in a play by John Dryden in 1672. Rousseau did describe early humans as peaceful and free, but he did not think people could or should go back to that state."},
+      {"c": "He abandoned his own children.", "lab": "verified", "t": "It is true. He and Therese had five children, and he had each one left at the Paris foundling hospital as a newborn, where most babies died young. He admitted it in the Confessions and gave poverty and other reasons, and he later said he regretted it."},
+      {"c": "The Social Contract caused the Terror.", "lab": "disputed", "t": "Robespierre and other revolutionaries admired him and used his language of virtue and the general will. Historians argue whether his ideas lead to tyranny or were simply borrowed. He died eleven years before the Revolution began."},
+      {"c": "He wrote 'Let them eat cake' about Marie Antoinette.", "lab": "myth", "t": "In the Confessions he tells of 'a great princess' who said the poor should eat brioche. He wrote it when Marie Antoinette was a child in Austria, so it cannot be about her."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Jean-Jacques Rousseau, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Jean-Jacques-Rousseau"},
+      {"n": "Jean-Jacques Rousseau, The Confessions, Project Gutenberg (public domain)", "u": "https://www.gutenberg.org/ebooks/3913"},
+      {"n": "Jean-Jacques Rousseau, The Social Contract and Discourses, Project Gutenberg (public domain)", "u": "https://www.gutenberg.org/ebooks/46333"},
+      {"n": "Further reading: Leo Damrosch, Jean-Jacques Rousseau: Restless Genius (2005)"}
+    ]}
+  ]
+}

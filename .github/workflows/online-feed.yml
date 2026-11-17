@@ -25,7 +25,7 @@ jobs:
           python-version: "3.12"
       - name: Build and check the feed
         run: python3 tools/online/build_feed.py
-      - name: Check that every place source opens
+      - name: Check that every place and story source opens
         if: ${{ github.event_name == 'pull_request' }}
         run: python3 tools/online/check_links.py
       - name: Commit the feed

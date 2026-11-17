@@ -1,0 +1,69 @@
+{
+  "hero": "",
+  "portrait": "pt-salieri",
+  "kw": ["Legnano", "Venice", "Vienna", "Gassmann", "Joseph II", "Kapellmeister", "La Scala", "Europa riconosciuta", "Les Danaides", "Tarare", "Axur", "Falstaff", "Beaumarchais", "Gluck", "Mozart", "Beethoven", "Schubert", "Liszt", "poison@myths", "Amadeus@myths", "Pushkin@myths"],
+  "lede": "For half a century he was the most powerful musician in Vienna, the man who ran the emperor's music and taught Beethoven, Schubert and the boy Liszt, and he is remembered today mainly for a murder he did not commit.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Antonio Salieri was born on 18 August 1750 in Legnano, a small town in the Republic of Venice. He came to Vienna at fifteen and stayed for the rest of his life.",
+      "He wrote more than forty operas, had hits in Vienna, Milan and Paris, and from 1788 to 1824 was Hofkapellmeister, the head of music at the Habsburg court. He was also one of the great teachers of his age, and often taught young musicians for free.",
+      "He died in Vienna on 7 May 1825, aged 74. A few years later a rumour that he had poisoned Mozart was turned into a play, then an opera, then a famous film, and it has followed his name ever since."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father was a merchant. Antonio had music lessons from his elder brother Francesco, a violinist, and from the local church organist. Both his parents died when he was in his early teens.",
+      "A family friend from the Venetian nobility, Giovanni Mocenigo, took the orphan to Venice. There, in 1766, the Bohemian composer Florian Leopold Gassmann heard him and brought him to Vienna as his pupil.",
+      {"t": "Gassmann treated him like a son, paid for lessons in Latin, Italian poetry and German, and took him to play for Emperor Joseph II's private chamber music evenings. Salieri later spoke of Gassmann with deep gratitude.", "lab": "likely", "why": "Much of what we know of his youth comes from an early biography by Ignaz von Mosel (1827), based on Salieri's own memories."},
+      "He also met the great opera reformer Christoph Willibald Gluck, who became a second mentor and later opened the door to Paris for him."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1770: his first opera, Le donne letterate, was staged in Vienna. He was nineteen.",
+      "1774: Gassmann died after a carriage accident. Joseph II made Salieri court chamber composer and conductor of the Italian opera, at twenty-three. The next year he married Therese Helferstorfer; they had eight children.",
+      "Milan, 1778: his Europa riconosciuta opened the new Teatro alla Scala on 3 August. The opera was revived there in 2004, when La Scala reopened after restoration.",
+      "Paris, 1784: Les Danaides was a triumph at the Paris Opera. It was first announced as partly Gluck's work, and only after its success was Salieri named as the composer.",
+      "1786: at Schonbrunn palace the emperor staged a contest of two short comic operas on one evening, Salieri's Prima la musica e poi le parole and Mozart's Der Schauspieldirektor.",
+      "1787 and 1788: Tarare, on a libretto by Beaumarchais, the author of The Marriage of Figaro, was a hit in Paris. Salieri rewrote it in Italian as Axur, re d'Ormus with the poet Lorenzo Da Ponte for Vienna, where it became one of the most performed operas of its day.",
+      "1788: he became Hofkapellmeister, in charge of music for the court and its chapel. He kept the post for 36 years.",
+      "1804: he wrote his last opera, and turned to church music and teaching.",
+      "1823 to 1825: he fell into deep illness and confusion, was cared for in a hospital, and died in May 1825."
+    ]},
+    {"k": "works", "h": "The music", "ps": [
+      "Operas in Italian, French and German: comic and serious, from light comedies to grand tragedies in the style of Gluck. Les Danaides (1784), Tarare (1787) and Axur (1788) were his biggest successes.",
+      "Falstaff, ossia Le tre burle (1799), a comic opera on Shakespeare's Merry Wives of Windsor, written nearly a century before Verdi's Falstaff.",
+      "Church music for the court, including masses and a Requiem in C minor that he wrote for his own funeral.",
+      "Per la ricuperata salute di Ofelia (1785), a short cantata for the singer Nancy Storace, written jointly by Salieri, Mozart and a third composer called Cornetti. It was thought lost until a printed copy was found in the Czech Museum of Music in Prague, announced in 2016.",
+      "Instrumental works such as concertos for piano, organ and flute, and a set of variations on the popular tune La Folia."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Florian Leopold Gassmann (1729 to 1774), his teacher and protector, who brought him to Vienna.",
+      "Christoph Willibald Gluck (1714 to 1787), the opera reformer who treated him as a disciple.",
+      "Emperor Joseph II (1741 to 1790), who loved music, played the cello and made Salieri his court composer.",
+      "Wolfgang Amadeus Mozart (1756 to 1791), his younger rival for court favour and commissions. In 1791 Mozart wrote to his wife that Salieri had come to The Magic Flute and called out 'bravo' after every number.",
+      "Ludwig van Beethoven (1770 to 1827), who studied writing for the voice with him around 1799 to 1802 and dedicated his three violin sonatas Op. 12 to him.",
+      "Franz Schubert (1797 to 1828), his pupil in composition for several years from about 1812.",
+      "Franz Liszt (1811 to 1886), whom he taught as a boy in Vienna in 1822, without a fee. His other pupils included Johann Nepomuk Hummel, Giacomo Meyerbeer and Mozart's son Franz Xaver."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Vienna under Joseph II was a city of reform and music. The emperor ran the court theatres himself, chose which operas to stage, and switched between Italian and German companies.",
+      "Italian opera ruled the stages of Europe, and Italian musicians held many of the top jobs at German-speaking courts. Salieri was part of that world, which slowly gave way to German opera and to the public concert in his lifetime.",
+      "He lived through the French Revolution, the Napoleonic wars and two French occupations of Vienna, in 1805 and 1809. When he died, Beethoven's Ninth Symphony was a year old."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "As a teacher he shaped the next generation. Beethoven, Schubert and Liszt all called themselves his pupils, and he helped found the Vienna Conservatory's singing school in 1817.",
+      "His operas dropped out of the repertoire within decades. Since the late twentieth century singers and conductors have recorded and staged them again, partly because of the curiosity the film Amadeus created.",
+      "In 1830 Alexander Pushkin wrote a short verse play, Mozart and Salieri, in which a jealous Salieri poisons Mozart. Nikolai Rimsky-Korsakov set it as an opera in 1897. Peter Shaffer's play Amadeus (1979) and Milos Forman's film (1984) made the story world famous."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Salieri poisoned Mozart.", "lab": "myth", "t": "There is no evidence. Mozart died in December 1791 after an illness of about two weeks with fever and swelling. Doctors at the time saw nothing suspicious, and modern guesses point to an infection or kidney disease. The story spread through Pushkin's play, Rimsky-Korsakov's opera and Amadeus."},
+      {"c": "On his deathbed he confessed to the murder.", "lab": "myth", "t": "Rumours of a confession circulated in Vienna in 1823, when he was old, ill and confused. Visitors wrote them down in Beethoven's conversation books. The people who nursed him stated that he made no such confession, and his pupil Ignaz Moscheles said that Salieri denied it to him."},
+      {"c": "He was a mediocre composer who envied genius.", "lab": "myth", "t": "In his own time he was one of the most successful opera composers in Europe, and more powerful than Mozart ever was. Amadeus is a drama about envy, not a portrait of the real man."},
+      {"c": "He and Mozart were bitter enemies.", "lab": "disputed", "t": "They were real rivals for jobs and productions, and Mozart and his father suspected Italian musicians of plotting against them. But the two men also worked together on the Ofelia cantata in 1785, Salieri conducted Mozart's music, and he later taught Mozart's son."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Antonio Salieri, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Antonio-Salieri"},
+      {"n": "Scores by Antonio Salieri, IMSLP Petrucci Music Library (public domain)", "u": "https://imslp.org/wiki/Category:Salieri,_Antonio"},
+      {"n": "Ignaz von Mosel, Ueber das Leben und die Werke des Anton Salieri (1827), public domain"},
+      {"n": "Alexander Pushkin, Mozart and Salieri (1830), public domain"},
+      {"n": "Further reading: John A. Rice, Antonio Salieri and Viennese Opera (1998)"}
+    ]}
+  ]
+}
