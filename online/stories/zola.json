@@ -1,0 +1,69 @@
+{
+  "hero": "",
+  "portrait": "pt-zola",
+  "kw": ["Paris", "Aix-en-Provence", "Hachette", "Naturalism", "Rougon-Macquart", "L'Assommoir", "Nana", "Germinal", "Anzin", "La Bete humaine", "Therese Raquin", "Dreyfus", "J'accuse", "L'Aurore", "Clemenceau", "Cezanne", "Manet", "Pantheon", "Academie francaise@myths", "murdered@myths"],
+  "lede": "A penniless engineer's son who wrote twenty novels about one family to show all of French society, then risked prison to tell the President of France, on the front page of a newspaper, that an innocent Jewish officer had been framed.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Emile Zola was born in Paris on 2 April 1840, the son of an Italian-born engineer and a French mother, and grew up in Aix-en-Provence.",
+      "He became the leader of Naturalism, a kind of fiction that studied people like a scientist, showing how heredity and surroundings shape them. His twenty-novel cycle, Les Rougon-Macquart, includes L'Assommoir, Nana and Germinal, about miners on strike.",
+      "In 1898 his open letter 'J'accuse...!' turned the Dreyfus affair into a national battle. He was convicted of libel and fled to England. He died in Paris on 29 September 1902, aged 62, poisoned by fumes from a blocked chimney."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father, Francois Zola, was building a canal and dam to bring water to Aix when he died of pneumonia in 1847. Emile was six. The family fell into poverty while lawsuits over the canal company dragged on.",
+      "At school in Aix his closest friend was Paul Cezanne. Together they roamed the hills and dreamed of becoming famous, Zola as a poet and Cezanne as a painter.",
+      {"t": "In 1858 the family moved to Paris. Zola failed his baccalaureate exam twice, worked briefly at the docks, and for a time was so poor he pawned his clothes and caught sparrows on his windowsill to eat, he later said.", "lab": "likely", "why": "The hunger stories come from Zola's own later recollections and those of his friend Paul Alexis."},
+      "In 1862 he got a job in the shipping department of the publisher Hachette and rose to run its publicity. He learned how books were sold, met writers and critics, and began publishing stories and art criticism. He left in 1866 to live by his pen."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1866: as an art critic he defended Edouard Manet, then mocked by the public, and lost his newspaper column. Manet thanked him with a portrait, Emile Zola (1868), now in the Musee d'Orsay.",
+      "1867: Therese Raquin, the story of two lovers who drown the woman's husband, was attacked as filth. Zola answered that he had studied his characters as a surgeon studies corpses.",
+      "1871: the first Rougon-Macquart novel appeared. Its subtitle was 'the natural and social history of a family under the Second Empire'. He finished the twentieth in 1893.",
+      "1877: L'Assommoir, about alcohol and poverty among Paris laundry workers, was a scandal and a best-seller. It made him rich, and he bought a country house at Medan, outside Paris.",
+      "1884 to 1885: during a strike he went down a coal mine at Anzin in northern France, filling notebooks, then wrote Germinal.",
+      "13 January 1898: L'Aurore printed his letter to the President, Felix Faure, under the headline 'J'accuse...!'. It named the officers he blamed for the conviction of Captain Alfred Dreyfus and the cover-up.",
+      "February and July 1898: he was tried for libel, as he intended, and sentenced to a year in prison. On the advice of friends he left for England in July and lived in hiding near London for eleven months.",
+      "June 1899: he returned to France after the case was reopened. Dreyfus was pardoned that September, but not cleared until 1906, four years after Zola's death."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "Les Rougon-Macquart (1871 to 1893): twenty novels following two branches of one family, the respectable Rougons and the poor Macquarts, through politics, finance, shops, farms, mines, railways and war.",
+      "L'Assommoir (1877), the fall of the laundress Gervaise, and Nana (1880), her daughter, a courtesan who ruins the rich men of Paris.",
+      "Au Bonheur des Dames (1883), about the rise of the department store, and Germinal (1885), a strike among coal miners that ends in defeat but with the hope of a future harvest.",
+      "La Bete humaine (1890), a crime novel on the railways, and La Debacle (1892), France's defeat by Prussia in 1870.",
+      "The essay The Experimental Novel (1880), his theory of Naturalism, and the Dreyfus writings collected as La Verite en marche (1901), 'truth is on the march'."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Paul Cezanne (1839 to 1906), his boyhood friend, until they drifted apart in the 1880s.",
+      "Alexandrine Zola (1839 to 1925), his wife from 1870.",
+      "Jeanne Rozerot (1867 to 1914), a young seamstress in his household, with whom he had two children, Denise (1889) and Jacques (1891). After his death Alexandrine helped the children take his name.",
+      "Edouard Manet (1832 to 1883), the painter he defended, and Gustave Flaubert, his mentor among novelists.",
+      "Alfred Dreyfus (1859 to 1935), the Jewish army officer wrongly convicted of spying for Germany in 1894.",
+      "Georges Clemenceau (1841 to 1929), editor at L'Aurore and later Prime Minister, who published J'accuse."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "He grew up under Napoleon III's Second Empire, a time of new boulevards, railways, banks and stores. After defeat by Prussia in 1870 came the Third Republic, still fragile and divided.",
+      "In 1894 a military court convicted Dreyfus of passing secrets to Germany, on weak evidence, and sent him to Devil's Island in French Guiana. When evidence pointed to another officer, Major Esterhazy, the army acquitted him in January 1898 and covered up.",
+      "Antisemitism ran deep. After J'accuse there were riots in many French towns and in Algeria, and crowds burned Zola's books and shouted for his death. France split into Dreyfusards and anti-Dreyfusards, dividing families and friends for years."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "J'accuse made the word 'intellectual' popular in France: a writer or thinker who speaks out in public on questions of justice. Many have taken him as their model.",
+      {"t": "At his funeral the novelist Anatole France said Zola had been 'a moment of the conscience of mankind'.", "lab": "verified", "why": "The speech was printed in the press in October 1902."},
+      "In June 1908 his remains were moved to the Pantheon in Paris. During the ceremony a journalist shot and wounded Dreyfus in the arm.",
+      "His novels have been filmed many times, from Jean Renoir's Nana (1926) and La Bete humaine (1938) to Germinal (1993)."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Zola was murdered by his enemies.", "lab": "disputed", "t": "The official inquiry found an accident. In 1953 a newspaper published the claim of a pharmacist that a roofer, Henri Buronfosse, had confessed on his deathbed to blocking the chimney on purpose. It has never been proven."},
+      {"c": "Zola chose the headline 'J'accuse'.", "lab": "myth", "t": "His letter was titled 'Letter to M. Felix Faure, President of the Republic'. Clemenceau chose the famous headline, taken from the phrase Zola repeats at the end of the letter."},
+      {"c": "As France's most famous novelist, he was a member of the Academie francaise.", "lab": "myth", "t": "He stood for election again and again from 1890 and was always rejected. His Naturalism, and later his Dreyfus campaign, made him unacceptable to the Academy."},
+      {"c": "He was tried for J'accuse because he went too far by accident.", "lab": "myth", "t": "He wanted to be sued. A trial in an ordinary court would put the evidence in front of a jury, where the army could not keep it secret."},
+      {"c": "Germinal was invented in a study.", "lab": "myth", "t": "He visited the mines of Anzin during the 1884 strike, went underground, talked to miners and engineers, and kept detailed notes, which survive in the National Library of France."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Emile Zola, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Emile-Zola"},
+      {"n": "Emile Zola, author page, Wikisource (public domain texts)", "u": "https://en.wikisource.org/wiki/Author:%C3%89mile_Zola"},
+      {"n": "Musee d'Orsay, Paris (Manet's portrait of Zola)", "u": "https://www.musee-orsay.fr/en"},
+      {"n": "Emile Zola, J'accuse...!, L'Aurore, 13 January 1898 (public domain)"},
+      {"n": "Further reading: Frederick Brown, Zola: A Life (1995)"}
+    ]}
+  ]
+}

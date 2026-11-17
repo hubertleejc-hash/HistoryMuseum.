@@ -1,0 +1,69 @@
+{
+  "hero": "",
+  "portrait": "pt-poe",
+  "kw": ["Boston", "Richmond", "Baltimore", "Philadelphia", "New York", "The Raven", "The Tell-Tale Heart", "The Fall of the House of Usher", "The Murders in the Rue Morgue", "Dupin", "detective story", "Virginia Clemm", "John Allan", "Rufus Griswold", "Baudelaire", "Annabel Lee", "Edgar Awards@legacy", "cause of death@myths"],
+  "lede": "An actress's orphan, raised by a Richmond merchant who never adopted him, who wrote the poem everyone in America could quote, invented the detective story, and was found delirious in a Baltimore tavern wearing someone else's clothes.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Edgar Poe was born in Boston on 19 January 1809. Both his parents were travelling actors. Before he was three his father had left and his mother had died.",
+      "He became a poet, a sharp literary critic and a master of the short story: tales of terror such as The Fall of the House of Usher and The Tell-Tale Heart, and The Murders in the Rue Morgue, the first modern detective story. In 1845 The Raven made him famous.",
+      "He was almost always poor. His young wife died of tuberculosis in 1847. He died in Baltimore on 7 October 1849, aged 40, after being found in a confused state in a Baltimore tavern. No one knows exactly why."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His mother, the English-born actress Eliza Poe, died in Richmond, Virginia, in December 1811. Edgar was taken in by John Allan, a Scottish-born tobacco merchant, and his wife Frances. They gave him the middle name Allan but never adopted him.",
+      "From 1815 to 1820 the Allans lived in Britain, and Edgar went to school in London. Back in Richmond he was a good student, a strong swimmer and already a poet.",
+      "In 1826 he went to the new University of Virginia. Allan sent too little money, Edgar gambled to make up the gap, and he left after one term with heavy debts. He quarrelled bitterly with Allan and left home."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      {"t": "1827: in Boston he paid for a thin book, Tamerlane and Other Poems, signed only 'a Bostonian'. Very few copies survive. The same year, short of money, he joined the US Army under the name Edgar A. Perry.", "lab": "verified", "why": "About a dozen copies of Tamerlane are known; his army enlistment record survives."},
+      "1830 to 1831: he entered the military academy at West Point, then got himself expelled by deliberately missing classes and parades. He moved to Baltimore to live with his aunt, Maria Clemm, and her daughter Virginia.",
+      "1833: his story MS. Found in a Bottle won a 50-dollar prize from a Baltimore paper. In 1835 he went to Richmond to work on the Southern Literary Messenger, whose sales rose fast under his reviews and tales.",
+      "May 1836: he married his cousin Virginia Clemm. He was 27 and she was 13.",
+      "Philadelphia, 1838 to 1844: his most productive years. He edited magazines, published Tales of the Grotesque and Arabesque (1840), and in April 1841 printed The Murders in the Rue Morgue.",
+      "January 1842: Virginia burst a blood vessel while singing. It was the first sign of tuberculosis. She was ill for five years.",
+      "January 1845: The Raven appeared in a New York newspaper and was reprinted across the country. He became a celebrity, but not a rich one.",
+      "30 January 1847: Virginia died in their small cottage at Fordham, then outside New York City. Poe fell ill with grief.",
+      "October 1849: travelling north from Richmond, he was found in Baltimore on 3 October, on an election day, in clothes that were not his own. He was taken to Washington College Hospital and died there four days later."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "The tales of terror: The Fall of the House of Usher (1839), The Pit and the Pendulum (1842), The Tell-Tale Heart (1843), The Black Cat (1843) and The Cask of Amontillado (1846). They are short, tightly built and often told by a narrator who cannot be trusted.",
+      "The detective stories of C. Auguste Dupin: The Murders in the Rue Morgue (1841), The Mystery of Marie Roget (1842) and The Purloined Letter (1844). The brilliant amateur detective and his admiring friend who tells the story were Poe's invention.",
+      "The Gold-Bug (1843), a treasure hunt solved by cracking a code, won a 100-dollar prize and was his biggest success in his lifetime.",
+      "The poems: The Raven (1845), with its refrain 'Quoth the Raven, Nevermore', The Bells and Annabel Lee, published just after his death in 1849.",
+      "His criticism: The Philosophy of Composition (1846) claims he wrote The Raven step by step, like solving a mathematical problem. He also wrote Eureka (1848), a prose poem about the universe."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Eliza Poe (about 1787 to 1811), his mother, an admired actress.",
+      "John Allan (1779 to 1834), his foster father, who left him nothing in his will. Frances Allan (1784 to 1829), his foster mother, who loved him.",
+      "Maria Clemm (1790 to 1871), his aunt and mother-in-law, who kept house for him for years and outlived him.",
+      "Virginia Clemm Poe (1822 to 1847), his cousin and wife.",
+      "Rufus Wilmot Griswold (1815 to 1857), an editor and rival who became his literary executor, and damaged his name for a century.",
+      "Frances Sargent Osgood and Sarah Helen Whitman, poets with whom he had close friendships after Virginia's illness and death. In 1849 he was engaged to his teenage sweetheart, Elmira Royster Shelton."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "America in the 1830s and 1840s was full of cheap magazines and newspapers. Poe was one of the first Americans to try to live by writing alone, and the pay was very low.",
+      "There was no international copyright. American publishers could reprint British books for free, so they had little reason to pay American authors well. Poe's own stories were reprinted without payment.",
+      "Many children and young adults died of tuberculosis, called consumption. Poe watched his mother, his foster mother and his wife die young, and dying beautiful women fill his poems."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "Arthur Conan Doyle credited Poe's Dupin as the model for Sherlock Holmes. The Mystery Writers of America give their annual prizes, the Edgars, in his name.",
+      "The French poet Charles Baudelaire translated his tales in the 1850s and 1860s, and Poe was admired in France, and then in Russia and Latin America, before many Americans took him seriously.",
+      "Horror writers from H. P. Lovecraft to Stephen King count him as an ancestor. Baltimore's professional football team, the Ravens, is named after his poem.",
+      {"t": "From about 1949 to 2009 an unknown visitor left three roses and a half-empty bottle of cognac at his Baltimore grave every year on his birthday. The visits then stopped.", "lab": "verified", "why": "The 'Poe Toaster' was watched and reported by the Poe House and the press for decades; the visitor's identity was never confirmed."}
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Poe was a drug addict and a madman.", "lab": "myth", "t": "This image comes largely from Rufus Griswold, whose obituary began 'Edgar Allan Poe is dead' and said few would grieve. His 1850 memoir included letters he had altered. Poe did drink, and alcohol hit him hard, but there is little good evidence that he used opium."},
+      {"c": "We know what killed him.", "lab": "disputed", "t": "His medical records do not survive, and the doctor who treated him told different stories later. Theories include alcohol poisoning, a brain illness, rabies and 'cooping', when gangs forced men to vote many times on election day. None is proven."},
+      {"c": "The Raven made him rich.", "lab": "myth", "t": "He is usually said to have been paid about 9 dollars for its first appearance. The poem was reprinted everywhere, but without copyright he earned almost nothing from that."},
+      {"c": "He married a child bride.", "lab": "verified", "t": "Virginia was 13. Marriage at that age was legal in Virginia, though unusual even then, and the marriage bond gave her age as 21."},
+      {"c": "His last words were 'Lord help my poor soul'.", "lab": "disputed", "t": "This comes from Dr John Moran, who told and retold the story of Poe's death over decades, adding details each time."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Edgar Allan Poe, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Edgar-Allan-Poe"},
+      {"n": "The Edgar Allan Poe Society of Baltimore (texts and letters)", "u": "https://www.eapoe.org/"},
+      {"n": "The Poe Museum, Richmond", "u": "https://poemuseum.org/"},
+      {"n": "Edgar Allan Poe, author page, Wikisource (public domain texts)", "u": "https://en.wikisource.org/wiki/Author:Edgar_Allan_Poe"},
+      {"n": "Further reading: Kenneth Silverman, Edgar A. Poe: Mournful and Never-Ending Remembrance (1991)"}
+    ]}
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "hero": "",
+  "portrait": "pt-qianlong",
+  "kw": ["Qing dynasty", "Hongli", "Kangxi", "Yongzheng", "Beijing", "Forbidden City", "Dzungars", "Xinjiang", "Tibet", "Canton system", "Siku Quanshu", "Castiglione", "Old Summer Palace", "Heshen", "Macartney", "George III", "kowtow@myths", "Fragrant Concubine@myths", "literary inquisition@myths", "Jiaqing"],
+  "lede": "The grandson of the great Kangxi Emperor, who ruled China for sixty years at the height of its size and wealth, wrote tens of thousands of poems, stamped his seals on the empire's greatest paintings, and told a British king that China had no need of his goods.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "The Qianlong Emperor was born Hongli in Beijing on 25 September 1711, a grandson of the Kangxi Emperor. He came to the throne in 1735 and reigned under the era name Qianlong, 'lasting glory'.",
+      "Under him the Qing empire reached its greatest size, taking in Xinjiang, Mongolia and Tibet, and China's population grew to about 300 million. He was a soldier, a scholar, a poet and an enormous collector of art.",
+      "In 1796 he handed the throne to his son out of respect for his grandfather, so as not to reign longer than Kangxi's 61 years, but he kept real power until he died on 7 February 1799, aged 87."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "Hongli was the fourth son of Prince Yinzhen, who became the Yongzheng Emperor in 1722. The Qing were Manchus, a people from the north-east who had conquered China in 1644, and the boy was raised to ride, shoot and speak Manchu as well as to master the Chinese classics.",
+      {"t": "When he was about eleven his grandfather Kangxi met him, took to him at once and had him brought to live at court. Later writers said Kangxi chose his son partly because of this grandson.", "lab": "likely", "why": "Qianlong himself promoted the story. The meeting is recorded; Kangxi's motives are not."},
+      "His father secretly named him heir, sealing the name in a box behind a tablet in the palace, a system meant to stop princes fighting over the throne. When Yongzheng died in October 1735 the box was opened."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1735. He became emperor at 24, inheriting a full treasury and an orderly government from his hardworking father.",
+      "Southern tours, 1751 to 1784. Like Kangxi, he made six great tours of the rich south, inspecting river works and writing poems about the scenery. The journeys were splendid and costly.",
+      "The Dzungar war, 1755 to 1759. The Dzungars, a Mongol people, had long fought the Qing in Central Asia. Qianlong's armies destroyed their state. Historians generally estimate that most of the Dzungar population, perhaps several hundred thousand people, died from killings, smallpox and flight. Many describe it as genocide or near genocide; others stress the role of disease and civil war among the Dzungars. Qing forces then conquered the oasis towns to the south, and the whole region became Xinjiang, 'the new frontier'.",
+      "Canton, 1757. He ruled that European ships could trade only at Guangzhou (Canton), through licensed Chinese merchants. This Canton system lasted until the Opium War.",
+      "The Siku Quanshu, 1773 to 1782. He ordered scholars to collect and copy China's most important books into one vast library, the 'Complete Library of the Four Treasuries'. It held about 3,500 works in some 36,000 volumes, and seven handwritten sets were made.",
+      "The Macartney embassy, 1793. George III sent Lord Macartney to ask for an ambassador in Beijing, new ports and lower duties. Qianlong received him at his summer retreat at Chengde, accepted his gifts as tribute and refused every request.",
+      "1796 to 1799. He abdicated in favour of his son, the Jiaqing Emperor, but kept control as 'Retired Emperor'. A large rebellion of the White Lotus sect had broken out in central China."
+    ]},
+    {"k": "works", "h": "The collector and poet", "ps": [
+      "He built up the largest imperial art collection in Chinese history: paintings, calligraphy, bronzes, jades and porcelain. Much of it is now in the Palace Museum in Beijing and the National Palace Museum in Taipei.",
+      "He wrote his own comments on many great paintings and stamped them with his seals, sometimes dozens on one scroll. Admirers see a devoted connoisseur; critics see a man who could not leave a masterpiece alone.",
+      "He kept three pieces of ancient calligraphy he loved most in a small study in the Forbidden City he named the Hall of Three Rarities.",
+      {"t": "More than 40,000 poems were published under his name, which would make him the most prolific poet in Chinese history.", "lab": "likely", "why": "The count is from his collected works. Courtiers almost certainly helped polish or draft many of them."},
+      "He enlarged the Old Summer Palace, the Yuanmingyuan, outside Beijing, including a group of European-style palaces and fountains designed by Jesuits at his court. British and French troops burned it in 1860."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "The Kangxi Emperor (1654 to 1722), his grandfather and model, whose reign he would not outlast.",
+      "Empress Xiaoxian (1712 to 1748), his first empress. Her death on a journey left him grief-stricken, and he punished officials for not mourning properly.",
+      "Giuseppe Castiglione (1688 to 1766), an Italian Jesuit known in China as Lang Shining, who painted the emperor, his horses and his hunts, blending European shading with Chinese styles.",
+      "Heshen (1750 to 1799), a guard who became his all-powerful favourite and grew immensely rich through corruption. Days after Qianlong's death, Jiaqing ordered him to kill himself.",
+      "George Macartney (1737 to 1806), the British envoy of 1793, and King George III (1738 to 1820), who sent him."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Eighteenth-century China was the largest and one of the richest states on earth. New World crops such as maize and sweet potatoes helped the population roughly double during the century.",
+      "Europe wanted tea, silk and porcelain and had little that China wanted in return, so it paid in silver, much of it mined in Spanish America. Britain's search for something else to sell would later lead to opium.",
+      "In the same decades Britain lost its American colonies and France fell into revolution. Qianlong's court saw little reason to look west."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "He left China at its largest, and its borders in Xinjiang and Tibet still shape the map today.",
+      "He also left problems: an emptied treasury after costly wars, corruption under Heshen, rebellion, and a population growing faster than land and government. Many historians date the start of the Qing decline to his last years.",
+      "The refusal of 1793 later became a symbol, for both Western and Chinese writers, of a great empire turning its back on the industrial world just before that world arrived with gunboats."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "He told George III that China had no need of British manufactures.", "lab": "verified", "t": "His edict of 1793 says so: in the 1914 English version, 'we possess all things' and 'have no use for your country's manufactures'. It followed the court's tribute language, and the English wording comes from translation, so it reads more insulting than an ordinary Qing edict to a foreign ruler."},
+      {"c": "Macartney refused to kowtow.", "lab": "disputed", "t": "Macartney wrote that he knelt on one knee, as to his own king, instead of the full kowtow. Some Chinese records and later accounts suggest more bowing than that. What happened exactly is still argued."},
+      {"c": "The great library was pure scholarship.", "lab": "myth", "t": "While collecting books for the Siku Quanshu, officials also hunted for works disrespectful to the Manchus. Thousands of titles were banned, altered or burned, and some authors and their families were punished."},
+      {"c": "He loved a Uyghur concubine whose body gave off a natural fragrance.", "lab": "myth", "t": "There was a real Uyghur consort, Rong Fei, who lived at court for decades. The legend of the 'Fragrant Concubine' who resisted him and died for it grew up long afterwards."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Qianlong, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Qianlong"},
+      {"n": "Qianlong's letter to George III (1793), Modern History Sourcebook, Fordham University", "u": "https://sourcebooks.fordham.edu/mod/1793qianlong.asp"},
+      {"n": "The Palace Museum, Beijing", "u": "https://en.dpm.org.cn/"},
+      {"n": "E. Backhouse and J. O. P. Bland, Annals and Memoirs of the Court of Peking (1914), public domain"},
+      {"n": "Further reading: Mark C. Elliott, Emperor Qianlong: Son of Heaven, Man of the World (2009)"}
+    ]}
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "hero": "",
+  "portrait": "pt-vivaldi",
+  "kw": ["Venice", "The Four Seasons", "Le quattro stagioni", "violin concerto", "Ospedale della Pieta", "red priest", "Il prete rosso", "L'estro armonico", "Il cimento dell'armonia e dell'inventione", "opera", "Anna Giro", "Bach", "Charles VI", "Vienna", "Turin", "Juditha triumphans", "baroque", "one concerto 500 times@myths", "orphans@myths"],
+  "lede": "A red-haired Venetian priest who hardly ever said Mass, taught music to the abandoned girls of a charity home, wrote some five hundred concertos, and died poor in Vienna before being forgotten for almost two hundred years.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Antonio Vivaldi was born in Venice on 4 March 1678. He became a priest, a star violinist and the most famous Italian composer of concertos in his lifetime.",
+      "For most of his career he worked on and off at the Ospedale della Pieta, a Venetian home for abandoned children whose girls' orchestra was famous across Europe. His set of four violin concertos, The Four Seasons, was published in 1725.",
+      "He also wrote and staged dozens of operas. In 1740 he left Venice for Vienna, and he died there in July 1741, aged 63, with his fortunes gone."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father, Giovanni Battista, was a barber who became a professional violinist at St Mark's Basilica. He taught Antonio, and father and son sometimes played together.",
+      {"t": "Antonio was baptised at home by the midwife straight after his birth because he seemed in danger of dying. A later family story links this to an earthquake that shook Venice that day.", "lab": "likely", "why": "The emergency baptism is in the parish record. The earthquake link is a later tradition."},
+      "He trained for the priesthood from the age of fifteen while still studying music, and was ordained in 1703. Like his father he had red hair, and Venice called him 'il prete rosso', the red priest.",
+      {"t": "Soon after ordination he stopped saying Mass. He later wrote that a tightness in his chest, present since birth, made it impossible.", "lab": "likely", "why": "His own explanation, in a letter of 1737 written when his priestly conduct was under attack. Most historians think it was a real illness, perhaps asthma."}
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "The Pieta, 1703. He was hired as violin master at the Ospedale della Pieta. He taught the girls, bought their instruments and wrote music for them to play at services. He would work for the Pieta, with breaks, for most of the next 37 years.",
+      "Amsterdam, 1711. His twelve concertos L'estro armonico ('harmonic inspiration') were printed by the Amsterdam publisher Estienne Roger and spread across northern Europe. Young composers studied them as models.",
+      "1713 to 1716. His first opera, Ottone in villa, was staged in Vicenza in 1713. In 1716 the Pieta performed his oratorio Juditha triumphans, celebrating a Venetian victory over the Ottoman Turks at Corfu.",
+      "Mantua, 1718 to 1720. He served as music director to the governor of Mantua, Prince Philip of Hesse-Darmstadt, and wrote operas for the court.",
+      "1725. Il cimento dell'armonia e dell'inventione ('the contest between harmony and invention'), his Opus 8, was published, opening with The Four Seasons.",
+      "Impresario, 1720s and 1730s. He wrote, cast and managed operas in Venice and toured to Rome, Prague and elsewhere. His leading singer was his pupil Anna Giro, who travelled with him with her sister.",
+      "Ferrara, 1737. The Cardinal of Ferrara banned him from the city, citing his refusal to say Mass and his friendship with Anna Giro. A planned opera season collapsed and Vivaldi lost a great deal of money.",
+      "Vienna, 1740 to 1741. He sold many manuscripts and left for Vienna, probably hoping for work from Emperor Charles VI. The emperor died in October 1740. Vivaldi died on 28 July 1741 and was buried in a hospital cemetery near the Karlskirche."
+    ]},
+    {"k": "works", "h": "The music", "ps": [
+      "About 500 concertos survive, almost half of them for one solo violin, but also for cello, flute, recorder, bassoon, oboe, mandolin and many combinations. His usual pattern of fast, slow, fast movements, with a returning tutti theme, became the standard shape of the baroque concerto.",
+      "The Four Seasons. Each concerto comes with a sonnet, and the music acts it out: birdsong in Spring, a sleeping goatherd and a barking dog, a summer storm, drunken peasants at the harvest, teeth chattering on winter ice. The poems may be by Vivaldi himself.",
+      "Other famous sets include L'estro armonico (1711), La stravaganza (about 1716) and La cetra (1727), which he dedicated to Charles VI.",
+      {"t": "Operas: in 1739 he claimed to have written 94. About 50 are known and fewer than half survive complete.", "lab": "likely", "why": "The number 94 is his own claim, in a letter. Scholars cannot account for all of them."},
+      "Sacred music, including the bright Gloria in D, RV 589, written for the Pieta and now one of his most performed works."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Giovanni Battista Vivaldi (about 1655 to 1736), his father and first teacher.",
+      "The 'figlie di coro', the young women of the Pieta orchestra and choir. Some, like the violinist Anna Maria, became famous soloists, though custom kept them behind iron grilles.",
+      "Anna Giro (about 1710 to after 1748), the contralto who starred in his operas. He insisted the relationship was proper.",
+      "Johann Sebastian Bach (1685 to 1750), who never met him but arranged about ten of his concertos for organ and harpsichord around 1713 to 1714.",
+      "Emperor Charles VI (1685 to 1740), who met him in 1728 and honoured him. His death left Vivaldi without a patron.",
+      "Count Wenzel von Morzin, the Bohemian nobleman to whom Opus 8, with The Four Seasons, was dedicated."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Venice was no longer a great power, but it was Europe's capital of pleasure. Carnival lasted for months, visitors came for masks, gambling and music, and the city had more opera houses than anywhere else.",
+      "Four large charity hospitals, the ospedali, took in abandoned and poor children. Their girls' choirs and orchestras gave public concerts that tourists paid to hear, and the income kept the hospitals going.",
+      "Music was a business. Printed parts sold in Amsterdam and London, and opera was a gamble: one failed season could ruin an impresario."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "After his death fashions changed and his music fell almost silent. He was remembered mostly as a name in the story of Bach.",
+      "In the 1920s a huge collection of his manuscripts surfaced at a monastery school in Piedmont. With help from two donors it was bought for the National Library in Turin, where scholars found hundreds of unknown concertos and many operas.",
+      "Concerts and recordings from the late 1930s onwards brought him back. After the Second World War The Four Seasons became one of the most recorded pieces of classical music.",
+      "Finds still happen: in 2002 the music of his lost opera Motezuma turned up in an archive in Berlin."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Vivaldi wrote the same concerto 500 times.", "lab": "myth", "t": "The quip is usually credited to Igor Stravinsky, though its origin is uncertain. In fact Vivaldi experimented constantly with form, instruments and programme music."},
+      {"c": "The Pieta girls were orphans.", "lab": "disputed", "t": "Most were foundlings left anonymously at the hospital, many born outside marriage. Some had living parents. 'Orphans' is a loose label."},
+      {"c": "He died a pauper.", "lab": "disputed", "t": "He died in debt and had a simple funeral, but he had earned well for decades and was still known across Europe. He had lost his patrons and his market, not his name."},
+      {"c": "He was a priest who did not say Mass.", "lab": "verified", "t": "He was ordained in 1703 and soon stopped celebrating Mass, citing ill health. He still dressed as a priest."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Antonio Vivaldi, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Antonio-Vivaldi"},
+      {"n": "Vivaldi scores, IMSLP Petrucci Music Library (public domain editions)", "u": "https://imslp.org/wiki/Category:Vivaldi,_Antonio"},
+      {"n": "Antonio Vivaldi, Il cimento dell'armonia e dell'inventione, Op. 8 (Amsterdam, 1725), public domain"},
+      {"n": "Further reading: Michael Talbot, Vivaldi (1978)"}
+    ]}
+  ]
+}

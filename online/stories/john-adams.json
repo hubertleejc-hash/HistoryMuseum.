@@ -1,0 +1,66 @@
+{
+  "hero": "",
+  "portrait": "pt-john-adams",
+  "kw": ["Braintree", "Quincy", "Massachusetts", "Harvard", "Boston Massacre", "Continental Congress", "Declaration of Independence", "Abigail Adams", "Remember the Ladies", "Jefferson", "Franklin", "Washington", "Treaty of Paris", "George III", "Thoughts on Government", "Alien and Sedition Acts", "XYZ Affair", "John Quincy Adams", "White House", "Jefferson survives@myths"],
+  "lede": "A stubborn, honest, thin-skinned farmer's son from Massachusetts who defended British soldiers in court, argued America into independence, became its second president, and died on its fiftieth birthday believing his old rival Jefferson was still alive.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "John Adams was born on 30 October 1735 in Braintree, Massachusetts, in what is now Quincy. He became a lawyer and one of the loudest voices for American independence.",
+      "He served as a diplomat in France, the Netherlands and Britain, as the first vice president under George Washington, and as the second president of the United States from 1797 to 1801.",
+      "His marriage to Abigail Adams, recorded in more than a thousand letters, is one of the best documented in history. He died on 4 July 1826, fifty years to the day after the Declaration of Independence, aged 90."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father, also John, was a farmer, a shoemaker in winter and a deacon of the local church. He wanted his eldest son to become a minister and sent him to Harvard College, where he graduated in 1755.",
+      "Adams taught school in Worcester while he decided what to do, and kept a diary full of self-criticism about vanity and laziness. He chose the law, and was admitted to the bar in 1758.",
+      "In 1764 he married Abigail Smith, a minister's daughter from Weymouth, nine years younger, sharp-witted and widely read though she had never been to school. They had six children, four of whom lived to adulthood, including a future president, John Quincy Adams."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1765. He wrote protests against the Stamp Act and became known as a defender of colonial rights.",
+      "Boston, 1770. After British soldiers shot dead five people in the Boston Massacre, no lawyer would defend them. Adams did, believing everyone deserved a fair trial. Captain Thomas Preston and six soldiers were acquitted; two were convicted of manslaughter. 'Facts are stubborn things', he told the jury.",
+      "Philadelphia, 1774 to 1777. In the Continental Congress he proposed George Washington as commander of the army in 1775 and pushed hard for a break with Britain. He sat on the committee that produced the Declaration of Independence, and argued for it on the floor.",
+      "Europe, 1778 to 1788. He was sent to France, where he clashed with Benjamin Franklin's relaxed diplomacy. In 1782 he won Dutch recognition of the United States and a vital loan. With Franklin and John Jay he negotiated the Treaty of Paris of 1783, which ended the war.",
+      "London, 1785. As the first American minister to Britain he was received by King George III, the monarch he had helped overthrow. Both men were awkward and polite.",
+      "Vice president, 1789 to 1797. He found the job frustrating and called it 'the most insignificant office' ever invented.",
+      "President, 1797 to 1801. An undeclared naval war with France, the Quasi-War, dominated his term. Against the wishes of his own Federalist party he sent peace envoys in 1799 and avoided full war. It cost him re-election in 1800, which he lost to Thomas Jefferson.",
+      "Quincy, 1801 to 1826. He retired to his farm, read and wrote endlessly, and in 1812 made peace with Jefferson. Their letters ran until both men died."
+    ]},
+    {"k": "works", "h": "The writings", "ps": [
+      "Thoughts on Government (1776), a short pamphlet advising the new states to set up governments with separate legislative, executive and judicial branches, and a two-house legislature.",
+      "The Massachusetts Constitution, which he drafted in 1779. Adopted in 1780, it is the oldest written constitution still in use in the world.",
+      "A Defence of the Constitutions of Government of the United States of America (1787 to 1788), three volumes written in London, arguing for balanced government.",
+      "His letters and diary. Writing to Abigail on 3 July 1776, he predicted independence would be celebrated 'with Pomp and Parade' and 'Illuminations from one End of this Continent to the other'.",
+      "His blessing on the new President's House, written on his second night there in November 1800, later carved into a mantel in the White House: 'May none but honest and wise Men ever rule under this roof.'"
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Abigail Adams (1744 to 1818), his wife, partner and adviser. In March 1776 she urged him to 'remember the ladies' in the new laws.",
+      "Thomas Jefferson (1743 to 1826), friend, then political enemy, then friend again. They wrote more than 150 letters to each other in old age.",
+      "Benjamin Franklin (1706 to 1790), his fellow diplomat in Paris, whom he admired and resented.",
+      "George Washington (1732 to 1799), whom he nominated as commander and served as vice president.",
+      "The Marquis de Lafayette (1757 to 1834), whom he knew in the revolution and in Paris, and who visited him at Quincy in 1824.",
+      "John Quincy Adams (1767 to 1848), his son, who went with him to Europe as a boy and became the sixth president in 1825."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "He was born a loyal subject of George II in a colony of farmers and fishermen. He died in a republic of 24 states that stretched to the Mississippi and beyond.",
+      "The young republic quickly split into parties, Federalists like Adams and Jefferson's Republicans, with bitter newspaper wars on both sides.",
+      "Adams never owned slaves and thought slavery wrong, but like most northern leaders of his time he did not make ending it a political cause."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "He is remembered less for his presidency than for his part in independence, his diplomacy and his ideas about balanced government, many of which shaped the US Constitution.",
+      "The Adams family papers, kept by the Massachusetts Historical Society, are one of the richest records of the founding era, and are now online.",
+      "His home in Quincy is part of the Adams National Historical Park, where he and Abigail, John Quincy and his wife Louisa are buried in the United First Parish Church."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "His last words were 'Thomas Jefferson survives'.", "lab": "likely", "t": "Family members reported these as among his last words. If so, he was wrong: Jefferson had died at Monticello a few hours earlier the same day."},
+      {"c": "Adams wrote the Declaration of Independence.", "lab": "myth", "t": "Thomas Jefferson drafted it. Adams sat on the committee, made small changes, and was its strongest defender in the debates in Congress."},
+      {"c": "He signed laws that punished criticism of the government.", "lab": "verified", "t": "In 1798 he signed the Alien and Sedition Acts. Under the Sedition Act several newspaper editors and a congressman were jailed for criticising him. It is the biggest stain on his record."},
+      {"c": "He thought 4 July would be the great holiday.", "lab": "myth", "t": "He expected Americans to celebrate 2 July, the day Congress voted for independence. The country chose the date on the printed Declaration instead."},
+      {"c": "He refused to attend Jefferson's inauguration.", "lab": "verified", "t": "He left Washington by early morning coach on 4 March 1801. Historians still argue whether it was bitterness or simply custom and the coach timetable."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "John Adams, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/John-Adams"},
+      {"n": "Founders Online, National Archives (the Adams papers and letters)", "u": "https://founders.archives.gov/"},
+      {"n": "Massachusetts Historical Society, Adams Family Papers", "u": "https://www.masshist.org/"},
+      {"n": "Further reading: David McCullough, John Adams (2001)"}
+    ]}
+  ]
+}

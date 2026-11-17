@@ -1,0 +1,65 @@
+{
+  "hero": "",
+  "portrait": "pt-engels",
+  "kw": ["Barmen", "Wuppertal", "Bremen", "Manchester", "Ermen and Engels", "cotton", "Marx", "Mary Burns", "Lizzie Burns", "The Condition of the Working Class in England", "Communist Manifesto", "Capital", "Anti-Duhring", "Origin of the Family", "Regent's Park Road", "Beachy Head", "fox hunting@people", "Freddy Demuth@myths"],
+  "lede": "A pious German mill-owner's son who ran his family's Manchester cotton business for twenty years, rode with the Cheshire hunt, and used the profits to keep Karl Marx alive while they planned the end of capitalism.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Friedrich Engels was born on 28 November 1820 in Barmen, a textile town in Prussia's Rhineland, today part of Wuppertal. His father owned cotton mills there and was a partner in a mill in Manchester.",
+      "Sent to Manchester to learn the business, he wrote The Condition of the Working Class in England (1845). From 1844 he was Karl Marx's closest friend and partner, and with him wrote The Communist Manifesto (1848).",
+      "For twenty years he worked in the family firm, much of the money going to support Marx. After Marx died he edited the last two volumes of Capital and became the elder statesman of European socialism. He died in London on 5 August 1895, aged 74."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His family were strict Pietist Protestants, and Barmen was a town of chapels and smoky dye works along the Wupper river. His father took him out of school at seventeen to work in the business.",
+      "From 1838 to 1841 he was a clerk in a trading house in Bremen. In his spare time he fenced, rode, wrote poems and, under the false name Friedrich Oswald, published Letters from Wuppertal (1839), describing the poverty and drunkenness of the mill workers at home.",
+      "In 1841 and 1842 he did his military service in the artillery in Berlin. He went to lectures at the university and joined the Young Hegelians, the radical young followers of the philosopher Hegel. By then he had lost his faith."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      {"t": "November 1842: on his way to Manchester he called at the office of the Rheinische Zeitung in Cologne and met its editor, Karl Marx, who was cool towards him.", "lab": "likely", "why": "Known mainly from Engels's own recollection decades later."},
+      "Manchester, 1842 to 1844. He worked at the Ermen and Engels mill office and walked the slums. He met Mary Burns, an Irish working woman, who became his partner and guide to the workers' districts.",
+      "1844: his essay Outlines of a Critique of Political Economy deeply impressed Marx. In late August they met again in Paris, spent ten days together, and found they agreed on everything. Their partnership lasted until Marx's death.",
+      "1845: The Condition of the Working Class in England was published in Leipzig, in German. The next years he spent with Marx in Brussels and Paris, working for the Communist League.",
+      "1848 to 1849: after the Manifesto, he joined the revolutions in Germany and in 1849 fought in the failed uprising in Baden and the Palatinate as an adjutant in a volunteer corps. He escaped to Switzerland and then England.",
+      "Manchester again, 1850 to 1869. He went back to the firm as a clerk, became a partner in 1864, and sent Marx money almost every week, sometimes as banknotes cut in half and posted in two envelopes for safety. He kept two homes: a respectable one for business, and one with Mary Burns and her sister Lizzie.",
+      "1869 to 1870: he sold his share in the firm and moved to London, to 122 Regent's Park Road, a short walk from Marx. He settled an annual income of 350 pounds on the Marx family.",
+      "1883 to 1894: after Marx died he spoke at his grave, then spent years deciphering Marx's terrible handwriting to publish Capital, volume two (1885), and volume three (1894)."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "The Condition of the Working Class in England (1845): a vivid account of Manchester's cellar dwellings, cholera, child labour and factory accidents, mixing what he saw with official reports and newspaper accounts. It was translated into English only in 1887.",
+      "With Marx: The Holy Family (1845), The German Ideology (written 1845 to 1846, published in full only in 1932) and The Communist Manifesto (1848). Engels wrote a draft in question-and-answer form, Principles of Communism, which Marx reworked.",
+      "Anti-Duhring (1878), an attack on a rival German socialist that became the most popular introduction to Marxism. Part of it was printed separately as Socialism: Utopian and Scientific (1880).",
+      "The Origin of the Family, Private Property and the State (1884), drawing on the American anthropologist Lewis Henry Morgan, which argued that the family and the subordination of women changed with property and history.",
+      {"t": "He also wrote on military affairs, so well that friends nicknamed him 'the General'.", "lab": "verified", "why": "The nickname appears often in the Marx family's letters."}
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Karl Marx (1818 to 1883), his friend and collaborator for almost forty years.",
+      "Mary Burns (about 1821 to 1863), his Irish partner. When she died suddenly, Marx's short, money-minded reply hurt Engels deeply, and Marx apologised. It is the only serious quarrel known between them.",
+      "Lizzie Burns (1827 to 1878), Mary's sister, his partner afterwards. He married her on her deathbed so that she could die as his wife.",
+      "Jenny Marx and the Marx daughters, especially Eleanor Marx (1855 to 1898), who called him 'the General' too.",
+      "Helene Demuth (1820 to 1890), the Marx family's housekeeper, who kept house for Engels after Marx's death."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Manchester, 'Cottonopolis', was the first great industrial city. It grew fast, with mills, canals and railways, and its workers' districts had open sewers, dense back-to-back houses and terrible death rates.",
+      "Engels lived a double life inside that world: a member of the Manchester Royal Exchange and of a hunting club, and at the same time a revolutionary writing to Marx about the coming crisis of capitalism.",
+      "By the 1880s and 1890s socialism had become a mass movement, above all in Germany, where the Social Democratic Party grew into the largest party in the Reichstag vote. Engels advised its leaders by letter from London."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "He did more than anyone to turn Marx's ideas into the system called Marxism, explaining them in plain, confident language that millions read.",
+      "His phrases, such as the state that 'withers away' in Anti-Duhring, were taken up by Lenin and the Soviet state, which honoured him as a founder. In 1931 the Soviet Union renamed the town of Pokrovsk on the Volga 'Engels', a name it still has.",
+      "He died of cancer of the throat. At his wish his ashes were scattered in the sea off Beachy Head, near Eastbourne, his favourite seaside place."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "A communist who owned a factory? That can't be true.", "lab": "verified", "t": "It is. He was a clerk and then a partner in his family's Manchester cotton firm for nearly twenty years. He disliked the work but knew the money kept Marx writing."},
+      {"c": "Engels was the father of Helene Demuth's son.", "lab": "myth", "t": "For years Engels let people think so. According to a letter written in 1898 by his housekeeper Louise Freyberger, he said on his deathbed that Marx was the father."},
+      {"c": "Engels twisted Marx's ideas.", "lab": "disputed", "t": "Some scholars argue that his later writings made Marx sound more like a natural scientist with fixed laws of history than Marx intended. Others point out that Marx read and approved Anti-Duhring. The debate continues."},
+      {"c": "The Condition of the Working Class is an exact report.", "lab": "disputed", "t": "His descriptions of housing and health are confirmed by many sources of the time. But it was written as an angry argument, and he chose the worst examples and some outdated reports to make his case."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Friedrich Engels, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Friedrich-Engels"},
+      {"n": "Marx and Engels Internet Archive, Marxists Internet Archive (texts and letters)", "u": "https://www.marxists.org/archive/marx/"},
+      {"n": "Marx and Engels, The Communist Manifesto, Project Gutenberg (public domain)", "u": "https://www.gutenberg.org/ebooks/61"},
+      {"n": "Further reading: Tristram Hunt, Marx's General: The Revolutionary Life of Friedrich Engels (2009)"},
+      {"n": "Further reading: Terrell Carver, Friedrich Engels: His Life and Thought (1989)"}
+    ]}
+  ]
+}

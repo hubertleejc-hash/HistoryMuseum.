@@ -1,0 +1,69 @@
+{
+  "hero": "",
+  "portrait": "pt-chopin",
+  "kw": ["Zelazowa Wola", "Warsaw", "Paris", "Salle Pleyel", "Majorca", "Valldemossa", "Nohant", "George Sand", "Liszt", "Schumann", "Delacroix", "Nocturnes", "Etudes", "Preludes", "Polonaises", "Mazurkas", "Ballades", "piano", "November Uprising", "Holy Cross Church@legacy", "heart@legacy", "Minute Waltz@myths"],
+  "lede": "A Polish schoolteacher's son who left Warsaw at twenty, never saw it again, and in the salons of Paris made the piano sing like a human voice, while his heart, in the end, went home in a jar.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Fryderyk Chopin was born in 1810 in Zelazowa Wola, a village west of Warsaw, to a French father and a Polish mother. He grew up in Warsaw and was playing in public as a child.",
+      "In 1830 he left to make his name abroad. Weeks later Poland rose against Russian rule, and the uprising was crushed. He settled in Paris and never returned home.",
+      "He wrote almost only for the piano, and changed how it was played and written for. For nine years he lived with the novelist George Sand. He died in Paris on 17 October 1849, aged 39."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father, Nicolas, had come from Lorraine in France as a young man, settled in Poland and taught French at the Warsaw Lyceum. His mother, Justyna Krzyzanowska, played the piano and sang. The family lived in Warsaw from when Fryderyk was a baby, and spent summers in the countryside, where he heard village dances, the mazurka and the oberek.",
+      "At seven he published a small Polonaise in G minor, and Warsaw papers called him a second Mozart. His first teacher, the Czech violinist Wojciech Zywny, raised him on Bach and Mozart.",
+      {"t": "From 1826 to 1829 he studied at the Warsaw Main School of Music with the composer Jozef Elsner. Elsner's final report called him an 'exceptional talent, musical genius'.", "lab": "verified", "why": "The report survives in the school's records."},
+      "In 1829 he gave two concerts in Vienna that were warmly received. Back in Warsaw he wrote his two piano concertos and fell quietly in love with a young singer, Konstancja Gladkowska."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "2 November 1830: he left Warsaw for Vienna. On 29 November the November Uprising against Russia began. His friends urged him not to come back to fight.",
+      {"t": "September 1831: in Stuttgart he learned that Warsaw had fallen to the Russian army. His diary from those days is full of rage and despair. That autumn he arrived in Paris, where thousands of Polish exiles would soon gather.", "lab": "likely", "why": "The 'Stuttgart diary' is private, highly literary writing, and scholars disagree on how far to read it as a plain record."},
+      "26 February 1832: his first Paris concert, at the Salle Pleyel. He soon found he disliked big public halls, and lived mainly by teaching wealthy pupils and playing in private salons.",
+      "1836 to 1837: his secret engagement to Maria Wodzinska, a Polish girl he had known since childhood, was quietly broken off by her family. In late 1836 he met the novelist George Sand, and in 1838 they became lovers.",
+      "Winter 1838 to 1839: with Sand and her two children he went to Majorca, hoping the sun would help his cough. They lived in a cold former monastery at Valldemossa, he fell seriously ill, and he finished his 24 Preludes there on a borrowed local piano until his Pleyel arrived.",
+      "1839 to 1846: summers at Sand's country house at Nohant, in central France, where he wrote much of his greatest music.",
+      "1847: he and Sand parted after a bitter family quarrel over the marriage of her daughter Solange, in which Chopin took Solange's side. After that he composed very little.",
+      "1848: after a last Paris concert in February he toured England and Scotland with his Scottish pupil Jane Stirling. His last public performance was in London in November, at a ball for Polish refugees. He returned to Paris weak and in debt."
+    ]},
+    {"k": "works", "h": "The music", "ps": [
+      "21 Nocturnes: slow, singing night pieces in which the right hand spins a melody like an opera singer, over a rocking left hand.",
+      "27 Etudes, sets published in 1833 and 1837 with three more later. They were studies for training the fingers, but each is also a real piece of music. The 'Revolutionary' Etude in C minor is linked by tradition to the fall of Warsaw.",
+      "24 Preludes, Op. 28 (1839), one in each major and minor key, some only a few seconds long. Sand later said the 'Raindrop' prelude came from a stormy night in Valldemossa.",
+      "Polonaises and Mazurkas, the dances of Poland, made into concert music. The Polonaise in A flat, Op. 53, is known as the 'Heroic'.",
+      "Four Ballades and four Scherzos, large dramatic works, two piano concertos (1829 to 1830), and three piano sonatas, the second with the famous Funeral March.",
+      "His playing was famous for its softness and its rubato, a subtle pulling and pushing of the rhythm while the left hand kept steady."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Nicolas Chopin (1771 to 1844) and Justyna Chopin (1782 to 1861), his parents, and his sisters Ludwika, Izabela and Emilia, who died at fourteen.",
+      "George Sand (1804 to 1876), the novelist Aurore Dupin, his partner from 1838 to 1847.",
+      "Franz Liszt (1811 to 1886), the virtuoso pianist, a friend and rival in Paris, to whom Chopin dedicated his first set of Etudes. Liszt later wrote a book about him.",
+      "Robert Schumann (1810 to 1856), who in 1831 greeted Chopin's Variations on 'La ci darem la mano' with the words 'Hats off, gentlemen, a genius!'",
+      "Eugene Delacroix (1798 to 1863), the painter, a close friend, who in 1838 painted a double portrait of Chopin and Sand. It was later cut in two.",
+      "Jane Stirling (1804 to 1859), his devoted Scottish pupil, who paid many of his last bills."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Poland had been divided between Russia, Prussia and Austria since 1795. After 1831 Paris became the capital of the 'Great Emigration' of Polish soldiers, poets and politicians, and Chopin's music became a voice for a country that had no state.",
+      "Paris in the 1830s was the centre of the piano world. Instrument makers like Pleyel and Erard improved the piano every year, and touring virtuosos dazzled audiences. Chopin chose the opposite: intimate rooms and small audiences.",
+      "Tuberculosis killed many young people in European cities, and there was no cure."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "His funeral was held at the Madeleine church in Paris on 30 October 1849, with Mozart's Requiem, as he had asked. He was buried in Pere Lachaise cemetery.",
+      "At his own request his heart was removed. His sister Ludwika smuggled it to Warsaw in a jar of alcohol, probably cognac, and it was sealed in a pillar of the Holy Cross Church. During the Second World War it was taken out of the church and returned in 1945.",
+      "Almost every pianist learns his music. Since 1927 Warsaw has held the International Chopin Piano Competition, one of the most famous in the world, and Warsaw's airport bears his name."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "The 'Minute Waltz' is meant to be played in one minute.", "lab": "myth", "t": "The nickname of the Waltz in D flat, Op. 64 No. 1, was not his. It means 'small' waltz, from the French and English minute. Played well, it usually takes nearly two minutes."},
+      {"c": "His heart really is in Warsaw.", "lab": "verified", "t": "In 2014 the jar was quietly taken out and examined by a small team without opening it. The heart was still there, preserved in liquid, and was sealed back in the pillar."},
+      {"c": "He died of tuberculosis.", "lab": "likely", "t": "This was the diagnosis of his time. Some doctors later proposed cystic fibrosis instead. The 2014 examination found signs that fit tuberculosis affecting the lining of the heart, though no tissue was tested."},
+      {"c": "He was born on 1 March 1810.", "lab": "disputed", "t": "He and his family celebrated 1 March, but his baptism record gives 22 February. Both dates are still used."},
+      {"c": "He took a silver cup of Polish earth into exile, and it was scattered on his coffin.", "lab": "disputed", "t": "This much-loved story appears only in later accounts, decades after the events. There is no reliable record from his own time."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Frederic Chopin, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Frederic-Chopin"},
+      {"n": "Chopin's scores, IMSLP Petrucci Music Library (public domain)", "u": "https://imslp.org/wiki/Category:Chopin,_Fr%C3%A9d%C3%A9ric"},
+      {"n": "Fryderyk Chopin Institute, Warsaw", "u": "https://en.chopin.nifc.pl/"},
+      {"n": "Further reading: Alan Walker, Fryderyk Chopin: A Life and Times (2018)"},
+      {"n": "Further reading: Jim Samson, Chopin (1996)"}
+    ]}
+  ]
+}

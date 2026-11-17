@@ -1,0 +1,68 @@
+{
+  "hero": "",
+  "portrait": "pt-cezanne",
+  "kw": ["Aix-en-Provence", "Jas de Bouffan", "Mont Sainte-Victoire", "L'Estaque", "Pontoise", "Pissarro", "Zola", "Impressionism", "The Card Players", "The Bathers", "still life", "apples", "Vollard", "Hortense Fiquet", "Les Lauves", "cylinder, sphere, cone", "Picasso@legacy", "Matisse@legacy", "Cubism@legacy", "L'Oeuvre@myths"],
+  "lede": "A banker's son from Aix who was laughed at in Paris for thirty years, went home to paint the same mountain again and again, and was called by the young Picasso and Matisse the father of them all.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Paul Cezanne was born in Aix-en-Provence in the south of France on 19 January 1839. His father was a hat merchant who became a banker.",
+      "He showed with the Impressionists in the 1870s, but wanted something more solid than their flickering light. He built his pictures out of patches of colour laid side by side, so that apples, faces and mountains seem constructed rather than copied.",
+      "Critics mocked him for most of his life, and fame came only in his last decade. He died in Aix on 22 October 1906, aged 67. A year later a large show of his work in Paris changed the course of modern art."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "At the College Bourbon in Aix he became best friends with a younger, poorer boy, Emile Zola. With a third friend, Baptistin Baille, they swam in the river, hiked the hills around Mont Sainte-Victoire and recited poetry.",
+      {"t": "Cezanne later recalled that their friendship began when he defended Zola against bullies, and Zola thanked him the next day with a basket of apples.", "lab": "likely", "why": "Told decades later by Cezanne to the poet Joachim Gasquet; it fits their letters but cannot be checked."},
+      "His father, Louis-Auguste, wanted him to be a lawyer and sent him to law school in Aix. In 1859 the family bought a large country house outside town, the Jas de Bouffan, and Paul painted murals on its walls.",
+      "In 1861, urged on by Zola, he went to Paris to become a painter. He drew at the Academie Suisse, an open studio, where he met Camille Pissarro. He failed the entrance exam of the official art school and was refused by the Salon again and again."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1869: he met Hortense Fiquet, a young model. Their son Paul was born in 1872. He hid them from his father for years for fear of losing his allowance.",
+      "1872 to 1874: he worked beside Pissarro at Pontoise and Auvers, north of Paris. Pissarro taught him to paint outdoors and to lighten his palette. His earlier dark, violent pictures gave way to calmer ones.",
+      "1874 and 1877: he showed at the first and third Impressionist exhibitions. His pictures, including The House of the Hanged Man and A Modern Olympia, drew some of the harshest mockery.",
+      "1886: Zola published L'Oeuvre, a novel about a failed painter. In April Cezanne married Hortense, and in October his father died, leaving him a fortune. From then on he never needed to sell a painting.",
+      "1895: the young dealer Ambroise Vollard gave him his first one-man show in Paris, about 150 works shown in turn. Young painters went to see it, and collectors began to buy.",
+      "1902: he built a studio at Les Lauves, on a hill north of Aix with a view of Mont Sainte-Victoire. He painted the mountain there in his last years, along with portraits of his gardener, Vallier.",
+      "October 1906: caught in a storm while painting outdoors, he collapsed and was carried home on a laundry cart. He insisted on working again the next day and died of pneumonia a week later."
+    ]},
+    {"k": "works", "h": "The paintings", "ps": [
+      "Mont Sainte-Victoire: dozens of oils and watercolours of the mountain east of Aix, from the 1880s to 1906, growing ever freer, until the landscape becomes a mosaic of colour.",
+      "The Card Players (1890 to 1895): five versions of Provencal farm workers playing cards, still and silent as statues.",
+      "Still lifes of apples, oranges, jugs and crumpled tablecloths, where the table may tilt and the objects are seen from more than one point of view at once.",
+      "The Bathers: many pictures of nude figures in landscapes, ending with three large Bathers on which he worked for years, one now in the Philadelphia Museum of Art and one in the National Gallery, London.",
+      "Portraits of Hortense, his son, Vollard, and himself: about two dozen pictures of his wife alone.",
+      {"t": "In a 1904 letter to the young painter Emile Bernard he advised: 'treat nature by means of the cylinder, the sphere, the cone'.", "lab": "verified", "why": "The letter of 15 April 1904 was published by Bernard in 1907."}
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Emile Zola (1840 to 1902), novelist, his closest friend from boyhood to middle age.",
+      "Camille Pissarro (1830 to 1903), the Impressionist he called his teacher. Late in life he signed himself 'pupil of Pissarro'.",
+      "Hortense Fiquet (1850 to 1922), his wife, and Paul Cezanne junior (1872 to 1947), his son, who later managed his sales.",
+      "Pierre-Auguste Renoir (1841 to 1919), a friend who painted with him in Provence in the 1880s.",
+      "Ambroise Vollard (1866 to 1939), his dealer, who sat for a portrait more than 100 times before Cezanne gave up, saying he was not unhappy with the shirt front.",
+      "Victor Chocquet, a customs official and one of his first collectors."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "French art was run by the official Salon and its jury. Being refused meant no critics, no buyers and no medals. The Impressionists set up their own shows in protest from 1874.",
+      "Photography had taken over the job of exact likeness. Painters were looking for something else: Monet for light, Van Gogh for feeling, Cezanne for structure.",
+      "Railways now linked Paris and the south, and he travelled back and forth often, spending long periods in Paris and the north as well as in Provence."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "The memorial show at the Salon d'Automne of 1907 stunned young artists. Picasso and Braque, looking at how he built forms from planes and viewpoints, went on to invent Cubism. Matisse had already bought one of his small Bathers in 1899 and kept it for almost forty years.",
+      "His way of treating a painting as its own construction, not a window on the world, runs through abstract art of the twentieth century.",
+      "In 2011 a version of The Card Players was reported to have been sold privately to the state of Qatar for about 250 million dollars, then one of the highest prices ever paid for a painting."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "L'Oeuvre caused an angry break between Cezanne and Zola.", "lab": "disputed", "t": "Cezanne's letter thanking Zola for the book, dated 4 April 1886, is short and polite. It is the last known letter between them. Their friendship had already been cooling for years, and they simply drifted apart."},
+      {"c": "Zola's failed painter in L'Oeuvre is Cezanne.", "lab": "disputed", "t": "The hero, Claude Lantier, borrows from Cezanne's youth, but also from Manet, Monet and other painters. Zola said he drew on many artists. Cezanne may still have felt hurt."},
+      {"c": "Picasso called him 'the father of us all'.", "lab": "disputed", "t": "The phrase is quoted from both Picasso and Matisse, in later recollections by other people. Whoever said it, both men freely called him their master."},
+      {"c": "He was a hermit who never left Provence.", "lab": "myth", "t": "He spent long stretches in Paris and its surroundings and knew most of the painters of his day. He did grow more solitary and suspicious with age."},
+      {"c": "He said he would astonish Paris with an apple.", "lab": "likely", "t": "The line is reported by the critic Gustave Geffroy, who knew him. It fits his long study of still life."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Paul Cezanne, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Paul-Cezanne"},
+      {"n": "Musee d'Orsay, Paris", "u": "https://www.musee-orsay.fr/en"},
+      {"n": "National Gallery of Art, Washington", "u": "https://www.nga.gov/"},
+      {"n": "Paul Cezanne, Letters, edited by John Rewald (first published 1937)"},
+      {"n": "Further reading: Alex Danchev, Cezanne: A Life (2012)"}
+    ]}
+  ]
+}
