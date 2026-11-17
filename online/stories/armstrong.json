@@ -1,0 +1,67 @@
+{
+  "hero": "",
+  "portrait": "pt-armstrong",
+  "kw": ["Wapakoneta", "Ohio", "Purdue", "Korea", "X-15", "Edwards", "test pilot", "Gemini 8", "Apollo 11", "Eagle", "Columbia", "Tranquility Base", "Sea of Tranquility", "Buzz Aldrin", "Michael Collins", "one small step", "Moon", "space race", "Challenger", "small step@myths", "faked@myths", "Gagarin@people"],
+  "lede": "A quiet engineer from small-town Ohio who learned to fly before he could drive, kept his head when a spacecraft tumbled out of control, and then, with the fuel nearly gone, steered a fragile lander past a field of boulders to become the first human being to stand on another world.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Neil Alden Armstrong was born on 5 August 1930 on his grandparents' farm near Wapakoneta, Ohio.",
+      "He was a Navy fighter pilot in the Korean War, then a civilian test pilot who flew the rocket-powered X-15 to the edge of space. In 1962 he was chosen as one of NASA's second group of astronauts.",
+      "On 20 July 1969, as commander of Apollo 11, he landed the lunar module Eagle on the Moon with Buzz Aldrin, and became the first person to walk on its surface. Afterwards he avoided fame, taught engineering, and died in Cincinnati on 25 August 2012, aged 82."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father was a state auditor whose job took the family to more than a dozen Ohio towns. In July 1936, just before Neil turned six, his father took him for a ride in a Ford Trimotor, the 'Tin Goose', and he was hooked.",
+      "He built model aircraft, worked at a pharmacy and a bakery to pay for flying lessons at the local grass airfield, and earned his student pilot's certificate on his sixteenth birthday, before he had a driving licence.",
+      "In 1947 he went to Purdue University in Indiana to study aeronautical engineering on a Navy scholarship. In 1949 the Navy called him up for flight training."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "Korea, 1951 to 1952. Flying F9F Panther jets from the carrier USS Essex, he flew 78 combat missions. In September 1951 a cable strung across a valley sliced part of his wing; he nursed the jet back over friendly territory and ejected.",
+      "Test pilot, 1955 to 1962. After finishing his degree he joined NACA, NASA's forerunner, and flew experimental aircraft at Edwards Air Force Base in California, including seven flights in the X-15, reaching over 200,000 feet.",
+      "Loss, January 1962. His two-year-old daughter, Karen, died of a brain tumour. He rarely spoke of it.",
+      "Astronaut, September 1962. NASA chose him in its second group of astronauts, the 'New Nine', one of only two civilians.",
+      "Gemini 8, 16 March 1966. He and David Scott made the first ever docking of two spacecraft in orbit. Then a stuck thruster sent them spinning faster and faster, about one turn a second, close to blacking out. Armstrong shut down the main thrusters and used the re-entry jets to steady the craft. Mission rules then forced them to come home early.",
+      "May 1968. Training on the Lunar Landing Research Vehicle, a jet-powered flying frame, he lost control near the ground and ejected less than a second before it crashed in flames. Colleagues remembered him back at work at his desk within hours.",
+      "Launch, 16 July 1969. A Saturn V rocket lifted Apollo 11 from Florida with Armstrong, Aldrin and Michael Collins on board.",
+      {"t": "The landing, 20 July 1969. As Eagle descended, computer alarms flashed and Armstrong saw the automatic system heading into a crater strewn with boulders. He took partial manual control and flew on, looking for a clear spot. When he touched down, mission control had been counting the seconds of fuel left. 'Houston, Tranquility Base here. The Eagle has landed.'", "lab": "verified", "why": "NASA's recorded air-to-ground transcript. How much fuel was really left was later found to be a little more than the gauges showed."},
+      "The first step. Late on 20 July, Houston time, and just before 3 am on 21 July in world time, he climbed down the ladder and set his left boot on the Moon. He and Aldrin spent about two and a half hours outside, planting a flag, setting up experiments and collecting about 21 kilograms of rock and soil.",
+      "Home, 24 July 1969. Columbia splashed down in the Pacific. The crew spent three weeks in quarantine, then toured the world.",
+      "After NASA, 1971 onward. He left NASA in 1971 and taught aerospace engineering at the University of Cincinnati until 1979. In 1986 he was vice-chairman of the commission that investigated the Challenger shuttle disaster."
+    ]},
+    {"k": "works", "h": "The flights", "ps": [
+      "X-15 (1960 to 1962): seven flights in the rocket plane that first carried pilots to the edge of space.",
+      "Gemini 8 (1966): first docking of two craft in orbit, and the first serious emergency in American spaceflight, solved in the cockpit.",
+      "Apollo 11 (1969): first crewed landing on the Moon. He took most of the photographs on the surface, which is why most famous pictures from the landing show Aldrin, not him.",
+      "The plaque left on Eagle's landing stage reads 'We came in peace for all mankind'."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Janet Shearon (1934 to 2018), his first wife, married 1956, who raised their sons Rick and Mark through the space years. They divorced in 1994.",
+      "Edwin 'Buzz' Aldrin (born 1930), lunar module pilot of Apollo 11 and the second person on the Moon.",
+      "Michael Collins (1930 to 2021), command module pilot, who circled the Moon alone in Columbia while the others were on the surface.",
+      "David Scott (born 1932), his partner on Gemini 8, who later walked on the Moon on Apollo 15.",
+      "Yuri Gagarin (1934 to 1968), the first human in space. Gagarin died in a training crash in 1968; on the Moon, Armstrong and Aldrin left medals honouring him and his fellow cosmonaut Vladimir Komarov, with a patch for the three Apollo 1 astronauts killed in a fire in 1967."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "He grew up in the Depression and came of age in the Cold War. The space race began in 1957 when the Soviet Union launched Sputnik, and in 1961 Gagarin became the first man in space.",
+      "In May 1961 President John F. Kennedy committed the United States to landing a man on the Moon before the decade was out. Apollo employed around 400,000 people at its peak.",
+      "Apollo 11 happened in a turbulent year: the Vietnam War, protests and the assassinations of 1968 were fresh. Hundreds of millions of people watched the landing on television, more than for any broadcast before."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "Twelve men walked on the Moon between 1969 and 1972. Armstrong was the first, and his words are among the most quoted of the century.",
+      "He refused to cash in on fame, rarely gave interviews and, from the 1990s, stopped signing autographs because they were being sold. He called himself 'a white-socks, pocket-protector, nerdy engineer'.",
+      "When he died, his family asked people who wanted to honour him to look up at the Moon on a clear night and give it a wink. He was buried at sea in the Atlantic."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "He fluffed his line: 'one small step for man'.", "lab": "disputed", "t": "He always said he meant 'one small step for a man'. Most listeners hear no 'a'; later sound analysis has been inconclusive. NASA's transcript puts the 'a' in brackets."},
+      {"c": "The Moon landings were faked.", "lab": "myth", "t": "Hundreds of kilograms of Moon rock studied worldwide, mirrors left on the surface that scientists still bounce lasers off, independent tracking (including by the Soviet Union) and recent orbiter photos of the landing sites all show they happened."},
+      {"c": "Aldrin was meant to go out first.", "lab": "myth", "t": "Early plans were unsettled, but the cabin layout decided it: the hatch opened in a way that made it much easier for the commander, on the left, to get out first."},
+      {"c": "He landed with only seconds of fuel left.", "lab": "likely", "t": "The gauges showed around 25 seconds before the abort call. Later analysis suggests slightly more fuel was left, because it sloshed in the tank. Either way, it was very close."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Neil Armstrong, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Neil-Armstrong"},
+      {"n": "NASA, Apollo 11 mission page (public domain)", "u": "https://www.nasa.gov/mission/apollo-11/"},
+      {"n": "NASA, Apollo Flight Journal, with transcripts (public domain)", "u": "https://www.nasa.gov/history/alsj-and-afj/"},
+      {"n": "NASA, Apollo 11 Technical Air-to-Ground Voice Transcription (1969), public domain"},
+      {"n": "Further reading: James R. Hansen, First Man: The Life of Neil A. Armstrong (2005)"}
+    ]}
+  ]
+}

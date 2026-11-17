@@ -1,0 +1,74 @@
+{
+  "hero": "",
+  "portrait": "pt-turing",
+  "kw": ["Turing machine", "On Computable Numbers", "Entscheidungsproblem", "Cambridge", "King's College", "Princeton", "Bletchley Park", "Enigma", "Bombe", "Hut 8", "Naval Enigma", "ACE", "Manchester", "Turing test", "imitation game", "morphogenesis", "Christopher Morcom", "Joan Clarke", "pardon@legacy", "Turing law@legacy", "Apple@myths", "Polish@myths"],
+  "lede": "A shy, shabby, brilliant runner of a mathematician who imagined the computer before anyone had built one, helped read Germany's secret messages in the Second World War, and was then prosecuted by his own country for loving men.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Alan Mathison Turing was born in Maida Vale, London, on 23 June 1912, a couple of months after the Titanic sank.",
+      "In 1936, aged 24, he described a simple imaginary machine that could carry out any calculation that can be written as a set of rules. That idea, the 'universal machine', is the theory behind every computer. In the Second World War he was one of the leading codebreakers at Bletchley Park.",
+      "In 1952 he was convicted of 'gross indecency' for a relationship with another man and made to take hormone treatment. He died on 7 June 1954, aged 41, of cyanide poisoning. In 2013 he received a royal pardon, and in 2017 the law was changed to pardon thousands of other men."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father worked for the Indian Civil Service, so Alan and his older brother John were left in England with a foster family while their parents were in India. He taught himself to read in three weeks and loved experiments with chemicals.",
+      "In 1926 he started at Sherborne, a boarding school in Dorset. A general strike stopped the trains on his first day, so he cycled about sixty miles to get there, and the local paper reported it. His teachers wanted more classics and less science.",
+      "At Sherborne he fell deeply in love with an older boy, Christopher Morcom, who shared his passion for science. Christopher died suddenly of tuberculosis in February 1930. Turing's grief turned into a question he never let go: how does a mind relate to the body and the material world?",
+      "In 1931 he went to King's College, Cambridge, to read mathematics. He took a first-class degree and in 1935, at 22, was elected a Fellow of the college."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "On Computable Numbers, 1936. He solved a famous problem set by the German mathematician David Hilbert: can there be a mechanical method to decide whether any mathematical statement is provable? Turing showed there cannot. To do it he invented the 'Turing machine', a device that reads and writes symbols on a tape following a table of rules.",
+      "Princeton, 1936 to 1938. He took a doctorate at Princeton University under the logician Alonzo Church, who had reached the same answer by another route.",
+      "Bletchley Park, September 1939. The day after Britain declared war, he reported to the Government Code and Cypher School at Bletchley Park, a country house in Buckinghamshire.",
+      "The Bombe, 1940. Building on a Polish machine, he designed an electro-mechanical device that searched through Enigma settings. Gordon Welchman added a key improvement. The first British bombe went into service in 1940, and more than two hundred were built.",
+      "Hut 8, 1940 to 1942. He led the team attacking the German navy's Enigma, which was harder than the army and air force versions. Their work helped Allied convoys avoid U-boats in the Battle of the Atlantic.",
+      "October 1941. Frustrated by shortages of staff, Turing, Welchman and two colleagues wrote directly to Winston Churchill. Churchill ordered 'Action this day' and the codebreakers got what they asked for.",
+      "The ACE, 1945 to 1947. At the National Physical Laboratory he wrote one of the first complete designs for an electronic stored-program computer, the Automatic Computing Engine. Delays frustrated him and he left.",
+      "Manchester, 1948. He joined Max Newman at Manchester University, which had just run one of the first stored-program computers, and wrote programming manuals for it.",
+      "Computing Machinery and Intelligence, 1950. His paper opened with the words 'I propose to consider the question, Can machines think?' and proposed the 'imitation game', now called the Turing test.",
+      "Arrest and trial, 1952. After a burglary at his house in Wilmslow, he told the police about his relationship with a young man, Arnold Murray. Both were charged under the same law used against Oscar Wilde. On 31 March 1952 he pleaded guilty. To avoid prison he accepted a year of injections of the female hormone oestrogen, then called 'organo-therapy', which made him impotent and caused his breasts to grow. He lost his security clearance and could no longer work for the codebreakers.",
+      "7 June 1954. His housekeeper found him dead in bed at home. A half-eaten apple lay beside him; it was never tested. The inquest found that he had taken cyanide and recorded suicide."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "On Computable Numbers (1936): the universal machine, and proof that some problems can never be solved by any computer.",
+      "The design of the bombe (1939 to 1940) and new statistical methods, such as 'Banburismus', for breaking naval Enigma.",
+      "Proposed Electronic Calculator (1946): the report describing the ACE, with ideas about programming far ahead of their time.",
+      "Computing Machinery and Intelligence (1950): the founding paper of artificial intelligence, which also answers 'Lady Lovelace's Objection' that a machine can only do what it is told.",
+      "The Chemical Basis of Morphogenesis (1952): a mathematical theory of how patterns such as spots and stripes form in living things, now supported by studies of a number of animals and plants.",
+      "He was also a serious runner. In 1947 he ran a marathon in 2 hours 46 minutes, a time that placed him among the better amateur runners in Britain."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Christopher Morcom (1911 to 1930), his first love and scientific companion at school.",
+      "Max Newman (1897 to 1984), the Cambridge mathematician whose lectures set him on the problem of 1936, and later his colleague at Bletchley and Manchester.",
+      "Gordon Welchman (1906 to 1985), fellow codebreaker who improved the bombe.",
+      "Joan Clarke (1917 to 1996), a brilliant cryptanalyst in Hut 8. They were briefly engaged in 1941. He told her he was homosexual; she was not put off, but he broke the engagement. They stayed friends.",
+      "Hugh Alexander (1909 to 1974), chess champion and his successor as head of Hut 8.",
+      "Robin Gandy (1919 to 1995), his student and close friend, who handled his papers after his death.",
+      "Sara Turing (1881 to 1976), his mother, who wrote a memoir of him and never accepted that he had killed himself."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "In the 1930s mathematicians were asking whether all of mathematics could be put on certain, mechanical foundations. Kurt Godel, Alonzo Church and Turing showed, in different ways, that it could not.",
+      "Bletchley Park employed nearly 10,000 people by 1945, most of them women. Its work, known as Ultra, stayed secret until the 1970s, so Turing's war service was unknown to the public in his lifetime. He was quietly made an OBE in 1946.",
+      "In Cold War Britain homosexuality was a crime, and the police prosecuted more men in the early 1950s than ever before. Gay men were also seen as security risks, open to blackmail. Sex between men in private was decriminalised in England and Wales only in 1967."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "Since 1966 the Turing Award has been computer science's highest honour. The Turing test is still debated whenever machines get better at conversation.",
+      "In 2009 Prime Minister Gordon Brown apologised for 'the appalling way he was treated'. On 24 December 2013 the Queen granted him a posthumous pardon.",
+      "In 2017 a new law, often called the 'Alan Turing law', pardoned men convicted under the old laws against homosexuality, alive or dead.",
+      {"t": "Historians have suggested that the codebreakers' work shortened the war in Europe by around two years.", "lab": "disputed", "why": "An estimate by the official historian Harry Hinsley; others think the figure cannot be measured."},
+      "Since 2021 his face has appeared on the Bank of England's £50 note, with a line from 1949: 'This is only a foretaste of what is to come, and only the shadow of what is going to be.'"
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Turing broke Enigma alone and won the war.", "lab": "myth", "t": "Polish mathematicians, led by Marian Rejewski, first broke Enigma in the 1930s and shared their work with Britain and France in July 1939. Thousands of people at Bletchley built on it. Turing was one of the most important of them."},
+      {"c": "Turing built Colossus.", "lab": "myth", "t": "Colossus, the electronic machine used against a different German cipher, was built by the Post Office engineer Tommy Flowers. Turing's ideas fed into the work on that cipher, but Colossus was not his machine."},
+      {"c": "The Apple logo is a tribute to him.", "lab": "myth", "t": "The designer, Rob Janoff, has said it is not. Steve Jobs reportedly said he wished it were."},
+      {"c": "His death was certainly suicide.", "lab": "disputed", "t": "The inquest ruled suicide, and that is the most common view. But he left no note, had made plans for the coming week, and kept cyanide for experiments at home. His mother and some biographers think it may have been an accident."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Alan Turing, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Alan-Turing"},
+      {"n": "Bletchley Park Trust", "u": "https://bletchleypark.org.uk/"},
+      {"n": "The Alan Turing Internet Scrapbook, by his biographer Andrew Hodges", "u": "https://www.turing.org.uk/"},
+      {"n": "A. M. Turing, Computing Machinery and Intelligence, Mind 59 (1950)"},
+      {"n": "Further reading: Andrew Hodges, Alan Turing: The Enigma (1983)"}
+    ]}
+  ]
+}

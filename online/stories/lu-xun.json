@@ -1,0 +1,68 @@
+{
+  "hero": "",
+  "portrait": "pt-lu-xun",
+  "kw": ["Zhou Shuren", "Shaoxing", "Sendai", "Japan", "A Madman's Diary", "The True Story of Ah Q", "Call to Arms", "Wandering", "Wild Grass", "New Youth", "May Fourth", "iron house", "Zhou Zuoren", "Xu Guangping", "Qu Qiubai", "Shanghai", "woodcut", "lantern slide@myths", "communist@myths", "Mao@legacy"],
+  "lede": "A failed medical student from a ruined scholar's family who decided that China's sickness was in its mind, not its body, and wrote the short, savage stories that turned everyday spoken Chinese into a language for literature.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Lu Xun was the pen name of Zhou Shuren, born on 25 September 1881 in Shaoxing, in Zhejiang province, eastern China. He grew up in the last years of the Qing dynasty, when the old empire was losing wars and sinking into debt to foreign powers.",
+      "He went to Japan to study medicine, gave it up for writing, and in 1918 published 'A Madman's Diary', one of the first modern stories written in vernacular Chinese rather than the old classical language. 'The True Story of Ah Q' followed in 1921 and made him famous.",
+      "In his last ten years he wrote mostly sharp short essays from Shanghai, attacking hypocrisy and cruelty wherever he saw it. He died there of tuberculosis on 19 October 1936, aged 55, and is still read in every Chinese school."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "The Zhou family were landowning scholars. His grandfather had passed the highest imperial exams and served at court in Beijing. In 1893 the grandfather was caught trying to bribe an exam official and spent years in prison, and the family's money drained away in fines and favours.",
+      {"t": "His father fell ill and lingered for years. The boy carried clothes and jewellery to the pawnshop and then took the money to traditional doctors, who prescribed things like a pair of crickets that had been 'faithful to each other'. His father died in 1896. Lu Xun later said this was where his distrust of old Chinese medicine began.", "lab": "likely", "why": "From his own preface to Call to Arms (1922), written many years later."},
+      "In 1898 he went to Nanjing, first to a naval academy and then to a school of mines and railways, where he read Western science and the translated ideas of Darwin and Huxley. In 1902 a government scholarship took him to Japan."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "Sendai, 1904 to 1906. He enrolled at the medical school in Sendai, northern Japan, the only Chinese student there. A kind anatomy teacher, Fujino Genkuro, corrected his lecture notes in red ink; Lu Xun kept his photograph for the rest of his life.",
+      {"t": "The slide, 1905 or 1906. During a class he was shown a lantern slide from the Russo-Japanese War: a Chinese man, said to be a Russian spy, about to be executed by Japanese soldiers while a crowd of Chinese stood watching. He wrote that healthy bodies were useless if minds were numb, and that he left medicine to change minds through literature.", "lab": "disputed", "why": "This is his own account. The slide itself has never been found, and scholars think the story may be shaped or simplified."},
+      "Beijing, 1912 to 1926. After the 1911 revolution ended the empire, he worked at the Ministry of Education. For years he copied ancient inscriptions at night, believing nothing could change.",
+      "A Madman's Diary, May 1918. A friend from the magazine New Youth asked him to write. His answer was a story about a man who becomes convinced that everyone around him, and the whole of Chinese history, is quietly eating people. It was the first time he used the name Lu Xun.",
+      "Ah Q, 1921 to 1922. 'The True Story of Ah Q' ran as a newspaper serial. Ah Q is a village labourer who is beaten again and again and always declares a 'spiritual victory'. Readers saw themselves and were furious, or delighted.",
+      "18 March 1926. Government troops in Beijing fired on student protesters. Among the dead was his student Liu Hezhen. He wrote an essay of mourning and anger, and soon left the city.",
+      "South, 1926 to 1927. He taught in Xiamen, then in Guangzhou, where in April 1927 the Nationalist party turned on its communist allies and many young people were killed. In October he moved to Shanghai with Xu Guangping.",
+      "Shanghai, 1927 to 1936. He lived by writing, edited magazines, encouraged young writers, and in 1930 helped found the League of Left-Wing Writers. He died in Shanghai on 19 October 1936."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "A Madman's Diary (1918), the story that announced modern Chinese fiction, written as the diary of a man everyone thinks is mad.",
+      "The True Story of Ah Q (1921 to 1922), his longest story, a portrait of a man who turns every humiliation into a private triumph. 'Ah Q spirit' became a Chinese phrase.",
+      "Call to Arms (1923), his first collection, with 'Kong Yiji', 'Medicine' and 'My Old Home'. Its preface tells the parable of the 'iron house': people asleep in a windowless house that is burning, and the question of whether it is kinder to wake them.",
+      "Wandering (1926), a second collection, including 'The New Year's Sacrifice' about a widow destroyed by her village's superstitions.",
+      "Wild Grass (1927), short prose poems full of dreams and dark images, and Dawn Blossoms Plucked at Dusk (1928), gentle memories of childhood and of Mr Fujino.",
+      "A Brief History of Chinese Fiction (1923 to 1924), a pioneering scholarly work. He also wrote hundreds of essays, translated Russian and Japanese writers, and championed the modern woodcut print in China."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Zhou Zuoren (1885 to 1967), his younger brother, an essayist and translator. They were close partners until a bitter, never-explained quarrel in 1923, after which they did not speak again.",
+      "Zhu An (1878 to 1947), the wife his mother chose for him in 1906. He respected the arrangement but never lived with her as a husband; she cared for his mother in Beijing.",
+      "Xu Guangping (1898 to 1968), his former student, who wrote to him in 1925. Their letters were later published. From 1927 they lived together in Shanghai, and their son Zhou Haiying was born in 1929.",
+      "Qu Qiubai (1899 to 1935), a communist writer and former party leader who became his close friend and edited a selection of his essays. The Nationalists executed him in 1935.",
+      "Rou Shi (1902 to 1931), a young writer he mentored, one of five shot by the Nationalist government in February 1931. Lu Xun wrote one of his most famous essays in their memory.",
+      "Uchiyama Kanzo (1885 to 1959), the Japanese owner of a Shanghai bookshop, who sheltered him in dangerous times."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "He was born under an emperor and died in a divided republic. In between, China lost a war to Japan in 1895, saw the Boxer uprising and the fall of the Qing in 1912, then broke apart under warlords.",
+      "On 4 May 1919 students in Beijing protested against the Paris peace treaty, which handed German rights in Shandong to Japan. The May Fourth movement that grew from it called for science, democracy and a new literature in everyday language. Lu Xun's stories became its best-known fiction.",
+      "In his Shanghai years, the Nationalist government censored books and arrested left-wing writers. He used more than a hundred pen names to keep publishing, while Japanese armies pressed into northern China."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "At his funeral, thousands followed the coffin, which was covered with a banner reading 'Soul of the Nation'.",
+      "Mao Zedong praised him in 1940 as the great hero of China's new culture, and the People's Republic made him a national saint, with museums in Beijing, Shanghai and Shaoxing and his stories in every textbook.",
+      {"t": "His son later recalled that when Mao was asked in 1957 what Lu Xun would have done had he lived, Mao answered that he would either be in prison, still writing, or have sensibly kept quiet.", "lab": "disputed", "why": "Known from Zhou Haiying's memoir published in 2001, based on a second-hand account."},
+      "Outside China he is read as one of the great short-story writers of the century, and his clear, cutting style is still copied, quoted and argued over."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "A single lantern slide made him quit medicine.", "lab": "disputed", "t": "This is his own story, told years later. The slide has never been found. He had many reasons to leave medicine, and the scene may stand for a slower change of mind."},
+      {"c": "He was a member of the Communist Party.", "lab": "myth", "t": "He never joined. He sympathised with the left, worked with communist writers and quarrelled with some of them too."},
+      {"c": "He was a pure pessimist.", "lab": "myth", "t": "His work is dark, but hope keeps returning. 'My Old Home' ends by comparing hope to a road: there is none at first, but when many people walk one way, a road is made."},
+      {"c": "Lu Xun was his real name.", "lab": "myth", "t": "He was born Zhou Zhangshou and later named Zhou Shuren. Lu was his mother's family name, and he first signed 'Lu Xun' in 1918."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Lu Xun, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Lu-Xun"},
+      {"n": "Lu Xun, author page, Wikisource", "u": "https://en.wikisource.org/wiki/Author:Lu_Xun"},
+      {"n": "Lu Xun, Preface to Call to Arms (1922)"},
+      {"n": "Further reading: William A. Lyell, Lu Hsun's Vision of Reality (1976)"},
+      {"n": "Further reading: Julia Lovell, introduction to The Real Story of Ah-Q and Other Tales of China (2009)"}
+    ]}
+  ]
+}
