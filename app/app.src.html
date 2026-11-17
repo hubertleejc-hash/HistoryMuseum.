@@ -2942,7 +2942,7 @@ function walkShow(i, dir){
   const old = L.lastElementChild, lay = document.createElement("div"), im = new Image();
   lay.className = "wk3-pic"; im.alt = pic.title; im.decoding = "async";
   im.className = pic.js || WK3.still ? "" : "drift";
-  im.style.objectPosition = `${(st.fx ?? .5) * 100}% ${(st.fy ?? .5) * 100}%`;
+  im.style.objectPosition = `${walkFxFor(st, pic) * 100}% ${(st.fy ?? .5) * 100}%`;
   im.src = pic.src; lay.appendChild(im);
   const n = w.stops.length;
   document.getElementById("wk3E").textContent = n > 1 ? `You have arrived · ${i + 1} of ${n}` : "You have arrived";
@@ -2968,7 +2968,17 @@ function walkLabel(){
 function walkFit(){
   const L = document.getElementById("wk3L"), st = WK3.w.stops[WK3.i], pic = WPIC[st.pic], W = L.clientWidth, Hh = L.clientHeight;
   const z = WK3.ready ? 1.06 : 1, s = Math.max(W / pic.w, Hh / pic.h) * z, dw = pic.w * s, dh = pic.h * s;
-  return {W, H:Hh, dw, dh, ox:(W - dw) * (st.fx ?? .5), oy:(Hh - dh) * (st.fy ?? .5)};
+  return {W, H:Hh, dw, dh, ox:(W - dw) * walkFx(st, W / dw), oy:(Hh - dh) * (st.fy ?? .5)};
+}
+/* on a narrow screen, slide a wide picture so that as many gold dots as possible are in view (closest to the chosen fx on a tie) */
+function walkFxFor(st, pic){ const L = document.getElementById("wk3L"); if (!L) return st.fx ?? .5; const W = L.clientWidth, Hh = L.clientHeight, sc = Math.max(W / pic.w, Hh / pic.h); return walkFx(st, W / (pic.w * sc)); }
+function walkFx(st, v){
+  const sp = st.spots || [], fx0 = st.fx ?? .5;
+  if (v >= .98 || !sp.length) return fx0;
+  let best = fx0, bn = -1;
+  for (let i = 0; i <= 40; i++) { const fx = i / 40, a = fx * (1 - v), n = sp.filter(q => q.x > a + v * .06 && q.x < a + v * .94).length;
+    if (n > bn || (n === bn && Math.abs(fx - fx0) < Math.abs(best - fx0))) { bn = n; best = fx; } }
+  return best;
 }
 function walkSpots(){
   const S = document.getElementById("wk3S"); if (!S) return;

@@ -115,9 +115,15 @@
   "credit": "http://hdl.handle.net/10934/RM0001.COLLECT.256866",
   "lic": "CC0",
   "page": "https://commons.wikimedia.org/wiki/File:Gezicht_op_Regent_Street,_met_op_de_achtergrond_Nelson%27s_Column_Regent_Street,_looking_towards_the_Duke_of_York%27s_Column._(titel_op_object),_RP-F-F04659.jpg",
-  "w": 1600,
-  "h": 800,
-  "depth": true
+  "w": 608,
+  "h": 592,
+  "depth": true,
+  "crop": [
+   0.11,
+   0.12,
+   0.49,
+   0.86
+  ]
  },
  "london-1851-2": {
   "file": "The London Coffee-stall.jpg",
@@ -127,9 +133,15 @@
   "credit": "Tufts Digital Library.",
   "lic": "Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:The_London_Coffee-stall.jpg",
-  "w": 1600,
-  "h": 2438,
-  "depth": false
+  "w": 1504,
+  "h": 2023,
+  "depth": false,
+  "crop": [
+   0.03,
+   0.04,
+   0.97,
+   0.87
+  ]
  },
  "london-1851-3": {
   "file": "Great Exhibition, NW corner of building, HF Talbot, 1851.jpg",
@@ -140,8 +152,14 @@
   "lic": "Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:Great_Exhibition,_NW_corner_of_building,_HF_Talbot,_1851.jpg",
   "w": 1538,
-  "h": 884,
-  "depth": true
+  "h": 796,
+  "depth": true,
+  "crop": [
+   0,
+   0,
+   1,
+   0.9
+  ]
  },
  "london-1851-4": {
   "file": "Eugène Louis Lami - Opening of the Great Exhibition, 1 May 1851 - Google Art Project.jpg",
@@ -235,9 +253,15 @@
   "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy",
   "lic": "CC0",
   "page": "https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E6%B5%B7%E9%81%93%E4%BA%94%E5%8D%81%E4%B8%89%E6%AC%A1%E4%B9%8B%E5%86%85_%E6%97%A5%E6%9C%AC%E6%A9%8B_%E6%9C%9D%E4%B9%8B%E6%99%AF-Stations_One-_Morning_View_of_Nihonbashi_MET_DP122174.jpg",
-  "w": 1600,
-  "h": 1088,
-  "depth": false
+  "w": 1536,
+  "h": 1044,
+  "depth": false,
+  "crop": [
+   0.02,
+   0.02,
+   0.98,
+   0.98
+  ]
  },
  "edo-1831-4": {
   "file": "東都名所 日本橋の白雨-Sunshower at Nihonbashi MET DP123275.jpg",
@@ -247,9 +271,15 @@
   "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy",
   "lic": "CC0",
   "page": "https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E9%83%BD%E5%90%8D%E6%89%80_%E6%97%A5%E6%9C%AC%E6%A9%8B%E3%81%AE%E7%99%BD%E9%9B%A8-Sunshower_at_Nihonbashi_MET_DP123275.jpg",
-  "w": 1600,
-  "h": 1086,
-  "depth": false
+  "w": 1520,
+  "h": 978,
+  "depth": false,
+  "crop": [
+   0.03,
+   0.05,
+   0.98,
+   0.95
+  ]
  },
  "newyork-1905-1": {
   "file": "Broadway, Manhattan, view north from 39th Street - jpg version.jpg",
@@ -260,8 +290,14 @@
   "lic": "Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:Broadway,_Manhattan,_view_north_from_39th_Street_-_jpg_version.jpg",
   "w": 1600,
-  "h": 1998,
-  "depth": true
+  "h": 1958,
+  "depth": true,
+  "crop": [
+   0,
+   0.02,
+   1,
+   1
+  ]
  },
  "newyork-1905-2": {
   "file": "Flatiron Building, New York City, NY 4a12277a original.jpg",
@@ -271,9 +307,15 @@
   "credit": "This image is available from the United States Library of Congress 's Prints and Photographs division under the digital ID det.4a12277 . This tag does not indic",
   "lic": "Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:Flatiron_Building,_New_York_City,_NY_4a12277a_original.jpg",
-  "w": 1600,
-  "h": 2000,
-  "depth": true
+  "w": 1560,
+  "h": 1930,
+  "depth": true,
+  "crop": [
+   0.025,
+   0,
+   1,
+   0.965
+  ]
  },
  "newyork-1905-3": {
   "file": "New York City- Herald Square - facing Macy's, with elevated railroad in right foregrd. LCCN2003678141.jpg",
@@ -283,9 +325,15 @@
   "credit": "Library of Congress Catalog: https://lccn.loc.gov/2003678141 Image download: https://cdn.loc.gov/service/pnp/cph/3b20000/3b21000/3b21900/3b21976r.jpg Original u",
   "lic": "Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:New_York_City-_Herald_Square_-_facing_Macy%27s,_with_elevated_railroad_in_right_foregrd._LCCN2003678141.jpg",
-  "w": 1502,
-  "h": 871,
-  "depth": true
+  "w": 1457,
+  "h": 845,
+  "depth": true,
+  "crop": [
+   0,
+   0.03,
+   0.97,
+   1
+  ]
  },
  "newyork-1905-4": {
   "file": "Mulberry Street, New York City (LOC det.4a08193).jpg",
@@ -333,18 +381,6 @@
   "page": "https://commons.wikimedia.org/wiki/File:Bianjing_city_gate.JPG",
   "w": 1600,
   "h": 1146,
-  "depth": false
- },
- "kaifeng-1120-4": {
-  "file": "Qingming shanghe tu 11.jpg",
-  "title": "Qingming shanghe tu 11",
-  "by": "Zhang Zeduan",
-  "date": "",
-  "credit": "own replica -- Immanuel Giel 10:58, 8 November 2006 (UTC)",
-  "lic": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Qingming_shanghe_tu_11.jpg",
-  "w": 1600,
-  "h": 1009,
   "depth": false
  }
 }
