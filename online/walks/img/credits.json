@@ -307,8 +307,8 @@
   "credit": "Bibliothèque nationale de France",
   "lic": "Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:N.%C2%B0_A._1062._Roma._Forum_Romanum_-_btv1b53285479d.jpg",
-  "w": 1600,
-  "h": 1260,
+  "w": 1416,
+  "h": 895,
   "depth": true
  },
  "rome-79-4": {
@@ -367,7 +367,7 @@
   "credit": "http://hdl.handle.net/10934/RM0001.COLLECT.37687",
   "lic": "CC0",
   "page": "https://commons.wikimedia.org/wiki/File:Optocht_van_S%C3%BCleyman_I_Zeden_en_Gewoonten_der_Turken_(serietitel),_RP-P-OB-2304K.jpg",
-  "w": 1600,
+  "w": 1456,
   "h": 1045,
   "depth": false
  },
@@ -523,8 +523,8 @@
   "credit": "V&A Museum [1]",
   "lic": "Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:Chandni_Chowk,_Delhi,_1863-67.jpg",
-  "w": 1576,
-  "h": 1022,
+  "w": 1529,
+  "h": 991,
   "depth": true
  },
  "cairo-1890-1": {
@@ -535,7 +535,7 @@
   "credit": "Library of Congress Catalog: https://lccn.loc.gov/2017657700 Image download: https://cdn.loc.gov/service/pnp/ppmsca/41300/41332v.jpg Original url: https://www.l",
   "lic": "Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:Kairo,_Rue_au_Quartier_Arabe_LCCN2017657700.jpg",
-  "w": 1600,
+  "w": 1568,
   "h": 2032,
   "depth": true
  },
@@ -583,8 +583,8 @@
   "credit": "Library of Congress Catalog: https://lccn.loc.gov/2014688992 Image download: https://cdn.loc.gov/service/pnp/ggbain/09000/09001v.jpg Original url: https://www.l",
   "lic": "Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:Peking_Street_LCCN2014688992.jpg",
-  "w": 1600,
-  "h": 1163,
+  "w": 1424,
+  "h": 954,
   "depth": true
  },
  "beijing-1900-2": {
@@ -595,8 +595,8 @@
   "credit": "Library of Congress Catalog: https://lccn.loc.gov/2014688957 Image download: https://cdn.loc.gov/service/pnp/ggbain/08900/08966v.jpg Original url: https://www.l",
   "lic": "Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:Street_in_Peking_LCCN2014688957.jpg",
-  "w": 1600,
-  "h": 1146,
+  "w": 1488,
+  "h": 1077,
   "depth": true
  },
  "beijing-1900-3": {
@@ -607,8 +607,8 @@
   "credit": "Library of Congress Catalog: https://lccn.loc.gov/2006691461 Image download: https://cdn.loc.gov/service/pnp/cph/3c30000/3c37000/3c37000/3c37082v.jpg Original u",
   "lic": "Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:P%27ai-lou_across_a_main_street_LCCN2006691461.jpg",
-  "w": 1600,
-  "h": 1278,
+  "w": 1424,
+  "h": 1035,
   "depth": true
  }
 }

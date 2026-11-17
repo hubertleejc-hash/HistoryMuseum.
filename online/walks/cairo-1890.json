@@ -1,0 +1,166 @@
+{
+ "id": "cairo-1890",
+ "y": 1890,
+ "tol": 10,
+ "c": "egypt",
+ "place": "Cairo",
+ "look": [
+  [
+   "Buildings",
+   "In the old city: tall stone and brick houses with wooden window screens called mashrabiya, the minarets of hundreds of mosques, and narrow lanes. To the west, a new quarter of wide European-style streets built from the 1860s."
+  ],
+  [
+   "Clothing",
+   "Men in long robes called galabiyas, with turbans or the red felt fez. Women outdoors in black cloaks and face veils."
+  ],
+  [
+   "Getting around",
+   "On foot, by donkey (donkey boys hired them out like taxis), camel and horse carriage."
+  ],
+  [
+   "Light at night",
+   "Oil lamps in the old lanes, gas lamps in the new quarter."
+  ],
+  [
+   "News of the time",
+   "Egypt was still part of the Ottoman Empire on paper, but British troops had occupied it since 1882 and British officials ran the country."
+  ]
+ ],
+ "stops": [
+  {
+   "pic": "cairo-1890-1",
+   "name": "A street in the old city",
+   "kind": "photograph",
+   "made": "Photographed about 1890",
+   "fx": 0.5,
+   "title": "Cairo, street in the Arab quarter",
+   "note": "A photochrom: a black-and-white photograph turned into colour by hand-made printing plates, so the colours are close but not exact.",
+   "spots": [
+    {
+     "x": 0.27,
+     "y": 0.25,
+     "t": "A minaret",
+     "d": "A slender stone tower of a mosque. Cairo was called the city of a thousand minarets.",
+     "how": "Many medieval minarets still stand in old Cairo."
+    },
+    {
+     "x": 0.4,
+     "y": 0.3,
+     "t": "Wooden window screens",
+     "d": "Mashrabiya: carved wooden screens that let in breeze and let people look out without being seen.",
+     "how": "You can see them sticking out over the street."
+    },
+    {
+     "x": 0.6,
+     "y": 0.62,
+     "t": "Shops under awnings",
+     "d": "Small shops open to the street under cloth and wooden awnings.",
+     "how": "Cairo's old markets still work like this."
+    },
+    {
+     "x": 0.66,
+     "y": 0.83,
+     "t": "Turban and robe",
+     "d": "A man in a white turban and long robe walks toward us.",
+     "how": "Most men in the crowd are dressed the same way."
+    }
+   ]
+  },
+  {
+   "pic": "cairo-1890-2",
+   "name": "A public fountain",
+   "kind": "photograph",
+   "made": "Photographed about 1890",
+   "fx": 0.6,
+   "title": "Cairo, fountain in the Arab quarter",
+   "note": "A photochrom: a black-and-white photograph turned into colour by hand-made printing plates, so the colours are close but not exact.",
+   "spots": [
+    {
+     "x": 0.72,
+     "y": 0.4,
+     "t": "A sabil",
+     "d": "A public fountain. Rich Cairenes paid for these so passers-by could drink for free.",
+     "how": "Its big windows with gold metal grilles are where the water was handed out."
+    },
+    {
+     "x": 0.17,
+     "y": 0.25,
+     "t": "A minaret",
+     "d": "Another minaret rises above the lane.",
+     "how": "Mosques stood on almost every street of old Cairo."
+    },
+    {
+     "x": 0.88,
+     "y": 0.7,
+     "t": "Black cloaks",
+     "d": "Women outdoors wore long black cloaks and veils.",
+     "how": "Photographs and travellers' books of the time show the same."
+    }
+   ]
+  },
+  {
+   "pic": "cairo-1890-3",
+   "name": "Barbers in the street",
+   "kind": "photograph",
+   "made": "Photographed about 1890",
+   "fx": 0.4,
+   "title": "Cairo, Arab barbers in the street",
+   "note": "A photochrom: a black-and-white photograph turned into colour by hand-made printing plates, so the colours are close but not exact.",
+   "spots": [
+    {
+     "x": 0.08,
+     "y": 0.6,
+     "t": "A hand mirror",
+     "d": "The customer checks his shave in a round mirror.",
+     "how": "Street barbers worked sitting on the ground on mats."
+    },
+    {
+     "x": 0.38,
+     "y": 0.45,
+     "t": "White turbans",
+     "d": "Turbans wrapped around a small cap.",
+     "how": "Almost every man here wears one."
+    },
+    {
+     "x": 0.63,
+     "y": 0.22,
+     "t": "A lamp post",
+     "d": "A street lamp in a newer square of the city.",
+     "how": "Gas lamps were spreading in Cairo's newer streets."
+    }
+   ]
+  },
+  {
+   "pic": "cairo-1890-4",
+   "name": "Street sellers",
+   "kind": "photograph",
+   "made": "Photographed about 1890",
+   "fx": 0.5,
+   "title": "Cairo, street sellers",
+   "note": "A photochrom: a black-and-white photograph turned into colour by hand-made printing plates, so the colours are close but not exact.",
+   "spots": [
+    {
+     "x": 0.4,
+     "y": 0.45,
+     "t": "A seller's cart",
+     "d": "Food and goods were sold from carts and trays all over the city.",
+     "how": "Street selling is still a big part of Cairo life."
+    },
+    {
+     "x": 0.38,
+     "y": 0.82,
+     "t": "Big wooden wheels",
+     "d": "The cart rolls on two big wooden wheels.",
+     "how": "Pushed by hand through lanes too narrow for horses."
+    },
+    {
+     "x": 0.78,
+     "y": 0.12,
+     "t": "A white turban",
+     "d": "A seller in a white turban and blue robe.",
+     "how": "Blue cotton was cheap and common."
+    }
+   ]
+  }
+ ]
+}
