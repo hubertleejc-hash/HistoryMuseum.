@@ -24,7 +24,8 @@ concurrency:
 jobs:
   quick-check:
     name: Quick check
-    runs-on: ubuntu-latest
+    # Pinned, like the browser: the Playwright version in ci/package-lock.json supports Ubuntu 24.04.
+    runs-on: ubuntu-24.04
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
