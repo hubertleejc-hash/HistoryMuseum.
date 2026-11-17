@@ -1,0 +1,179 @@
+{
+ "id": "london-1851",
+ "y": 1851,
+ "tol": 8,
+ "c": "uk",
+ "place": "London",
+ "look": [
+  [
+   "Buildings",
+   "Brick terraces and grand stone streets like Regent Street, built in the 1810s and 1820s. For the Great Exhibition a giant hall of iron and glass, the Crystal Palace, went up in Hyde Park in a few months."
+  ],
+  [
+   "Clothing",
+   "Men in dark frock coats and tall top hats. Women in wide, bell-shaped skirts over layers of petticoats, with shawls and bonnets. Poor workers wore patched coats and caps."
+  ],
+  [
+   "Getting around",
+   "Horse buses, two-wheeled hansom cabs, carts and a lot of walking. Railways had spread across Britain in the 1840s; the first Underground line opened only in 1863."
+  ],
+  [
+   "Light at night",
+   "Gas lamps on the main streets. At home people used candles and oil lamps."
+  ],
+  [
+   "Street life",
+   "Sellers everywhere: coffee stalls, pie men, flower girls. With about 2.3 million people, London was the biggest city in the world."
+  ]
+ ],
+ "stops": [
+  {
+   "pic": "london-1851-1",
+   "name": "Regent Street",
+   "kind": "photograph",
+   "made": "Photographed between about 1850 and 1880",
+   "fx": 0.35,
+   "title": "Regent Street, looking towards the Duke of York Column",
+   "note": "Half of a stereo photograph. Its museum dates it only roughly, so it may be some years after 1851.",
+   "spots": [
+    {
+     "x": 0.55,
+     "y": 0.47,
+     "t": "The Duke of York Column",
+     "d": "A tall column in memory of a son of King George III, finished in 1834.",
+     "how": "It still stands at the end of Waterloo Place."
+    },
+    {
+     "x": 0.13,
+     "y": 0.4,
+     "t": "A grand shopping street",
+     "d": "Regent Street was planned by the architect John Nash as a smart street of shops with columns and stone fronts.",
+     "how": "Most of these buildings were replaced in the 1920s, so photographs are how we know them."
+    },
+    {
+     "x": 0.62,
+     "y": 0.79,
+     "t": "A hansom cab",
+     "d": "A light two-wheeled cab. The driver sat high up at the back, and the passenger rode in front, out of the mud.",
+     "how": "Joseph Hansom patented the design in 1834."
+    },
+    {
+     "x": 0.46,
+     "y": 0.66,
+     "t": "Gas lamps",
+     "d": "Lamp posts burned coal gas piped under the street, and lamplighters lit them every evening.",
+     "how": "London's streets had been lit by gas since the 1810s."
+    }
+   ]
+  },
+  {
+   "pic": "london-1851-2",
+   "name": "A coffee stall before dawn",
+   "kind": "print",
+   "made": "Printed in 1851, copied from a photograph",
+   "fx": 0.5,
+   "title": "The London Coffee-stall",
+   "note": "An engraving from Henry Mayhew's book London Labour and the London Poor. Photographs could not yet be printed in books, so an engraver copied one by hand.",
+   "spots": [
+    {
+     "x": 0.45,
+     "y": 0.47,
+     "t": "Hot coffee on wheels",
+     "d": "Before dawn, coffee stalls served workers on their way to work: a cup of coffee and a slice of bread for a penny or two.",
+     "how": "Mayhew interviewed coffee-stall keepers for his 1851 book about London's street people."
+    },
+    {
+     "x": 0.6,
+     "y": 0.37,
+     "t": "A battered top hat",
+     "d": "Even working men wore top hats, often old and second-hand.",
+     "how": "You can see top hats on rich and poor alike in London pictures of the 1850s."
+    },
+    {
+     "x": 0.87,
+     "y": 0.48,
+     "t": "A shawl and bonnet",
+     "d": "Working women wrapped up in a big wool shawl, with a bonnet tied under the chin.",
+     "how": "The engraving was copied from a real photograph."
+    },
+    {
+     "x": 0.5,
+     "y": 0.93,
+     "t": "From a photograph",
+     "d": "The words under the picture say it was copied from a daguerreotype, an early kind of photograph, made by Richard Beard.",
+     "how": "Beard opened London's first photography studio in 1841."
+    }
+   ]
+  },
+  {
+   "pic": "london-1851-3",
+   "name": "The Crystal Palace in Hyde Park",
+   "kind": "photograph",
+   "made": "Photographed in 1851",
+   "fx": 0.6,
+   "title": "The Great Exhibition building, north-west corner",
+   "spots": [
+    {
+     "x": 0.6,
+     "y": 0.42,
+     "t": "Iron and glass",
+     "d": "The Crystal Palace was put together from mass-made iron parts and about 300,000 panes of glass, in around five months.",
+     "how": "It was designed by Joseph Paxton, who had built giant greenhouses."
+    },
+    {
+     "x": 0.6,
+     "y": 0.17,
+     "t": "Flags along the roof",
+     "d": "Flags for the countries that sent their inventions, machines and art. More than six million visits were counted.",
+     "how": "The official records of the Exhibition."
+    },
+    {
+     "x": 0.25,
+     "y": 0.85,
+     "t": "One of the first photographs",
+     "d": "This picture was taken by William Henry Fox Talbot, one of the inventors of photography.",
+     "how": "Talbot announced his way of making photographs on paper in 1839."
+    }
+   ]
+  },
+  {
+   "pic": "london-1851-4",
+   "name": "Opening day, 1 May 1851",
+   "kind": "painting",
+   "made": "Painted in 1851",
+   "fx": 0.55,
+   "title": "The opening of the Great Exhibition, 1 May 1851",
+   "note": "A watercolour by an artist who drew the event, so the colours are his.",
+   "spots": [
+    {
+     "x": 0.6,
+     "y": 0.62,
+     "t": "The Queen opens the fair",
+     "d": "Queen Victoria and Prince Albert opened the Great Exhibition. Albert had helped to plan it.",
+     "how": "Victoria wrote in her diary that it was one of the greatest and most glorious days of their lives."
+    },
+    {
+     "x": 0.18,
+     "y": 0.6,
+     "t": "The Crystal Fountain",
+     "d": "A fountain made of pink and clear glass, about 8 metres high, stood at the centre of the hall.",
+     "how": "It was made by the glassmakers F. and C. Osler of Birmingham."
+    },
+    {
+     "x": 0.6,
+     "y": 0.3,
+     "t": "Trees indoors",
+     "d": "The hall was built right over full-grown elm trees in Hyde Park, so they stood inside the glass.",
+     "how": "That is why the middle of the building had a tall curved roof."
+    },
+    {
+     "x": 0.5,
+     "y": 0.93,
+     "t": "Bonnets and wide skirts",
+     "d": "Women in their best: bonnets, shawls and huge skirts. Men in dark coats.",
+     "how": "The painter was there to record the day."
+    }
+   ]
+  }
+ ]
+}

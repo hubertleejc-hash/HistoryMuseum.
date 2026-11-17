@@ -1,0 +1,178 @@
+{
+ "id": "edo-1831",
+ "y": 1831,
+ "tol": 6,
+ "c": "japan",
+ "place": "Edo (Tokyo)",
+ "look": [
+  [
+   "Buildings",
+   "Low wooden houses and shops with tiled roofs, and rows of white fireproof storehouses along the canals. The shogun's castle stood at the centre."
+  ],
+  [
+   "Clothing",
+   "Everyone wore kimono. Samurai carried two swords; townspeople wore cotton kimono with straw sandals or wooden clogs, and straw hats against sun and rain."
+  ],
+  [
+   "Getting around",
+   "On foot over hundreds of bridges, by boat along the canals, or carried in a small palanquin. Wheeled carriages for people were almost unknown."
+  ],
+  [
+   "Light at night",
+   "Paper lanterns at doors and shops, and a hand lantern for anyone walking after dark."
+  ],
+  [
+   "City life",
+   "About a million people lived in Edo, one of the largest cities in the world. Japan was closed to almost all foreigners."
+  ]
+ ],
+ "stops": [
+  {
+   "pic": "edo-1831-1",
+   "name": "Nihonbashi, the heart of the city",
+   "kind": "woodblock print",
+   "made": "Printed about 1830",
+   "fx": 0.4,
+   "title": "Nihonbashi in Edo, from Thirty-six Views of Mount Fuji",
+   "note": "A colour woodblock print by Hokusai, the artist of The Great Wave.",
+   "spots": [
+    {
+     "x": 0.32,
+     "y": 0.37,
+     "t": "The shogun's castle",
+     "d": "Edo Castle, home of the shogun, the military ruler of Japan.",
+     "how": "Its moats and walls still surround the Imperial Palace in Tokyo."
+    },
+    {
+     "x": 0.15,
+     "y": 0.31,
+     "t": "Mount Fuji",
+     "d": "Japan's sacred mountain, about 100 kilometres away, could be seen from the city on clear days.",
+     "how": "Hokusai put Fuji into every picture in this series."
+    },
+    {
+     "x": 0.2,
+     "y": 0.47,
+     "t": "Fireproof storehouses",
+     "d": "Merchants kept their goods in thick white plaster storehouses, because fires often swept through the wooden city.",
+     "how": "Edo had so many great fires that people called them the flowers of Edo."
+    },
+    {
+     "x": 0.6,
+     "y": 0.62,
+     "t": "Boats on the canal",
+     "d": "Rice, fish, wood and other goods came into the city by boat.",
+     "how": "Canals linked the bay to the markets."
+    }
+   ]
+  },
+  {
+   "pic": "edo-1831-2",
+   "name": "The Mitsui shop at Surugachō",
+   "kind": "woodblock print",
+   "made": "Printed about 1830",
+   "fx": 0.45,
+   "title": "Mitsui shop at Surugachō in Edo",
+   "spots": [
+    {
+     "x": 0.87,
+     "y": 0.2,
+     "t": "Roofers at work",
+     "d": "Workmen repair the tiled roof of the shop.",
+     "how": "Hokusai loved to show people at work."
+    },
+    {
+     "x": 0.33,
+     "y": 0.12,
+     "t": "A kite in the sky",
+     "d": "Flying kites was a favourite pastime, especially around New Year.",
+     "how": "Kites appear in many Edo prints."
+    },
+    {
+     "x": 0.24,
+     "y": 0.85,
+     "t": "A famous shop",
+     "d": "This was Echigoya, the Mitsui family's cloth shop, where customers paid a fixed price in cash. It grew into the Mitsukoshi department store.",
+     "how": "Mitsukoshi still stands on the same spot in Tokyo."
+    },
+    {
+     "x": 0.5,
+     "y": 0.55,
+     "t": "Fuji between the roofs",
+     "d": "The street was laid out so Mount Fuji appeared at its end.",
+     "how": "Hokusai framed the mountain between the shop roofs."
+    }
+   ]
+  },
+  {
+   "pic": "edo-1831-3",
+   "name": "Morning at Nihonbashi bridge",
+   "kind": "woodblock print",
+   "made": "Printed about 1833",
+   "fx": 0.5,
+   "title": "Nihonbashi: Morning View, from Fifty-three Stations of the Tōkaidō",
+   "note": "By Hiroshige, two years after 1831.",
+   "spots": [
+    {
+     "x": 0.6,
+     "y": 0.4,
+     "t": "A lord's procession",
+     "d": "Every other year each lord had to travel to Edo with a long procession of servants. Here one sets out at dawn.",
+     "how": "This rule, called sankin-kōtai, lasted until 1862."
+    },
+    {
+     "x": 0.25,
+     "y": 0.12,
+     "t": "Standards held high",
+     "d": "The procession carries tall feathered standards to show whose lord is passing.",
+     "how": "Hiroshige drew the real gear of these processions."
+    },
+    {
+     "x": 0.17,
+     "y": 0.62,
+     "t": "Fish sellers",
+     "d": "Nihonbashi had Edo's fish market. Sellers carried fish in tubs hanging from a pole on their shoulders.",
+     "how": "The fish market stayed at Nihonbashi until 1923."
+    },
+    {
+     "x": 0.86,
+     "y": 0.4,
+     "t": "A neighbourhood gate",
+     "d": "Wooden gates closed off each neighbourhood at night.",
+     "how": "Guards opened them only for people with a good reason."
+    }
+   ]
+  },
+  {
+   "pic": "edo-1831-4",
+   "name": "A sudden shower at Nihonbashi",
+   "kind": "woodblock print",
+   "made": "Printed 1833 to 1834",
+   "fx": 0.65,
+   "title": "Sunshower at Nihonbashi",
+   "spots": [
+    {
+     "x": 0.66,
+     "y": 0.6,
+     "t": "Rain gear",
+     "d": "Straw raincoats, umbrellas of oiled paper and big straw hats kept people dry.",
+     "how": "Hiroshige was famous for his rain."
+    },
+    {
+     "x": 0.5,
+     "y": 0.5,
+     "t": "A wooden bridge",
+     "d": "Nihonbashi was a wooden arched bridge, rebuilt many times after fires.",
+     "how": "The stone bridge there today dates from 1911."
+    },
+    {
+     "x": 0.9,
+     "y": 0.5,
+     "t": "Boats waiting",
+     "d": "Boats crowd the river near the market.",
+     "how": "Goods for the markets came in by water."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "id": "kaifeng-1120",
+ "y": 1120,
+ "tol": 40,
+ "c": "china",
+ "place": "Kaifeng",
+ "look": [
+  [
+   "Buildings",
+   "Wooden buildings with tiled roofs, restaurants and wine shops with flags, and a high wall with big gate towers. Kaifeng was the capital of the Song dynasty."
+  ],
+  [
+   "Clothing",
+   "Long robes with wide sleeves for officials and scholars; short jackets and trousers for porters and boatmen; cloth caps and straw hats."
+  ],
+  [
+   "Getting around",
+   "Boats and barges on the river, carrying grain to the capital. On land: donkeys, camels, ox carts, sedan chairs and wheelbarrows."
+  ],
+  [
+   "Light at night",
+   "Oil lamps and lanterns. Kaifeng's night markets stayed busy long after dark."
+  ],
+  [
+   "City life",
+   "Perhaps a million people lived in and around the city, one of the largest in the world. In 1127 it fell to invaders from the north."
+  ]
+ ],
+ "stops": [
+  {
+   "pic": "kaifeng-1120-1",
+   "name": "Boats on the Bian river",
+   "kind": "scroll painting",
+   "made": "Painted in the early 1100s",
+   "fx": 0.45,
+   "title": "Along the River During the Qingming Festival (detail)",
+   "note": "Details from a famous handscroll by Zhang Zeduan, more than five metres long.",
+   "spots": [
+    {
+     "x": 0.45,
+     "y": 0.55,
+     "t": "Grain barges",
+     "d": "Big boats brought rice and grain along the canal to feed the capital.",
+     "how": "Records of the time describe hundreds of grain boats a year."
+    },
+    {
+     "x": 0.4,
+     "y": 0.12,
+     "t": "Riverside restaurants",
+     "d": "Inns and eating houses lined the bank, for boatmen and travellers.",
+     "how": "Zhang Zeduan painted every shop and sign along the river."
+    },
+    {
+     "x": 0.2,
+     "y": 0.68,
+     "t": "Pulling with ropes",
+     "d": "Boatmen used poles and long ropes to move heavy boats.",
+     "how": "You can see the lines stretched from the boats."
+    }
+   ]
+  },
+  {
+   "pic": "kaifeng-1120-2",
+   "name": "The Rainbow Bridge",
+   "kind": "scroll painting",
+   "made": "Painted in the early 1100s",
+   "fx": 0.45,
+   "title": "Along the River During the Qingming Festival (detail): the Rainbow Bridge",
+   "spots": [
+    {
+     "x": 0.45,
+     "y": 0.3,
+     "t": "A bridge with no pillars",
+     "d": "A wooden arch bridge with no posts in the water, so big boats could pass underneath. Stalls crowd both sides.",
+     "how": "Song-dynasty builders made these from interlocking timbers."
+    },
+    {
+     "x": 0.72,
+     "y": 0.5,
+     "t": "Busy river traffic",
+     "d": "Boats crowd the water near the bridge, and people on the bridge lean over to watch.",
+     "how": "The scroll is famous for this busy scene."
+    },
+    {
+     "x": 0.12,
+     "y": 0.78,
+     "t": "Stalls and umbrellas",
+     "d": "Traders sell food and goods under big umbrellas.",
+     "how": "Every stall in the painting is different."
+    }
+   ]
+  },
+  {
+   "pic": "kaifeng-1120-3",
+   "name": "The city gate",
+   "kind": "scroll painting",
+   "made": "Painted in the early 1100s",
+   "fx": 0.35,
+   "title": "Along the River During the Qingming Festival (detail): the city gate",
+   "spots": [
+    {
+     "x": 0.3,
+     "y": 0.15,
+     "t": "The gate tower",
+     "d": "A tall wooden tower on a thick earth wall guarded the way into the capital.",
+     "how": "Kaifeng's old walls have been dug up by archaeologists."
+    },
+    {
+     "x": 0.6,
+     "y": 0.75,
+     "t": "Townspeople",
+     "d": "Officials in long robes, workers in short jackets, and riders all pass along the road.",
+     "how": "The painter showed over 800 people in the whole scroll."
+    }
+   ]
+  }
+ ]
+}

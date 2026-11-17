@@ -1033,6 +1033,7 @@ function fetchFeed(){
     store.set("ctm-feed", JSON.stringify(f));
     FEED = f;
     feedChapters(f).forEach(indexChapter);
+    if (typeof feedWalks === "function") feedWalks(f);
     if (ART) { const have = new Set(ART.map(it => it.id)); ART.push(...feedArt(f, have)); }
     if (f.today && location.hash === "#today" && scrollY < 40) viewToday();
   }).catch(() => { feedTried = false; });
@@ -2881,11 +2882,26 @@ const SCENES = [
 ].filter(sc => IMG[sc.img]);
 /* Walks through real pictures (app/walks.js): several real period pictures of one place, with tappable
    "elements of the year". Photographs can get a gentle 3D tilt from a software depth estimate. */
-const WALKS = H.walks || {}, WPIC = H.walkPics || {};
-Object.entries(WALKS).forEach(([id, w]) => { w.stops = w.stops.filter(st => WPIC[st.pic]); if (!w.stops.length) return;
+const WALKS = H.walks || {}, WPIC = H.walkPics || {}, WALK_BUNDLED = new Set(Object.keys(WALKS));
+function addWalk(id, w){
+  w.stops = (w.stops || []).filter(st => WPIC[st.pic]); if (!w.stops.length) return;
+  WALKS[id] = w;
   const i = SCENES.findIndex(sc => sc.id === id), sc = {id, y:w.y, tol:w.tol, c:w.c, place:w.place, walk:w};
-  if (i >= 0) SCENES[i] = sc; else SCENES.push(sc); });
-SCENES.sort((a, b) => astro(b.y) - astro(a.y));
+  if (i >= 0) SCENES[i] = sc; else SCENES.push(sc);
+  SCENES.sort((a, b) => astro(b.y) - astro(a.y));
+}
+/* More walks arrive with the online feed (online/walks/), so new places need no new install. Their pictures load
+   from the repository (the phone keeps them in its web cache); a walk that ships in the app always wins. */
+function feedWalks(f){
+  Object.entries((f && f.walks) || {}).forEach(([id, w]) => {
+    if (WALK_BUNDLED.has(id) || !/^[a-z0-9-]+$/.test(id) || !w || !Array.isArray(w.stops)) return;
+    Object.entries(w.pics || {}).forEach(([pid, m]) => { if (!/^[a-z0-9-]+$/.test(pid)) return;
+      WPIC[pid] = {...m, src:FEED_BASE + "walks/img/" + pid + ".jpg", net:true, ...(m.depth ? {dp:FEED_BASE + "walks/img/" + pid + "_d.jpg"} : {})}; });
+    addWalk(id, w);
+  });
+}
+Object.entries(WALKS).forEach(([id, w]) => addWalk(id, w));
+feedWalks(FEED);
 let taShown = null, taAnim = 0;
 const sceneFor = y => SCENES.filter(sc => Math.abs(astro(sc.y) - astro(y)) <= sc.tol).sort((a, b) => Math.abs(a.y - y) - Math.abs(b.y - y) || b.tol - a.tol)[0] || null;
 const nearestScene = y => SCENES.slice().sort((a, b) => Math.abs(astro(a.y) - astro(y)) - Math.abs(astro(b.y) - astro(y)))[0] || null;
@@ -2941,7 +2957,8 @@ function walkShow(i, dir){
   document.getElementById("wk3S").innerHTML = "";
   const old = L.lastElementChild, lay = document.createElement("div"), im = new Image();
   lay.className = "wk3-pic"; im.alt = pic.title; im.decoding = "async";
-  im.className = pic.js || WK3.still ? "" : "drift";
+  im.className = pic.js || pic.dp || WK3.still ? "" : "drift";
+  if (pic.net) im.onerror = () => { if (WK3.i === i) document.getElementById("wk3C").innerHTML = `<p class="wk3-hint">This place's pictures load from the internet. Connect to see them.</p>`; };
   im.style.objectPosition = `${walkFxFor(st, pic) * 100}% ${(st.fy ?? .5) * 100}%`;
   im.src = pic.src; lay.appendChild(im);
   const n = w.stops.length;
@@ -2949,7 +2966,7 @@ function walkShow(i, dir){
   document.getElementById("wk3N").textContent = st.name;
   document.querySelectorAll("#wk3D i").forEach((d, k) => d.classList.toggle("on", k === i));
   walkLabel();
-  document.getElementById("wk3C").innerHTML = `<p class="wk3-hint">Tap a gold dot to see what was there in ${fy(w.y)} and how we know.${pic.js ? " Drag across the picture to look around." : ""}</p>`;
+  document.getElementById("wk3C").innerHTML = `<p class="wk3-hint">Tap a gold dot to see what was there in ${fy(w.y)} and how we know.${pic.js || pic.dp ? " Drag across the picture to look around." : ""}</p>`;
   const go = () => { if (WK3.i !== i) return;
     L.appendChild(lay);
     if (old && !WK3.still && dir) { lay.classList.add(dir < 0 ? "inb" : "in"); old.classList.add(dir < 0 ? "back" : "out");
@@ -2962,7 +2979,7 @@ function walkLabel(){
   const st = WK3.w.stops[WK3.i], pic = WPIC[st.pic], lab = document.getElementById("wk3Lab"); if (!lab) return;
   lab.innerHTML = `<b>${esc(st.title || pic.title)}</b><span>${esc(pic.by)}. ${esc(pic.lic)}${pic.page ? ` · <a href="${esc(pic.page)}" target="_blank" rel="noopener">source</a>` : ""}. A real ${esc(st.kind || "picture")}, not made by AI.</span>
     <span><span class="when">${esc(st.made)}</span>, shown for <span id="taFor">${fy(wkYear)}</span>.${st.note ? " " + esc(st.note) : ""}</span>
-    ${pic.js ? `<span>The 3D effect is added by a computer: it estimates how far away each part of the photograph is and moves the near parts a little more as you drag. <button type="button" class="lnk" data-w3flat>${WK3.flat ? "Turn the 3D effect back on" : "See the photograph as it is"}</button></span>` : ""}`;
+    ${pic.js || pic.dp ? `<span>The 3D effect is added by a computer: it estimates how far away each part of the photograph is and moves the near parts a little more as you drag. <button type="button" class="lnk" data-w3flat>${WK3.flat ? "Turn the 3D effect back on" : "See the photograph as it is"}</button></span>` : ""}`;
 }
 /* where a point of the picture lands on screen (object-fit: cover, with the 3D view zoomed a little) */
 function walkFit(){
@@ -2995,8 +3012,9 @@ function walkSpot(k){
 /* the 3D tilt: one WebGL canvas, drawn only while something moves */
 function walkGL(i){
   const st = WK3.w.stops[i], pic = WPIC[st.pic], cv = document.getElementById("wk3G");
-  if (!cv || !pic.js || WK3.flat || WK3.still) { if (cv) cv.hidden = true; WK3.ready = false; walkSpots(); return; }
+  if (!cv || !(pic.js || pic.dp) || WK3.flat || WK3.still) { if (cv) cv.hidden = true; WK3.ready = false; walkSpots(); return; }
   const id = st.pic;
+  if (!WK3.data[id] && pic.dp) WK3.data[id] = {im:pic.src, dp:pic.dp};
   if (!WK3.data[id]) {
     if (!WK3.wait[id]) { WK3.wait[id] = []; const s = document.createElement("script"); s.src = pic.js; document.head.appendChild(s); }
     WK3.wait[id].push(() => walkGL(i)); return;
@@ -3016,7 +3034,7 @@ function walkGL(i){
     WK3.gl = gl;
   }
   const gl = WK3.gl, d = WK3.data[id];
-  const tex = (unit, src) => new Promise(res => { const im = new Image(); im.onload = () => {
+  const tex = (unit, src) => new Promise(res => { const im = new Image(); if (/^https:/.test(src)) im.crossOrigin = "anonymous"; im.onload = () => {
     gl.activeTexture(gl.TEXTURE0 + unit); const t = gl.createTexture(); gl.bindTexture(gl.TEXTURE_2D, t);
     [gl.TEXTURE_WRAP_S, gl.TEXTURE_WRAP_T].forEach(k => gl.texParameteri(gl.TEXTURE_2D, k, gl.CLAMP_TO_EDGE));
     [gl.TEXTURE_MIN_FILTER, gl.TEXTURE_MAG_FILTER].forEach(k => gl.texParameteri(gl.TEXTURE_2D, k, gl.LINEAR));

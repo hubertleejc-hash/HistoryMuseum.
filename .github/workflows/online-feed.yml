@@ -8,7 +8,7 @@ on:
     paths: ["online/**", "tools/online/**", "tools/art/**", "app/data.js", "app/chapters.js", "app/img/guide/**"]
   push:
     branches: [main]
-    paths: ["online/stories/**", "online/places/**", "online/art/catalog.json", "online/today.json", "tools/online/**", "tools/art/overrides.json"]
+    paths: ["online/stories/**", "online/places/**", "online/walks/**", "online/art/catalog.json", "online/today.json", "tools/online/**", "tools/art/overrides.json"]
   workflow_dispatch:
 
 permissions:

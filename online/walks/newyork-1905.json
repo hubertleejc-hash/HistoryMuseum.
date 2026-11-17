@@ -1,0 +1,177 @@
+{
+ "id": "newyork-1905",
+ "y": 1905,
+ "tol": 6,
+ "c": "usa",
+ "place": "New York",
+ "look": [
+  [
+   "Buildings",
+   "The first skyscrapers: steel frames, elevators and 20 or more floors, like the Flatiron Building of 1902. Below them, brownstone houses and crowded brick tenements."
+  ],
+  [
+   "Clothing",
+   "Men in suits with bowler hats or straw boaters. Women in long skirts, high-necked blouses and large hats."
+  ],
+  [
+   "Getting around",
+   "Electric streetcars, trains on elevated tracks above the street, horse carts and cabs, and a few early cars. The first subway line opened in October 1904."
+  ],
+  [
+   "Light at night",
+   "Electric signs and lights along Broadway, nicknamed the Great White Way. Many homes still used gas light."
+  ],
+  [
+   "Who lived there",
+   "About four million people. Around a million immigrants a year were arriving in the United States, most through Ellis Island."
+  ]
+ ],
+ "stops": [
+  {
+   "pic": "newyork-1905-1",
+   "name": "Broadway, north from 39th Street",
+   "kind": "photograph",
+   "made": "Photographed in 1905",
+   "fx": 0.45,
+   "title": "Broadway, looking north from 39th Street",
+   "spots": [
+    {
+     "x": 0.5,
+     "y": 0.3,
+     "t": "The Times Tower",
+     "d": "The new home of the New York Times. The square in front of it was renamed Times Square in 1904.",
+     "how": "The tower still stands, now covered in giant screens."
+    },
+    {
+     "x": 0.3,
+     "y": 0.85,
+     "t": "An electric streetcar",
+     "d": "Streetcars ran on rails in the road, powered by electricity.",
+     "how": "Most of New York's streetcars were gone by the 1950s."
+    },
+    {
+     "x": 0.15,
+     "y": 0.45,
+     "t": "The Metropolitan Opera House",
+     "d": "The old Met opera house stood on this block of Broadway from 1883 to 1966.",
+     "how": "Photographs like this are how we know it."
+    },
+    {
+     "x": 0.6,
+     "y": 0.82,
+     "t": "Crowds on the sidewalk",
+     "d": "Men in hats and women in long skirts on their way to shops and theatres.",
+     "how": "Count the hats: nearly everyone wears one."
+    }
+   ]
+  },
+  {
+   "pic": "newyork-1905-2",
+   "name": "The Flatiron Building after a snowstorm",
+   "kind": "photograph",
+   "made": "Photographed about 1905",
+   "fx": 0.35,
+   "title": "Flatiron Building after a snowstorm",
+   "spots": [
+    {
+     "x": 0.38,
+     "y": 0.3,
+     "t": "The Flatiron Building",
+     "d": "Finished in 1902, 22 floors on a steel frame. Its triangle shape fits the corner where Broadway crosses Fifth Avenue.",
+     "how": "It is still one of New York's most famous buildings."
+    },
+    {
+     "x": 0.86,
+     "y": 0.7,
+     "t": "Horse cabs in the snow",
+     "d": "Horses still pulled most cabs and wagons.",
+     "how": "There were far more horses than cars in New York in 1905."
+    },
+    {
+     "x": 0.22,
+     "y": 0.72,
+     "t": "Walking through the snow",
+     "d": "After a storm, people walked in paths cut through the drifts in Madison Square.",
+     "how": "The photograph was taken right after the snow."
+    }
+   ]
+  },
+  {
+   "pic": "newyork-1905-3",
+   "name": "Herald Square and Macy's",
+   "kind": "photograph",
+   "made": "Photographed in 1905",
+   "fx": 0.4,
+   "title": "Herald Square, facing Macy's, with the elevated railroad",
+   "spots": [
+    {
+     "x": 0.35,
+     "y": 0.42,
+     "t": "Macy's",
+     "d": "The store moved to this corner in 1902 and was one of the biggest shops in the world.",
+     "how": "Macy's is still here today."
+    },
+    {
+     "x": 0.75,
+     "y": 0.88,
+     "t": "The elevated railway",
+     "d": "Trains ran on iron tracks above the street, rattling past upstairs windows.",
+     "how": "This line, the Sixth Avenue El, was taken down in 1938 and 1939."
+    },
+    {
+     "x": 0.87,
+     "y": 0.62,
+     "t": "The Herald building",
+     "d": "The newspaper building that gave the square its name.",
+     "how": "It was pulled down in 1921."
+    },
+    {
+     "x": 0.6,
+     "y": 0.72,
+     "t": "Streetcars and wagons",
+     "d": "Streetcars, horse wagons and people all share the street.",
+     "how": "Look closely: there are almost no cars."
+    }
+   ]
+  },
+  {
+   "pic": "newyork-1905-4",
+   "name": "Mulberry Street",
+   "kind": "photograph",
+   "made": "Photographed about 1900",
+   "fx": 0.5,
+   "title": "Mulberry Street",
+   "note": "A few years before 1905; the street looked much the same.",
+   "spots": [
+    {
+     "x": 0.4,
+     "y": 0.72,
+     "t": "A street market",
+     "d": "Pushcarts sold fruit, vegetables, fish and clothes right in the street.",
+     "how": "The city counted thousands of licensed pushcarts."
+    },
+    {
+     "x": 0.8,
+     "y": 0.35,
+     "t": "Tenements",
+     "d": "Five- and six-storey brick buildings with fire escapes on the front. Whole families lived in two or three small rooms.",
+     "how": "Photographers and reformers of the time recorded these crowded homes."
+    },
+    {
+     "x": 0.17,
+     "y": 0.46,
+     "t": "Little Italy",
+     "d": "Mulberry Street was the heart of New York's Italian neighbourhood.",
+     "how": "Italian shops and restaurants still line the street."
+    },
+    {
+     "x": 0.6,
+     "y": 0.9,
+     "t": "Children everywhere",
+     "d": "With tiny homes, children played and worked in the street.",
+     "how": "You can see dozens of them in this one photograph."
+    }
+   ]
+  }
+ ]
+}
