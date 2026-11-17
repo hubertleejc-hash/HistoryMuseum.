@@ -1,0 +1,66 @@
+{
+  "hero": "",
+  "portrait": "",
+  "kw": ["Klushino", "Smolensk", "Gzhatsk", "Saratov", "Orenburg", "Vostok 1", "Baikonur", "12 April 1961", "Poyekhali", "Korolev", "Titov", "Tereshkova", "Leonov", "Khrushchev", "Cosmonautics Day", "space race", "Cold War", "parachute", "God@myths", "crash@myths", "Armstrong@people"],
+  "lede": "A carpenter's son from a village burned by war, small enough to fit in the cramped Vostok capsule and cheerful enough to win the world over, who on a spring morning in 1961 shouted 'Let's go!' and became the first human being to see the whole curve of the Earth from space.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Yuri Alekseyevich Gagarin was born on 9 March 1934 in Klushino, a village in the Smolensk region west of Moscow, where his parents worked on a collective farm.",
+      "He trained as a foundry worker, learned to fly at a local flying club, and became an air force fighter pilot. In 1960 he was chosen as one of the Soviet Union's first twenty cosmonauts.",
+      "On 12 April 1961 his Vostok 1 spacecraft carried him once around the Earth in 108 minutes. He became the most famous man on the planet. He never went into space again, and died in a jet training crash on 27 March 1968, aged 34."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father, Alexei, was a carpenter; his mother, Anna, worked on the farm's dairy. Yuri was the third of four children.",
+      "German troops occupied Klushino from late 1941 to early 1943. A German soldier took over the family's house, and the Gagarins lived in a dugout in the garden. His elder brother and sister were taken to Germany as forced labourers and returned only after the war.",
+      "In 1945 the family moved to the nearby town of Gzhatsk. At sixteen Yuri went to a vocational school near Moscow to train as a metal caster, then to an industrial college in Saratov on the Volga.",
+      "In Saratov he joined a flying club and made his first solo flight in 1955. He went on to military pilot school in Orenburg, where he met Valentina Goryacheva, who was training to work in medicine. They married in 1957 and had two daughters."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "The Arctic, 1957 to 1959. He flew MiG fighters with the Northern Fleet near Murmansk, in snow and long polar nights. When he heard of the search for men to fly a new kind of machine, he volunteered.",
+      "Selection, 1960. Out of thousands of pilots, twenty were chosen. Training was secret and brutal: centrifuges, isolation chambers, parachute jumps. Six, including Gagarin and Gherman Titov, became the first group for flight.",
+      {"t": "The choice, April 1961. Days before the launch, the state commission picked Gagarin as pilot, with Titov as back-up. His calm, his quick smile and his modest working-class background are said to have counted.", "lab": "likely", "why": "Based on memoirs of the people involved; the commission's full reasons were not recorded."},
+      "12 April 1961. At 9:07 Moscow time Vostok 1 lifted off from Baikonur in Kazakhstan. Gagarin called out 'Poyekhali!', meaning 'Let's go!'. In orbit he reported what he saw: the Earth's blue halo, the clouds, the colours of the horizon.",
+      "The return. On re-entry his capsule failed to separate cleanly from the equipment module and spun for several minutes before the link burned through. At about seven kilometres up he ejected, as planned, and came down by parachute in a field near the Volga, in the Saratov region, where he was met by a startled farm woman and her granddaughter.",
+      "Fame, 1961 to 1962. Moscow gave him a hero's welcome in Red Square. He toured dozens of countries, from Britain, where foundry workers invited him to Manchester and he lunched with the Queen, to Cuba, India and Japan.",
+      "Grounded, 1960s. He became a trainer of cosmonauts and a deputy in the Supreme Soviet. He was back-up pilot for Soyuz 1 in 1967, in which his friend Vladimir Komarov was killed, and the authorities kept him away from further spaceflight.",
+      "27 March 1968. Having just completed a degree in aerospace engineering, he was flying a two-seat MiG-15UTI with the instructor Vladimir Seryogin to requalify as a pilot. The jet crashed in woods near Kirzhach, east of Moscow, killing them both. His ashes were placed in the Kremlin wall."
+    ]},
+    {"k": "works", "h": "The flight", "ps": [
+      "Vostok 1 was a ball-shaped capsule about 2.3 metres across, attached to an equipment module. Gagarin sat in an ejection seat; there was no way to land gently in the capsule.",
+      {"t": "The flight was run automatically from the ground. Engineers worried that weightlessness might affect a man's mind, so the manual controls were locked by a code in a sealed envelope. Several people involved later said they had told him the code anyway.", "lab": "likely", "why": "From later memoirs of engineers and cosmonauts."},
+      "He made one orbit, at heights between about 170 and 330 kilometres, travelling at about 27,000 kilometres an hour.",
+      "For years the Soviet Union claimed he had landed inside his capsule, because the rules for world records required the pilot to land with his craft. The truth about the parachute came out later."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Valentina Gagarina (1935 to 2020), his wife, who after his death lived quietly at Star City and mostly avoided publicity, though she published a memoir in 1981.",
+      "Sergei Korolev (1907 to 1966), the Chief Designer of the Soviet rocket programme. He had survived years in the Gulag under Stalin, and his name was kept secret until his death. He was fond of Gagarin.",
+      "Gherman Titov (1935 to 2000), his back-up, who flew the second Soviet mission in August 1961 and spent a full day in orbit.",
+      "Alexei Leonov (1934 to 2019), his friend, the first person to walk in space in 1965, who spent decades trying to establish the cause of the crash.",
+      "Valentina Tereshkova (born 1937), whom he helped train, the first woman in space in 1963.",
+      "Neil Armstrong (1930 to 2012), first man on the Moon. In 1969 Armstrong and Aldrin left medals honouring Gagarin and Komarov on the lunar surface."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "The Soviet Union had shocked the West in 1957 by launching Sputnik, the first artificial satellite, and then the dog Laika. Gagarin's flight was another victory in the Cold War race for prestige, coming three weeks before the first American, Alan Shepard, made a short up-and-down flight.",
+      "Soviet leader Nikita Khrushchev used Gagarin as a living advertisement for communism. Everything about the programme, from the launch site to the designers' names, was secret, and the official story was polished and sometimes untrue.",
+      "For many people around the world, though, Gagarin was simply a human being who had done something new and brave, and they cheered him as one of their own."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "12 April has been Cosmonautics Day in Russia since 1962, and in 2011 the United Nations declared it the International Day of Human Space Flight.",
+      "His home town of Gzhatsk was renamed Gagarin in 1968. Streets, squares, a crater on the far side of the Moon and countless statues carry his name; Russian cosmonauts still visit his office and leave messages before they fly.",
+      "In 2011, fifty years after the flight, a statue of him was unveiled in London, a gift recalling his visit to Britain."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Gagarin said 'I see no God up here.'", "lab": "myth", "t": "The words do not appear in recordings of his flight. A similar remark was made by Khrushchev in an anti-religious speech. A friend later said that Gagarin had been baptised in the Orthodox Church."},
+      {"c": "He shouted 'Poyekhali!' at launch.", "lab": "verified", "t": "It is on the recording of the launch, and it became a famous phrase in Russian."},
+      {"c": "He landed in his spacecraft.", "lab": "myth", "t": "He ejected and came down by parachute, as the flight plan intended. The Soviet authorities hid this for years to keep the world record valid."},
+      {"c": "We know exactly why his jet crashed.", "lab": "disputed", "t": "Investigators in 1968 suggested a sharp manoeuvre, perhaps to avoid a weather balloon or cloud, that put the jet into a spin. Leonov believed a faster jet flew too close. The reports stayed secret for decades, and no theory has been proved."},
+      {"c": "He was a passenger, not a pilot.", "lab": "disputed", "t": "The flight was automatic, but he monitored the systems, reported throughout, could have taken control in an emergency, and ejected and landed by himself."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Yuri Gagarin, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Yuri-Gagarin"},
+      {"n": "NASA History Office (public domain)", "u": "https://history.nasa.gov/"},
+      {"n": "Further reading: Jamie Doran and Piers Bizony, Starman: The Truth Behind the Legend of Yuri Gagarin (1998)"},
+      {"n": "Further reading: Asif A. Siddiqi, Challenge to Apollo: The Soviet Union and the Space Race (2000)"}
+    ]}
+  ]
+}

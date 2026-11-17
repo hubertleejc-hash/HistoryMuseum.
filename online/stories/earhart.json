@@ -1,0 +1,65 @@
+{
+  "hero": "",
+  "portrait": "pt-earhart",
+  "kw": ["Atchison", "Kansas", "Friendship", "Atlantic", "Lockheed Vega", "Lockheed Electra", "Harbour Grace", "Northern Ireland", "Ninety-Nines", "George Putnam", "Fred Noonan", "Howland Island", "Itasca", "Lae", "Purdue", "Eleanor Roosevelt", "Nikumaroro@myths", "spy@myths", "Japan@myths"],
+  "lede": "A tomboy from Kansas who saw her first aeroplane at a fair and was not impressed, became the first woman to fly the Atlantic alone, and then disappeared with her navigator somewhere over the Pacific, leaving one of the most argued-over mysteries of the twentieth century.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Amelia Mary Earhart was born on 24 July 1897 in Atchison, Kansas, in her grandparents' house above the Missouri River.",
+      "She became a pilot in 1921 and a celebrity in 1928 as the first woman to cross the Atlantic by air, though only as a passenger. In May 1932 she flew it alone, the first woman to do so, and in 1935 she became the first person to fly solo from Hawaii to California.",
+      "On 2 July 1937, near the end of an attempt to fly around the world at the equator, she and her navigator Fred Noonan vanished near tiny Howland Island in the central Pacific. She was 39."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "Her father, Edwin, was a railway lawyer whose drinking cost him job after job, so the family moved around the Midwest. Amelia and her sister Muriel climbed trees, hunted rats with a rifle and built a home-made roller coaster from the toolshed roof.",
+      {"t": "She saw her first aeroplane at the Iowa State Fair in 1908 and later wrote that it was 'a thing of rusty wire and wood' and not at all interesting.", "lab": "likely", "why": "From her own book The Fun of It (1932)."},
+      "In 1917, visiting her sister in Toronto, she saw wounded soldiers back from the First World War and trained as a nurse's aide in a military hospital. There she watched pilots of the Royal Flying Corps practise, and began to change her mind about flying.",
+      "On 28 December 1920, at Long Beach, California, she paid for a ten-minute ride. 'By the time I had got two or three hundred feet off the ground,' she wrote, 'I knew I had to fly.'"
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "Learning, 1921 to 1922. She took lessons from Neta Snook, one of the few women instructors, worked odd jobs to pay for them, and bought a small yellow biplane she called The Canary. In 1922 she set a women's altitude record of 14,000 feet.",
+      "Friendship, 17 to 18 June 1928. Working as a social worker in Boston, she was invited to join a flight across the Atlantic. Wilmer Stultz flew the plane, Lou Gordon was the mechanic, and she kept the log. They landed in Wales after 20 hours and 40 minutes. She said she had been carried 'like a sack of potatoes', but she was the one the crowds wanted to see.",
+      "Marriage, 1931. She married the publisher George Putnam, who had organised the Friendship flight and managed her career. She kept her own name.",
+      "Solo across the Atlantic, 20 to 21 May 1932. Five years to the day after Charles Lindbergh's flight, she took off from Harbour Grace, Newfoundland, in a red Lockheed Vega. Ice, a broken altimeter and a leaking fuel line forced her down early, in a pasture near Londonderry in Northern Ireland, after about 15 hours.",
+      "Hawaii to California, January 1935. She flew solo from Honolulu to Oakland, over a stretch of ocean where several pilots had already died.",
+      "Purdue, 1935 to 1937. She joined Purdue University in Indiana as an adviser to women students, and the university's research foundation helped buy a twin-engine Lockheed Electra 10E, her 'flying laboratory'.",
+      "The world flight, 1937. A first attempt ended in a crash on take-off in Hawaii in March. In June she started again, from Oakland and Miami, flying east across South America, Africa, India and South-East Asia. By late June she and Noonan had reached Lae, New Guinea, with about 7,000 miles to go.",
+      "2 July 1937. They left Lae for Howland Island, a speck about 2,550 miles away, where the US Coast Guard cutter Itasca waited. Her radio calls grew louder, so she was close, but the two sides never managed proper two-way contact. Her last clear message gave a position line and said they were running north and south. Then silence."
+    ]},
+    {"k": "works", "h": "The flights and the books", "ps": [
+      "First woman across the Atlantic by air (1928), first woman to fly it solo (1932), and only the second person after Lindbergh to do so alone.",
+      "First person to fly solo from Hawaii to the US mainland (1935), and first woman to fly solo non-stop across the United States (1932).",
+      "20 Hrs. 40 Min. (1928), about the Friendship flight; The Fun of It (1932); and Last Flight (1937), put together by Putnam from her notes and letters after she disappeared.",
+      "She helped found the Ninety-Nines, an organisation of women pilots, in 1929 and became its first president. She also designed a line of clothes and lightweight luggage."
+    ]},
+    {"k": "people", "h": "Her people", "ps": [
+      "George Palmer Putnam (1887 to 1950), publisher, promoter and husband, who turned her into a brand and pushed hard for ever bigger records.",
+      "Fred Noonan (1893 to 1937), an experienced Pan American navigator who had helped chart the airline's Pacific routes. He vanished with her.",
+      "Muriel Earhart Morrissey (1899 to 1998), her younger sister, a teacher, who later wrote about her.",
+      "Neta Snook (1896 to 1991), her first flying teacher.",
+      "Eleanor Roosevelt (1884 to 1962), the First Lady, a friend. In April 1933 Earhart took her on a night flight from Washington to Baltimore, both still in evening dress from a White House dinner."
+    ]},
+    {"k": "world", "h": "The world around her", "ps": [
+      "She grew up as flying was invented. When she was six, the Wright brothers first flew; by the time she died, airlines were crossing the Pacific.",
+      "The 1920s and 1930s were the age of record flights, newsreels and radio. Pilots like Lindbergh, Amy Johnson and Jean Batten were as famous as film stars, and sponsors paid for the danger.",
+      "Women had won the vote in the United States in 1920. Earhart used her fame to argue, in lectures and articles, that women should be free to choose any work they wanted."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "The US Navy and Coast Guard searched about 250,000 square miles of ocean for over two weeks and found nothing. She was declared legally dead in January 1939.",
+      "She became a symbol of courage and of women's independence, with schools, airports and an asteroid named after her. Her Lockheed Vega hangs in the National Air and Space Museum in Washington.",
+      "The Ninety-Nines still exists, with members around the world, and runs a scholarship in her name."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "She ran out of fuel and went down at sea.", "lab": "likely", "t": "This was the conclusion of the Navy and Coast Guard, and most historians still think it the most likely end. The wreck has never been found."},
+      {"c": "She landed on Nikumaroro and died as a castaway.", "lab": "disputed", "t": "A research group, TIGHAR, argues that she reached this uninhabited atoll about 350 miles away. Bones found there in 1940 were later lost; scientists disagree about the old measurements. Nothing has been proved."},
+      {"c": "She was a spy, captured by the Japanese.", "lab": "myth", "t": "Many books and television shows have made this claim, but no credible document or photograph supports it. A photo said in 2017 to show her in the Marshall Islands turned out to have been published in 1935."},
+      {"c": "She was the first woman to fly across the Atlantic.", "lab": "verified", "t": "True in two ways: first as a passenger in 1928, and first flying alone in 1932. She herself said the 1928 trip did not count, which is why she went back."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Amelia Earhart, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Amelia-Earhart"},
+      {"n": "Smithsonian National Air and Space Museum, which holds her Lockheed Vega 5B", "u": "https://airandspace.si.edu/"},
+      {"n": "Purdue University Libraries, George Palmer Putnam Collection of Amelia Earhart Papers", "u": "https://collections.lib.purdue.edu/aearhart/collectiondescription.php"},
+      {"n": "Amelia Earhart, The Fun of It (1932)"},
+      {"n": "Further reading: Susan Butler, East to the Dawn (1997)"}
+    ]}
+  ]
+}

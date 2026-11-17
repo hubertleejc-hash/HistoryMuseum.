@@ -1,0 +1,67 @@
+{
+  "hero": "",
+  "portrait": "pt-schiele",
+  "kw": ["Vienna", "Tulln", "Klimt", "Expressionism", "Wally Neuzil", "Edith Harms", "Krumau", "Cesky Krumlov", "Neulengbach", "Death and the Maiden", "The Family", "self-portrait", "Secession", "Spanish flu", "Leopold Museum", "Portrait of Wally@legacy", "pornographer@myths", "convicted@myths"],
+  "lede": "A stationmaster's son who drew himself over and over, thin, twisted and staring, made the human body look raw and nervous in a way no painter had before, and was dead of influenza at twenty-eight, three days after his wife.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Egon Schiele was born on 12 June 1890 in Tulln, a small town on the Danube near Vienna, where his father ran the railway station. He drew constantly as a child, mostly trains.",
+      "At sixteen he entered the Vienna Academy of Fine Arts. A year later he met Gustav Klimt, who encouraged him, swapped drawings with him and introduced him to collectors. Within a few years Schiele had found a style all his own: angular, bony figures, harsh outlines and bodies shown without flattery.",
+      "He painted and drew hundreds of portraits, nudes and self-portraits, along with quiet townscapes. In 1918 he was at last a success in Vienna. That October the Spanish flu killed his pregnant wife Edith, and then him."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father, Adolf Schiele, worked for the Austrian state railways. Egon grew up above the station at Tulln and spent hours drawing the engines and carriages that passed below.",
+      {"t": "Adolf fell ill with syphilis, became mentally unstable, and died on New Year's Eve 1904, when Egon was fourteen. Many writers link the shadow of sickness, sex and death in his art to this loss.", "lab": "likely", "why": "The illness is documented; how much it shaped his art is an interpretation by biographers."},
+      "His uncle and guardian, Leopold Czihaczek, wanted him to work for the railways too. His school art teacher saw his talent and helped persuade the family otherwise.",
+      "In 1906 he was admitted to the Academy, one of its youngest students. He found the teaching stiff and old-fashioned, and his professor, Christian Griepenkerl, disliked his work. In 1909 he left with a group of friends and founded the Neukunstgruppe, the New Art Group."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1907: he met Gustav Klimt, then the most famous painter in Vienna. Klimt bought or exchanged his drawings, found him models and patrons, and in 1909 invited him to show at the great Internationale Kunstschau exhibition.",
+      "1910: his breakthrough year as an artist. He made a long series of nude self-portraits and studies, with stretched limbs and sharp joints, unlike anything in Vienna.",
+      "1911: he met Wally Neuzil, who became his model and companion. They moved to Krumau (today Cesky Krumlov in the Czech Republic), his mother's home town. Neighbours objected to the unmarried couple and to young local people posing for him, and that August they had to leave.",
+      {"t": "Neulengbach, April 1912. Living in a village west of Vienna, he was arrested after a girl who had run away from home stayed with him and Wally. The charges of kidnapping and seduction were dropped. He was convicted of letting children see erotic drawings in his studio. In court the judge burned one drawing. In all he spent 24 days in custody.", "lab": "verified", "why": "The court outcome is recorded; the prison watercolours he made survive and are dated."},
+      "1915: he married Edith Harms, a middle-class young woman who lived across the street from his Vienna studio. He parted from Wally. Days later he was called up into the Austro-Hungarian army.",
+      "1915 to 1918: he served away from the front, guarding Russian prisoners of war and later working in an army supply office in Vienna. He kept drawing, and officers who admired his work protected him.",
+      "1918: Klimt died in February and Schiele drew him on his deathbed. In March the Vienna Secession gave Schiele the main hall of its exhibition, and his work sold well for the first time.",
+      "October 1918: Edith, six months pregnant, died of the Spanish flu on 28 October. Schiele caught it from her and died on 31 October, aged 28. The war ended days later."
+    ]},
+    {"k": "works", "h": "The paintings", "ps": [
+      "Self-portraits. He made more than a hundred: grimacing, naked, crouched or staring, often with long, bony hands. The Self-Portrait with Physalis (1912) and its pair, the Portrait of Wally, are among the best known.",
+      "Nudes and drawings. His drawings are made with a quick, sure, unbroken line, often coloured with gouache or watercolour. The bodies are shown from odd angles, sometimes awkward or distressed. They shocked people then and still divide viewers.",
+      "Death and the Maiden (1915), in the Belvedere in Vienna, shows a man in a dark robe and a woman clinging to each other on a rumpled cloth. It is often read as his parting from Wally.",
+      "The Family (1918), one of his last large paintings, shows himself, a woman and a small child. It hangs in the Belvedere and was left slightly unfinished, a picture of the family he never had.",
+      "Towns and landscapes. He also painted Krumau's crowded roofs, bare trees and small houses, still and almost melancholy.",
+      "Portraits of collectors and friends, and of Edith, whom he painted in a striped dress in 1915."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Gustav Klimt (1862 to 1918), the leading painter of Vienna, his mentor and supporter from 1907 until Klimt's death in February 1918.",
+      "Wally Neuzil (1894 to 1917), his model and partner from 1911 to 1915. She stood by him during the Neulengbach trial. After they parted she trained as a nurse and died of scarlet fever while working in a military hospital.",
+      "Edith Harms (1893 to 1918), his wife from 1915. She also modelled for him. She died three days before he did.",
+      "Gerti Schiele (1894 to 1981), his younger sister, one of his first models.",
+      "Arthur Roessler (1877 to 1955), art critic and early champion, who wrote about him and found him buyers.",
+      "Sigmund Freud (1856 to 1939) was writing about the unconscious and sexuality in the same city. There is no record that they met, but they shared Vienna's open interest in what lies beneath the polite surface."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Vienna around 1900 was the capital of a huge, ageing empire and a hothouse of new ideas in art, music, medicine and philosophy. Polite society was formal and religious, while artists and thinkers questioned everything about desire and the self.",
+      "Painters such as Klimt and Oskar Kokoschka broke with the official Academy style. Schiele went further, stripping away Klimt's gold ornament to show the bare, anxious body.",
+      "The First World War destroyed that world. Austria-Hungary collapsed in the weeks Schiele died, and the 1918 influenza pandemic killed tens of millions worldwide."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "He is now counted among the founders of Expressionism. His line and his frank way of showing the body influenced artists across the 20th century.",
+      "The Vienna collector Rudolf Leopold gathered one of the largest Schiele collections in the world. It became the Leopold Museum, which opened in 2001.",
+      "In 1998 his Portrait of Wally was seized while on loan in New York, after the heirs of Lea Bondi Jaray said the Nazis had taken it from her. The case was settled in 2010 and the painting returned to the Leopold Museum."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "He was convicted of abusing a child.", "lab": "myth", "t": "In 1912 the charges of kidnapping and seduction of a minor were dropped. He was convicted of a lesser offence: displaying an erotic drawing where children could see it. Questions about the young models he drew are still discussed by historians."},
+      {"c": "He was just a pornographer.", "lab": "disputed", "t": "His nudes are explicit and were meant to provoke, but they were made and shown as art, and most critics see them as studies of vulnerability, loneliness and desire. People argued about them then and still do."},
+      {"c": "He died of war wounds.", "lab": "myth", "t": "He never fought at the front. He died of the Spanish flu on 31 October 1918, three days after his wife."},
+      {"c": "Klimt and Schiele were rivals.", "lab": "myth", "t": "Klimt was nearly thirty years older and supported him from the start. Schiele admired him all his life."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Egon Schiele, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Egon-Schiele"},
+      {"n": "Leopold Museum, Vienna", "u": "https://www.leopoldmuseum.org/en"},
+      {"n": "Belvedere Museum, Vienna (Death and the Maiden, Portrait of Edith Schiele)", "u": "https://www.belvedere.at/en"},
+      {"n": "Further reading: Frank Whitford, Egon Schiele (1981)"}
+    ]}
+  ]
+}

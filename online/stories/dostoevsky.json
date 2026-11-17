@@ -1,0 +1,70 @@
+{
+  "hero": "",
+  "portrait": "pt-dostoevsky",
+  "kw": ["Moscow", "St Petersburg", "Poor Folk", "Belinsky", "Petrashevsky circle", "mock execution", "Semyonovsky Square", "Omsk", "Siberia", "katorga", "Notes from Underground", "Crime and Punishment", "Raskolnikov", "The Gambler", "Anna Snitkina", "The Idiot", "Demons", "The Brothers Karamazov", "epilepsy", "Pushkin speech", "Writer's Diary@myths", "antisemitism@myths"],
+  "lede": "A young writer who stood blindfolded before a firing squad in the snow, heard a last-minute pardon from the tsar, spent four years in chains in Siberia, and came back to write novels that look deeper into the human mind than almost anything before them.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Fyodor Mikhailovich Dostoevsky was born in Moscow on 11 November 1821 (30 October in the old Russian calendar). His first novel, Poor Folk (1846), made him famous at 24.",
+      "In 1849 he was arrested for belonging to a radical discussion circle, sentenced to death, reprieved at the last moment and sent to a prison camp in Siberia. He returned to St Petersburg ten years later.",
+      "Struggling with debt, gambling and epilepsy, he wrote Crime and Punishment, The Idiot, Demons and The Brothers Karamazov, novels of murder, faith, doubt and guilt. He died in St Petersburg on 9 February 1881, a national celebrity."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father, Mikhail, was a doctor at the Mariinsky Hospital for the Poor in Moscow, and the family lived in a flat on the hospital grounds. Fyodor saw the city's sick and poor from childhood.",
+      "His mother, Maria, taught the children to read from a book of Bible stories. She died of tuberculosis in 1837, when he was fifteen.",
+      "That year he was taken to St Petersburg, and in 1838 he entered the Military Engineering School there. He hated the drill and lived for books: Pushkin, Gogol, Schiller, Balzac and Dickens.",
+      {"t": "In 1839 his father died on the family's small country estate. It was long said that his own serfs murdered him in revenge for his cruelty. Officially he died of a stroke, and historians still argue.", "lab": "disputed", "why": "The murder story comes from family and village tradition; no case was ever proved."}
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1844 to 1846: he left the army's engineering service to write. Poor Folk, a novel in letters between a poor clerk and a young woman, was read overnight by the poet Nekrasov, who took it to the critic Vissarion Belinsky. Belinsky hailed a new Gogol.",
+      "1846 to 1849: his next works, such as The Double, puzzled readers. He joined the Petrashevsky circle, young men who met to read banned books and talk about socialism and the end of serfdom.",
+      "April 1849: he and other members were arrested and held for eight months in the Peter and Paul Fortress.",
+      "22 December 1849: on Semyonovsky Square the prisoners were read death sentences, dressed in white shirts, and the first three were tied to posts. Then a messenger brought the tsar's pardon. It had been decided in advance.",
+      "1850 to 1854: he served four years of hard labour in a prison camp at Omsk, in fetters, among murderers and thieves. The only book allowed was the New Testament. Then he served as a common soldier in Semipalatinsk, in today's Kazakhstan, and in 1857 married a widow, Maria Isaeva.",
+      "1859 to 1864: back in St Petersburg he ran magazines with his brother Mikhail and published Notes from the House of the Dead about the camp. In 1864 both his wife and his brother died, leaving him with large debts.",
+      "1866: Crime and Punishment appeared as a magazine serial. To meet a deadline for a publisher who could otherwise take his future rights, he dictated The Gambler in under a month to a young stenographer, Anna Snitkina. They married in February 1867.",
+      "1867 to 1871: fleeing creditors, they lived in Germany, Switzerland and Italy. He gambled away their money at roulette. Their first child, Sonya, died at three months. He wrote The Idiot and began Demons.",
+      "1880: The Brothers Karamazov was completed. In June, at the unveiling of a monument to Pushkin in Moscow, his speech on Russia's destiny was received with wild enthusiasm.",
+      "9 February 1881: he died in St Petersburg after a haemorrhage of the lungs. Tens of thousands followed his coffin."
+    ]},
+    {"k": "works", "h": "The novels", "ps": [
+      "Notes from Underground (1864), the bitter monologue of a nameless man who rejects reason, progress and his own interests just to prove he is free. It is often called the first existentialist novel.",
+      "Crime and Punishment (1866). Raskolnikov, a poor former student, murders an old pawnbroker to prove he is an extraordinary man above morality, and is slowly undone by guilt. Sonya, a young woman forced into prostitution, leads him toward confession.",
+      "The Idiot (1869), about Prince Myshkin, a truly good and innocent man, and what the world does to him.",
+      "Demons (1872), also called The Possessed, based on a real murder by a revolutionary cell, warns of radical ideas turning into terror.",
+      "The Brothers Karamazov (1880), about a father's murder and his four sons. It holds the chapter of the Grand Inquisitor, in which Christ returns to Seville and is arrested, one of the most famous debates on freedom and faith in literature.",
+      "A Writer's Diary (1873 to 1881), a one-man journal of essays, stories and opinions on Russian life and politics."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Mikhail Dostoevsky (1820 to 1864), his elder brother and closest friend, partner in his magazines.",
+      "Vissarion Belinsky (1811 to 1848), the critic who launched his career and whose atheist socialism he later rejected.",
+      "Mikhail Petrashevsky (1821 to 1866), whose Friday gatherings led to his arrest.",
+      "Maria Isaeva (1824 to 1864), his first wife, whose illness and jealousy he drew on in his novels.",
+      "Anna Snitkina (1846 to 1918), his second wife, stenographer and business manager. She sorted out his debts, published his books herself and kept his memory after his death.",
+      "Leo Tolstoy (1828 to 1910), the other giant of Russian prose. Each admired the other, but they never met, even when both attended the same lecture in 1878."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "He was arrested under Tsar Nicholas I, whose regime crushed dissent after the European revolutions of 1848. He lived to see Alexander II free the serfs in 1861, and died a month before revolutionaries assassinated that tsar.",
+      "Educated Russians argued over whether their country should follow Western Europe or its own Orthodox and Slavic path. Dostoevsky moved from youthful socialism to fervent Orthodox Christianity and Russian nationalism.",
+      "St Petersburg, with its damp courtyards, taverns and crowded rented rooms, is almost a character in his books."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "He shaped the modern novel of ideas and of psychology. Nietzsche wrote that Dostoevsky was the only psychologist he had learned anything from, and writers from Kafka to Camus counted him a master.",
+      "Sigmund Freud wrote an essay on him, Dostoevsky and Parricide (1928), and called The Brothers Karamazov the most magnificent novel ever written.",
+      "In the Soviet Union his religious and anti-revolutionary views made him awkward, and Demons was rarely reprinted for decades. Today he is one of the most read Russian authors worldwide."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "The mock execution was a real execution stopped by chance.", "lab": "myth", "t": "Nicholas I had already commuted the sentences. The whole scene, with the shirts, the posts and the last-minute messenger, was staged on his orders to teach the prisoners a lesson."},
+      {"c": "His epilepsy gave him his genius.", "lab": "disputed", "t": "His seizures became frequent in Siberia, though some accounts place earlier attacks. He described the moments of ecstasy before a seizure through Prince Myshkin. How the illness shaped his art is a matter of opinion."},
+      {"c": "His views were simply those of a kind Christian humanist.", "lab": "myth", "t": "His novels are full of compassion, but in A Writer's Diary he also wrote hostile passages about Jews and other peoples, and supported Russian imperial expansion. Scholars treat this antisemitism as a real and serious part of his thinking."},
+      {"c": "He wrote The Gambler from experience.", "lab": "verified", "t": "He was addicted to roulette for years and lost heavily at German spa casinos. He gave up gambling in 1871."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Fyodor Dostoyevsky, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Fyodor-Dostoyevsky"},
+      {"n": "Fyodor Dostoevsky, Crime and Punishment, translated by Constance Garnett, Project Gutenberg", "u": "https://www.gutenberg.org/ebooks/2554"},
+      {"n": "Fyodor Dostoevsky, Notes from Underground, Project Gutenberg", "u": "https://www.gutenberg.org/ebooks/600"},
+      {"n": "Anna Dostoevsky, Reminiscences (written 1911 to 1916)"},
+      {"n": "Further reading: Joseph Frank, Dostoevsky (5 vols, 1976 to 2002)"}
+    ]}
+  ]
+}

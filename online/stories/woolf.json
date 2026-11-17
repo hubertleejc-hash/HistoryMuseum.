@@ -1,0 +1,70 @@
+{
+  "hero": "",
+  "portrait": "pt-woolf",
+  "kw": ["Virginia Stephen", "Leslie Stephen", "Bloomsbury", "Bloomsbury Group", "Hogarth Press", "Leonard Woolf", "Vanessa Bell", "Vita Sackville-West", "Mrs Dalloway", "To the Lighthouse", "Orlando", "A Room of One's Own", "The Waves", "Three Guineas", "St Ives", "Monk's House", "Rodmell", "feminism", "Joyce@people", "illness@myths"],
+  "lede": "A Victorian editor's daughter, taught at home while her brothers went to Cambridge, who set up a printing press on her dining-room table and used it to publish novels that tried to catch the way a mind actually moves through a single day.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Adeline Virginia Stephen was born in London on 25 January 1882, at 22 Hyde Park Gate in Kensington, into a large, clever, crowded household.",
+      "As Virginia Woolf she wrote nine novels, including Mrs Dalloway (1925), To the Lighthouse (1927) and The Waves (1931), and essays such as A Room of One's Own (1929). With her husband Leonard she ran the Hogarth Press, one of the boldest small publishers of its time.",
+      "She lived with recurring periods of severe mental illness. On 28 March 1941, aged 59, with a second world war raging, she drowned herself in the River Ouse near her home in Sussex."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "Her father, Sir Leslie Stephen, was a famous critic and mountaineer and the first editor of the Dictionary of National Biography. Her mother, Julia, had been a model for Pre-Raphaelite painters. Both had been widowed before, so Virginia grew up with half-siblings, sister Vanessa and brothers Thoby and Adrian.",
+      "The boys went to school and to Cambridge. Virginia was taught at home and given the run of her father's library, which she later said was its own kind of education, and its own kind of grievance.",
+      "Summers until 1894 were spent at Talland House in St Ives, Cornwall, looking out at the Godrevy lighthouse. Those holidays became To the Lighthouse.",
+      "Her mother died in May 1895, when Virginia was thirteen, and she had her first breakdown. Her half-sister Stella died in 1897 and her father in 1904, followed by another breakdown.",
+      {"t": "In memoirs written late in life she described being sexually abused as a child and young woman by her two older half-brothers, George and Gerald Duckworth.", "lab": "likely", "why": "Her own account, in 'A Sketch of the Past' and talks to friends. Biographers accept it, though its effects are debated."}
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "Bloomsbury, 1904. After their father's death the four young Stephens moved to Gordon Square in Bloomsbury, then a shabby part of London. Thoby's Cambridge friends came on Thursday evenings to talk about art, love and truth. This was the start of the Bloomsbury Group. Thoby died of typhoid in 1906.",
+      "Marriage, 1912. She married Leonard Woolf, a writer just back from colonial service in Ceylon. A serious breakdown followed in 1913. Leonard cared for her through it and through later illnesses.",
+      "The Voyage Out, 1915. Her first novel, about a young woman's journey to South America, was published by her half-brother's firm.",
+      "The Hogarth Press, 1917. The Woolfs bought a small hand press for their house in Richmond, partly as calming work for her. They set type by hand. The press soon published T. S. Eliot's The Waste Land, Katherine Mansfield, and the English translations of Sigmund Freud.",
+      "Mrs Dalloway, 1925. A single June day in London: Clarissa Dalloway prepares a party, while a shell-shocked veteran, Septimus Smith, moves towards death. The two never meet.",
+      "To the Lighthouse, 1927. The Ramsay family on holiday, a promised trip to a lighthouse, and a middle section in which ten years, a war and several deaths pass in a few pages.",
+      "A Room of One's Own, 1929. Based on talks she gave at the women's colleges in Cambridge in 1928, it argues that a woman needs 'money and a room of her own' to write fiction.",
+      "War, 1939 to 1941. Their London houses were damaged by bombs in 1940. They lived at Monk's House in Rodmell, Sussex. She finished Between the Acts, and in March 1941 her illness returned. She died on 28 March. Her body was found three weeks later."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "Jacob's Room (1922), her first truly experimental novel, about a young man glimpsed only through others' eyes, killed in the war.",
+      "Mrs Dalloway (1925) and To the Lighthouse (1927), the two novels named in the museum's short life of her, in which the story is mostly inside people's heads, and time stretches and shrinks with feeling.",
+      "Orlando (1928), a playful 'biography' of a hero who lives for 350 years and changes from a man into a woman. It was inspired by her friend and lover Vita Sackville-West.",
+      "The Waves (1931), her most poetic book, six voices from childhood to old age.",
+      "A Room of One's Own (1929) and Three Guineas (1938), essays on women, money, education and war.",
+      "Diaries and letters filling many volumes, among the richest records of any writer's life, and hundreds of essays and reviews."
+    ]},
+    {"k": "people", "h": "Her people", "ps": [
+      "Leonard Woolf (1880 to 1969), husband, partner at the Hogarth Press, political writer and her protector through illness.",
+      "Vanessa Bell (1879 to 1961), her sister, a painter. They were rivals and each other's closest ally. Vanessa designed the covers of Virginia's books.",
+      "Vita Sackville-West (1892 to 1962), a poet and novelist from an aristocratic family. They met in 1922 and became lovers for some years and friends for life.",
+      "Lytton Strachey, John Maynard Keynes, E. M. Forster, Roger Fry and Duncan Grant, the core of the Bloomsbury circle.",
+      "T. S. Eliot (1888 to 1965), whose poems the Hogarth Press published.",
+      "James Joyce (1882 to 1941), her exact contemporary. The Woolfs declined to print Ulysses in 1918, and her diary records both admiration and distaste when she read it."
+    ]},
+    {"k": "world", "h": "The world around her", "ps": [
+      "She was born into Victorian England and lived through the suffragette campaigns, the First World War, the first votes for women in 1918 and equal voting in 1928.",
+      "Bloomsbury broke with Victorian manners: friends of both sexes talked openly about sex and art, Roger Fry brought Post-Impressionist painting to London in 1910, and Keynes changed economics.",
+      {"t": "In January 1939 she met Sigmund Freud in London, newly escaped from Vienna. He gave her a narcissus.", "lab": "verified", "why": "Recorded in her diary at the time; Leonard also described the visit."},
+      "Leonard was Jewish, and both were known opponents of fascism. In 1940, expecting a German invasion, they discussed suicide if Britain fell."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "Her novels are central to modernism, alongside Joyce and Proust, and are still read as models of how fiction can follow thought and memory.",
+      "A Room of One's Own became one of the founding texts of feminist criticism, read especially from the 1970s, when a new generation rediscovered her.",
+      "Monk's House is now looked after by the National Trust. Her diaries, published from the 1970s, made her one of the most closely known writers who ever lived."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Her illness explains her work.", "lab": "myth", "t": "She was ill at times, but she wrote in long periods of health, with great discipline, revising draft after draft. Her illness is part of her story, not the whole of it."},
+      {"c": "She despised Joyce.", "lab": "disputed", "t": "She wrote some sharp private remarks about Ulysses, but she also called parts of it brilliant, and her own Mrs Dalloway, also a single day in a city, shows she took it seriously."},
+      {"c": "She left a note for her husband.", "lab": "verified", "t": "She left a short letter to Leonard, thanking him for the happiness he had given her, and one to her sister."},
+      {"c": "She was a cold snob.", "lab": "disputed", "t": "She could be cruel in her diary, and some remarks there about class and about Jews, despite her Jewish husband, make uncomfortable reading. Friends also remembered her as funny, warm and wildly curious."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Virginia Woolf, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Virginia-Woolf"},
+      {"n": "Virginia Woolf, The Voyage Out (1915), Project Gutenberg (public domain)", "u": "https://www.gutenberg.org/ebooks/144"},
+      {"n": "Virginia Woolf, author page, Wikisource", "u": "https://en.wikisource.org/wiki/Author:Virginia_Woolf"},
+      {"n": "Virginia Woolf, 'A Sketch of the Past', in Moments of Being"},
+      {"n": "Further reading: Hermione Lee, Virginia Woolf (1996)"}
+    ]}
+  ]
+}

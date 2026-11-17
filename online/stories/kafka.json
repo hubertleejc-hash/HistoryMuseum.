@@ -1,0 +1,69 @@
+{
+  "hero": "",
+  "portrait": "pt-kafka",
+  "kw": ["Prague", "Bohemia", "The Metamorphosis", "Gregor Samsa", "The Trial", "The Castle", "Amerika", "The Judgment", "In the Penal Colony", "A Hunger Artist", "Letter to His Father", "Max Brod", "Felice Bauer", "Milena Jesenska", "Dora Diamant", "insurance", "tuberculosis", "Kafkaesque", "burn@myths", "helmet@myths", "Holocaust@myths"],
+  "lede": "A polite, funny, painfully shy insurance lawyer in Prague who wrote at night about a man who wakes up as a monstrous bug, asked his best friend to burn everything he left behind, and was disobeyed, which is why a whole language now has the word 'Kafkaesque'.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Franz Kafka was born on 3 July 1883 in Prague, then a city of the Austro-Hungarian Empire, into a German-speaking Jewish family. He lived almost all his life there.",
+      "By day he worked for a workers' accident insurance office. By night he wrote stories and novels in which ordinary people are trapped by rules, courts and authorities they cannot understand. In his lifetime he published only a handful of short books, among them The Metamorphosis (1915).",
+      "He died of tuberculosis on 3 June 1924, aged 40. Against his written wishes, his friend Max Brod published his three unfinished novels, The Trial, The Castle and Amerika, which made him one of the most read writers of the century."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father, Hermann Kafka, had grown up poor in a Czech village and built a successful shop in Prague selling fancy goods. He was big, loud and self-made, and his son felt crushed by him. His mother, Julie, came from a richer, more learned family.",
+      "Two younger brothers died as babies. Three sisters survived: Elli, Valli and Ottla, the youngest and the one closest to him.",
+      "He went to German-language schools in the Old Town and studied law at the German university in Prague, gaining his doctorate in 1906. In 1902, in his second year, he met Max Brod, who became his lifelong friend.",
+      "In 1908 he joined the Workers' Accident Insurance Institute for the Kingdom of Bohemia. He was good at it, wrote reports on safety in factories and quarries, and rose to a senior post. He called the job a torment, because it ate his writing time."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "The night of 22 to 23 September 1912. He wrote the story 'The Judgment' in one sitting, from ten at night to six in the morning. He felt for the first time that he had broken through as a writer.",
+      "The Metamorphosis, November to December 1912. A travelling salesman, Gregor Samsa, wakes to find himself changed into a huge insect, and his family slowly turns from horror to resentment. It was published in 1915.",
+      "Felice Bauer, 1912 to 1917. He met Felice, a businesswoman from Berlin, in August 1912 and wrote her hundreds of letters. They were engaged twice and twice he broke it off.",
+      "The Trial, 1914. In the first months of the First World War he began a novel about Josef K., who is arrested one morning without having done anything wrong and is never told the charge.",
+      "Illness, August 1917. He coughed up blood and was found to have tuberculosis. He spent long periods in the country with Ottla and in sanatoria, and retired from his job in 1922.",
+      "Letter to His Father, November 1919. A long letter trying to explain his fear of his father. He gave it to his mother to pass on; she never did.",
+      "The Castle, 1922. A land surveyor named K. arrives in a village and tries, without success, to reach the officials in the castle above it.",
+      "Berlin and the end, 1923 to 1924. With Dora Diamant he finally left Prague and lived in Berlin, poor and happy, through the inflation winter. His illness spread to his throat, and he died at a sanatorium in Kierling, near Vienna, on 3 June 1924. He is buried in the New Jewish Cemetery in Prague."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "The Metamorphosis (1915), the story the museum's short life of him names. Kafka asked his publisher not to draw the insect on the cover.",
+      "Short works published in his life: Meditation (1912), The Stoker (1913), The Judgment (1913), In the Penal Colony (1919), A Country Doctor (1919) and A Hunger Artist (1924), which he was correcting on his deathbed.",
+      "The novels, all unfinished and published by Brod after his death: The Trial (1925), The Castle (1926) and Amerika, also known as The Man Who Disappeared (1927).",
+      "Diaries and letters, including his letters to Felice and to Milena, now read as works in their own right.",
+      "His style is calm, exact and often funny. The strangest events are told in plain, legal-sounding sentences, which is what makes them so unsettling."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Max Brod (1884 to 1968), novelist and his closest friend, who championed his work from the start and saved it after his death.",
+      "Ottla Kafka (1892 to 1943), his favourite sister, who looked after him when he fell ill.",
+      "Felice Bauer (1887 to 1960), his fiancee twice over, who later emigrated to the United States.",
+      "Milena Jesenska (1896 to 1944), a Czech journalist who translated his stories into Czech in 1920. Their intense letters are a famous love correspondence. She was arrested for resistance work and died in the Ravensbruck concentration camp.",
+      "Dora Diamant (1898 to 1952), a young woman from a Polish Hasidic family who shared his last year in Berlin and was with him when he died.",
+      "Yitzhak Lowy, an actor in a travelling Yiddish theatre company, whose performances in Prague in 1911 opened Kafka's eyes to Eastern European Jewish culture."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Prague in his youth was part of Austria-Hungary. Czech speakers were the majority, a German-speaking minority dominated business and culture, and Jews like the Kafkas stood between the two, often trusted by neither.",
+      "The empire was famous for its paperwork and endless offices, which he knew from the inside as a civil servant.",
+      "After 1918 Prague became the capital of the new Czechoslovakia. Kafka learned Hebrew in his last years and talked of moving to Palestine."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "'Kafkaesque' is now used in many languages for a nightmare of pointless rules and faceless power. Writers from Camus to Borges to Murakami have named him as an influence.",
+      "Brod escaped from Prague in March 1939, on the last train before the German army closed the border, with Kafka's papers in a suitcase.",
+      "After a long court battle, Israel's Supreme Court ruled in 2016 that the Kafka manuscripts in Brod's estate belonged to the National Library of Israel. Other papers are in Oxford and Marbach.",
+      "Prague, which once ignored him, now has a Kafka museum and a bronze statue of him riding on the shoulders of an empty suit."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "Kafka ordered his work burned and Brod betrayed him.", "lab": "disputed", "t": "Two notes in his desk asked Brod to burn everything. Brod said he had told Kafka years earlier he would never do it, so Kafka must have known. Whether Kafka truly wanted his work destroyed is still argued."},
+      {"c": "He published nothing while he lived.", "lab": "myth", "t": "He published seven slim books and stories in magazines. It was the long novels that appeared only after his death."},
+      {"c": "He predicted the Holocaust.", "lab": "myth", "t": "His three sisters were murdered in the Holocaust, and Milena died in a camp. Reading his stories as prophecy is hindsight; he wrote about guilt, power and fear, not about events to come."},
+      {"c": "He invented the safety helmet.", "lab": "myth", "t": "A popular claim, but there is no evidence for it. He did write reports on accidents and on safer machinery."},
+      {"c": "He was gloomy and humourless.", "lab": "myth", "t": "Friends said he laughed so hard reading The Trial aloud that he could barely go on."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Franz Kafka, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Franz-Kafka"},
+      {"n": "Franz Kafka, Metamorphosis, Project Gutenberg (public domain original)", "u": "https://www.gutenberg.org/ebooks/5200"},
+      {"n": "Franz Kafka, author page, Wikisource", "u": "https://en.wikisource.org/wiki/Author:Franz_Kafka"},
+      {"n": "Max Brod, Franz Kafka: A Biography (1937)"},
+      {"n": "Further reading: Reiner Stach, Kafka (3 volumes, 2002 to 2014)"}
+    ]}
+  ]
+}

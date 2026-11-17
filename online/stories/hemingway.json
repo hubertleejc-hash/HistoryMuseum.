@@ -1,0 +1,68 @@
+{
+  "hero": "",
+  "portrait": "pt-hemingway",
+  "kw": ["Oak Park", "Kansas City Star", "Italy", "ambulance", "Paris", "Lost Generation", "Gertrude Stein", "Fitzgerald", "The Sun Also Rises", "Pamplona", "A Farewell to Arms", "Spanish Civil War", "For Whom the Bell Tolls", "Cuba", "Key West", "The Old Man and the Sea", "Nobel Prize", "iceberg theory", "baby shoes@myths", "Ritz@myths"],
+  "lede": "A doctor's son from a quiet Chicago suburb, wounded in Italy at eighteen, who went to Paris and taught himself to write short, plain sentences that changed the sound of English prose, then spent the rest of his life living up to a legend he had built himself.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Ernest Miller Hemingway was born on 21 July 1899 in Oak Park, Illinois. He worked as a newspaper reporter, was wounded as a volunteer ambulance driver in the First World War, and in the 1920s became a writer among the Americans in Paris.",
+      "His novels The Sun Also Rises (1926), A Farewell to Arms (1929) and For Whom the Bell Tolls (1940), and his short stories, made him the most famous American writer of his time. He wrote about war, love, bullfighting, hunting and fishing, and about how people face loss.",
+      "The Old Man and the Sea (1952) won him the Pulitzer Prize, and in 1954 he received the Nobel Prize in Literature. Ill and depressed, he died by suicide in Ketchum, Idaho, in July 1961."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father, Clarence, was a doctor who loved hunting and fishing. His mother, Grace, was a singer and music teacher. Summers at the family cottage on Walloon Lake in northern Michigan gave him the woods and rivers of his early stories.",
+      "After high school in 1917 he skipped college and became a cub reporter on the Kansas City Star. He later credited the paper's style sheet, which asked for short sentences and vigorous English, as some of the best writing advice he ever got.",
+      {"t": "In 1918 he volunteered as a Red Cross ambulance driver in Italy. On 8 July, near Fossalta di Piave, a mortar shell badly wounded his legs. He received an Italian medal for helping another wounded man despite his own injuries.", "lab": "likely", "why": "The wound and medal are documented. Details of what he did after being hit come mainly from his own and the citation's accounts."},
+      "In a Milan hospital he fell in love with an American nurse, Agnes von Kurowsky. She later ended the relationship by letter. Both the wound and the love affair went into A Farewell to Arms."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "Paris, 1921 to 1928. He married Hadley Richardson and moved to Paris as a correspondent for the Toronto Star. Carrying letters of introduction from the writer Sherwood Anderson, he met Gertrude Stein and Ezra Pound, who read and criticised his work.",
+      "December 1922: Hadley lost a suitcase holding almost all his manuscripts at a Paris railway station. He had to start again.",
+      "1925: he met F. Scott Fitzgerald, already famous for The Great Gatsby, in a Paris bar. Fitzgerald had recommended him to his editor, Maxwell Perkins at Scribner's.",
+      "1926: The Sun Also Rises, about drifting American and British expatriates who travel from Paris to the bull-running festival in Pamplona, made his name. Before publication he took Fitzgerald's advice to cut the opening chapters.",
+      "1927 to 1929: he divorced Hadley and married Pauline Pfeiffer. They settled in Key West, Florida. His father died by suicide in 1928. A Farewell to Arms appeared in 1929 and was a best-seller.",
+      "1937 to 1938: he reported on the Spanish Civil War from the Republican side, with the journalist Martha Gellhorn, who became his third wife in 1940. That year he published For Whom the Bell Tolls, set in that war.",
+      "1944: as a war correspondent he watched the D-Day landings from a landing craft and was in Paris for its liberation in August.",
+      "1952 to 1954: The Old Man and the Sea, a short novel about an old Cuban fisherman, appeared in Life magazine and sold millions. In January 1954 he survived two plane crashes in Uganda on successive days; some newspapers printed his obituary. In October he was awarded the Nobel Prize.",
+      "1960 to 1961: he left Cuba, where he had lived since 1939, for Ketchum, Idaho. Suffering from depression and other illnesses, he was treated in hospital. He died at home on 2 July 1961."
+    ]},
+    {"k": "works", "h": "The work", "ps": [
+      "The style. He wrote in short sentences with common words, few adjectives and lots of repetition. He described what people did and said and left the feelings for the reader to find.",
+      "The iceberg. In Death in the Afternoon (1932), his book about bullfighting, he explained that a writer could leave things out, and the story would be stronger if the writer truly knew what was missing, like the hidden seven-eighths of an iceberg.",
+      "Short stories. In Our Time (1925) and Men Without Women (1927) include some of his most admired work, among them Big Two-Hearted River and Hills Like White Elephants. The Snows of Kilimanjaro (1936) is about a dying writer in Africa.",
+      "The novels. The Sun Also Rises, A Farewell to Arms and For Whom the Bell Tolls deal with war and its aftermath. The Old Man and the Sea is a simple story of a long struggle with a giant marlin, and of losing it to sharks.",
+      "Nonfiction and memoir. Green Hills of Africa (1935) is about a safari. A Moveable Feast, his memories of Paris in the 1920s, was published in 1964, after his death."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Hadley Richardson (1891 to 1979), first wife, married 1921 to 1927, mother of his son John.",
+      "Pauline Pfeiffer (1895 to 1951), second wife, 1927 to 1940, mother of Patrick and Gregory.",
+      "Martha Gellhorn (1908 to 1998), war correspondent, third wife from 1940 to 1945. She was one of the finest war reporters of the century.",
+      "Mary Welsh (1908 to 1986), journalist, fourth wife from 1946 to his death. She later gave his papers to the John F. Kennedy Library.",
+      "Gertrude Stein (1874 to 1946) and Ezra Pound (1885 to 1972), the older writers who mentored him in Paris.",
+      "F. Scott Fitzgerald (1896 to 1940). Friends in Paris from 1925, they drank, argued about writing and read each other's drafts. Fitzgerald helped him reach Scribner's. Later Hemingway mocked him in print, and in A Moveable Feast he drew a sharp, unkind portrait of him.",
+      "Maxwell Perkins (1884 to 1947), his editor at Scribner's for more than twenty years."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "His generation came home from the First World War disillusioned. Gertrude Stein's remark that they were a 'lost generation' became the epigraph of The Sun Also Rises and the name of a whole literary group.",
+      "In the 1930s writers took sides in politics. The Spanish Civil War, where the Republic fought General Franco's Nationalists, drew volunteers and journalists from around the world.",
+      "After 1945 he became a celebrity, photographed fishing, hunting and drinking. Magazines turned him into 'Papa', the bearded man of action."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "His plain style shaped generations of novelists, journalists and even advertising copywriters. Few writers in English since have been untouched by it.",
+      "His homes in Oak Park, Key West and near Havana are museums. The John F. Kennedy Presidential Library in Boston holds most of his manuscripts.",
+      "Readers today also look critically at his portrayals of women, of Jewish characters in The Sun Also Rises and at his cult of masculinity, alongside the power of his prose."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "He wrote the six-word story about baby shoes, never worn.", "lab": "myth", "t": "The story that he won a bet with these six words appears only decades after his death. Similar newspaper ads and lines were printed before he was a writer, and there is no evidence he wrote it."},
+      {"c": "'Papa' Hemingway was exactly the man he seemed.", "lab": "disputed", "t": "He built much of his tough public image himself, through interviews and stories. Friends and biographers also describe a careful, hard-working writer who revised again and again."},
+      {"c": "He personally liberated the Ritz hotel in Paris in 1944.", "lab": "disputed", "t": "He did arrive at the Ritz with a group of armed men as the Germans left, and drank at its bar. Calling it a liberation is his own colourful exaggeration; the city had already been freed by Allied and French troops."},
+      {"c": "He was a hero who carried a wounded man under fire in 1918.", "lab": "disputed", "t": "His medal citation says he helped a wounded soldier after being hit himself. Some details grew in his own later retellings."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Ernest Hemingway, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Ernest-Hemingway"},
+      {"n": "Ernest Hemingway, Biographical, The Nobel Prize in Literature 1954", "u": "https://www.nobelprize.org/prizes/literature/1954/hemingway/biographical/"},
+      {"n": "Ernest Hemingway Collection, John F. Kennedy Presidential Library and Museum", "u": "https://www.jfklibrary.org/"},
+      {"n": "Further reading: Mary V. Dearborn, Ernest Hemingway: A Biography (2017)"}
+    ]}
+  ]
+}

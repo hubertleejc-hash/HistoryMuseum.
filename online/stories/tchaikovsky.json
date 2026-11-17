@@ -1,0 +1,70 @@
+{
+  "hero": "",
+  "portrait": "pt-tchaikovsky",
+  "kw": ["Votkinsk", "St Petersburg", "Moscow Conservatory", "Nikolai Rubinstein", "Nadezhda von Meck", "Swan Lake", "The Nutcracker", "Sleeping Beauty", "Eugene Onegin", "1812 Overture", "Piano Concerto No. 1", "Pathetique", "Sixth Symphony", "Carnegie Hall", "Modest Tchaikovsky", "Klin", "Mighty Handful", "ballet", "cholera@myths", "court of honour@myths", "cannons@myths"],
+  "lede": "A shy civil servant who gave up his desk at the Ministry of Justice for music, wrote the ballets the whole world now dances at Christmas and in its dreams of swans, and died nine days after conducting his last and saddest symphony.",
+  "sections": [
+    {"k": "short", "h": "In short", "ps": [
+      "Pyotr Ilyich Tchaikovsky was born on 7 May 1840 (25 April in the old Russian calendar) in Votkinsk, a factory town in the Ural region of Russia.",
+      "Trained as a lawyer, he turned to music in his twenties and became the first Russian composer to win a lasting worldwide audience. He wrote six symphonies, concertos, operas such as Eugene Onegin, and the ballets Swan Lake, The Sleeping Beauty and The Nutcracker.",
+      "He was famous in Europe and America by his fifties and conducted at the opening of Carnegie Hall in New York in 1891. He died in St Petersburg on 6 November 1893, officially of cholera, just after the premiere of his Sixth Symphony."
+    ]},
+    {"k": "early", "h": "Early life", "ps": [
+      "His father, Ilya, was a mining engineer who managed the Votkinsk ironworks. The family had a French governess, Fanny Durbach, who called the sensitive boy a 'child of glass'.",
+      "He heard Mozart and other music on a mechanical orchestrion at home and loved to improvise at the piano, but nobody thought of music as a career for a gentleman's son.",
+      "At ten he was sent to the Imperial School of Jurisprudence in St Petersburg, a boarding school for future civil servants. In 1854 his mother died of cholera, a loss he felt all his life.",
+      "In 1859 he became a clerk in the Ministry of Justice. He went to the opera, took music classes in his spare time, and in 1862 enrolled at the new St Petersburg Conservatory, founded by Anton Rubinstein. The next year he resigned from the ministry."
+    ]},
+    {"k": "turns", "h": "Turning points", "ps": [
+      "1866: Nikolai Rubinstein, Anton's brother, hired him to teach harmony at the new Moscow Conservatory. He stayed twelve years and wrote his First Symphony, Winter Daydreams.",
+      "1869 to 1880: his fantasy overture Romeo and Juliet, suggested by the composer Mily Balakirev, was revised over a decade and became his first lasting success.",
+      "1874 to 1875: Nikolai Rubinstein tore apart his new First Piano Concerto when Tchaikovsky played it to him. The German pianist Hans von Bulow gave its premiere instead, in Boston in 1875.",
+      "1875 to 1877: he wrote Swan Lake for the Bolshoi Theatre in Moscow. The first production in 1877 was poorly staged and did not catch on.",
+      "1877: a wealthy widow, Nadezhda von Meck, began to pay him a yearly allowance, so that he could give up teaching. Over thirteen years they exchanged more than a thousand letters but agreed never to meet.",
+      {"t": "July 1877: he married a former student, Antonina Milyukova, hoping marriage would end rumours about his sexuality. Within weeks he was in despair and fled abroad. They never lived together again but never divorced.", "lab": "likely", "why": "The facts of the marriage are documented. His motives are known mainly from his letters to his brothers."},
+      "1878 to 1880: in this period came his Fourth Symphony, the Violin Concerto, the opera Eugene Onegin and the 1812 Overture.",
+      "1888 to 1891: he toured Europe as a conductor, met Brahms, Grieg and Dvorak, wrote his Fifth Symphony and The Sleeping Beauty (1890), and in 1891 crossed to America for the opening of Carnegie Hall.",
+      "1890: von Meck suddenly ended her support and the correspondence, which hurt him deeply.",
+      "1892: The Nutcracker had its premiere in St Petersburg, with the bell-like celesta, an instrument he had found in Paris, in the Dance of the Sugar Plum Fairy.",
+      "October to November 1893: he conducted the premiere of his Sixth Symphony, the Pathetique, on 28 October. A few days later he fell ill, and he died on 6 November, aged 53."
+    ]},
+    {"k": "works", "h": "The music", "ps": [
+      "The ballets. Swan Lake, The Sleeping Beauty and The Nutcracker raised ballet music from background to symphonic art. Their dances, from the swans to the Waltz of the Flowers, are among the best-known music ever written.",
+      "The symphonies. The Fourth, Fifth and Sixth trace a struggle with fate. The Sixth, the Pathetique, ends not with a bang but with a slow, fading lament.",
+      "The concertos. The First Piano Concerto, with its huge opening chords, and the Violin Concerto were both called unplayable at first and are now staples of every soloist.",
+      "The operas. Eugene Onegin (1879), after Pushkin's verse novel, and The Queen of Spades (1890), with a libretto by his brother Modest, are the most often staged.",
+      "Shorter pieces, songs and chamber music, including the Serenade for Strings and the String Quartet No. 1, whose slow movement is said to have moved Leo Tolstoy to tears."
+    ]},
+    {"k": "people", "h": "His people", "ps": [
+      "Modest Tchaikovsky (1850 to 1916), his younger brother, playwright, librettist and first biographer, also gay, with whom he could speak openly.",
+      "Nikolai Rubinstein (1835 to 1881), founder of the Moscow Conservatory, his employer, harsh critic and loyal friend.",
+      "Nadezhda von Meck (1831 to 1894), his patron and pen friend from 1877 to 1890.",
+      "Antonina Milyukova (1848 to 1917), his wife in name from 1877.",
+      "Vladimir 'Bob' Davydov (1871 to 1906), his nephew, to whom he dedicated the Sixth Symphony.",
+      "Leo Tolstoy (1828 to 1910), whom he met in Moscow in 1876.",
+      "Johannes Brahms (1833 to 1897), whom he met in Leipzig on New Year's Day 1888. They liked each other but not each other's music."
+    ]},
+    {"k": "world", "h": "The world around him", "ps": [
+      "Russian music was young. A group in St Petersburg, the 'Mighty Handful' of Balakirev, Mussorgsky, Borodin, Rimsky-Korsakov and Cui, wanted a national style built on folk song. Tchaikovsky, trained in the German conservatory way, was sometimes seen as too Western, though he also used Russian tunes.",
+      "Under Alexander II and Alexander III, Russia was an autocracy with strict censorship. Tsar Alexander III admired his music and in 1888 gave him a lifelong pension.",
+      "Homosexuality was a crime under Russian law, though rarely prosecuted among the upper classes. He lived with the fear of exposure, which his letters show clearly."
+    ]},
+    {"k": "legacy", "h": "Legacy", "ps": [
+      "Swan Lake, revived in a new staging by Petipa and Ivanov in 1895, after his death, became the most famous of all ballets. The Nutcracker is now performed more than any other ballet in the world, especially at Christmas.",
+      "His house at Klin, near Moscow, where he spent his last years, has been a museum since 1894. The International Tchaikovsky Competition, founded in 1958, is one of the top music contests.",
+      "For much of the 20th century Soviet editions cut passages about his love life from his letters. Many have since been published in full."
+    ]},
+    {"k": "myths", "h": "Myths and facts", "myths": [
+      {"c": "He was forced to kill himself by a secret 'court of honour' to hide his homosexuality.", "lab": "disputed", "t": "This theory was made public in 1979, based on second-hand memories recorded decades later. Most specialists find the evidence weak."},
+      {"c": "He died of cholera after drinking unboiled water.", "lab": "likely", "t": "Cholera was the official cause, and there was an epidemic in St Petersburg. The story of the glass of unboiled water comes from his brother Modest. Doctors' bulletins at the time describe the disease's course."},
+      {"c": "The 1812 Overture was always played with real cannons.", "lab": "myth", "t": "The score calls for cannon fire, which he wanted, but early performances were indoors and used drums or other substitutes. Real cannons became common at outdoor concerts in the 20th century."},
+      {"c": "He and Nadezhda von Meck never saw each other.", "lab": "myth", "t": "They avoided meeting by agreement. Accounts say they crossed paths by chance a few times, and once came face to face in 1879, but did not speak."}
+    ]},
+    {"k": "sources", "h": "Sources", "src": [
+      {"n": "Peter Ilich Tchaikovsky, Encyclopaedia Britannica", "u": "https://www.britannica.com/biography/Peter-Ilich-Tchaikovsky"},
+      {"n": "Tchaikovsky, Pyotr, scores in the IMSLP Petrucci Music Library (public domain)", "u": "https://imslp.org/wiki/Category:Tchaikovsky,_Pyotr"},
+      {"n": "Modest Tchaikovsky, The Life and Letters of Peter Ilich Tchaikovsky, English edition by Rosa Newmarch (1906), public domain"},
+      {"n": "Further reading: Roland John Wiley, Tchaikovsky (2009)"}
+    ]}
+  ]
+}
