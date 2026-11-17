@@ -44,6 +44,10 @@ const fail = (theme, route, why) => {
 async function openContext(theme) {
   const ctx = await browser.newContext({ viewport: { width: W, height: H }, deviceScaleFactor: 1, isMobile: true, hasTouch: true,
     colorScheme: theme, reducedMotion: "reduce", serviceWorkers: "block", permissions: [] });
+  // Start with this branch's online feed already on the phone (run tools/online/build_feed.py first), so new
+  // stories, walks and places are part of every screen from the start, not only after the app's 6 s fetch.
+  const feed = path.join(ONLINE, "feed.json");
+  if (fs.existsSync(feed)) await ctx.addInitScript(f => { try { if (!localStorage.getItem("ctm-feed")) localStorage.setItem("ctm-feed", f); } catch (e) {} }, fs.readFileSync(feed, "utf8"));
   await ctx.route("**/*", async route => {
     const url = route.request().url();
     if (url.startsWith(BASE)) return route.continue();
@@ -66,8 +70,13 @@ function inspect(args) {
   if (!view) return ["#view is missing"];
   const text = view.innerText.trim();
   if (text.length < 40 || view.children.length < 1) out.push(`empty screen (${text.length} characters)`);
-  const bad = text.match(/(^|[\s(>])(undefined|NaN|\[object Object\])(?=[\s.,;:)!?]|$)/);
-  if (bad) { const i = text.indexOf(bad[2]); out.push(`shows "${bad[2]}": …${text.slice(Math.max(0, i - 50), i + 30).replace(/\s+/g, " ")}…`); }
+  // Template slips such as "Born undefined" or "NaN years": a short piece of text, or one that shows [object Object].
+  // Ordinary prose that happens to use the word "undefined" is fine.
+  const tw = document.createTreeWalker(view, NodeFilter.SHOW_TEXT);
+  for (let n; (n = tw.nextNode());) {
+    const v = n.nodeValue.trim();
+    if (v.includes("[object Object]") || (v.length < 40 && /(^|[\s·:(,])(undefined|NaN|null)(?=$|[\s·,):])/.test(v))) { out.push(`shows "${v.slice(0, 60)}"`); break; }
+  }
   const sw = Math.max(document.documentElement.scrollWidth, document.body.scrollWidth);
   if (sw > W + 1) {
     const scrollsSideways = el => { for (let e = el.parentElement; e && e !== document.body; e = e.parentElement) { const s = getComputedStyle(e); if (/(auto|scroll|hidden|clip)/.test(s.overflowX)) return true; } return false; };
@@ -97,8 +106,13 @@ function inspect(args) {
   return out;
 }
 
-async function settle(page) {
-  await page.evaluate(() => new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r))));
+// Wait until the screen has finished: no file still loading (a place page downloads its file first), no "Opening…" stub.
+async function settle(page, busy) {
+  for (let t = Date.now(); Date.now() - t < 5000;) {
+    await page.evaluate(() => new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r))));
+    if (busy.n === 0 && !(await page.evaluate(() => /^Opening…$/m.test((document.getElementById("view") || {}).innerText || "")))) break;
+    await page.waitForTimeout(50);
+  }
   await page.evaluate(() => Promise.race([
     Promise.all([...document.querySelectorAll("#view img")].filter(i => !i.complete && i.loading !== "lazy").map(i => new Promise(r => { i.onload = i.onerror = r; }))),
     new Promise(r => setTimeout(r, 1500))]));
@@ -107,14 +121,17 @@ async function settle(page) {
 async function runTheme(theme, routesFor) {
   const ctx = await openContext(theme);
   const page = await ctx.newPage();
-  let current = "(load)";
-  page.on("pageerror", e => fail(theme, current, `JavaScript error: ${e.message.split("\n")[0]}${process.env.SMOKE_STACK ? "\n" + e.stack : ""}`));
+  let current = "(load)", previous = "(load)";
+  const busy = { n: 0 };
+  page.on("request", () => busy.n++);
+  for (const ev of ["requestfinished", "requestfailed"]) page.on(ev, () => { busy.n = Math.max(0, busy.n - 1); });
+  page.on("pageerror", e => fail(theme, current, `JavaScript error (opened after ${previous}): ${e.message.split("\n")[0]}${process.env.SMOKE_STACK ? "\n" + e.stack : ""}`));
   page.on("console", m => { if (m.type() === "error" && !/Failed to load resource|net::ERR_FAILED|Failed to fetch/.test(m.text())) fail(theme, current, `console error: ${m.text().slice(0, 200)}`); });
   page.on("response", r => { if (r.url().startsWith(BASE) && r.status() >= 400) fail(theme, current, `missing file ${r.url().slice(BASE.length)} (${r.status()})`); });
   page.on("requestfailed", r => { if (r.url().startsWith(BASE)) fail(theme, current, `file did not load: ${r.url().slice(BASE.length)}`); });
   await page.goto(BASE + "index.html#world", { waitUntil: "load" });
   await page.evaluate(() => document.fonts && document.fonts.ready);
-  await page.waitForTimeout(800);   // let the online feed arrive (served from this branch)
+  await settle(page, busy);
   if (theme === "light") {
     const d = await page.evaluate(dataProblems);
     for (const p of d.out) fail("data", "data", p);
@@ -123,10 +140,10 @@ async function runTheme(theme, routesFor) {
   const routes = await routesFor(page);
   let n = 0;
   for (const r of routes) {
-    current = r;
+    previous = current; current = r;
     try {
       await page.evaluate(h => { if (location.hash === "#" + h) location.hash = "#world"; location.hash = "#" + h; }, r);
-      await settle(page);
+      await settle(page, busy);
       const probs = await page.evaluate(inspect, { route: r, W });
       for (const p of probs) fail(theme, r, p);
       if (probs.length && failures.length <= 40) await page.screenshot({ path: path.join(OUT, `${theme}-${r.replace(/[^a-z0-9@-]/gi, "_")}.png`) }).catch(() => {});
