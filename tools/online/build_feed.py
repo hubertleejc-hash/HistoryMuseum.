@@ -180,6 +180,12 @@ def walks():
     return out
 
 
+def inline_ok(r):
+    try: x = json.loads(r)
+    except ValueError: return False
+    return isinstance(x, list) and len(x) == 2 and x[0] in ("verified", "likely", "disputed", "myth") and isinstance(x[1], str) and x[1]
+
+
 VOICE_TOPICS = {"who", "early", "death", "family", "love", "work", "people", "myth", "world", "legacy", "like", "life"}
 
 
@@ -200,9 +206,9 @@ def voices(ppl):
             assert isinstance(ln, list) and len(ln) == 4 and all(isinstance(x, str) and x for x in ln), f"{where}: each line is [topic, keywords, words, record]"
             assert ln[0] in VOICE_TOPICS, f"{where}: unknown topic {ln[0]}"
             assert len(ln[2]) <= 500 and "<" not in ln[2], f"{where}: words must be plain text, at most 500 characters"
-            for r in ln[3].split("|"):
+            for r in re.split(r"\|(?=[a-z]+\.\d|work:|conn:|myth:|\[)", ln[3]):
                 r = r.strip()
-                assert re.fullmatch(r"[a-z]+\.\d+|(work|conn|myth):[a-z0-9-]+", r) or (r.startswith("[") and json.loads(r)[0] in ("verified", "likely", "disputed", "myth")), f"{where}: bad record pointer {r}"
+                assert re.fullmatch(r"[a-z]+\.\d+|(work|conn|myth):[a-z0-9-]+", r) or (r.startswith("[") and inline_ok(r)), f"{where}: bad record pointer {r}"
         out[pid] = {k: v[k] for k in ("hi", "how", "bye", "lines") if v.get(k)}
     return out
 

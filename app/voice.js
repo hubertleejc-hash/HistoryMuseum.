@@ -20,15 +20,15 @@ Object.assign(window.HISTORY.voice, {
   bye: "Go well, my friend. Look at the stars tonight. They are never only black and white.",
   lines: [
     ["who", "who are you introduce yourself", "I'm Vincent. I failed as an art dealer, a teacher and a preacher before I picked up a brush at 27. Then I painted as if my life depended on it, about 860 paintings in ten years.", "short.0|short.1"],
-    ["early", "born birth childhood young boy grow up zundert", "I was born in 1853 in Zundert, a Dutch village, a pastor's son. I was a quiet boy. I liked walking in the fields and collecting beetles and birds' nests more than I liked people.", "early.0|sheet.0"],
+    ["early", "born birth childhood young boy grow up zundert father pastor", "I was born in 1853 in Zundert, a Dutch village, a pastor's son. I was a solitary boy. I liked walking in the fields and collecting beetles and birds' nests.", "early.0|sheet.0"],
     ["life", "ear cut razor cutting december 1888 earlobe", "That was the worst night of my life. On 23 December 1888, after a quarrel with Gauguin, I cut off my left ear with a razor and gave it to a young woman at a house in town. I was very ill, and I am not proud of the fright I gave everyone.", "turns.3|sheet.9|myth:van-gogh-ear"],
     ["death", "die died death dead end shot gun auvers suicide how", "In July 1890, in Auvers, I was shot in the chest. I lived two more days, and Theo came and sat with me until the end. I was 37. People still argue about exactly what happened that day, and I won't pretend to settle it for you.", "turns.5|sheet.12"],
-    ["family", "brother theo family money", "Theo, my little brother. He believed in me when no one else did. From 1880 he sent me money every month, and I wrote him hundreds of letters. Without Theo there would be no paintings at all.", "people.0|conn:theo-van-gogh"],
+    ["family", "brother theo family money", "Theo, my little brother, an art dealer in Paris. From 1880 he sent me money every month, and I wrote him hundreds of letters. Without Theo there would be no Van Gogh.", "people.0|conn:theo-van-gogh"],
     ["people", "gauguin paul friend friends arles quarrel yellow house", "Gauguin came to Arles in October 1888 and stayed in my Yellow House for nine weeks. We admired each other and drove each other mad. After the night of my ear he left, and we only wrote letters after that. We never met again.", "people.1|conn:gauguin"],
     ["family", "johanna jo sister law famous", "Johanna, Theo's wife. I met her in Paris in 1890 and she came to see me in Auvers. They tell me she spent 34 years after we were gone making the world look at my paintings. I owe her everything I am now.", "people.2|conn:johanna-van-gogh-bonger"],
-    ["like", "colour color colours colors yellow blue", "I never wrote down a single favourite. But look at my pictures from Arles: the Sunflowers, the Yellow House, that café under the stars. Yellow kept coming back to me there. It was the colour of the southern sun.", "work:sunflowers|[\"verified\",\"In Arles in 1888 he painted the Sunflowers, rented the Yellow House and painted the Café Terrace at Night.\"]"],
-    ["work", "starry night stars sky saint remy asylum famous painting", "I painted The Starry Night in June 1889 at the asylum in Saint-Rémy, from the view from my window and from memory. Do you know, I thought it was a failure? I said so in a letter.", "work:starry-night|works.3"],
-    ["work", "sunflowers flowers vase", "I painted the Sunflowers in Arles to decorate the room where Gauguin would sleep. Four of them, and then I copied them again, because I loved them.", "work:sunflowers|works.1"],
+    ["like", "colour color colours colors yellow blue", "I never wrote down a single favourite. But look at my pictures from Arles: the Sunflowers, the Yellow House, that café under the stars. Yellow kept coming back to me there. Judge for yourself.", "work:sunflowers|[\"verified\",\"In Arles in 1888 he painted the Sunflowers, rented the Yellow House and painted the Café Terrace at Night.\"]"],
+    ["work", "starry night stars sky saint remy asylum famous painting", "I painted The Starry Night in June 1889 at the asylum in Saint-Rémy, from the view from my window and from memory. And do you know, in a letter to Bernard I called it a failure.", "work:starry-night|works.3"],
+    ["work", "sunflowers flowers vase", "I painted the Sunflowers in Arles to decorate the room where Gauguin would sleep. Four of them, and then I made repetitions of them.", "work:sunflowers|works.1"],
     ["work", "potato eaters nuenen dark peasants", "The Potato Eaters, 1885. A family eating by lamplight in Nuenen. I wanted it to look as if it were painted with the colour of a dusty potato. I thought it my best work so far.", "work:potato-eaters|works.0"],
     ["myth", "sold one painting only sell sale money red vineyard", "People say I sold only one painting, The Red Vineyard. It is the only sale anyone can prove: Anna Boch bought it for 400 francs. There may have been a few others, but not many. Theo paid for nearly everything.", "work:red-vineyard|sheet.13"],
     ["world", "paris japan prints japanese impressionists hiroshige", "In Paris, from 1886, I saw the Impressionists and Japanese woodblock prints. Theo and I collected hundreds of prints. My colours exploded after that.", "turns.2|world.1"],
@@ -46,9 +46,9 @@ Object.assign(window.HISTORY.voice, {
     ["life", "deaf deafness hear hearing ears going deaf", "From my late twenties my hearing began to fail, slowly and then almost completely. In my last years visitors wrote to me in conversation books. About 140 of them survive.", "turns.1|turns.5|sheet.4"],
     ["life", "heiligenstadt testament despair letter", "In 1802, at Heiligenstadt, I wrote a letter to my brothers that I never sent. I admitted I had thought of ending my life. Only my art held me back. I am glad it did.", "turns.1|sheet.5"],
     ["death", "die died death dead end funeral how", "I died in Vienna on 26 March 1827, at 56, most likely of liver disease. They tell me thousands came to my funeral, and young Schubert carried a torch.", "short.2|sheet.18"],
-    ["work", "ninth symphony ode joy choral applause premiere", "The Ninth, in May 1824. I stood beside the conductor beating time I could not hear. At the end a singer had to turn me around so I could see the applause.", "turns.6|work:ninth"],
+    ["work", "ninth symphony ode joy choral applause premiere", "The Ninth, in May 1824. I stood beside the conductor beating time I could not hear. At the end someone had to turn me around so I could see the applause.", "turns.6|work:ninth"],
     ["work", "fifth symphony four notes concert", "The Fifth. Four notes, and everyone knows them. We first played it on 22 December 1808 in a freezing hall, a concert four hours long.", "works.1|work:fifth"],
-    ["people", "napoleon eroica third symphony title page emperor", "I wrote my Third Symphony for Napoleon, the hero of liberty. Then he made himself emperor, and I struck his name from the title page. I was furious.", "conn:napoleon|sheet.6"],
+    ["people", "napoleon eroica third symphony title page emperor", "I dedicated my Third Symphony to Napoleon. Then he made himself emperor, and, as my pupil Ries tells it, I struck his name from the title page in a fury.", "sheet.6|conn:napoleon"],
     ["work", "moonlight sonata", "The Moonlight Sonata? I never called it that. It was Sonata quasi una fantasia. A critic named it after moonlight on a lake, after I was gone.", "work:moonlight|works.2"],
     ["love", "immortal beloved love wife married marry woman", "I never married. In July 1812 I wrote a letter to my Immortal Beloved. I never sent it, and I did not write her name. That stays between me and her.", "turns.3|sheet.10"],
     ["family", "nephew karl family brother", "When my brother Kaspar Karl died, I fought his widow in court for years to raise my nephew Karl. It was bitter for everyone. In 1826 the boy tried to shoot himself. He survived, thank God.", "turns.4|sheet.13"],
@@ -71,7 +71,7 @@ Object.assign(window.HISTORY.voice, {
     ["life", "russia moscow 1812 winter army retreat", "In 1812 I invaded Russia with more than 400,000 men. Moscow burned, winter came, and I lost almost all of them.", "turns.6"],
     ["life", "austerlitz battle victory war wars", "Austerlitz, 1805: I crushed Austria and Russia. But my wars killed millions, and the British navy had already beaten me at sea.", "turns.6|short.1"],
     ["love", "josephine wife married marie louise son", "Joséphine, my first wife. I divorced her in 1809 because she had given me no heir, but we stayed fond of each other. Then I married Marie-Louise of Austria, who gave me a son in 1811.", "people.0"],
-    ["people", "beethoven eroica", "Beethoven dedicated a symphony to me, then scratched my name out when I became emperor. Many people turned on me. He was one of the loud ones.", "conn:beethoven|people.3"],
+    ["people", "beethoven eroica", "I'm told Beethoven dedicated his Third Symphony to me, then scratched my name out when I made myself emperor. He had admired me as a hero of liberty.", "people.3|conn:beethoven"],
     ["people", "wellington", "Wellington beat my marshals in Spain and me at Waterloo. We never met face to face.", "people.2"],
     ["myth", "short height tall small", "Short? People tell that story. I was about 1.69 metres, ordinary for a Frenchman of my day. The legend comes from British cartoons and from mixing up French and English inches.", "myth:napoleon-short"]
   ]
@@ -83,14 +83,14 @@ Object.assign(window.HISTORY.voice, {
   bye: "Go in peace, and remember that almost everything you read of me was written by my enemies.",
   lines: [
     ["who", "who are you introduce yourself", "Cleopatra, the seventh of that name, queen of Egypt. My family, the Ptolemies, were Macedonian Greeks who ruled Egypt for nearly three hundred years. I became queen at 18, in 51 BC.", "short.0"],
-    ["early", "born birth childhood young father alexandria", "I was born in 69 BC and grew up in Alexandria, with its lighthouse and its Library. My father was Ptolemy XII, the flute player. My court spoke Greek, but I learned Egyptian, the people's language.", "early.0|early.1|early.2"],
+    ["early", "born birth childhood young father alexandria", "I was born in 69 BC and grew up in Alexandria, with its lighthouse and its Library. My father was Ptolemy XII, the flute player. My court spoke Greek. Plutarch says I was the first of my family to learn Egyptian, the people's language.", "early.0|early.1|early.2"],
     ["death", "die died death dead end snake asp suicide how", "In 30 BC, after Octavian took Alexandria and Antony died, I was a prisoner facing a parade through Rome in chains. I chose to die instead, with my maids Iras and Charmion. I was 39.", "turns.9|short.2"],
     ["people", "caesar julius rome", "Julius Caesar. He was 52 when we met and I was 21. He took my side in the war against my brother, and I bore a son, Caesarion. I lived in his villa in Rome until the Ides of March.", "people.0|conn:julius-caesar|turns.4"],
-    ["love", "antony mark love husband children twins", "Mark Antony. He summoned me to Tarsus in 41 BC, and I came up the river on a barge with purple sails. We had twins and a son, and we lost everything together.", "people.1|turns.7"],
+    ["love", "antony mark love husband children twins", "Mark Antony. He summoned me to Tarsus in 41 BC, and, as Plutarch tells it, I came up the river on a barge with purple sails. We had twins and a son, and we lost everything together.", "people.1|turns.7"],
     ["life", "carpet rug sack smuggled", "To reach Caesar past my brother's soldiers, my friend Apollodorus rowed me to the palace at dusk and carried me in, wrapped in a bedding sack. That is how Plutarch tells it.", "turns.2"],
     ["life", "actium battle war octavian augustus", "Actium, 2 September 31 BC. Octavian declared war on me, not on Antony, so it would look like a foreign war. We lost at sea.", "turns.8|conn:augustus"],
     ["family", "children son caesarion daughter selene", "My son Caesarion was killed on Octavian's orders at 17. My daughter Cleopatra Selene survived, and became a queen herself, in Mauretania.", "people.4"],
-    ["work", "rule ruled egypt kingdom achievement", "I ruled for 21 years and kept Egypt free through Rome's civil wars. Mine was the last of Alexander's kingdoms to fall.", "works.0"],
+    ["work", "rule ruled egypt kingdom achievement", "I ruled for 21 years and kept Egypt free through Rome's civil wars. Mine was the last of the kingdoms of Alexander's successors to fall to Rome.", "works.0"],
     ["myth", "beautiful beauty seduce", "Beautiful? The Romans wrote me as a seductress and a monster. Plutarch says I spoke many languages. Judge me by that, not by my enemies' poems.", "works.3|early.2"]
   ]
 },
@@ -127,7 +127,7 @@ Object.assign(window.HISTORY.voice, {
     ["work", "hamlet plays tragedies macbeth romeo", "Comedies, histories, tragedies: Romeo and Juliet, Hamlet, Othello, King Lear, Macbeth, The Tempest. I borrowed nearly all my plots. What I added was the language and the people.", "works.0|works.1"],
     ["people", "marlowe christopher", "Kit Marlowe was born the same year as me and was the star when I started. He was stabbed to death in Deptford at 29.", "people.2"],
     ["people", "queen elizabeth court", "My company played for the Queen at court.", "conn:elizabeth-i"],
-    ["myth", "real author did you write really oxford", "Did I write my plays? Yes. My fellow actors put 36 of them in the First Folio in 1623, and Ben Jonson, who knew me, praised me in it.", "works.4|people.3"]
+    ["myth", "real author authorship did you write really oxford plays", "Did I write my plays? Yes. My fellow actors put 36 of them in the First Folio in 1623, and Ben Jonson, who knew me, praised me in it.", "works.4|people.3"]
   ]
 },
 
@@ -143,10 +143,10 @@ Object.assign(window.HISTORY.voice, {
     ["love", "pierre husband married bicycle", "Pierre. We met in 1894 when I needed space for a laboratory. We married in a plain ceremony and toured France by bicycle for our honeymoon.", "turns.0|people.0"],
     ["life", "pierre death 1906 wagon accident sorbonne lecture", "On 19 April 1906 Pierre slipped in the rain and was killed by a wagon. I took over his post and began my first lecture at the very sentence where he had stopped.", "turns.6"],
     ["work", "radium polonium discover discovery elements radioactivity", "In 1898 we announced polonium, named for my homeland, and then radium. I used the word radioactive that year. Then we spent four years in a leaky shed, stirring tonnes of ore to prove it.", "turns.3|turns.4|works.0"],
-    ["work", "nobel prize prizes two", "The first Nobel in 1903, shared with Pierre and Becquerel. At first they meant to leave me out. The second, in chemistry, in 1911, was mine alone.", "turns.5|short.1"],
+    ["work", "nobel prize prizes two", "The first Nobel in 1903, shared with Pierre and Becquerel. The story goes that at first it was meant for Pierre and Becquerel alone, until Pierre insisted I be included. The second, in chemistry, in 1911, was mine alone.", "turns.5|short.1"],
     ["life", "war x-ray petites curies cars", "In the war I fitted cars with X-ray machines, learned to drive, and took them to the front. The soldiers called them petites Curies.", "turns.8"],
     ["people", "einstein albert friend", "Albert Einstein was a friend. He stood by me during the scandal of 1911, and later we hiked in the Swiss Alps with the children.", "people.3|conn:einstein"],
-    ["family", "daughter irene eve children", "My daughter Irène won a Nobel Prize too, in 1935, with her husband. Ève became a writer.", "people.1|people.2"]
+    ["family", "daughter irene eve children", "My daughters, Irène and Ève. I'm told Irène won a Nobel Prize too, in 1935, with her husband, and that Ève wrote my life.", "people.1|people.2"]
   ]
 },
 
@@ -161,7 +161,7 @@ Object.assign(window.HISTORY.voice, {
     ["death", "die died death dead end requiem poisoned how", "I fell ill in November 1791 and died early on 5 December, at 35, probably of a fever with swelling. I left the Requiem unfinished.", "short.2|turns.6"],
     ["people", "salieri rival poison poisoned", "Salieri was a rival in Vienna, nothing more. The story that he poisoned me is a myth.", "conn:salieri|myth:mozart-poisoned"],
     ["people", "haydn friend quartets", "Haydn, my dear friend. I dedicated six string quartets to him, and he told my father I was the greatest composer he knew.", "conn:haydn|turns.3"],
-    ["life", "archbishop kick salzburg colloredo", "In 1781 I quarrelled with the Archbishop and resigned. His steward, Count Arco, saw me out with a kick in the backside. Best thing that ever happened to me.", "turns.1"],
+    ["life", "archbishop kick salzburg colloredo", "In 1781 I quarrelled with the Archbishop and resigned. His steward, Count Arco, saw me out with a kick in the backside. From then on I worked for myself, in Vienna.", "turns.1|short.1"],
     ["love", "constanze wife married children", "I married Constanze Weber in 1782, against my father's wishes. We had six children. Only two sons lived.", "turns.2|people.2"],
     ["work", "figaro don giovanni opera operas da ponte", "With Da Ponte I wrote The Marriage of Figaro in 1786, from a banned French play, and Don Giovanni in 1787 for Prague, where they adored me.", "turns.4|work:figaro"],
     ["work", "magic flute", "The Magic Flute, 1791, for a popular theatre in Vienna. A magical comedy in German.", "work:magic-flute|turns.6"]
@@ -173,6 +173,7 @@ Object.assign(window.HISTORY.voice, {
   how: "Very well, thank you. My hair disagrees, but I don't listen to it.",
   bye: "Goodbye. Don't stop asking questions.",
   lines: [
+    ["life", "nuclear weapons bomb bombs disarmament peace war", "I signed the 1939 letter that helped start America's bomb research. In my last years I campaigned for nuclear disarmament, and for civil rights.", "turns.7|turns.8"],
     ["who", "who are you introduce yourself", "Albert Einstein. I worked at a patent office in Bern while I thought about light and time. Relativity came out of that.", "short.0|short.1"],
     ["early", "born birth childhood young compass ulm munich", "I was born in Ulm on 14 March 1879 and grew up in Munich. At about five my father showed me a compass, and I was amazed that something invisible moved the needle.", "early.0|early.1|short.0"],
     ["early", "school failed maths math bad student", "I disliked the drill of German schools and left at 15 without a diploma. I finished school in Switzerland. Failing at mathematics, though? No. That one is a myth.", "early.2|myth:einstein-math"],
@@ -180,7 +181,7 @@ Object.assign(window.HISTORY.voice, {
     ["work", "relativity e=mc2 emc2 energy mass 1905 miracle year", "1905, my miracle year. Four papers: light comes in packets, atoms exist, special relativity, and E = mc², a small mass holds an enormous energy.", "turns.1|works.1"],
     ["work", "general relativity gravity space time eclipse 1919", "In 1915 I finished general relativity: gravity is the curving of space and time. In 1919 Eddington's eclipse measurements showed starlight bending as I had said, and I woke up famous.", "turns.3|turns.4"],
     ["work", "nobel prize", "My Nobel Prize, for 1921, was for the photoelectric effect, not for relativity. The committee still found relativity too uncertain.", "turns.5"],
-    ["life", "bomb atomic roosevelt letter nazis germany exile", "In 1933 I left Germany for good when Hitler came to power. In 1939 I signed a letter to President Roosevelt warning that Germany might build a uranium bomb. It helped lead to the Manhattan Project.", "turns.6|turns.7"],
+    ["life", "bomb atomic roosevelt letter nazis germany exile", "When Hitler came to power in 1933 I was in the United States, and I never went back to Germany. In 1939 I signed a letter to President Roosevelt warning that Germany might build a uranium bomb. It helped lead to the Manhattan Project.", "turns.6|turns.7"],
     ["love", "wife mileva elsa married", "Mileva Marić was my first wife, the only woman in my physics class. Our marriage broke down, and later I married my cousin Elsa.", "early.3|people.0|people.1"],
     ["people", "bohr quantum dice god", "Niels Bohr, my great friend and opponent. I never accepted the randomness of quantum theory. God does not play dice, I said.", "people.3|works.3"],
     ["people", "curie marie", "Marie Curie, a friend. We hiked in the Swiss Alps together in 1913.", "conn:marie-curie"]
@@ -196,7 +197,7 @@ Object.assign(window.HISTORY.voice, {
     ["early", "born birth childhood young lincoln same day", "I was born on 12 February 1809, in Shrewsbury, the very same day as Abraham Lincoln. My mother died when I was eight. At school I collected beetles and was thought quite ordinary.", "early.0|early.1"],
     ["early", "medicine edinburgh cambridge clergyman surgery", "I tried medicine at Edinburgh but could not bear surgery without anaesthetic. My father sent me to Cambridge to become a clergyman instead.", "early.2"],
     ["death", "die died death dead end westminster how", "I died in 1882 and was buried in Westminster Abbey, which would have surprised the boy who collected beetles.", "short.2"],
-    ["life", "beagle voyage ship fitzroy", "I joined the Beagle at 22, from 1831 to 1836, as a naturalist and companion to Captain FitzRoy. I was seasick most of the way and went ashore whenever I could.", "turns.0"],
+    ["life", "beagle voyage ship fitzroy", "I joined the Beagle at 22, from 1831 to 1836, as a naturalist and companion to Captain FitzRoy. I was often seasick, but I spent most of those five years ashore in South America.", "turns.0"],
     ["life", "galapagos finches tortoise mockingbirds islands", "The Galápagos, 1835. The mockingbirds differed from island to island, and the vice-governor could tell which island a tortoise came from by its shell.", "turns.1"],
     ["work", "origin species evolution natural selection book 1859", "On the Origin of Species came out on 24 November 1859. Living things vary, more are born than survive, and those with useful variations pass them on.", "turns.5|short.1"],
     ["people", "wallace alfred", "Alfred Russel Wallace sent me an essay in 1858 with the same theory. Our work was read together. He was generous to me all his life.", "turns.4|people.1"],
@@ -227,6 +228,7 @@ Object.assign(window.HISTORY.voice, {
   how: "I am well, thank you. Simple food and a long walk keep the body in order.",
   bye: "Go in peace.",
   lines: [
+    ["life", "criticised criticism africans black wife family experiments faults wrong mistakes", "I am rightly criticised too: for my early views on Black Africans in South Africa, for how I treated my wife and family, and for my experiments in old age. Weigh them alongside the rest.", "legacy.3"],
     ["who", "who are you introduce yourself", "Mohandas Gandhi. A lawyer who failed in court, who found his work in South Africa and then in the struggle to free India from British rule, without violence.", "short.0|short.1"],
     ["early", "born birth childhood young porbandar mother", "I was born on 2 October 1869 in Porbandar. My father was its chief minister. My mother was deeply religious and fasted often, and that shaped me.", "early.0"],
     ["love", "wife kasturba married marriage", "I was married at 13 to Kasturba, who was 14. We had four sons. She joined the campaigns and went to jail herself, and she died in detention in 1944.", "early.1|people.0|turns.6"],
@@ -266,7 +268,7 @@ Object.assign(window.HISTORY.voice, {
     ["who", "who are you introduce yourself", "Isaac Newton. I showed that white light is made of colours, invented calculus, and set out the laws of motion and gravitation in my Principia.", "short.1"],
     ["early", "born birth childhood young father mother woolsthorpe", "I was born on Christmas Day 1642, by the old calendar, at Woolsthorpe. My father died three months before. I was so small my mother said I could have fitted in a quart pot.", "short.0|early.0"],
     ["death", "die died death dead end westminster how", "I died in 1727 and was buried in Westminster Abbey.", "short.2"],
-    ["myth", "apple tree fall head gravity", "The apple? It did not hit me on the head. In old age I told friends that a falling apple set me thinking about gravity. The bump is a later embellishment.", "turns.0|myth:newton-apple"],
+    ["myth", "apple tree fall head gravity", "The apple? A falling apple did set me thinking about gravity, by my own account. That it hit me on the head is a later joke.", "turns.0|myth:newton-apple"],
     ["work", "laws motion three", "Three laws: a thing keeps moving unless a force acts, force is mass times acceleration, and every action has an equal and opposite reaction.", "works.0"],
     ["work", "principia halley gravity 1687", "Halley asked me what path a planet would follow under a force falling off with the square of the distance. An ellipse, I said. That became the Principia, in 1687.", "turns.3|turns.4|conn:halley"],
     ["people", "leibniz calculus who first", "Leibniz. He invented calculus separately and published first. As President of the Royal Society I saw to it that a report accused him of plagiarism. I was judge in my own case, I admit.", "people.2|conn:leibniz"],
@@ -281,10 +283,11 @@ Object.assign(window.HISTORY.voice, {
   how: "We are well, and England is well, which is what matters.",
   bye: "You may go. We have reigned with our people's loves, and that is enough.",
   lines: [
+    ["life", "ireland irish conquest", "Ireland. My armies conquered it, brutally, and in my last years it grew bloodier still. Historians now count the devastation of Ireland against me, and they are right to.", "short.2|turns.6|legacy.2"],
     ["who", "who are you introduce yourself", "Elizabeth, by the grace of God Queen of England. Daughter of Henry VIII and Anne Boleyn. I came to the throne at 25 and never married.", "short.0|short.1"],
     ["early", "born birth childhood young mother anne boleyn", "I was born at Greenwich on 7 September 1533. When I was two, my mother was executed on charges most historians think false.", "early.0"],
     ["life", "tower london prison mary sister", "Under my sister Mary I was held in the Tower for two months, suspected of plotting. I expected to die there.", "early.2"],
-    ["death", "die died death dead end how", "I died in 1603, after a long and difficult last decade: war with Spain, failed harvests, and the Earl of Essex's rebellion.", "turns.6"],
+    ["death", "die died death dead end how", "I died on 24 March 1603, at 69, after a hard last decade: war with Spain, failed harvests, a bloodier conquest of Ireland, and the Earl of Essex's rebellion.", "turns.6"],
     ["love", "marry married marriage husband suitors dudley virgin queen", "Parliament begged me to marry. Philip of Spain, Archduke Charles, the Duke of Anjou: all asked. Robert Dudley was my favourite. I kept his last letter by my bed.", "turns.2|people.1"],
     ["life", "armada spain spanish 1588", "In 1588 Philip sent his Armada. Our fireships broke their line off Calais, and the storms did the rest.", "turns.5"],
     ["life", "mary queen scots execution cousin", "My cousin Mary, Queen of Scots, was my prisoner for 19 years and the centre of plots against my life. I had her executed in 1587. We never met.", "turns.4|people.3"],
@@ -299,6 +302,7 @@ Object.assign(window.HISTORY.voice, {
   how: "My back aches from that ceiling still. Otherwise, the stone and I get along.",
   bye: "Go with God. I have marble waiting.",
   lines: [
+    ["early", "teacher teachers apprentice apprenticed ghirlandaio medici lorenzo garden trained training", "At 13 I was apprenticed to the painter Ghirlandaio. Soon after, I joined the sculpture school in Lorenzo de' Medici's garden and lived in his household, eating at his table.", "early.2|people.0"],
     ["who", "who are you introduce yourself", "Michelangelo Buonarroti. A sculptor, before anything. Popes made me a painter and an architect as well.", "short.0"],
     ["early", "born birth childhood young nurse stonecutter", "I was born at Caprese on 6 March 1475. My mother died when I was six. I was nursed by a stonecutter's wife, so I drank in the hammer and chisel with her milk.", "early.0|early.1"],
     ["early", "nose broken torrigiano punch", "My nose? A fellow student, Torrigiano, punched me during an argument and broke it. It stayed flat for life.", "early.3"],
@@ -352,9 +356,10 @@ Object.assign(window.HISTORY.voice, {
   how: "Caesar is well. Caesar is always well.",
   bye: "Vale. And beware the Ides of March, though I did not.",
   lines: [
+    ["life", "gauls killed kill enslaved slaves gallic war dead massacre", "My war in Gaul killed and enslaved huge numbers. Writers in my time claimed a million dead and a million enslaved. Nobody can trust those figures, but the destruction was immense, and it was mine.", "world.1"],
     ["who", "who are you introduce yourself", "Gaius Julius Caesar. I conquered Gaul, crossed the Rubicon, won a civil war and became dictator of Rome.", "short.1|short.2"],
     ["early", "born birth childhood young family venus", "I was born in Rome in July 100 BC, into an old family with little money. We claimed descent from Venus.", "short.0|early.0"],
-    ["life", "pirates captured ransom", "Around 75 BC pirates captured me. When they asked 20 talents ransom, I told them to ask 50, and promised to crucify them. After I was freed, I did.", "early.2"],
+    ["life", "pirates captured ransom", "Around 75 BC pirates captured me. So the story goes: when they asked 20 talents ransom, I laughed, told them to ask 50, and joked that I would crucify them. After I was freed, I caught them and did.", "early.2"],
     ["death", "die died death dead end ides march brutus stabbed killed how", "On the Ides of March, 44 BC, senators led by Brutus and Cassius stabbed me 23 times at a meeting in Pompey's theatre. I fell at the foot of Pompey's statue.", "turns.6|short.2"],
     ["people", "brutus et tu", "Brutus. I had pardoned him and favoured him, and he helped kill me.", "people.4"],
     ["life", "rubicon die cast civil war", "In January 49 BC the Senate ordered me to give up my army. I crossed the Rubicon into Italy with my troops, which was treason. The die is cast, I reportedly said.", "turns.3"],
@@ -378,8 +383,8 @@ Object.assign(window.HISTORY.voice, {
     ["life", "massacre killed cities destroyed war cruelty violence khwarazm", "Cities that resisted me were destroyed and many of their people killed. At Khwarazm, after they murdered my merchants, I invaded, and Bukhara, Samarkand and Merv fell. The record counts the dead, and the record is right to.", "turns.5|short.2"],
     ["love", "borte wife married", "Börte, my first wife. Raiders carried her off soon after we married, and I won her back. She bore my four heirs, and I listened to her.", "turns.0|people.0"],
     ["work", "army units organised tens thousands", "My army was built in units of ten, a hundred, a thousand and ten thousand. I broke up the old tribes and mixed their men, so they were loyal to me.", "works.0"],
-    ["work", "alphabet writing script uyghur", "I never learned to write. But around 1204 a captured Uyghur scribe taught my sons to write Mongolian in his script.", "works.2"],
-    ["people", "jamukha blood brother", "Jamukha, my blood brother, then my rival. In 1205 his own men handed him over, and he was executed.", "people.1|turns.2"],
+    ["work", "alphabet writing script uyghur", "Around 1204 a captured Uyghur scribe taught my sons to write Mongolian in his script.", "works.2"],
+    ["people", "jamukha blood brother", "Jamukha, my blood brother, then my rival. In 1205 his own men handed him over, and I had him executed.", "people.1|turns.2"],
     ["family", "kublai grandson sons", "My sons and grandsons carried the empire from Korea to Hungary. Kublai was my grandson.", "short.2|conn:kublai-khan"]
   ]
 }

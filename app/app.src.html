@@ -2514,11 +2514,11 @@ const VOICE = H.voice || {};
 function feedVoice(f){
   Object.entries((f && f.voice) || {}).forEach(([id, v]) => { const p = P.get(id);
     if (!p || p.sacred || !v || !Array.isArray(v.lines) || (VOICE[id] && !VOICE[id].online)) return;
-    VOICE[id] = {...v, online: true}; recCache.delete(id); });
+    VOICE[id] = {...v, lines: v.lines.filter(l => Array.isArray(l) && l.length === 4 && l.every(x => typeof x === "string")), online: true}; recCache.delete(id); });
 }
 feedVoice(FEED);
-const STOP = new Set("a an the and or but of to in on at for with about from by as is are was were be been do did does you your yours i me my we our it its this that what who whom which when where why how tell please can could would will just really ever any some much many more most very so than then there their them they he she his her him one".split(" "));
-const SYN = {paint:"paint painting painted painter art picture canvas work works", music:"music compose composed composer symphony song play played", die:"die died death dead end", born:"born birth childhood young early child", love:"love wife husband married marriage", family:"family brother sister mother father son daughter children nephew", friend:"friend friends knew met meet rival rivals enemy teacher student mentor", famous:"famous known remembered proud proudest legacy best", where:"where live lived home country city", myth:"myth true really story legend rumour rumor"};
+const STOP = new Set("a an the and or but of to in on at for with about from by as is are was were be been do did does have had has get got ever also you your yours i me my we our it its this that what who whom which when where why how tell please can could would will just really ever any some much many more most very so than then there their them they he she his her him one".split(" "));
+const SYN = {paint:"paint painting painted painter art picture canvas work works", music:"music compose composed composer symphony song play played", die:"die died death dead end", born:"born birth childhood young early child", love:"love wife husband married marriage", friend:"friend friends knew met meet", rival:"rival rivals enemy enemies", teacher:"teacher teachers student pupil mentor taught", famous:"famous known remembered proud proudest legacy best", where:"where live lived home country city", myth:"myth true really story legend rumour rumor"};
 const SYNMAP = (() => { const m = {}; Object.values(SYN).forEach(g => { const w = g.split(" "); w.forEach(x => { m[x] = (m[x] || []).concat(w); }); }); return m; })();
 const stem = w => w.replace(/(ings|ing|ed|es|s)$/, "") || w;
 const toks = t => norm(t).split(/[^a-z0-9]+/).filter(w => w.length > 2 && !STOP.has(w)).map(stem);
@@ -2532,7 +2532,7 @@ function recRef(p, ref){
   m = ref.match(/^(work|conn|myth):(.+)$/); if (!m) return null;
   if (m[1] === "work") { const w = (H.works || []).find(w => w.id === m[2]); return w ? {lab: w.lab || "verified", they: `${w.n} (${fy(w.y, w.a)})${w.where ? `, now in ${w.where}` : ""}. ${w.t}`} : null; }
   if (m[1] === "conn") { const c = connBetween(p.id, m[2]), o = P.get(m[2]); return c && o ? {lab: c.lab || "verified", they: `${c.label} ${o.n}: ${c.note}`} : null; }
-  const y = (H.myths || []).find(x => x.id === m[2]); return y ? {lab: y.lab || "myth", they: `${y.n}? What is actually known: ${y.found}`} : null;
+  const y = (H.myths || []).find(x => x.id === m[2]); return y ? {lab: y.lab || "myth", they: `${y.n}? Where the story comes from: ${y.source} What is actually known: ${y.found}`} : null;
 }
 /* the chapter paragraph that tells how a life ended, or how it began */
 const chapterPara = (p, re, secs) => { const ch = CH[p.id]; if (!ch) return null;
@@ -2548,7 +2548,7 @@ function recordFor(p){
   const V = !p.sacred && VOICE[p.id];
   /* lines written in the person's own voice come first and carry their record with them */
   if (V) (V.lines || []).forEach(([topic, keys, me, refs]) => {
-    const rl = String(refs || "").split("|").map(r => r.trim()), recs = rl.map(r => recRef(p, r)).filter(Boolean);
+    const rl = String(refs || "").split(/\|(?=[a-z]+\.\d|work:|conn:|myth:|\[)/).map(r => r.trim()), recs = rl.map(r => recRef(p, r)).filter(Boolean);
     if (!recs.length || !me) return;   /* never show words with no record behind them */
     R.push({hand: true, topic, me, recs, refs: rl, lab: recs[0].lab, they: recs.map(r => r.they).join(" "), keys: new Set(toks(keys).flatMap(w => [w].concat((SYNMAP[w] || []).map(stem)))), kw: new Set(toks(me))});
   });
@@ -2563,7 +2563,7 @@ function recordFor(p){
   if (H.sheets && H.sheets[p.id]) H.sheets[p.id].forEach(([lab, t]) => add(lab, "hand", `From my record: “${t}”`, t));
   (H.works || []).filter(w => w.by === p.id).forEach(w => add(w.lab || "verified", "work", `I made ${w.n} in ${fy(w.y, w.a)}${w.e ? ", and kept at it until " + fy(w.e) : ""}.${w.where ? ` Today you can see it at ${w.where}.` : ""}`, `${w.n} (${fy(w.y, w.a)})${w.where ? `, now in ${w.where}` : ""}. ${w.t}`, w.n + " work made create"));
   connOf(p.id).forEach(c => { const o = P.get(c.id); if (o) add(c.lab || "verified", c.t === "family" || c.t === "partners" ? "family" : "people", relLine(c, o), `${c.label} ${o.n}: ${c.note}`, o.n + " " + short(o) + " friend knew met"); });
-  (H.myths || []).filter(m => (MYTH_OF[m.id] || []).includes(p.id)).forEach(m => add(m.lab || "myth", "myth", `People tell a story about me: ${m.n}. Here is what is actually known.`, `${m.n}? What is actually known: ${m.found}`, (m.n || "") + " " + m.t + " myth true really story"));
+  (H.myths || []).filter(m => (MYTH_OF[m.id] || []).includes(p.id)).forEach(m => add(m.lab || "myth", "myth", `People tell a story about me: ${m.n}. Here is what is actually known.`, `${m.n}? Where the story comes from: ${m.source} What is actually known: ${m.found}`, (m.n || "") + " " + m.t + " myth true really story"));
   const inLife = e => astro(e.y) >= astro(p.b) && astro(e.y) <= astro(end(p));
   H.events.filter(e => inLife(e) && p.c.includes(e.c)).sort((a, b) => astro(a.y) - astro(b.y)).slice(0, 10).forEach(e =>
     add(e.lab || "verified", "times", `In ${fy(e.y, e.a)}, when I was about ${Math.max(0, ageAt(p, e.y))}: ${e.n}.`, `${fy(e.y, e.a)}: ${e.n}. ${e.t}`, e.n + " happen event time world"));
@@ -2581,9 +2581,11 @@ function relLine(c, o){
 }
 const LEAD = {art:["Let me put down my brush.", "Ah, that.", "Hm, let me think."], music:["Listen.", "Ah, that.", "A good question."], science:["Let me check my notes.", "Precisely.", "A fair question."], writing:["Let me find the page.", "Ah, that.", "Well."], leaders:["Very well.", "Hm.", "Listen carefully."], philosophy:["A good question.", "Consider this.", "Hm."], exploration:["Ah, that.", "From my travels, then.", "Well."], invention:["Let me show you.", "Ah, that.", "Right."], faith:["The record says this.", "Here is what the sources say.", "On that, the sources say this."]};
 /* what a question is about, so plain questions ("Who are you?") still find the right lines */
-const INTENT = [[/\bwho (are|were) you\b|about yourself|introduce|your name|what does the record say/i, "who"], [/\bwhere\b/i, "where"], [/\b(born|birth|birthday|childhood|grow up|grew up|young|little|child|kid)\b/i, "early"], [/\b(die|died|death|dead|kill|killed|how old were you when|end of your life|last days)\b/i, "death"], [/\b(true|really|myth|story|legend|rumou?r)\b/i, "myth"], [/\b(happen|your time|events?|world around)\b/i, "times"], [/\b(work|works|painting|paint|made|make|wrote|write|compose|invent|discover|famous for|best|proud)\b/i, "work"], [/\b(family|brother|sister|mother|father|parents|son|daughter|children|kids|nephew|niece|grand\w*)\b/i, "family"], [/\b(wife|husband|married|marry|marriage|love|lover|beloved|girlfriend|boyfriend)\b/i, "love"], [/\b(friend|friends|knew|met|meet|rival|rivals|enemy|enemies|teacher)\b/i, "people"], [/\b(favou?rite|like best|love most|prefer)\b/i, "like"], [/\b(famous|fame|remembered|legacy|today|now)\b/i, "legacy"]];
+const INTENT = [[/\bwho (are|were) you\b|about yourself|introduce|your name|what does the record say/i, "who"], [/\bwhere\b/i, "where"], [/\b(born|birth|birthday|childhood|grow up|grew up|young|little|child|kid)\b/i, "early"], [/\b(die|died|death|dead|how old were you when|end of your life|last days|were you (killed|murdered|shot|executed|assassinated))\b/i, "death"], [/\b(true|really|myth|story|legend|rumou?r)\b/i, "myth"], [/\b(happen|your time|events?|world around)\b/i, "times"], [/\b(work|works|painting|paint|made|make|wrote|write|compose|invent|discover|famous for|best|proud)\b/i, "work"], [/\b(family|brother|sister|mother|father|parents|son|daughter|children|kids|nephew|niece|grand\w*)\b/i, "family"], [/\b(wife|husband|married|marry|marriage|love|lover|beloved|girlfriend|boyfriend)\b/i, "love"], [/\b(friend|friends|knew|met|meet|rival|rivals|enemy|enemies|teacher)\b/i, "people"], [/\b(favou?rite|like best|love most|prefer)\b/i, "like"], [/\b(famous|fame|remembered|legacy|today|now)\b/i, "legacy"]];
 const INTENT_ONLY = new Set(["who", "early", "death", "family", "love"]);   /* topics a plain question can reach without a keyword */
-const AFTER_DEATH = /\b(moon landing|landed on the moon|spaceship|rocket|astronaut|space travel|nuclear|atom bomb|phone|smartphone|internet|computer|nowadays|modern|future|tv|television|ai|robot|car|plane|airplane|instagram|tiktok|facebook|youtube|202\d|201\d)\b/i;
+/* things invented after a person died, with the year they arrived */
+const AFTER_DEATH = [[/\b(moon landing|landed on the moon|astronaut|spaceships?|space travel)\b/i, 1961], [/\b(nuclear|atom(ic)? bombs?)\b/i, 1945], [/\b(smartphones?|iphones?|instagram|tiktok|facebook|youtube|social media|202\d|201\d)\b/i, 2004], [/\b(internet|online|emails?)\b/i, 1983], [/\b(computers?|robots?|ai)\b/i, 1946], [/\b(tv|television)\b/i, 1927], [/\b(planes?|airplanes?|aeroplanes?|flying machines?)\b/i, 1903], [/\b(cars?|automobiles?)\b/i, 1886], [/\b(phones?|telephones?)\b/i, 1876], [/\b(nowadays|modern world|the future)\b/i, 1e9]];
+const afterDeath = (p, q) => !p.alive && AFTER_DEATH.some(([re, y]) => re.test(q) && astro(p.d) < y);
 const DISTRESS = /\b(kill(ing)? myself|end(ing)? my life|want(ed)? to die|suicidal|hurt(ing)? myself|self[- ]?harm|take my (own )?life)\b/i;
 const SMALL = [["greet", /^(hi|hello|hey|hiya|howdy|greetings|good (morning|afternoon|evening|day)|bonjour|hola|ciao|salve|servus|yo|hallo|namaste)\b[\s,!.]*(there|sir|madam|friend|again|everyone)?[\s,!.]*/i],
   ["how", /^(how are you( doing| today)?|how do you do|how('s| is) it going|how are things|are you (ok|okay|well))[\s,!.?]*/i],
@@ -2592,24 +2594,28 @@ const SMALL = [["greet", /^(hi|hello|hey|hiya|howdy|greetings|good (morning|afte
 /* people the visitor may name, longest names first ("Theo van Gogh" before "Van Gogh") */
 const NAME_STOP = new Set("great king queen saint cook smith bell young wells mill brown baker carter little grant hope wood stone polo khan".split(" "));
 const nameIndex = (() => { let L; return () => { if (L) return L;
-  const keys = new Map(), put = (k, p, weak) => { k = norm(k).replace(/\s+/g, " ").trim(); if (k.length < 4 || (weak && NAME_STOP.has(k))) return;
-    const e = keys.get(k) || {ids: new Set(), p, weak}; e.ids.add(p.id); if (!weak) { e.weak = false; e.p = p; } keys.set(k, e); };
+  /* kind: "full" name, "short" name, "last" or "first" word of the name. Words shared by two people are left out. */
+  const keys = new Map(), put = (k, p, kind) => { k = norm(k).replace(/\s+/g, " ").trim(); const weak = kind !== "full" && kind !== "short"; if (k.length < 4 || (weak && NAME_STOP.has(k))) return;
+    const e = keys.get(k) || {ids: new Set(), p, kind}; e.ids.add(p.id); if (!weak && e.kind !== "full") { e.kind = kind; e.p = p; } keys.set(k, e); };
   H.people.forEach(p => { const n = p.n.replace(/\(.*?\)/g, " "), w = norm(n).trim().split(/\s+/);
-    put(n, p); put(short(p), p, w.length > 1 && !SHORT[p.id]); if (w.length > 1) { put(w[w.length - 1], p, true); put(w[0], p, true); } });
-  L = [...keys].filter(([, e]) => !e.weak || e.ids.size === 1).map(([k, e]) => [k, e.p, e.weak, norm(e.p.n.replace(/\(.*?\)/g, " ")).replace(/\s+/g, " ").trim() === k]).sort((a, b) => b[0].length - a[0].length);
+    put(n, p, "full"); put(short(p), p, SHORT[p.id] || w.length === 1 ? "short" : "last"); if (w.length > 1) { put(w[w.length - 1], p, "last"); put(w[0], p, "first"); } });
+  L = [...keys].filter(([, e]) => e.kind === "full" || e.kind === "short" || e.ids.size === 1).map(([k, e]) => [k, e.p, e.kind]).sort((a, b) => b[0].length - a[0].length);
   return L; }; })();
-/* the person a question names, if any. "Theodore Roosevelt" must not become Franklin: a surname right after another capitalised name is someone else. */
+/* Who a question names. Returns the other person (or null) and the question without the names it used up:
+   the person's own name ("Hello Napoleon!") and names that belong to nobody in the museum.
+   "Theodore Roosevelt" must not become Franklin: a surname right after another capitalised first name is someone else. */
 function namedPerson(p, q){
   let t = " " + String(q).normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^A-Za-z0-9' -]+/g, " ") + " ";
-  for (const [k, o, , full] of nameIndex()) {
+  for (const [k, o, kind] of nameIndex()) {
     const re = new RegExp("[ ']" + k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/ /g, " +") + "(?:'s)?(?= )", "i"), m = t.match(re); if (!m) continue;
     const before = t.slice(0, m.index).trim().split(/\s+/).pop() || "";
     const blank = () => { t = t.slice(0, m.index) + " ".repeat(m[0].length) + t.slice(m.index + m[0].length); };
-    if (!full && /^[A-Z][a-z]+$/.test(before) && m.index > before.length + 1 && !norm(o.n).split(/\s+/).includes(norm(before))) { blank(); continue; }
-    if (o.id !== p.id) return o;
+    if ((kind === "last" || (kind === "short" && !k.includes(" "))) && /^[A-Z][a-z]+$/.test(before) && m.index > before.length + 1 && !norm(o.n).split(/\s+/).includes(norm(before)) && !P.has(norm(before))) {
+      t = t.slice(0, m.index - before.length - 1) + " ".repeat(before.length + 1) + t.slice(m.index); blank(); continue; }
+    if (o.id !== p.id) return {o, q: t};
     blank();
   }
-  return null;
+  return {o: null, q: t};
 }
 /* "Did you know X?" when the record has no meeting: be honest, and give the ages */
 function metAnswer(p, o){
@@ -2644,16 +2650,16 @@ function recordAnswer(p, q, used){
   /* greetings, thanks and goodbyes */
   let rest = String(q).trim(), small = null;
   for (let k = 0; k < 3; k++) { const hit = SMALL.find(([, re]) => re.test(rest)); if (!hit) break; small = small || hit[0]; if (hit[0] === "how") small = "how"; rest = rest.replace(hit[1], "").trim(); }
-  if (small && toks(rest).length === 0) {
+  const named = namedPerson(p, rest);
+  if (small && !named.o && toks(named.q).length === 0) {
     if (sacred) return {text: small === "bye" ? "Goodbye. The record will be here when you come back." : small === "thanks" ? "You're welcome." : "Welcome. Ask a question, and the museum will show what its sources say.", lines: []};
     const who = R.findIndex(l => l.topic === "who");
     if (small === "greet" && !used.has(who) && who >= 0) { used.add(who); return {text: `${V && V.hi ? V.hi : "Hello!"} ${R[who].me}`, lines: linesOf([{l: R[who]}]), offers: offersFor(p, "", used)}; }
     const t = {greet: V && V.hi || `Hello again! Ask me anything about my life.`, how: V && V.how || `Well enough, thank you${p.alive ? "" : `, for someone whose world ended in ${fy(p.d)}`}. What would you like to know?`, thanks: `You're welcome. What else would you like to know?`, bye: V && V.bye || `Goodbye, and thank you for the visit.`}[small];
     return {text: t, lines: [], offers: small === "bye" ? [] : offersFor(p, "", used)};
   }
-  if (small && rest) q = rest;
   /* someone else named: a line written about them, the connection, or an honest "we never met" */
-  const o = namedPerson(p, q);
+  const o = named.o; q = named.q;
   if (o) {
     const nk = new Set(toks(o.n + " " + short(o)));
     const hand = R.map((l, i) => ({l, i, sc: !l.hand ? 0 : ([...nk].some(w => l.keys.has(w)) ? 2 : 0) + (l.refs.includes("conn:" + o.id) ? 2 : 0) + (l.recs.some(r => r.they.includes(o.n)) ? 1 : 0) - (used.has(i) ? .5 : 0)}))
@@ -2669,16 +2675,18 @@ function recordAnswer(p, q, used){
   const qs = new Set(qt.flatMap(w => SYNMAP[w] ? SYNMAP[w].map(stem).concat(w) : [w]));
   const want = new Set(INTENT.filter(([re]) => re.test(q)).map(([, t]) => t));
   if (want.has("who") || want.has("early") || want.has("death")) want.delete("people");
+  /* "your mother" must find a line about the mother, not the first family line */
+  const kin = /\b(mother|father|parents|sons?|daughters?|children|kids|sisters?|brothers?|wife|wives|husband|nephew|niece|grand\w*)\b/i.test(q);
   const scored = R.map((l, i) => {
     const intent = want.has(l.topic) ? 2 : 0; let base = intent;
     if (l.hand) { let key = 0, soft = 0; qs.forEach(w => { if (l.keys.has(w)) key += 1.5; else if (l.kw.has(w)) soft += .5; });
       /* a line in the person's voice needs one of its own keywords, or a plain question about who, birth, death, family or love */
-      base = key ? intent + key + soft + 1 : intent && INTENT_ONLY.has(l.topic) ? intent + soft + 1 : Math.min(soft, .9); }
+      base = key ? intent + key + soft + 1 : intent && INTENT_ONLY.has(l.topic) && !(kin && (l.topic === "family" || l.topic === "love")) ? intent + soft + 1 : Math.min(soft, .9); }
     else qs.forEach(w => { if (l.kw.has(w)) base += 1; });
     if (intent && (l.topic === "death" || l.topic === "early") && !l.hand) base += 1;   /* the line made for that question wins over a stray mention */
     if (used.has(i)) base -= .6;
     return {l, i, sc: l.dup ? 0 : base}; }).filter(x => x.sc >= 1).sort((a, b) => b.sc - a.sc);
-  if (!sacred && AFTER_DEATH.test(q) && !p.alive && (!scored.length || scored[0].sc < 3.5)) return {text: `${lead} I'm afraid I know nothing of that. My world ended in ${fy(p.d)}, and the record has nothing to say about the things that came after.`, lines: [], offers: offersFor(p, q, used)};
+  if (!sacred && afterDeath(p, q) && (!scored.length || scored[0].sc < 3.5)) return {text: `${lead} I'm afraid I know nothing of that. My world ended in ${fy(p.d)}, and the record has nothing to say about the things that came after.`, lines: [], offers: offersFor(p, q, used)};
   if (!scored.length) {
     if (sacred) return {text: `The museum's record has nothing on that yet.`, lines: []};
     const why = want.has("like") ? "The record doesn't say what my favourites were, and I won't guess." : "I can't answer that from what is known of my life, and I won't make it up.";
