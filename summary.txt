@@ -1,0 +1,6 @@
+[Duo-closed] hinge: none
+[Duo-closed] 12 screenshots
+[Duo-open] hinge: active=false region=455,0,40,669 bounds=951x669
+[Duo-open] 12 screenshots
+[Duo-partial] hinge: active=true region=455,0,40,669 bounds=951x669
+[Duo-partial] 12 screenshots
