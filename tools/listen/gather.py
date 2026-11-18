@@ -11,7 +11,7 @@ Reads tools/listen/request.json:
         a public-domain or CC0 licence on Commons, 15 s to 40 min long, and an MP3 that answers and plays.
 Audio is never copied into the repository: the phone streams it from Wikimedia's own servers.
 """
-import json, re, subprocess, sys, urllib.parse, urllib.request
+import json, re, subprocess, sys, urllib.error, urllib.parse, urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "art"))
@@ -62,18 +62,33 @@ def mp3_url(vi):
     return None
 
 
-def probe(url):
-    """Length in seconds of the MP3 as the phone will hear it, or None if it does not answer or play."""
-    try:
-        with urllib.request.urlopen(urllib.request.Request(url, method="HEAD", headers={"User-Agent": UA}), timeout=60) as r:
-            if r.status != 200 or "audio" not in r.headers.get("Content-Type", ""):
+def probe(url, known=None):
+    """Length in seconds of the MP3 as the phone will hear it, or None if it does not answer or play.
+    One small ranged download (the first 256 KB) is enough to see that it is a real MP3; the length comes
+    from Commons. Wikimedia limits bots, so this goes slowly and waits when asked to (HTTP 429)."""
+    import tempfile, time
+    for attempt in range(5):
+        time.sleep(4 + attempt * 30)
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA, "Range": "bytes=0-262143"})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                if r.status not in (200, 206) or "audio" not in r.headers.get("Content-Type", ""):
+                    return None
+                head = r.read(262144)
+            with tempfile.NamedTemporaryFile(suffix=".mp3") as f:
+                f.write(head); f.flush()
+                out = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "stream=codec_name", "-of", "default=nw=1:nk=1", f.name],
+                                     capture_output=True, text=True, timeout=60)
+            if "mp3" not in out.stdout:
                 return None
-        out = subprocess.run(["ffprobe", "-v", "error", "-user_agent", UA, "-show_entries", "format=duration",
-                              "-of", "default=nw=1:nk=1", url], capture_output=True, text=True, timeout=120)
-        return float(out.stdout.strip())
-    except Exception as e:
-        print("  probe failed:", url[:120], e, file=sys.stderr)
-        return None
+            return known
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                print("  Wikimedia asks to slow down; waiting", flush=True); continue
+            print("  probe failed:", url[:120], e, file=sys.stderr); return None
+        except Exception as e:
+            print("  probe failed:", url[:120], e, file=sys.stderr); return None
+    return None
 
 
 def describe(pg):
@@ -119,7 +134,20 @@ def search(items):
 def fetch(picks):
     LISTEN.mkdir(parents=True, exist_ok=True)
     rejected, by = [], {}
+    done = {}  # tracks already checked in an earlier run keep their place and are not fetched again
+    for f in LISTEN.glob("*.json"):
+        for t in json.loads(f.read_text()).get("tracks", []):
+            done[(f.stem, t["file"])] = t
     for pk in picks:
+        old = done.get((pk["by"], pk["file"]))
+        if old:
+            t = dict(old, kind=pk.get("kind", "music"), title=pk["title"])
+            for k in ("work", "year", "who", "note"):
+                if pk.get(k): t[k] = pk[k]
+                else: t.pop(k, None)
+            by.setdefault(pk["by"], []).append(t)
+            print("  kept:", pk["by"], "-", pk["title"], flush=True)
+            continue
         pg = info(["File:" + pk["file"]])
         c = describe(pg[0]) if pg else None
         why = None
@@ -127,9 +155,9 @@ def fetch(picks):
         elif not c["free"]: why = "licence is " + c["licence"]
         elif not c["mp3"]: why = "no MP3 version"
         if not why:
-            secs = probe(c["mp3"])
-            if secs is None: why = "the MP3 does not answer or play"
-            elif not 15 <= secs <= 2400: why = f"{secs:.0f} s long"
+            secs = c["len"]
+            if not secs or not 15 <= secs <= 2400: why = f"length {secs} s"
+            elif probe(c["mp3"], secs) is None: why = "the MP3 does not answer or play"
         if why:
             rejected.append(f"{pk['by']}\t{pk['file']}\t{why}")
             print("  rejected:", pk["file"], "-", why, flush=True)
