@@ -1,267 +1,274 @@
 {
- "mode": "search",
- "items": {
-  "vivaldi": {
-   "search": [
-    "Vivaldi Four Seasons",
-    "Vivaldi Spring Musopen"
-   ]
+ "mode": "fetch",
+ "picks": [
+  {
+   "by": "nightingale",
+   "file": "Florence Nightingale voice - 1576A 2nd Rendition Crop.ogg",
+   "kind": "voice",
+   "title": "Her message to the survivors of the Light Brigade",
+   "year": 1890,
+   "who": "Florence Nightingale",
+   "note": "Recorded on an Edison wax cylinder to raise money for the old soldiers"
   },
-  "bach": {
-   "search": [
-    "Bach Brandenburg Concerto",
-    "Bach Goldberg Variations Kimiko Ishizaka",
-    "Bach Toccata and Fugue D minor"
-   ]
+  {
+   "by": "bell",
+   "file": "Alexander Graham Bell speaking.ogg",
+   "kind": "voice",
+   "title": "His voice on an experimental disc",
+   "year": 1885,
+   "who": "Alexander Graham Bell",
+   "note": "The only known recording of his voice, found in a museum store and played again in 2013"
   },
-  "handel": {
-   "search": [
-    "Handel Messiah Hallelujah",
-    "Handel Water Music"
-   ]
+  {
+   "by": "tolstoy",
+   "file": "Tolstoy - Letter to Davydov.ogg",
+   "kind": "voice",
+   "title": "A spoken letter to his friend Davydov, in Russian",
+   "year": 1908,
+   "who": "Leo Tolstoy",
+   "note": "Recorded at Yasnaya Polyana on a phonograph Edison sent him"
   },
-  "haydn": {
-   "search": [
-    "Haydn Symphony Surprise",
-    "Haydn Emperor Quartet"
-   ]
+  {
+   "by": "sun-yat-sen",
+   "file": "Policy of Country Salvation.ogg",
+   "kind": "voice",
+   "title": "Speech on saving the country, in Cantonese",
+   "year": 1924,
+   "who": "Sun Yat-sen",
+   "note": "Recorded in Guangzhou, the only recording of his voice"
   },
-  "mozart": {
-   "search": [
-    "Mozart Eine kleine Nachtmusik",
-    "Mozart Marriage of Figaro overture",
-    "Mozart Magic Flute Queen of the Night"
-   ]
+  {
+   "by": "joyce",
+   "file": "James Joyce reads from Ulysses.ogg",
+   "kind": "voice",
+   "title": "Reading from Ulysses",
+   "year": 1924,
+   "who": "James Joyce",
+   "note": "Recorded in Paris; Joyce chose the passage himself"
   },
-  "beethoven": {
-   "search": [
-    "Beethoven Symphony 5 Musopen",
-    "Beethoven Fur Elise",
-    "Beethoven Moonlight Sonata",
-    "Beethoven Symphony 9",
-    "Beethoven Eroica"
-   ]
+  {
+   "by": "fdr",
+   "file": "Roosevelt Infamy.ogg",
+   "kind": "voice",
+   "title": "\"A date which will live in infamy\"",
+   "year": 1941,
+   "who": "Franklin D. Roosevelt",
+   "note": "The opening of his speech to Congress the day after Pearl Harbor"
   },
-  "schubert": {
-   "search": [
-    "Schubert Ave Maria",
-    "Schubert Unfinished Symphony",
-    "Schubert Trout Quintet"
-   ]
+  {
+   "by": "fdr",
+   "file": "Roosevelt Pearl Harbor.ogg",
+   "kind": "voice",
+   "title": "The whole Pearl Harbor speech to Congress",
+   "year": 1941,
+   "who": "Franklin D. Roosevelt"
   },
-  "chopin": {
-   "search": [
-    "Chopin Nocturne",
-    "Chopin Minute Waltz",
-    "Chopin Raindrop Prelude"
-   ]
+  {
+   "by": "armstrong",
+   "file": "Armstrong Small Step.ogg",
+   "kind": "voice",
+   "title": "\"One small step\" on the Moon",
+   "year": 1969,
+   "who": "Neil Armstrong",
+   "note": "As heard on Earth from Apollo 11"
   },
-  "liszt": {
-   "search": [
-    "Liszt Hungarian Rhapsody 2",
-    "Liszt Liebestraum"
-   ]
+  {
+   "by": "brahms",
+   "file": "Brahms - Hungarian Dance No. 1 (performed by the composer).oga",
+   "kind": "music",
+   "title": "Hungarian Dance No. 1, played by Brahms himself",
+   "year": 1889,
+   "who": "Johannes Brahms",
+   "note": "Recorded on an Edison cylinder in Vienna; worn, but it is him at the piano"
   },
-  "mendelssohn": {
-   "search": [
-    "Mendelssohn Wedding March",
-    "Mendelssohn Violin Concerto"
-   ]
+  {
+   "by": "brahms",
+   "file": "Brahms - Schumann-Heink - Wiegenlied (Berceuse) (1915).ogg",
+   "kind": "music",
+   "title": "Lullaby (Wiegenlied)",
+   "year": 1915,
+   "who": "Ernestine Schumann-Heink"
   },
-  "robert-schumann": {
-   "search": [
-    "Schumann Traumerei"
-   ]
+  {
+   "by": "brahms",
+   "file": "Hungarian Dance No. 1 - Strolling Strings - United States Air Force Band.mp3",
+   "kind": "music",
+   "title": "Hungarian Dance No. 1",
+   "who": "United States Air Force Band"
   },
-  "clara-schumann": {
-   "search": [
-    "Clara Schumann"
-   ]
+  {
+   "by": "brahms",
+   "file": "Brahms - Symphony No. 3 in F major, Op. 90 - III. Poco allegretto (Musopen Symphony).flac",
+   "kind": "music",
+   "title": "Symphony No. 3: Poco allegretto",
+   "who": "Musopen Symphony Orchestra"
   },
-  "wagner": {
-   "search": [
-    "Wagner Ride of the Valkyries"
-   ]
+  {
+   "by": "beethoven",
+   "file": "Ludwig van Beethoven - symphony no. 5 in c minor, op. 67 - i. allegro con brio.ogg",
+   "kind": "music",
+   "title": "Symphony No. 5: first movement",
+   "work": "fifth"
   },
-  "verdi": {
-   "search": [
-    "Verdi La donna e mobile",
-    "Verdi Aida triumphal march",
-    "Verdi Traviata Brindisi"
-   ]
+  {
+   "by": "beethoven",
+   "file": "Ludwig van Beethoven - sonata no. 14 in c sharp minor 'moonlight', op. 27 no. 2 - i. adagio sostenuto.ogg",
+   "kind": "music",
+   "title": "Moonlight Sonata: first movement",
+   "work": "moonlight"
   },
-  "brahms": {
-   "search": [
-    "Brahms Hungarian Dance",
-    "Brahms Lullaby",
-    "Brahms 1889 Edison cylinder"
-   ]
+  {
+   "by": "beethoven",
+   "file": "FurElise.ogg",
+   "kind": "music",
+   "title": "Für Elise",
+   "work": "fur-elise"
   },
-  "tchaikovsky": {
-   "search": [
-    "Tchaikovsky Swan Lake",
-    "Tchaikovsky Nutcracker Sugar Plum",
-    "Tchaikovsky voice 1890"
-   ]
+  {
+   "by": "beethoven",
+   "file": "Beethoven - Symphony No. 3 in E flat major, Op. 55 'Eroica' - I. Allegro con brio (Musopen Symphony).flac",
+   "kind": "music",
+   "title": "Eroica Symphony: first movement",
+   "work": "eroica",
+   "who": "Musopen Symphony Orchestra"
   },
-  "salieri": {
-   "search": [
-    "Salieri"
-   ]
+  {
+   "by": "mozart",
+   "file": "Mozart - Le nozze di Figaro, K492 - Overture (Musopen Symphony).flac",
+   "kind": "music",
+   "title": "The Marriage of Figaro: overture",
+   "work": "figaro",
+   "who": "Musopen Symphony Orchestra"
   },
-  "frederick-the-great": {
-   "search": [
-    "Frederick the Great flute sonata",
-    "Friedrich II Hohenfriedberger"
-   ]
+  {
+   "by": "mozart",
+   "file": "Mozart K525 Serenade in G Major 1 - Allegro.ogg",
+   "kind": "music",
+   "title": "Eine kleine Nachtmusik: Allegro"
   },
-  "nightingale": {
-   "search": [
-    "Florence Nightingale voice 1890"
-   ]
+  {
+   "by": "mozart",
+   "file": "Frederic Lardon - 12 - The queen of the night.ogg",
+   "kind": "music",
+   "title": "The Magic Flute: the Queen of the Night's aria",
+   "work": "magic-flute",
+   "who": "Frederic Lardon"
   },
-  "edison": {
-   "search": [
-    "Thomas Edison voice",
-    "Edison Mary had a little lamb"
-   ]
+  {
+   "by": "bach",
+   "file": "Kimiko Ishizaka - J.S. Bach- -Open- Goldberg Variations, BWV 988 (Piano) - 01 Aria.mp3",
+   "kind": "music",
+   "title": "Goldberg Variations: Aria",
+   "who": "Kimiko Ishizaka"
   },
-  "tolstoy": {
-   "search": [
-    "Tolstoy voice recording"
-   ]
+  {
+   "by": "bach",
+   "file": "Illinois Brass Band - 02 - Bach Toccata and Fugue in D Minor.ogg",
+   "kind": "music",
+   "title": "Toccata and Fugue in D minor",
+   "who": "Illinois Brass Band"
   },
-  "bell": {
-   "search": [
-    "Alexander Graham Bell voice 1885"
-   ]
+  {
+   "by": "handel",
+   "file": "Messiah Hallelujah Chorus 1916.ogg",
+   "kind": "music",
+   "title": "Messiah: Hallelujah chorus",
+   "work": "messiah",
+   "year": 1916,
+   "note": "An Edison recording"
   },
-  "fdr": {
-   "search": [
-    "Franklin Roosevelt Pearl Harbor speech",
-    "Roosevelt fireside chat",
-    "FDR first inaugural address"
-   ]
+  {
+   "by": "handel",
+   "file": "Handel's Water Music - 11. Allegro - Chamber Orchestra - United States Marine Band.opus",
+   "kind": "music",
+   "title": "Water Music: Alla hornpipe",
+   "who": "United States Marine Band"
   },
-  "armstrong": {
-   "search": [
-    "Apollo 11 one small step"
-   ]
+  {
+   "by": "vivaldi",
+   "file": "Vivaldi - Four Seasons 4 Winter Air Force Strings - United States Air Force Band.mp3",
+   "kind": "music",
+   "title": "The Four Seasons: Winter",
+   "work": "four-seasons",
+   "who": "United States Air Force Band"
   },
-  "earhart": {
-   "search": [
-    "Amelia Earhart"
-   ]
+  {
+   "by": "vivaldi",
+   "file": "The Modena Chamber Orchestra - Vivaldi's Spring, RV 269 - I. Allegro.ogg",
+   "kind": "music",
+   "title": "The Four Seasons: Spring, first movement",
+   "who": "The Modena Chamber Orchestra"
   },
-  "einstein": {
-   "search": [
-    "Albert Einstein voice"
-   ]
+  {
+   "by": "chopin",
+   "file": "Chopin - Nocturne No. 2 in E-flat major, Op. 9 No. 2 (Frank Levy).flac",
+   "kind": "music",
+   "title": "Nocturne in E-flat major, Op. 9 No. 2",
+   "who": "Frank Levy"
   },
-  "gandhi": {
-   "search": [
-    "Gandhi speech 1931"
-   ]
+  {
+   "by": "chopin",
+   "file": "Chopin - Waltz No. 6 in D-flat major, Op. 64, No. 1 'Minute' (Olga Gurevich).flac",
+   "kind": "music",
+   "title": "The 'Minute' Waltz",
+   "who": "Olga Gurevich"
   },
-  "tagore": {
-   "search": [
-    "Tagore voice"
-   ]
+  {
+   "by": "liszt",
+   "file": "PDP-CH - Wilhelm Backhaus - Liebestraum No. 3 in A-flat major, S.541-3 (Liszt) - Hmv-d788-05754.flac",
+   "kind": "music",
+   "title": "Liebestraum No. 3",
+   "year": 1923,
+   "who": "Wilhelm Backhaus"
   },
-  "helen-keller": {
-   "search": [
-    "Helen Keller"
-   ]
+  {
+   "by": "liszt",
+   "file": "Hungarian Rhapsody No 2.ogg",
+   "kind": "music",
+   "title": "Hungarian Rhapsody No. 2",
+   "who": "United States Navy Band"
   },
-  "wilbur-wright": {
-   "search": [
-    "Wright brothers"
-   ]
+  {
+   "by": "mendelssohn",
+   "file": "Mendelssohn - Symphony No. 3 in A minor, Op. 56 'Scottish' - II. Vivace non troppo (Musopen Symphony).flac",
+   "kind": "music",
+   "title": "Scottish Symphony: Vivace non troppo",
+   "who": "Musopen Symphony Orchestra"
   },
-  "gagarin": {
-   "search": [
-    "Gagarin"
-   ]
+  {
+   "by": "robert-schumann",
+   "file": "Robert Schumann - scenes from childhood, op. 15 - vii. dreaming.ogg",
+   "kind": "music",
+   "title": "Träumerei (Dreaming), from Scenes from Childhood"
   },
-  "churchill": {
-   "search": [
-    "Churchill speech"
-   ]
+  {
+   "by": "verdi",
+   "file": "La Donna E Mobile Rigoletto.ogg",
+   "kind": "music",
+   "title": "La donna è mobile, from Rigoletto",
+   "year": 1908,
+   "who": "Enrico Caruso"
   },
-  "marie-curie": {
-   "search": [
-    "Marie Curie voice"
-   ]
+  {
+   "by": "verdi",
+   "file": "\"Brindisi\" from La Traviata - Singing Sergeants - United States Air Force Band.mp3",
+   "kind": "music",
+   "title": "Brindisi, from La Traviata",
+   "who": "United States Air Force Band"
   },
-  "mark-twain": {
-   "search": [
-    "Mark Twain"
-   ]
+  {
+   "by": "verdi",
+   "file": "Triumphal March from Aida.ogg",
+   "kind": "music",
+   "title": "Triumphal March, from Aida",
+   "who": "United States Marine Band"
   },
-  "victoria": {
-   "search": [
-    "Queen Victoria voice"
-   ]
-  },
-  "henry-ford": {
-   "search": [
-    "Henry Ford"
-   ]
-  },
-  "puyi": {
-   "search": [
-    "Puyi"
-   ]
-  },
-  "nehru": {
-   "search": [
-    "Nehru Tryst with Destiny"
-   ]
-  },
-  "mlk": {
-   "search": [
-    "Martin Luther King speech"
-   ]
-  },
-  "joyce": {
-   "search": [
-    "James Joyce Ulysses reading"
-   ]
-  },
-  "woolf": {
-   "search": [
-    "Virginia Woolf Craftsmanship"
-   ]
-  },
-  "chaplin": {
-   "search": [
-    "Chaplin"
-   ]
-  },
-  "turing": {
-   "search": [
-    "Turing"
-   ]
-  },
-  "planck": {
-   "search": [
-    "Max Planck"
-   ]
-  },
-  "freud": {
-   "search": [
-    "Freud voice"
-   ]
-  },
-  "tesla": {
-   "search": [
-    "Tesla"
-   ]
-  },
-  "sun-yat-sen": {
-   "search": [
-    "Sun Yat-sen speech"
-   ]
+  {
+   "by": "wagner",
+   "file": "Richard Wagner - Ride of the Valkyries.ogg",
+   "kind": "music",
+   "title": "Ride of the Valkyries",
+   "year": 1921
   }
- }
+ ]
 }
