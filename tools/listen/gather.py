@@ -55,7 +55,7 @@ def length(vi):
 
 def mp3_url(vi):
     if vi.get("mime") == "audio/mpeg":
-        return vi["url"]
+        return vi["url"].split("?")[0]   # Commons adds tracking words to the address; the phone does not need them
     for d in vi.get("derivatives") or []:
         if d.get("transcodekey") == "mp3" or "audio/mpeg" in d.get("type", ""):
             return d["src"]

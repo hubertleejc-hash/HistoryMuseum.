@@ -2111,7 +2111,7 @@ function lsTracksHTML(p){
   return `<section class="ls-hear"><div class="sec-head"><h2>${own ? "Hear them" : "Hear the music"}</h2><p>${own ? "Real recordings, including their own voice" : "Real recordings, free to hear"}. They play from Wikimedia Commons, so they need the internet.</p></div>
     <div class="ls-tracks">${tr.map((t, k) => `<div class="ls-row" data-lsrow="${p.id}:${k}"><button type="button" class="ls-go" data-lstrack="${p.id}:${k}" aria-label="Play ${esc(t.title)}">${LS_ICON.play}</button>
       <b>${t.kind === "voice" ? `<span class="ls-kind">Their voice</span>` : ""}${esc(t.title)}</b>
-      <small>${[t.who && (t.kind === "voice" ? esc(t.who) : "Played by " + esc(t.who)), t.year && "recorded " + esc(t.year), t.len && mmss(t.len)].filter(Boolean).join(" · ")}${t.note ? ". " + esc(t.note) : ""}<br>${esc(t.licence || "Public domain")} · <a href="${esc(t.page)}" target="_blank" rel="noopener">Wikimedia Commons</a></small></div>`).join("")}</div></section>`;
+      <small>${[t.who && (t.kind === "voice" ? esc(t.who) : "Performed by " + esc(t.who)), t.year && "recorded " + esc(t.year), t.len && mmss(t.len)].filter(Boolean).join(" · ")}${t.note ? ". " + esc(t.note) : ""}<br>${esc(t.licence || "Public domain")} · <a href="${esc(t.page)}" target="_blank" rel="noopener">Wikimedia Commons</a></small></div>`).join("")}</div></section>`;
 }
 const recBtn = w => { const tr = LISTEN[w.by] || [], k = tr.findIndex(t => t.work === w.id); return k < 0 ? "" : `<button type="button" class="play" data-lstrack="${w.by}:${k}" aria-pressed="false">${LS_ICON.ear}Hear a recording</button>`; };
 function lsRows(){
