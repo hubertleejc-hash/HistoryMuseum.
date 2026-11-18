@@ -997,6 +997,32 @@ const getP = id => id === "you" ? youP() : P.get(id);
 
 /* ---------- v4: chapters and real images ---------- */
 const CH = H.chapters || {};
+/* The page carries a short card per chapter (pictures, lede, search words: "file":1 and no
+   sections). The full text is ch/<id>.js, loaded when that person or their Talk page opens (app/build.py).
+   needChapters(ids, cb) calls cb at once when nothing is missing, else after the files arrive (or fail). */
+const chWait = {};
+const chReady = id => !CH[id] || !CH[id].file || !!CH[id].sections || CH[id].failed;
+window.CH_LOAD = (id, ch) => { if (CH[id] && CH[id].file) { Object.assign(CH[id], ch); } };
+function needChapters(ids, cb){
+  const miss = ids.filter(id => !chReady(id));
+  if (!miss.length) return cb();
+  let left = miss.length;
+  const one = () => { if (--left === 0) cb(); };
+  miss.forEach(id => {
+    if (chWait[id]) return chWait[id].push(one);
+    chWait[id] = [one];
+    const s = document.createElement("script"); s.src = `ch/${id}.js`;
+    s.onload = s.onerror = () => { if (!CH[id].sections) CH[id].failed = true; const w = chWait[id]; delete chWait[id]; w.forEach(f => f()); };
+    document.head.appendChild(s);
+  });
+}
+/* every chapter at once (one file), for search and the checks in ci/ and tools/ */
+let chAllP = null;
+const allChapters = () => chAllP || (chAllP = new Promise(r => {
+  if (Object.keys(CH).every(chReady)) return r();
+  const s = document.createElement("script"); s.src = "ch/all.js"; s.onload = s.onerror = () => r(); document.head.appendChild(s);
+}));
+window.__allChapters = allChapters;
 const IMG = H.images || {};
 /* ---------- Online extras ----------
    Everything above ships inside the app and works offline. New stories and Gallery works can also arrive
@@ -1034,7 +1060,7 @@ function fetchFeed(){
     if (!f || f.v !== 1 || (FEED && FEED.rev === f.rev)) return;
     store.set("ctm-feed", JSON.stringify(f));
     FEED = f;
-    feedChapters(f).forEach(indexChapter);
+    feedChapters(f).forEach(id => { if (chxReady) indexChapter(id); });
     if (typeof feedWalks === "function") feedWalks(f);
     feedVoice(f);
     if (ART) { const have = new Set(ART.map(it => it.id)); ART.push(...feedArt(f, have)); }
@@ -1076,8 +1102,8 @@ function chSection(pid, s){
 }
 function chapterHTML(p, ch){
   return `<div class="ch-wrap">
-    <nav class="ch-chips" aria-label="Chapter sections">${ch.sections.map(s => `<a class="chip" href="#p-${p.id}@${esc(s.k)}" data-sec="${esc(s.k)}">${esc(s.h)}</a>`).join("")}</nav>
-    ${ch.sections.map(s => chSection(p.id, s)).join("")}
+    <nav class="ch-chips" aria-label="Chapter sections">${(ch.sections || []).map(s => `<a class="chip" href="#p-${p.id}@${esc(s.k)}" data-sec="${esc(s.k)}">${esc(s.h)}</a>`).join("")}</nav>
+    ${(ch.sections || []).map(s => chSection(p.id, s)).join("")}
   </div>`;
 }
 function scrollToSec(k){
@@ -2528,7 +2554,7 @@ function recRef(p, ref){
   const ch = CH[p.id];
   let m = ref.match(/^([a-z]+)\.(\d+)$/);
   if (m && m[1] === "sheet") { const s = (H.sheets && H.sheets[p.id] || [])[+m[2]]; return s ? {lab: s[0], they: s[1]} : null; }
-  if (m && ch) { const s = ch.sections.find(x => x.k === m[1]), x = s && (s.ps || [])[+m[2]]; return x ? (typeof x === "string" ? {lab: "verified", they: x} : {lab: x.lab || "verified", they: x.t}) : null; }
+  if (m && ch) { const s = (ch.sections || []).find(x => x.k === m[1]), x = s && (s.ps || [])[+m[2]]; return x ? (typeof x === "string" ? {lab: "verified", they: x} : {lab: x.lab || "verified", they: x.t}) : null; }
   m = ref.match(/^(work|conn|myth):(.+)$/); if (!m) return null;
   if (m[1] === "work") { const w = (H.works || []).find(w => w.id === m[2]); return w ? {lab: w.lab || "verified", they: `${w.n} (${fy(w.y, w.a)})${w.where ? `, now in ${w.where}` : ""}. ${w.t}`} : null; }
   if (m[1] === "conn") { const c = connBetween(p.id, m[2]), o = P.get(m[2]); return c && o ? {lab: c.lab || "verified", they: `${c.label} ${o.n}: ${c.note}`} : null; }
@@ -2536,7 +2562,7 @@ function recRef(p, ref){
 }
 /* the chapter paragraph that tells how a life ended, or how it began */
 const chapterPara = (p, re, secs) => { const ch = CH[p.id]; if (!ch) return null;
-  for (const k of secs) { const s = ch.sections.find(x => x.k === k); if (!s) continue;
+  for (const k of secs) { const s = (ch.sections || []).find(x => x.k === k); if (!s) continue;
     const ps = (s.ps || []).map(x => typeof x === "string" ? {lab: "verified", they: x} : {lab: x.lab || "verified", they: x.t}).filter(x => re.test(x.they));
     if (ps.length) return k === "early" ? ps[0] : ps[ps.length - 1]; }
   return null; };
@@ -2544,6 +2570,10 @@ const theC = n => /^(United|Netherlands|Czech Republic|Philippines|Dominican)/.t
 const DEATH_RE = /\b(died|death|killed|executed|assassinated|murdered|shot)\b/i;
 function recordFor(p){
   if (recCache.has(p.id)) return recCache.get(p.id);
+  if (!chReady(p.id)) return buildRecord(p);   /* chapter text not here yet: answer, but do not keep it */
+  const R = buildRecord(p); recCache.set(p.id, R); return R;
+}
+function buildRecord(p){
   const R = [], add = (lab, topic, me, they, extra) => R.push({lab, topic, me, they, kw: new Set(toks(me + " " + they + " " + (extra || "")))});
   const V = !p.sacred && VOICE[p.id];
   /* lines written in the person's own voice come first and carry their record with them */
@@ -2570,7 +2600,6 @@ function recordFor(p){
   /* a generic line that only repeats the record of a line in the person's own voice is left out */
   const handRec = new Set(R.filter(l => l.hand).flatMap(l => l.recs.map(r => r.they)));
   R.forEach(l => { if (!l.hand && handRec.has(l.they)) l.dup = true; });
-  recCache.set(p.id, R);
   return R;
 }
 /* how a person names a connection, in their own words */
@@ -2779,8 +2808,9 @@ const openLine = p => {
   return `A visitor from the future! I'm ${p.n}. ${by} What would you like to know?`;
 };
 let talkF = "all";
+const TALK_FEAT = ["beethoven", "van-gogh"];
 function viewTalkHome(){
-  const feat = ["beethoven", "van-gogh"].map(id => P.get(id)).filter(Boolean);
+  const feat = TALK_FEAT.map(id => P.get(id)).filter(Boolean);
   view.innerHTML = `<section><div class="sec-head"><h2>Talk to history</h2><p>Ask any of the ${H.people.length} people in the museum about their life. Every answer shows the record it comes from.</p></div>
   <div class="who-grid">${feat.map(p => `<a class="game-card" href="#talk-${p.id}" style="${fc(p.f)}"><span class="eyebrow">Hand-checked fact sheet · ${span(p)}</span><h3>${esc(p.n)}</h3><p>${esc(p.bio)}</p><p class="muted" style="font-size:12.5px">${recordFor(p).length} facts in the record</p></a>`).join("")}</div></section>
   <section><div class="sec-head"><h2>Everyone else</h2><p>Their fact sheets are built from the book's own checked entries.</p></div>
@@ -3857,7 +3887,7 @@ function drawSeg(tab, h){
   el.innerHTML = top ? `<nav class="seg" aria-label="Views">${g.map(([k, n]) => `<a href="#${k}" class="${k === top[0] ? "on" : ""}">${esc(n)}</a>`).join("")}</nav>` : "";
 }
 /* search opens as a sheet from the top */
-function openSearch(){ const sh = document.getElementById("searchSheet"); sh.hidden = false; const qi = document.getElementById("q"); qi.focus(); }
+function openSearch(){ indexChapters(); const sh = document.getElementById("searchSheet"); sh.hidden = false; const qi = document.getElementById("q"); qi.focus(); }
 function closeSearch(){ const sh = document.getElementById("searchSheet"); if (sh.hidden) return; sh.hidden = true; const qi = document.getElementById("q"); qi.value = ""; qi.blur(); document.getElementById("results").hidden = true; }
 document.getElementById("ssClose").addEventListener("click", closeSearch);
 document.addEventListener("keydown", e => { if (e.key === "Escape") { closeSearch(); if (wHallId) closeHall(); } });
@@ -3950,8 +3980,14 @@ view.addEventListener("click", ev => {
 if (!location.hash && store.get("ctm-today") !== today() && Object.keys(TODAY().days || {}).length) history.replaceState(null, "", "#today");
 /* ---------- router ---------- */
 const PLAY_VIEWS = {degrees:viewDegrees, race:viewRace, cards:viewCards, you:viewYou, whatif:viewWhatIf};
-let lastH = null;
+let lastH = null, routeTok = 0;
+/* a person's page and Talk wait for that person's chapter file (a few ms, from the app itself); the old screen stays meanwhile */
 function route(){
+  const h = (decodeURIComponent(location.hash.slice(1)) || "world").split("@")[0], tok = ++routeTok;
+  const ids = h.startsWith("p-") ? [h.slice(2)] : h.startsWith("talk-") ? [h.slice(5)] : h === "talk" ? TALK_FEAT : [];
+  needChapters(ids, () => { if (tok === routeTok) showRoute(); });
+}
+function showRoute(){
   let h = decodeURIComponent(location.hash.slice(1)) || "world", sec = null;
   if (lastH === "today" && h !== "today") todaySeen();
   lastH = h;
@@ -4134,24 +4170,28 @@ const IDX = [].concat(
 /* chapter search: section headings, keywords and the full text, so "the ear" lands on Van Gogh › Myths and facts */
 const norm = t => String(t).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 const reEsc = t => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+/* Built the first time search opens, not while the app starts: it needs every chapter's text (ch/all.js).
+   Until then search shows people, places and events, and the results refresh when the chapters are in. */
 const CHX = [];
-Object.keys(CH).forEach(indexChapter);
+let chxReady = false, chxP = null;
+const indexChapters = () => chxP || (chxP = allChapters().then(() => { Object.keys(CH).forEach(indexChapter); chxReady = true; if (!res.hidden || q.value.trim()) showRes(); }));
 function indexChapter(id){
-  const p = P.get(id); if (!p) return;
+  const p = P.get(id); if (!p || !CH[id].sections) return;
   const nm = short(p);
-  CH[id].sections.forEach(s => CHX.push({h:`#p-${id}@${s.k}`, n:`${nm} › ${s.h}`, s:"Chapter", k:norm(s.h), body:secText(s)}));
+  const secs = CH[id].sections.map(s => { const body = secText(s); return {s, body, nb: norm(body)}; });
+  secs.forEach(x => CHX.push({h:`#p-${id}@${x.s.k}`, n:`${nm} › ${x.s.h}`, s:"Chapter", k:norm(x.s.h), body:x.body, nb:x.nb}));
   (CH[id].kw || []).forEach(w0 => {
     const [w, to] = w0.split("@"), nw = norm(w), re = new RegExp("\\b" + reEsc(nw) + "\\b", "g");
-    let s = CH[id].sections[0], best = 0;
-    CH[id].sections.forEach(x => { const n = (norm(secText(x)).match(re) || []).length; if (n > best) { best = n; s = x; } });
+    let s = secs[0].s, best = 0;
+    secs.forEach(x => { const n = (x.nb.match(re) || []).length; if (n > best) { best = n; s = x.s; } });
     if (to) s = CH[id].sections.find(x => x.k === to) || s;
     CHX.push({h:`#p-${id}@${s.k}`, n:`${nm} › ${s.h}`, s:w, k:nw, kw:true});
   });
 }
 const q = document.getElementById("q"), res = document.getElementById("results");
 let hits = [], sel = 0;
-function snip(body, s){
-  const nb = norm(body), m = new RegExp("\\b" + reEsc(s) + (s.length < 5 ? "\\b" : "")).exec(nb); if (!m) return "";
+function snip(body, s, nb0){
+  const nb = nb0 || norm(body), m = new RegExp("\\b" + reEsc(s) + (s.length < 5 ? "\\b" : "")).exec(nb); if (!m) return "";
   const i = m.index, a = Math.max(0, i - 50), b = Math.min(body.length, i + s.length + 60);
   return (a ? "…" : "") + esc(body.slice(a, i)) + "<mark>" + esc(body.slice(i, i + s.length)) + "</mark>" + esc(body.slice(i + s.length, b)) + (b < body.length ? "…" : "");
 }
@@ -4163,7 +4203,7 @@ function showRes(){
   const add = (x, sn) => { if (seen.has(x.h)) return; seen.add(x.h); chap.push(Object.assign({}, x, {sn})); };
   CHX.filter(x => x.kw && (x.k === s || x.k.startsWith(s))).forEach(x => add(x, ""));
   CHX.filter(x => !x.kw && (s.length < 5 ? new RegExp("^" + reEsc(s) + "\\b").test(x.k) : x.k.startsWith(s))).forEach(x => add(x, ""));
-  if (s.length >= 2) CHX.filter(x => !x.kw && x.body).forEach(x => { const sn = snip(x.body, s); if (sn) add(x, sn); });
+  if (s.length >= 2) CHX.filter(x => !x.kw && x.body).forEach(x => { const sn = snip(x.body, s, x.nb); if (sn) add(x, sn); });
   const top = chap.filter(x => !x.sn), body = chap.filter(x => x.sn);
   hits = top.concat(base.slice(0, Math.max(3, 8 - chap.length)), body).slice(0, 8);
   sel = 0;
@@ -4171,6 +4211,7 @@ function showRes(){
   res.hidden = false;
 }
 q.addEventListener("input", showRes);
+q.addEventListener("focus", indexChapters);
 q.addEventListener("keydown", e => {
   if (res.hidden) return;
   if (e.key === "ArrowDown" || e.key === "ArrowUp") { e.preventDefault(); sel = (sel + (e.key === "ArrowDown" ? 1 : -1) + hits.length) % Math.max(1, hits.length); res.querySelectorAll("a").forEach((a, i) => a.classList.toggle("on", i === sel)); }

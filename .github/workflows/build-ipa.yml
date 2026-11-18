@@ -80,6 +80,7 @@ jobs:
           echo "Museum page inside the app: $INSIDE bytes"
           [ "$INSIDE" -gt 1000000 ] || { echo "::error::The museum page inside the app is only $INSIDE bytes"; exit 1; }
           ls "$APP/img/"*.jpg >/dev/null 2>&1 || { echo "::error::The story pictures (img/) are not in the app"; exit 1; }
+          [ -f "$APP/ch/all.js" ] && [ -f "$APP/ch/van-gogh.js" ] || { echo "::error::The chapters (ch/) are not in the app"; exit 1; }
           rm -rf ipa && mkdir -p ipa/Payload
           cp -R "$APP" ipa/Payload/
           (cd ipa && zip -qry ../Contemporaries.ipa Payload)
