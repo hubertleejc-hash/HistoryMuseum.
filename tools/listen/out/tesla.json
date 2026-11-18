@@ -1,0 +1,67 @@
+[
+ {
+  "file": "LL-Q1860 (eng)-Flame, not lame-Tesla, Inc..wav",
+  "free": true,
+  "licence": "CC0",
+  "mime": "audio/wav",
+  "len": 1.0213333333333334,
+  "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7f/LL-Q1860_%28eng%29-Flame%2C_not_lame-Tesla%2C_Inc..wav/LL-Q1860_%28eng%29-Flame%2C_not_lame-Tesla%2C_Inc..wav.mp3",
+  "date": "2025-01-27",
+  "by": "Speaker: Flame, not lame Recorder: Flame, not lame",
+  "desc": "Audio pronunciation file from the Lingua Libre project.",
+  "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Flame,_not_lame-Tesla,_Inc..wav",
+  "n": 1
+ },
+ {
+  "file": "LL-Q809 (pol)-Olaf-tesla.wav",
+  "free": true,
+  "licence": "CC0",
+  "mime": "audio/wav",
+  "len": 1.1386666666666667,
+  "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/80/LL-Q809_%28pol%29-Olaf-tesla.wav/LL-Q809_%28pol%29-Olaf-tesla.wav.mp3",
+  "date": "2021-02-18",
+  "by": "Speaker: Olaf Recorder: Olaf",
+  "desc": "Audio pronunciation file from the Lingua Libre project.",
+  "page": "https://commons.wikimedia.org/wiki/File:LL-Q809_(pol)-Olaf-tesla.wav",
+  "n": 2
+ },
+ {
+  "file": "Nl-Tesla's.ogg",
+  "free": true,
+  "licence": "CC0",
+  "mime": "application/ogg",
+  "len": 1.45,
+  "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fd/Nl-Tesla%27s.ogg/Nl-Tesla%27s.ogg.mp3",
+  "date": "2025-05-27",
+  "by": "Marcel coenders",
+  "desc": "Wikiwoordenboek audio",
+  "page": "https://commons.wikimedia.org/wiki/File:Nl-Tesla%27s.ogg",
+  "n": 3
+ },
+ {
+  "file": "Nl-Tesla.ogg",
+  "free": true,
+  "licence": "CC0",
+  "mime": "application/ogg",
+  "len": 1.35,
+  "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a8/Nl-Tesla.ogg/Nl-Tesla.ogg.mp3",
+  "date": "2025-04-25",
+  "by": "Marcel coenders",
+  "desc": "Wikiwoordenboek audio",
+  "page": "https://commons.wikimedia.org/wiki/File:Nl-Tesla.ogg",
+  "n": 4
+ },
+ {
+  "file": "Open mid back rounded vowel.ogg",
+  "free": true,
+  "licence": "CC0",
+  "mime": "application/ogg",
+  "len": 0.8591383219954648,
+  "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d8/Open_mid_back_rounded_vowel.ogg/Open_mid_back_rounded_vowel.ogg.mp3",
+  "date": "2017-02-02",
+  "by": "Noam Tesla",
+  "desc": "Open-mid back rounded vowel, [ɔ].",
+  "page": "https://commons.wikimedia.org/wiki/File:Open_mid_back_rounded_vowel.ogg",
+  "n": 5
+ }
+]
