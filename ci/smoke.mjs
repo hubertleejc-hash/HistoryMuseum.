@@ -200,8 +200,46 @@ async function allRoutes(page) {
   });
 }
 
+// Listen: the "Listen to the story" button hands the chapter to the phone's voice (faked here, as in the app),
+// the player sits above the tab bar inside the screen, and reading carries on while you look around.
+async function listenCheck() {
+  const ctx = await openContext("light");
+  await ctx.addInitScript(() => { window.__sent = []; window.webkit = { messageHandlers: { listen: { postMessage(o) { window.__sent.push(o); } } } }; });
+  const page = await ctx.newPage();
+  page.on("pageerror", e => fail("light", "listen", `JavaScript error: ${e.message.split("\n")[0]}`));
+  try {
+    await page.goto(BASE + "index.html#p-van-gogh", { waitUntil: "load" });
+    await page.waitForTimeout(400);
+    const btn = await page.$("[data-listen]");
+    if (!btn) { fail("light", "listen", "no Listen button on a person page with a chapter"); return; }
+    await btn.click();
+    const r = await page.evaluate(() => {
+      const o = window.__sent.find(x => x.op === "read"), bar = document.getElementById("lsBar"), tabs = document.getElementById("tabs");
+      if (!o) return ["pressing Listen sent nothing to the phone"];
+      const out = [];
+      if (o.parts.length < 10) out.push(`only ${o.parts.length} paragraphs to read`);
+      if (o.parts.some(t => /undefined|\[object|<\w/.test(t))) out.push("a paragraph to read contains a template slip or markup");
+      window.__listen.onEvent({ t: "part", id: o.id, i: 2 });
+      if (!document.querySelector("#view .ls-cur")) out.push("the paragraph being read is not marked");
+      if (!bar || bar.hidden) out.push("the player did not appear");
+      else { const b = bar.getBoundingClientRect(), t = tabs.getBoundingClientRect();
+        if (b.left < 0 || b.right > innerWidth || b.bottom > t.top) out.push("the player is not inside the screen above the tab bar"); }
+      return out;
+    });
+    for (const p of r) fail("light", "listen", p);
+    await page.evaluate(() => { location.hash = "#world"; });
+    await page.waitForTimeout(300);
+    const still = await page.evaluate(() => window.__listen.state().mode === "read" && !document.getElementById("lsBar").hidden);
+    if (!still) fail("light", "listen", "reading stopped when another screen opened");
+    await page.click('#lsBar [data-ls="close"]');
+    if (!(await page.evaluate(() => window.__sent.some(x => x.op === "stop") && document.getElementById("lsBar").hidden))) fail("light", "listen", "closing the player did not stop the voice");
+  } catch (e) { fail("light", "listen", `could not test Listen: ${e.message.split("\n")[0]}`); }
+  finally { await ctx.close(); }
+}
+
 const t0 = Date.now();
 const counts = await Promise.all(["light", "dark"].map(t => runTheme(t, allRoutes)));
+if (!process.env.SMOKE_ONLY) { await listenCheck(); console.log("Listen checked: read aloud, the player, and stopping."); }
 await browser.close(); server.close();
 const secs = ((Date.now() - t0) / 1000).toFixed(0);
 console.log(`Opened ${counts[0]} screens in light and ${counts[1]} in dark in ${secs} s.`);

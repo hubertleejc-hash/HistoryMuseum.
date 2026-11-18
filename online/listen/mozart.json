@@ -1,0 +1,36 @@
+{
+ "by": "mozart",
+ "tracks": [
+  {
+   "kind": "music",
+   "title": "The Marriage of Figaro: overture",
+   "file": "Mozart - Le nozze di Figaro, K492 - Overture (Musopen Symphony).flac",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d2/Mozart_-_Le_nozze_di_Figaro%2C_K492_-_Overture_%28Musopen_Symphony%29.flac/Mozart_-_Le_nozze_di_Figaro%2C_K492_-_Overture_%28Musopen_Symphony%29.flac.mp3",
+   "page": "https://commons.wikimedia.org/wiki/File:Mozart_-_Le_nozze_di_Figaro,_K492_-_Overture_(Musopen_Symphony).flac",
+   "licence": "Public domain",
+   "len": 241,
+   "work": "figaro",
+   "who": "Musopen Symphony Orchestra"
+  },
+  {
+   "kind": "music",
+   "title": "Eine kleine Nachtmusik: Allegro",
+   "file": "Mozart K525 Serenade in G Major 1 - Allegro.ogg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/68/Mozart_K525_Serenade_in_G_Major_1_-_Allegro.ogg/Mozart_K525_Serenade_in_G_Major_1_-_Allegro.ogg.mp3",
+   "page": "https://commons.wikimedia.org/wiki/File:Mozart_K525_Serenade_in_G_Major_1_-_Allegro.ogg",
+   "licence": "Public domain",
+   "len": 253
+  },
+  {
+   "kind": "music",
+   "title": "The Magic Flute: the Queen of the Night's aria",
+   "file": "Frederic Lardon - 12 - The queen of the night.ogg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e3/Frederic_Lardon_-_12_-_The_queen_of_the_night.ogg/Frederic_Lardon_-_12_-_The_queen_of_the_night.ogg.mp3",
+   "page": "https://commons.wikimedia.org/wiki/File:Frederic_Lardon_-_12_-_The_queen_of_the_night.ogg",
+   "licence": "CC0",
+   "len": 142,
+   "work": "magic-flute",
+   "who": "Frederic Lardon"
+  }
+ ]
+}

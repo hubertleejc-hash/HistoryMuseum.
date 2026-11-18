@@ -1,0 +1,46 @@
+{
+ "by": "beethoven",
+ "tracks": [
+  {
+   "kind": "music",
+   "title": "Symphony No. 5: first movement",
+   "file": "Ludwig van Beethoven - symphony no. 5 in c minor, op. 67 - i. allegro con brio.ogg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e6/Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor%2C_op._67_-_i._allegro_con_brio.ogg/Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor%2C_op._67_-_i._allegro_con_brio.ogg.mp3",
+   "page": "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor,_op._67_-_i._allegro_con_brio.ogg",
+   "licence": "Public domain",
+   "len": 500,
+   "work": "fifth"
+  },
+  {
+   "kind": "music",
+   "title": "Moonlight Sonata: first movement",
+   "file": "Ludwig van Beethoven - sonata no. 14 in c sharp minor 'moonlight', op. 27 no. 2 - i. adagio sostenuto.ogg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/48/Ludwig_van_Beethoven_-_sonata_no._14_in_c_sharp_minor_%27moonlight%27%2C_op._27_no._2_-_i._adagio_sostenuto.ogg/Ludwig_van_Beethoven_-_sonata_no._14_in_c_sharp_minor_%27moonlight%27%2C_op._27_no._2_-_i._adagio_sostenuto.ogg.mp3",
+   "page": "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_sonata_no._14_in_c_sharp_minor_%27moonlight%27,_op._27_no._2_-_i._adagio_sostenuto.ogg",
+   "licence": "Public domain",
+   "len": 336,
+   "work": "moonlight"
+  },
+  {
+   "kind": "music",
+   "title": "Für Elise",
+   "file": "FurElise.ogg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7b/FurElise.ogg/FurElise.ogg.mp3",
+   "page": "https://commons.wikimedia.org/wiki/File:FurElise.ogg",
+   "licence": "Public domain",
+   "len": 177,
+   "work": "fur-elise"
+  },
+  {
+   "kind": "music",
+   "title": "Eroica Symphony: first movement",
+   "file": "Beethoven - Symphony No. 3 in E flat major, Op. 55 'Eroica' - I. Allegro con brio (Musopen Symphony).flac",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/99/Beethoven_-_Symphony_No._3_in_E_flat_major%2C_Op._55_%27Eroica%27_-_I._Allegro_con_brio_%28Musopen_Symphony%29.flac/Beethoven_-_Symphony_No._3_in_E_flat_major%2C_Op._55_%27Eroica%27_-_I._Allegro_con_brio_%28Musopen_Symphony%29.flac.mp3",
+   "page": "https://commons.wikimedia.org/wiki/File:Beethoven_-_Symphony_No._3_in_E_flat_major,_Op._55_%27Eroica%27_-_I._Allegro_con_brio_(Musopen_Symphony).flac",
+   "licence": "Public domain",
+   "len": 912,
+   "work": "eroica",
+   "who": "Musopen Symphony Orchestra"
+  }
+ ]
+}

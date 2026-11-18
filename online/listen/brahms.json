@@ -1,0 +1,48 @@
+{
+ "by": "brahms",
+ "tracks": [
+  {
+   "kind": "music",
+   "title": "Hungarian Dance No. 1, played by Brahms himself",
+   "file": "Brahms - Hungarian Dance No. 1 (performed by the composer).oga",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/Brahms_-_Hungarian_Dance_No._1_%28performed_by_the_composer%29.oga/Brahms_-_Hungarian_Dance_No._1_%28performed_by_the_composer%29.oga.mp3",
+   "page": "https://commons.wikimedia.org/wiki/File:Brahms_-_Hungarian_Dance_No._1_(performed_by_the_composer).oga",
+   "licence": "Public domain",
+   "len": 57,
+   "year": 1889,
+   "who": "Johannes Brahms",
+   "note": "Recorded on an Edison cylinder in Vienna; worn, but it is him at the piano"
+  },
+  {
+   "kind": "music",
+   "title": "Lullaby (Wiegenlied)",
+   "file": "Brahms - Schumann-Heink - Wiegenlied (Berceuse) (1915).ogg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/87/Brahms_-_Schumann-Heink_-_Wiegenlied_%28Berceuse%29_%281915%29.ogg/Brahms_-_Schumann-Heink_-_Wiegenlied_%28Berceuse%29_%281915%29.ogg.mp3",
+   "page": "https://commons.wikimedia.org/wiki/File:Brahms_-_Schumann-Heink_-_Wiegenlied_(Berceuse)_(1915).ogg",
+   "licence": "Public domain",
+   "len": 110,
+   "year": 1915,
+   "who": "Ernestine Schumann-Heink"
+  },
+  {
+   "kind": "music",
+   "title": "Hungarian Dance No. 1",
+   "file": "Hungarian Dance No. 1 - Strolling Strings - United States Air Force Band.mp3",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Hungarian_Dance_No._1_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+   "page": "https://commons.wikimedia.org/wiki/File:Hungarian_Dance_No._1_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+   "licence": "Public domain",
+   "len": 128,
+   "who": "United States Air Force Band"
+  },
+  {
+   "kind": "music",
+   "title": "Symphony No. 3: Poco allegretto",
+   "file": "Brahms - Symphony No. 3 in F major, Op. 90 - III. Poco allegretto (Musopen Symphony).flac",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1f/Brahms_-_Symphony_No._3_in_F_major%2C_Op._90_-_III._Poco_allegretto_%28Musopen_Symphony%29.flac/Brahms_-_Symphony_No._3_in_F_major%2C_Op._90_-_III._Poco_allegretto_%28Musopen_Symphony%29.flac.mp3",
+   "page": "https://commons.wikimedia.org/wiki/File:Brahms_-_Symphony_No._3_in_F_major,_Op._90_-_III._Poco_allegretto_(Musopen_Symphony).flac",
+   "licence": "Public domain",
+   "len": 370,
+   "who": "Musopen Symphony Orchestra"
+  }
+ ]
+}

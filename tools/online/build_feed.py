@@ -14,6 +14,8 @@ Inputs (all in online/):
   voice/<id>.json     Talk lines in a person's own voice, in the app/voice.js format: {"hi", "how", "bye",
                       "lines": [[topic, keywords, what they say, record pointers], ...]}. Each line must point at
                       the record behind it (chapter paragraphs like "turns.3", "work:<id>", "conn:<id>", "myth:<id>").
+  listen/<id>.json    public-domain recordings for a person (their music, or their own voice), gathered and
+                      checked by tools/listen/gather.py; the phone streams the sound from Wikimedia Commons
   places/<id>.json    a place for "Near me" (a museum, city or battlefield): its centre point and radius,
                       short fact cards tied to the museum's people, and for a museum an optional guide route.
                       The feed carries only the list (id, name, point, rev); the phone downloads a place's
@@ -213,6 +215,34 @@ def voices(ppl):
     return out
 
 
+def listen(ppl):
+    """Recordings for Listen (tools/listen/gather.py): public domain or CC0 only, streamed from Wikimedia Commons.
+    Sacred people never get any. A track may name one of the person's works in app/content.js."""
+    d = ON / "listen"
+    if not d.exists(): return {}
+    works = dict(re.findall(r'\{id:"([a-z0-9-]+)", n:"[^"]*", by:"([a-z0-9-]+)"', (ROOT / "app" / "content.js").read_text()))
+    out = {}
+    for f in sorted(d.glob("*.json")):
+        where, pid, v = f"online/listen/{f.name}", f.stem, json.loads(f.read_text())
+        assert pid in ppl and v.get("by") == pid, f"{where}: no such person in app/data.js"
+        assert not ppl[pid], f"{where}: sacred people are never given recordings"
+        tracks = v.get("tracks") or []
+        assert 1 <= len(tracks) <= 12, f"{where}: 1 to 12 tracks"
+        for t in tracks:
+            assert t.get("kind") in ("music", "voice"), f"{where}: kind is music or voice"
+            assert re.fullmatch(r"https://upload\.wikimedia\.org/[^\s\"'<>]+\.mp3", t.get("url", "")), f"{where}: url must be a Wikimedia MP3"
+            assert t.get("page", "").startswith("https://commons.wikimedia.org/"), f"{where}: every track links its Commons page"
+            lic = t.get("licence", "").lower()
+            assert lic.startswith(("public domain", "pd", "cc0")), f"{where}: only public domain or CC0 recordings ({t.get('licence')})"
+            assert 15 <= t.get("len", 0) <= 2400, f"{where}: 15 s to 40 min"
+            for k in ("title", "who", "note"):
+                assert isinstance(t.get(k, ""), str) and "<" not in t.get(k, "") and len(t.get(k, "")) <= 200, f"{where}: {k} must be short plain text"
+            assert t.get("title"), f"{where}: every track has a title"
+            if t.get("work"): assert works.get(t["work"]) == pid, f"{where}: {t['work']} is not one of {pid}'s works"
+        out[pid] = {"tracks": [{k: t[k] for k in ("kind", "title", "url", "page", "licence", "len", "work", "year", "who", "note") if t.get(k)} for t in tracks]}
+    return out
+
+
 def main():
     ppl, have, pics = people(), bundled_chapters(), pictures()
     assert len(ppl) > 100 and len(have) > 50, ("could not read the app's people or chapters", len(ppl), len(have))
@@ -239,6 +269,8 @@ def main():
     body = {"art": art, "detail": detail, "chapters": chapters, "today": today, "places": places, "walks": walks()}
     voice = voices(ppl)
     if voice: body["voice"] = voice   # only when there are some, so the feed does not change until the first one lands
+    heard = listen(ppl)
+    if heard: body["listen"] = heard
     rev = hashlib.sha1(json.dumps(body, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:12]
     out = json.dumps({"v": 1, "rev": rev, **body}, ensure_ascii=False, separators=(",", ":"))
     (ON / "feed.json").write_text(out + "\n")

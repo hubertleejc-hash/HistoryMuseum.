@@ -1,0 +1,27 @@
+{
+ "by": "handel",
+ "tracks": [
+  {
+   "kind": "music",
+   "title": "Messiah: Hallelujah chorus",
+   "file": "Messiah Hallelujah Chorus 1916.ogg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/90/Messiah_Hallelujah_Chorus_1916.ogg/Messiah_Hallelujah_Chorus_1916.ogg.mp3",
+   "page": "https://commons.wikimedia.org/wiki/File:Messiah_Hallelujah_Chorus_1916.ogg",
+   "licence": "Public domain",
+   "len": 223,
+   "work": "messiah",
+   "year": 1916,
+   "note": "An Edison recording"
+  },
+  {
+   "kind": "music",
+   "title": "Water Music: Alla hornpipe",
+   "file": "Handel's Water Music - 11. Allegro - Chamber Orchestra - United States Marine Band.opus",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/de/Handel%27s_Water_Music_-_11._Allegro_-_Chamber_Orchestra_-_United_States_Marine_Band.opus/Handel%27s_Water_Music_-_11._Allegro_-_Chamber_Orchestra_-_United_States_Marine_Band.opus.mp3",
+   "page": "https://commons.wikimedia.org/wiki/File:Handel%27s_Water_Music_-_11._Allegro_-_Chamber_Orchestra_-_United_States_Marine_Band.opus",
+   "licence": "Public domain",
+   "len": 125,
+   "who": "United States Marine Band"
+  }
+ ]
+}

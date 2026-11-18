@@ -1,0 +1,41 @@
+[
+ {
+  "file": "(1885) Alexander Graham Bell Recording (RESTORED).ogg",
+  "free": true,
+  "licence": "Public domain",
+  "mime": "application/ogg",
+  "len": 281.9744217687075,
+  "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1b/%281885%29_Alexander_Graham_Bell_Recording_%28RESTORED%29.ogg/%281885%29_Alexander_Graham_Bell_Recording_%28RESTORED%29.ogg.mp3",
+  "date": "1885-04-15",
+  "by": "Alexander Graham Bell",
+  "desc": "Alexander Graham Bell counting numbers. As of 2018 , this is the only known recording of Alexander Graham Bell's voice.",
+  "page": "https://commons.wikimedia.org/wiki/File:(1885)_Alexander_Graham_Bell_Recording_(RESTORED).ogg",
+  "n": 1
+ },
+ {
+  "file": "Alexander Graham Bell speaking.ogg",
+  "free": true,
+  "licence": "Public domain",
+  "mime": "application/ogg",
+  "len": 42.42285714285714,
+  "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/47/Alexander_Graham_Bell_speaking.ogg/Alexander_Graham_Bell_speaking.ogg.mp3",
+  "date": "1885-04-15",
+  "by": "Alexander Graham Bell",
+  "desc": "This is the only known recording of Bell's voice.",
+  "page": "https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell_speaking.ogg",
+  "n": 2
+ },
+ {
+  "file": "Alexander Graham Bell's Voice.ogg",
+  "free": true,
+  "licence": "Public domain",
+  "mime": "application/ogg",
+  "len": 11.54031746031746,
+  "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Alexander_Graham_Bell%27s_Voice.ogg/Alexander_Graham_Bell%27s_Voice.ogg.mp3",
+  "date": "1885-04-15",
+  "by": "Alexander Graham Bell",
+  "desc": "Recording of Alexander Graham Bell 's voice on a wax disc in 1885, lost and then discovered in 2011. Recorded at Volta Laboratory. Bell said \"Hear my voice. . . . Alexander. . Graham. . Bell.\"",
+  "page": "https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell%27s_Voice.ogg",
+  "n": 3
+ }
+]
