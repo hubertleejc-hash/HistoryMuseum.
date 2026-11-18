@@ -704,13 +704,124 @@ button:active, .chip:active, .btn:active, .tabbar a:active, .seg a:active, .lib-
   .w-scrim{display:none}
 }
 
-/* iPhone Duo opened: the map on the left screen, the Hall on the right, nothing under the fold */
-html.hinged .w-stage{grid-template-columns:calc(var(--hinge-x) - 16px) var(--hinge-w) minmax(0,1fr)}
-html.hinged .w-mapbox{grid-column:1; margin:0}
-html.hinged .w-hall{grid-column:3}
+/* ---------- iPhone Duo opened: a two-page spread ----------
+   The app tells the page where the fold is (--hinge-x, --hinge-w). Nothing is put under the fold:
+   --pl is the width of the left page, --pr the right page, --pg the gap between them (the fold plus
+   a margin each side), so a grid of "var(--pl) var(--pr)" with a column gap of --pg lands one column
+   on each screen. */
+html.hinged{--padL:max(16px, env(safe-area-inset-left, 0px)); --padR:max(16px, env(safe-area-inset-right, 0px));
+  --pl:calc(var(--hinge-x) - var(--padL) - 16px); --pg:calc(var(--hinge-w) + 32px);
+  --pr:calc(100vw - var(--hinge-x) - var(--hinge-w) - 16px - var(--padR))}
+/* the tabs live on the left screen, where the thumb is; the bar's glass carries on across the right */
+html.hinged .tabbar{grid-template-columns:repeat(5, calc((var(--hinge-x) - 12px) / 5)) 1fr; padding-left:6px}
+
+/* World: the whole left screen is the map and its dial, with no scrolling; the Hall is the right screen */
+html.hinged .world{display:grid; grid-template-columns:var(--pl) var(--pr); column-gap:var(--pg); row-gap:10px;
+  grid-template-rows:auto auto minmax(0,1fr) auto; height:calc(100vh - 34px - 96px - env(safe-area-inset-bottom, 0px)); min-height:420px}
+html.hinged .world > *{grid-column:1; min-width:0}
+html.hinged .w-stage{display:contents}
+html.hinged .w-mapbox{grid-row:3; margin:0; min-height:0; display:flex; align-items:center}
+html.hinged #wMap{height:100%; max-height:none}
 html.hinged .w-scrim{display:none}
-html.hinged .big-title, html.hinged .w-regions, html.hinged .w-dial{max-width:calc(var(--hinge-x) - 32px)}
-.hall-hint{margin:auto 0; padding:40px 8px; text-align:center; font:italic 400 18px/1.45 var(--display); color:var(--ink-2)}
+html.hinged .w-hall{grid-column:2; grid-row:1 / -1; position:relative; inset:auto; z-index:1; max-height:none; height:100%;
+  border-radius:20px; border:1px solid var(--rule); box-shadow:var(--shadow); padding:8px 20px 24px; animation:none}
+html.hinged .w-hall .grab{display:none}
+html.hinged .w-dial{gap:2px}
+html.hinged .w-dial .w-year{font-size:38px}
+html.hinged .w-dial .w-note{display:none}
+/* Every other page on the open Duo. By default a block sits on the left page; lists of cards and
+   rows become two columns, one per page; some pages put a companion on the right page. */
+html.hinged .seg-row{width:var(--pl)}
+html.hinged #view > *{max-width:var(--pl)}
+html.hinged .sec-head, html.hinged :is(.fake-search, .near-find, .td-go, .td-note, .chips:not(.gal-ctl .chips), .lede, .walk-cta, .hero > *:not(.cmp)){max-width:var(--pl)}
+html.hinged #view > :has(> :is(.lib, .who, .who-grid, .miss, .works, .alive-grid, .talk-list, .td-list, .two, #galFeat, .cmp)),
+html.hinged #view > :has(> .eras-grp), html.hinged #view > .eras-grp, html.hinged #view > .ch-top, html.hinged #view > :has(.td-hero),
+html.hinged #view > #taWho, html.hinged #view > #taScene, html.hinged #view > .gal-head, html.hinged #view > :has(> .gal-ctl),
+html.hinged #view > .ch-wrap, html.hinged #view > :has(> .ch-wrap), html.hinged #view > .era-nav{max-width:none}
+html.hinged :is(.lib, .who, .who-grid, .miss, .works, .alive-grid, .talk-list, .wk3-grid, .era-nav, .two){grid-template-columns:var(--pl) var(--pr); column-gap:var(--pg)}
+html.hinged .td-list{display:grid; grid-template-columns:var(--pl) var(--pr); column-gap:var(--pg)}
+html.hinged .era-chips{display:grid; grid-template-columns:var(--pl) var(--pr); column-gap:var(--pg); row-gap:8px; justify-items:start}
+html.hinged .eras-grp{display:grid; grid-template-columns:var(--pl) var(--pr); column-gap:var(--pg); row-gap:10px; align-items:stretch}
+html.hinged .eras-grp > .sec-head{grid-column:1 / -1}
+html.hinged .ch-top{display:grid; grid-template-columns:var(--pl) var(--pr); column-gap:var(--pg); align-items:start}
+html.hinged .ch-wrap .myths{grid-template-columns:minmax(0,1fr)}
+/* era page: the era's card on the left page, what happened on the right */
+html.hinged #view[data-v="era"]{display:grid; grid-template-columns:var(--pl) var(--pr); column-gap:var(--pg); row-gap:36px; align-items:start}
+html.hinged #view[data-v="era"] > *{grid-column:1}
+html.hinged #view[data-v="era"] > :nth-child(2){grid-column:2; grid-row:1 / span 2}
+html.hinged #view[data-v="era"] > :has(:is(.who, .era-chips)){grid-column:1 / -1; max-width:none}
+/* Today: the photo on the left page, the words on the right */
+html.hinged .td-hero{grid-template-columns:var(--pl) var(--pr); column-gap:var(--pg); background:none; border:0; border-radius:0; overflow:visible}
+html.hinged .td-hero .ph{border-radius:22px; overflow:hidden; aspect-ratio:auto; min-height:300px; max-height:420px}
+html.hinged .td-hero .tx{padding:8px 0}
+/* Timeline: the two people on facing pages */
+html.hinged .cmp{background:none; border:0; padding:0; border-radius:0}
+html.hinged .vs{grid-template-columns:var(--pl) var(--pr); column-gap:var(--pg)}
+html.hinged .vs .swap{display:none}
+html.hinged .cmp > :not(.vs){max-width:var(--pl)}
+/* Gallery: two columns of pictures on each page, the filters beside the search */
+html.hinged .gal-col:nth-child(3){margin-left:calc(var(--pg) - 14px)}
+html.hinged .gal-ctl{display:grid; grid-template-columns:var(--pl) var(--pr); column-gap:var(--pg); row-gap:8px; align-items:center}
+html.hinged .gal-ctl > *{grid-column:2; min-width:0}
+html.hinged .gal-ctl > .gal-q{grid-column:1; grid-row:1 / span 3; align-self:start}
+html.hinged .gal-ctl .chips{margin:0; padding:0}
+html.hinged #galFeat{gap:0; margin:0; padding:2px 0 10px; scroll-padding:0}
+html.hinged #galFeat > .gf{width:calc((var(--pl) - 12px) / 2); margin-right:12px; scroll-snap-align:none}
+html.hinged #galFeat > .gf:nth-child(odd){scroll-snap-align:start}
+html.hinged #galFeat > .gf:nth-child(even){margin-right:var(--pg)}
+/* the open picture: the painting on the left screen, its label on the right */
+html.hinged .av-stage, html.hinged .av-top{right:calc(100vw - var(--hinge-x))}
+html.hinged .av-sheet{left:calc(var(--hinge-x) + var(--hinge-w)); top:0; max-height:none; transform:none; border-radius:0; border-top:0; border-left:1px solid rgba(212,175,90,.18)}
+html.hinged .av-grab{cursor:default} html.hinged .av-grab::before{display:none}
+html.hinged .av.bare .av-sheet{opacity:1; pointer-events:auto}
+/* Walk in: the picture fills the left screen, what you see in it is on the right */
+html.hinged #taScene{display:grid; grid-template-columns:var(--pl) var(--pr); column-gap:var(--pg); align-items:start}
+html.hinged #taScene > *{grid-column:2; min-width:0}
+html.hinged #taScene > .ta{grid-column:1; grid-row:1 / span 6; position:sticky; top:calc(64px + env(safe-area-inset-top, 0px)); margin:0; border-radius:18px; height:calc(100vh - 64px - 104px - env(safe-area-inset-bottom, 0px)); min-height:300px}
+html.hinged #taScene > .wk3-card{margin-top:0}
+html.hinged #taScene .wk3-grid{grid-template-columns:minmax(0,1fr)}
+html.hinged #taScene > .ta-map{grid-column:1; margin:0; border-radius:18px}
+/* Talk: who you are talking to on the left page, the conversation on the right */
+.talk-pt{display:none}
+@media (min-width:900px){
+  #view[data-v="talk"]:has(#chat){display:grid; grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr); grid-template-rows:auto 1fr auto; column-gap:48px; row-gap:18px; align-items:start;
+    min-height:calc(100vh - 18px - 96px - env(safe-area-inset-bottom, 0px) - 52px)}
+  #view[data-v="talk"]:has(#chat) > .d-head{grid-column:1; grid-row:1; position:sticky; top:calc(16px + env(safe-area-inset-top, 0px))}
+  #view[data-v="talk"]:has(#chat) > #sug{grid-column:1; grid-row:2; flex-direction:column; align-items:flex-start}
+  #view[data-v="talk"]:has(#chat) > #chat{grid-column:2; grid-row:1 / span 2; align-self:start; padding-top:24px}
+  #view[data-v="talk"]:has(#chat) > .composer{grid-column:2; grid-row:3; align-self:end}
+  #view[data-v="talk"]:has(#chat) .talk-pt{display:block; width:112px; height:112px; border-radius:50%; object-fit:cover; object-position:center 20%; border:1px solid var(--rule); box-shadow:var(--shadow); order:-1}
+}
+html.hinged #view[data-v="talk"]:has(#chat){grid-template-columns:var(--pl) var(--pr); column-gap:var(--pg)}
+html.hinged #view[data-v="talk"] > *{max-width:none}
+/* A person's chapter: the story on the left, its contents on the right (iPad and the open Duo) */
+@media (min-width:1000px){
+  .ch-wrap{display:grid; grid-template-columns:minmax(0,1fr) 240px; column-gap:56px; align-items:start}
+}
+html.hinged .ch-wrap{display:grid; grid-template-columns:var(--pl) var(--pr); column-gap:var(--pg); align-items:start}
+@media (min-width:1000px){ .ch-wrap > *{grid-column:1} }
+html.hinged .ch-wrap > *{grid-column:1}
+@media (min-width:1000px){
+  .ch-wrap > .ch-chips{grid-column:2; grid-row:1 / span 60; flex-direction:column; align-items:stretch; gap:2px; overflow:visible; margin:0; padding:4px 0 0; border:0; background:none; top:calc(24px + env(safe-area-inset-top, 0px))}
+  .ch-wrap > .ch-chips::before{content:"In this story"; font:600 11px/1 var(--ui); letter-spacing:.12em; text-transform:uppercase; color:var(--ink-3); padding:0 0 10px 14px}
+  .ch-wrap > .ch-chips .chip{border:0; border-left:2px solid var(--rule); border-radius:0; background:none; padding:9px 14px; font-size:14.5px; white-space:normal; color:var(--ink-2)}
+  .ch-wrap > .ch-chips .chip:hover, .ch-wrap > .ch-chips .chip[aria-current]{border-left-color:var(--accent); color:var(--ink)}
+}
+html.hinged .ch-wrap > .ch-chips{grid-column:2; grid-row:1 / span 60; flex-direction:column; align-items:stretch; gap:2px; overflow:visible; margin:0; padding:4px 0 0; border:0; background:none; top:calc(24px + env(safe-area-inset-top, 0px))}
+html.hinged .ch-wrap > .ch-chips::before{content:"In this story"; font:600 11px/1 var(--ui); letter-spacing:.12em; text-transform:uppercase; color:var(--ink-3); padding:0 0 10px 14px}
+html.hinged .ch-wrap > .ch-chips .chip{border:0; border-left:2px solid var(--rule); border-radius:0; background:none; padding:9px 14px; font-size:14.5px; white-space:normal; color:var(--ink-2)}
+html.hinged .ch-wrap > .ch-chips .chip:hover, html.hinged .ch-wrap > .ch-chips .chip[aria-current]{border-left-color:var(--accent); color:var(--ink)}
+.hall-hint{margin:0; padding:6px 0 0; font:italic 400 18px/1.45 var(--display); color:var(--ink-2)}
+.hall-lit{display:flex; flex-direction:column; gap:8px}
+/* iPad: the space under the dial lists the Halls lit in that year */
+.w-lit{display:none}
+@media (min-width:900px){ html:not(.hinged) .w-lit{display:flex; flex-direction:column; gap:12px; margin-top:18px}
+  html:not(.hinged) .w-lit .hall-lit{display:grid; grid-template-columns:repeat(auto-fill, minmax(230px, 1fr))} }
+.hall-lit button{display:flex; align-items:center; gap:12px; padding:11px 14px; background:var(--bg); border:1px solid var(--rule); border-radius:14px; color:var(--ink); text-align:left; cursor:pointer; font:inherit}
+.hall-lit button:hover{border-color:var(--accent)}
+.hall-lit b{font-weight:600}
+.hall-lit .n{margin-left:auto; color:var(--ink-3); font-size:12.5px; white-space:nowrap}
+.hall-lit .lampdot{width:10px; height:10px; border-radius:50%; background:var(--lamp-core); box-shadow:0 0 10px var(--lamp); flex:none}
 
 /* ---------- Library ---------- */
 /* Eras */
@@ -1079,6 +1190,18 @@ function chapterHTML(p, ch){
     <nav class="ch-chips" aria-label="Chapter sections">${ch.sections.map(s => `<a class="chip" href="#p-${p.id}@${esc(s.k)}" data-sec="${esc(s.k)}">${esc(s.h)}</a>`).join("")}</nav>
     ${ch.sections.map(s => chSection(p.id, s)).join("")}
   </div>`;
+}
+/* On a wide screen the chapter's sections are a contents list beside the story: mark the one being read. */
+let chObs = null;
+function chSpy(){
+  if (chObs) { chObs.disconnect(); chObs = null; }
+  const secs = [...document.querySelectorAll(".ch-sec[id^='ch-']")]; if (!secs.length || !("IntersectionObserver" in window)) return;
+  chObs = new IntersectionObserver(es => {
+    const vis = es.filter(e => e.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0]; if (!vis) return;
+    const k = vis.target.id.slice(3);
+    document.querySelectorAll(".ch-chips [data-sec]").forEach(c => c.toggleAttribute("aria-current", c.dataset.sec === k));
+  }, {rootMargin:"-15% 0px -70% 0px"});
+  secs.forEach(x => chObs.observe(x));
 }
 function scrollToSec(k){
   const el = document.getElementById("ch-" + k); if (!el) return false;
@@ -1867,7 +1990,7 @@ function drawArtGrid(){
 /* The grid is real columns. Each new tile goes to the shortest column, worked out from the
    picture's shape, so tiles already on screen never move when more load (CSS columns reshuffled them). */
 let artCols = null;
-const artColN = () => innerWidth >= 1100 ? 5 : innerWidth >= 700 ? 4 : 2;
+const artColN = () => document.documentElement.classList.contains("hinged") ? 4 : innerWidth >= 1100 ? 5 : innerWidth >= 700 ? 4 : 2;
 function artBlock(g){
   const n = artColN(), gap = n > 2 ? 14 : 10, row = document.createElement("div");
   row.className = "gal-cols"; row.innerHTML = '<div class="gal-col"></div>'.repeat(n); g.appendChild(row);
@@ -2833,7 +2956,7 @@ function viewTalk(id){
   if (!chats.has(id)) chats.set(id, []);
   const useClaude = !APP && !!(window.claude && typeof window.claude.use === "function");
   view.innerHTML = `<section class="d-head"><div class="crumbs"><a href="#talk">Talk</a><span>/</span><a href="#p-${p.id}">${esc(p.n)}</a></div>
-    <h1>${p.sacred ? `What the record says about ${esc(p.n)}` : `Talk to ${esc(short(p))}`}</h1>
+    ${!p.sacred && portraitOf(p) ? `<img class="talk-pt" src="${esc(portraitOf(p))}" alt="">` : ""}<h1>${p.sacred ? `What the record says about ${esc(p.n)}` : `Talk to ${esc(short(p))}`}</h1>
     <p class="talk-mode" id="talkMode">${p.sacred ? `Out of respect, the museum does not speak for ${esc(p.n)}. These answers quote what the sources say, with their labels.` : useClaude ? `Played by Claude from ${sheetFor(p).length} checked facts. Every answer comes with a fact-check receipt.` : talkModeHTML()}</p></section>
   <section class="chat" id="chat"></section>
   <div class="chips" id="sug"></div>
@@ -3656,6 +3779,7 @@ function viewWorld(){
       <div class="w-stops">${nearCardHTML()}${stops.map(([y, n, r]) => `<button class="chip" data-wq="${y}" data-wr="${r}">${esc(n)}</button>`).join("")}</div>
       <p class="w-note">Lights show people in this museum who are linked to each place and alive in that year, not everyone who lived there. Coastlines are today's.</p>
     </div>
+    <div class="w-lit" id="wLit"></div>
   </section>`;
   drawWorld();
   if (wHallId) openHall(wHallId, true); else closeHall();
@@ -3669,6 +3793,7 @@ window.onHinge = () => {
   const was = document.documentElement.classList.contains("hinged");
   document.documentElement.classList.toggle("hinged", on);
   if (was !== on && document.getElementById("wHall")) { if (wHallId) openHall(wHallId, true); else closeHall(); }
+  if (was !== on) { const g = document.getElementById("galGrid"); if (g && artCols) { const n = artShown; artShown = 0; artCols = null; g.innerHTML = ""; while (artShown < n) moreArt(); } dispatchEvent(new Event("resize")); }
   sizeLamps();
 };
 /* how many map units one screen pixel is, so lights keep the same size when zooming */
@@ -3701,6 +3826,9 @@ function drawWorld(){
   document.getElementById("wDial").setAttribute("aria-valuetext", wYL(wYear));
   document.querySelectorAll("[data-wq]").forEach(b => b.setAttribute("aria-pressed", +b.dataset.wq === wYear));
   if (wHallId && !document.getElementById("wHall").hidden) openHall(wHallId, true);
+  else if (!wHallId && document.documentElement.classList.contains("hinged")) document.getElementById("wHall").innerHTML = hallIndexHTML();
+  const wl = document.getElementById("wLit");
+  if (wl) { const lit = litHalls(); wl.innerHTML = lit.length ? `<div class="sec-head"><h2>Halls open in ${wYL(wYear)}</h2><p>Tap one to step inside</p></div><div class="hall-lit">${hallButtons(lit)}</div>` : ""; }
 }
 function zoomWorld(k){
   if (!W_REG[k]) return;
@@ -3752,10 +3880,24 @@ function openHall(id, quiet){
   if (!quiet) { haptic(first ? "success" : "open"); box.scrollTop = 0; }
   sizeLamps();
 }
+/* The right screen of an open iPhone Duo, before a Hall is picked: every Hall lit in this year. */
+function litHalls(){
+  const alive = wAlive(wYear);
+  return Object.keys(GEO.pts).filter(id => C[id]).map(id => [id, alive.filter(p => (p.c || []).includes(id)).length]).filter(x => x[1]).sort((a, b) => b[1] - a[1]);
+}
+const hallButtons = lit => lit.map(([id, n]) => `<button type="button" data-hall="${id}"><span class="lampdot"></span><b>${esc(C[id].n)}</b><span class="n">${plural(n, "person")}</span></button>`).join("");
+function hallIndexHTML(){
+  const lit = litHalls();
+  return `<div class="hh"><div><span class="eyebrow" style="color:var(--accent)">${wYL(wYear)}</span><h2>Halls open this year</h2></div></div>
+    <p class="hall-hint">Tap a light on the map, or a Hall below, and it opens on this side.</p>
+    ${lit.length ? `<div class="hall-lit">${hallButtons(lit)}</div>`
+      : `<p class="muted" style="margin:0">No Hall is lit in ${wYL(wYear)}. Turn the dial to find people.</p>`}
+    <p class="hall-foot">Lights show people in this museum who are linked to each place and alive in that year, not everyone who lived there. Coastlines are today's.</p>`;
+}
 function closeHall(){
   wHallId = null;
   const box = document.getElementById("wHall");
-  if (box && document.documentElement.classList.contains("hinged")) { box.innerHTML = `<p class="hall-hint">Tap a light on the map, and its Hall opens on this side.</p>`; box.hidden = false; }
+  if (box && document.documentElement.classList.contains("hinged")) { box.innerHTML = hallIndexHTML(); box.hidden = false; }
   else if (box) box.hidden = true;
   const sc = document.getElementById("wScrim"); if (sc) sc.hidden = true;
   const st = document.getElementById("wStage"); if (st) st.classList.remove("has-hall");
@@ -3964,6 +4106,7 @@ function route(){
     return;
   }
   closeArt(true); galleryOn = false;
+  view.dataset.v = h.replace(/-.*/, "");   /* which kind of page, so the open iPhone Duo can lay each one out as a two-page spread */
   let tab = "world";
   if (h === "timeline" || h === "tm" || h.startsWith("tm-") || h === "eras" || h.startsWith("era-")) tab = "timeline";
   else if (h === "art" || h.startsWith("art-") || h === "walk" || h.startsWith("walk-")) tab = "gallery";
@@ -3971,7 +4114,7 @@ function route(){
   else if (["library", "people", "events", "places"].includes(h) || /^[pec]-/.test(h)) tab = "library";
   document.querySelectorAll("#tabs a").forEach(a => { a.classList.toggle("on", a.dataset.tab === tab); a.toggleAttribute("aria-current", a.dataset.tab === tab); });
   drawSeg(tab, h);
-  if (h.startsWith("p-")) { viewPerson(h.slice(2)); const pp = P.get(h.slice(2)); if (pp) personArt(pp); }
+  if (h.startsWith("p-")) { viewPerson(h.slice(2)); const pp = P.get(h.slice(2)); if (pp) personArt(pp); chSpy(); }
   else if (h.startsWith("e-")) viewEvent(h.slice(2));
   else if (h.startsWith("c-")) viewCountry(h.slice(2));
   else if (h.startsWith("tm-")) viewTM(parseInt(h.slice(3), 10));
@@ -4009,6 +4152,7 @@ view.addEventListener("click", ev => {
   const t = ev.target;
   if (t.closest("[data-search]")) { openSearch(); return; }
   const wl = t.closest("[data-lamp]"); if (wl) { openHall(wl.dataset.lamp); return; }
+  const wh = t.closest("[data-hall]"); if (wh) { openHall(wh.dataset.hall); return; }
   if (t.closest("[data-wclose]")) { closeHall(); return; }
   const wr = t.closest("[data-wreg]"); if (wr) { zoomWorld(wr.dataset.wreg); haptic("select"); return; }
   const wq = t.closest("[data-wq]"); if (wq) { setWorldYear(parseInt(wq.dataset.wq, 10)); if (wq.dataset.wr !== wRegion) zoomWorld(wq.dataset.wr); haptic("select"); return; }
