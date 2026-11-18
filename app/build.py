@@ -1,4 +1,4 @@
-import json, pathlib
+import json, pathlib, shutil
 d = pathlib.Path(__file__).parent
 src = (d/"app.src.html").read_text()
 
@@ -103,10 +103,54 @@ if catalog:
 print("gallery:", len(catalog), "works,", sum(1 for r in catalog if r["wing"] == "app"), "in the app")
 images_js += "\nwindow.HISTORY.artShards = " + str(SHARDS) + "; window.HISTORY.artCount = " + str(len(catalog)) + ";"
 
+# ---------- the museum's chapters (app/chapters.js), one file each ----------
+# The page carries only what its lists need from each chapter (pictures, lede, search words).
+# The full text is ch/<id>.js, loaded when that person (or their Talk page) is opened, so the app opens quicker.
+# Search loads ch/all.js the first time it opens. The chapters are written in app/chapters.js as before.
+def js_object(text):
+    """The object literal in Object.assign(window.HISTORY.chapters, {...}) as Python data. Handles what
+    chapters.js uses: comments, unquoted keys, double-quoted strings and trailing commas (checked against node)."""
+    i = text.index("{", text.index("Object.assign(window.HISTORY.chapters"))
+    out, depth = [], 0
+    last = lambda: next((t for t in reversed(out) if t.strip()), "")
+    while True:
+        c = text[i]
+        if c == '"':
+            j = i + 1
+            while text[j] != '"': j += 2 if text[j] == "\\" else 1
+            out.append(text[i:j + 1]); i = j + 1; continue
+        if text.startswith("/*", i): i = text.index("*/", i) + 2; continue
+        if text.startswith("//", i): i = text.index("\n", i); continue
+        m = _re.match(r"[A-Za-z_$][\w$]*(?=\s*:)", text[i:i + 80])
+        if m and last() in ("{", ","): out.append(json.dumps(m.group())); i += len(m.group()); continue
+        if c in "}]":
+            while out and not out[-1].strip(): out.pop()
+            if out and out[-1] == ",": out.pop()
+            depth -= 1; out.append(c); i += 1
+            if depth == 0: break
+            continue
+        if c in "{[": depth += 1
+        out.append(c); i += 1
+    return json.loads("".join(out))
+chapters = js_object((d/"chapters.js").read_text())
+ch_dir = d/"ch"
+if ch_dir.exists(): shutil.rmtree(ch_dir)
+ch_dir.mkdir()
+ch_stub, ch_all = {}, []
+for cid, ch in chapters.items():
+    for k in ("hero", "portrait", "scene"): assert not ch.get(k) or ch[k] in images, f"chapter {cid}: {k} picture {ch[k]} is not in the app"
+    for sec in ch["sections"]: assert not sec.get("img") or sec["img"] in images, f"chapter {cid}: section picture {sec['img']} is not in the app"
+    line = f"window.CH_LOAD({json.dumps(cid)}," + json.dumps(ch, ensure_ascii=False, separators=(",", ":")) + ");\n"
+    (ch_dir/(cid + ".js")).write_text(line); ch_all.append(line)
+    ch_stub[cid] = {k: ch[k] for k in ("hero", "portrait", "scene", "lede", "kw") if k in ch} | {"file": 1}
+(ch_dir/"all.js").write_text("".join(ch_all))
+chapters_js = "window.HISTORY.chapters = " + json.dumps(ch_stub, ensure_ascii=False, separators=(",", ":")) + ";"
+print("chapters:", len(chapters), "as files,", len(chapters_js), "bytes left in the page")
+
 for tag, f in (("/*__DATA__*/", "data.js"), ("/*__TODAY__*/", "today.js"), ("/*__CONTENT__*/", "content.js"), ("/*__DEEP__*/", "deep.js"), ("/*__ERAS__*/", "eras.js"), ("/*__WALKS__*/", "WALKS"),
-               ("/*__CHAPTERS__*/", "chapters.js"), ("/*__VOICE__*/", "voice.js"), ("/*__IMAGES__*/", None), ("/*__GEO__*/", "geo.js")):
+               ("/*__CHAPTERS__*/", "CHAPTERS"), ("/*__VOICE__*/", "voice.js"), ("/*__IMAGES__*/", None), ("/*__GEO__*/", "geo.js")):
     assert tag in src, tag
-    src = src.replace(tag, images_js if f is None else walks_js if f == "WALKS" else (d/f).read_text())
+    src = src.replace(tag, images_js if f is None else walks_js if f == "WALKS" else chapters_js if f == "CHAPTERS" else (d/f).read_text())
 (d/"index.html").write_text(src)
 print("built", len(src), "bytes,", len(images), "images")
 
@@ -151,6 +195,8 @@ if app_dir.parent.exists():
         (app_dir/"img"/"scenes").mkdir()
         for sid, m in walk_pics.items():
             for f in [sid + ".jpg"] + ([sid + ".js"] if m.get("js") else []): shutil.copy2(scene_dir/f, app_dir/"img"/"scenes"/f)
+    if (app_dir/"ch").exists(): shutil.rmtree(app_dir/"ch")
+    shutil.copytree(ch_dir, app_dir/"ch")
     if (app_dir/"art").exists(): shutil.rmtree(app_dir/"art")
     if catalog or portraits:
         (app_dir/"art").mkdir()
