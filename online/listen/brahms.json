@@ -23,6 +23,26 @@
    "len": 110,
    "year": 1915,
    "who": "Ernestine Schumann-Heink"
+  },
+  {
+   "kind": "music",
+   "title": "Hungarian Dance No. 1",
+   "file": "Hungarian Dance No. 1 - Strolling Strings - United States Air Force Band.mp3",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Hungarian_Dance_No._1_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page": "https://commons.wikimedia.org/wiki/File:Hungarian_Dance_No._1_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+   "licence": "Public domain",
+   "len": 128,
+   "who": "United States Air Force Band"
+  },
+  {
+   "kind": "music",
+   "title": "Symphony No. 3: Poco allegretto",
+   "file": "Brahms - Symphony No. 3 in F major, Op. 90 - III. Poco allegretto (Musopen Symphony).flac",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1f/Brahms_-_Symphony_No._3_in_F_major%2C_Op._90_-_III._Poco_allegretto_%28Musopen_Symphony%29.flac/Brahms_-_Symphony_No._3_in_F_major%2C_Op._90_-_III._Poco_allegretto_%28Musopen_Symphony%29.flac.mp3",
+   "page": "https://commons.wikimedia.org/wiki/File:Brahms_-_Symphony_No._3_in_F_major,_Op._90_-_III._Poco_allegretto_(Musopen_Symphony).flac",
+   "licence": "Public domain",
+   "len": 370,
+   "who": "Musopen Symphony Orchestra"
   }
  ]
 }
