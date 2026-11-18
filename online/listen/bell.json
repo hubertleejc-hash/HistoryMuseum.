@@ -1,0 +1,17 @@
+{
+ "by": "bell",
+ "tracks": [
+  {
+   "kind": "voice",
+   "title": "His voice on an experimental disc",
+   "file": "Alexander Graham Bell speaking.ogg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/47/Alexander_Graham_Bell_speaking.ogg/Alexander_Graham_Bell_speaking.ogg.mp3",
+   "page": "https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell_speaking.ogg",
+   "licence": "Public domain",
+   "len": 42,
+   "year": 1885,
+   "who": "Alexander Graham Bell",
+   "note": "The only known recording of his voice, found in a museum store and played again in 2013"
+  }
+ ]
+}

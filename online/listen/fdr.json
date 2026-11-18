@@ -1,0 +1,28 @@
+{
+ "by": "fdr",
+ "tracks": [
+  {
+   "kind": "voice",
+   "title": "\"A date which will live in infamy\"",
+   "file": "Roosevelt Infamy.ogg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7e/Roosevelt_Infamy.ogg/Roosevelt_Infamy.ogg.mp3",
+   "page": "https://commons.wikimedia.org/wiki/File:Roosevelt_Infamy.ogg",
+   "licence": "Public domain",
+   "len": 27,
+   "year": 1941,
+   "who": "Franklin D. Roosevelt",
+   "note": "The opening of his speech to Congress the day after Pearl Harbor"
+  },
+  {
+   "kind": "voice",
+   "title": "The whole Pearl Harbor speech to Congress",
+   "file": "Roosevelt Pearl Harbor.ogg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fd/Roosevelt_Pearl_Harbor.ogg/Roosevelt_Pearl_Harbor.ogg.mp3",
+   "page": "https://commons.wikimedia.org/wiki/File:Roosevelt_Pearl_Harbor.ogg",
+   "licence": "Public domain",
+   "len": 521,
+   "year": 1941,
+   "who": "Franklin D. Roosevelt"
+  }
+ ]
+}
