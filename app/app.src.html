@@ -925,6 +925,42 @@ html.hinged .big-title, html.hinged .w-regions, html.hinged .w-dial{max-width:ca
 .td-go{display:block; width:100%; border:0; border-radius:16px; padding:15px; background:var(--accent); color:var(--accent-ink); font:600 16px var(--ui); cursor:pointer}
 .td-note{font-size:12.5px; color:var(--ink-3); margin:0}
 @media (min-width:760px){.td-hero{grid-template-columns:minmax(0,5fr) minmax(0,6fr)} .td-hero .ph{aspect-ratio:auto; min-height:260px; max-height:380px} .td-hero .tx{justify-content:center; padding:24px}}
+/* ---------- Listen: the player above the tab bar, the paragraph being read, recordings ---------- */
+.ls-btn, .ls-row .ls-go{display:inline-flex; align-items:center; gap:8px}
+.ls-btn svg{flex:none}
+.ls-bar{position:fixed; z-index:39; left:max(10px, env(safe-area-inset-left, 0px)); right:max(10px, env(safe-area-inset-right, 0px)); bottom:calc(var(--tabh, 64px) + 8px);
+  max-width:620px; margin:0 auto; display:grid; grid-template-columns:minmax(0,1fr) auto; align-items:center; gap:4px 6px; padding:8px 8px 8px 14px;
+  background:color-mix(in srgb, var(--surface) 95%, transparent); -webkit-backdrop-filter:saturate(1.4) blur(18px); backdrop-filter:saturate(1.4) blur(18px);
+  border:1px solid var(--rule); border-radius:16px; box-shadow:0 8px 28px rgba(0,0,0,.22); overflow:hidden; transition:transform .28s cubic-bezier(.2,.8,.2,1), opacity .2s}
+.ls-bar[hidden]{display:none}
+.ls-bar.in{transform:translateY(12px); opacity:0}
+.ls-prog{position:absolute; left:0; right:0; top:0; height:2px; background:var(--rule)}
+.ls-prog i{display:block; height:100%; width:0; background:var(--accent); transition:width .4s linear}
+.ls-info{min-width:0; display:flex; flex-direction:column; gap:2px; text-align:left; background:none; border:0; padding:4px 0; color:var(--ink); cursor:pointer; font:inherit}
+.ls-info b{font:600 14.5px/1.25 var(--ui); white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.ls-info small{font:400 12.5px/1.3 var(--ui); color:var(--ink-3); white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.ls-ctl{display:flex; align-items:center; gap:2px}
+.ls-ctl button{display:grid; place-items:center; min-width:40px; height:44px; border:0; background:none; color:var(--ink); border-radius:12px; cursor:pointer; padding:0}
+.ls-ctl .ls-main{min-width:46px; height:46px; border-radius:50%; background:var(--accent); color:var(--accent-ink)}
+.ls-ctl .ls-rate{font:600 12.5px var(--ui); color:var(--ink-2); min-width:38px}
+.ls-ctl .ls-x{color:var(--ink-3)}
+.ls-tip{grid-column:1 / -1; margin:0 0 2px; font:400 12px/1.4 var(--ui); color:var(--ink-2)}
+body.ls-on{padding-bottom:calc(170px + env(safe-area-inset-bottom, 0px))}
+.ls-cur{position:relative}
+.ls-cur::before{content:""; position:absolute; left:-12px; top:.15em; bottom:.15em; width:3px; border-radius:2px; background:var(--accent)}
+.myth-card.ls-cur::before{display:none}
+.myth-card.ls-cur{outline:2px solid var(--accent); outline-offset:2px}
+::highlight(ls-word){background-color:var(--accent-soft); color:inherit}
+.ls-hear{display:flex; flex-direction:column; gap:10px}
+.ls-tracks{display:flex; flex-direction:column; border-top:1px solid var(--rule)}
+.ls-row{display:grid; grid-template-columns:auto minmax(0,1fr); gap:4px 12px; align-items:center; padding:12px 2px; border-bottom:1px solid var(--rule)}
+.ls-row .ls-go{grid-row:span 2; width:44px; height:44px; justify-content:center; border-radius:50%; border:1px solid var(--accent); background:transparent; color:var(--accent); cursor:pointer; padding:0}
+.ls-row[aria-current="true"] .ls-go{background:var(--accent); color:var(--accent-ink)}
+.ls-row b{font:600 15.5px/1.3 var(--ui); color:var(--ink)}
+.ls-row small{font:400 12.5px/1.4 var(--ui); color:var(--ink-3)}
+.ls-row small a{color:var(--ink-3); text-decoration:underline}
+.ls-kind{display:inline-block; margin-right:6px; padding:1px 7px; border-radius:9px; background:var(--accent-soft); color:var(--accent); font:600 10.5px/1.6 var(--ui); letter-spacing:.05em; text-transform:uppercase}
+@media (prefers-reduced-motion:reduce){.ls-bar, .ls-prog i{transition:none}}
 </style>
 <script>/* light or dark follows the phone's own setting */
 (function(){var m=window.matchMedia&&matchMedia("(prefers-color-scheme: dark)");document.documentElement.setAttribute("data-theme",m&&!m.matches?"light":"dark")})();</script>
@@ -1037,6 +1073,7 @@ function fetchFeed(){
     feedChapters(f).forEach(indexChapter);
     if (typeof feedWalks === "function") feedWalks(f);
     feedVoice(f);
+    feedListen(f);
     if (ART) { const have = new Set(ART.map(it => it.id)); ART.push(...feedArt(f, have)); }
     if (f.today && location.hash === "#today" && scrollY < 40) viewToday();
   }).catch(() => { feedTried = false; });
@@ -1572,7 +1609,8 @@ function viewPerson(id){
   ${top ? `</div>` : ""}
 
   <section id="pArt" hidden></section>
-  <section class="walk-cta"><a class="btn" href="#talk-${p.id}">${p.sacred ? "Ask what the sources say" : `Talk to ${esc(short(p))}`}</a><a class="btn ghost" href="#walk-${walkYearFor(p)}-${p.id}">Travel to ${fy(walkYearFor(p))}</a></section>
+  <section class="walk-cta"><a class="btn" href="#talk-${p.id}">${p.sacred ? "Ask what the sources say" : `Talk to ${esc(short(p))}`}</a><a class="btn ghost" href="#walk-${walkYearFor(p)}-${p.id}">Travel to ${fy(walkYearFor(p))}</a>${listenBtn(p)}</section>
+  ${lsTracksHTML(p)}
   ${ch ? chapterHTML(p, ch) + `<div class="sec-head ch-more"><h2>Keep exploring</h2><p>Their circle, the people alive with them, and the events of their lifetime</p></div>` : `<section class="panel tmm-ask">${inCh ? `<p>${esc(short(p))}'s story is told inside the full chapter on <a href="#p-${inCh}@turns">${esc(P.get(inCh).n)}</a>.</p>` : ""}<div class="row-btns"><button type="button" class="btn" id="tmm" data-tmm="${p.id}">Tell me more about ${esc(short(p))}</button><span class="muted">A longer story, written by AI from the museum's notes</span></div><div id="tmmOut"></div></section>`}
   ${!ch && H.stories && H.stories[p.id] ? `<section><div class="sec-head"><h2>The story</h2><p>Pick how deep you want to go</p></div><div id="story">${storyHTML(p.id)}</div></section>` : ""}
   ${H.works.some(w => w.by === p.id) ? `<section><div class="sec-head"><h2>Works</h2></div><div class="works">${H.works.filter(w => w.by === p.id).sort((a, b) => astro(a.y) - astro(b.y)).map(workCard).join("")}</div></section>` : ""}
@@ -1724,6 +1762,7 @@ function stopMusic(){ if (playing) { playing.nodes.forEach(o => { try { o.stop()
 function playMusic(id){
   const m = MEL[id]; if (!m) return;
   const was = playing && playing.id === id; stopMusic(); if (was) return;
+  lsStop();
   try { actx = actx || new (window.AudioContext || window.webkitAudioContext)(); } catch(e){ return; }
   if (actx.state === "suspended") actx.resume();
   let t = actx.currentTime + 0.05; const nodes = [];
@@ -1745,13 +1784,228 @@ function playMusic(id){
   playing = {id, nodes, t: setTimeout(() => { playing = null; const bb = document.querySelector(`[data-play="${id}"]`); if (bb) bb.setAttribute("aria-pressed", "false"); }, (t - actx.currentTime) * 1000 + 100)};
 }
 const playBtn = w => MEL[w.id] ? `<button type="button" class="play" data-play="${w.id}" aria-pressed="false"><svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1l9 5-9 5z" fill="currentColor"/></svg>${MEL[w.id].label}</button>` : "";
+/* ---------- Listen: a chapter read aloud, and real recordings ----------
+   In the iPhone app the phone does the work (ios/HistoryMuseum/ListenBridge.swift): its own built-in voice reads,
+   free, offline and private, and recordings stream from Wikimedia Commons through the phone's own player, so it
+   keeps going with the screen locked and shows on the lock screen. In a browser the same buttons use the browser's
+   voice and an <audio> element. One sound at a time: Listen stops the tunes, and a tune stops Listen.
+   Recordings arrive with the online feed (online/listen/<person>.json, tools/listen/gather.py): public domain only,
+   each with its Commons page. Nothing here is spoken for sacred figures except their chapter's own words. */
+const LS = {native:false, ok:false, better:true, mode:"", id:"", pid:"", title:"", by:"", parts:[], i:0, paused:false,
+  rate:(() => { const r = parseFloat(store.get("ctm-ls-rate")); return [0.8, 1, 1.2, 1.4].includes(r) ? r : 1; })(),
+  follow:true, at:0, len:0, track:null, audio:null, web:null};
+const LISTEN = {};
+try { LS.native = !!(window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.listen); } catch(e){}
+LS.ok = LS.native || ("speechSynthesis" in window && typeof SpeechSynthesisUtterance === "function");
+function feedListen(f){
+  Object.entries((f && f.listen) || {}).forEach(([pid, v]) => { const p = P.get(pid);
+    if (!p || p.sacred || !v || !Array.isArray(v.tracks)) return;
+    const tr = v.tracks.filter(t => t && typeof t.title === "string" && /^https:\/\/upload\.wikimedia\.org\/[^"'<>\s]+\.mp3$/.test(t.url || "") && /^https:\/\/commons\.wikimedia\.org\//.test(t.page || ""));
+    if (tr.length) LISTEN[pid] = tr; });
+}
+feedListen(FEED);
+const LS_SAY = {likely:"Likely, not certain. ", disputed:"Disputed. ", myth:"A myth or legend. ", tradition:"As tradition tells it. ", unchecked:"Not yet checked. "};
+const mmss = s => { s = Math.max(0, Math.round(s || 0)); return Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0"); };
+const LS_ICON = {
+  play:`<svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M5 3.2l10 5.8-10 5.8z" fill="currentColor"/></svg>`,
+  pause:`<svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M5 3h3v12H5zM10 3h3v12h-3z" fill="currentColor"/></svg>`,
+  back:`<svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 4v12M16 4.5l-9 5.5 9 5.5z" fill="currentColor" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>`,
+  fwd:`<svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M16 4v12M4 4.5l9 5.5-9 5.5z" fill="currentColor" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>`,
+  x:`<svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M2 2l10 10M12 2L2 12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>`,
+  ear:`<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M2.5 9.5V8a5.5 5.5 0 0111 0v1.5"/><rect x="2" y="9" width="3" height="5" rx="1.2"/><rect x="11" y="9" width="3" height="5" rx="1.2"/></svg>`};
+/* The words to read, taken from the chapter on screen: the opening, each heading, each paragraph and each myth
+   card ("the story / what we actually know"), never the list of sources. Each part remembers the text node it
+   came from, so the word being spoken can be marked in place. */
+function lsParts(p){
+  const out = [], add = (el, node, pre, post) => { const t = node ? node.data : ""; if (!(pre + t + (post || "")).trim()) return; out.push({el, node, base:pre.length, text:pre + t + (post || "")}); };
+  const textNode = el => { const ns = [...el.childNodes].filter(n => n.nodeType === 3 && n.data.trim()); return ns[ns.length - 1] || null; };
+  const lede = view.querySelector(".ch-lede"); if (lede && textNode(lede)) add(lede, textNode(lede), p.n + ". ");
+  view.querySelectorAll(".ch-wrap > .ch-sec").forEach(sec => {
+    if (sec.id === "ch-sources") return;
+    const h = sec.querySelector(".sec-head h2"); if (h && textNode(h)) add(h, textNode(h), "", ".");
+    sec.querySelectorAll(".ch-body > p, .ch-body > .ch-lp > p, .myth-card").forEach(el => {
+      if (el.classList.contains("myth-card")) {
+        const c = el.querySelector("h3"), w = el.querySelector("p"), lab = (el.className.match(/lab-(\w+)/) || [])[1];
+        if (c && w && textNode(w)) add(el, textNode(w), `The story: ${c.textContent.trim()} ${LS_SAY[lab] || ""}What we actually know: `);
+        return;
+      }
+      const lab = el.querySelector(".lab"), n = textNode(el); if (!n) return;
+      const k = lab ? (lab.className.match(/lab-(\w+)/) || [])[1] : "";
+      add(el, n, LS_SAY[k] || "");
+    });
+  });
+  return out;
+}
+const lsSend = o => { try { window.webkit.messageHandlers.listen.postMessage(o); return true; } catch(e){ return false; } };
+/* ----- the browser's own voice and player, with the same events as the phone ----- */
+const lsWeb = {
+  read(o){ this.stop(); this.o = o; this.i = o.start; this.speak(); },
+  speak(){
+    const o = this.o; if (!o || this.i >= o.parts.length) { const id = o && o.id; this.o = null; if (id) lsEvent({t:"done", id}); return; }
+    const u = new SpeechSynthesisUtterance(o.parts[this.i]), i = this.i; u.rate = LS.rate; u.lang = "en";
+    this.u = u;
+    u.onstart = () => lsEvent({t:"part", id:o.id, i});
+    u.onboundary = e => { if (e.name === "word" && this.u === u) { const m = /^[\w’'-]+/.exec(o.parts[i].slice(e.charIndex)); lsEvent({t:"word", id:o.id, i, at:e.charIndex, n:e.charLength || (m ? m[0].length : 1)}); } };
+    u.onend = () => { if (this.u !== u) return; this.i++; this.speak(); };
+    u.onerror = e => { if (this.u !== u || /interrupt|cancel/.test(e.error || "")) return; this.o = null; lsEvent({t:"error", id:o.id}); };
+    speechSynthesis.speak(u);
+    lsEvent({t:"part", id:o.id, i});
+  },
+  play(o){ this.stop();
+    const a = LS.audio || (LS.audio = Object.assign(new Audio(), {preload:"none"}));
+    a.onplaying = () => lsEvent({t:"playing", id:o.id}); a.onended = () => lsEvent({t:"done", id:o.id});
+    a.onerror = () => lsEvent({t:"error", id:o.id}); a.ontimeupdate = () => lsEvent({t:"time", id:o.id, at:a.currentTime, len:a.duration || 0});
+    a.src = o.url; this.a = o; const pr = a.play(); if (pr && pr.catch) pr.catch(() => lsEvent({t:"error", id:o.id})); },
+  pause(){ if (this.a) LS.audio.pause(); else speechSynthesis.pause(); lsEvent({t:"paused", id:LS.id}); },
+  resume(){ if (this.a) LS.audio.play(); else speechSynthesis.resume(); lsEvent({t:"playing", id:LS.id}); },
+  skip(d){ if (this.a) { LS.audio.currentTime = Math.max(0, LS.audio.currentTime + d * 15); return; }
+    if (!this.o) return; this.u = null; speechSynthesis.cancel(); this.i = Math.max(0, this.i + d); this.speak(); },
+  seek(to){ if (this.a) LS.audio.currentTime = to; },
+  stop(){ this.u = null; this.o = null; try { speechSynthesis.cancel(); } catch(e){} if (this.a && LS.audio) { LS.audio.pause(); LS.audio.removeAttribute("src"); LS.audio.load(); } this.a = null; }
+};
+function lsDo(op, o){
+  if (LS.native) return lsSend(Object.assign({op}, o || {}));
+  if (op === "read") lsWeb.read(o); else if (op === "play") lsWeb.play(o); else if (op === "stop") lsWeb.stop();
+  else if (op === "pause") lsWeb.pause(); else if (op === "resume") lsWeb.resume(); else if (op === "skip") lsWeb.skip(o.by);
+  else if (op === "seek") lsWeb.seek(o.to); else if (op === "rate" && lsWeb.o) { const o2 = lsWeb.o, i = lsWeb.i; lsWeb.read({...o2, start:i}); }
+}
+/* ----- starting and stopping ----- */
+function lsRead(pid, start){
+  const p = P.get(pid); if (!p || !LS.ok) return;
+  const parts = lsParts(p); if (!parts.length) return;
+  stopMusic(); lsClear();
+  Object.assign(LS, {mode:"read", id:"read-" + pid + "-" + Date.now().toString(36), pid, title:p.n, by:"Read aloud by your phone", parts, i:start || 0, paused:false, follow:true, track:null});
+  lsBar(); lsDo("read", {id:LS.id, title:`${p.n}: the story`, by:"Contemporaries", start:LS.i, rate:LS.rate, parts:parts.map(x => x.text)});
+  lsMark();
+  if (!store.get("ctm-ls-tip")) { store.set("ctm-ls-tip", "1"); LS.tip = true; }
+}
+function lsPlay(pid, k){
+  const t = (LISTEN[pid] || [])[k], p = P.get(pid); if (!t || !p) return;
+  if (LS.mode === "rec" && LS.pid === pid && LS.k === k) { lsDo(LS.paused ? "resume" : "pause"); return; }
+  stopMusic(); lsClear();
+  Object.assign(LS, {mode:"rec", id:"rec-" + pid + "-" + k + "-" + Date.now().toString(36), pid, k, title:t.title, by:t.kind === "voice" ? `${p.n}, in their own voice` : p.n, parts:[], i:0, paused:false, at:0, len:t.len || 0, track:t, loading:true});
+  lsBar();
+  if (navigator.onLine === false) { lsEvent({t:"error", id:LS.id, offline:true}); return; }
+  lsDo("play", {id:LS.id, title:t.title, by:LS.by, url:t.url});
+}
+function lsStop(){ if (!LS.mode) return; lsDo("stop"); lsClear(); }
+function lsClear(){
+  lsUnmark(); Object.assign(LS, {mode:"", id:"", paused:false, parts:[], track:null, loading:false, err:false, tip:false});
+  const b = document.getElementById("lsBar"); if (b) b.hidden = true; document.body.classList.remove("ls-on"); lsRows();
+}
+/* ----- what the phone (or browser) reports back ----- */
+function lsEvent(ev){
+  if (!ev || (ev.id && ev.id !== LS.id && ev.t !== "status")) return;
+  if (ev.t === "status") { LS.better = !!ev.better; return; }
+  if (ev.t === "part") { LS.i = ev.i; LS.paused = false; lsMark(); }
+  else if (ev.t === "word") lsWord(ev);
+  else if (ev.t === "time") { LS.at = ev.at; if (ev.len) LS.len = ev.len; LS.loading = false; }
+  else if (ev.t === "playing") { LS.paused = false; LS.loading = false; }
+  else if (ev.t === "paused") LS.paused = true;
+  else if (ev.t === "done" || ev.t === "stopped") { lsClear(); return; }
+  else if (ev.t === "error") { LS.err = ev.offline ? "This recording needs an internet connection." : "This can't play right now."; LS.paused = true; LS.loading = false; }
+  lsBar();
+}
+window.__listen = {onEvent: lsEvent, state: () => ({mode:LS.mode, i:LS.i, n:LS.parts.length, paused:LS.paused, pid:LS.pid})};
+if (LS.native) lsSend({op:"status"});
+/* ----- the moving highlight ----- */
+function lsUnmark(){ view.querySelectorAll(".ls-cur").forEach(e => e.classList.remove("ls-cur")); try { CSS.highlights && CSS.highlights.delete("ls-word"); } catch(e){} }
+const lsOnPage = () => LS.mode === "read" && location.hash.replace(/@.*/, "") === "#p-" + LS.pid;
+function lsMark(){
+  lsUnmark(); if (!lsOnPage()) return;
+  const x = LS.parts[LS.i]; if (!x || !x.el.isConnected) return;
+  x.el.classList.add("ls-cur");
+  if (LS.follow) { const r = x.el.getBoundingClientRect(), top = 90, bot = innerHeight - 190;
+    if (r.top < top || r.bottom > bot) { LS.auto = Date.now(); window.scrollBy({top:r.top - Math.max(top, (innerHeight - r.height) / 3), behavior:matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"}); } }
+}
+function lsWord(ev){
+  if (!lsOnPage() || !window.CSS || !CSS.highlights || typeof Highlight !== "function") return;
+  const x = LS.parts[ev.i]; if (!x || !x.node || !x.node.isConnected) return;
+  const a = ev.at - x.base, b = a + ev.n; if (a < 0 || b > x.node.length) { CSS.highlights.delete("ls-word"); return; }
+  try { const r = document.createRange(); r.setStart(x.node, a); r.setEnd(x.node, b); CSS.highlights.set("ls-word", new Highlight(r)); } catch(e){}
+}
+/* scrolling by hand stops the page following the voice; tapping the player brings it back */
+["touchmove", "wheel"].forEach(t => addEventListener(t, () => { if (LS.mode === "read" && Date.now() - (LS.auto || 0) > 900) LS.follow = false; }, {passive:true}));
+/* after a page is drawn: the same chapter keeps its highlight; anywhere else, the voice simply carries on */
+function lsRoute(sec){
+  if (sec) LS.follow = false;
+  if (LS.mode === "read" && lsOnPage()) {
+    const p = P.get(LS.pid), fresh = p ? lsParts(p) : [];
+    if (fresh.length === LS.parts.length) fresh.forEach((f, k) => { LS.parts[k].el = f.el; LS.parts[k].node = f.node; });
+    requestAnimationFrame(lsMark);
+  }
+  lsBar(); lsRows();
+}
+/* ----- the player ----- */
+function lsBar(){
+  let b = document.getElementById("lsBar");
+  if (!LS.mode) { if (b) b.hidden = true; return; }
+  if (!b) {
+    b = document.createElement("div"); b.id = "lsBar"; b.className = "ls-bar"; b.setAttribute("role", "region"); b.setAttribute("aria-label", "Now playing");
+    b.innerHTML = `<div class="ls-prog"><i></i></div><button type="button" class="ls-info" data-ls="where"><b></b><small aria-live="polite"></small></button>
+      <div class="ls-ctl"><button type="button" data-ls="back"></button><button type="button" class="ls-main" data-ls="toggle"></button><button type="button" data-ls="fwd"></button><button type="button" class="ls-rate" data-ls="rate"></button><button type="button" class="ls-x" data-ls="close" aria-label="Stop">${LS_ICON.x}</button></div><p class="ls-tip" hidden></p>`;
+    document.body.appendChild(b);
+    b.addEventListener("click", lsClick);
+  }
+  const tabs = document.getElementById("tabs"); if (tabs) document.documentElement.style.setProperty("--tabh", tabs.offsetHeight + "px");
+  if (b.hidden) { b.hidden = false; if (!matchMedia("(prefers-reduced-motion: reduce)").matches) { b.classList.add("in"); requestAnimationFrame(() => requestAnimationFrame(() => b.classList.remove("in"))); } }
+  document.body.classList.add("ls-on");
+  const rd = LS.mode === "read", x = rd && LS.parts[LS.i];
+  const sec = x && x.el.closest(".ch-sec") ? x.el.closest(".ch-sec").querySelector(".sec-head h2").textContent : (rd ? "The opening" : "");
+  b.querySelector(".ls-info b").textContent = rd ? LS.title : LS.track.title;
+  b.querySelector(".ls-info small").textContent = LS.err || (rd ? `${LS.paused ? "Paused" : "Reading"} · ${sec} · ${LS.i + 1} of ${LS.parts.length}`
+    : `${LS.loading ? "Loading…" : LS.paused ? "Paused" : mmss(LS.at) + (LS.len ? " of " + mmss(LS.len) : "")} · ${LS.by}`);
+  b.querySelector(".ls-prog i").style.width = (rd ? (LS.parts.length > 1 ? LS.i / (LS.parts.length - 1) : 0) : (LS.len ? LS.at / LS.len : 0)) * 100 + "%";
+  const tg = b.querySelector('[data-ls="toggle"]'); tg.innerHTML = LS.paused || LS.err ? LS_ICON.play : LS_ICON.pause; tg.setAttribute("aria-label", LS.paused || LS.err ? "Play" : "Pause");
+  const bk = b.querySelector('[data-ls="back"]'), fw = b.querySelector('[data-ls="fwd"]');
+  bk.innerHTML = LS_ICON.back; fw.innerHTML = LS_ICON.fwd;
+  bk.setAttribute("aria-label", rd ? "Previous paragraph" : "Back 15 seconds"); fw.setAttribute("aria-label", rd ? "Next paragraph" : "Forward 15 seconds");
+  const rt = b.querySelector('[data-ls="rate"]'); rt.hidden = !rd; rt.textContent = LS.rate + "×"; rt.setAttribute("aria-label", `Speed ${LS.rate} times`);
+  const tip = b.querySelector(".ls-tip"); tip.hidden = !(rd && LS.tip && LS.native && !LS.better);
+  tip.textContent = "A richer voice is free: Settings › Accessibility › Spoken Content › Voices › English.";
+}
+function lsClick(ev){
+  const c = ev.target.closest("[data-ls]"); if (!c) return; haptic("select");
+  const k = c.dataset.ls;
+  if (k === "close") return lsStop();
+  if (k === "toggle") { if (LS.err && LS.mode === "rec") { const pid = LS.pid, i = LS.k; lsClear(); return lsPlay(pid, i); } if (LS.err) return; return lsDo(LS.paused ? "resume" : "pause"); }
+  if (k === "back" || k === "fwd") { LS.follow = true; return lsDo("skip", {by:k === "back" ? -1 : 1}); }
+  if (k === "rate") { const r = [0.8, 1, 1.2, 1.4], nx = r[(r.indexOf(LS.rate) + 1) % r.length]; LS.rate = nx; store.set("ctm-ls-rate", String(nx)); lsDo("rate", {rate:nx}); lsBar(); return; }
+  if (k === "where") { LS.follow = true; if (location.hash.replace(/@.*/, "") !== "#p-" + LS.pid) location.hash = "#p-" + LS.pid; else lsMark(); }
+}
+/* tapping a paragraph while the story is being read jumps the voice there */
+view.addEventListener("click", ev => {
+  if (LS.mode !== "read" || !lsOnPage() || ev.target.closest("a, button, summary, details, .fig")) return;
+  const el = ev.target.closest(".ch-body > p, .ch-lp > p, .myth-card, .ch-lede, .ch-sec .sec-head h2"); if (!el) return;
+  const k = LS.parts.findIndex(x => x.el === el); if (k < 0 || k === LS.i) return;
+  LS.follow = true; const pid = LS.pid; lsRead(pid, k);
+});
+/* ----- buttons on pages ----- */
+const listenBtn = p => LS.ok && CH[p.id] ? `<button type="button" class="btn ghost ls-btn" data-listen="${p.id}">${LS_ICON.ear}Listen to the story</button>` : "";
+function lsTracksHTML(p){
+  const tr = !p.sacred && LISTEN[p.id]; if (!tr) return "";
+  const own = tr.some(t => t.kind === "voice");
+  return `<section class="ls-hear"><div class="sec-head"><h2>${own ? "Hear them" : "Hear the music"}</h2><p>${own ? "Real recordings, including their own voice" : "Real recordings, free to hear"}. They play from Wikimedia Commons, so they need the internet.</p></div>
+    <div class="ls-tracks">${tr.map((t, k) => `<div class="ls-row" data-lsrow="${p.id}:${k}"><button type="button" class="ls-go" data-lstrack="${p.id}:${k}" aria-label="Play ${esc(t.title)}">${LS_ICON.play}</button>
+      <b>${t.kind === "voice" ? `<span class="ls-kind">Their voice</span>` : ""}${esc(t.title)}</b>
+      <small>${[t.who && (t.kind === "voice" ? esc(t.who) : "Played by " + esc(t.who)), t.year && "recorded " + esc(t.year), t.len && mmss(t.len)].filter(Boolean).join(" · ")}${t.note ? ". " + esc(t.note) : ""}<br>${esc(t.licence || "Public domain")} · <a href="${esc(t.page)}" target="_blank" rel="noopener">Wikimedia Commons</a></small></div>`).join("")}</div></section>`;
+}
+const recBtn = w => { const tr = LISTEN[w.by] || [], k = tr.findIndex(t => t.work === w.id); return k < 0 ? "" : `<button type="button" class="play" data-lstrack="${w.by}:${k}" aria-pressed="false">${LS_ICON.ear}Hear a recording</button>`; };
+function lsRows(){
+  document.querySelectorAll("[data-lstrack]").forEach(b => { const on = LS.mode === "rec" && b.dataset.lstrack === LS.pid + ":" + LS.k && !LS.paused;
+    const row = b.closest(".ls-row"); if (row) { row.setAttribute("aria-current", on ? "true" : "false"); b.innerHTML = on ? LS_ICON.pause : LS_ICON.play; } else b.setAttribute("aria-pressed", on ? "true" : "false"); });
+}
+view.addEventListener("click", ev => {
+  const l = ev.target.closest("[data-listen]"); if (l) { haptic("open"); if (LS.mode === "read" && LS.pid === l.dataset.listen) { lsDo(LS.paused ? "resume" : "pause"); } else lsRead(l.dataset.listen, 0); return; }
+  const t = ev.target.closest("[data-lstrack]"); if (t) { haptic("open"); const [pid, k] = t.dataset.lstrack.split(":"); lsPlay(pid, +k); lsRows(); }
+});
 
 /* ---------- works ---------- */
 function workCard(w){
   const p = P.get(w.by);
   return `<article class="work" style="${fc(p.f)}"><h3>${esc(w.n)}</h3>
     <div class="by"><a href="#p-${p.id}">${esc(p.n)}</a><span class="yr">${fy(w.y, w.a)}${w.e ? "–" + w.e : ""}</span>${labHTML(w.lab)}</div>
-    <p>${esc(w.t)}</p>${w.where ? `<span class="where">Where it is now: ${esc(w.where)}</span>` : ""}${whyHTML(w.why)}${playBtn(w)}</article>`;
+    <p>${esc(w.t)}</p>${w.where ? `<span class="where">Where it is now: ${esc(w.where)}</span>` : ""}${whyHTML(w.why)}${playBtn(w)}${recBtn(w)}</article>`;
 }
 const WK = [{k:["painting","sculpture"], n:"Paintings and sculpture"}, {k:["music"], n:"Music"}, {k:["book"], n:"Books and plays"}];
 /* ---------- Gallery: the collection ---------- */
@@ -3998,6 +4252,7 @@ function route(){
   else viewWorld();
   window.scrollTo(0, 0);
   if (sec) scrollToSec(sec);
+  lsRoute(sec);
 }
 window.addEventListener("hashchange", route);
 

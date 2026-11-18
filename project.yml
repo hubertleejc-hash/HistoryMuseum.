@@ -37,6 +37,8 @@ targets:
       properties:
         UILaunchScreen:
           UIColorName: LaunchBackground
+        # Listen keeps reading a chapter (or playing a recording) with the screen locked, like Books or Podcasts.
+        UIBackgroundModes: [audio]
     settings:
       base:
         PRODUCT_NAME: HistoryMuseum
