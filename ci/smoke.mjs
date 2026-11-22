@@ -238,9 +238,57 @@ async function listenCheck() {
   finally { await ctx.close(); }
 }
 
+// My museum: the heart on a person's page and on a Gallery work, the Saved shelf and Continue reading in Library,
+// all kept on the phone; a broken saved list must never break the Library.
+async function myMuseumCheck(theme) {
+  const ctx = await openContext(theme);
+  const page = await ctx.newPage();
+  const bad = why => fail(theme, "my-museum", why);
+  page.on("pageerror", e => bad(`JavaScript error: ${e.message.split("\n")[0]}`));
+  const go = async h => { await page.evaluate(x => { location.hash = x; }, h); await page.waitForTimeout(500); };
+  try {
+    await page.goto(BASE + "index.html#library", { waitUntil: "load" });
+    await page.waitForTimeout(400);
+    if (!(await page.$(".sh-empty"))) bad("an empty My museum does not say how to save");
+    await go("#p-van-gogh");
+    const heart = '[data-save="p:van-gogh"]';
+    if (!(await page.$(heart))) { bad("no heart on a person's page"); return; }
+    await page.click(heart);
+    if ((await page.getAttribute(heart, "aria-pressed")) !== "true") bad("the heart did not fill when tapped");
+    await go("#p-van-gogh@myths");
+    await go("#art");
+    await page.waitForSelector("#galGrid button", { timeout: 8000 });
+    await page.click("#galGrid button");
+    await page.waitForTimeout(400);
+    await page.click("#av [data-save]");
+    if ((await page.getAttribute("#av [data-save]", "aria-pressed")) !== "true") bad("the heart in the Gallery viewer did not fill");
+    await page.click("#av [data-avx]");
+    await page.waitForTimeout(300);
+    await go("#library");
+    const r = await page.evaluate(() => ({ people: document.querySelectorAll('.shelf a.sh-t[href="#p-van-gogh"]').length,
+      works: document.querySelectorAll(".shelf [data-shelf-art]").length, resume: (document.querySelector(".resume") || {}).getAttribute ? document.querySelector(".resume").getAttribute("href") : null,
+      wide: document.documentElement.scrollWidth > innerWidth }));
+    if (r.people !== 1) bad("the saved person is not on the shelf");
+    if (r.works !== 1) bad("the saved work is not on the shelf");
+    if (r.resume !== "#p-van-gogh@myths") bad(`Continue reading points to ${r.resume}, not the section that was open`);
+    if (r.wide) bad("the Library is wider than the phone with a full shelf");
+    await page.click(".shelf [data-shelf-art]");
+    await page.waitForTimeout(300);
+    if (await page.evaluate(() => document.getElementById("av").hidden)) bad("a saved work does not open from the shelf");
+    await page.click("#av [data-avx]");
+    await page.waitForTimeout(300);
+    await page.evaluate(() => { localStorage.setItem("ctm-saved", "{"); localStorage.setItem("ctm-resume", '{"id":"nobody"}'); location.hash = "#library"; });
+    await page.reload({ waitUntil: "load" });
+    await page.waitForTimeout(400);
+    if (!(await page.$(".sh-empty"))) bad("a damaged saved list does not fall back to an empty shelf");
+  } catch (e) { bad(`could not test My museum: ${e.message.split("\n")[0]}`); }
+  finally { await ctx.close(); }
+}
+
 const t0 = Date.now();
 const counts = await Promise.all(["light", "dark"].map(t => runTheme(t, allRoutes)));
-if (!process.env.SMOKE_ONLY) { await listenCheck(); console.log("Listen checked: read aloud, the player, and stopping."); }
+if (!process.env.SMOKE_ONLY) { await listenCheck(); console.log("Listen checked: read aloud, the player, and stopping.");
+  for (const t of ["light", "dark"]) await myMuseumCheck(t); console.log("My museum checked: hearts, the shelf, Continue reading."); }
 await browser.close(); server.close();
 const secs = ((Date.now() - t0) / 1000).toFixed(0);
 console.log(`Opened ${counts[0]} screens in light and ${counts[1]} in dark in ${secs} s.`);
