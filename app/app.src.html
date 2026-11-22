@@ -560,7 +560,7 @@ body{padding-bottom:calc(96px + env(safe-area-inset-bottom, 0px))}
 .tabbar a:hover{text-decoration:none; color:var(--ink-2)}
 .tabbar a.on{color:var(--accent); font-weight:600}
 .tabbar a.on::after{content:""; position:absolute; bottom:-3px; width:4px; height:4px; border-radius:50%; background:var(--accent)}
-.tabbar, .seg-row, .chip, .btn, .w-regions, .w-dial{-webkit-user-select:none; user-select:none; -webkit-touch-callout:none}
+.tabbar, .seg-row, .chip, .btn, .heart, .sh-t, .w-regions, .w-dial{-webkit-user-select:none; user-select:none; -webkit-touch-callout:none}
 .seg-row{position:sticky; top:env(safe-area-inset-top, 0px); z-index:20; display:flex; justify-content:center; padding:10px 0; background:var(--bg)}
 .seg{display:inline-flex; padding:3px; gap:2px; border-radius:11px; background:var(--sunk); max-width:100%; overflow-x:auto; scrollbar-width:none}
 .seg a{padding:7px 14px; border-radius:8px; color:var(--ink-2); font:500 13.5px/1.1 var(--ui); white-space:nowrap}
@@ -576,8 +576,8 @@ main{padding-top:18px}
 .icon-btn{width:44px; height:44px; flex:none; border-radius:22px; border:1px solid var(--rule); background:var(--surface); color:var(--ink); display:inline-flex; align-items:center; justify-content:center; cursor:pointer}
 .big-title{display:flex; align-items:flex-end; justify-content:space-between; gap:12px}
 .big-title h1{font-size:34px; line-height:1.1}
-button:active, .chip:active, .btn:active, .tabbar a:active, .seg a:active, .lib-card:active{transform:scale(.97)}
-@media (prefers-reduced-motion:reduce){button:active, .chip:active, .btn:active, .tabbar a:active, .seg a:active, .lib-card:active{transform:none}}
+button:active, .chip:active, .btn:active, .tabbar a:active, .seg a:active, .lib-card:active, .sh-t:active{transform:scale(.97)}
+@media (prefers-reduced-motion:reduce){button:active, .chip:active, .btn:active, .tabbar a:active, .seg a:active, .lib-card:active, .sh-t:active{transform:none}}
 
 /* ---------- World: the map home ---------- */
 .world{display:flex; flex-direction:column; gap:12px; position:relative}
@@ -860,6 +860,34 @@ html.hinged .ch-wrap > .ch-chips .chip:hover, html.hinged .ch-wrap > .ch-chips .
 .lib-card:hover{text-decoration:none; border-color:var(--accent)}
 .lib-card b{font:600 20px/1.2 var(--display)}
 .lib-card span{color:var(--ink-2); font-size:14px}
+/* My museum: hearts, the saved shelf and Continue reading (kept on this phone only) */
+.d-title{display:flex; align-items:flex-start; justify-content:space-between; gap:14px}
+.d-title h1{min-width:0}
+.d-title .heart{margin-top:4px}
+.heart{flex:none; width:44px; height:44px; border-radius:50%; border:1px solid var(--rule); background:var(--surface); color:var(--ink-2); display:inline-flex; align-items:center; justify-content:center; padding:0; cursor:pointer; transition:color .2s, border-color .2s, background-color .2s}
+.heart svg{fill:none; stroke:currentColor; stroke-width:1.7; stroke-linejoin:round; transition:transform .25s cubic-bezier(.3,1.6,.5,1)}
+.heart[aria-pressed="true"]{color:var(--accent); border-color:var(--accent); background:var(--accent-soft)}
+.heart[aria-pressed="true"] svg{fill:currentColor}
+.heart.pop svg{transform:scale(1.22)}
+.av-top .heart{width:40px; height:40px; border:0; background:rgba(40,38,34,.72); color:#EDE3CF; -webkit-backdrop-filter:blur(12px); backdrop-filter:blur(12px)}
+.av-top .heart[aria-pressed="true"]{color:#E9C46A; background:rgba(40,38,34,.72)}
+.resume{flex-direction:row; align-items:center; gap:14px; border-color:color-mix(in srgb, var(--accent) 45%, var(--rule))}
+.resume .ph{flex:none; width:56px; height:72px; border-radius:10px; overflow:hidden; display:flex; align-items:center; justify-content:center; background:color-mix(in srgb, var(--fc, var(--ink-3)) 22%, var(--sunk)); font:600 20px var(--display); color:var(--ink)}
+.resume .ph img{width:100%; height:100%; object-fit:cover; object-position:center 22%}
+.resume .tx{display:flex; flex-direction:column; gap:5px; min-width:0}
+.resume .eyebrow{color:var(--accent)}
+.resume .go{margin-left:auto; flex:none; color:var(--accent); font-size:22px; line-height:1}
+.shelf{display:flex; gap:12px; overflow-x:auto; scroll-snap-type:x proximity; padding:2px 0 6px; scrollbar-width:none; overscroll-behavior-x:contain}
+.shelf::-webkit-scrollbar{display:none}
+.sh-t{flex:none; width:108px; display:flex; flex-direction:column; gap:7px; padding:0; border:0; background:none; text-align:left; color:var(--ink); font:inherit; cursor:pointer; scroll-snap-align:start}
+.sh-t:hover{text-decoration:none}
+.sh-t .ph{position:relative; aspect-ratio:3/4; border-radius:12px; overflow:hidden; display:flex; align-items:center; justify-content:center; background:color-mix(in srgb, var(--fc, var(--ink-3)) 22%, var(--sunk)); border:1px solid var(--rule); box-shadow:var(--shadow); font:600 28px var(--display); color:var(--ink)}
+.sh-t .ph img{width:100%; height:100%; object-fit:cover; object-position:center 22%}
+.sh-t .ph.broken img{display:none}
+.sh-t b{font:600 14px/1.2 var(--display); display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden}
+.sh-t small{color:var(--ink-3); font-size:12px; margin-top:-3px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.sh-empty{display:flex; gap:14px; align-items:center; padding:16px 18px; border:1px dashed var(--rule); border-radius:16px; color:var(--ink-2); font-size:14.5px; line-height:1.45}
+.sh-empty svg{flex:none; color:var(--accent)}
 .fake-search{display:flex; align-items:center; gap:10px; width:100%; padding:11px 14px; border:1px solid var(--rule); border-radius:12px; background:var(--surface); color:var(--ink-3); cursor:pointer; text-align:left}
 .legend{font-size:13px; color:var(--ink-2); max-width:70ch; margin:0}
 
@@ -1142,6 +1170,38 @@ let youYear = (() => { const v = parseInt(store.get("ctm-you"), 10); return v > 
 const youP = () => youYear ? {id:"you", n:"You", b:youYear, d:NOW, alive:true, f:"you", c:[], bio:""} : null;
 const getP = id => id === "you" ? youP() : P.get(id);
 
+/* ---------- My museum: what the visitor saved, and where they stopped reading ----------
+   Kept on this phone only (localStorage), no account. People are kept by id; a Gallery work keeps a small
+   copy of its card (title, artist, picture path), so its tile and viewer still open before the collection loads. */
+const SAVED = (() => { try { const o = JSON.parse(store.get("ctm-saved") || "null");
+  if (o && Array.isArray(o.p) && Array.isArray(o.a)) return {p: o.p.filter(x => typeof x === "string"), a: o.a.filter(x => x && typeof x.id === "string")}; } catch(e){}
+  return {p: [], a: []}; })();
+const saveSaved = () => store.set("ctm-saved", JSON.stringify({v: 1, p: SAVED.p.slice(0, 300), a: SAVED.a.slice(0, 300)}));
+const isSaved = (k, id) => k === "p" ? SAVED.p.includes(id) : SAVED.a.some(x => x.id === id);
+const HEART = `<svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.3s-7.6-4.6-9.2-9.6C1.7 7.2 3.9 4.2 7.2 4.2c2 0 3.6 1.1 4.8 2.9 1.2-1.8 2.8-2.9 4.8-2.9 3.3 0 5.5 3 4.4 6.5-1.6 5-9.2 9.6-9.2 9.6z"/></svg>`;
+const heartBtn = (k, id, name) => { const on = isSaved(k, id); return `<button type="button" class="heart" data-save="${k}:${esc(id)}" aria-pressed="${on}" aria-label="${on ? "Saved" : "Save"}${name ? " " + esc(name) : ""} to My museum">${HEART}</button>`; };
+const workSnap = it => ({id: it.id, t: it.t, a: it.a || "", d: it.d || "", y: it.y, r: it.r, k: it.k, w: it.w, h: it.h, src: it.src, wing: it.wing, net: it.net ? 1 : 0, img: it.img, th: artPath(it, "t")});
+/* toggles one saved item; the work object is needed only when a work is saved */
+function toggleSaved(k, id, work){
+  let on;
+  if (k === "p") { on = !SAVED.p.includes(id); SAVED.p = SAVED.p.filter(x => x !== id); if (on) SAVED.p.unshift(id); }
+  else { on = !SAVED.a.some(x => x.id === id); SAVED.a = SAVED.a.filter(x => x.id !== id); if (on && work) SAVED.a.unshift(workSnap(work)); else on = false; }
+  saveSaved(); haptic(on ? "success" : "select");
+  document.querySelectorAll(`[data-save="${k}:${CSS.escape(id)}"]`).forEach(b => {
+    b.setAttribute("aria-pressed", on); b.setAttribute("aria-label", (on ? "Saved" : "Save") + " to My museum");
+    if (on && !matchMedia("(prefers-reduced-motion: reduce)").matches) { b.classList.add("pop"); setTimeout(() => b.classList.remove("pop"), 260); }
+  });
+  return on;
+}
+/* Continue reading: the last long story opened, and the section on screen */
+let resume = (() => { try { const o = JSON.parse(store.get("ctm-resume") || "null"); return o && typeof o.id === "string" ? o : null; } catch(e){ return null; } })();
+let resumeT = null;
+function setResume(id, sec){
+  if (resume && resume.id === id && resume.sec === (sec || null)) return;
+  resume = {id, sec: sec || null, t: Date.now()};
+  clearTimeout(resumeT); resumeT = setTimeout(() => store.set("ctm-resume", JSON.stringify(resume)), 300);
+}
+
 /* ---------- v4: chapters and real images ---------- */
 const CH = H.chapters || {};
 /* The page carries a short card per chapter (pictures, lede, search words: "file":1 and no
@@ -1261,7 +1321,8 @@ function chSpy(){
   const secs = [...document.querySelectorAll(".ch-sec[id^='ch-']")]; if (!secs.length || !("IntersectionObserver" in window)) return;
   chObs = new IntersectionObserver(es => {
     const vis = es.filter(e => e.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0]; if (!vis) return;
-    const k = vis.target.id.slice(3);
+    const k = vis.target.id.slice(3), pid = location.hash.slice(3).split("@")[0];
+    if (location.hash.startsWith("#p-") && CH[pid] && CH[pid].sections) setResume(pid, k === (CH[pid].sections[0] || {}).k && scrollY < 200 ? null : k);
     document.querySelectorAll(".ch-chips [data-sec]").forEach(c => c.toggleAttribute("aria-current", c.dataset.sec === k));
   }, {rootMargin:"-15% 0px -70% 0px"});
   secs.forEach(x => chObs.observe(x));
@@ -1749,7 +1810,7 @@ function viewPerson(id){
   ${top ? `<div class="ch-top">${imgFig(top, top === pt ? "ch-hero ch-pt" : "ch-hero", true)}` : ""}
   <section class="d-head">
     <div class="crumbs"><a href="#people">People</a><span>/</span><span>${F[p.f].label}</span></div>
-    <h1>${esc(p.n)}</h1>
+    <div class="d-title"><h1>${esc(p.n)}</h1>${heartBtn("p", p.id, p.n)}</div>
     <div class="d-meta"><span class="yr">${span(p)}</span><span>lived ${p.a ? "about " : ""}${lived(p)} years</span><span class="tag" style="${fc(p.f)}"><i class="dot"></i>${F[p.f].label}</span><span>${p.c.map(c => `<a href="#c-${c}">${esc(C[c].n)}</a>`).join(", ")}</span></div>
     ${erasOf(p).length ? `<div class="era-chips">${erasOf(p).map(e => `<a class="chip" href="#era-${e.id}" style="${rc(e)};--fc:var(--rc)"><i class="dot"></i>${esc(e.n)}</a>`).join("")}</div>` : ""}
     ${ch ? `<p class="bio ch-lede">${esc(ch.lede)}</p>` : `<p class="bio">${esc(p.bio)}</p>`}${(() => { const po = pic && ((ch && ch.portrait && IMG[ch.portrait] && ch.portrait) || pt); return po && po !== top ? `<a class="ch-portrait" href="#art-${esc(po)}" data-pfeat="${esc(po)}" title="${esc(IMG[po].title)}"><img src="${esc(IMG[po].src)}" alt="${esc(IMG[po].title)}" loading="lazy"><span>${IMG_NOTE[po] ? labHTML(IMG_NOTE[po][0]) + " " : ""}${esc(IMG[po].title)}, ${esc(IMG[po].date)}</span></a>` : ""; })()}
@@ -2341,7 +2402,7 @@ function openArt(it, idx, push){
   const big = artPath(it, "f"), lo = artPath(it, "t");
   const count = idx >= 0 && artList.length ? `${(idx + 1).toLocaleString("en")} of ${artList.length.toLocaleString("en")}` : "";
   av.innerHTML = `<div class="av-stage" id="avStage"><img class="av-lo" id="avLo" src="${esc(lo)}" alt=""><img id="avImg" alt="${esc(it.t + (it.a ? ", " + it.a : ""))}"></div>
-    <div class="av-top"><button type="button" data-avx aria-label="Close">×</button><span>${esc(count)}</span><button type="button" data-avi aria-label="About this work" style="font:600 15px var(--display)">i</button></div>
+    <div class="av-top"><button type="button" data-avx aria-label="Close">×</button><span>${esc(count)}</span>${heartBtn("a", it.id)}<button type="button" data-avi aria-label="About this work" style="font:600 15px var(--display)">i</button></div>
     <div class="av-note" id="avNote" hidden></div>
     <div class="av-sheet" id="avSheet"><div class="av-grab" id="avGrab"><h2>${esc(it.t)}</h2><p>${esc(it.a || "Unknown artist")}${it.d || it.y != null ? " · " + esc(it.d || fy(it.y)) : ""}</p></div><div class="av-body" id="avBody"></div></div>`;
   av.hidden = false; av.classList.remove("bare");
@@ -2489,6 +2550,7 @@ av.addEventListener("pointerup", avUp); av.addEventListener("pointercancel", avU
 av.addEventListener("click", e => {
   const t = e.target;
   if (t.closest("[data-avx]")) { closeArt(); return; }
+  const sv = t.closest("[data-save]"); if (sv) { if (avIt) toggleSaved("a", avIt.id, avIt); return; }
   if (t.closest("[data-avi]") || t.closest("#avGrab")) { document.getElementById("avSheet").classList.toggle("up"); return; }
   if (t.closest("[data-avmore]")) { const r = avIt.r; closeArt(); artF = {k:"", r, e:"", q:""}; setTimeout(() => { if (galleryOn) { viewArt(); const c = document.getElementById("galCol"); c && c.scrollIntoView({block:"start"}); } }, 50); return; }
   const go = t.closest("[data-avgo]"); if (go) { e.preventDefault(); const h = go.getAttribute("href"); closeArt(true); avPushed = false; location.hash = h; }
@@ -4254,6 +4316,20 @@ function eraWho(list){
 }
 
 /* ---------- Library ---------- */
+function resumeCard(){
+  const r = resume, p = r && P.get(r.id), ch = p && CH[p.id]; if (!ch) return "";
+  const sec = r.sec && ch.sections ? ch.sections.find(s => s.k === r.sec) : null, ph = portraitOf(p);
+  return `<a class="lib-card resume" href="#p-${p.id}${sec ? "@" + esc(sec.k) : ""}" style="${fc(p.f)}"><span class="ph">${ph ? `<img src="${esc(ph)}" alt="" loading="lazy">` : esc(initials(p.n))}</span>
+    <span class="tx"><span class="eyebrow">Continue reading</span><b>${esc(p.n)}</b><span>${sec ? esc(sec.h) : "Pick up the story where you stopped"}</span></span><span class="go" aria-hidden="true">›</span></a>`;
+}
+function shelfHTML(){
+  const ps = SAVED.p.map(id => P.get(id)).filter(Boolean), ws = SAVED.a, n = ps.length + ws.length;
+  const head = `<div class="sec-head"><h2>My museum</h2><p>${n ? plural(n, "saved piece") : "Your own collection"}, kept on this phone</p></div>`;
+  if (!n) return `${head}<div class="sh-empty">${HEART.replace('aria-hidden', 'fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden')}<span>Tap the heart on a person's page, or on any work in the Gallery, to keep it here.</span></div>`;
+  const pTile = p => { const ph = portraitOf(p); return `<a class="sh-t" href="#p-${p.id}" style="${fc(p.f)}"><span class="ph">${ph ? `<img src="${esc(ph)}" alt="" loading="lazy" decoding="async">` : esc(initials(p.n))}</span><b>${esc(p.n)}</b><small>${span(p)}</small></a>`; };
+  const wTile = w => `<button type="button" class="sh-t" data-shelf-art="${esc(w.id)}"><span class="ph"><img src="${esc(w.th)}" alt="" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('broken')"></span><b>${esc(w.t)}</b><small>${esc(w.a || "Unknown artist")}</small></button>`;
+  return `${head}<div class="shelf">${ps.map(pTile).join("")}${ws.map(wTile).join("")}</div>`;
+}
 function viewLibrary(){
   const chs = Object.keys(CH).filter(id => P.get(id));
   view.innerHTML = `
@@ -4261,6 +4337,8 @@ function viewLibrary(){
     <div class="big-title"><h1>Library</h1></div>
     <button class="fake-search" data-search type="button"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>Search people, events, places</button>
   </section>
+  ${resumeCard() ? `<section>${resumeCard()}</section>` : ""}
+  <section class="my-museum">${shelfHTML()}</section>
   <section><div class="lib">
     <a class="lib-card" href="#people"><b>People</b><span>${plural(H.people.length, "person")}, from Confucius to today</span></a>
     <a class="lib-card" href="#events"><b>Events</b><span>${plural(H.events.length, "event")} on one timeline</span></a>
@@ -4404,7 +4482,7 @@ function showRoute(){
   else if (["library", "people", "events", "places"].includes(h) || /^[pec]-/.test(h)) tab = "library";
   document.querySelectorAll("#tabs a").forEach(a => { a.classList.toggle("on", a.dataset.tab === tab); a.toggleAttribute("aria-current", a.dataset.tab === tab); });
   drawSeg(tab, h);
-  if (h.startsWith("p-")) { viewPerson(h.slice(2)); const pp = P.get(h.slice(2)); if (pp) personArt(pp); chSpy(); }
+  if (h.startsWith("p-")) { viewPerson(h.slice(2)); const pp = P.get(h.slice(2)); if (pp) { personArt(pp); if (CH[pp.id] && CH[pp.id].sections) setResume(pp.id, sec && document.getElementById("ch-" + sec) ? sec : null); } chSpy(); }
   else if (h.startsWith("e-")) viewEvent(h.slice(2));
   else if (h.startsWith("c-")) viewCountry(h.slice(2));
   else if (h.startsWith("tm-")) viewTM(parseInt(h.slice(3), 10));
@@ -4442,6 +4520,8 @@ view.addEventListener("error", e => { const f = e.target && e.target.tagName ===
 view.addEventListener("click", ev => {
   const t = ev.target;
   if (t.closest("[data-search]")) { openSearch(); return; }
+  const sv = t.closest("[data-save]"); if (sv) { const [k, id] = sv.dataset.save.split(/:(.*)/); toggleSaved(k, id); return; }
+  const sa = t.closest("[data-shelf-art]"); if (sa) { const snap = SAVED.a.find(x => x.id === sa.dataset.shelfArt); if (snap) { const live = ART && ART.find(x => x.id === snap.id); openArt(live || snap, -1, "stay"); } return; }
   const wl = t.closest("[data-lamp]"); if (wl) { openHall(wl.dataset.lamp); return; }
   const wh = t.closest("[data-hall]"); if (wh) { openHall(wh.dataset.hall); return; }
   if (t.closest("[data-wclose]")) { closeHall(); return; }
