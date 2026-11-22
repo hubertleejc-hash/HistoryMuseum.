@@ -24,11 +24,27 @@ portraits = json.loads((d/"art"/"portraits.json").read_text()) if (d/"art"/"port
 # "Unknown artist Unknown artist", footnote marks). The credit line shows only the readable part, or a fix from these maps.
 import re as _re
 PT_BY = {"bohr": "AB Lagrelius & Westphal", "cleopatra": "Unknown sculptor", "renoir": "Unknown photographer",
-         "qin-shi-huang": "Unknown artist", "poe": "Unknown photographer", "engels": "William Hall"}
-PT_DATE = {"cleopatra": "40 to 30 BC", "kepler": "1910", "earhart": "c. 1928", "engels": "May 1877", "poe": "June 1849"}
+         "qin-shi-huang": "Unknown artist", "poe": "Unknown photographer", "engels": "William Hall",
+         "edison": "Louis Bachrach / Michel Vuijlsteke", "elizabeth-i": "Unknown artist, perhaps Federico Zuccaro",
+         "verdi": "A. Cairoli and Ernesto Mancastroppa", "wilbur-wright": "Orville and Wilbur Wright",
+         "orville-wright": "Orville and Wilbur Wright", "adam-smith": "After a 1787 original"}
+PT_DATE = {"cleopatra": "40 to 30 BC", "kepler": "1910", "earhart": "c. 1928", "engels": "May 1877", "poe": "June 1849",
+           "adam-smith": "etched 1811 to 1872", "vivaldi": "18th century", "einstein": "1921", "andersen": "October 1869"}
+# Titles copied from Wikimedia file names, shortened by hand
+PT_TITLE = {"verdi": "Giuseppe Verdi, wood engraving", "vivaldi": "Portrait of Antonio Vivaldi",
+            "woolf": "Virginia Woolf in 1902", "scott": "Scott of the Antarctic", "einstein": "Einstein in 1921",
+            "peter-the-great": "Portrait of Peter I", "charlemagne": "Emperor Charlemagne", "darwin": "Charles Darwin",
+            "lafayette": "Marquis de Lafayette", "fitzgerald": "F. Scott Fitzgerald", "mlk": "Martin Luther King Jr.",
+            "columbus": "Portrait of a Man, Said to be Christopher Columbus", "archimedes": "Archimedes Thoughtful"}
+PT_BY.update({"cezanne": "Unknown artist", "helen-keller": "Los Angeles Times / Rhododendrites", "kangxi": "Unknown Qing court painter"})
+PT_DATE.update({"cezanne": "September 1899"})
+def clean_title(t):
+    return _re.sub(r"\s*\(\d{3,4}\s*[–-]\s*\d{3,4}\)", "", t).strip()
 def clean_date(t):
     t = _re.split(r"\s*(?:date QS:|\.mw-parser-output)", t)[0]
     t = _re.sub(r"(\d) (st|nd|rd|th)\b", r"\1\2", t)
+    t = _re.sub(r"\bbetween (.+?) and (?:circa )?(.+)", r"\1 to \2", t)
+    t = _re.sub(r"\bcirca\b", "c.", t)
     return _re.sub(r"\s+", " ", t).strip(" ,;")
 def clean_by(t):
     t = _re.sub(r"\s*,?\s*\[\d+\]", "", t)
@@ -37,7 +53,7 @@ def clean_by(t):
     t = _re.sub(r"\s+", " ", t).strip(" ,;")
     return {"Unknown": "Unknown artist", "anonymous": "Unknown artist", "Unknown author": "Unknown artist"}.get(t, t)
 for pid, m in portraits.items():
-    m["artist"] = PT_BY.get(pid, clean_by(m["artist"])); m["date"] = PT_DATE.get(pid, clean_date(m["date"]))
+    m["artist"] = PT_BY.get(pid, clean_by(m["artist"])); m["date"] = PT_DATE.get(pid, clean_date(m["date"])); m["title"] = PT_TITLE.get(pid, clean_title(m["title"]))
 for pid, m in portraits.items():
     if (d/"art"/"p"/(pid + ".jpg")).exists():
         images["pt-" + pid] = {"src": "art/p/" + pid + ".jpg", "title": m["title"], "by": m["artist"], "date": m["date"], "coll": "Wikimedia Commons",

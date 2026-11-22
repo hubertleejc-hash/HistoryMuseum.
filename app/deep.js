@@ -27,6 +27,11 @@ H.connections.push(
   ["helen-keller","chaplin","met","Keller visited Chaplin's film studio in Hollywood in 1919, and they were photographed together."],
   ["newton","voltaire","influenced","Voltaire attended Newton's funeral in London in 1727 and later made his ideas popular in France."]
 );
+H.connPhrase = Object.assign(H.connPhrase || {}, {
+  "van-gogh|theo-van-gogh": ["his brother Theo", "his brother Vincent"],
+  "theo-van-gogh|johanna-van-gogh-bonger": ["his wife Jo", "her husband Theo"],
+  "van-gogh|johanna-van-gogh-bonger": ["his sister-in-law Jo", "her brother-in-law Vincent"]
+});
 H.connLab = Object.assign(H.connLab || {}, {"rodin|matisse":["likely","Known from Matisse's own account years later."], "tchaikovsky|tolstoy":["verified","Tchaikovsky described the evening in his diary and letters."]});
 H.works.forEach(w => {
   if (w.id === "starry-night") { w.t = "Painted in June 1889 at the asylum in Saint-Rémy. The view east from his bedroom window gave him the hills; the village and the big cypress are partly imagined. In a letter that autumn he seems to call it a failure."; }

@@ -417,6 +417,33 @@ connections: [
   ["hemingway","fitzgerald","friends","Friends in 1920s Paris."]
 ],
 
+/* Six Degrees reads each link as a phrase: "a|b": [how a's link to b reads, how b's link to a reads].
+   Links not listed here read from their kind ("met Galileo", "a rival of Newton"). */
+connPhrase: {
+  "socrates|plato": ["his student Plato", "his teacher Socrates"],
+  "plato|aristotle": ["his student Aristotle", "his teacher Plato"],
+  "aristotle|alexander": ["his pupil Alexander", "his tutor Aristotle"],
+  "descartes|christina": ["his pupil Queen Christina", "her teacher Descartes"],
+  "haydn|beethoven": ["his pupil Beethoven", "his teacher Haydn"],
+  "salieri|beethoven": ["his pupil Beethoven", "his teacher Salieri"],
+  "salieri|schubert": ["his pupil Schubert", "his teacher Salieri"],
+  "salieri|liszt": ["his pupil, the boy Liszt", "his teacher Salieri"],
+  "robert-schumann|brahms": ["hailed the young Brahms", "hailed as a genius by Schumann"],
+  "bell|helen-keller": ["advised the family of Helen Keller", "her family's adviser Bell"],
+  "klimt|schiele": ["encouraged the young Schiele", "encouraged by Klimt"],
+  "julius-caesar|cleopatra": ["his partner Cleopatra", "her partner Caesar"],
+  "julius-caesar|augustus": ["his adopted son Augustus", "his great-uncle and adoptive father Caesar"],
+  "genghis-khan|kublai-khan": ["his grandson Kublai", "his grandfather Genghis Khan"],
+  "henry-viii|elizabeth-i": ["his daughter Elizabeth", "her father Henry VIII"],
+  "akbar|shah-jahan": ["his grandson Shah Jahan", "his grandfather Akbar"],
+  "byron|ada-lovelace": ["his daughter Ada", "her father Byron"],
+  "liszt|wagner": ["his son-in-law Wagner", "his father-in-law Liszt"],
+  "robert-schumann|clara-schumann": ["his wife Clara", "her husband Robert"],
+  "rodin|claudel": ["his partner Camille Claudel", "her teacher and partner Rodin"],
+  "wilbur-wright|orville-wright": ["his brother Orville", "his brother Wilbur"],
+  "kahlo|rivera": ["her husband Diego Rivera", "his wife Frida Kahlo"]
+},
+
 /* Surprise cards. ids link to people (p:) and events (e:). */
 facts: [
   {h:"Cleopatra lived closer to the Moon landing than to the Great Pyramid", t:"The Great Pyramid was about 2,500 years old when Cleopatra was born. The Moon landing came about 2,000 years after her death.", links:["p:cleopatra","e:great-pyramid","e:moon-landing"]},
