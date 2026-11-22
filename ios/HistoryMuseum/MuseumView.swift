@@ -20,6 +20,7 @@ struct MuseumView: UIViewRepresentable {
         config.userContentController.add(context.coordinator, name: "haptic")
         config.userContentController.add(context.coordinator.talk, name: "talk")
         config.userContentController.add(context.coordinator.whereBridge, name: "where")
+        config.userContentController.add(context.coordinator.listen, name: "listen")
         // For the screenshot runs on GitHub: `-route p-van-gogh` opens that page. Ignored when not given.
         var start = ""
         if let route = MuseumView.argument("-route"),
@@ -35,6 +36,7 @@ struct MuseumView: UIViewRepresentable {
         web.uiDelegate = context.coordinator
         context.coordinator.talk.webView = web
         context.coordinator.whereBridge.webView = web
+        context.coordinator.listen.webView = web
         // An opaque web view scrolls more smoothly: iOS does not have to blend every frame of the page
         // with what is behind it. The opening animation covers the page until it has drawn.
         web.isOpaque = true
@@ -78,6 +80,7 @@ struct MuseumView: UIViewRepresentable {
         init(launch: LaunchState) { self.launch = launch }
         let talk = TalkBridge()
         let whereBridge = WhereBridge()
+        let listen = ListenBridge()
 
         // No zooming: there is nothing to zoom into, so double-tap and pinch do nothing.
         func viewForZooming(in scrollView: UIScrollView) -> UIView? { nil }
@@ -150,6 +153,7 @@ struct MuseumView: UIViewRepresentable {
         // If iOS frees the page's memory in the background, reload instead of showing a blank screen.
         func webViewWebContentProcessDidTerminate(_ webView: WKWebView) {
             talk.cancelAll()
+            listen.stop(report: false)
             webView.reload()
         }
     }

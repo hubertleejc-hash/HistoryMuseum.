@@ -1,0 +1,25 @@
+{
+ "by": "bach",
+ "tracks": [
+  {
+   "kind": "music",
+   "title": "Goldberg Variations: Aria",
+   "file": "Kimiko Ishizaka - J.S. Bach- -Open- Goldberg Variations, BWV 988 (Piano) - 01 Aria.mp3",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Kimiko_Ishizaka_-_J.S._Bach-_-Open-_Goldberg_Variations%2C_BWV_988_%28Piano%29_-_01_Aria.mp3",
+   "page": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_J.S._Bach-_-Open-_Goldberg_Variations,_BWV_988_(Piano)_-_01_Aria.mp3",
+   "licence": "CC0",
+   "len": 300,
+   "who": "Kimiko Ishizaka"
+  },
+  {
+   "kind": "music",
+   "title": "Toccata and Fugue in D minor",
+   "file": "Illinois Brass Band - 02 - Bach Toccata and Fugue in D Minor.ogg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c5/Illinois_Brass_Band_-_02_-_Bach_Toccata_and_Fugue_in_D_Minor.ogg/Illinois_Brass_Band_-_02_-_Bach_Toccata_and_Fugue_in_D_Minor.ogg.mp3",
+   "page": "https://commons.wikimedia.org/wiki/File:Illinois_Brass_Band_-_02_-_Bach_Toccata_and_Fugue_in_D_Minor.ogg",
+   "licence": "CC0",
+   "len": 254,
+   "who": "Illinois Brass Band"
+  }
+ ]
+}

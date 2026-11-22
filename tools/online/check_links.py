@@ -26,7 +26,7 @@ def links(pl):
 
 
 def ok(u):
-    """One HEAD, then one GET. 404/410 is broken; a site that refuses robots or times out passes as unchecked."""
+    """One HEAD, then one GET. A 404/410 on the GET is broken; a site that refuses robots or times out passes as unchecked."""
     last = None
     for method in ("HEAD", "GET"):
         try:
@@ -34,7 +34,8 @@ def ok(u):
             with urllib.request.urlopen(req, timeout=12) as r:
                 return r.status < 400, r.status
         except urllib.error.HTTPError as e:
-            if e.code in (404, 410):
+            # some sites (the National Palace Museum's, for one) answer HEAD with 404 but open fine: only a GET decides
+            if e.code in (404, 410) and method == "GET":
                 return False, e.code
             last = e.code
         except Exception as e:  # noqa: BLE001

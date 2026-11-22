@@ -1,0 +1,25 @@
+{
+ "by": "chopin",
+ "tracks": [
+  {
+   "kind": "music",
+   "title": "Nocturne in E-flat major, Op. 9 No. 2",
+   "file": "Chopin - Nocturne No. 2 in E-flat major, Op. 9 No. 2 (Frank Levy).flac",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/89/Chopin_-_Nocturne_No._2_in_E-flat_major%2C_Op._9_No._2_%28Frank_Levy%29.flac/Chopin_-_Nocturne_No._2_in_E-flat_major%2C_Op._9_No._2_%28Frank_Levy%29.flac.mp3",
+   "page": "https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_No._2_in_E-flat_major,_Op._9_No._2_(Frank_Levy).flac",
+   "licence": "Public domain",
+   "len": 271,
+   "who": "Frank Levy"
+  },
+  {
+   "kind": "music",
+   "title": "The 'Minute' Waltz",
+   "file": "Chopin - Waltz No. 6 in D-flat major, Op. 64, No. 1 'Minute' (Olga Gurevich).flac",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/93/Chopin_-_Waltz_No._6_in_D-flat_major%2C_Op._64%2C_No._1_%27Minute%27_%28Olga_Gurevich%29.flac/Chopin_-_Waltz_No._6_in_D-flat_major%2C_Op._64%2C_No._1_%27Minute%27_%28Olga_Gurevich%29.flac.mp3",
+   "page": "https://commons.wikimedia.org/wiki/File:Chopin_-_Waltz_No._6_in_D-flat_major,_Op._64,_No._1_%27Minute%27_(Olga_Gurevich).flac",
+   "licence": "Public domain",
+   "len": 107,
+   "who": "Olga Gurevich"
+  }
+ ]
+}

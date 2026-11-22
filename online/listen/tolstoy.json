@@ -1,0 +1,17 @@
+{
+ "by": "tolstoy",
+ "tracks": [
+  {
+   "kind": "voice",
+   "title": "A spoken letter to his friend Davydov, in Russian",
+   "file": "Tolstoy - Letter to Davydov.ogg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/46/Tolstoy_-_Letter_to_Davydov.ogg/Tolstoy_-_Letter_to_Davydov.ogg.mp3",
+   "page": "https://commons.wikimedia.org/wiki/File:Tolstoy_-_Letter_to_Davydov.ogg",
+   "licence": "Public domain",
+   "len": 62,
+   "year": 1908,
+   "who": "Leo Tolstoy",
+   "note": "Recorded at Yasnaya Polyana on a phonograph Edison sent him"
+  }
+ ]
+}

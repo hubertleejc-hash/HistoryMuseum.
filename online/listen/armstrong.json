@@ -1,0 +1,17 @@
+{
+ "by": "armstrong",
+ "tracks": [
+  {
+   "kind": "voice",
+   "title": "\"One small step\" on the Moon",
+   "file": "Armstrong Small Step.ogg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/dd/Armstrong_Small_Step.ogg/Armstrong_Small_Step.ogg.mp3",
+   "page": "https://commons.wikimedia.org/wiki/File:Armstrong_Small_Step.ogg",
+   "licence": "Public domain",
+   "len": 24,
+   "year": 1969,
+   "who": "Neil Armstrong",
+   "note": "As heard on Earth from Apollo 11"
+  }
+ ]
+}
