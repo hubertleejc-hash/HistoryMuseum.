@@ -11,7 +11,7 @@ const fail = []; const ok = (c, m) => { if (!c) fail.push(m); };
 server.listen(0, async () => {
   const b = await chromium.launch(), pg = await b.newPage({viewport: {width: 430, height: 932}});
   const errs = []; pg.on("pageerror", e => errs.push(e.message));
-  await pg.goto(`http://localhost:${server.address().port}/index.html#talk-van-gogh`); await pg.waitForSelector("#talkIn");
+  await pg.goto(`http://localhost:${server.address().port}/index.html#talk-van-gogh`); await pg.waitForSelector("#talkIn"); await pg.evaluate(() => window.__allChapters());
   const data = await pg.evaluate(() => { const H = window.HISTORY, T = window.__talk, out = {bad: [], crash: []};
     Object.entries(H.voice || {}).forEach(([id, v]) => { const p = H.people.find(x => x.id === id);
       if (!p || p.sacred) out.bad.push(id + ": not a person, or sacred");

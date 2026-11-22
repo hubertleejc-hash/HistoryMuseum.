@@ -133,6 +133,7 @@ async function runTheme(theme, routesFor) {
   await page.evaluate(() => document.fonts && document.fonts.ready);
   await settle(page, busy);
   if (theme === "light") {
+    await page.evaluate(() => window.__allChapters && window.__allChapters());   // chapter text is in ch/ files, loaded on demand
     const d = await page.evaluate(dataProblems);
     for (const p of d.out) fail("data", "data", p);
     for (const f of d.files) if (!/^(https?:|data:)/.test(f) && !fs.existsSync(path.join(ROOT, f))) fail("data", "pictures", `missing picture file ${f}`);

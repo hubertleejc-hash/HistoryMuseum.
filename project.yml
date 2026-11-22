@@ -21,8 +21,15 @@ targets:
           - "Web/art/**"
           - "Web/img"
           - "Web/img/**"
+          - "Web/ch"
+          - "Web/ch/**"
       # The Gallery's pictures and records, kept as a folder so the page finds them at art/...
       - path: ios/HistoryMuseum/Web/art
+        type: folder
+        buildPhase: resources
+        optional: true
+      # The museum's chapters, one file each, loaded when a person is opened (so the app opens quicker)
+      - path: ios/HistoryMuseum/Web/ch
         type: folder
         buildPhase: resources
         optional: true
