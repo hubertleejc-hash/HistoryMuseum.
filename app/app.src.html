@@ -460,6 +460,7 @@ details.why p{margin:6px 0 0; padding-left:12px; border-left:2px solid var(--rul
 .path .hop .pin i{position:relative; width:12px; height:12px; border-radius:50%; background:var(--fc); margin-top:6px; box-shadow:0 0 0 3px var(--surface)}
 .path .hop .bd{padding-bottom:14px; display:flex; flex-direction:column; gap:4px}
 .path .hop .bd .who{font-weight:600}
+.path .hop .bd .link .rel.ph{display:inline; text-transform:none; letter-spacing:0; font-size:14px; white-space:normal}
 .path .hop .bd .link{font-size:13.5px; color:var(--ink-2); padding:6px 10px; border-left:2px solid var(--rule); margin:4px 0 0}
 .pickers{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:10px}
 .pickers label{display:flex; flex-direction:column; gap:5px; min-width:0}
@@ -474,6 +475,11 @@ details.why p{margin:6px 0 0; padding-left:12px; border-left:2px solid var(--rul
 .card .rar{margin-top:auto; font:600 10px/1 var(--ui); letter-spacing:.1em; text-transform:uppercase; color:var(--ink-3)}
 .card.legend{border-color:var(--gold); background:linear-gradient(160deg, var(--accent-soft), var(--surface) 60%)}
 .card.legend .rar{color:var(--gold)}
+.lock-head{font-size:17px; margin:22px 0 10px; display:flex; gap:8px; align-items:baseline} .lock-head .muted{font:500 13px var(--ui)}
+.cards-lock{display:flex; flex-direction:column; border:1px dashed var(--rule); border-radius:12px; padding:6px 14px}
+.lock-row{display:grid; grid-template-columns:56px minmax(0,1fr) auto; gap:10px; align-items:center; padding:7px 0; border-bottom:1px solid var(--rule)} .lock-row:last-child{border-bottom:0}
+.lock-row .lc{font:500 12px/1 var(--ui); color:var(--ink-3)} .lock-row .ln{font:500 12px/1 var(--ui); color:var(--ink-3)}
+.lock-row .ld{display:flex; flex-wrap:wrap; gap:5px} .lock-row .dot{width:9px; height:9px; opacity:.75}
 .card.lock{border-style:dashed; background:transparent; align-items:center; justify-content:center; text-align:center; color:var(--ink-3)}
 .card.lock b{font-size:30px; color:var(--rule)}
 .card.lock::after{display:none}
@@ -1364,23 +1370,26 @@ async function tellMore(id){
 
 /* connections index */
 const REL = {
-  mentor:     {fwd:"Teacher of", back:"Student of", col:"--rel-learn"},
-  influenced: {fwd:"Influenced", back:"Influenced by", col:"--rel-learn"},
-  friends:    {fwd:"Friends", back:"Friends", col:"--rel-warm"},
-  partners:   {fwd:"Partners", back:"Partners", col:"--rel-warm"},
-  family:     {fwd:"Family", back:"Family", col:"--rel-warm"},
-  rivals:     {fwd:"Rivals", back:"Rivals", col:"--rel-rival"},
-  met:        {fwd:"Met", back:"Met", col:"--rel-met"},
-  letters:    {fwd:"Letters", back:"Letters", col:"--rel-met"},
-  worked:     {fwd:"Worked together", back:"Worked together", col:"--rel-met"}
+  mentor:     {fwd:"Teacher of", back:"Student of", pfwd:"taught", pback:"studied under", col:"--rel-learn"},
+  influenced: {fwd:"Influenced", back:"Influenced by", pfwd:"influenced", pback:"was influenced by", col:"--rel-learn"},
+  friends:    {fwd:"Friends", back:"Friends", pfwd:"friends with", pback:"friends with", col:"--rel-warm"},
+  partners:   {fwd:"Partners", back:"Partners", pfwd:"partner of", pback:"partner of", col:"--rel-warm"},
+  family:     {fwd:"Family", back:"Family", pfwd:"related to", pback:"related to", col:"--rel-warm"},
+  rivals:     {fwd:"Rivals", back:"Rivals", pfwd:"a rival of", pback:"a rival of", col:"--rel-rival"},
+  met:        {fwd:"Met", back:"Met", pfwd:"met", pback:"met", col:"--rel-met"},
+  letters:    {fwd:"Letters", back:"Letters", pfwd:"exchanged letters with", pback:"exchanged letters with", col:"--rel-met"},
+  worked:     {fwd:"Worked together", back:"Worked together", pfwd:"worked with", pback:"worked with", col:"--rel-met"}
 };
 const CONN = new Map();
 H.connections.forEach(([a, b, t, note]) => {
   if (!CONN.has(a)) CONN.set(a, []); if (!CONN.has(b)) CONN.set(b, []);
   const L = (H.connLab || {})[a + "|" + b] || ["verified", ""];
-  CONN.get(a).push({id:b, t, note, label: REL[t].fwd, lab:L[0], why:L[1]});
-  CONN.get(b).push({id:a, t, note, label: REL[t].back, lab:L[0], why:L[1]});
+  const ph = (H.connPhrase || {})[a + "|" + b] || [];
+  CONN.get(a).push({id:b, t, note, label: REL[t].fwd, lab:L[0], why:L[1], ph:ph[0], pv:REL[t].pfwd});
+  CONN.get(b).push({id:a, t, note, label: REL[t].back, lab:L[0], why:L[1], ph:ph[1], pv:REL[t].pback});
 });
+/* how a link reads as a phrase in Six Degrees: "His brother Theo", "Met Galileo" */
+const connPhrase = (c, o) => { const t = c.ph || c.pv + " " + short(o); return t.charAt(0).toUpperCase() + t.slice(1); };
 const connOf = id => CONN.get(id) || [];
 const connBetween = (a, b) => connOf(a).find(c => c.id === b);
 
@@ -2821,7 +2830,7 @@ function drawDegrees(){
     return;
   }
   const hop = (p, link) => `<div class="hop" style="${fc(p.f)}"><span class="pin"><i></i></span><div class="bd"><a class="who" href="#p-${p.id}">${esc(p.n)}</a><span class="muted yr" style="font-size:12px">${span(p)}</span>${link || ""}</div></div>`;
-  out.innerHTML = `<h3>${plural(path.length, "step")} from ${esc(short(a))} to ${esc(short(b))}</h3><div class="path">${path.map((s, i) => hop(P.get(s.from), `<div class="link"><span class="rel" style="--rc:var(${REL[s.c.t].col})">${esc(s.c.label)} ${esc(short(P.get(s.to)))}</span> ${labHTML(s.c.lab)}<br>${esc(s.c.note)}${whyHTML(s.c.why)}</div>`)).join("")}${hop(b)}</div>${gensHTML(a, b)}`;
+  out.innerHTML = `<h3>${plural(path.length, "step")} from ${esc(short(a))} to ${esc(short(b))}</h3><div class="path">${path.map((s, i) => hop(P.get(s.from), `<div class="link"><span class="rel ph" style="--rc:var(${REL[s.c.t].col})">${esc(connPhrase(s.c, P.get(s.to)))}</span> ${labHTML(s.c.lab)}<br>${esc(s.c.note)}${whyHTML(s.c.why)}</div>`)).join("")}${hop(b)}</div>${gensHTML(a, b)}`;
 }
 function longPair(){
   const ids = H.people.filter(p => connOf(p.id).length).map(p => p.id);
@@ -2869,10 +2878,13 @@ function raceTap(id, btn){
 function viewCards(){
   const ps = H.people.slice().sort((a, b) => astro(a.b) - astro(b.b));
   const rar = p => connOf(p.id).length >= 6 ? "Legendary" : connOf(p.id).length >= 3 ? "Rare" : "Common";
+  const cent = p => { if (p.b < 0) return "BC"; const n = Math.floor(astro(p.b) / 100) + 1, t = n % 100; return n + (t > 10 && t < 14 ? "th" : ["th","st","nd","rd"][n % 10] || "th"); };
   view.innerHTML = `<section><div class="sec-head"><h2>Collectible cards</h2><p>${cards.size} of ${ps.length} collected. Answer quiz questions right to collect the people in them.</p></div>
   ${cards.size ? "" : `<p class="notice">No cards yet. <a href="#play">Try the quiz</a> to start your collection.</p>`}
-  <div class="cards">${ps.map(p => cards.has(p.id) ? `<a class="card${rar(p) === "Legendary" ? " legend" : ""}" href="#p-${p.id}" style="${fc(p.f)}"><span class="yr">${span(p)}</span><b>${esc(p.n)}</b><span class="tag">${fieldDot(p.f)}${F[p.f].label}</span><span class="rar">${rar(p)} · ${plural(connOf(p.id).length, "link")}</span></a>`
-    : `<div class="card lock"><b>?</b><span class="yr">${p.b < 0 ? "BC" : Math.floor(astro(p.b) / 100) + 1 + "th c."}</span><span style="font-size:12px">${F[p.f].label}</span></div>`).join("")}</div></section>`;
+  ${cards.size ? `<div class="cards">${ps.filter(p => cards.has(p.id)).map(p => `<a class="card${rar(p) === "Legendary" ? " legend" : ""}" href="#p-${p.id}" style="${fc(p.f)}"><span class="yr">${span(p)}</span><b>${esc(p.n)}</b><span class="tag">${fieldDot(p.f)}${F[p.f].label}</span><span class="rar">${rar(p)} · ${plural(connOf(p.id).length, "link")}</span></a>`).join("")}</div>` : ""}
+  ${cards.size < ps.length ? `<h3 class="lock-head">Still to collect <span class="muted">${ps.length - cards.size}</span></h3>
+  <div class="cards-lock">${(() => { const g = new Map(); ps.filter(p => !cards.has(p.id)).forEach(p => { const k = cent(p); if (!g.has(k)) g.set(k, []); g.get(k).push(p); });
+    return [...g].map(([k, list]) => `<div class="lock-row"><span class="lc">${k === "BC" ? "BC" : k + " c."}</span><span class="ld">${list.map(p => `<i class="dot" style="${fc(p.f)}" title="${esc(F[p.f].label)}"></i>`).join("")}</span><span class="ln">${list.length}</span></div>`).join(""); })()}</div>` : `<p class="notice">You have every card in the museum.</p>`}</section>`;
 }
 
 /* ---------- Your place in history ---------- */
