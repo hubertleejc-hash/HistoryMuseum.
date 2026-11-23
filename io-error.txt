@@ -1,0 +1,3 @@
+Detected file type from extension: PNG
+Note: No display specified. Defaulting to display: B7B505BA-B466-44AD-96FB-CC6F5CCFCEA9 (screenID: 1, name: LCD)
+Wrote screenshot to: /Users/runner/work/HistoryMuseum./HistoryMuseum./ci-output/screenshots/iPad-12-era-renaissance-light.png
